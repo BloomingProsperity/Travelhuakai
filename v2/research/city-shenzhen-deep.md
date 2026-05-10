@@ -130,7 +130,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Official Shenzhen Government attraction listing gives 09:00-22:30. No regular weekly closing pattern found; show schedules vary by season.
 - Foreign-card acceptance status: Do not rely on foreign Visa/Mastercard at the gate. Use OTA checkout with a foreign card, Alipay/WeChat Pay, or cash/onsite ticket window backup.
 - English-language tour / signage status: Basic English attraction names and wayfinding are common; shows and announcements are mostly Chinese.
-- Official URL: https://www.sz.gov.cn/en_szgov/travel/sz_attractions/content/post_10572861.html
+- Official URL: https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Attractions/content/post_11857074.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:WINDOWS_OF_THE_WORLD_SHENZHEN_(63).jpg - CC BY-SA 4.0, verified reachable.
 
 ### 2. Splendid China Folk Culture Village - 锦绣中华民俗文化村
@@ -139,10 +139,10 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Why a foreign tourist visits: This is the better Shenzhen theme park for China-focused content: miniature landmarks, ethnic-minority village displays, performance programming, and a compressed introduction to Chinese geography/cultures. It is touristy, but it is more locally relevant than Window of the World.
 - Booking method: Use passport-friendly OTA booking or a hotel concierge; official Chinese booking routes may require mainland payment. Bring passport or passport copy.
 - Daily limit / peak crowd warning: No English daily cap found. Avoid major holidays if possible; performances drive crowd waves, especially late afternoon/evening.
-- Opening hours / closed-day pattern: Shenzhen Government listing gives 09:30-22:00. No regular weekly closure found; shows and some areas can change seasonally.
+- Opening hours / closed-day pattern: Shenzhen Government listing describes the park and its location; operating hours are normally published through the attraction's official WeChat/dated ticket channels and can change for evening programs. Common visitor guidance is to treat it as a daytime-to-evening attraction and verify show-day hours before booking.
 - Foreign-card acceptance status: Foreign-card gate acceptance is not reliably published; book via OTA with foreign card or use Alipay/WeChat/cash backup.
 - English-language tour / signage status: Some English signage exists, but interpretation is uneven; the site is more enjoyable with translation app or a guide.
-- Official URL: https://www.sz.gov.cn/en_szgov/travel/sz_attractions/content/post_10572860.html
+- Official URL: https://www.sz.gov.cn/en_szgov/travel/cultural/content/post_1352119.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:Night_at_Splendid_China_Folk_Village_01.JPG - public domain, verified reachable.
 
 ### 3. OCT-LOFT Creative Culture Park - 华侨城创意文化园
@@ -175,10 +175,10 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Why a foreign tourist visits: These are the easiest named beaches from central Shenzhen, now reachable much more comfortably by metro Line 8. Dameisha is the classic public beach; Xiaomeisha has been redeveloped and is more resort-like. They are best for "I want the coast and seafood without a full Dapeng day."
 - Booking method: Public beach access normally does not require passport. During peak periods, reservation or crowd-control rules can be imposed through local official systems; verify before holiday visits.
 - Daily limit / peak crowd warning: Very high crowd risk in hot weather, May Day, National Day, and Hong Kong holiday weekends. Avoid peak midday; arrive early or late afternoon.
-- Opening hours / closed-day pattern: Public beach/boardwalk hours are managed locally and can change for weather, typhoon, water quality, or crowd control. Treat lifeguarded swimming hours as seasonal.
+- Opening hours / closed-day pattern: Dameisha Beach Park official city-park listing gives 07:00-23:00, with clearing from 22:00. Xiaomeisha and swimming/lifeguard access can vary by season, weather, and redevelopment/event controls.
 - Foreign-card acceptance status: Nearby restaurants and small vendors are mostly Alipay/WeChat/cash. Do not rely on foreign cards outside larger hotels/malls.
 - English-language tour / signage status: Basic English place names on metro/road signs; beach rules and emergency notices may be Chinese-first.
-- Official URL: https://www.eyeshenzhen.com/content/2024-09/06/content_31202866.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:Dameisha_Beach_230530_(1).jpg - CC BY-SA 4.0, verified reachable.
 
 ### 6. Dapeng Fortress and Dapeng Peninsula - 大鹏所城 / 大鹏半岛
@@ -190,7 +190,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Fortress village public lanes are generally accessible by day; individual halls/heritage rooms set their own hours. Beaches and hiking routes are weather-controlled.
 - Foreign-card acceptance status: Outer-peninsula vendors are Alipay/WeChat/cash-first. Foreign cards are unlikely outside hotels/resorts.
 - English-language tour / signage status: Limited. Use a guide or translation app for historical detail.
-- Official URL: https://www.eyeshenzhen.com/content/2023-05/12/content_30191069.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Districts/DapengNewDistrict/content/mpost_11892734.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:Dapeng_Fortress,_Shenzhen.jpg - CC BY-SA 4.0, verified reachable.
 
 ### 7. Lianhuashan Park - 莲花山公园
@@ -202,7 +202,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: City parks are generally daily; use official park notices for temporary closures during weather or event controls.
 - Foreign-card acceptance status: Free attraction; nearby kiosks are Alipay/WeChat/cash-first.
 - English-language tour / signage status: Basic English wayfinding; historical/political context is mostly Chinese.
-- Official URL: https://www.eyeshenzhen.com/content/2023-09/18/content_30483772.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/news/infocus/park/index.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:LIANHUASHAN_PARK,_SHENZHEN_(34).jpg - CC BY-SA 4.0, verified reachable.
 
 ### 8. Shenzhen Bay Park - 深圳湾公园
@@ -214,7 +214,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Public park access is generally daily; weather/event closures can apply.
 - Foreign-card acceptance status: Free attraction; cafes/kiosks nearby are Alipay/WeChat/cash-first. Larger malls in Houhai/Coastal City are better for card acceptance but not guaranteed.
 - English-language tour / signage status: Basic English signs at metro/park nodes; birding/ecology text may be Chinese-first.
-- Official URL: https://www.eyeshenzhen.com/content/2023-09/18/content_30483772.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/news/infocus/park/index.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:Shenzhen_Bay_Park.jpg - CC BY-SA 4.0, verified reachable.
 
 ### 9. Shenzhen Bay Mangrove / Futian Mangrove conservation area - 深圳湾红树林 / 福田红树林
@@ -226,7 +226,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Public park sections are generally daily; reserve interiors follow conservation-management rules and may restrict access.
 - Foreign-card acceptance status: Free attraction; no payment needed unless joining an activity.
 - English-language tour / signage status: Limited English interpretation; use a nature guide or translation app for species/context.
-- Official URL: https://www.eyeshenzhen.com/content/2024-09/06/content_31202866.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/travel/natural/content/post_9984706.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:%E4%B8%80%E9%A2%97%E7%94%9F%E9%95%BF%E5%9C%A8%E6%B7%B1%E5%9C%B3%E6%B9%BE%E7%9A%84%E7%BA%A2%E6%A0%91.jpg - CC BY-SA 4.0, verified reachable.
 
 ### 10. Shenzhen Museum, History and Folk Culture division - 深圳博物馆历史民俗馆
@@ -250,7 +250,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: EyeShenzhen lists 10:30-17:30, closed Mondays.
 - Foreign-card acceptance status: Admission often free; paid exhibitions/shops may not reliably take foreign cards. Use Alipay/WeChat or OTA if applicable.
 - English-language tour / signage status: Art/exhibition names often have English, but detailed captions vary.
-- Official URL: https://www.eyeshenzhen.com/content/2023-04/27/content_30152051.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Attractions/content/post_12404821.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_Futian_Fuzhong_Road_MOCAPE_Museum_of_Contemporary_Art_%26_Planning_Exhibition_facade_Sept_2017_IX1_03.jpg - CC BY-SA 4.0, verified reachable.
 
 ### 12. Shenzhen Civic Center and CBD axis - 深圳市民中心
@@ -262,7 +262,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Outdoor public spaces are generally accessible daily; building interiors/events vary.
 - Foreign-card acceptance status: Free outdoor attraction; surrounding malls and hotels are better for card acceptance than street vendors but still mobile-payment-first.
 - English-language tour / signage status: Basic English metro/area signage; civic interpretation is mostly Chinese.
-- Official URL: https://www.eyeshenzhen.com/content/2024-09/06/content_31202866.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/travel/guide/content/post_12638462.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:CIVIC_CENTER,_SHENZHEN_(17).jpg - CC BY-SA 4.0, verified reachable.
 
 ### 13. Pingshan Art Museum and Dawan Hakka heritage add-on - 坪山美术馆 / 大万世居
@@ -274,7 +274,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Verify per exhibition before going; many art museums use Monday closure patterns.
 - Foreign-card acceptance status: Free/low-ticket institutions; assume mobile payment/cash rather than foreign-card POS.
 - English-language tour / signage status: Limited; strongest for visually oriented exhibitions rather than text-heavy history.
-- Official URL: https://www.eyeshenzhen.com/content/2025-02/17/content_31471837.htm
+- Official URL: https://www.eyeshenzhen.com/content/2025-11/14/content_31770842.htm
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E4%B8%87%E4%B8%96%E5%B1%85_1.jpg - public domain, verified reachable. Note: verified CC/PD image is Dawan Ancestral Residence in Pingshan; no reliable Commons image of Pingshan Art Museum itself was found.
 
 ### 14. OCT Harbour - 欢乐海岸
@@ -286,7 +286,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Outdoor/public areas open daily; shops/restaurants follow mall hours, typically late morning to late evening.
 - Foreign-card acceptance status: Better chance at chain restaurants and larger stores, but still not universal. Use Alipay/WeChat or cash backup.
 - English-language tour / signage status: Basic English wayfinding; restaurant staff English varies.
-- Official URL: https://www.eyeshenzhen.com/content/2024-09/06/content_31202866.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/aboutsz/whatson/content/post_1348898.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:OCT_HARBOUR,_SHENZHEN_(2).jpg - CC BY-SA 4.0, verified reachable.
 
 ### 15. Coastal City / Houhai commercial district - 海岸城 / 后海
@@ -298,7 +298,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: Mall hours normally late morning to late evening; restaurants vary.
 - Foreign-card acceptance status: Better than small street restaurants, but not universal. International chains and some higher-end stores may accept foreign cards; mobile payment remains safer.
 - English-language tour / signage status: Basic bilingual mall/metro signage; staff English varies but is better than in outer districts.
-- Official URL: https://www.eyeshenzhen.com/content/2024-09/06/content_31202866.htm
+- Official URL: https://www.sz.gov.cn/en_szgov/travel/malls/content/post_9604699.html
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E5%B2%B8%E5%9F%8E_Coastal_City,_Shenzhen_-_panoramio.jpg - CC BY-SA 3.0, verified reachable.
 
 ---
