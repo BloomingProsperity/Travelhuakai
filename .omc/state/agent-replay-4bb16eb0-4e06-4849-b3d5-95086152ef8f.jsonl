@@ -28,3 +28,7 @@
 {"t":0,"agent":"aac610e","agent_type":"document-specialist","event":"agent_stop","success":true,"duration_ms":1349557}
 {"t":0,"agent":"a942509","agent_type":"executor","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"a90af72","agent_type":"document-specialist","event":"agent_stop","success":true,"duration_ms":1392289}
+{"t":0,"agent":"a942509","agent_type":"executor","event":"agent_stop","success":true,"duration_ms":300484}
+{"t":0,"agent":"ae4a197","agent_type":"document-specialist","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a661a7f","agent_type":"document-specialist","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"ae4a197","agent_type":"document-specialist","event":"agent_stop","success":true,"duration_ms":1308641}

@@ -1,0 +1,415 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "首页" [ref=e9] [cursor=pointer]:
+            - /url: //www.bilibili.com
+            - img [ref=e10]
+            - generic [ref=e12]: 首页
+        - listitem [ref=e13]:
+          - link "番剧" [ref=e14] [cursor=pointer]:
+            - /url: //www.bilibili.com/anime/
+        - listitem [ref=e15]:
+          - link "直播" [ref=e16] [cursor=pointer]:
+            - /url: //live.bilibili.com
+        - listitem [ref=e17]:
+          - link "游戏中心" [ref=e18] [cursor=pointer]:
+            - /url: //game.bilibili.com/platform
+        - listitem [ref=e19]:
+          - link "会员购" [ref=e20] [cursor=pointer]:
+            - /url: //show.bilibili.com/platform/home.html?msource=pc_web
+        - listitem [ref=e21]:
+          - link "漫画" [ref=e22] [cursor=pointer]:
+            - /url: //manga.bilibili.com?from=bill_top_mnav
+        - listitem [ref=e23]:
+          - link "赛事" [ref=e24] [cursor=pointer]:
+            - /url: //www.bilibili.com/match/home/
+        - listitem [ref=e25]:
+          - link "下载客户端" [ref=e26] [cursor=pointer]:
+            - /url: //app.bilibili.com
+            - img [ref=e27]
+            - generic [ref=e30]: 下载客户端
+      - generic [ref=e34]:
+        - textbox "ALANBREAD火柴人" [ref=e36]
+        - img [ref=e38] [cursor=pointer]
+      - list [ref=e40]:
+        - listitem [ref=e41] [cursor=pointer]:
+          - listitem [ref=e42]:
+            - generic [ref=e44]: 登录
+            - generic [ref=e47]:
+              - paragraph [ref=e48]: 登录后你可以：
+              - generic [ref=e49]:
+                - generic [ref=e50]:
+                  - img [ref=e51]
+                  - generic [ref=e55]: 免费看高清视频
+                - generic [ref=e56]:
+                  - img [ref=e57]
+                  - generic [ref=e60]: 多端同步播放记录
+                - generic [ref=e61]:
+                  - img [ref=e62]
+                  - generic [ref=e68]: 发表弹幕/评论
+                - generic [ref=e69]:
+                  - img [ref=e70]
+                  - generic [ref=e73]: 热门番剧影视看不停
+              - generic [ref=e74]: 立即登录
+              - generic [ref=e75]: 首次使用？ 点我注册
+        - listitem [ref=e76] [cursor=pointer]:
+          - listitem [ref=e78]:
+            - link [ref=e79]:
+              - /url: //account.bilibili.com/big
+              - img [ref=e80]
+        - listitem [ref=e84] [cursor=pointer]:
+          - img [ref=e86]
+        - listitem [ref=e89] [cursor=pointer]:
+          - img [ref=e91]
+        - listitem [ref=e97] [cursor=pointer]:
+          - img [ref=e99]
+        - listitem [ref=e102] [cursor=pointer]:
+          - img [ref=e104]
+        - listitem [ref=e106] [cursor=pointer]:
+          - img [ref=e108]
+        - listitem [ref=e112] [cursor=pointer]:
+          - listitem [ref=e113]:
+            - img [ref=e116]
+    - link "B站 b站" [ref=e123] [cursor=pointer]:
+      - /url: //www.bilibili.com
+      - img "B站 b站" [ref=e124]
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - link "动态" [ref=e127] [cursor=pointer]:
+          - /url: //t.bilibili.com
+          - img [ref=e129]
+          - generic [ref=e134]: 动态
+        - link "热门" [ref=e135] [cursor=pointer]:
+          - /url: //www.bilibili.com/v/popular/all
+          - img [ref=e137]
+          - generic [ref=e139]: 热门
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - link "番剧" [ref=e142] [cursor=pointer]:
+            - /url: //www.bilibili.com/anime/
+          - link "电影" [ref=e143] [cursor=pointer]:
+            - /url: //www.bilibili.com/movie/
+          - link "国创" [ref=e144] [cursor=pointer]:
+            - /url: //www.bilibili.com/guochuang/
+          - link "电视剧" [ref=e145] [cursor=pointer]:
+            - /url: //www.bilibili.com/tv/
+          - link "综艺" [ref=e146] [cursor=pointer]:
+            - /url: //www.bilibili.com/variety/
+          - link "纪录片" [ref=e147] [cursor=pointer]:
+            - /url: //www.bilibili.com/documentary/
+          - link "动画" [ref=e148] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/douga/
+          - link "游戏" [ref=e149] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/game/
+          - link "鬼畜" [ref=e150] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/kichiku/
+          - link "音乐" [ref=e151] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/music/
+          - link "舞蹈" [ref=e152] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/dance/
+          - link "影视" [ref=e153] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/cinephile/
+          - link "娱乐" [ref=e154] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/ent/
+          - link "知识" [ref=e155] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/knowledge/
+          - link "科技数码" [ref=e156] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/tech/
+          - link "资讯" [ref=e157] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/information/
+          - link "美食" [ref=e158] [cursor=pointer]:
+            - /url: //www.bilibili.com/c/food/
+          - generic [ref=e159]:
+            - text: 更多
+            - img [ref=e160]
+        - generic [ref=e163]:
+          - link "专栏" [ref=e164] [cursor=pointer]:
+            - /url: //www.bilibili.com/read/home/
+            - generic [ref=e165]: 专栏
+          - link "直播" [ref=e166] [cursor=pointer]:
+            - /url: //live.bilibili.com
+            - generic [ref=e167]: 直播
+          - link "活动" [ref=e168] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/era/reward-activity-list-page.html#/list
+            - generic [ref=e169]: 活动
+          - link "课堂" [ref=e170] [cursor=pointer]:
+            - /url: //www.bilibili.com/cheese/?csource=common_hp_channelclass_icon
+            - generic [ref=e171]: 课堂
+          - link "社区中心" [ref=e172] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/activity-5zJxM3spoS.html
+            - generic [ref=e173]: 社区中心
+          - link "新歌热榜" [ref=e174] [cursor=pointer]:
+            - /url: //music.bilibili.com/pc/music-center/
+            - generic [ref=e175]: 新歌热榜
+  - main [ref=e176]:
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - img [ref=e179]
+        - generic [ref=e188]: 旅游出行
+      - generic [ref=e190]:
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - link "太癫了，云南人的精神状态领先五十年！" [ref=e196] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1xTdwBQEna?spm_id_from=333.40138.0.0
+              - img "太癫了，云南人的精神状态领先五十年！" [ref=e198]
+            - link "100个心愿目的地" [ref=e201] [cursor=pointer]:
+              - /url: //www.bilibili.com/blackboard/era/rKvPUvsqjrh9QDcD.html?spm_id_from=333.40138.0.0
+              - img "100个心愿目的地" [ref=e203]
+            - link "五一旅行家" [ref=e206] [cursor=pointer]:
+              - /url: //www.bilibili.com/blackboard/era/ru0Ubh7Hwd87GG49.html?spm_id_from=333.40138.0.0
+              - img "五一旅行家" [ref=e208]
+            - link "太癫了，云南人的精神状态领先五十年！" [ref=e211] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1xTdwBQEna?spm_id_from=333.40138.0.0
+              - img "太癫了，云南人的精神状态领先五十年！" [ref=e213]
+            - link "100个心愿目的地" [ref=e216] [cursor=pointer]:
+              - /url: //www.bilibili.com/blackboard/era/rKvPUvsqjrh9QDcD.html?spm_id_from=333.40138.0.0
+              - img "100个心愿目的地" [ref=e218]
+          - generic [ref=e221]:
+            - link "100个心愿目的地" [ref=e222] [cursor=pointer]:
+              - /url: //www.bilibili.com/blackboard/era/rKvPUvsqjrh9QDcD.html?spm_id_from=333.40138.0.0
+            - generic [ref=e223]:
+              - img [ref=e225] [cursor=pointer]
+              - img [ref=e228] [cursor=pointer]
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - link "号称最繁华的东京涩谷，正在慢慢失控？光鲜背后换来的是什么  784.7万  1.5万 15:25" [ref=e248] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV11QALzCEQ2?spm_id_from=333.40138.feed-card.all.click
+              - img "号称最繁华的东京涩谷，正在慢慢失控？光鲜背后换来的是什么" [ref=e250]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 784.7万
+                - generic:
+                  - generic: 
+                  - generic: 1.5万
+                - generic:
+                  - generic: 15:25
+            - generic [ref=e251] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e252]:
+            - generic "号称最繁华的东京涩谷，正在慢慢失控？光鲜背后换来的是什么" [ref=e253]:
+              - link "号称最繁华的东京涩谷，正在慢慢失控？光鲜背后换来的是什么" [ref=e254] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV11QALzCEQ2?spm_id_from=333.40138.feed-card.all.click
+            - link " 冷水煮乐器 · 03-20" [ref=e256] [cursor=pointer]:
+              - /url: https://space.bilibili.com/2948981?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e258]: 
+              - generic "冷水煮乐器 · 03-20" [ref=e260]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - link "世界最大猫之国！千万不要随便坐下！  613.9万  3967 09:38" [ref=e265] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1TKQ3BzEUD?spm_id_from=333.40138.feed-card.all.click
+              - img "世界最大猫之国！千万不要随便坐下！" [ref=e267]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 613.9万
+                - generic:
+                  - generic: 
+                  - generic: "3967"
+                - generic:
+                  - generic: 09:38
+            - generic [ref=e268] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e269]:
+            - generic "世界最大猫之国！千万不要随便坐下！" [ref=e270]:
+              - link "世界最大猫之国！千万不要随便坐下！" [ref=e271] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1TKQ3BzEUD?spm_id_from=333.40138.feed-card.all.click
+            - link " 十三要和拳头 · 04-15" [ref=e273] [cursor=pointer]:
+              - /url: https://space.bilibili.com/389400079?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e275]: 
+              - generic "十三要和拳头 · 04-15" [ref=e277]
+        - generic [ref=e280]:
+          - generic [ref=e281]:
+            - link "人民公交为人民！  276.0万  4936 01:10" [ref=e282] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1ruQEBSEag?spm_id_from=333.40138.feed-card.all.click
+              - img "人民公交为人民！" [ref=e284]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 276.0万
+                - generic:
+                  - generic: 
+                  - generic: "4936"
+                - generic:
+                  - generic: 01:10
+            - generic [ref=e285] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e286]:
+            - generic "人民公交为人民！" [ref=e287]:
+              - link "人民公交为人民！" [ref=e288] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1ruQEBSEag?spm_id_from=333.40138.feed-card.all.click
+            - link " 小郁猫meme · 04-15" [ref=e290] [cursor=pointer]:
+              - /url: https://space.bilibili.com/3493118814980202?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e292]: 
+              - generic "小郁猫meme · 04-15" [ref=e294]
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - link "新西兰夯爆了！  153.7万  8686 19:28" [ref=e299] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1j6oNBSE9V?spm_id_from=333.40138.feed-card.all.click
+              - img "新西兰夯爆了！" [ref=e301]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 153.7万
+                - generic:
+                  - generic: 
+                  - generic: "8686"
+                - generic:
+                  - generic: 19:28
+            - generic [ref=e302] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e303]:
+            - generic "新西兰夯爆了！" [ref=e304]:
+              - link "新西兰夯爆了！" [ref=e305] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1j6oNBSE9V?spm_id_from=333.40138.feed-card.all.click
+            - link " 蓝战非OvO · 04-20" [ref=e307] [cursor=pointer]:
+              - /url: https://space.bilibili.com/10804055?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e309]: 
+              - generic "蓝战非OvO · 04-20" [ref=e311]
+        - generic [ref=e314]:
+          - generic [ref=e315]:
+            - link "一晚¥2000+网红酒店脏到过敏？“小马代”泳池洗烟灰缸、漂苍蝇？  168.2万  2023 13:51" [ref=e316] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1jB9XB1Ekk?spm_id_from=333.40138.feed-card.all.click
+              - img "一晚¥2000+网红酒店脏到过敏？“小马代”泳池洗烟灰缸、漂苍蝇？" [ref=e318]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 168.2万
+                - generic:
+                  - generic: 
+                  - generic: "2023"
+                - generic:
+                  - generic: 13:51
+            - generic [ref=e319] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e320]:
+            - generic "一晚¥2000+网红酒店脏到过敏？“小马代”泳池洗烟灰缸、漂苍蝇？" [ref=e321]:
+              - link "一晚¥2000+网红酒店脏到过敏？“小马代”泳池洗烟灰缸、漂苍蝇？" [ref=e322] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1jB9XB1Ekk?spm_id_from=333.40138.feed-card.all.click
+            - link " 滤镜粉碎机 · 05-05" [ref=e324] [cursor=pointer]:
+              - /url: https://space.bilibili.com/1567446009?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e326]: 
+              - generic "滤镜粉碎机 · 05-05" [ref=e328]
+        - generic [ref=e331]:
+          - generic [ref=e332]:
+            - link "千万别淡季来普者黑！！！  18.4万  1804 23:46" [ref=e333] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV16SduBKEdZ?spm_id_from=333.40138.feed-card.all.click
+              - img "千万别淡季来普者黑！！！" [ref=e335]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 18.4万
+                - generic:
+                  - generic: 
+                  - generic: "1804"
+                - generic:
+                  - generic: 23:46
+            - generic [ref=e336] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e337]:
+            - generic "千万别淡季来普者黑！！！" [ref=e338]:
+              - link "千万别淡季来普者黑！！！" [ref=e339] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV16SduBKEdZ?spm_id_from=333.40138.feed-card.all.click
+            - link " 王师傅和小毛毛 · 昨天" [ref=e341] [cursor=pointer]:
+              - /url: https://space.bilibili.com/452606628?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e343]: 
+              - generic "王师傅和小毛毛 · 昨天" [ref=e345]
+        - generic [ref=e348]:
+          - generic [ref=e349]:
+            - link "欧洲旅行的性价比之最，为什么我首推葡萄牙里斯本？  25.7万  961 19:28" [ref=e350] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1t9R3B7EYu?spm_id_from=333.40138.feed-card.all.click
+              - img "欧洲旅行的性价比之最，为什么我首推葡萄牙里斯本？" [ref=e352]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 25.7万
+                - generic:
+                  - generic: 
+                  - generic: "961"
+                - generic:
+                  - generic: 19:28
+            - generic [ref=e353] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e354]:
+            - generic "欧洲旅行的性价比之最，为什么我首推葡萄牙里斯本？" [ref=e355]:
+              - link "欧洲旅行的性价比之最，为什么我首推葡萄牙里斯本？" [ref=e356] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1t9R3B7EYu?spm_id_from=333.40138.feed-card.all.click
+            - link " 世茹很如意 · 05-04" [ref=e358] [cursor=pointer]:
+              - /url: https://space.bilibili.com/3546653394995267?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e360]: 
+              - generic "世茹很如意 · 05-04" [ref=e362]
+        - generic [ref=e365]:
+          - generic [ref=e366]:
+            - link "穿越美洲花了多少钱？视频赚了多少钱？战车优缺点以及问题汇总  4677  85 28:38" [ref=e367] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1wsR1BKESb?spm_id_from=333.40138.feed-card.all.click
+              - img "穿越美洲花了多少钱？视频赚了多少钱？战车优缺点以及问题汇总" [ref=e369]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: "4677"
+                - generic:
+                  - generic: 
+                  - generic: "85"
+                - generic:
+                  - generic: 28:38
+            - generic [ref=e370] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e371]:
+            - generic "穿越美洲花了多少钱？视频赚了多少钱？战车优缺点以及问题汇总" [ref=e372]:
+              - link "穿越美洲花了多少钱？视频赚了多少钱？战车优缺点以及问题汇总" [ref=e373] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1wsR1BKESb?spm_id_from=333.40138.feed-card.all.click
+            - link " 大橙子闯地球 · 5小时前" [ref=e375] [cursor=pointer]:
+              - /url: https://space.bilibili.com/1708965?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e377]: 
+              - generic "大橙子闯地球 · 5小时前" [ref=e379]
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - link "完犊子了！寻梅这次闯大祸了第一次对它发大脾气，好好的车子被它咬得面目全非，本想饿它几顿看它委屈的像个孩子最后还是于心不忍，抵达于田县晚上在露营地做羊排大餐吃真香  37.9万  2566 15:47" [ref=e384] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1z59hBQEYw?spm_id_from=333.40138.feed-card.all.click
+              - img "完犊子了！寻梅这次闯大祸了第一次对它发大脾气，好好的车子被它咬得面目全非，本想饿它几顿看它委屈的像个孩子最后还是于心不忍，抵达于田县晚上在露营地做羊排大餐吃真香" [ref=e386]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 37.9万
+                - generic:
+                  - generic: 
+                  - generic: "2566"
+                - generic:
+                  - generic: 15:47
+            - generic [ref=e387] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e388]:
+            - generic "完犊子了！寻梅这次闯大祸了第一次对它发大脾气，好好的车子被它咬得面目全非，本想饿它几顿看它委屈的像个孩子最后还是于心不忍，抵达于田县晚上在露营地做羊排大餐吃真香" [ref=e389]:
+              - link "完犊子了！寻梅这次闯大祸了第一次对它发大脾气，好好的车子被它咬得面目全非，本想饿它几顿看它委屈的像个孩子最后还是于心不忍，抵达于田县晚上在露营地做羊排大餐吃真香" [ref=e390] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1z59hBQEYw?spm_id_from=333.40138.feed-card.all.click
+            - link " 阿程的小房车之旅 · 04-30" [ref=e392] [cursor=pointer]:
+              - /url: https://space.bilibili.com/3546387130092158?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e394]: 
+              - generic "阿程的小房车之旅 · 04-30" [ref=e396]
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - link "“五一假期已经到账，请选择你的景区~”  53.0万  75 03:15" [ref=e401] [cursor=pointer]:
+              - /url: https://www.bilibili.com/video/BV1SC9UBdEfz?spm_id_from=333.40138.feed-card.all.click
+              - img "“五一假期已经到账，请选择你的景区~”" [ref=e403]
+              - generic:
+                - generic:
+                  - generic: 
+                  - generic: 53.0万
+                - generic:
+                  - generic: 
+                  - generic: "75"
+                - generic:
+                  - generic: 03:15
+            - generic [ref=e404] [cursor=pointer]:
+              - generic: 
+          - generic [ref=e405]:
+            - generic "“五一假期已经到账，请选择你的景区~”" [ref=e406]:
+              - link "“五一假期已经到账，请选择你的景区~”" [ref=e407] [cursor=pointer]:
+                - /url: https://www.bilibili.com/video/BV1SC9UBdEfz?spm_id_from=333.40138.feed-card.all.click
+            - link " 唯美风景线 · 04-30" [ref=e409] [cursor=pointer]:
+              - /url: https://space.bilibili.com/1654042101?spm_id_from=333.40138.feed-card.all.click
+              - generic [ref=e411]: 
+              - generic "唯美风景线 · 04-30" [ref=e413]
+        - text:                    

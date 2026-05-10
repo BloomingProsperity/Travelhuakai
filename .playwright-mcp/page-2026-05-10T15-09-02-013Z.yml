@@ -1,0 +1,878 @@
+- generic [active] [ref=e1]:
+  - list [ref=e5]:
+    - listitem [ref=e6]:
+      - link "首页" [ref=e7] [cursor=pointer]:
+        - /url: //www.bilibili.com
+        - img [ref=e8]
+        - generic [ref=e10]:
+          - generic [ref=e11]: 首页
+          - img [ref=e12]
+    - listitem [ref=e15]:
+      - link "番剧" [ref=e16] [cursor=pointer]:
+        - /url: //www.bilibili.com/anime/
+    - listitem [ref=e17]:
+      - link "直播" [ref=e18] [cursor=pointer]:
+        - /url: //live.bilibili.com
+    - listitem [ref=e19]:
+      - link "游戏中心" [ref=e20] [cursor=pointer]:
+        - /url: //game.bilibili.com/platform
+    - listitem [ref=e21]:
+      - link "会员购" [ref=e22] [cursor=pointer]:
+        - /url: //show.bilibili.com/platform/home.html?msource=pc_web
+    - listitem [ref=e23]:
+      - link "漫画" [ref=e24] [cursor=pointer]:
+        - /url: //manga.bilibili.com?from=bill_top_mnav
+    - listitem [ref=e25]:
+      - link "赛事" [ref=e26] [cursor=pointer]:
+        - /url: //www.bilibili.com/match/home/
+    - listitem
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e34]:
+        - img [ref=e35]
+        - img [ref=e38] [cursor=pointer]
+        - textbox "输入关键字搜索" [ref=e40]: 外国人 中国旅游
+        - button "搜索" [ref=e41] [cursor=pointer]
+      - navigation [ref=e44]:
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - generic [ref=e48] [cursor=pointer]: 综合
+          - listitem [ref=e49]:
+            - generic [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 视频
+              - generic [ref=e52]: 99+
+          - listitem [ref=e53]:
+            - generic [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: 番剧
+              - generic [ref=e56]: "0"
+          - listitem [ref=e57]:
+            - generic [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]: 影视
+              - generic [ref=e60]: "0"
+          - listitem [ref=e61]:
+            - generic [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 直播
+              - generic [ref=e64]: "0"
+          - listitem [ref=e65]:
+            - generic [ref=e66] [cursor=pointer]:
+              - generic [ref=e67]: 专栏
+              - generic [ref=e68]: 99+
+          - listitem [ref=e69]:
+            - generic [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: 用户
+              - generic [ref=e72]: "0"
+      - separator [ref=e74]
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - button "综合排序" [ref=e79] [cursor=pointer]
+            - button "最多播放" [ref=e80] [cursor=pointer]
+            - button "最新发布" [ref=e81] [cursor=pointer]
+            - button "最多弹幕" [ref=e82] [cursor=pointer]
+            - button "最多收藏" [ref=e83] [cursor=pointer]
+          - button "更多筛选" [ref=e84] [cursor=pointer]:
+            - text: 更多筛选
+            - img [ref=e85]
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - button "全部日期" [ref=e89] [cursor=pointer]
+            - button "最近一天" [ref=e90] [cursor=pointer]
+            - button "最近一周" [ref=e91] [cursor=pointer]
+            - button "最近半年" [ref=e92] [cursor=pointer]
+            - generic [ref=e97]:
+              - generic [ref=e98] [cursor=pointer]: 开始日期
+              - generic [ref=e99]: 至
+              - generic [ref=e100] [cursor=pointer]: 结束日期
+          - generic [ref=e101]:
+            - button "全部时长" [ref=e102] [cursor=pointer]
+            - button "10分钟以下" [ref=e103] [cursor=pointer]
+            - button "10-30分钟" [ref=e104] [cursor=pointer]
+            - button "30-60分钟" [ref=e105] [cursor=pointer]
+            - button "60分钟以上" [ref=e106] [cursor=pointer]
+          - generic [ref=e108]: 分区筛选维护升级中，敬请期待
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e115]:
+          - link "英国博主游上海，一天哭8回！有外国网友问：这是中国吗？ 339.7万 5805 06:58" [ref=e116] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1VCAuejEKF/
+            - generic [ref=e117]:
+              - img "英国博主游上海，一天哭8回！有外国网友问：这是中国吗？" [ref=e120]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 339.7万
+                    - generic:
+                      - img
+                      - generic: "5805"
+                  - generic: 06:58
+          - generic [ref=e122]:
+            - link "英国博主游上海，一天哭8回！有外国网友问：这是中国吗？" [ref=e123] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1VCAuejEKF/
+              - heading "英国博主游上海，一天哭8回！有外国网友问：这是中国吗？" [level=3] [ref=e124]:
+                - text: 英国博主游上海，一天哭8回！有
+                - emphasis [ref=e125]: 外国
+                - text: 网友问：这是
+                - emphasis [ref=e126]: 中国
+                - text: 吗？
+            - link "镜哥的世界 · 2025-02-16" [ref=e128] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e129]
+              - generic [ref=e133]: 镜哥的世界
+              - generic [ref=e134]: · 2025-02-16
+        - generic [ref=e137]:
+          - link "英国小哥爬华山，吓到自闭，外国网友跟着被吓到腿发软 293.2万 3414 05:49" [ref=e138] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1PMPreWENP/
+            - generic [ref=e139]:
+              - img "英国小哥爬华山，吓到自闭，外国网友跟着被吓到腿发软" [ref=e142]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 293.2万
+                    - generic:
+                      - img
+                      - generic: "3414"
+                  - generic: 05:49
+          - generic [ref=e144]:
+            - link "英国小哥爬华山，吓到自闭，外国网友跟着被吓到腿发软" [ref=e145] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1PMPreWENP/
+              - heading "英国小哥爬华山，吓到自闭，外国网友跟着被吓到腿发软" [level=3] [ref=e146]:
+                - text: 英国小哥爬华山，吓到自闭，
+                - emphasis [ref=e147]: 外国
+                - text: 网友跟着被吓到腿发软
+            - link "镜哥的世界 · 2025-02-05" [ref=e149] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e150]
+              - generic [ref=e154]: 镜哥的世界
+              - generic [ref=e155]: · 2025-02-05
+        - generic [ref=e158]:
+          - link "英国博主在中国搭顺风车，卡车司机送水请吃饭，外国网友秒破防 283.6万 390 06:38" [ref=e159] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV155EszREz2/
+            - generic [ref=e160]:
+              - img "英国博主在中国搭顺风车，卡车司机送水请吃饭，外国网友秒破防" [ref=e163]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 283.6万
+                    - generic:
+                      - img
+                      - generic: "390"
+                  - generic: 06:38
+          - generic [ref=e165]:
+            - link "英国博主在中国搭顺风车，卡车司机送水请吃饭，外国网友秒破防" [ref=e166] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV155EszREz2/
+              - heading "英国博主在中国搭顺风车，卡车司机送水请吃饭，外国网友秒破防" [level=3] [ref=e167]:
+                - text: 英国博主在
+                - emphasis [ref=e168]: 中国
+                - text: 搭顺风车，卡车司机送水请吃饭，
+                - emphasis [ref=e169]: 外国
+                - text: 网友秒破防
+            - link "镜哥的世界 · 2025-05-16" [ref=e171] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e172]
+              - generic [ref=e176]: 镜哥的世界
+              - generic [ref=e177]: · 2025-05-16
+        - generic [ref=e180]:
+          - link "意大利博主骑行湖南，遇老板娘睡觉而自助买水，惊呆外国网友 279.9万 2351 06:53" [ref=e181] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1VXgxzuEHw/
+            - generic [ref=e182]:
+              - img "意大利博主骑行湖南，遇老板娘睡觉而自助买水，惊呆外国网友" [ref=e185]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 279.9万
+                    - generic:
+                      - img
+                      - generic: "2351"
+                  - generic: 06:53
+          - generic [ref=e187]:
+            - link "意大利博主骑行湖南，遇老板娘睡觉而自助买水，惊呆外国网友" [ref=e188] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1VXgxzuEHw/
+              - heading "意大利博主骑行湖南，遇老板娘睡觉而自助买水，惊呆外国网友" [level=3] [ref=e189]:
+                - text: 意大利博主骑行湖南，遇老板娘睡觉而自助买水，惊呆
+                - emphasis [ref=e190]: 外国
+                - text: 网友
+            - link "镜哥的世界 · 2025-07-20" [ref=e192] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e193]
+              - generic [ref=e197]: 镜哥的世界
+              - generic [ref=e198]: · 2025-07-20
+        - generic [ref=e201]:
+          - link "英国博主的地狱和天堂旅行：从吃进医院被绑架，到天堂中国 275.1万 5368 06:14" [ref=e202] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1YrAXeiE67/
+            - generic [ref=e203]:
+              - img "英国博主的地狱和天堂旅行：从吃进医院被绑架，到天堂中国" [ref=e206]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 275.1万
+                    - generic:
+                      - img
+                      - generic: "5368"
+                  - generic: 06:14
+          - generic [ref=e208]:
+            - link "英国博主的地狱和天堂旅行：从吃进医院被绑架，到天堂中国" [ref=e209] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1YrAXeiE67/
+              - heading "英国博主的地狱和天堂旅行：从吃进医院被绑架，到天堂中国" [level=3] [ref=e210]:
+                - text: 英国博主的地狱和天堂旅行：从吃进医院被绑架，到天堂
+                - emphasis [ref=e211]: 中国
+            - link "镜哥的世界 · 2025-02-24" [ref=e213] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e214]
+              - generic [ref=e218]: 镜哥的世界
+              - generic [ref=e219]: · 2025-02-24
+        - generic [ref=e222]:
+          - link "甲亢哥成都行，全程被成都和中国文化震惊，保镖狂吃火锅 240.5万 2489 07:10" [ref=e223] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV12tZtY6EUS/
+            - generic [ref=e224]:
+              - img "甲亢哥成都行，全程被成都和中国文化震惊，保镖狂吃火锅" [ref=e227]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 240.5万
+                    - generic:
+                      - img
+                      - generic: "2489"
+                  - generic: 07:10
+          - generic [ref=e229]:
+            - link "甲亢哥成都行，全程被成都和中国文化震惊，保镖狂吃火锅" [ref=e230] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV12tZtY6EUS/
+              - heading "甲亢哥成都行，全程被成都和中国文化震惊，保镖狂吃火锅" [level=3] [ref=e231]:
+                - text: 甲亢哥成都行，全程被成都和
+                - emphasis [ref=e232]: 中国
+                - text: 文化震惊，保镖狂吃火锅
+            - link "镜哥的世界 · 2025-04-01" [ref=e234] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e235]
+              - generic [ref=e239]: 镜哥的世界
+              - generic [ref=e240]: · 2025-04-01
+        - generic [ref=e243]:
+          - link "给国外人看看中国深圳夜晚的画风(我是原作者)#外国人看中国 186.6万 905 01:08" [ref=e244] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1Tou4zaErn/
+            - generic [ref=e245]:
+              - img "给国外人看看中国深圳夜晚的画风(我是原作者)#外国人看中国" [ref=e248]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 186.6万
+                    - generic:
+                      - img
+                      - generic: "905"
+                  - generic: 01:08
+          - generic [ref=e250]:
+            - link "给国外人看看中国深圳夜晚的画风(我是原作者)#外国人看中国" [ref=e251] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1Tou4zaErn/
+              - heading "给国外人看看中国深圳夜晚的画风(我是原作者)#外国人看中国" [level=3] [ref=e252]:
+                - text: 给国外人看看
+                - emphasis [ref=e253]: 中国
+                - text: 深圳夜晚的画风(我是原作者)#
+                - emphasis [ref=e254]: 外国人
+                - text: 看
+                - emphasis [ref=e255]: 中国
+            - link "韩AMSEIS · 2025-07-16" [ref=e257] [cursor=pointer]:
+              - /url: //space.bilibili.com/4967136
+              - img [ref=e258]
+              - generic [ref=e262]: 韩AMSEIS
+              - generic [ref=e263]: · 2025-07-16
+        - generic [ref=e266]:
+          - link "英国老爷子凌晨在中国走夜路连续遇到危险，外国网友集体破防 181.8万 1997 05:49" [ref=e267] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1nigZzgEYk/
+            - generic [ref=e268]:
+              - img "英国老爷子凌晨在中国走夜路连续遇到危险，外国网友集体破防" [ref=e271]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 181.8万
+                    - generic:
+                      - img
+                      - generic: "1997"
+                  - generic: 05:49
+          - generic [ref=e273]:
+            - link "英国老爷子凌晨在中国走夜路连续遇到危险，外国网友集体破防" [ref=e274] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1nigZzgEYk/
+              - heading "英国老爷子凌晨在中国走夜路连续遇到危险，外国网友集体破防" [level=3] [ref=e275]:
+                - text: 英国老爷子凌晨在
+                - emphasis [ref=e276]: 中国
+                - text: 走夜路连续遇到危险，
+                - emphasis [ref=e277]: 外国
+                - text: 网友集体破防
+            - link "镜哥的世界 · 2025-06-29" [ref=e279] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e280]
+              - generic [ref=e284]: 镜哥的世界
+              - generic [ref=e285]: · 2025-06-29
+        - generic [ref=e288]:
+          - link "外媒曝出中国早对日本军事基地进行了攻击演练，日本挨组合拳 178.0万 924 04:42" [ref=e289] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1BTU5BREBC/
+            - generic [ref=e290]:
+              - img "外媒曝出中国早对日本军事基地进行了攻击演练，日本挨组合拳" [ref=e293]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 178.0万
+                    - generic:
+                      - img
+                      - generic: "924"
+                  - generic: 04:42
+          - generic [ref=e295]:
+            - link "外媒曝出中国早对日本军事基地进行了攻击演练，日本挨组合拳" [ref=e296] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1BTU5BREBC/
+              - heading "外媒曝出中国早对日本军事基地进行了攻击演练，日本挨组合拳" [level=3] [ref=e297]:
+                - text: 外媒曝出
+                - emphasis [ref=e298]: 中国
+                - text: 早对日本军事基地进行了攻击演练，日本挨组合拳
+            - link "镜哥的世界 · 2025-11-21" [ref=e300] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e301]
+              - generic [ref=e305]: 镜哥的世界
+              - generic [ref=e306]: · 2025-11-21
+        - generic [ref=e309]:
+          - link "原来在中国，麦当劳都可以算是“人民的麦当劳”？！ 176.7万 1072 01:12" [ref=e310] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1A6w3eAEcc/
+            - generic [ref=e311]:
+              - img "原来在中国，麦当劳都可以算是“人民的麦当劳”？！" [ref=e314]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 176.7万
+                    - generic:
+                      - img
+                      - generic: "1072"
+                  - generic: 01:12
+          - generic [ref=e316]:
+            - link "原来在中国，麦当劳都可以算是“人民的麦当劳”？！" [ref=e317] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1A6w3eAEcc/
+              - heading "原来在中国，麦当劳都可以算是“人民的麦当劳”？！" [level=3] [ref=e318]:
+                - text: 原来在
+                - emphasis [ref=e319]: 中国
+                - text: ，麦当劳都可以算是“人民的麦当劳”？！
+            - link "DanteMunoz大儒 · 2025-01-17" [ref=e321] [cursor=pointer]:
+              - /url: //space.bilibili.com/3546614083880992
+              - img [ref=e322]
+              - generic [ref=e326]: DanteMunoz大儒
+              - generic [ref=e327]: · 2025-01-17
+        - generic [ref=e330]:
+          - link "白菜再来中国 被海关单独盘问“你来中国什么目的”直接慌了 144.6万 1455 02:26" [ref=e331] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1jS7EzCEwy/
+            - generic [ref=e332]:
+              - img "白菜再来中国 被海关单独盘问“你来中国什么目的”直接慌了" [ref=e335]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 144.6万
+                    - generic:
+                      - img
+                      - generic: "1455"
+                  - generic: 02:26
+          - generic [ref=e337]:
+            - link "白菜再来中国 被海关单独盘问“你来中国什么目的”直接慌了" [ref=e338] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1jS7EzCEwy/
+              - heading "白菜再来中国 被海关单独盘问“你来中国什么目的”直接慌了" [level=3] [ref=e339]:
+                - text: 白菜再来
+                - emphasis [ref=e340]: 中国
+                - text: 被海关单独盘问“你来
+                - emphasis [ref=e341]: 中国
+                - text: 什么目的”直接慌了
+            - link "绯吧official · 2025-05-30" [ref=e343] [cursor=pointer]:
+              - /url: //space.bilibili.com/657516
+              - img [ref=e344]
+              - generic [ref=e348]: 绯吧official
+              - generic [ref=e349]: · 2025-05-30
+        - generic [ref=e352]:
+          - 'link "#重庆小面 #重庆旅游 #外国人在中国 #重庆 #老外 140.8万 884 01:26" [ref=e353] [cursor=pointer]':
+            - /url: //www.bilibili.com/video/BV1p3d2Y7EmK/
+            - generic [ref=e354]:
+              - 'img "#重庆小面 #重庆旅游 #外国人在中国 #重庆 #老外" [ref=e357]'
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 140.8万
+                    - generic:
+                      - img
+                      - generic: "884"
+                  - generic: 01:26
+          - generic [ref=e359]:
+            - 'link "#重庆小面 #重庆旅游 #外国人在中国 #重庆 #老外" [ref=e360] [cursor=pointer]':
+              - /url: //www.bilibili.com/video/BV1p3d2Y7EmK/
+              - 'heading "#重庆小面 #重庆旅游 #外国人在中国 #重庆 #老外" [level=3] [ref=e361]':
+                - text: "#重庆小面 #重庆"
+                - emphasis [ref=e362]: 旅游
+                - text: "#"
+                - emphasis [ref=e363]: 外国人
+                - text: 在
+                - emphasis [ref=e364]: 中国
+                - text: "#重庆 #老外"
+            - link "瑞哥英语_RyanChen · 2025-04-11" [ref=e366] [cursor=pointer]:
+              - /url: //space.bilibili.com/27537867
+              - img [ref=e367]
+              - generic [ref=e371]: 瑞哥英语_RyanChen
+              - generic [ref=e372]: · 2025-04-11
+        - generic [ref=e375]:
+          - link "美国千万粉丝博主发视频：中国摧毁了美国快餐！中美网友破防 134.4万 2900 05:39" [ref=e376] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1XGEazuEts/
+            - generic [ref=e377]:
+              - img "美国千万粉丝博主发视频：中国摧毁了美国快餐！中美网友破防" [ref=e380]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 134.4万
+                    - generic:
+                      - img
+                      - generic: "2900"
+                  - generic: 05:39
+          - generic [ref=e382]:
+            - link "美国千万粉丝博主发视频：中国摧毁了美国快餐！中美网友破防" [ref=e383] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1XGEazuEts/
+              - heading "美国千万粉丝博主发视频：中国摧毁了美国快餐！中美网友破防" [level=3] [ref=e384]:
+                - text: 美国千万粉丝博主发视频：
+                - emphasis [ref=e385]: 中国
+                - text: 摧毁了美国快餐！中美网友破防
+            - link "镜哥的世界 · 2025-05-17" [ref=e387] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e388]
+              - generic [ref=e392]: 镜哥的世界
+              - generic [ref=e393]: · 2025-05-17
+        - generic [ref=e396]:
+          - link "在中国的一个月，我有哪些是接受不了的？ 119.7万 5237 06:57" [ref=e397] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1w1oxYtE3d/
+            - generic [ref=e398]:
+              - img "在中国的一个月，我有哪些是接受不了的？" [ref=e401]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 119.7万
+                    - generic:
+                      - img
+                      - generic: "5237"
+                  - generic: 06:57
+          - generic [ref=e403]:
+            - link "在中国的一个月，我有哪些是接受不了的？" [ref=e404] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1w1oxYtE3d/
+              - heading "在中国的一个月，我有哪些是接受不了的？" [level=3] [ref=e405]:
+                - text: 在
+                - emphasis [ref=e406]: 中国
+                - text: 的一个月，我有哪些是接受不了的？
+            - link "DanteMunoz大儒 · 2025-03-25" [ref=e408] [cursor=pointer]:
+              - /url: //space.bilibili.com/3546614083880992
+              - img [ref=e409]
+              - generic [ref=e413]: DanteMunoz大儒
+              - generic [ref=e414]: · 2025-03-25
+        - generic [ref=e417]:
+          - 'link "姐姐离开中国的最后一天: 去爬长城!! 108.5万 556 05:47" [ref=e418] [cursor=pointer]':
+            - /url: //www.bilibili.com/video/BV1kCJgzaEEg/
+            - generic [ref=e419]:
+              - 'img "姐姐离开中国的最后一天: 去爬长城!!" [ref=e422]'
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 108.5万
+                    - generic:
+                      - img
+                      - generic: "556"
+                  - generic: 05:47
+          - generic [ref=e424]:
+            - 'link "姐姐离开中国的最后一天: 去爬长城!!" [ref=e425] [cursor=pointer]':
+              - /url: //www.bilibili.com/video/BV1kCJgzaEEg/
+              - 'heading "姐姐离开中国的最后一天: 去爬长城!!" [level=3] [ref=e426]':
+                - text: 姐姐离开
+                - emphasis [ref=e427]: 中国
+                - text: "的最后一天: 去爬长城!!"
+            - link "李格Greg · 2025-05-18" [ref=e429] [cursor=pointer]:
+              - /url: //space.bilibili.com/434157581
+              - img [ref=e430]
+              - generic [ref=e434]: 李格Greg
+              - generic [ref=e435]: · 2025-05-18
+        - generic [ref=e438]:
+          - link "黑人博主带着“敌意”来中国，把自己和中国人全整懵圈 107.1万 541 07:16" [ref=e439] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1vUPheLENY/
+            - generic [ref=e440]:
+              - img "黑人博主带着“敌意”来中国，把自己和中国人全整懵圈" [ref=e443]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 107.1万
+                    - generic:
+                      - img
+                      - generic: "541"
+                  - generic: 07:16
+          - generic [ref=e445]:
+            - link "黑人博主带着“敌意”来中国，把自己和中国人全整懵圈" [ref=e446] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1vUPheLENY/
+              - heading "黑人博主带着“敌意”来中国，把自己和中国人全整懵圈" [level=3] [ref=e447]:
+                - text: 黑人博主带着“敌意”来
+                - emphasis [ref=e448]: 中国
+                - text: ，把自己和
+                - emphasis [ref=e449]: 中国人
+                - text: 全整懵圈
+            - link "镜哥的世界 · 2025-02-25" [ref=e451] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e452]
+              - generic [ref=e456]: 镜哥的世界
+              - generic [ref=e457]: · 2025-02-25
+        - generic [ref=e460]:
+          - link "英国大叔在中国三线城市走夜路，意外遇到了最危险的事 106.3万 1696 05:24" [ref=e461] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1ZoQ7YEE1H/
+            - generic [ref=e462]:
+              - img "英国大叔在中国三线城市走夜路，意外遇到了最危险的事" [ref=e465]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 106.3万
+                    - generic:
+                      - img
+                      - generic: "1696"
+                  - generic: 05:24
+          - generic [ref=e467]:
+            - link "英国大叔在中国三线城市走夜路，意外遇到了最危险的事" [ref=e468] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1ZoQ7YEE1H/
+              - heading "英国大叔在中国三线城市走夜路，意外遇到了最危险的事" [level=3] [ref=e469]:
+                - text: 英国大叔在
+                - emphasis [ref=e470]: 中国
+                - text: 三线城市走夜路，意外遇到了最危险的事
+            - link "镜哥的世界 · 2025-03-12" [ref=e472] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e473]
+              - generic [ref=e477]: 镜哥的世界
+              - generic [ref=e478]: · 2025-03-12
+        - generic [ref=e481]:
+          - link "让美国妹妹见识下中国高端素食！ 105.3万 3531 16:33" [ref=e482] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV16KdhYvEVg/
+            - generic [ref=e483]:
+              - img "让美国妹妹见识下中国高端素食！" [ref=e486]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 105.3万
+                    - generic:
+                      - img
+                      - generic: "3531"
+                  - generic: 16:33
+          - generic [ref=e488]:
+            - link "让美国妹妹见识下中国高端素食！" [ref=e489] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV16KdhYvEVg/
+              - heading "让美国妹妹见识下中国高端素食！" [level=3] [ref=e490]:
+                - text: 让美国妹妹见识下
+                - emphasis [ref=e491]: 中国
+                - text: 高端素食！
+            - link "田纳西Jay和Ari · 2025-04-12" [ref=e493] [cursor=pointer]:
+              - /url: //space.bilibili.com/552024939
+              - img [ref=e494]
+              - generic [ref=e498]: 田纳西Jay和Ari
+              - generic [ref=e499]: · 2025-04-12
+        - generic [ref=e502]:
+          - link "印度高种姓网红第一次来中国旅游，三番五次地戏耍中国人，回国后惨遭抓捕！ 104.7万 1975 06:50" [ref=e503] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1SSW4zTENk/
+            - generic [ref=e504]:
+              - img "印度高种姓网红第一次来中国旅游，三番五次地戏耍中国人，回国后惨遭抓捕！" [ref=e507]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 104.7万
+                    - generic:
+                      - img
+                      - generic: "1975"
+                  - generic: 06:50
+          - generic [ref=e509]:
+            - link "印度高种姓网红第一次来中国旅游，三番五次地戏耍中国人，回国后惨遭抓捕！" [ref=e510] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1SSW4zTENk/
+              - heading "印度高种姓网红第一次来中国旅游，三番五次地戏耍中国人，回国后惨遭抓捕！" [level=3] [ref=e511]:
+                - text: 印度高种姓网红第一次来
+                - emphasis [ref=e512]: 中国旅游
+                - text: ，三番五次地戏耍
+                - emphasis [ref=e513]: 中国人
+                - text: ，回国后惨遭抓捕！
+            - link "左壑学长 · 2025-10-18" [ref=e515] [cursor=pointer]:
+              - /url: //space.bilibili.com/2135820227
+              - img [ref=e516]
+              - generic [ref=e520]: 左壑学长
+              - generic [ref=e521]: · 2025-10-18
+        - generic [ref=e524]:
+          - link "“我国禁止外国人进入的七大景区 你去过哪几个” 102.6万 50 02:19" [ref=e525] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1q73MzAEXF/
+            - generic [ref=e526]:
+              - img "“我国禁止外国人进入的七大景区 你去过哪几个”" [ref=e529]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 102.6万
+                    - generic:
+                      - img
+                      - generic: "50"
+                  - generic: 02:19
+          - generic [ref=e531]:
+            - link "“我国禁止外国人进入的七大景区 你去过哪几个”" [ref=e532] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1q73MzAEXF/
+              - heading "“我国禁止外国人进入的七大景区 你去过哪几个”" [level=3] [ref=e533]:
+                - text: “我国禁止
+                - emphasis [ref=e534]: 外国人
+                - text: 进入的七大景区 你去过哪几个”
+            - link "风景旅行收藏家 · 2025-07-03" [ref=e536] [cursor=pointer]:
+              - /url: //space.bilibili.com/3494364072380525
+              - img [ref=e537]
+              - generic [ref=e541]: 风景旅行收藏家
+              - generic [ref=e542]: · 2025-07-03
+        - generic [ref=e545]:
+          - link "外国人看中国人在沙滩画圈防盗，表示这不可能，一定会被偷 101.9万 1392 02:55" [ref=e546] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV13SoUBYEyK/
+            - generic [ref=e547]:
+              - img "外国人看中国人在沙滩画圈防盗，表示这不可能，一定会被偷" [ref=e550]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 101.9万
+                    - generic:
+                      - img
+                      - generic: "1392"
+                  - generic: 02:55
+          - generic [ref=e552]:
+            - link "外国人看中国人在沙滩画圈防盗，表示这不可能，一定会被偷" [ref=e553] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV13SoUBYEyK/
+              - heading "外国人看中国人在沙滩画圈防盗，表示这不可能，一定会被偷" [level=3] [ref=e554]:
+                - emphasis [ref=e555]: 外国人
+                - text: 看
+                - emphasis [ref=e556]: 中国人
+                - text: 在沙滩画圈防盗，表示这不可能，一定会被偷
+            - link "镜哥的世界 · 04-25" [ref=e558] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e559]
+              - generic [ref=e563]: 镜哥的世界
+              - generic [ref=e564]: · 04-25
+        - generic [ref=e567]:
+          - link "比利时博主游新疆，被1元的牛肉包子香迷糊，家乡面包不香了 101.5万 596 05:53" [ref=e568] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1UojKzxEa3/
+            - generic [ref=e569]:
+              - img "比利时博主游新疆，被1元的牛肉包子香迷糊，家乡面包不香了" [ref=e572]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 101.5万
+                    - generic:
+                      - img
+                      - generic: "596"
+                  - generic: 05:53
+          - generic [ref=e574]:
+            - link "比利时博主游新疆，被1元的牛肉包子香迷糊，家乡面包不香了" [ref=e575] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1UojKzxEa3/
+              - heading "比利时博主游新疆，被1元的牛肉包子香迷糊，家乡面包不香了" [level=3] [ref=e576]
+            - link "镜哥的世界 · 2025-05-25" [ref=e578] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e579]
+              - generic [ref=e583]: 镜哥的世界
+              - generic [ref=e584]: · 2025-05-25
+        - generic [ref=e587]:
+          - link "美国媒体已就“斩杀线”爆红中国社交平台，联系了美国国务院 100.9万 772 04:25" [ref=e588] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV14ovHB4EFz/
+            - generic [ref=e589]:
+              - img "美国媒体已就“斩杀线”爆红中国社交平台，联系了美国国务院" [ref=e592]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 100.9万
+                    - generic:
+                      - img
+                      - generic: "772"
+                  - generic: 04:25
+          - generic [ref=e594]:
+            - link "美国媒体已就“斩杀线”爆红中国社交平台，联系了美国国务院" [ref=e595] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV14ovHB4EFz/
+              - heading "美国媒体已就“斩杀线”爆红中国社交平台，联系了美国国务院" [level=3] [ref=e596]:
+                - text: 美国媒体已就“斩杀线”爆红
+                - emphasis [ref=e597]: 中国
+                - text: 社交平台，联系了美国国务院
+            - link "镜哥的世界 · 2025-12-29" [ref=e599] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e600]
+              - generic [ref=e604]: 镜哥的世界
+              - generic [ref=e605]: · 2025-12-29
+        - generic [ref=e608]:
+          - link "离谱：中国女博士在美国没缴物业费，并当地帽子开枪打死 99.9万 379 04:34" [ref=e609] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1tn2uBXEL1/
+            - generic [ref=e610]:
+              - img "离谱：中国女博士在美国没缴物业费，并当地帽子开枪打死" [ref=e613]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: 99.9万
+                    - generic:
+                      - img
+                      - generic: "379"
+                  - generic: 04:34
+          - generic [ref=e615]:
+            - link "离谱：中国女博士在美国没缴物业费，并当地帽子开枪打死" [ref=e616] [cursor=pointer]:
+              - /url: //www.bilibili.com/video/BV1tn2uBXEL1/
+              - heading "离谱：中国女博士在美国没缴物业费，并当地帽子开枪打死" [level=3] [ref=e617]:
+                - text: 离谱：
+                - emphasis [ref=e618]: 中国
+                - text: 女博士在美国没缴物业费，并当地帽子开枪打死
+            - link "镜哥的世界 · 2025-11-07" [ref=e620] [cursor=pointer]:
+              - /url: //space.bilibili.com/519678691
+              - img [ref=e621]
+              - generic [ref=e625]: 镜哥的世界
+              - generic [ref=e626]: · 2025-11-07
+      - generic [ref=e629]:
+        - button "上一页" [disabled] [ref=e630]
+        - button "1" [ref=e631] [cursor=pointer]
+        - button "2" [ref=e632] [cursor=pointer]
+        - button "3" [ref=e633] [cursor=pointer]
+        - button "4" [ref=e634] [cursor=pointer]
+        - button "5" [ref=e635] [cursor=pointer]
+        - button "6" [ref=e636] [cursor=pointer]
+        - button "7" [ref=e637] [cursor=pointer]
+        - generic [ref=e638]: ...
+        - button "42" [ref=e639] [cursor=pointer]
+        - button "下一页" [ref=e640] [cursor=pointer]
+  - generic [ref=e645]:
+    - generic [ref=e646]:
+      - generic [ref=e647]:
+        - generic [ref=e648]: bilibili
+        - generic [ref=e649]:
+          - link "关于我们" [ref=e650] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/aboutUs.html
+          - link "联系我们" [ref=e651] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/contact.html
+          - link "用户协议" [ref=e652] [cursor=pointer]:
+            - /url: //www.bilibili.com/protocal/licence.html
+          - link "加入我们" [ref=e653] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/join.html
+          - link "隐私协议" [ref=e654] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/privacy-pc.html
+          - link "bilibili认证" [ref=e655] [cursor=pointer]:
+            - /url: //account.bilibili.com/account/official/home
+          - link "Investor Relations" [ref=e656] [cursor=pointer]:
+            - /url: //ir.bilibili.com/
+      - generic [ref=e657]:
+        - generic [ref=e658]: 传送门
+        - generic [ref=e659]:
+          - link "协议汇总" [ref=e660] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/topic/activity-cn8bxPLzz.html
+          - link "活动中心" [ref=e661] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/activity-list.html
+          - link "活动专题页" [ref=e662] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/topic_list.html
+          - link "侵权申诉" [ref=e663] [cursor=pointer]:
+            - /url: //www.bilibili.com/v/copyright/intro/
+          - link "帮助中心" [ref=e664] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/help.html
+          - link "社区中心" [ref=e665] [cursor=pointer]:
+            - /url: https://www.bilibili.com/blackboard/activity-5zJxM3spoS.html
+          - link "壁纸站" [ref=e666] [cursor=pointer]:
+            - /url: //space.bilibili.com/6823116#/album
+          - link "广告合作" [ref=e667] [cursor=pointer]:
+            - /url: //e.bilibili.com/
+          - link "名人堂" [ref=e668] [cursor=pointer]:
+            - /url: //www.bilibili.com/blackboard/activity-S1jfy69Jz.html
+          - link "MCN管理中心" [ref=e669] [cursor=pointer]:
+            - /url: //mcn.bilibili.com/studio/mcn/entry
+          - link "高级弹幕" [ref=e670] [cursor=pointer]:
+            - /url: //www.bilibili.com/video/BV1Xx411c7cH/
+          - link "品牌号官网" [ref=e671] [cursor=pointer]:
+            - /url: //b.bilibili.com/
+      - generic [ref=e672]:
+        - link "下载APP" [ref=e674] [cursor=pointer]:
+          - /url: //app.bilibili.com/
+          - img [ref=e676]
+          - paragraph [ref=e678]: 下载APP
+        - link "公益" [ref=e680] [cursor=pointer]:
+          - /url: //love.bilibili.com/
+          - img [ref=e682]
+          - paragraph [ref=e687]: 公益
+        - link "官方微博" [ref=e689] [cursor=pointer]:
+          - /url: //weibo.com/bilibiliweb
+          - img [ref=e691]
+          - paragraph [ref=e693]: 官方微博
+        - generic [ref=e695]:
+          - img [ref=e697]
+          - paragraph [ref=e699]: 官方微信
+    - generic [ref=e702]:
+      - generic [ref=e703]:
+        - link "营业执照" [ref=e704] [cursor=pointer]:
+          - /url: //i0.hdslb.com/bfs/activity-plat/static/20240516/9ccf041718e5d6d6dfaebc91b85c791c/gd85E6tDco.jpg
+        - text: 信息网络传播视听节目许可证：0910417
+        - link "网络文化经营许可证 沪网文【2025】0258-085号" [ref=e705] [cursor=pointer]:
+          - /url: //i0.hdslb.com/bfs/activity-plat/static/20260209/3b3c5705bda98d50983f6f47df360fef/K4t52YryBV.jpeg
+        - text: 广播电视节目制作经营许可证：（沪）字第01248号增值电信业务经营许可证 沪B2-20100043
+      - generic [ref=e706]:
+        - link "互联网ICP备案：沪ICP备13002172号-3" [ref=e707] [cursor=pointer]:
+          - /url: //beian.miit.gov.cn/
+        - link "出版物经营许可证 沪批字第U6699 号" [ref=e708] [cursor=pointer]:
+          - /url: //i0.hdslb.com/bfs/activity-plat/static/20240516/9ccf041718e5d6d6dfaebc91b85c791c/4ainzbFKao.jpg
+        - text: 互联网药品信息服务资格证 沪-非经营性-2022-0011营业性演出许可证 沪市文演（经）00-2253 |
+      - generic [ref=e709]:
+        - link "不良信息举报邮箱：help@bilibili.com" [ref=e710] [cursor=pointer]:
+          - /url: mailto:help@bilibili.com
+        - link "涉未成年举报邮箱：teenprotect@bilibili.com" [ref=e711] [cursor=pointer]:
+          - /url: mailto:teenprotect@bilibili.com
+        - text: 不良信息举报电话：4006262233转3
+        - link "上海互联网举报中心 |" [ref=e713] [cursor=pointer]:
+          - /url: http://www.shjbzx.cn/
+        - link "12345政务服务便民热线 |" [ref=e714] [cursor=pointer]:
+          - /url: http://www.sh12345.gov.cn/
+      - generic [ref=e715]:
+        - link "沪公网安备31011002002436号 |" [ref=e717] [cursor=pointer]:
+          - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002002436
+        - link "儿童色情信息举报专区 |" [ref=e718] [cursor=pointer]:
+          - /url: mailto:userreport@bilibili.com
+        - link "扫黄打非举报" [ref=e719] [cursor=pointer]:
+          - /url: https://bzpt.shdf.gov.cn/www/shouye/gzfw/wsjb/index.shtml
+      - generic [ref=e720]:
+        - link "网信算备310110764385705230011号" [ref=e721] [cursor=pointer]:
+          - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_699bbd78-36f4-459c-aeb0-bf98a2a562d8_6185ea2c-c84c-404a-9280-c5465af05948.pdf
+        - link "网信算备310110764385702230013号" [ref=e722] [cursor=pointer]:
+          - /url: https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_699bbd78-36f4-459c-aeb0-bf98a2a562d8_e03e6855-76a6-43fb-b799-d090e7fce25d.pdf
+      - generic [ref=e723]:
+        - text: 网上有害信息举报专区：
+        - link "中国互联网违法和不良信息举报中心" [ref=e725] [cursor=pointer]:
+          - /url: https://www.12377.cn/
+        - text: 亲爱的市民朋友，上海警方反诈劝阻电话"96110"系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听。
+      - generic [ref=e726]: 公司名称：上海宽娱数码科技有限公司 |公司地址：上海市杨浦区政立路489号 |电话：021-25099888
+    - generic [ref=e727]:
+      - img [ref=e728]
+      - img [ref=e729]
+      - img [ref=e730]
