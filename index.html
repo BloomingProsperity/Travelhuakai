@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>China Atlas Museum First Template</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2318201d'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='34' fill='white'%3E中%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="China Atlas home">
+        <span class="brand-mark" aria-hidden="true">中</span>
+        <span>
+          <strong>China Atlas</strong>
+          <small data-i18n="brandSubtitle">中国城市与博物馆索引</small>
+        </span>
+      </a>
+
+      <form class="site-search" id="site-search" role="search">
+        <input
+          id="place-search"
+          type="search"
+          list="place-suggestions"
+          autocomplete="off"
+          data-i18n-placeholder="searchPlaceholder"
+          placeholder="Search city, county, town, village, scenic area"
+        />
+        <button type="submit" data-i18n="searchButton">Search</button>
+        <datalist id="place-suggestions"></datalist>
+      </form>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#atlas" data-i18n="navAtlas">Atlas</a>
+        <a href="#history-video" data-i18n="navVideo">Video</a>
+        <a href="#museums" data-i18n="navMuseums">Museums</a>
+        <a href="#sources" data-i18n="navSources">Sources</a>
+      </nav>
+
+      <div class="language-switch" aria-label="Language options">
+        <button class="language-option is-active" type="button" data-lang="en">EN</button>
+        <button class="language-option" type="button" data-lang="zh">中文</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero map-only-hero" aria-label="China interactive map">
+        <aside class="china-map-panel" aria-label="China province map">
+          <div class="map-panel-header">
+            <div>
+              <span class="map-label" data-i18n="fullMapLabel">Full China Map</span>
+              <h2 data-i18n="fullMapTitle">China province-level map</h2>
+            </div>
+            <span class="map-status" data-i18n="mapStatus">Demo atlas</span>
+          </div>
+
+          <div class="map-explorer-body" id="map-explorer-body">
+            <div class="china-map-visual official-map-visual" id="china-map-visual">
+              <canvas class="map-3d-canvas" id="map-3d-canvas" aria-hidden="true"></canvas>
+              <img
+                class="official-china-map"
+                src="./assets/china-map-gs2022-4309.jpg"
+                loading="eager"
+                decoding="async"
+                alt="中国地图，审图号 GS(2022)4309号，自然资源部标准地图服务系统"
+              />
+              <div class="official-map-hit-layer" id="official-map-hit-layer" aria-label="China province-level map"></div>
+              <div class="official-map-ui-layer" id="official-map-ui-layer" aria-live="polite"></div>
+              <button class="map-reset-control" type="button" id="map-focus-reset" hidden data-i18n="reset">Reset</button>
+            </div>
+
+            <aside class="province-attractions-panel" id="province-attractions-panel" hidden aria-live="polite"></aside>
+          </div>
+
+          <p class="map-hint" id="map-hint" data-i18n="mapHint">
+            Click a province name to open its city list. Full official map data can be connected later.
+          </p>
+          <p class="map-credit">
+            <span data-i18n="mapCredit">Official base map: Standard Map Service System, GS(2022)4309.</span>
+          </p>
+        </aside>
+      </section>
+
+      <section class="history-video-section" id="history-video" aria-labelledby="history-video-title">
+        <div class="history-video-copy">
+          <h2 id="history-video-title" data-i18n="historyVideoTitle">China Historical Evolution Video</h2>
+          <p data-i18n="historyVideoBody">
+            A video position for explaining China through dynasties, capitals,
+            borders, routes, museums, and cultural exchange before users explore cities.
+          </p>
+        </div>
+
+        <div class="history-player official-video" id="history-player">
+          <div class="player-stage">
+            <iframe
+              src="https://www.youtube.com/embed/0DzZgBd4W1Q"
+              title="Discover a China Beyond Your Imagination"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="player-meta">
+            <strong data-i18n="historyVideoMeta">Video slot: China through time</strong>
+            <a href="https://en.chinaculture.org/a/202206/07/WS629edf41a310fd2b29e61286.html" target="_blank" rel="noreferrer" data-i18n="historyVideoSource">
+              Official source: Chinaculture.org
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="atlas-section" id="atlas" aria-labelledby="atlas-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="atlas-title" data-i18n="atlasTitle">Administrative Atlas</h2>
+            <p data-i18n="atlasBody">
+              Click a province-level region to list cities. Click a city to
+              open its museum-first profile.
+            </p>
+          </div>
+          <div class="view-controls" aria-label="Atlas controls">
+            <button class="control-button is-active" type="button" data-mode="province">
+              <span data-i18n="provinceMode">Province</span>
+            </button>
+            <button class="control-button" type="button" data-mode="city">
+              <span data-i18n="cityMode">City</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="atlas-workspace">
+          <aside class="province-rail" aria-label="Province list">
+            <div class="rail-header">
+              <strong data-i18n="provinceLevelRegions">Province-level regions</strong>
+              <span id="province-count">0</span>
+            </div>
+            <div class="province-list" id="province-list"></div>
+          </aside>
+
+          <section class="map-stage" aria-label="Interactive atlas canvas">
+            <div class="map-topbar">
+              <div>
+                <span class="map-label" data-i18n="currentView">Current View</span>
+                <h3 id="map-title">China</h3>
+              </div>
+              <button class="reset-button" type="button" id="reset-view">
+                <span data-i18n="reset">Reset</span>
+              </button>
+            </div>
+
+            <div class="abstract-map" id="abstract-map">
+              <div class="map-grid" id="map-grid"></div>
+            </div>
+          </section>
+
+          <aside class="detail-panel" id="detail-panel" aria-live="polite">
+            <div class="empty-state" id="empty-state">
+              <div class="empty-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M4 20h16" />
+                  <path d="M5 20V9l7-4 7 4v11" />
+                  <path d="M9 20v-7h6v7" />
+                  <path d="M9 9h.01M12 8h.01M15 9h.01" />
+                </svg>
+              </div>
+              <h3 data-i18n="selectCity">Select a city</h3>
+              <p data-i18n="selectCityBody">
+                The city profile will show the museum entry point, real visitor
+                signals, official source status, and historical direction.
+              </p>
+            </div>
+
+            <article class="city-profile is-hidden" id="city-profile">
+              <button class="close-panel" type="button" id="close-panel" aria-label="Close city profile">
+                <span data-i18n="close">Close</span>
+              </button>
+
+              <div class="city-title-row">
+                <div>
+                  <span class="province-name" id="profile-province"></span>
+                  <h3 id="profile-city"></h3>
+                  <p id="profile-name"></p>
+                </div>
+                <span class="status-pill" id="profile-status"></span>
+              </div>
+
+              <div class="museum-first">
+                <span class="module-label" data-i18n="startHere">Start here</span>
+                <h4 id="profile-museum"></h4>
+                <p id="profile-museum-role"></p>
+              </div>
+
+              <dl class="signal-grid">
+                <div>
+                  <dt data-i18n="pageViews">Page views</dt>
+                  <dd id="profile-views"></dd>
+                </div>
+                <div>
+                  <dt data-i18n="visitorNotes">Visitor notes</dt>
+                  <dd id="profile-notes"></dd>
+                </div>
+                <div>
+                  <dt data-i18n="lastVerified">Last verified</dt>
+                  <dd id="profile-verified"></dd>
+                </div>
+                <div>
+                  <dt data-i18n="englishAccess">English access</dt>
+                  <dd id="profile-access"></dd>
+                </div>
+              </dl>
+
+              <section class="profile-block">
+                <h4 data-i18n="historicalIdentity">Historical identity</h4>
+                <p id="profile-history"></p>
+              </section>
+
+              <section class="profile-block">
+                <h4 data-i18n="thenExplore">Then explore</h4>
+                <ul class="plain-list" id="profile-sites"></ul>
+              </section>
+
+              <section class="profile-block source-block">
+                <h4 data-i18n="sourcePolicy">Source policy</h4>
+                <p data-i18n="sourcePolicyBody">
+                  Official facts require source links. Visitor notes require
+                  explicit contributor authorization. Images are omitted unless
+                  licensed or contributed.
+                </p>
+              </section>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="museum-section" id="museums" aria-labelledby="museum-title">
+        <div class="section-heading compact-heading">
+          <div>
+            <h2 id="museum-title" data-i18n="museumTitle">Museum-first Page Template</h2>
+            <p data-i18n="museumBody">
+              Every city starts with the institution that explains its origin,
+              timeline, people, and material culture.
+            </p>
+          </div>
+        </div>
+
+        <div class="template-flow">
+          <article>
+            <span>1</span>
+            <h3 data-i18n="flowOneTitle">City Museum</h3>
+            <p data-i18n="flowOneBody">Main city museum, provincial museum, archaeological site museum, or history hall.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3 data-i18n="flowTwoTitle">Historical Context</h3>
+            <p data-i18n="flowTwoBody">Dynasties, trade routes, wars, migration, local industries, and cultural identity.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3 data-i18n="flowThreeTitle">Visitor Reality</h3>
+            <p data-i18n="flowThreeBody">Passport booking, English labels, crowd level, access issues, and current notes.</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h3 data-i18n="flowFourTitle">Explore After</h3>
+            <p data-i18n="flowFourBody">Nearby historical sites, old streets, temples, relic parks, and heritage locations.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="sources-section" id="sources" aria-labelledby="sources-title">
+        <div>
+          <h2 id="sources-title" data-i18n="sourcesTitle">Image and Source Rules</h2>
+          <p data-i18n="sourcesBody">
+            This template intentionally uses no scraped web photos. Production
+            pages should use official facts, authorized visitor notes, licensed
+            images, and visible attribution.
+          </p>
+        </div>
+        <ul class="source-rules">
+          <li data-i18n="ruleOne">Official text is used for factual extraction, not copied as prose.</li>
+          <li data-i18n="ruleTwo">AI summaries must trace important claims back to source records.</li>
+          <li data-i18n="ruleThree">Visitor notes require permission to publish and translate.</li>
+          <li data-i18n="ruleFour">Images need ownership, open license, or written authorization.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerNote">China Atlas template. Demo data only.</p>
+      <a href="#top" data-i18n="backToTop">Back to top</a>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+    <script type="module" src="./map3d.js"></script>
+  </body>
+</html>

@@ -1,0 +1,607 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube 首页" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "跳过导航" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: 跳过导航
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - combobox "搜索" [expanded] [ref=e33]
+            - button "Search" [ref=e34] [cursor=pointer]:
+              - generic [ref=e37]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "设置" [ref=e55] [cursor=pointer]:
+          - generic [ref=e58]:
+            - img
+        - link "登录" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Di6fYB22OaRA&hl=zh-CN&ec=65620
+          - generic [ref=e64]: 登录
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - complementary [ref=e79]:
+          - generic "YouTube 视频播放器" [active] [ref=e82]:
+            - button "播放" [ref=e87] [cursor=pointer]:
+              - img
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - slider "播放滑块" [disabled] [ref=e90]
+                - generic:
+                  - generic:
+                    - generic:
+                      - slider "点击或滚动面板可进行精确跳转。" [disabled]
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - button "暂停 (k)" [ref=e100] [cursor=pointer]:
+                    - img
+                  - generic [ref=e101]:
+                    - button "静音 (m)" [ref=e103] [cursor=pointer]:
+                      - img
+                    - slider "音量"
+                  - button "0 分钟 0 秒/0 分钟 15 秒" [ref=e107] [cursor=pointer]: 0:00 / 0:15
+                - generic [ref=e108]:
+                  - generic [ref=e109]:
+                    - button "无法显示字幕" [ref=e110] [cursor=pointer]:
+                      - generic [ref=e111]:
+                        - img
+                    - button "设置" [ref=e112] [cursor=pointer]:
+                      - img
+                  - generic [ref=e113]:
+                    - button "影院模式 (t)" [ref=e114] [cursor=pointer]:
+                      - img
+                    - button "全屏 (f)" [ref=e115] [cursor=pointer]:
+                      - img
+        - generic [ref=e116]:
+          - generic [ref=e118]:
+            - heading "21 Tips for FIRST-TIME Travelers to China (Save Money & Stress)" [level=1] [ref=e120]
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - link [ref=e124] [cursor=pointer]:
+                    - /url: /@MaggieYe-0808
+                  - generic [ref=e126]:
+                    - generic "Maggie Ye" [ref=e130]:
+                      - link "Maggie Ye" [ref=e131] [cursor=pointer]:
+                        - /url: /@MaggieYe-0808
+                    - generic "1.21万位订阅者" [ref=e132]
+                - generic [ref=e135]:
+                  - img [ref=e138]
+                  - generic [ref=e142]:
+                    - button "订阅“Maggie Ye”。" [ref=e144] [cursor=pointer]:
+                      - generic [ref=e145]: 订阅
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - generic [ref=e155]:
+                    - img [ref=e158]
+                    - generic [ref=e163]:
+                      - button "与另外 3,963 人一起顶此视频" [ref=e167] [cursor=pointer]:
+                        - generic [ref=e171]:
+                          - img
+                        - generic [ref=e172]: "3963"
+                      - button "不喜欢此视频" [ref=e179] [cursor=pointer]:
+                        - generic [ref=e183]:
+                          - img
+                  - button "分享" [ref=e189] [cursor=pointer]:
+                    - generic [ref=e193]:
+                      - img
+                    - generic [ref=e194]: 分享
+                - button "保存到播放列表" [ref=e201] [cursor=pointer]:
+                  - generic [ref=e204]: 保存
+                - button "其他操作" [ref=e209] [cursor=pointer]:
+                  - generic [ref=e213]:
+                    - img
+            - generic [ref=e219] [cursor=pointer]:
+              - generic [ref=e220]:
+                - generic [ref=e222]:
+                  - text: 8.9万次观看 2个月前
+                  - link "#chinatravel" [ref=e223]:
+                    - /url: /hashtag/chinatravel
+                  - link "#chinafood" [ref=e224]:
+                    - /url: /hashtag/chinafood
+                  - link "#budgettravel" [ref=e225]:
+                    - /url: /hashtag/budgettravel
+                - tooltip "tooltip"
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - generic [ref=e230]:
+                    - link "#chinatravel" [ref=e232]:
+                      - /url: /hashtag/chinatravel
+                    - link "#budgettravel" [ref=e234]:
+                      - /url: /hashtag/budgettravel
+                    - link "#chinahotel" [ref=e236]:
+                      - /url: /hashtag/chinahotel
+                    - link "#chinafood" [ref=e238]:
+                      - /url: /hashtag/chinafood
+                    - text: "Trip.com for train booking:"
+                    - link "https://www.trip.com/t/4JnNhBHqgT2" [ref=e240]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnVrai1WT1Nkek1maDR2UmRZZGItR05nbE51Z3xBQ3Jtc0trbkpOamUwOHpyLW1OMWV1MEZQMEFNeEhrREIxTjdzQkhGZXZEOURuZ1JTS0lSUmNBVFV6LUhCZEh6TVFSNkZ2TU5zc1RrUGJYOWR6a0NXc3BRb0lQU3FKTW1IRUFYc0p1SWU1RzB3V3RkcmNDS2JMTQ&q=https%3A%2F%2Fwww.trip.com%2Ft%2F4JnNhBHqgT2&v=i6fYB22OaRA
+                  - generic: …
+                - button "...更多" [ref=e241]
+          - text: •
+          - heading "评论" [level=2] [ref=e247]:
+            - generic [ref=e248]: 评论
+      - generic [ref=e326]:
+        - generic [ref=e333] [cursor=pointer]:
+          - link [ref=e334]:
+            - /url: /watch?v=HFFxXNxAUFM
+            - generic [ref=e340]: 0:31
+          - generic [ref=e342]:
+            - generic [ref=e343]:
+              - link "Opportunity, Safety, a City That Works. Vote Adam Miller for LA Mayor" [ref=e346]:
+                - /url: /watch?v=HFFxXNxAUFM
+              - link "Adam Miller for Mayor" [ref=e349]:
+                - /url: /watch?v=HFFxXNxAUFM
+              - link "126万次观看" [ref=e351]:
+                - /url: /watch?v=HFFxXNxAUFM
+              - generic [ref=e355]: 赞助商广告
+            - button "我的广告中心" [ref=e358]:
+              - generic [ref=e362]:
+                - img
+        - generic [ref=e367] [cursor=pointer]:
+          - link [ref=e368]:
+            - /url: /watch?v=l17mx5Iw3sg&pp=ugUEEgJlbtIHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e375]: 12:18
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - heading "10 ways tourists WASTE money in China & how to AVOID It 12分钟18秒钟" [level=3] [ref=e379]:
+                - link "10 ways tourists WASTE money in China & how to AVOID It 12分钟18秒钟" [ref=e380]:
+                  - /url: /watch?v=l17mx5Iw3sg&pp=ugUEEgJlbtIHCQkDCwGHKiGM7w%3D%3D
+                  - text: 10 ways tourists WASTE money in China & how to AVOID It
+              - generic [ref=e382]:
+                - group [ref=e383]:
+                  - generic [ref=e384]: Maggie Ye
+                - group [ref=e385]:
+                  - generic [ref=e386]: 13万次观看
+                  - generic [ref=e387]: •
+                  - generic [ref=e388]: 2个月前
+            - button "其他操作" [ref=e391]:
+              - generic [ref=e395]:
+                - img
+        - generic [ref=e400] [cursor=pointer]:
+          - link [ref=e401]:
+            - /url: /watch?v=t9qLWJjncKM
+            - generic [ref=e408]: 23:23
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - heading "Chongqing Travel Guide (China's Most Confusing City) 23分钟" [level=3] [ref=e412]:
+                - link "Chongqing Travel Guide (China's Most Confusing City) 23分钟" [ref=e413]:
+                  - /url: /watch?v=t9qLWJjncKM
+                  - text: Chongqing Travel Guide (China's Most Confusing City)
+              - generic [ref=e415]:
+                - group [ref=e416]:
+                  - generic [ref=e417]:
+                    - text: Ms Qiwiie
+                    - img [ref=e420]:
+                      - generic [ref=e422]:
+                        - img
+                - group [ref=e423]:
+                  - generic [ref=e424]: 6.3万次观看
+                  - generic [ref=e425]: •
+                  - generic [ref=e426]: 2天前
+                - group [ref=e427]:
+                  - generic [ref=e431]: 最新
+            - button "其他操作" [ref=e434]:
+              - generic [ref=e438]:
+                - img
+        - generic [ref=e443] [cursor=pointer]:
+          - link [ref=e444]:
+            - /url: /watch?v=dap8ILf2SQM
+            - generic [ref=e451]: 30:16
+          - generic [ref=e453]:
+            - generic [ref=e454]:
+              - heading "My First Night in Guangzhou 🇨🇳 Riverside Views & the Incredible Beijing Road area 30分钟" [level=3] [ref=e455]:
+                - link "My First Night in Guangzhou 🇨🇳 Riverside Views & the Incredible Beijing Road area 30分钟" [ref=e456]:
+                  - /url: /watch?v=dap8ILf2SQM
+                  - text: My First Night in Guangzhou 🇨🇳 Riverside Views & the Incredible Beijing Road area
+              - generic [ref=e458]:
+                - group [ref=e459]:
+                  - generic [ref=e460]: Where's Dan Gone?
+                - group [ref=e461]:
+                  - generic [ref=e462]: 75次观看
+                  - generic [ref=e463]: •
+                  - generic [ref=e464]: 3天前
+                - group [ref=e465]:
+                  - generic [ref=e469]: 最新
+            - button "其他操作" [ref=e472]:
+              - generic [ref=e476]:
+                - img
+        - generic [ref=e481] [cursor=pointer]:
+          - link [ref=e482]:
+            - /url: /watch?v=P7W20hdgWXY&pp=ugUHEgVlbi1VU9IHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e489]: 27:33
+          - generic [ref=e491]:
+            - generic [ref=e492]:
+              - 'heading "Shenzhen: China’s Most Futuristic City 27分钟" [level=3] [ref=e493]':
+                - 'link "Shenzhen: China’s Most Futuristic City 27分钟" [ref=e494]':
+                  - /url: /watch?v=P7W20hdgWXY&pp=ugUHEgVlbi1VU9IHCQkDCwGHKiGM7w%3D%3D
+                  - text: "Shenzhen: China’s Most Futuristic City"
+              - generic [ref=e496]:
+                - group [ref=e497]:
+                  - generic [ref=e498]:
+                    - text: CoolVision
+                    - img [ref=e501]:
+                      - generic [ref=e503]:
+                        - img
+                - group [ref=e504]:
+                  - generic [ref=e505]: 170万次观看
+                  - generic [ref=e506]: •
+                  - generic [ref=e507]: 3周前
+            - button "其他操作" [ref=e510]:
+              - generic [ref=e514]:
+                - img
+        - generic [ref=e519] [cursor=pointer]:
+          - link [ref=e520]:
+            - /url: /watch?v=EyXC0rTgHL8&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e527]: 12:49
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - heading "10 Things NOT to do in China 12分钟49秒钟" [level=3] [ref=e531]:
+                - link "10 Things NOT to do in China 12分钟49秒钟" [ref=e532]:
+                  - /url: /watch?v=EyXC0rTgHL8&pp=ugUEEgJlbg%3D%3D
+                  - text: 10 Things NOT to do in China
+              - generic [ref=e534]:
+                - group [ref=e535]:
+                  - generic [ref=e536]: Maggie Ye
+                - group [ref=e537]:
+                  - generic [ref=e538]: 11万次观看
+                  - generic [ref=e539]: •
+                  - generic [ref=e540]: 7个月前
+            - button "其他操作" [ref=e543]:
+              - generic [ref=e547]:
+                - img
+        - generic [ref=e552] [cursor=pointer]:
+          - link [ref=e553]:
+            - /url: /watch?v=iyeyUB7CjWk&pp=0gcJCQMLAYcqIYzv
+            - generic [ref=e560]: 10:10
+          - generic [ref=e562]:
+            - generic [ref=e563]:
+              - 'heading "China Travel Guide: Setting Up Alipay BEFORE You Arrive 10分钟10秒钟" [level=3] [ref=e564]':
+                - 'link "China Travel Guide: Setting Up Alipay BEFORE You Arrive 10分钟10秒钟" [ref=e565]':
+                  - /url: /watch?v=iyeyUB7CjWk&pp=0gcJCQMLAYcqIYzv
+                  - text: "China Travel Guide: Setting Up Alipay BEFORE You Arrive"
+              - generic [ref=e567]:
+                - group [ref=e568]:
+                  - generic [ref=e569]: One Day Discovery和Anthony Kelly
+                - group [ref=e570]:
+                  - generic [ref=e571]: 2.4万次观看
+                  - generic [ref=e572]: •
+                  - generic [ref=e573]: 2个月前
+            - button "其他操作" [ref=e576]:
+              - generic [ref=e580]:
+                - img
+        - generic [ref=e585] [cursor=pointer]:
+          - link [ref=e586]:
+            - /url: /watch?v=1aYcFjsEULM
+            - generic [ref=e593]: 24:40
+          - generic [ref=e595]:
+            - generic [ref=e596]:
+              - heading "Stressful Arrival In Shanghai, China 🇨🇳 24分钟" [level=3] [ref=e597]:
+                - link "Stressful Arrival In Shanghai, China 🇨🇳 24分钟" [ref=e598]:
+                  - /url: /watch?v=1aYcFjsEULM
+                  - text: Stressful Arrival In Shanghai, China 🇨🇳
+              - generic [ref=e600]:
+                - group [ref=e601]:
+                  - generic [ref=e602]:
+                    - text: Ken Abroad
+                    - img [ref=e605]:
+                      - generic [ref=e607]:
+                        - img
+                - group [ref=e608]:
+                  - generic [ref=e609]: 151万次观看
+                  - generic [ref=e610]: •
+                  - generic [ref=e611]: 2年前
+            - button "其他操作" [ref=e614]:
+              - generic [ref=e618]:
+                - img
+        - generic [ref=e623] [cursor=pointer]:
+          - link [ref=e624]:
+            - /url: /watch?v=KDcp6s346IM
+            - generic [ref=e631]: 23:56
+          - generic [ref=e633]:
+            - generic [ref=e634]:
+              - heading "去中国旅行前我希望知道的一切🇨🇳 23分钟" [level=3] [ref=e635]:
+                - link "去中国旅行前我希望知道的一切🇨🇳 23分钟" [ref=e636]:
+                  - /url: /watch?v=KDcp6s346IM
+                  - text: 去中国旅行前我希望知道的一切🇨🇳
+              - generic [ref=e638]:
+                - group [ref=e639]:
+                  - generic [ref=e640]:
+                    - text: Travel For Phoebe
+                    - img [ref=e643]:
+                      - generic [ref=e645]:
+                        - img
+                - group [ref=e646]:
+                  - generic [ref=e647]: 9.7万次观看
+                  - generic [ref=e648]: •
+                  - generic [ref=e649]: 2个月前
+            - button "其他操作" [ref=e652]:
+              - generic [ref=e656]:
+                - img
+        - generic [ref=e661] [cursor=pointer]:
+          - link [ref=e662]:
+            - /url: /watch?v=2HKlD01K0rA
+            - generic [ref=e669]: 5:45
+          - generic [ref=e671]:
+            - generic [ref=e672]:
+              - heading "How Do Toilets Work in China? 5分钟45秒钟" [level=3] [ref=e673]:
+                - link "How Do Toilets Work in China? 5分钟45秒钟" [ref=e674]:
+                  - /url: /watch?v=2HKlD01K0rA
+                  - text: How Do Toilets Work in China?
+              - generic [ref=e676]:
+                - group [ref=e677]:
+                  - generic [ref=e678]: Offbeat Mandarin
+                - group [ref=e679]:
+                  - generic [ref=e680]: 81万次观看
+                  - generic [ref=e681]: •
+                  - generic [ref=e682]: 3个月前
+            - button "其他操作" [ref=e685]:
+              - generic [ref=e689]:
+                - img
+        - generic [ref=e694] [cursor=pointer]:
+          - link [ref=e695]:
+            - /url: /watch?v=noO3quKxiRc&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e702]: 7:05
+          - generic [ref=e704]:
+            - generic [ref=e705]:
+              - heading "5 Things NOT to Wear in China (You Will Get STARE At) 7分钟5秒钟" [level=3] [ref=e706]:
+                - link "5 Things NOT to Wear in China (You Will Get STARE At) 7分钟5秒钟" [ref=e707]:
+                  - /url: /watch?v=noO3quKxiRc&pp=ugUEEgJlbg%3D%3D
+                  - text: 5 Things NOT to Wear in China (You Will Get STARE At)
+              - generic [ref=e709]:
+                - group [ref=e710]:
+                  - generic [ref=e711]: Maggie Ye
+                - group [ref=e712]:
+                  - generic [ref=e713]: 27万次观看
+                  - generic [ref=e714]: •
+                  - generic [ref=e715]: 2个月前
+            - button "其他操作" [ref=e718]:
+              - generic [ref=e722]:
+                - img
+        - generic [ref=e727] [cursor=pointer]:
+          - link [ref=e728]:
+            - /url: /watch?v=HbA25C71OJc&pp=ugUEEgJlbtIHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e735]: 7:19
+          - generic [ref=e737]:
+            - generic [ref=e738]:
+              - heading "Why 2026 is the BEST Year Ever to Visit China 7分钟19秒钟" [level=3] [ref=e739]:
+                - link "Why 2026 is the BEST Year Ever to Visit China 7分钟19秒钟" [ref=e740]:
+                  - /url: /watch?v=HbA25C71OJc&pp=ugUEEgJlbtIHCQkDCwGHKiGM7w%3D%3D
+                  - text: Why 2026 is the BEST Year Ever to Visit China
+              - generic [ref=e742]:
+                - group [ref=e743]:
+                  - generic [ref=e744]: Maggie Ye
+                - group [ref=e745]:
+                  - generic [ref=e746]: 4万次观看
+                  - generic [ref=e747]: •
+                  - generic [ref=e748]: 3个月前
+            - button "其他操作" [ref=e751]:
+              - generic [ref=e755]:
+                - img
+        - generic [ref=e760] [cursor=pointer]:
+          - link [ref=e761]:
+            - /url: /watch?v=kSVUJS6z1v0
+            - generic [ref=e768]: 19:00
+          - generic [ref=e770]:
+            - generic [ref=e771]:
+              - heading "We Spent 2 Months in China | Here's What Shocked Us Most 19分钟" [level=3] [ref=e772]:
+                - link "We Spent 2 Months in China | Here's What Shocked Us Most 19分钟" [ref=e773]:
+                  - /url: /watch?v=kSVUJS6z1v0
+                  - text: We Spent 2 Months in China | Here's What Shocked Us Most
+              - generic [ref=e775]:
+                - group [ref=e776]:
+                  - generic [ref=e777]: Mike and Ashley
+                - group [ref=e778]:
+                  - generic [ref=e779]: 19万次观看
+                  - generic [ref=e780]: •
+                  - generic [ref=e781]: 11个月前
+            - button "其他操作" [ref=e784]:
+              - generic [ref=e788]:
+                - img
+        - generic [ref=e793] [cursor=pointer]:
+          - link [ref=e794]:
+            - /url: /watch?v=e6TLkJ-cWhM&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e801]: 14:34
+          - generic [ref=e803]:
+            - generic [ref=e804]:
+              - 'heading "ALIPAY 2026: Ultimate Guide to Pay Like a Local (ID Verification, Metro, Bikes & Food Delivery) 14分钟34秒钟" [level=3] [ref=e805]':
+                - 'link "ALIPAY 2026: Ultimate Guide to Pay Like a Local (ID Verification, Metro, Bikes & Food Delivery) 14分钟34秒钟" [ref=e806]':
+                  - /url: /watch?v=e6TLkJ-cWhM&pp=ugUEEgJlbg%3D%3D
+                  - text: "ALIPAY 2026: Ultimate Guide to Pay Like a Local (ID Verification, Metro, Bikes & Food Delivery)"
+              - generic [ref=e808]:
+                - group [ref=e809]:
+                  - generic [ref=e810]: Emily Unlocks China
+                - group [ref=e811]:
+                  - generic [ref=e812]: 8251次观看
+                  - generic [ref=e813]: •
+                  - generic [ref=e814]: 1个月前
+            - button "其他操作" [ref=e817]:
+              - generic [ref=e821]:
+                - img
+        - generic [ref=e826] [cursor=pointer]:
+          - link [ref=e827]:
+            - /url: /watch?v=PPZqrOMmNDw
+            - generic [ref=e834]: 16:57
+          - generic [ref=e836]:
+            - generic [ref=e837]:
+              - heading "「我一点都不快乐」为什么中国最幸福的城市, 反而藏着最多孤独的人？ | Finding True Love in China’s Happiest City 16分钟" [level=3] [ref=e838]:
+                - link "「我一点都不快乐」为什么中国最幸福的城市, 反而藏着最多孤独的人？ | Finding True Love in China’s Happiest City 16分钟" [ref=e839]:
+                  - /url: /watch?v=PPZqrOMmNDw
+                  - text: 「我一点都不快乐」为什么中国最幸福的城市, 反而藏着最多孤独的人？ | Finding True Love in China’s Happiest City
+              - generic [ref=e841]:
+                - group [ref=e842]:
+                  - generic [ref=e843]:
+                    - text: Torres Pit托哥
+                    - img [ref=e846]:
+                      - generic [ref=e848]:
+                        - img
+                - group [ref=e849]:
+                  - generic [ref=e850]: 21万次观看
+                  - generic [ref=e851]: •
+                  - generic [ref=e852]: 3天前
+                - group [ref=e853]:
+                  - generic [ref=e857]: 最新
+            - button "其他操作" [ref=e860]:
+              - generic [ref=e864]:
+                - img
+        - generic [ref=e869] [cursor=pointer]:
+          - link [ref=e870]:
+            - /url: /watch?v=9cQZVzrmddg&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e877]: 50:11
+          - generic [ref=e879]:
+            - generic [ref=e880]:
+              - heading "We Visited Unbelievable Places in China (that actually exist) 50分钟" [level=3] [ref=e881]:
+                - link "We Visited Unbelievable Places in China (that actually exist) 50分钟" [ref=e882]:
+                  - /url: /watch?v=9cQZVzrmddg&pp=ugUEEgJlbg%3D%3D
+                  - text: We Visited Unbelievable Places in China (that actually exist)
+              - generic [ref=e884]:
+                - group [ref=e885]:
+                  - generic [ref=e886]:
+                    - text: Kara and Nate
+                    - img [ref=e889]:
+                      - generic [ref=e891]:
+                        - img
+                - group [ref=e892]:
+                  - generic [ref=e893]: 285万次观看
+                  - generic [ref=e894]: •
+                  - generic [ref=e895]: 3个月前
+            - button "其他操作" [ref=e898]:
+              - generic [ref=e902]:
+                - img
+        - generic [ref=e907] [cursor=pointer]:
+          - link [ref=e908]:
+            - /url: /watch?v=V_94pc7v6Kc&pp=ugUEEgJlbg%3D%3D
+            - generic [ref=e915]: 19:26
+          - generic [ref=e917]:
+            - generic [ref=e918]:
+              - heading "Life in China 🇨🇳 My Routine as a Low-Income Person (No Friends, Just turned 40) 19分钟" [level=3] [ref=e919]:
+                - link "Life in China 🇨🇳 My Routine as a Low-Income Person (No Friends, Just turned 40) 19分钟" [ref=e920]:
+                  - /url: /watch?v=V_94pc7v6Kc&pp=ugUEEgJlbg%3D%3D
+                  - text: Life in China 🇨🇳 My Routine as a Low-Income Person (No Friends, Just turned 40)
+              - generic [ref=e922]:
+                - group [ref=e923]:
+                  - generic [ref=e924]: JQ - Life in China
+                - group [ref=e925]:
+                  - generic [ref=e926]: 43万次观看
+                  - generic [ref=e927]: •
+                  - generic [ref=e928]: 2个月前
+            - button "其他操作" [ref=e931]:
+              - generic [ref=e935]:
+                - img
+        - generic [ref=e940] [cursor=pointer]:
+          - link [ref=e941]:
+            - /url: /watch?v=vNR9QjmhH00&pp=ugUEEgJlbtIHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e948]: 23:59
+          - generic [ref=e950]:
+            - generic [ref=e951]:
+              - heading "Entering the World's Largest City (Chongqing, China) 23分钟" [level=3] [ref=e952]:
+                - link "Entering the World's Largest City (Chongqing, China) 23分钟" [ref=e953]:
+                  - /url: /watch?v=vNR9QjmhH00&pp=ugUEEgJlbtIHCQkDCwGHKiGM7w%3D%3D
+                  - text: Entering the World's Largest City (Chongqing, China)
+              - generic [ref=e955]:
+                - group [ref=e956]:
+                  - generic [ref=e957]:
+                    - text: Drew Binsky
+                    - img [ref=e960]:
+                      - generic [ref=e962]:
+                        - img
+                - group [ref=e963]:
+                  - generic [ref=e964]: 753万次观看
+                  - generic [ref=e965]: •
+                  - generic [ref=e966]: 1年前
+            - button "其他操作" [ref=e969]:
+              - generic [ref=e973]:
+                - img
+        - generic [ref=e978] [cursor=pointer]:
+          - link [ref=e979]:
+            - /url: /watch?v=BTJGr78-zyw&pp=ugUJEgd6aC1IYW5z
+            - generic [ref=e986]: 2:11:10
+          - generic [ref=e988]:
+            - generic [ref=e989]:
+              - heading "神经科学家惊人爆料：死后真的能沟通吗？塔拉·斯沃特博士公开震撼证据！ 2小时11分钟" [level=3] [ref=e990]:
+                - link "神经科学家惊人爆料：死后真的能沟通吗？塔拉·斯沃特博士公开震撼证据！ 2小时11分钟" [ref=e991]:
+                  - /url: /watch?v=BTJGr78-zyw&pp=ugUJEgd6aC1IYW5z
+                  - text: 神经科学家惊人爆料：死后真的能沟通吗？塔拉·斯沃特博士公开震撼证据！
+              - generic [ref=e993]:
+                - group [ref=e994]:
+                  - generic [ref=e996]:
+                    - text: The Diary Of A CEO
+                    - generic [ref=e997]:
+                      - img [ref=e999]:
+                        - generic [ref=e1001]:
+                          - img
+                      - text: 和
+                    - text: Predictive History
+                - group [ref=e1002]:
+                  - generic [ref=e1003]: 347万次观看
+                  - generic [ref=e1004]: •
+                  - generic [ref=e1005]: 2天前
+                - group [ref=e1006]:
+                  - generic [ref=e1010]: 最新
+                  - generic [ref=e1015]: 带配音
+            - button "其他操作" [ref=e1018]:
+              - generic [ref=e1022]:
+                - img
+        - generic [ref=e1027] [cursor=pointer]:
+          - link [ref=e1028]:
+            - /url: /watch?v=efDOVVDy0iA
+            - generic [ref=e1035]: 15:12
+          - generic [ref=e1037]:
+            - generic [ref=e1038]:
+              - heading "17 things I wish I knew before visiting CHINA 🇨🇳 15分钟" [level=3] [ref=e1039]:
+                - link "17 things I wish I knew before visiting CHINA 🇨🇳 15分钟" [ref=e1040]:
+                  - /url: /watch?v=efDOVVDy0iA
+                  - text: 17 things I wish I knew before visiting CHINA 🇨🇳
+              - generic [ref=e1042]:
+                - group [ref=e1043]:
+                  - generic [ref=e1044]:
+                    - text: Joel and Emilia
+                    - img [ref=e1047]:
+                      - generic [ref=e1049]:
+                        - img
+                - group [ref=e1050]:
+                  - generic [ref=e1051]: 50万次观看
+                  - generic [ref=e1052]: •
+                  - generic [ref=e1053]: 1年前
+            - button "其他操作" [ref=e1056]:
+              - generic [ref=e1060]:
+                - img
+        - generic [ref=e1065] [cursor=pointer]:
+          - link [ref=e1066]:
+            - /url: /watch?v=w77jxNkfaHg
+            - generic [ref=e1073]: 17:21
+          - generic [ref=e1075]:
+            - generic [ref=e1076]:
+              - heading "The BEST travel tips for your first time to CHINA 🇨🇳 (these are actually helpful) 17分钟" [level=3] [ref=e1077]:
+                - link "The BEST travel tips for your first time to CHINA 🇨🇳 (these are actually helpful) 17分钟" [ref=e1078]:
+                  - /url: /watch?v=w77jxNkfaHg
+                  - text: The BEST travel tips for your first time to CHINA 🇨🇳 (these are actually helpful)
+              - generic [ref=e1080]:
+                - group [ref=e1081]:
+                  - generic [ref=e1082]: WorldwideWu
+                - group [ref=e1083]:
+                  - generic [ref=e1084]: 2.8万次观看
+                  - generic [ref=e1085]: •
+                  - generic [ref=e1086]: 10个月前
+            - button "其他操作" [ref=e1089]:
+              - generic [ref=e1093]:
+                - img

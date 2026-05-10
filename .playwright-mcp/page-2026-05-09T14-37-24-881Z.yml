@@ -1,0 +1,825 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Global Navigation" [ref=e3]:
+      - link "Lonely Planet homepage" [ref=e5] [cursor=pointer]:
+        - /url: https://www.lonelyplanet.com
+        - generic [ref=e6]: Lonely Planet
+        - img [ref=e7]
+      - generic [ref=e22]:
+        - link "Destinations" [ref=e23] [cursor=pointer]:
+          - /url: https://www.lonelyplanet.com/destinations
+        - link "Books" [ref=e24] [cursor=pointer]:
+          - /url: https://shop.lonelyplanet.com/?utm_source=lonelyplanet&utm_campaign=navigation&utm_content=homepage
+        - link "Trips" [ref=e25] [cursor=pointer]:
+          - /url: /journeys
+        - link "Inspiration" [ref=e26] [cursor=pointer]:
+          - /url: https://www.lonelyplanet.com/articles
+        - button "Search" [ref=e29]:
+          - link "Search" [ref=e30] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e31]
+            - generic [ref=e33]: Search
+      - generic [ref=e34]:
+        - link "Cart" [ref=e35] [cursor=pointer]:
+          - /url: https://shop.lonelyplanet.com/cart?utm_source=lonelyplanet&utm_campaign=lpcart
+          - img [ref=e36]
+          - text: Cart
+        - link "Sign in" [ref=e42] [cursor=pointer]:
+          - /url: /api/auth/login?returnTo=%2Fdestinations%2Fchina
+          - text: Sign In
+  - main [ref=e43]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - navigation "Breadcrumbs" [ref=e49]:
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - link "Asia" [ref=e52] [cursor=pointer]:
+                - /url: /destinations/asia
+        - generic [ref=e53]:
+          - heading "China" [level=1] [ref=e54]
+          - article [ref=e55]:
+            - img "China Travel Guide" [ref=e57]
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: Shop
+              - paragraph [ref=e60]: China
+              - separator [ref=e61]
+              - paragraph [ref=e62]: $34.99
+              - link "Shop Book" [ref=e63] [cursor=pointer]:
+                - /url: https://shop.lonelyplanet.com/products/china?utm_source=lonelyplanet&utm_campaign=hubsherodriver&utm_content=china?utm_source=lonelyplanet&utm_campaign=hubsherodriver&utm_content=China
+          - paragraph [ref=e64]: ©Haines/Shutterstock
+      - img "Tiananmen under sky and cloud. 141819499 ancient, beijing, blue, building, china, chinese, city, communism, famous, forbidden, gate, historic, history, landmark, landscape, mao, monument, nature, ornate, palace, peoples, prc, red, sky, square, summer, temple, tiananmen, tourism, travel, white" [ref=e67]
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - heading "Why visit China" [level=2] [ref=e70]
+        - paragraph [ref=e71]: China. The name alone makes you want to get packing. It's going places, so jump aboard, go along for the ride and see where it's headed.
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img [ref=e74]
+          - paragraph [ref=e105]: Lonely planet’s trusted travel insurance provider
+          - heading "Dreaming of China? Protect your trip" [level=4] [ref=e106]
+          - paragraph
+          - paragraph [ref=e107]: Travel with confidence. Protect your trip and your wallet.
+          - paragraph
+        - link "LEARN MORE" [ref=e108] [cursor=pointer]:
+          - /url: https://www.dpbolvw.net/click-101587146-17242755
+        - paragraph [ref=e109]: We don’t represent World Nomads, we receive a fee from quotes using this link. This is not a recommendation to buy travel insurance.
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - heading "Top places to visit in China" [level=2] [ref=e114]
+          - paragraph [ref=e115]: Discover the best attractions in China from must-see sights to unexpected hidden gems.
+        - generic [ref=e116]:
+          - link "Explore all" [ref=e117] [cursor=pointer]:
+            - /url: /points-of-interest?slug=china
+          - generic [ref=e118]:
+            - button "Previous slide" [disabled] [ref=e119]:
+              - img [ref=e120]
+            - button "Next slide" [ref=e122]:
+              - img [ref=e123]
+      - list [ref=e125]:
+        - listitem [ref=e126]:
+          - generic [ref=e128]:
+            - link "Sign in to save this item" [ref=e131] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiODFmYWQwYWItYWRlOC00M2RiLWE5OTItOWU5YjkxZTgzNmEwIn19
+              - img [ref=e132]
+              - generic [ref=e134]: Save
+            - article "Peak Tram" [ref=e136]:
+              - img "Peak Tram Hong Kong's Peak Tram going up an incline" [ref=e138]
+              - generic [ref=e139]:
+                - generic [ref=e141]: Attraction in Hong Kong
+                - link "Peak Tram" [ref=e142] [cursor=pointer]:
+                  - /url: /points-of-interest/peak-tram/1102585
+                  - generic [ref=e143]: Peak Tram
+                - generic [ref=e144] [cursor=pointer]: Discover
+        - listitem [ref=e145]:
+          - generic [ref=e147]:
+            - link "Sign in to save this item" [ref=e150] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiNGYwMzRlOTEtMjhjZi00MTIxLWI0ZWUtZjNjZDE2YWEyYzdjIn19
+              - img [ref=e151]
+              - generic [ref=e153]: Save
+            - article "Mogao Grottoes" [ref=e155]:
+              - img "Mogao Grottoes" [ref=e157]
+              - generic [ref=e158]:
+                - generic [ref=e160]: Attraction in Dunhuang
+                - link "Mogao Grottoes" [ref=e161] [cursor=pointer]:
+                  - /url: /points-of-interest/mogao-grottoes/1496278
+                  - generic [ref=e162]: Mogao Grottoes
+                - generic [ref=e163] [cursor=pointer]: Discover
+        - listitem [ref=e164]:
+          - generic [ref=e166]:
+            - link "Sign in to save this item" [ref=e169] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiYzIzZjBjODItZDMyNC00NDNjLTk1Y2QtMDgwMzJlNmNlMmE2In19
+              - img [ref=e170]
+              - generic [ref=e172]: Save
+            - article "Temple of Heaven Park" [ref=e174]:
+              - img "Hall of Prayer for Good Harvest in Temple of Heaven Park, Chongwen." [ref=e176]
+              - generic [ref=e177]:
+                - generic [ref=e179]: Attraction in Temple of Heaven Park & Dongcheng South
+                - link "Temple of Heaven Park" [ref=e180] [cursor=pointer]:
+                  - /url: /points-of-interest/temple-of-heaven-park/1106060
+                  - generic [ref=e181]: Temple of Heaven Park
+                - generic [ref=e182] [cursor=pointer]: Discover
+        - listitem [ref=e183]:
+          - generic [ref=e185]:
+            - link "Sign in to save this item" [ref=e188] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiZWRhMDA2NzUtZDljNC00MDFjLTllOGEtNTUzYmEwOGI0ZWNiIn19
+              - img [ref=e189]
+              - generic [ref=e191]: Save
+            - article "Labrang Monastery" [ref=e193]:
+              - img "Labrang Lamasery, Gansu, China" [ref=e195]
+              - generic [ref=e196]:
+                - generic [ref=e198]: Attraction in Gansu
+                - link "Labrang Monastery" [ref=e199] [cursor=pointer]:
+                  - /url: /points-of-interest/labrang-monastery/1239039
+                  - generic [ref=e200]: Labrang Monastery
+                - generic [ref=e201] [cursor=pointer]: Discover
+        - listitem [ref=e202]:
+          - generic [ref=e204]:
+            - link "Sign in to save this item" [ref=e207] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiNTE3NWU2YTgtM2ZjNi00MTI5LThjNTEtMTZkYTllYjU2MGU1In19
+              - img [ref=e208]
+              - generic [ref=e210]: Save
+            - article "Army of Terracotta Warriors" [ref=e212]:
+              - img "Terracotta Warriors, Xi'an, China" [ref=e214]
+              - generic [ref=e215]:
+                - generic [ref=e217]: Attraction in Xi'an
+                - link "Army of Terracotta Warriors" [ref=e218] [cursor=pointer]:
+                  - /url: /points-of-interest/army-of-terracotta-warriors/1016918
+                  - generic [ref=e219]: Army of Terracotta Warriors
+                - generic [ref=e220] [cursor=pointer]: Discover
+        - listitem [ref=e221]:
+          - generic [ref=e223]:
+            - link "Sign in to save this item" [ref=e226] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiYmNkNGZiOGMtOWQ1NC00M2E3LThiNzQtMjljZmI4NWM4NzQ2In19
+              - img [ref=e227]
+              - generic [ref=e229]: Save
+            - article "Summer Palace" [ref=e231]:
+              - img "Summer Palace" [ref=e233]
+              - generic [ref=e234]:
+                - generic [ref=e236]: Attraction in Beijing
+                - link "Summer Palace" [ref=e237] [cursor=pointer]:
+                  - /url: /points-of-interest/summer-palace/1106248
+                  - generic [ref=e238]: Summer Palace
+                - generic [ref=e239] [cursor=pointer]: Discover
+        - listitem [ref=e240]:
+          - generic [ref=e242]:
+            - link "Sign in to save this item" [ref=e245] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiYTA3NGI3YjQtNjYwNy00NjJkLTliMGUtZWJkYjdiMTBjZTYzIn19
+              - img [ref=e246]
+              - generic [ref=e248]: Save
+            - article "Yading Nature Reserve" [ref=e250]:
+              - img "x-default" [ref=e252]
+              - generic [ref=e253]:
+                - generic [ref=e255]: Attraction in Sichuan
+                - link "Yading Nature Reserve" [ref=e256] [cursor=pointer]:
+                  - /url: /points-of-interest/yading-nature-reserve/1438996
+                  - generic [ref=e257]: Yading Nature Reserve
+                - generic [ref=e258] [cursor=pointer]: Discover
+        - listitem [ref=e259]:
+          - generic [ref=e261]:
+            - link "Sign in to save this item" [ref=e264] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9kZXN0aW5hdGlvbnMvY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUiLCJlc2lkIjoiOGYwMWQzZDYtMzExMC00ZjcxLWEwYTItNmIwNWY0ZWVmZjhkIn19
+              - img [ref=e265]
+              - generic [ref=e267]: Save
+            - article "Maijishan Grottoes" [ref=e269]:
+              - img "Maijishan Grottoes" [ref=e271]
+              - generic [ref=e272]:
+                - generic [ref=e274]: Attraction in Gansu
+                - link "Maijishan Grottoes" [ref=e275] [cursor=pointer]:
+                  - /url: /points-of-interest/maijishan-grottoes/1239996
+                  - generic [ref=e276]: Maijishan Grottoes
+                - generic [ref=e277] [cursor=pointer]: Discover
+    - generic [ref=e279]:
+      - paragraph [ref=e280]: Travel Guides
+      - heading "China travel tips from Lonely Planet experts" [level=2] [ref=e281]
+      - paragraph [ref=e282]: Find practical guidance from our team of contributors around the world who bring their decades of first-hand travel experience to your next trip.
+      - generic [ref=e284]:
+        - article [ref=e285]:
+          - heading "Best Things to Do" [level=3] [ref=e286]:
+            - img [ref=e287]
+            - text: Best Things to Do
+          - paragraph [ref=e289]: China offers a unique-in-the-world mix of ancient heritage and modern life. Get a taste of the country with our list of the best things to do in China.
+          - separator [ref=e290]
+          - link "Read full article" [ref=e291] [cursor=pointer]:
+            - /url: /articles/top-things-to-do-in-china
+            - generic [ref=e292]:
+              - text: Read full article
+              - img [ref=e293]
+        - article [ref=e295]:
+          - heading "Best Time to Visit" [level=3] [ref=e296]:
+            - img [ref=e297]
+            - text: Best Time to Visit
+          - paragraph [ref=e308]: Pick the best time for your visit to China with this seasonal guide to the weather, crowds and most fascinating festivals.
+          - separator [ref=e309]
+          - link "Read full article" [ref=e310] [cursor=pointer]:
+            - /url: /articles/best-time-to-visit-china
+            - generic [ref=e311]:
+              - text: Read full article
+              - img [ref=e312]
+        - article [ref=e314]:
+          - heading "Transportation" [level=3] [ref=e315]:
+            - img [ref=e316]
+            - text: Transportation
+          - paragraph [ref=e325]: China is astonishingly huge, amazingly diverse – and remarkably well connected. Here’s how to get around the country by train, bus, bicycle and more.
+          - separator [ref=e326]
+          - link "Read full article" [ref=e327] [cursor=pointer]:
+            - /url: /articles/getting-around-china
+            - generic [ref=e328]:
+              - text: Read full article
+              - img [ref=e329]
+        - article [ref=e331]:
+          - heading "Visa Requirements" [level=3] [ref=e332]:
+            - img [ref=e333]
+            - text: Visa Requirements
+          - paragraph [ref=e337]: Stretching from Central Asia to the jungles of Vietnam, China is a land of endless travel opportunities. Here's what you need to know about getting a visa.
+          - separator [ref=e338]
+          - link "Read full article" [ref=e339] [cursor=pointer]:
+            - /url: /articles/visa-requirements-for-china
+            - generic [ref=e340]:
+              - text: Read full article
+              - img [ref=e341]
+        - article [ref=e343]:
+          - heading "Best Places to Visit" [level=3] [ref=e344]:
+            - img [ref=e345]
+            - text: Best Places to Visit
+          - paragraph [ref=e351]: "China is packed with dichotomy: ancient Buddhas sit alongside ultramodern, high-tech cities. These highlights will make your trip both restorative and exciting."
+          - separator [ref=e352]
+          - link "Read full article" [ref=e353] [cursor=pointer]:
+            - /url: /articles/best-places-to-visit-in-china
+            - generic [ref=e354]:
+              - text: Read full article
+              - img [ref=e355]
+        - article [ref=e357]:
+          - heading "Get Connected" [level=3] [ref=e358]:
+            - img [ref=e359]
+            - text: Get Connected
+          - paragraph [ref=e363]: Stay connected on your trip to China with these helpful tips.
+          - separator [ref=e364]
+          - link "Read full article" [ref=e365] [cursor=pointer]:
+            - /url: /articles/get-connected-china
+            - generic [ref=e366]:
+              - text: Read full article
+              - img [ref=e367]
+    - generic [ref=e370]:
+      - generic [ref=e371]:
+        - heading "Latest stories from China" [level=2] [ref=e373]
+        - generic [ref=e374]:
+          - link "Read more" [ref=e375] [cursor=pointer]:
+            - /url: /articles?slug=china
+          - generic [ref=e376]:
+            - button "Previous slide" [disabled] [ref=e377]:
+              - img [ref=e378]
+            - button "Next slide" [ref=e380]:
+              - img [ref=e381]
+      - list [ref=e383]:
+        - listitem [ref=e384]:
+          - article "Peak Tram" [ref=e385]:
+            - img "Karst landscapes near Yangshuo, China. Liufuyu/Getty Images" [ref=e387]
+            - generic [ref=e388]:
+              - generic [ref=e389]:
+                - generic [ref=e390]: Feb 6, 2026
+                - generic [ref=e391]: 10 min read
+              - link "Peak Tram" [ref=e392] [cursor=pointer]:
+                - /url: /articles/best-places-to-visit-in-china
+                - generic [ref=e393]: 13 of the best places to visit in China
+              - generic [ref=e394] [cursor=pointer]: Read Story
+        - listitem [ref=e395]:
+          - article "Mogao Grottoes" [ref=e396]:
+            - img "shutterstock_1211080384.jpg" [ref=e398]
+            - generic [ref=e399]:
+              - generic [ref=e400]:
+                - generic [ref=e401]: Sep 4, 2025
+                - generic [ref=e402]: 9 min read
+              - link "Mogao Grottoes" [ref=e403] [cursor=pointer]:
+                - /url: /articles/history-of-great-wall-of-china-visit
+                - generic [ref=e404]: What you should know about visiting the Great Wall of China
+              - generic [ref=e405] [cursor=pointer]: Read Story
+        - listitem [ref=e406]:
+          - article "Temple of Heaven Park" [ref=e407]:
+            - img "Hainan is famous for its beaches, minority communities and tropical climate. Iurii Dzivinskyi/Shutterstock" [ref=e409]
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - generic [ref=e412]: Aug 29, 2025
+                - generic [ref=e413]: 13 min read
+              - link "Temple of Heaven Park" [ref=e414] [cursor=pointer]:
+                - /url: /articles/top-things-to-do-in-hainan-china
+                - generic [ref=e415]: The 14 top things to do in Hainan, China
+              - generic [ref=e416] [cursor=pointer]: Read Story
+        - listitem [ref=e417]:
+          - article "Labrang Monastery" [ref=e418]:
+            - img "Dai architecture in Xishuangbanna's gardens. gyn9038/Getty Images" [ref=e420]
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - generic [ref=e423]: May 29, 2025
+                - generic [ref=e424]: 7 min read
+              - link "Labrang Monastery" [ref=e425] [cursor=pointer]:
+                - /url: /articles/top-things-to-do-in-xishuangbanna
+                - generic [ref=e426]: 14 of the best things to do in Xishuangbanna, China
+              - generic [ref=e427] [cursor=pointer]: Read Story
+        - listitem [ref=e428]:
+          - article "Army of Terracotta Warriors" [ref=e429]:
+            - img "Wuzhizhou Island in Sanya, Hainan. maple90/Shutterstock" [ref=e431]
+            - generic [ref=e432]:
+              - generic [ref=e433]:
+                - generic [ref=e434]: May 17, 2025
+                - generic [ref=e435]: 5 min read
+              - link "Army of Terracotta Warriors" [ref=e436] [cursor=pointer]:
+                - /url: /articles/best-beaches-in-china
+                - generic [ref=e437]: The best beaches in China
+              - generic [ref=e438] [cursor=pointer]: Read Story
+        - listitem [ref=e439]:
+          - article "Summer Palace" [ref=e440]:
+            - img "Snow falls on the Hall of Preserving Harmony, the Forbidden City, Beijing, China. Fotokon/Shutterstock" [ref=e442]
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - generic [ref=e445]: May 8, 2025
+                - generic [ref=e446]: 7 min read
+              - link "Summer Palace" [ref=e447] [cursor=pointer]:
+                - /url: /articles/top-things-to-do-in-china
+                - generic [ref=e448]: 8 of the best things to do in China
+              - generic [ref=e449] [cursor=pointer]: Read Story
+        - listitem [ref=e450]:
+          - article "Yading Nature Reserve" [ref=e451]:
+            - img "A high-speed train in Chongqing, China. QinJin/Shutterstock" [ref=e453]
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - generic [ref=e456]: May 7, 2025
+                - generic [ref=e457]: 6 min read
+              - link "Yading Nature Reserve" [ref=e458] [cursor=pointer]:
+                - /url: /articles/getting-around-china
+                - generic [ref=e459]: Visiting China? Here’s how to get around in the country
+              - generic [ref=e460] [cursor=pointer]: Read Story
+        - listitem [ref=e461]:
+          - article "Maijishan Grottoes" [ref=e462]:
+            - img "Sunrise over Hua Shan, Anhui. Germhess/Shutterstock" [ref=e464]
+            - generic [ref=e465]:
+              - generic [ref=e466]:
+                - generic [ref=e467]: May 5, 2025
+                - generic [ref=e468]: 9 min read
+              - link "Maijishan Grottoes" [ref=e469] [cursor=pointer]:
+                - /url: /articles/best-national-parks-china
+                - generic [ref=e470]: 12 of China’s most fascinating national parks
+              - generic [ref=e471] [cursor=pointer]: Read Story
+        - listitem [ref=e472]:
+          - 'article "How to get your cell phone connected in China: eSIMs, wi-fi and mobile networks" [ref=e473]':
+            - img "Mutianyu Section of the Great Wall of China. Adwo/Shutterstock" [ref=e475]
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - generic [ref=e478]: Apr 28, 2025
+                - generic [ref=e479]: 8 min read
+              - 'link "How to get your cell phone connected in China: eSIMs, wi-fi and mobile networks" [ref=e480] [cursor=pointer]':
+                - /url: /articles/get-connected-china
+                - generic [ref=e481]: "How to get your cell phone connected in China: eSIMs, wi-fi and mobile networks"
+              - generic [ref=e482] [cursor=pointer]: Read Story
+        - listitem [ref=e483]:
+          - article "What to eat and drink in China" [ref=e484]:
+            - img "Outdoor tea shop in Chengdu, China. peacefoo/Shutterstock" [ref=e486]
+            - generic [ref=e487]:
+              - generic [ref=e488]:
+                - generic [ref=e489]: Apr 18, 2025
+                - generic [ref=e490]: 6 min read
+              - link "What to eat and drink in China" [ref=e491] [cursor=pointer]:
+                - /url: /articles/what-to-eat-and-drink-in-china
+                - generic [ref=e492]: What to eat and drink in China
+              - generic [ref=e493] [cursor=pointer]: Read Story
+        - listitem [ref=e494]:
+          - article "The best time of year to visit China" [ref=e495]:
+            - img "Spring flowers in bloom in Wùyuán. chinaface/Getty Images" [ref=e497]
+            - generic [ref=e498]:
+              - generic [ref=e499]:
+                - generic [ref=e500]: Apr 14, 2025
+                - generic [ref=e501]: 7 min read
+              - link "The best time of year to visit China" [ref=e502] [cursor=pointer]:
+                - /url: /articles/best-time-to-visit-china
+                - generic [ref=e503]: The best time of year to visit China
+              - generic [ref=e504] [cursor=pointer]: Read Story
+        - listitem [ref=e505]:
+          - article "How do I get a visa for China?" [ref=e506]:
+            - img "The first step towards walking along the Great Wall is getting a visa for China. fotohunter / Shutterstock" [ref=e508]
+            - generic [ref=e509]:
+              - generic [ref=e510]:
+                - generic [ref=e511]: Sep 20, 2024
+                - generic [ref=e512]: 5 min read
+              - link "How do I get a visa for China?" [ref=e513] [cursor=pointer]:
+                - /url: /articles/visa-requirements-for-china
+                - generic [ref=e514]: How do I get a visa for China?
+              - generic [ref=e515] [cursor=pointer]: Read Story
+        - listitem [ref=e516]:
+          - 'article "Jiangsu Province: Welcome to the Land of Water" [ref=e517]':
+            - img "Jiangsu_Water_Grand_Canal.jpg" [ref=e519]
+            - generic [ref=e520]:
+              - generic [ref=e521]:
+                - generic [ref=e522]: Jun 2, 2022
+                - generic [ref=e523]: 6 min read
+              - 'link "Jiangsu Province: Welcome to the Land of Water" [ref=e524] [cursor=pointer]':
+                - /url: /articles/jiangsu-province-land-of-water
+                - generic [ref=e525]: "Jiangsu Province: Welcome to the Land of Water"
+              - generic [ref=e526] [cursor=pointer]: Read Story
+        - listitem [ref=e527]:
+          - 'article "China''s Xishuangbanna: 10 best outdoor adventure experiences" [ref=e528]':
+            - img "A young man painting sketch in Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences. Located in Menglun Town, Mengla County, Yunnan Province, China." [ref=e530]
+            - generic [ref=e531]:
+              - generic [ref=e532]:
+                - generic [ref=e533]: Jan 10, 2022
+                - generic [ref=e534]: 6 min read
+              - 'link "China''s Xishuangbanna: 10 best outdoor adventure experiences" [ref=e535] [cursor=pointer]':
+                - /url: /articles/best-outdoor-experiences-in-xishuangbanna
+                - generic [ref=e536]: "China's Xishuangbanna: 10 best outdoor adventure experiences"
+              - generic [ref=e537] [cursor=pointer]: Read Story
+    - generic [ref=e539]:
+      - generic [ref=e540]:
+        - heading "Get a book. Get inspired. Get exploring." [level=2] [ref=e542]
+        - generic [ref=e543]:
+          - link "Explore all books" [ref=e544] [cursor=pointer]:
+            - /url: https://shop.lonelyplanet.com/?utm_source=lonelyplanet&utm_campaign=hubsdriver&utm_content=china
+          - generic [ref=e545]:
+            - button "Previous slide" [disabled] [ref=e546]:
+              - img [ref=e547]
+            - button "Next slide" [ref=e549]:
+              - img [ref=e550]
+      - list [ref=e552]:
+        - listitem [ref=e553]:
+          - article [ref=e554]:
+            - generic [ref=e556]:
+              - 'generic "Category: Guide" [ref=e557]': Guide
+              - 'link "China Price: $34.99" [ref=e558] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/china?utm_source=lonelyplanet&utm_campaign=hubsdriver&utm_content=china
+                - generic [ref=e559]: China
+              - generic [ref=e560]:
+                - generic [ref=e561] [cursor=pointer]: Shop Book
+                - 'generic "Price: $34.99" [ref=e562]':
+                  - generic [ref=e563]: $34.99
+        - listitem [ref=e564]:
+          - article [ref=e565]:
+            - generic [ref=e567]:
+              - 'generic "Category: Guide" [ref=e568]': Guide
+              - 'link "Pocket Shanghai Price: $14.99" [ref=e569] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/pocket-shanghai?utm_source=lonelyplanet&utm_campaign=hubsdriver&utm_content=china
+                - generic [ref=e570]: Pocket Shanghai
+              - generic [ref=e571]:
+                - generic [ref=e572] [cursor=pointer]: Shop Book
+                - 'generic "Price: $14.99" [ref=e573]':
+                  - generic [ref=e574]: $14.99
+        - listitem [ref=e575]:
+          - article [ref=e576]:
+            - generic [ref=e578]:
+              - 'generic "Category: Guide" [ref=e579]': Guide
+              - 'link "Pocket Beijing Price: $14.99" [ref=e580] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/pocket-beijing?utm_source=lonelyplanet&utm_campaign=hubsdriver&utm_content=china
+                - generic [ref=e581]: Pocket Beijing
+              - generic [ref=e582]:
+                - generic [ref=e583] [cursor=pointer]: Shop Book
+                - 'generic "Price: $14.99" [ref=e584]':
+                  - generic [ref=e585]: $14.99
+    - generic [ref=e587]:
+      - generic [ref=e588]:
+        - heading "China and beyond" [level=2] [ref=e590]
+        - generic [ref=e591]:
+          - link "View all" [ref=e592] [cursor=pointer]:
+            - /url: /destinations?slug=china
+          - generic [ref=e593]:
+            - button "Previous slide" [disabled] [ref=e594]:
+              - img [ref=e595]
+            - button "Next slide" [ref=e597]:
+              - img [ref=e598]
+      - list [ref=e600]:
+        - listitem [ref=e601]:
+          - article "Hong Kong" [ref=e602]:
+            - 'img "HONG KONG - JUN 6: Temple Street: It is known for its night market and one of the busiest flea markets at night in the territory. June 6, 2015 in Hong Kong 369907814 asia, asian, bazaar, building, business, busy, buying, cantonese, center, china, chinese, city, colorful, crowd, crowded, culture, dinner, downtown, eat, flea, food, hawker, hong, hongkong, kong, light, market, neon, night, october, people, retail, scene, sell, shop, stall, store, street, temple, tent, tourism, tourist, town, trade, travel, urban, vendor, walk" [ref=e604]'
+            - generic [ref=e605]:
+              - generic [ref=e607]: destination
+              - link "Hong Kong" [ref=e608] [cursor=pointer]:
+                - /url: /destinations/china/hong-kong
+                - generic [ref=e609]: Hong Kong
+              - generic [ref=e610] [cursor=pointer]: Discover
+        - listitem [ref=e611]:
+          - article "Hong Kong" [ref=e612]:
+            - img "Young Tibetan Woman Wearing Traditional Hair Accessories" [ref=e614]
+            - generic [ref=e615]:
+              - generic [ref=e617]: destination
+              - link "Hong Kong" [ref=e618] [cursor=pointer]:
+                - /url: /destinations/china/tibet
+                - generic [ref=e619]: Tibet
+              - generic [ref=e620] [cursor=pointer]: Discover
+        - listitem [ref=e621]:
+          - article "Hong Kong" [ref=e622]:
+            - img "Skyline night view from Bund waterfront on Pudong New Area, Shanghai." [ref=e624]
+            - generic [ref=e625]:
+              - generic [ref=e627]: destination
+              - link "Hong Kong" [ref=e628] [cursor=pointer]:
+                - /url: /destinations/china/shanghai
+                - generic [ref=e629]: Shanghai
+              - generic [ref=e630] [cursor=pointer]: Discover
+        - listitem [ref=e631]:
+          - article "Hong Kong" [ref=e632]:
+            - img "Imperial shopfronts in traditional hutong district." [ref=e634]
+            - generic [ref=e635]:
+              - generic [ref=e637]: destination
+              - link "Hong Kong" [ref=e638] [cursor=pointer]:
+                - /url: /destinations/china/beijing
+                - generic [ref=e639]: Beijing
+              - generic [ref=e640] [cursor=pointer]: Discover
+        - listitem [ref=e641]:
+          - article "Hong Kong" [ref=e642]:
+            - img "China, Yunnan province, Lijiang, listed as World Heritage by UNESCO, Black Dragon Pool and Jade Drag" [ref=e644]
+            - generic [ref=e645]:
+              - generic [ref=e647]: destination
+              - link "Hong Kong" [ref=e648] [cursor=pointer]:
+                - /url: /destinations/china/yunnan
+                - generic [ref=e649]: Yunnan
+              - generic [ref=e650] [cursor=pointer]: Discover
+        - listitem [ref=e651]:
+          - article "Hong Kong" [ref=e652]:
+            - img "China, Sichuan Province, Leshan, Leshan Giant Buddha" [ref=e654]
+            - generic [ref=e655]:
+              - generic [ref=e657]: destination
+              - link "Hong Kong" [ref=e658] [cursor=pointer]:
+                - /url: /destinations/china/sichuan
+                - generic [ref=e659]: Sichuan
+              - generic [ref=e660] [cursor=pointer]: Discover
+        - listitem [ref=e661]:
+          - article "Hong Kong" [ref=e662]:
+            - img "Sinkiang,China" [ref=e664]
+            - generic [ref=e665]:
+              - generic [ref=e667]: destination
+              - link "Hong Kong" [ref=e668] [cursor=pointer]:
+                - /url: /destinations/china/xinjiang
+                - generic [ref=e669]: Xinjiang
+              - generic [ref=e670] [cursor=pointer]: Discover
+        - listitem [ref=e671]:
+          - article "Hong Kong" [ref=e672]:
+            - img "Diaolou, fortified multi-storey tower built mainly for protection against bandits - Kaiping County." [ref=e674]
+            - generic [ref=e675]:
+              - generic [ref=e677]: destination
+              - link "Hong Kong" [ref=e678] [cursor=pointer]:
+                - /url: /destinations/china/guangdong
+                - generic [ref=e679]: Guangdong
+              - generic [ref=e680] [cursor=pointer]: Discover
+  - contentinfo "Site footer" [ref=e681]:
+    - region "Main footer content" [ref=e682]:
+      - generic [ref=e684]:
+        - generic "Brand and social media section" [ref=e685]:
+          - link "Lonely Planet Home" [ref=e686] [cursor=pointer]:
+            - /url: /
+            - img "Lonely Planet Home" [ref=e687]
+          - paragraph [ref=e701]: Our guides. your stories.
+          - heading "Travel with the app" [level=3] [ref=e702]
+          - generic [ref=e703]:
+            - link "Download on the App Store" [ref=e704] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/lonely-planet-plan-travel/id6743324581
+              - img [ref=e705]
+            - link "Get it on Google Play" [ref=e712] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.lonelyplanet.app
+              - img [ref=e713]
+          - heading "Follow us" [level=3] [ref=e722]
+          - navigation "Social media links" [ref=e724]:
+            - list [ref=e725]:
+              - listitem [ref=e726]:
+                - link "Follow us on Facebook" [ref=e727] [cursor=pointer]:
+                  - /url: https://www.facebook.com/lonelyplanet
+                  - img "Lonely Planet on Facebook" [ref=e728]
+              - listitem [ref=e730]:
+                - link "Follow us on Instagram" [ref=e731] [cursor=pointer]:
+                  - /url: https://www.instagram.com/lonelyplanet
+                  - img "Lonely Planet on Instagram" [ref=e732]
+              - listitem [ref=e736]:
+                - link "Follow us on YouTube" [ref=e737] [cursor=pointer]:
+                  - /url: https://www.youtube.com/lonelyplanet
+                  - img "Lonely Planet on YouTube" [ref=e738]
+              - listitem [ref=e740]:
+                - link "Follow us on Pinterest" [ref=e741] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/lonelyplanet
+                  - img "Lonely Planet on Pinterest" [ref=e742]
+          - heading "Join our Newsletter" [level=3] [ref=e744]
+          - region "Footer newsletter signup form" [ref=e746]:
+            - heading "Get exclusive discounts & more!" [level=3] [ref=e747]
+            - form [ref=e748]:
+              - textbox [ref=e751]:
+                - /placeholder: Email address
+              - textbox [ref=e752]
+              - button "Sign up for the newsletter" [ref=e753] [cursor=pointer]: Sign Up
+              - paragraph [ref=e754]:
+                - text: Subscribe to Lonely Planet newsletters and promotions.
+                - generic [ref=e755]:
+                  - text: Read our
+                  - link "Read our Privacy Policy" [ref=e756] [cursor=pointer]:
+                    - /url: /legal
+                    - text: Privacy Policy.
+        - generic "Footer navigation" [ref=e757]:
+          - generic [ref=e758]:
+            - navigation "Top destinations navigation" [ref=e759]:
+              - group [ref=e760]:
+                - generic "Top destinations":
+                  - heading "Top destinations" [level=3]
+                - list "Top destinations navigation links" [ref=e761]:
+                  - listitem [ref=e762]:
+                    - link "New York City - Top destinations section" [ref=e763] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/new-york-city
+                      - text: New York City
+                  - listitem [ref=e764]:
+                    - link "Paris - Top destinations section" [ref=e765] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/france/paris
+                      - text: Paris
+                  - listitem [ref=e766]:
+                    - link "Italy - Top destinations section" [ref=e767] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/italy
+                      - text: Italy
+                  - listitem [ref=e768]:
+                    - link "Costa Rica - Top destinations section" [ref=e769] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/costa-rica
+                      - text: Costa Rica
+                  - listitem [ref=e770]:
+                    - link "Japan - Top destinations section" [ref=e771] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/japan
+                      - text: Japan
+                  - listitem [ref=e772]:
+                    - link "USA - Top destinations section" [ref=e773] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa
+                      - text: USA
+                  - listitem [ref=e774]:
+                    - link "Amsterdam - Top destinations section" [ref=e775] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/the-netherlands/amsterdam
+                      - text: Amsterdam
+                  - listitem [ref=e776]:
+                    - link "Portugal - Top destinations section" [ref=e777] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/portugal
+                      - text: Portugal
+                  - listitem [ref=e778]:
+                    - link "Cancún - Top destinations section" [ref=e779] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/mexico/cancun
+                      - text: Cancún
+                  - listitem [ref=e780]:
+                    - link "Chicago - Top destinations section" [ref=e781] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/chicago
+                      - text: Chicago
+                  - listitem [ref=e782]:
+                    - link "England - Top destinations section" [ref=e783] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/england
+                      - text: England
+                  - listitem [ref=e784]:
+                    - link "Tokyo - Top destinations section" [ref=e785] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/japan/tokyo
+                      - text: Tokyo
+                  - listitem [ref=e786]:
+                    - link "France - Top destinations section" [ref=e787] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/france
+                      - text: France
+                  - listitem [ref=e788]:
+                    - link "Thailand - Top destinations section" [ref=e789] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/thailand
+                      - text: Thailand
+                  - listitem [ref=e790]:
+                    - link "Ireland - Top destinations section" [ref=e791] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/ireland
+                      - text: Ireland
+                  - listitem [ref=e792]:
+                    - link "Rome - Top destinations section" [ref=e793] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/italy/rome
+                      - text: Rome
+                  - listitem [ref=e794]:
+                    - link "London - Top destinations section" [ref=e795] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/england/london
+                      - text: London
+                  - listitem [ref=e796]:
+                    - link "Los Angeles - Top destinations section" [ref=e797] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/los-angeles
+                      - text: Los Angeles
+                  - listitem [ref=e798]:
+                    - link "Mexico - Top destinations section" [ref=e799] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/mexico
+                      - text: Mexico
+                  - listitem [ref=e800]:
+                    - link "San Francisco - Top destinations section" [ref=e801] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/san-francisco
+                      - text: San Francisco
+                  - listitem [ref=e802]:
+                    - link "Explore More Destinations - Top destinations section" [ref=e803] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations
+                      - text: Explore More Destinations
+            - navigation "Travel Interests navigation" [ref=e804]:
+              - group [ref=e805]:
+                - generic "Travel Interests":
+                  - heading "Travel Interests" [level=3]
+                - list "Travel Interests navigation links" [ref=e806]:
+                  - listitem [ref=e807]:
+                    - link "Adventure Travel - Travel Interests section" [ref=e808] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/adventure
+                      - text: Adventure Travel
+                  - listitem [ref=e809]:
+                    - link "Art and Culture - Travel Interests section" [ref=e810] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/art-and-culture
+                      - text: Art and Culture
+                  - listitem [ref=e811]:
+                    - link "Beaches, Coasts and Islands - Travel Interests section" [ref=e812] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/beaches
+                      - text: Beaches, Coasts and Islands
+                  - listitem [ref=e813]:
+                    - link "Family Holidays - Travel Interests section" [ref=e814] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/family-travel
+                      - text: Family Holidays
+                  - listitem [ref=e815]:
+                    - link "Festivals - Travel Interests section" [ref=e816] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/festivals-and-events
+                      - text: Festivals
+                  - listitem [ref=e817]:
+                    - link "Food and Drink - Travel Interests section" [ref=e818] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/food-and-drink
+                      - text: Food and Drink
+                  - listitem [ref=e819]:
+                    - link "Honeymoon and Romance - Travel Interests section" [ref=e820] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/romance
+                      - text: Honeymoon and Romance
+                  - listitem [ref=e821]:
+                    - link "Road Trips - Travel Interests section" [ref=e822] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/road-trips
+                      - text: Road Trips
+                  - listitem [ref=e823]:
+                    - link "Sustainable Travel - Travel Interests section" [ref=e824] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/sustainable-travel
+                      - text: Sustainable Travel
+                  - listitem [ref=e825]:
+                    - link "Travel Advice - Travel Interests section" [ref=e826] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/travel-advice
+                      - text: Travel Advice
+                  - listitem [ref=e827]:
+                    - link "Travel on a Budget - Travel Interests section" [ref=e828] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/budget-travel
+                      - text: Travel on a Budget
+                  - listitem [ref=e829]:
+                    - link "Wildlife and Nature - Travel Interests section" [ref=e830] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/wildlife-and-nature
+                      - text: Wildlife and Nature
+            - navigation "Shop navigation" [ref=e831]:
+              - group [ref=e832]:
+                - generic "Shop":
+                  - heading "Shop" [level=3]
+                - list "Shop navigation links" [ref=e833]:
+                  - listitem [ref=e834]:
+                    - link "Destination Guides - Shop section" [ref=e835] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com/collections/guidebooks?utm_source=lonelyplanet&utm_campaign=footer&utm_content=destinationguides
+                      - text: Destination Guides
+                  - listitem [ref=e836]:
+                    - link "Lonely Planet Kids - Shop section" [ref=e837] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com/pages/lonely-planet-kids?utm_source=lonelyplanet&utm_campaign=footer&utm_content=lpkids
+                      - text: Lonely Planet Kids
+                  - listitem [ref=e838]:
+                    - link "Lonely Planet Shop - Shop section" [ref=e839] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com?utm_source=lonelyplanet&utm_campaign=footer&utm_content=lpshop
+                      - text: Lonely Planet Shop
+                  - listitem [ref=e840]:
+                    - link "Non-English Guides - Shop section" [ref=e841] [cursor=pointer]:
+                      - /url: https://support.lonelyplanet.com/hc/en-us/articles/218157937-General-guidebook-information-?utm_source=lonelyplanet&utm_campaign=footer&utm_content=nonenglishguides#product3
+                      - text: Non-English Guides
+            - navigation "About Us navigation" [ref=e842]:
+              - group [ref=e843]:
+                - generic "About Us":
+                  - heading "About Us" [level=3]
+                - list "About Us navigation links" [ref=e844]:
+                  - listitem [ref=e845]:
+                    - link "About Lonely Planet - About Us section" [ref=e846] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/about
+                      - text: About Lonely Planet
+                  - listitem [ref=e847]:
+                    - link "Correspondent Network - About Us section" [ref=e848] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/correspondents
+                      - text: Correspondent Network
+                  - listitem [ref=e849]:
+                    - link "Contact Us - About Us section" [ref=e850] [cursor=pointer]:
+                      - /url: https://support.lonelyplanet.com/hc/en-us
+                      - text: Contact Us
+                  - listitem [ref=e851]:
+                    - link "Trade and Advertising - About Us section" [ref=e852] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/press-trade-advertising
+                      - text: Trade and Advertising
+                  - listitem [ref=e853]:
+                    - link "Privacy Policy - About Us section" [ref=e854] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/legal/privacy-policy
+                      - text: Privacy Policy
+                  - listitem [ref=e855]:
+                    - link "Terms and Conditions - About Us section" [ref=e856] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/legal/website-terms
+                      - text: Terms and Conditions
+                  - listitem [ref=e857]:
+                    - link "Work For Us - About Us section" [ref=e858] [cursor=pointer]:
+                      - /url: https://www.redventures.com/careers/brands/lonely-planet
+                      - text: Work For Us
+                  - listitem [ref=e859]:
+                    - link "Sitemap - About Us section" [ref=e860] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/sitemaps
+                      - text: Sitemap
+                  - listitem [ref=e861]:
+                    - link "Consumer Health Data Privacy Policy - About Us section" [ref=e862] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/consumer-health-data-privacy-policy
+                      - text: Consumer Health Data Privacy Policy
+                  - listitem [ref=e863]:
+                    - button "Open cookie settings" [ref=e864] [cursor=pointer]: Cookie Settings
+                  - listitem [ref=e865]:
+                    - link "Do Not Sell or Share My Personal Information (opens in new tab)" [ref=e866] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/do-not-sell-or-share-my-personal-information
+                      - text: Do Not Sell or Share My Personal Information
+    - region "Footer legal and language selection" [ref=e867]:
+      - generic [ref=e868]:
+        - paragraph [ref=e869]: © 2026 Lonely Planet, a Red Ventures company. All rights reserved. No part of this site may be reproduced without our written permission.
+        - 'button "Language: English" [ref=e874] [cursor=pointer]':
+          - paragraph: "Language: English"
+          - img

@@ -1,0 +1,361 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778318794343,
+  "projectRoot": "c:\\Users\\h\\Documents\\New project 2",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 3,
+      "lastAccessed": 1778318794182,
+      "keyFiles": [
+        "china-map-gs2022-4309.jpg",
+        "china-province-shapes.json",
+        "three.module.min.js"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1778318794196,
+      "keyFiles": [
+        "atlas-records.js",
+        "i18n.js",
+        "map-sources.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "v2\\src\\App.tsx",
+      "accessCount": 17,
+      "lastAccessed": 1778424143243,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\HeroMap.tsx",
+      "accessCount": 15,
+      "lastAccessed": 1778341288625,
+      "type": "file"
+    },
+    {
+      "path": "PROJECT_PLAN.md",
+      "accessCount": 12,
+      "lastAccessed": 1778348156129,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\ProvinceShapeLayer.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1778340972771,
+      "type": "file"
+    },
+    {
+      "path": "v2\\package.json",
+      "accessCount": 6,
+      "lastAccessed": 1778424146326,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\ProvinceLabelLayer.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1778341776910,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\main.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1778424144701,
+      "type": "file"
+    },
+    {
+      "path": "styles.css",
+      "accessCount": 4,
+      "lastAccessed": 1778318950067,
+      "type": "directory"
+    },
+    {
+      "path": "v2\\src\\data\\i18n.ts",
+      "accessCount": 4,
+      "lastAccessed": 1778340720862,
+      "type": "file"
+    },
+    {
+      "path": "v2\\vite.config.ts",
+      "accessCount": 4,
+      "lastAccessed": 1778423941738,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\styles\\globals.css",
+      "accessCount": 3,
+      "lastAccessed": 1778340913426,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\layout\\SiteHeader.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1778378022960,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\layout\\SiteFooter.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1778422829234,
+      "type": "file"
+    },
+    {
+      "path": "map3d.js",
+      "accessCount": 2,
+      "lastAccessed": 1778319057020,
+      "type": "file"
+    },
+    {
+      "path": "v2\\index.html",
+      "accessCount": 2,
+      "lastAccessed": 1778319712517,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\lib\\search.ts",
+      "accessCount": 2,
+      "lastAccessed": 1778320488721,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\hooks\\useCityViews.ts",
+      "accessCount": 2,
+      "lastAccessed": 1778320494211,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\lib\\shapes.ts",
+      "accessCount": 2,
+      "lastAccessed": 1778321137102,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\Map3D.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778341127895,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 1,
+      "lastAccessed": 1778318823149,
+      "type": "file"
+    },
+    {
+      "path": "app.js",
+      "accessCount": 1,
+      "lastAccessed": 1778318830308,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n.js",
+      "accessCount": 1,
+      "lastAccessed": 1778318831530,
+      "type": "file"
+    },
+    {
+      "path": "src\\atlas-records.js",
+      "accessCount": 1,
+      "lastAccessed": 1778318831827,
+      "type": "file"
+    },
+    {
+      "path": "src\\map-sources.js",
+      "accessCount": 1,
+      "lastAccessed": 1778318831913,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\data\\atlas.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778319577585,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\data\\map-sources.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778319664486,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\lib\\i18n.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778319674233,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\lib\\format.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778319675708,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\hooks\\useLanguage.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778319701180,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\AtlasContext.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319705057,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\LanguageContext.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319843149,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\layout\\LanguageSwitch.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319849936,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\search\\PlaceSearch.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319858232,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\ProvinceClickLayer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319872122,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\ProvincePop.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319909656,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\sections\\HistoryVideo.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319924900,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\atlas\\ProvinceRail.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319932042,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\atlas\\CityList.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319941057,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\atlas\\CityProfile.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319956234,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\atlas\\AtlasSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319961988,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\sections\\MuseumFlow.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319965846,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\sections\\SourcesNote.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778319968377,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\atlas.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778320431642,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\AtlasProvider.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778320433529,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\language.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778320435418,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\LanguageProvider.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778320439617,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\hooks\\useProvinceShapes.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778320452411,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\Province3DOverlay.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778320865938,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\hooks\\useAnimatedTransform.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778321128948,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\map\\ProvinceInfoCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778321564244,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

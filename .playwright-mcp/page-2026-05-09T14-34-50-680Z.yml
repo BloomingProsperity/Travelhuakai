@@ -1,0 +1,17 @@
+- iframe [ref=e2]:
+  - generic [ref=f16e2]:
+    - img [ref=f16e6]
+    - paragraph [ref=f16e9]: 访问暂时受限
+    - generic [ref=f16e11]:
+      - generic [ref=f16e12]:
+        - paragraph [ref=f16e13]: 为什么需要经过「我不是机器人」的验证? 在您浏览网页过程中，
+        - paragraph [ref=f16e14]: 可能有以下几种原因启动此验证程式：
+        - list [ref=f16e15]:
+          - listitem [ref=f16e16]: "-系统侦测到您浏览网页的速度异常，为非正常操作。"
+          - listitem [ref=f16e17]: "-您的电脑设定/软体阻挡网页 Javascript 程式运行。"
+          - listitem [ref=f16e18]: "-您使用的IP位址(IP:95.181.188.98)与网路机器人相同。"
+      - generic [ref=f16e19]:
+        - paragraph [ref=f16e20]:
+          - text: 无法操作验证页面?
+          - button "联络我们" [ref=f16e21] [cursor=pointer]
+        - paragraph [ref=f16e22]: "ID: ef5b0e7a-dcf6-7f63-77e4-12143fb2b1c9"

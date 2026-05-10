@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+v2/node_modules/
+
+# Build outputs
+v2/dist/
+dist/
+build/
+
+# Vite cache
+v2/.vite/
+v2/node_modules/.vite/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+.cache/
+.turbo/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Claude artifacts (research kept, transcripts not)
+.claude/
+.omc/cache/

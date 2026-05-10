@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #18201d;
+  --color-muted: #5b6863;
+  --color-line: #d4dbd7;
+  --color-paper: #f6f8f6;
+  --color-jade: #176f62;
+  --color-jade-soft: rgba(23, 112, 97, 0.08);
+  --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

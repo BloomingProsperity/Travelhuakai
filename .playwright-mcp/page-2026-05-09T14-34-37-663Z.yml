@@ -1,0 +1,692 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: 我的看板
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "所有" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "gaming" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gaming/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "worldnews" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "news" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "todayilearned" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "nottheonion" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "DIY" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "videos" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "tifu" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "Music" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "books" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "LifeProTips" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "aww" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "science" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "space" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "askscience" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Jokes" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "Art" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "IAmA" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "Futurology" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "sports" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "food" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "nosleep" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "creepy" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "history" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "gifs" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "GetMotivated" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "gadgets" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "announcements" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "philosophy" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "Documentaries" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "EarthPorn" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "listentothis" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e109]:
+            - text: "-"
+            - link "blog" [ref=e110] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "更多 »" [ref=e111] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e112]:
+      - link "travelchina" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/
+        - img "travelchina" [ref=e114]
+      - link "travelchina" [ref=e116] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/travelchina/
+      - list [ref=e117]:
+        - listitem [ref=e118]:
+          - link "熱門" [ref=e119] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/travelchina/
+        - listitem [ref=e120]:
+          - link "最新" [ref=e121] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/travelchina/new/
+        - listitem [ref=e122]:
+          - link "好評上升中" [ref=e123] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/travelchina/rising/
+        - listitem [ref=e124]:
+          - link "具爭議的" [ref=e125] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/travelchina/controversial/
+        - listitem [ref=e126]:
+          - link "頭等" [ref=e127] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/travelchina/top/
+        - listitem [ref=e128]:
+          - link "wiki" [ref=e129] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/travelchina/wiki/
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - text: Want to join?
+        - link "Log in" [ref=e132] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "註冊" [ref=e133] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e134]:
+    - search [ref=e136]:
+      - textbox "搜尋" [ref=e137]
+      - button "Submit" [ref=e138] [cursor=pointer]
+    - link "發表新連結" [ref=e142] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/travelchina/submit
+    - link "發表新文章" [ref=e147] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/travelchina/submit?selftext=true
+    - generic [ref=e150]:
+      - heading "travelchina" [level=1] [ref=e151]:
+        - link "travelchina" [ref=e152] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/travelchina/
+      - link "join" [ref=e154] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e157]:
+        - paragraph [ref=e158]:
+          - strong [ref=e159]: "Maps:"
+          - link "Rail" [ref=e160] [cursor=pointer]:
+            - /url: http://railmap.cn
+          - text: ","
+          - link "HSR" [ref=e161] [cursor=pointer]:
+            - /url: http://en.wikipedia.org/wiki/High-speed_rail_in_China#Track_network
+          - strong [ref=e162]: "Apps:"
+          - link "Pleco" [ref=e163] [cursor=pointer]:
+            - /url: https://www.pleco.com/
+          - text: ","
+          - link "WeChat" [ref=e164] [cursor=pointer]:
+            - /url: https://web.wechat.com/
+          - strong [ref=e165]: Flights
+          - text: ":"
+          - link "Ctrip" [ref=e166] [cursor=pointer]:
+            - /url: http://english.ctrip.com
+          - text: ","
+          - link "eLong" [ref=e167] [cursor=pointer]:
+            - /url: http://flight.elong.net
+          - text: ","
+          - link "Qunar" [ref=e168] [cursor=pointer]:
+            - /url: http://flight.qunar.com/
+          - strong [ref=e169]: Wiki
+          - text: ":"
+          - link "Voyage" [ref=e170] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/China
+          - text: ", Trave"
+          - link "l" [ref=e171] [cursor=pointer]:
+            - /url: http://wikitravel.org/en/China
+        - heading "2 weeks in Northeast:" [level=2] [ref=e172]
+        - paragraph [ref=e173]:
+          - link "Beijing" [ref=e174] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Beijing
+          - text: "{"
+          - link "Great Wall" [ref=e175] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Great_Wall_of_China
+          - text: ","
+          - link "Mt Tai" [ref=e176] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Mount_Tai
+          - text: "}"
+          - link "Shanghai" [ref=e177] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Shanghai
+          - text: "{"
+          - link "West Lake" [ref=e178] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Hangzhou
+          - text: ","
+          - link "Suzhou" [ref=e179] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Suzhou
+          - text: "}"
+          - link "Xi'an" [ref=e180] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Xi%27an
+          - text: "{"
+          - link "Mt Hua" [ref=e181] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Huashan_National_Park
+          - text: "}"
+        - heading "2 weeks in Southwest:" [level=2] [ref=e182]
+        - paragraph [ref=e183]:
+          - link "Guangzhou" [ref=e184] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Guangzhou
+          - text: /
+          - link "SZ" [ref=e185] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Shenzhen
+          - text: "{"
+          - link "HK" [ref=e186] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Hong_Kong
+          - text: ","
+          - link "Macau" [ref=e187] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Macau
+          - text: "}"
+          - link "Fenghuang" [ref=e188] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Fenghuang
+          - text: /
+          - link "Zhangjiajie" [ref=e189] [cursor=pointer]:
+            - /url: http://www.zhangjiajietourism.us/plan-maps.html
+          - text: "{"
+          - link "Wulingyuan" [ref=e190] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Wulingyuan
+          - text: "}"
+          - link "Guilin" [ref=e191] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Guilin
+          - text: "{"
+          - link "Xingping" [ref=e192] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Xingping
+          - text: ","
+          - link "Yangshuo" [ref=e193] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Yangshuo
+          - text: "}"
+          - link "Chengdu" [ref=e194] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Chengdu
+          - text: "{"
+          - link "Mt Emei" [ref=e195] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/Mount_Emei
+          - text: ","
+          - link "Giant Buddha" [ref=e196] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Leshan#See
+          - text: "}"
+        - heading "Hike Wild China:" [level=1] [ref=e197]
+        - paragraph [ref=e198]:
+          - link "Yading" [ref=e199] [cursor=pointer]:
+            - /url: http://www.thelandofsnows.com/yading-sichuan/
+          - link "Yubeng" [ref=e200] [cursor=pointer]:
+            - /url: http://en.wikivoyage.org/wiki/Yubeng
+          - link "Tiger Leap Gorge" [ref=e201] [cursor=pointer]:
+            - /url: http://en.wikivoyage.org/wiki/Tiger_Leaping_Gorge
+          - link "Zhagana" [ref=e202] [cursor=pointer]:
+            - /url: http://www.tripadvisor.com/Attraction_Review-g1850928-d1851409-Reviews-Zhagana_Stone_Mountains-Diebu_County_Gansu.html
+        - heading "Trek Tibet (Kora):" [level=1] [ref=e203]
+        - paragraph [ref=e204]:
+          - link "Kawa Karpo" [ref=e205] [cursor=pointer]:
+            - /url: http://www.kawakarpo.de/e/herbst09.html
+          - link "Amnye Machen" [ref=e206] [cursor=pointer]:
+            - /url: http://www.thelandofsnows.com/update-on-amnye-machen/
+          - link "Kailash" [ref=e207] [cursor=pointer]:
+            - /url: https://www.tripadvisor.com/ShowUserReviews-g1221429-d510056-r180980558-Mount_Kailash-Burang_County_Tibet.html
+          - text: (costly)
+        - heading "Blogs:" [level=1] [ref=e208]
+        - paragraph [ref=e209]:
+          - link "Travel Cathay" [ref=e210] [cursor=pointer]:
+            - /url: http://travelcathay.com
+          - link "China Normad" [ref=e211] [cursor=pointer]:
+            - /url: http://www.chinanomads.com
+          - link "Far West China" [ref=e212] [cursor=pointer]:
+            - /url: http://www.farwestchina.com/blog
+          - link "Land of Snows" [ref=e213] [cursor=pointer]:
+            - /url: http://www.thelandofsnows.com/
+        - heading "Chinese links:" [level=1] [ref=e214]
+        - paragraph [ref=e215]:
+          - link "8264" [ref=e216] [cursor=pointer]:
+            - /url: http://bbs.8264.com/forum-forumdisplay-fid-52-page-1.html
+          - link "越野e族" [ref=e217] [cursor=pointer]:
+            - /url: http://bbs.fblife.com/forum_176.html
+          - link "蚂蜂窝" [ref=e218] [cursor=pointer]:
+            - /url: http://www.mafengwo.cn/
+        - heading "Other" [level=1] [ref=e219]
+        - paragraph [ref=e220]:
+          - link "Silk Road" [ref=e221] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Silk_Road#Overland_routes
+          - text: "{"
+          - link "Irkeshtam" [ref=e222] [cursor=pointer]:
+            - /url: http://www.farwestchina.com/2014/09/cross-xinjiangs-irkeshtam-border-kyrgyzstan.html
+          - text: "}"
+          - link "BingZhongLuo" [ref=e223] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Bingzhongluo
+          - link "Yangtze Cruise" [ref=e224] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Along_the_Yangtze_River
+          - link "Shaolin Temple" [ref=e225] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Songshan_National_Park
+          - link "Jiuzhaigou" [ref=e226] [cursor=pointer]:
+            - /url: https://en.wikivoyage.org/wiki/Jiuzhaigou_Nature_Reserve
+          - link "Guoluo Shan" [ref=e227] [cursor=pointer]:
+            - /url: http://www.mafengwo.cn/poi/7692609.html
+          - link "Future HSR Map" [ref=e228] [cursor=pointer]:
+            - /url: http://www.travelchinaguide.com/images/map/train/high-speed.jpg
+      - generic [ref=e230]:
+        - text: 社群已經成立
+        - time [ref=e231]: 13 年
+    - generic [ref=e233]:
+      - generic [ref=e234] [cursor=pointer]:
+        - heading "維基工具" [level=1] [ref=e235]
+        - generic [ref=e236]: "-"
+      - list [ref=e237]:
+        - listitem [ref=e238]:
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "最近維基修正" [ref=e241] [cursor=pointer]:
+                - /url: https://old.reddit.com/r/travelchina/wiki/revisions/
+            - listitem [ref=e242]:
+              - link "維基網頁清單" [ref=e243] [cursor=pointer]:
+                - /url: https://old.reddit.com/r/travelchina/wiki/pages/
+    - generic [ref=e245]:
+      - heading "板主" [level=1] [ref=e247]
+      - list [ref=e248]:
+        - listitem [ref=e249]:
+          - link "message the mods" [ref=e250] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/travelchina
+  - main [ref=e251]:
+    - generic [ref=e252]:
+      - heading "index" [level=1] [ref=e253]:
+        - strong [ref=e254]: index
+      - generic [ref=e255]:
+        - link "檢視" [ref=e256] [cursor=pointer]:
+          - /url: /r/travelchina/wiki/index
+        - link "歷程" [ref=e257] [cursor=pointer]:
+          - /url: /r/travelchina/wiki/revisions/index
+        - link "討論" [ref=e258] [cursor=pointer]:
+          - /url: /r/travelchina/wiki/discussions/index
+    - generic [ref=e259]:
+      - paragraph
+      - generic [ref=e260]:
+        - list [ref=e261]:
+          - listitem [ref=e262]:
+            - link "Great Wall" [ref=e263] [cursor=pointer]:
+              - /url: "#wiki_great_wall"
+          - listitem [ref=e264]:
+            - link "Yubeng 雨崩" [ref=e265] [cursor=pointer]:
+              - /url: "#wiki_yubeng_.96E8.5D29"
+          - listitem [ref=e266]:
+            - link "Yading 亚丁" [ref=e267] [cursor=pointer]:
+              - /url: "#wiki_yading_.4E9A.4E01"
+          - listitem [ref=e268]:
+            - link "Kawa Karpo Kora 梅里外转" [ref=e269] [cursor=pointer]:
+              - /url: "#wiki_kawa_karpo_kora_.6885.91CC.5916.8F6C"
+        - heading "Great Wall" [level=2] [ref=e270]
+        - paragraph [ref=e271]: From /user/zobdnel
+        - list [ref=e272]:
+          - listitem [ref=e273]:
+            - paragraph [ref=e274]:
+              - text: First, use the
+              - link "Great Wall Forum" [ref=e275] [cursor=pointer]:
+                - /url: http://www.greatwallforum.com/forum/forum/great-wall-locations/beijing-municipality/huairou-district/jiankou
+              - text: as your main resource, they have all the info you need, especially these
+              - link "maps" [ref=e276] [cursor=pointer]:
+                - /url: http://www.greatwallforum.com/forum/forum/great-wall-locations/beijing-municipality/huairou-district/jiankou/351-jiankou-maps
+              - text: of Jiankou. Spend a few hours on this forum and you will know everything you need, heck, pay the 10 USD and download their Google Earth map, it's super useful.
+          - listitem [ref=e277]:
+            - paragraph [ref=e278]:
+              - text: "Ok, transportation: I typically use a driver, about 600 Rmb for an all day trip, but I also speak decent Chinese and even then it can be a pain to find decent drivers. Your best bet would be to take a bus (1.5 hours) from the Dongzhimen bus station to the central Huiarou bus station and then negotiate with a driver to go to Jiankou (150 Rmb each way). You could also look up Mr. Zhao, who runs a hostel in Xizhazi village north of the wall, and he will drive you for a similar price."
+              - link "Contact details" [ref=e279] [cursor=pointer]:
+                - /url: http://www.greatwallforum.com/forum/forum/great-wall-locations/beijing-municipality/huairou-district/jiankou/653-zhao
+              - text: are stickied in the forum.
+          - listitem [ref=e280]:
+            - paragraph [ref=e281]:
+              - text: DO NOT take a tour group, with the sole exception of people like
+              - link "Beijing Hikers" [ref=e282] [cursor=pointer]:
+                - /url: http://www.beijinghikers.com/
+              - text: ", I would NEVER trust tour groups, it is way too easy to get scammed or have a really shitty experience. Jiankou is really easy to get to, you are not going to the more remote sections of the wall."
+          - listitem [ref=e283]:
+            - paragraph [ref=e284]:
+              - text: Jiankou has some very dangerous sections, I am an experienced hiker and decent scambler/climber, but from what I've seen I would not try to hike from Jiankou pass (check the map, I'm referring to a specific saddle rather the full section) to Zhengbeilou (the highest and most scenic tower), it is too dangerous. Instead, hike directly from Xizhazi village to Zhengbeilou as this
+              - link "post" [ref=e285] [cursor=pointer]:
+                - /url: http://www.greatwallforum.com/forum/forum/great-wall-locations/beijing-municipality/huairou-district/jiankou/582-how-to-reach-the-zhengbeilou-tower-at-the-jiankou-great-wall
+              - text: explains how to find.
+          - listitem [ref=e286]:
+            - paragraph [ref=e287]:
+              - text: I've read this week that the portion connecting Mutianyu and Jiankou is now blocked, but from the photo I saw you could easily get around it. However, if it were me, I would head back and spend the night in Xizhazi, Mr. Zhao's hostel looks quite comfortable. Alternatively, you could check out the
+              - link "Liyuan library" [ref=e288] [cursor=pointer]:
+                - /url: http://www.smartbeijing.com/articles/travel/offbeat-road-trip-to-liyuan-library
+              - text: as it is in the area on the drive back, be forewarned that it is only open on the weekends and only then till 4:00pm.
+        - paragraph [ref=e289]: Recommendations for other sections of the wall that I have been to.
+        - list [ref=e290]:
+          - listitem [ref=e291]:
+            - paragraph [ref=e292]: "Jinshanling: Completely rebuilt but amazing views of the wall sprawling out into the distance. I prefer the wild wall (and the farther out portions here are indeed wild) but this section is still worth it, not my favorite though."
+          - listitem [ref=e293]:
+            - paragraph [ref=e294]: "Gubeikou: The western section, Wohushan, is wild and has amazing views; the eastern section, Panlongshan, also wild, is a 6-8 hour hike connecting to Jinshanling; a bit easier than Wohushan but still nice views."
+          - listitem [ref=e295]:
+            - paragraph [ref=e296]:
+              - text: "Dayingpan: One of my favorite hikes, more remote but very, very wild and completely unknown by 99% of wall hikers, even enthusiasts (we saw no one). Absoutely stunning scenery along the 15 km hike east to the Chenjiabo valley. A difficult hike but way beyond worth it; this is also the highest section near Beijing. This guy has a nice simple"
+              - link "map" [ref=e297] [cursor=pointer]:
+                - /url: http://richandyon.com/?p=3300
+              - text: on his blog. I would also recommend visiting Henglingcheng as it is an ancient walled fortress town in the area and Fangkou village, which is absolutely gorgeous and untouched by tourism.
+          - listitem [ref=e298]:
+            - paragraph [ref=e299]:
+              - text: "Chenjiapu: My favorite section of the wall (the General's Tower) is here and I really think this is your best option. The General's Tower hike is easy (for the wall) and has some awesome towers and fantastic views over the Chenjiapu valley; this is where I take visiting friends and family and they still talk about it years later. Check this hostel,"
+              - link "Great Wall Fresh" [ref=e300] [cursor=pointer]:
+                - /url: http://www.greatwallfresh.com/
+              - text: it is super cheap, has great food, and they take care of everything including transportation to/from Beijing. The owner doesn't speak English but you can easily reserve rooms and transportation on his website, and there are always Chinese-speaking foreigners staying there that can translate.
+        - paragraph [ref=e301]: If you have a couple days OP, you could hire a driver to Dayingpan and then hike over the mountains to Chenjiapu where you would stay for a night and maybe try the General's Tower the next day. This is my holy grail of a wall trip.
+        - heading "Yubeng 雨崩" [level=2] [ref=e302]
+        - paragraph [ref=e303]:
+          - text: Mark these onto your smartphone map so you can follow it using GPS.
+          - text: It is a 5-8 hour hike depending on your fitness.
+        - list [ref=e304]:
+          - listitem [ref=e305]:
+            - paragraph [ref=e306]:
+              - text: Start
+              - link "28°25'29.9\"N 98°48'44.5\"E" [ref=e307] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B025'29.9%22N+98%C2%B048'44.5%22E/@28.4242801,98.8126358,344m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d28.424958!4d98.812372
+          - listitem [ref=e308]:
+            - paragraph [ref=e309]:
+              - text: Nazongla Pass 南宗垭口
+              - link "28°23'40.7\"N 98°49'07.8\"E" [ref=e310] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B023'40.7%22N+98%C2%B049'07.8%22E/@28.3946304,98.818191,303m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.394629!4d98.818837
+              - text: (highest point, expect to be hit in the face with Far Cry 4 scenary)
+          - listitem [ref=e311]:
+            - paragraph [ref=e312]:
+              - text: descend to Upper Yubeng village
+              - link "28°23'59.3\"N 98°47'34.4\"E" [ref=e313] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B023'59.3%22N+98%C2%B047'34.4%22E/@28.3997976,98.7921616,340m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.399796!4d98.792886
+        - heading "Yading 亚丁" [level=2] [ref=e314]
+        - paragraph [ref=e315]: 20km circle around a big ass mountain. Tibetans circle it counter clockwise. Electric car covers the first 6km and cost 120RMB. Hike can be done in one very long day, or bring you camping equipment and camp near the Tibetan huts along the trail southwest of the mountain (they are technically not suppose to let you sleep inside their hut as this is a national park).
+        - paragraph [ref=e316]: Another option is to do this hike in reverse aka clockwise, the benefit to this is you cover the hardest western half first, and the second eastern half becomes a gentle descent.
+        - list [ref=e317]:
+          - listitem [ref=e318]:
+            - paragraph [ref=e319]:
+              - text: Start here
+              - link "28°25'53.8\"N 100°21'35.5\"E" [ref=e320] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B025'53.8%22N+100%C2%B021'35.5%22E/@28.4316042,100.3592884,268m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.431603!4d100.359859
+          - listitem [ref=e321]:
+            - paragraph [ref=e322]:
+              - text: Electric car terminus
+              - link "28°23'28.8\"N 100°22'52.7\"E" [ref=e323] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B023'28.8%22N+100%C2%B022'52.7%22E/@28.3913213,100.3806814,293m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.39132!4d100.381305
+          - listitem [ref=e324]:
+            - paragraph [ref=e325]:
+              - text: "\"Cow's Milk Sea\" Lake"
+              - link "28°22'33.3\"N 100°20'46.1\"E" [ref=e326] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B022'33.3%22N+100%C2%B020'46.1%22E/@28.3759217,100.3439563,1028m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.375917!4d100.346145
+          - listitem [ref=e327]:
+            - paragraph [ref=e328]:
+              - text: Songduo Pass 松多垭口 - first pass, half way point
+              - link "28°21'58.1\"N 100°20'11.1\"E" [ref=e329] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B021'58.1%22N+100%C2%B020'11.1%22E/@28.3661293,100.3358202,284m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.366128!4d100.336425
+          - listitem [ref=e330]:
+            - paragraph [ref=e331]:
+              - text: Resong Lake 热松错
+              - link "28.376291, 100.330214" [ref=e332] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B022'34.6%22N+100%C2%B019'48.8%22E/@28.376291,100.3291573,537m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.376291!4d100.330214!5m1!1e4
+          - listitem [ref=e333]:
+            - paragraph [ref=e334]:
+              - text: "Single Stone Hut: Possible camp ground"
+              - link "28.384340, 100.323024" [ref=e335] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B023'03.6%22N+100%C2%B019'22.9%22E/@28.38434,100.3224755,279m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.38434!4d100.323024!5m1!1e4
+          - listitem [ref=e336]:
+            - paragraph [ref=e337]:
+              - text: Kasi Cowshed 卡斯牛棚, Westward leads to Kasi Hell Valley 卡斯地狱谷口
+              - link "28.397778, 100.316229" [ref=e338] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B023'52.0%22N+100%C2%B018'58.4%22E/@28.397778,100.3156601,289m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.397778!4d100.316229!5m1!1e4
+          - listitem [ref=e339]:
+            - paragraph [ref=e340]:
+              - text: Final pass
+              - link "28°25'07.5\"N 100°19'15.5\"E" [ref=e341] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/28%C2%B025'07.5%22N+100%C2%B019'15.5%22E/@28.4187677,100.3187933,1027m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d28.418763!4d100.320982
+        - heading "Kawa Karpo Kora 梅里外转" [level=1] [ref=e342]
+        - paragraph [ref=e343]: Tibetan pilgrimage circling Meili Snow Mountain in Northern Yunnan. Usually done in a week.
+        - paragraph [ref=e344]: 3 days from YongJiu 永久, over Doker La Pass 多克拉, to Aben Village 阿本村
+        - paragraph [ref=e345]: 3 days from ChaWaLong 察瓦龙, over Sho La Pass, to Meili Shui.
+        - paragraph [ref=e346]: Foreigners need to skip a police checkpoint along the Nu River by taking a motorbike at night.
+        - paragraph [ref=e347]:
+          - text: "Source:"
+          - link "http://blog.sina.com.cn/s/blog_4b0dab470100b021.html" [ref=e348] [cursor=pointer]:
+            - /url: http://blog.sina.com.cn/s/blog_4b0dab470100b021.html
+          - text: "Trip advior:"
+          - link "https://www.tripadvisor.com/ShowUserReviews-g1158353-d513622-r180889774-Meili_Snow_Mountain-Deqin_County_Yunnan.html" [ref=e349] [cursor=pointer]:
+            - /url: https://www.tripadvisor.com/ShowUserReviews-g1158353-d513622-r180889774-Meili_Snow_Mountain-Deqin_County_Yunnan.html
+        - paragraph [ref=e350]: Lat and Long are in DDM (Degree Digital Minutes). They can be copies into google maps.
+        - paragraph [ref=e351]: Day 1
+        - paragraph [ref=e352]: 永久村 大瓦次仁家 出发 大瓦家——阿亚拉垭口——永是通——马内通
+        - code [ref=e354]: Lat Long Elevation Comment 28 15.786N 99 13.854E 2776M 白塔 28 13.780N 98 51.006E 2444M 大瓦家 28 13.163N 98 50.538E 2801M 小卖部 28 12.533N 98 50.295E 3199M 阿亚拉垭口 28 12.561N 98 49.877E 3219M 垭口附近的水源 28 12.890N 98 48.318E 3219M 小溪 28 12.344N 98 47.478E 3140M 小垭口 28 12.758N 98 46.715E 2855M 小溪 28 12.992N 98 46.425E 2855M 马刷 28 14.185N 98 44.965E 3346M 永是通 28 13.350N 98 46.095E 3006M 小溪 28 14.334N 98 44.759E 3260M 桥 28 14.641N 98 44.450E 3392M 马内通(第一天宿牛棚)
+        - paragraph [ref=e355]: Day 2
+        - paragraph [ref=e356]: 马内通——多克拉垭口——咱俗塘（或子数通）——作阿江得 翻越多克拉垭口后，一路上的景色极为漂亮。。。走得很放松，误把一处当做作阿江德扎营了
+        - code [ref=e358]: 28 15.526N 98 44.115E 3535M 小溪 28 15.667N 98 44.087E 3575M 打空也扎(大石头下可以扎营) 28 15.773N 98 43.742E 3813M 小垭口 这里看到多克拉垭口(大石头) 28 15.893N 98 43.216E 4039M 小溪(以扎营) 28 16.142N 98 42.686E 4474M 多克拉垭口 28 16.239N 98 42.303E 4101M 小溪(以扎营)休息吃饭 28 15.831N 98 41.434E 3740M 攀岩石壁 28 16.041N 98 41.068E 3681M 咱俗塘?牧场 28 16.005N 98 40.459E 3625m 桥(不过对面) 28 16.191N 98 40.080E 3559M 休息点.有溪水 28 16.418N 98 39.943E 3446M 很多钱的小洞.有泉水 28 16.769N 98 39.695E 3372M 休息点 28 17.026N 98 39.484E 3324M 小溪 28 17.643N 98 39.067E 3212M 休息点 28 17.715N 98 39.008E 3214M 桥 28 18.350N 98 38.379E 3075M 营地(第二天晚上)作阿德江前
+        - paragraph [ref=e359]: Day 3
+        - paragraph [ref=e360]: 作阿江德--卢阿森拉→曲那塘——神泉——辛康拉垭口——阿丙村
+        - code [ref=e362]: 28 20.391N 98 36.561E 2935M 卢阿森拉垭口 28 20.587N 98 36.381E 2494M 桥头.曲那塘营地 28 20.405N 98 35.596E 2485M 营地,有小溪 28 20.310N 98 35.189E 2454M 备用营地,有小溪 28 20.225N 98 34.843E 2558M 休息点 28 20.206N 98 34.778E 2582M 水源 28 20.160N 98 34.481E 2955M 休息点 28 20.083N 98 34.460E 3032M 小垭口 28 19.670N 98 33.439E 3385M 小卖部 28 19.556N 98 33.066E 3504M 28 19.555N 98 33.060E 3518M 神泉 28 19.260N 98 32.943E 3591M 小村子,无人? 28 18.995N 98 32.786E 3655M 休息点 28 18.858N 98 32.717E 3665M 辛康拉垭口 28 19.297N 98 31.858E 3353M 休息点 28 19.519N 98 31.596E 2910M 休息点 28 19.683N 98 31.703E 2789M 休息点 28 19.719N 98 31.629E 2739M 休息点 28 19.346N 98 30.285E 2204M 阿丙村
+        - paragraph [ref=e363]: Day 4
+        - paragraph [ref=e364]:
+          - text: 阿丙村——拉康拉→曲珠村（暖水塘）→扎那（察瓦龙）
+          - text: 阿丙村 到 拉康拉 走一个多小时，在拉康拉可坐车到扎那
+        - code [ref=e366]: 28 19.792N 98 29.832E 2098M 阿丙村村口 28 20.919N 98 29.210E 1809M 高路,低路叉口.走高路 28 20.908N 98 29.164E 1861M 小溪 28 21.636N 98 28.084E 1751M 高路下到低路 桥 28 21.611N 98 27.967E 1757M 商店,拉康拉 28 23.980N 98 28.129E 1769M 滑石区 28 25.409N 98 27.480E 1815M 大滑石区 28 28.664N 98 27.855E 1947M 扎那(茶瓦隆) 28 28.957N 98 27.895E 1930M 河边洗澡
+        - paragraph [ref=e367]: Day 5
+        - paragraph [ref=e368]: 扎那（察瓦龙）→堂堆拉垭口→给音→格布→扎热吉利(无水营地)
+        - paragraph [ref=e369]: 很多人会选择在 格布 住下，其实到格布的时间还比较早，完全可以继续行程
+        - code [ref=e371]: 28 29.683N 98 27.216E 2113M 玛尼堆,村里 28 31.261N 98 27.208E 2202M 龙普 28 31.767N 98 27.493E 2614M 喇嘛庙 28 31.904N 98 27.291E 2615M 水源.休息点 28 32.552N 98 27.529E 3363M 堂堆拉垭口 28 32.893N 98 27.667E 3117M 岔路.给音 28 33.555N 98 27.441E 2691M 水源 28 34.665N 98 27.756E 2548M 扎古? 28 34.995N 98 27.383E 2341M 小卖部.拉达 28 36.413N 98 26.974E 2259M 桥 28 36.586N 98 27.110E 2330M 28 36.668N 98 27.105E 2342M 小卖部 格布休息点 28 37.124N 98 27.226E 2430M 岔路 - 盐井 / 德钦 28 37.490N 98 26.901E 2812M 休息点 28 38.427N 98 27.150E 2990M 无水营地
+        - paragraph [ref=e372]: Day 6
+        - paragraph [ref=e373]: 扎热吉利(无水营地)→达古拉休息点.水源→哥杂拉垭口→俄扎拉前边的一个有水营地
+        - code [ref=e375]: 28 39.406N 98 28.150E 3851M 达古拉休息点.水源 28 39.299N 98 28.570E 4146M 哥杂拉垭口 28 38.978N 98 29.915E 3419M 水源 28 38.613N 98 30.951E 3419M 雪山.休息点 28 38.181N 98 31.003E 2821M 营地 有水
+        - paragraph [ref=e376]: Day7
+        - paragraph [ref=e377]: 有水营地→俄扎拉（农扎桥旁的江边）→来得→梅求补功→说拉垭口→扎西牧场→多通.小屋
+        - code [ref=e379]: 28 38.081N 9831.055E 2756M 28 37.962N 98 31.484E 2732M 水源 28 37.891N 98 31.912E 2599M 岔路 28 37.927N 98 32.040E 2599M 江边 28 37.757N 98 32.212E 2599M 农扎桥 28 37.234N 98 32.617E 2951M 垭口 28 37.237N 98 33.156E 3036M 岔路 28 37.285N 98 33.318E 3062M 来得 28 37.724N 98 34.298E 4158M 梅求补功 28 37.853N 98 34.862E 4209M 水源 28 37.840N 98 35.065E 4236M 水源 28 37.872N 98 35.736E 4305M 溪水 28 37.819N 98 35.098E 4376M 岔路 28 38.040N 98 35.945E 4470M 休息点 28 38.206N 98 36.798E 4823M 说拉垭口 28 38.721N 98 37.575E 4336M 扎西牧场 28 38.657N 98 38.062E 4210M 多通.小屋,好冷
+        - paragraph [ref=e380]: Day 8 多通小屋——梅里水——坐车回德钦 多通小屋 走到 梅里水 大约2-3小时
+        - code [ref=e382]: 28 38.657N 98 38.062E 4210M 多通.小屋,好冷 28 38.583N 98 38.436E 4079M 桥 28 38.439N 98 38.687E 4007M 桥 28 38.538N 98 43.331E 2170M 村子.梅里石
+      - paragraph
+      - separator [ref=e383]
+      - emphasis [ref=e384]:
+        - text: revision by
+        - link "rockyrainy" [ref=e385] [cursor=pointer]:
+          - /url: https://old.reddit.com/user/rockyrainy
+        - text: —
+        - time [ref=e386]: 9 年前
+        - link "檢視原始碼" [ref=e387] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e388]:
+    - generic [ref=e389]:
+      - list [ref=e391]:
+        - listitem [ref=e392]: 關於
+        - listitem [ref=e393]:
+          - link "網誌" [ref=e394] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e395]:
+          - link "關於" [ref=e396] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e397]:
+          - link "廣告" [ref=e398] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e399]:
+          - link "careers" [ref=e400] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e402]:
+        - listitem [ref=e403]: 幫助
+        - listitem [ref=e404]:
+          - link "網站規定" [ref=e405] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e406]:
+          - link "Reddit help center" [ref=e407] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e408]:
+          - link "reddit 站規" [ref=e409] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e410]:
+          - link "mod guidelines" [ref=e411] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e412]:
+          - link "聯絡我們" [ref=e413] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e415]:
+        - listitem [ref=e416]: 應用程式 & 工具
+        - listitem [ref=e417]:
+          - link "Reddit for iPhone" [ref=e418] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e419]:
+          - link "Reddit for Android" [ref=e420] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e421]:
+          - link "mobile website" [ref=e422] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e424]:
+        - listitem [ref=e425]: <3
+        - listitem [ref=e426]:
+          - link "reddit premium" [ref=e427] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e428]:
+      - text: 使用本網站即代表您接受我們的
+      - link "User Agreement" [ref=e429] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: 和
+      - link "隱私權政策" [ref=e430] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. 股份有限公司 保留所有權利
+    - paragraph [ref=e431]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e432]
+  - paragraph [ref=e433]: π

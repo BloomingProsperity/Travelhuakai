@@ -1,0 +1,362 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - button "Toggle navigation MENU" [ref=e6] [cursor=pointer]:
+            - generic [ref=e7]: Toggle navigation
+            - text: MENU
+          - link "The China Guide" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img "The China Guide" [ref=e9]
+        - text:  
+    - text:   
+    - generic [ref=e10]:
+      - text: / /
+      - generic [ref=e13]:
+        - img "the china guide blog" [ref=e14]
+        - generic [ref=e15]: China Travel Blog
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - heading "How to Visit China Without a Visa" [level=1] [ref=e21]
+              - generic [ref=e22]: Last updated on 2025-12-07
+            - img "How to Visit China Without a Visa" [ref=e23]
+            - generic [ref=e24]:
+              - paragraph [ref=e25]: "Want to visit China but don't want to go through the hassle of applying for a Chinese visa? Here are several common ways you might be able to tour China visa-free:"
+              - heading "Visa-Free Entry for Specific Nationalities" [level=2] [ref=e26]
+              - paragraph [ref=e27]: "Until the end of 2026, citizens of the following 47 countries and territories are able to enjoy a 30-day visa-free stay for tourism, business, cultural exchange, family visits, or transit purposes in China:"
+              - heading "Europe" [level=3] [ref=e28]
+              - paragraph [ref=e29]: Andorra, Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Malta, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland, Sweden
+              - heading "Asia / Asia Pacific / Middle East" [level=3] [ref=e30]
+              - paragraph [ref=e31]: Brunei, South Korea, Japan, Saudi Arabia, Oman, Kuwait, Bahrain
+              - heading "Oceania" [level=3] [ref=e32]
+              - paragraph [ref=e33]: Australia, New Zealand
+              - heading "Americas" [level=3] [ref=e34]
+              - paragraph [ref=e35]: Brazil, Argentina, Chile, Peru, Uruguay
+              - paragraph [ref=e36]: For foreigners eligible under the visa-free policy—for business, tourism, visiting relatives or friends, exchange visits, or transit—no documents are required aside from a valid passport. However, we recommend carrying supporting documents that match your purpose of visit, such as an invitation letter, airline tickets, and hotel reservations.
+              - paragraph [ref=e37]: Foreigners who qualify for visa-free entry may do so multiple times. Currently, there are no restrictions on the number of entries or the cumulative length of stay.
+              - paragraph [ref=e38]: "30 days is more than enough to visit the most highlight tourist destinations in China. Here are several popular China itineraries for your reference:"
+              - list [ref=e39]:
+                - listitem [ref=e40]:
+                  - link "Golden Triangle of China - 9 days Beijing, Xian, Shanghai tour" [ref=e41] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/golden-triangle-of-china
+                - listitem [ref=e42]:
+                  - link "The Classic China Tour - 13 days Beijing, Xian, Guilin, Yangshuo, Shanghai tour" [ref=e43] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/the-classic-china-tour
+                - listitem [ref=e44]:
+                  - link "The Golden Triangle Plus Zhangjiajie - 11-Day Beijing-Xi'an-Zhangjiajie-Fenghuang-Shanghai Tour" [ref=e45] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/the-golden-triangle-plus-zhangjiajie
+                - listitem [ref=e46]:
+                  - link "Chengdu and Golden Triangle - 13-day Beijing, Xi'an, Chengdu, Shanghai tour" [ref=e47] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/chengdu-and-golden-triangle
+                - listitem [ref=e48]:
+                  - link "Romantic China Journey - 19-day Beijing-Luoyang-Xi'an-Tibet-Chongqing-Yangtze River-Zhangjiajie-Shanghai Tour" [ref=e49] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/romantic-china-journey
+              - paragraph [ref=e50]: Of course, we can completely custom the itinerary according to your schedule and preference.
+              - paragraph [ref=e52]:
+                - img "Great Wall of China" [ref=e53]
+              - heading "10-Day Visa-Free Transit" [level=2] [ref=e54]
+              - paragraph [ref=e55]: China allows nationals of 54 countries to stay for up to 10 days without a visa when transiting through specific Chinese cities. Taking advantage of the visa-free transit policy, travelers can visit most of the popular tourism cities in China.
+              - heading "Nationals of which 54 countries can apply for transit visa exemption:" [level=3] [ref=e56]
+              - list [ref=e57]:
+                - listitem [ref=e58]: Australia, Argentina, Austria, Albania;
+                - listitem [ref=e59]: Brazil, Belgium, Bulgaria, Bosnia and Herzegovina, Belarus, Brunei;
+                - listitem [ref=e60]: Canada, Chile, Czech Republic, Cyprus, Croatia;
+                - listitem [ref=e61]: Denmark;
+                - listitem [ref=e62]: Estonia;
+                - listitem [ref=e63]: France, Finland;
+                - listitem [ref=e64]: Germany, Greece;
+                - listitem [ref=e65]: Hungary;
+                - listitem [ref=e66]: Italy, Ireland, Iceland;
+                - listitem [ref=e67]: Japan;
+                - listitem [ref=e68]: Latvia, Lithuania, Luxembourg;
+                - listitem [ref=e69]: Mexico, Malta, Monaco, Montenegro;
+                - listitem [ref=e70]: Netherlands, New Zealand, Norway, North Macedonia;
+                - listitem [ref=e71]: Poland, Portugal;
+                - listitem [ref=e72]: Qatar;
+                - listitem [ref=e73]: Romania, Russia;
+                - listitem [ref=e74]: Spain, Sweden, Switzerland, Singapore, Slovakia, Slovenia, Serbia, South Korea;
+                - listitem [ref=e75]: United States, United Kingdom, UAE, Ukraine;
+              - heading "Popular Chinese Cities for Transit & Layover Tours" [level=3] [ref=e76]
+              - paragraph [ref=e77]:
+                - text: As the capital and top tourist city of China,
+                - link "Beijing" [ref=e78] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/beijing
+                - text: has a large number of international flights, making it an ideal city for transit and layover tours in China.
+              - paragraph [ref=e79]:
+                - text: Usually, 2 to 3 days is enough to visit all the highlight attractions in Beijing. But if you don’t have that much time, one day is also ok to visit
+                - link "the Great Wall" [ref=e80] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/great-wall-of-china
+                - text: and
+                - link "the Forbidden City" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/sight/the-forbidden-city
+                - text: only.
+              - paragraph [ref=e83]:
+                - img "Summer Palace" [ref=e84]
+              - paragraph [ref=e85]: "Here are three popular Beijing itineraries for your reference:"
+              - list [ref=e86]:
+                - listitem [ref=e87]:
+                  - link "Beijing and the Great Wall Day Tour" [ref=e88] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/beijing-and-the-great-wall-in-one-day
+                - listitem [ref=e89]:
+                  - link "2 days Beijing highlight tour" [ref=e90] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/beijing-in-48-hours
+                - listitem [ref=e91]:
+                  - link "3 days Beijing tour" [ref=e92] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/beijing-in-72-hours
+              - paragraph [ref=e93]:
+                - link "Shanghai" [ref=e94] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/shanghai
+                - text: ", the economic center of China, also has many international flights. If you have a stopover in Shanghai, you can allow one day to visit Shanghai and, if possible, another day to visit"
+                - link "Suzhou" [ref=e95] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/suzhou
+                - text: .
+              - paragraph [ref=e96]: "Here are two popular Shanghai/Suzhou itineraries for your reference:"
+              - list [ref=e97]:
+                - listitem [ref=e98]:
+                  - link "Shanghai Day Tour" [ref=e99] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/shanghai-one-day-tour
+                - listitem [ref=e100]:
+                  - link "Suzhou and Tongli Water Town Day Tour from Shanghai" [ref=e101] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experience/suzhou-and-tongli-water-town-day-tour-from-shanghai
+              - paragraph [ref=e103]:
+                - img "The Bund" [ref=e104]
+              - paragraph [ref=e105]:
+                - text: Other Chinese cities don't have as many international flights as Beijing or Shanghai, but if you're stopping over in
+                - link "Xi’an" [ref=e106] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/xi%27an
+                - text: ","
+                - link "Chengdu" [ref=e107] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/chengdu
+                - text: ", or"
+                - link "Guilin" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/guilin
+                - text: ", it’s definitely worth staying a couple of days for sightseeing."
+              - paragraph [ref=e110]:
+                - img "Terracotta Army" [ref=e111]
+              - heading "Visit multiple cities under the 10-day visa-free transit policy" [level=3] [ref=e112]
+              - paragraph [ref=e113]:
+                - text: Under the 10-day visa-free transit policy, foreigners are allowed to travel outside the city they are transiting in. Therefore, if you are transiting in Beijing or Shanghai, you can actually travel to Xi'an, Shanghai, Suzhou,
+                - link "Hangzhou" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/hangzhou
+                - text: ", Chengdu, Guilin,"
+                - link "Zhangjiajie" [ref=e115] [cursor=pointer]:
+                  - /url: https://www.thechinaguide.com/destination/zhangjiajie
+                - text: ", etc."
+              - paragraph [ref=e116]: In addition, you can also enter and exit China via different cities. For example, you can enter via Beijing, spend 8 or 9 days visiting Beijing, Xi’an and Shanghai, and finally exit China via Shanghai.
+              - heading "Requirements for Transit Visa Exemption" [level=3] [ref=e117]
+              - paragraph [ref=e118]: To apply for a transit visa exemption, the applicant must have an interline plane or train ticket with a specific date and seat departing from China within 10 days and bound for a third country or region. The applicant's passport must be valid for at least three months.
+              - paragraph [ref=e119]: The 10-day visa-free stay period begins at 00:00 on the day following entry.
+              - heading "Visa-free entry for foreign tourists arriving on cruise ships" [level=2] [ref=e120]
+              - paragraph [ref=e121]: Foreign tourists arriving on cruise ships can enter China without a visa if they are part of a group of at least two people organized by a Chinese travel agency. They can travel within coastal provinces and Beijing for up to 15 days. But they must travel to the next port with the same cruise ship and depart from China by the same cruise ship as scheduled.
+              - paragraph [ref=e122]: Therefore, if your cruise ship stops at Tianjin Port for 2 days or more, you can go to Beijing for sightseeing. Because it takes about 2.5 hours to drive from Tianjin Port to Beijing, you'd better stay one night in Beijing and return to the ship the next day.
+              - paragraph [ref=e123]:
+                - generic [ref=e124]:
+                  - text: If your cruise ship stops at Shanghai Port,
+                  - generic [ref=e125]: you can visit Shanghai or Suzhou on a day tour from your ship.
+              - heading "Tips for Visa-Free Travel" [level=2] [ref=e126]
+              - paragraph [ref=e127]: Since China’s visa-free policies may change at the time of your travel, please do confirm your eligibility with your local Chinese consulate or embassy before booking.
+              - paragraph [ref=e128]: Ensure you meet all requirements, such as having a confirmed onward ticket and an ordinary passport valid for at least 6 months at the time of entry.
+              - paragraph [ref=e129]: If you book a tour with us, we can also issue an invitation letter to facilitate your entry into China.
+              - paragraph [ref=e130]
+              - paragraph [ref=e131]: —
+              - paragraph [ref=e132]:
+                - emphasis [ref=e133]:
+                  - link "The China Guide" [ref=e134] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com
+                  - text: is a Beijing-based travel agency that customizes private tours and educational student tours across China. We have more than fifteen years of experience crafting tours for tens of thousands of travelers from the United States, Canada,
+                  - emphasis [ref=e135]: Australia, the United Kingdom,
+                  - emphasis [ref=e136]: Germany, France,
+                  - emphasis [ref=e137]: Spain
+                  - text: ", and beyond. We promise all our tours have no hidden fees, no shopping stops, no touristy restaurants, just memorable experiences!"
+                  - link "Learn more about us" [ref=e138] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/about-us
+                  - text: or
+                  - link "contact us to start planning your perfect China trip" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.thechinaguide.com/experiences#inquiry-form
+                  - text: .
+              - paragraph [ref=e140]:
+                - emphasis
+          - generic [ref=e141]:
+            - generic [ref=e142]: Share
+            - generic [ref=e143]:
+              - link [ref=e144] [cursor=pointer]:
+                - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.thechinaguide.com%2Fblog%2Fhow-to-visit-china-without-a-visa
+              - link [ref=e145] [cursor=pointer]:
+                - /url: http://twitter.com/share?url=https%3A%2F%2Fwww.thechinaguide.com%2Fblog%2Fhow-to-visit-china-without-a-visa&text=How+to+Visit+China+Without+a+Visa+
+              - link [ref=e146] [cursor=pointer]:
+                - /url: mailto:?subject=How+To+Visit+China+Without+A+Visa+&body=https%3A%2F%2Fwww.thechinaguide.com%2Fblog%2Fhow-to-visit-china-without-a-visa
+        - generic [ref=e148]:
+          - generic [ref=e151]: Most Read Blogs
+          - list [ref=e153]:
+            - listitem [ref=e154]:
+              - link "Eating and Drinking in China" [ref=e155] [cursor=pointer]:
+                - /url: /blog/eating-and-drinking
+            - listitem [ref=e156]:
+              - link "Best and Worst Time to Travel to China" [ref=e157] [cursor=pointer]:
+                - /url: /blog/best-and-worst-time-to-travel-in-china
+            - listitem [ref=e158]:
+              - link "Traveling in China as a Wheelchair User" [ref=e159] [cursor=pointer]:
+                - /url: /blog/handicapped-travellers
+            - listitem [ref=e160]:
+              - link "Safety Tips for Travelers to China" [ref=e161] [cursor=pointer]:
+                - /url: /blog/safety-in-china
+            - listitem [ref=e162]:
+              - link "How to Pay for Things in China" [ref=e163] [cursor=pointer]:
+                - /url: /blog/cash-and-credit-cards
+            - listitem [ref=e164]:
+              - link "Healthcare in China and Travel Insurance" [ref=e165] [cursor=pointer]:
+                - /url: /blog/healthcare-and-insurance
+            - listitem [ref=e166]:
+              - link "Everything You Need to Know about Chinese Toilet" [ref=e167] [cursor=pointer]:
+                - /url: /blog/chinese-toilet
+            - listitem [ref=e168]:
+              - link "The Best Souvenirs to Bring Back from China" [ref=e169] [cursor=pointer]:
+                - /url: /blog/the-best-souvenirs-to-bring-back-from-china
+            - listitem [ref=e170]:
+              - link "How to Book Forbidden City Tickets Online" [ref=e171] [cursor=pointer]:
+                - /url: /blog/how-to-book-tickets-to-the-palace-museum
+            - listitem [ref=e172]:
+              - link "How to Avoid the Crowds When Traveling in China" [ref=e173] [cursor=pointer]:
+                - /url: /blog/how-to-avoid-the-crowds-when-traveling-in-china
+            - listitem [ref=e174]:
+              - link "The 10 Breakfast Foods You Should Try in China" [ref=e175] [cursor=pointer]:
+                - /url: /blog/the-ten-breakfast-foods-you-should-try-in-china
+            - listitem [ref=e176]:
+              - link "Five of the Best Documentaries about China" [ref=e177] [cursor=pointer]:
+                - /url: /blog/five-of-the-best-documentaries-about-china
+            - listitem [ref=e178]:
+              - link "Using Your Cell Phone and the Internet While Traveling in China" [ref=e179] [cursor=pointer]:
+                - /url: /blog/how-to-use-your-cell-phone-while-traveling-in-china
+            - listitem [ref=e180]:
+              - link "The China Guide Rated \"Excellent\" Since 2012 on Tripadvisor" [ref=e181] [cursor=pointer]:
+                - /url: /blog/the-china-guide-tripadvisor-certificate-of-excellence-hall-of-fame
+            - listitem [ref=e182]:
+              - link "10 Best Tours for First-Time Travelers to China" [ref=e183] [cursor=pointer]:
+                - /url: /blog/top-10-tours-for-first-time-travelers-to-china
+            - listitem [ref=e184]:
+              - 'link "Report: Choices of Travelers to China" [ref=e185] [cursor=pointer]':
+                - /url: /blog/report-choices-of-travelers-to-china
+            - listitem [ref=e186]:
+              - link "How to Set up Alipay for Mobile Payments" [ref=e187] [cursor=pointer]:
+                - /url: /blog/how-to-set-up-alipay
+        - link "tripadvisor certificate of excellence" [ref=e191] [cursor=pointer]:
+          - /url: /blog/the-china-guide-tripadvisor-certificate-of-excellence-hall-of-fame
+          - img "tripadvisor certificate of excellence" [ref=e192]
+        - generic [ref=e193]:
+          - generic [ref=e196]: Our Popular Tours
+          - generic:
+            - generic:
+              - generic:
+                - generic [ref=e197]:
+                  - link "Golden Triangle of China Golden Triangle of China" [ref=e198] [cursor=pointer]:
+                    - /url: /experience/golden-triangle-of-china
+                    - img "Golden Triangle of China" [ref=e199]
+                    - generic [ref=e200]: Golden Triangle of China
+                  - generic [ref=e202]:
+                    - generic [ref=e203]:
+                      - text: 9 days
+                      - text: Beijing-Xian-Shanghai Tour
+                    - generic [ref=e204]: "Why do we call Beijing, Xi'an, and Shanghai \"the Golden Triangle?\" The answer is simple: if you can only visit three Chinese..."
+                    - generic [ref=e205]:
+                      - link "View trip":
+                        - /url: /experience/golden-triangle-of-china
+                        - generic [ref=e206] [cursor=pointer]: View trip
+                - generic [ref=e207]:
+                  - link "Beijing in 48 hours Beijing in 48 hours" [ref=e208] [cursor=pointer]:
+                    - /url: /experience/beijing-in-48-hours
+                    - img "Beijing in 48 hours" [ref=e209]
+                    - generic [ref=e210]: Beijing in 48 hours
+                  - generic [ref=e212]:
+                    - generic [ref=e213]:
+                      - text: 2 days
+                      - text: Beijing Tour
+                    - generic [ref=e214]: Two days in Beijing might not seem like very long, but it's just enough to tick off a few of the Chinese capital's must-see...
+                    - generic [ref=e215]:
+                      - link "View trip":
+                        - /url: /experience/beijing-in-48-hours
+                        - generic [ref=e216] [cursor=pointer]: View trip
+                - generic [ref=e217]:
+                  - link "Tale of Two Cities Tale of Two Cities" [ref=e218] [cursor=pointer]:
+                    - /url: /experience/tale-of-two-cities
+                    - img "Tale of Two Cities" [ref=e219]
+                    - generic [ref=e220]: Tale of Two Cities
+                  - generic [ref=e222]:
+                    - generic [ref=e223]:
+                      - text: 5 days
+                      - text: Beijing-Shanghai Tour
+                    - generic [ref=e224]: China is a land of contrasts, and no two cities encapsulate the country’s fascinating combination of old and new better...
+                    - generic [ref=e225]:
+                      - link "View trip":
+                        - /url: /experience/tale-of-two-cities
+                        - generic [ref=e226] [cursor=pointer]: View trip
+          - generic [ref=e227]:
+            - link "VIEW MORE TOURS":
+              - /url: /experiences
+              - generic [ref=e228] [cursor=pointer]: VIEW MORE TOURS
+  - contentinfo [ref=e229]:
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - link "tripadvisor certificate of excellence" [ref=e234] [cursor=pointer]:
+          - /url: /blog/the-china-guide-tripadvisor-certificate-of-excellence-hall-of-fame
+          - img "tripadvisor certificate of excellence" [ref=e235]
+        - generic [ref=e236]:
+          - generic [ref=e237]: Follow us on Social Media
+          - generic [ref=e238]:
+            - link [ref=e239] [cursor=pointer]:
+              - /url: https://www.facebook.com/thechinaguide
+            - link [ref=e240] [cursor=pointer]:
+              - /url: http://twitter.com/thechinaguide
+            - link [ref=e241] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCp9ksc2bXXWcbE-CZG5iEMQ
+            - link [ref=e242] [cursor=pointer]:
+              - /url: http://www.instagram.com/the_chinaguide
+        - link "Email us Your Plan" [ref=e245] [cursor=pointer]:
+          - /url: mailto:book@thechinaguide.com?subject=Booking or Consultation
+          - generic [ref=e246]: Email us Your Plan
+      - generic [ref=e247]:
+        - generic [ref=e248]: The Company
+        - generic [ref=e249]:
+          - link "Who we are" [ref=e250] [cursor=pointer]:
+            - /url: /about-us
+          - link "Meet our team" [ref=e251] [cursor=pointer]:
+            - /url: /about-us/meet-our-team
+          - link "Our guides" [ref=e252] [cursor=pointer]:
+            - /url: /about-us/our-guides
+          - link "Drivers and vehicles" [ref=e253] [cursor=pointer]:
+            - /url: /about-us/drivers-and-vehicles
+          - link "Contact us" [ref=e254] [cursor=pointer]:
+            - /url: /about-us/contact-us
+          - link "Terms of service" [ref=e255] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "FAQ" [ref=e256] [cursor=pointer]:
+            - /url: /faq
+      - generic [ref=e257]:
+        - generic [ref=e258]: China Tours
+        - generic [ref=e259]:
+          - link "Popular Tours" [ref=e260] [cursor=pointer]:
+            - /url: /experiences/popular-tours
+          - link "Family Vacation" [ref=e261] [cursor=pointer]:
+            - /url: /experiences/family-vacation
+          - link "Chinese Culture" [ref=e262] [cursor=pointer]:
+            - /url: /experiences/chinese-culture
+          - link "Adventure" [ref=e263] [cursor=pointer]:
+            - /url: /experiences/adventure
+          - link "Gourmet" [ref=e264] [cursor=pointer]:
+            - /url: /experiences/gourmet
+          - link "Romantic" [ref=e265] [cursor=pointer]:
+            - /url: /experiences/romantic
+          - link "China at a Glance" [ref=e266] [cursor=pointer]:
+            - /url: /experiences/china-at-a-glance
+      - generic [ref=e267]:
+        - generic [ref=e269]: Payment Options
+        - generic [ref=e275]:
+          - generic [ref=e276]: Security
+          - link "logo comodo" [ref=e278] [cursor=pointer]:
+            - /url: https://secure.comodoca.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=CL1&v_search=https://www.thechinaguide.com/&x=6&y=5
+            - img "logo comodo" [ref=e279]
+    - paragraph [ref=e281]: Copyright © 2008 - 2026 The China Guide
+    - paragraph
+  - text: 

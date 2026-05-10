@@ -1,0 +1,645 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Global Navigation" [ref=e3]:
+      - link "Lonely Planet homepage" [ref=e5] [cursor=pointer]:
+        - /url: https://www.lonelyplanet.com
+        - generic [ref=e6]: Lonely Planet
+        - img [ref=e7]
+      - generic [ref=e22]:
+        - link "Destinations" [ref=e23] [cursor=pointer]:
+          - /url: https://www.lonelyplanet.com/destinations
+        - link "Books" [ref=e24] [cursor=pointer]:
+          - /url: https://shop.lonelyplanet.com/?utm_source=lonelyplanet&utm_campaign=navigation&utm_content=homepage
+        - link "Trips" [ref=e25] [cursor=pointer]:
+          - /url: /journeys
+        - link "Inspiration" [ref=e26] [cursor=pointer]:
+          - /url: https://www.lonelyplanet.com/articles
+        - button "Search" [ref=e29]:
+          - link "Search" [ref=e30] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e31]
+            - generic [ref=e33]: Search
+      - generic [ref=e34]:
+        - link "Cart" [ref=e35] [cursor=pointer]:
+          - /url: https://shop.lonelyplanet.com/cart?utm_source=lonelyplanet&utm_campaign=lpcart
+          - img [ref=e36]
+          - text: Cart
+        - link "Sign in" [ref=e42] [cursor=pointer]:
+          - /url: /api/auth/login?returnTo=%2Farticles%2Fvisa-requirements-for-china
+          - text: Sign In
+  - main [ref=e43]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - navigation "Breadcrumbs" [ref=e49]:
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - link "Stories" [ref=e52] [cursor=pointer]:
+                  - /url: /articles
+                - img [ref=e54]
+              - listitem [ref=e56]:
+                - link "Asia" [ref=e57] [cursor=pointer]:
+                  - /url: /destinations/asia
+                - img [ref=e59]
+              - listitem [ref=e61]:
+                - link "China" [ref=e62] [cursor=pointer]:
+                  - /url: /destinations/china
+          - generic [ref=e63]:
+            - link "Save" [ref=e65] [cursor=pointer]:
+              - /url: /api/auth/login?returnTo=eyJyZXR1cm5UbyI6Ii9hcnRpY2xlcy92aXNhLXJlcXVpcmVtZW50cy1mb3ItY2hpbmEiLCJhY3Rpb24iOnsidHlwZSI6InNhdmUifX0
+              - text: Save
+              - img [ref=e66]
+            - generic [ref=e69]:
+              - button "Share" [ref=e70]
+              - button [ref=e71]:
+                - img [ref=e72]
+        - generic [ref=e74]:
+          - heading "How do I get a visa for China?" [level=1] [ref=e75]
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - paragraph [ref=e78]: Sep 20, 2024
+              - paragraph [ref=e80]: 5 MIN READ
+            - generic [ref=e83]:
+              - img "Marco Ferrarese" [ref=e85]
+              - generic [ref=e86]:
+                - link "Marco Ferrarese" [ref=e87] [cursor=pointer]:
+                  - /url: /authors/marco-ferrarese
+                - paragraph [ref=e89]: Writer
+          - paragraph [ref=e90]: The first step towards walking along the Great Wall is getting a visa for China. fotohunter / Shutterstock
+      - img "The first step towards walking along the Great Wall is getting a visa for China. fotohunter / Shutterstock" [ref=e93]
+    - generic [ref=e96]:
+      - generic [ref=e98]:
+        - paragraph [ref=e99]:
+          - text: Stretching from the steppes of Central Asia and Mongolia to the tropical jungles of Laos and Vietnam,
+          - link "China" [ref=e100] [cursor=pointer]:
+            - /url: /destinations/china
+          - text: is a land of endless travel opportunities. After reopening to international travel in 2023 following the COVID-19 pandemic, China made several changes to its visa policies to encourage more visitors.
+        - paragraph [ref=e101]: Here is everything you need to know about obtaining a tourist visa for China. Always check the latest regulations with the Chinese authorities before you travel, as policies may change.
+        - heading "Who needs a Chinese tourist visa?" [level=3] [ref=e102]
+        - paragraph [ref=e103]:
+          - text: The majority of foreign nationals require a tourist visa (also known as an "L visa") to enter and visit mainland China, though an increasing number of nationalities are granted visa-free entry. L visas can be obtained from Chinese embassies and consulates around the world, or through the
+          - link "Chinese Visa Application Service Center" [ref=e104] [cursor=pointer]:
+            - /url: https://www.visaforchina.org/
+          - text: . To avoid the tedious bureaucracy when applying in person, many people obtain a visa via a tour operator or visa agent.
+        - figure "The Forbidden City in Beijing. zhangshuang/Getty Images" [ref=e105]:
+          - img "Aerial view of the Forbidden City in Beijing, China. The image shows the sprawling complex of traditional Chinese imperial buildings with golden roofs and red walls. In the foreground is the main entrance gate with a large courtyard. The city skyl..."
+          - generic [ref=e106]: The Forbidden City in Beijing. zhangshuang/Getty Images
+        - heading "Can I travel visa-free to China?" [level=3] [ref=e107]
+        - paragraph [ref=e108]: "As of September 2024, citizens from a handful of countries can travel visa-free to mainland China for tourism or business purposes. The following nationalities allow a 15-day visa-free entry: Malaysia, Switzerland, Ireland, Hungary, Austria, Belgium, Luxembourg, France, Germany, Italy, the Netherlands, Spain and Norway."
+        - heading "Who can get a transit visa?" [level=3] [ref=e109]
+        - paragraph [ref=e110]:
+          - text: Visitors from 53 countries – including the US, Canada, UK, the EU, Japan, New Zealand, Brazil and Argentina – can spend up to 144 hours (6 days) transiting in China without a visa if they arrive by air, ship or train at selected Chinese cities. The list of cities includes Beijing, Shanghai, Xi’an, Guilin, Chongqing, Chengdu, Xiamen, Wuhan, Kunming, and Qingdao, opening up some interesting quick trip opportunities.
+          - text: To be eligible, travelers must hold a passport valid for at least 3 months after entry and proof of onward travel to a third country. These visas start from the time the traveler arrives at the Chinese border and receives an entry permit. Check with your nearest Chinese embassy or consulate for the current list of eligible nationalities, entry points and specific movement areas.
+        - figure "Hong Kong and Macau have visa-free entry for most nationalities. BerryJ / Shutterstock" [ref=e111]:
+          - img "A city skyline at night, with trees in the foreground and colorful skyscrapers in the background"
+          - generic [ref=e112]: Hong Kong and Macau have visa-free entry for most nationalities. BerryJ / Shutterstock
+        - heading "What about Hong Kong and Macau?" [level=3] [ref=e113]
+        - paragraph [ref=e114]:
+          - text: Most nationalities do not require a tourist visa for stays of up to 90 days in either Hong Kong or Macau. To travel from there into China proper, a standard tourist visa is required. These are fairly easy to obtain via
+          - link "China Travel Service" [ref=e115] [cursor=pointer]:
+            - /url: https://ww1.ctshk.com/en/
+          - text: in Hong Kong.
+        - paragraph [ref=e116]:
+          - text: Since May 2018, the Chinese resort island of
+          - link "Hainan" [ref=e117] [cursor=pointer]:
+            - /url: /destinations/china/hainan
+          - text: has offered 30-day
+          - link "visa-free entry" [ref=e118] [cursor=pointer]:
+            - /url: http://en.hnftp.gov.cn/tips/policy/202003/t20200317_3263796.html
+          - text: to citizens of 59 countries including the US, Canada, the EU, the UK, New Zealand, Malaysia and Singapore. You can’t leave Hainan island and travel to mainland China on this visa – if you want to roam deeper into China, you'll need a standard tourist visa.
+        - heading "How about Tibet?" [level=3] [ref=e119]
+        - paragraph [ref=e120]:
+          - text: To travel to
+          - link "Tibet" [ref=e121] [cursor=pointer]:
+            - /url: /destinations/china/tibet
+          - text: by air, road or train, you'll need both a China tourist visa (L visa) and a Tibet Tourism Bureau (TTB) permit. To obtain this mandatory travel document you must book a guide for your entire trip and pre-arrange private transport for trips outside Lhasa. No direct applications are accepted, which effectively means that Tibet can only be visited on an organized tour.
+        - heading "How to apply for a Chinese tourist visa" [level=3] [ref=e122]
+        - paragraph [ref=e123]: Applying for a Chinese tourist visa in your home country is the most straightforward process. You'll need to fill out an application form, provide a proposed itinerary, flight ticket and proof of accommodation for your first night in China. If your country of residence is different than the country in which you're applying, the Chinese authorities may charge an extra processing fee for non-citizens.
+        - paragraph [ref=e124]: Some embassies require extra documentation, such as an invitation letter from a person or a company in China, bank statements, and documents proving your employment record. And your passport needs to be valid for at least 6 months beyond the expiry date of your visa.
+        - figure "The ancient Buddha at Leshan. Ungvari Attila/Shutterstock" [ref=e126]:
+          - img "A giant stone Buddha carved into rocks. Tourists stand on a platform nearby."
+          - generic [ref=e127]: The ancient Buddha at Leshan. Ungvari Attila/Shutterstock
+        - heading "How much does a China tourist visa cost?" [level=3] [ref=e128]
+        - paragraph [ref=e129]: The cost of a Chinese tourist visa varies depending on the type of visa, the length of stay, the number of entries allowed, and your nationality. Most tourists pay around US$35 for a single entry visa valid for 30 days from the day you enter China.uk citizens pay £130, US citizens pay US$140, Canadian citizens pay C$132, Australian citizens pay A$95 and French, German, Italian, Dutch and Spanish citizens pay €111.
+        - paragraph [ref=e130]: Some nationalities are entitled to long-term multiple-entry visas that allow travelers to visit China for stints of 30 to 120 days throughout the duration of the visa. Note these are not residence permits and do not grant any right to live or work in China. Contact your local Chinese embassy or consulate for the latest fees for long-term visas.
+        - heading "How long is a Chinese visa valid for?" [level=3] [ref=e131]
+        - paragraph [ref=e132]: "Regular China tourist visas are valid for 30 days and must be used within three (or six, if double-entry) months of their date of issue. Never overstay your visa: the fines are high and may result in being banned from visiting China. If you think you'll need to stay longer, start the process of applying for a visa extension well before your visa expires."
+        - figure "Cycling through iconic landscapes in Yangshuo, Guilin. GuoZhongHua / Shutterstock" [ref=e133]:
+          - img "Cyclist passing hills in Yangshuo, Guilin"
+          - generic [ref=e134]: Cycling through iconic landscapes in Yangshuo, Guilin. GuoZhongHua / Shutterstock
+        - heading "Can I extend my Chinese visa?" [level=3] [ref=e135]
+        - paragraph [ref=e136]: Chinese visas can be extended once without too much difficulty at the Public Security Bureau (PSB) offices found in larger Chinese towns and cities, though an extension is not guaranteed. The process takes between 2 and 7 working days, the fee is ¥160 (or ¥760/469 for US/UK citizens). You can only extend your stay for as long as the duration of your original visa. You’ll need to provide your original passport, two photos and a receipt from your accommodation in the town where you are applying for your extension.
+        - paragraph [ref=e137]: Because of the complicated permit system, extending your stay in Tibet is impossible, and Xinjiang, Beijing and Shanghai can also be tricky places to extend a standard tourist visa. A second extension is harder to get, and a third extension is extremely unlikely.
+      - complementary [ref=e138]:
+        - region "About the author" [ref=e142]:
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - img "Marco Ferrarese" [ref=e148]
+                  - generic [ref=e149]:
+                    - link "Marco Ferrarese" [ref=e150] [cursor=pointer]:
+                      - /url: /authors/marco-ferrarese
+                    - paragraph [ref=e151]: Writer
+                - generic [ref=e152]: I've been living in Penang, Malaysia for well over a decade, from where I travel and cover Southeast Asia, South Asia and beyond for some of the best international guidebooks and publications that include Lonely Planet, Rough Guides, Fodor's, Travel + Leisure Southeast Asia, Nikkei Asia, South China Morning Post and BBC Travel. In the footsteps of fellow countryman and namesake Marco (Polo), I prefer offbeat and adventurous travel. In 2012, when getting visas to Central Asia was still a ni…
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - heading "Get a book. Get inspired. Get exploring." [level=2] [ref=e159]
+        - generic [ref=e160]:
+          - link "Explore all books" [ref=e161] [cursor=pointer]:
+            - /url: https://shop.lonelyplanet.com/?utm_source=lonelyplanet&utm_campaign=article&utm_content=exploreall
+          - generic [ref=e162]:
+            - button "Previous slide" [disabled] [ref=e163]:
+              - img [ref=e164]
+            - button "Next slide" [ref=e166]:
+              - img [ref=e167]
+      - list [ref=e169]:
+        - listitem [ref=e170]:
+          - article [ref=e171]:
+            - generic [ref=e173]:
+              - 'generic "Category: Guide" [ref=e174]': Guide
+              - 'link "China Price: $34.99" [ref=e175] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/china?utm_source=lonelyplanet&utm_campaign=articlesdriver&utm_content=visa-requirements-for-china
+                - generic [ref=e176]: China
+              - generic [ref=e177]:
+                - generic [ref=e178] [cursor=pointer]: Shop Book
+                - 'generic "Price: $34.99" [ref=e179]':
+                  - generic [ref=e180]: $34.99
+        - listitem [ref=e181]:
+          - article [ref=e182]:
+            - generic [ref=e184]:
+              - 'generic "Category: Guide" [ref=e185]': Guide
+              - 'link "Pocket Shanghai Price: $14.99" [ref=e186] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/pocket-shanghai?utm_source=lonelyplanet&utm_campaign=articlesdriver&utm_content=visa-requirements-for-china
+                - generic [ref=e187]: Pocket Shanghai
+              - generic [ref=e188]:
+                - generic [ref=e189] [cursor=pointer]: Shop Book
+                - 'generic "Price: $14.99" [ref=e190]':
+                  - generic [ref=e191]: $14.99
+        - listitem [ref=e192]:
+          - article [ref=e193]:
+            - generic [ref=e195]:
+              - 'generic "Category: Guide" [ref=e196]': Guide
+              - 'link "Pocket Beijing Price: $14.99" [ref=e197] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/pocket-beijing?utm_source=lonelyplanet&utm_campaign=articlesdriver&utm_content=visa-requirements-for-china
+                - generic [ref=e198]: Pocket Beijing
+              - generic [ref=e199]:
+                - generic [ref=e200] [cursor=pointer]: Shop Book
+                - 'generic "Price: $14.99" [ref=e201]':
+                  - generic [ref=e202]: $14.99
+        - listitem [ref=e203]:
+          - article [ref=e204]:
+            - generic [ref=e206]:
+              - 'generic "Category: Guide" [ref=e207]': Guide
+              - 'link "Best in Travel 2026 Price: $19.99" [ref=e208] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/lonely-planets-best-in-travel-2026?utm_source=lonelyplanet&utm_campaign=articlesdriver&utm_content=visa-requirements-for-china
+                - generic [ref=e209]: Best in Travel 2026
+              - generic [ref=e210]:
+                - generic [ref=e211] [cursor=pointer]: Shop Book
+                - 'generic "Price: $19.99" [ref=e212]':
+                  - generic [ref=e213]: $19.99
+        - listitem [ref=e214]:
+          - article [ref=e215]:
+            - generic [ref=e217]:
+              - 'generic "Category: Guide" [ref=e218]': Guide
+              - 'link "Dream Trips of the World Price: $45.00" [ref=e219] [cursor=pointer]':
+                - /url: https://shop.lonelyplanet.com/products/dream-trips-of-the-world?utm_source=lonelyplanet&utm_campaign=articlesdriver&utm_content=visa-requirements-for-china
+                - generic [ref=e220]: Dream Trips of the World
+              - generic [ref=e221]:
+                - generic [ref=e222] [cursor=pointer]: Shop Book
+                - 'generic "Price: $45.00" [ref=e223]':
+                  - generic [ref=e224]: $45.00
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - heading "Explore related stories" [level=2] [ref=e229]
+        - generic [ref=e230]:
+          - link "Read more" [ref=e231] [cursor=pointer]:
+            - /url: /articles
+          - generic [ref=e232]:
+            - button "Previous slide" [disabled] [ref=e233]:
+              - img [ref=e234]
+            - button "Next slide" [ref=e236]:
+              - img [ref=e237]
+      - list [ref=e239]:
+        - listitem [ref=e240]:
+          - article "13 of the best places to visit in China" [ref=e241]:
+            - img "Karst landscapes near Yangshuo, China. Liufuyu/Getty Images" [ref=e243]
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - generic [ref=e246]: Feb 6, 2026
+                - generic [ref=e247]: 10 min read
+              - link "13 of the best places to visit in China" [ref=e248] [cursor=pointer]:
+                - /url: /articles/best-places-to-visit-in-china
+                - generic [ref=e249]: 13 of the best places to visit in China
+              - generic [ref=e250] [cursor=pointer]: Read Story
+        - listitem [ref=e251]:
+          - article "What you should know about visiting the Great Wall of China" [ref=e252]:
+            - img "shutterstock_1211080384.jpg" [ref=e254]
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - generic [ref=e257]: Sep 4, 2025
+                - generic [ref=e258]: 9 min read
+              - link "What you should know about visiting the Great Wall of China" [ref=e259] [cursor=pointer]:
+                - /url: /articles/history-of-great-wall-of-china-visit
+                - generic [ref=e260]: What you should know about visiting the Great Wall of China
+              - generic [ref=e261] [cursor=pointer]: Read Story
+        - listitem [ref=e262]:
+          - article "The 14 top things to do in Hainan, China" [ref=e263]:
+            - img "Hainan is famous for its beaches, minority communities and tropical climate. Iurii Dzivinskyi/Shutterstock" [ref=e265]
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - generic [ref=e268]: Aug 29, 2025
+                - generic [ref=e269]: 13 min read
+              - link "The 14 top things to do in Hainan, China" [ref=e270] [cursor=pointer]:
+                - /url: /articles/top-things-to-do-in-hainan-china
+                - generic [ref=e271]: The 14 top things to do in Hainan, China
+              - generic [ref=e272] [cursor=pointer]: Read Story
+        - listitem [ref=e273]:
+          - article "14 of the best things to do in Xishuangbanna, China" [ref=e274]:
+            - img "Dai architecture in Xishuangbanna's gardens. gyn9038/Getty Images" [ref=e276]
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - generic [ref=e279]: May 29, 2025
+                - generic [ref=e280]: 7 min read
+              - link "14 of the best things to do in Xishuangbanna, China" [ref=e281] [cursor=pointer]:
+                - /url: /articles/top-things-to-do-in-xishuangbanna
+                - generic [ref=e282]: 14 of the best things to do in Xishuangbanna, China
+              - generic [ref=e283] [cursor=pointer]: Read Story
+        - listitem [ref=e284]:
+          - article "The best beaches in China" [ref=e285]:
+            - img "Wuzhizhou Island in Sanya, Hainan. maple90/Shutterstock" [ref=e287]
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - generic [ref=e290]: May 17, 2025
+                - generic [ref=e291]: 5 min read
+              - link "The best beaches in China" [ref=e292] [cursor=pointer]:
+                - /url: /articles/best-beaches-in-china
+                - generic [ref=e293]: The best beaches in China
+              - generic [ref=e294] [cursor=pointer]: Read Story
+        - listitem [ref=e295]:
+          - article "8 of the best things to do in China" [ref=e296]:
+            - img "Snow falls on the Hall of Preserving Harmony, the Forbidden City, Beijing, China. Fotokon/Shutterstock" [ref=e298]
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - generic [ref=e301]: May 8, 2025
+                - generic [ref=e302]: 7 min read
+              - link "8 of the best things to do in China" [ref=e303] [cursor=pointer]:
+                - /url: /articles/top-things-to-do-in-china
+                - generic [ref=e304]: 8 of the best things to do in China
+              - generic [ref=e305] [cursor=pointer]: Read Story
+        - listitem [ref=e306]:
+          - article "Visiting China? Here’s how to get around in the country" [ref=e307]:
+            - img "A high-speed train in Chongqing, China. QinJin/Shutterstock" [ref=e309]
+            - generic [ref=e310]:
+              - generic [ref=e311]:
+                - generic [ref=e312]: May 7, 2025
+                - generic [ref=e313]: 6 min read
+              - link "Visiting China? Here’s how to get around in the country" [ref=e314] [cursor=pointer]:
+                - /url: /articles/getting-around-china
+                - generic [ref=e315]: Visiting China? Here’s how to get around in the country
+              - generic [ref=e316] [cursor=pointer]: Read Story
+        - listitem [ref=e317]:
+          - article "12 of China’s most fascinating national parks" [ref=e318]:
+            - img "Sunrise over Hua Shan, Anhui. Germhess/Shutterstock" [ref=e320]
+            - generic [ref=e321]:
+              - generic [ref=e322]:
+                - generic [ref=e323]: May 5, 2025
+                - generic [ref=e324]: 9 min read
+              - link "12 of China’s most fascinating national parks" [ref=e325] [cursor=pointer]:
+                - /url: /articles/best-national-parks-china
+                - generic [ref=e326]: 12 of China’s most fascinating national parks
+              - generic [ref=e327] [cursor=pointer]: Read Story
+        - listitem [ref=e328]:
+          - 'article "How to get your cell phone connected in China: eSIMs, wi-fi and mobile networks" [ref=e329]':
+            - img "Mutianyu Section of the Great Wall of China. Adwo/Shutterstock" [ref=e331]
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - generic [ref=e334]: Apr 28, 2025
+                - generic [ref=e335]: 8 min read
+              - 'link "How to get your cell phone connected in China: eSIMs, wi-fi and mobile networks" [ref=e336] [cursor=pointer]':
+                - /url: /articles/get-connected-china
+                - generic [ref=e337]: "How to get your cell phone connected in China: eSIMs, wi-fi and mobile networks"
+              - generic [ref=e338] [cursor=pointer]: Read Story
+        - listitem [ref=e339]:
+          - article "What to eat and drink in China" [ref=e340]:
+            - img "Outdoor tea shop in Chengdu, China. peacefoo/Shutterstock" [ref=e342]
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - generic [ref=e345]: Apr 18, 2025
+                - generic [ref=e346]: 6 min read
+              - link "What to eat and drink in China" [ref=e347] [cursor=pointer]:
+                - /url: /articles/what-to-eat-and-drink-in-china
+                - generic [ref=e348]: What to eat and drink in China
+              - generic [ref=e349] [cursor=pointer]: Read Story
+        - listitem [ref=e350]:
+          - article "The best time of year to visit China" [ref=e351]:
+            - img "Spring flowers in bloom in Wùyuán. chinaface/Getty Images" [ref=e353]
+            - generic [ref=e354]:
+              - generic [ref=e355]:
+                - generic [ref=e356]: Apr 14, 2025
+                - generic [ref=e357]: 7 min read
+              - link "The best time of year to visit China" [ref=e358] [cursor=pointer]:
+                - /url: /articles/best-time-to-visit-china
+                - generic [ref=e359]: The best time of year to visit China
+              - generic [ref=e360] [cursor=pointer]: Read Story
+        - listitem [ref=e361]:
+          - article "How do I get a visa for China?" [ref=e362]:
+            - img "The first step towards walking along the Great Wall is getting a visa for China. fotohunter / Shutterstock" [ref=e364]
+            - generic [ref=e365]:
+              - generic [ref=e366]:
+                - generic [ref=e367]: Sep 20, 2024
+                - generic [ref=e368]: 5 min read
+              - link "How do I get a visa for China?" [ref=e369] [cursor=pointer]:
+                - /url: /articles/visa-requirements-for-china
+                - generic [ref=e370]: How do I get a visa for China?
+              - generic [ref=e371] [cursor=pointer]: Read Story
+        - listitem [ref=e372]:
+          - 'article "Jiangsu Province: Welcome to the Land of Water" [ref=e373]':
+            - img "Jiangsu_Water_Grand_Canal.jpg" [ref=e375]
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e378]: Jun 2, 2022
+                - generic [ref=e379]: 6 min read
+              - 'link "Jiangsu Province: Welcome to the Land of Water" [ref=e380] [cursor=pointer]':
+                - /url: /articles/jiangsu-province-land-of-water
+                - generic [ref=e381]: "Jiangsu Province: Welcome to the Land of Water"
+              - generic [ref=e382] [cursor=pointer]: Read Story
+        - listitem [ref=e383]:
+          - 'article "China''s Xishuangbanna: 10 best outdoor adventure experiences" [ref=e384]':
+            - img "A young man painting sketch in Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences. Located in Menglun Town, Mengla County, Yunnan Province, China." [ref=e386]
+            - generic [ref=e387]:
+              - generic [ref=e388]:
+                - generic [ref=e389]: Jan 10, 2022
+                - generic [ref=e390]: 6 min read
+              - 'link "China''s Xishuangbanna: 10 best outdoor adventure experiences" [ref=e391] [cursor=pointer]':
+                - /url: /articles/best-outdoor-experiences-in-xishuangbanna
+                - generic [ref=e392]: "China's Xishuangbanna: 10 best outdoor adventure experiences"
+              - generic [ref=e393] [cursor=pointer]: Read Story
+  - contentinfo "Site footer" [ref=e394]:
+    - region "Main footer content" [ref=e395]:
+      - generic [ref=e397]:
+        - generic "Brand and social media section" [ref=e398]:
+          - link "Lonely Planet Home" [ref=e399] [cursor=pointer]:
+            - /url: /
+            - img "Lonely Planet Home" [ref=e400]
+          - paragraph [ref=e414]: Our guides. your stories.
+          - heading "Travel with the app" [level=3] [ref=e415]
+          - generic [ref=e416]:
+            - link "Download on the App Store" [ref=e417] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/lonely-planet-plan-travel/id6743324581
+              - img [ref=e418]
+            - link "Get it on Google Play" [ref=e425] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.lonelyplanet.app
+              - img [ref=e426]
+          - heading "Follow us" [level=3] [ref=e435]
+          - navigation "Social media links" [ref=e437]:
+            - list [ref=e438]:
+              - listitem [ref=e439]:
+                - link "Follow us on Facebook" [ref=e440] [cursor=pointer]:
+                  - /url: https://www.facebook.com/lonelyplanet
+                  - img "Lonely Planet on Facebook" [ref=e441]
+              - listitem [ref=e443]:
+                - link "Follow us on Instagram" [ref=e444] [cursor=pointer]:
+                  - /url: https://www.instagram.com/lonelyplanet
+                  - img "Lonely Planet on Instagram" [ref=e445]
+              - listitem [ref=e449]:
+                - link "Follow us on YouTube" [ref=e450] [cursor=pointer]:
+                  - /url: https://www.youtube.com/lonelyplanet
+                  - img "Lonely Planet on YouTube" [ref=e451]
+              - listitem [ref=e453]:
+                - link "Follow us on Pinterest" [ref=e454] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/lonelyplanet
+                  - img "Lonely Planet on Pinterest" [ref=e455]
+          - heading "Join our Newsletter" [level=3] [ref=e457]
+          - region "Footer newsletter signup form" [ref=e459]:
+            - heading "Get exclusive discounts & more!" [level=3] [ref=e460]
+            - form [ref=e461]:
+              - textbox [ref=e464]:
+                - /placeholder: Email address
+              - textbox [ref=e465]
+              - button "Sign up for the newsletter" [ref=e466] [cursor=pointer]: Sign Up
+              - paragraph [ref=e467]:
+                - text: Subscribe to Lonely Planet newsletters and promotions.
+                - generic [ref=e468]:
+                  - text: Read our
+                  - link "Read our Privacy Policy" [ref=e469] [cursor=pointer]:
+                    - /url: /legal
+                    - text: Privacy Policy.
+        - generic "Footer navigation" [ref=e470]:
+          - generic [ref=e471]:
+            - navigation "Top destinations navigation" [ref=e472]:
+              - group [ref=e473]:
+                - generic "Top destinations":
+                  - heading "Top destinations" [level=3]
+                - list "Top destinations navigation links" [ref=e474]:
+                  - listitem [ref=e475]:
+                    - link "New York City - Top destinations section" [ref=e476] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/new-york-city
+                      - text: New York City
+                  - listitem [ref=e477]:
+                    - link "Paris - Top destinations section" [ref=e478] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/france/paris
+                      - text: Paris
+                  - listitem [ref=e479]:
+                    - link "Italy - Top destinations section" [ref=e480] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/italy
+                      - text: Italy
+                  - listitem [ref=e481]:
+                    - link "Costa Rica - Top destinations section" [ref=e482] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/costa-rica
+                      - text: Costa Rica
+                  - listitem [ref=e483]:
+                    - link "Japan - Top destinations section" [ref=e484] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/japan
+                      - text: Japan
+                  - listitem [ref=e485]:
+                    - link "USA - Top destinations section" [ref=e486] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa
+                      - text: USA
+                  - listitem [ref=e487]:
+                    - link "Amsterdam - Top destinations section" [ref=e488] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/the-netherlands/amsterdam
+                      - text: Amsterdam
+                  - listitem [ref=e489]:
+                    - link "Portugal - Top destinations section" [ref=e490] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/portugal
+                      - text: Portugal
+                  - listitem [ref=e491]:
+                    - link "Cancún - Top destinations section" [ref=e492] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/mexico/cancun
+                      - text: Cancún
+                  - listitem [ref=e493]:
+                    - link "Chicago - Top destinations section" [ref=e494] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/chicago
+                      - text: Chicago
+                  - listitem [ref=e495]:
+                    - link "England - Top destinations section" [ref=e496] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/england
+                      - text: England
+                  - listitem [ref=e497]:
+                    - link "Tokyo - Top destinations section" [ref=e498] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/japan/tokyo
+                      - text: Tokyo
+                  - listitem [ref=e499]:
+                    - link "France - Top destinations section" [ref=e500] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/france
+                      - text: France
+                  - listitem [ref=e501]:
+                    - link "Thailand - Top destinations section" [ref=e502] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/thailand
+                      - text: Thailand
+                  - listitem [ref=e503]:
+                    - link "Ireland - Top destinations section" [ref=e504] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/ireland
+                      - text: Ireland
+                  - listitem [ref=e505]:
+                    - link "Rome - Top destinations section" [ref=e506] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/italy/rome
+                      - text: Rome
+                  - listitem [ref=e507]:
+                    - link "London - Top destinations section" [ref=e508] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/england/london
+                      - text: London
+                  - listitem [ref=e509]:
+                    - link "Los Angeles - Top destinations section" [ref=e510] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/los-angeles
+                      - text: Los Angeles
+                  - listitem [ref=e511]:
+                    - link "Mexico - Top destinations section" [ref=e512] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/mexico
+                      - text: Mexico
+                  - listitem [ref=e513]:
+                    - link "San Francisco - Top destinations section" [ref=e514] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/san-francisco
+                      - text: San Francisco
+                  - listitem [ref=e515]:
+                    - link "Explore More Destinations - Top destinations section" [ref=e516] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations
+                      - text: Explore More Destinations
+            - navigation "Travel Interests navigation" [ref=e517]:
+              - group [ref=e518]:
+                - generic "Travel Interests":
+                  - heading "Travel Interests" [level=3]
+                - list "Travel Interests navigation links" [ref=e519]:
+                  - listitem [ref=e520]:
+                    - link "Adventure Travel - Travel Interests section" [ref=e521] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/adventure
+                      - text: Adventure Travel
+                  - listitem [ref=e522]:
+                    - link "Art and Culture - Travel Interests section" [ref=e523] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/art-and-culture
+                      - text: Art and Culture
+                  - listitem [ref=e524]:
+                    - link "Beaches, Coasts and Islands - Travel Interests section" [ref=e525] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/beaches
+                      - text: Beaches, Coasts and Islands
+                  - listitem [ref=e526]:
+                    - link "Family Holidays - Travel Interests section" [ref=e527] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/family-travel
+                      - text: Family Holidays
+                  - listitem [ref=e528]:
+                    - link "Festivals - Travel Interests section" [ref=e529] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/festivals-and-events
+                      - text: Festivals
+                  - listitem [ref=e530]:
+                    - link "Food and Drink - Travel Interests section" [ref=e531] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/food-and-drink
+                      - text: Food and Drink
+                  - listitem [ref=e532]:
+                    - link "Honeymoon and Romance - Travel Interests section" [ref=e533] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/romance
+                      - text: Honeymoon and Romance
+                  - listitem [ref=e534]:
+                    - link "Road Trips - Travel Interests section" [ref=e535] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/road-trips
+                      - text: Road Trips
+                  - listitem [ref=e536]:
+                    - link "Sustainable Travel - Travel Interests section" [ref=e537] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/sustainable-travel
+                      - text: Sustainable Travel
+                  - listitem [ref=e538]:
+                    - link "Travel Advice - Travel Interests section" [ref=e539] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/travel-advice
+                      - text: Travel Advice
+                  - listitem [ref=e540]:
+                    - link "Travel on a Budget - Travel Interests section" [ref=e541] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/budget-travel
+                      - text: Travel on a Budget
+                  - listitem [ref=e542]:
+                    - link "Wildlife and Nature - Travel Interests section" [ref=e543] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/wildlife-and-nature
+                      - text: Wildlife and Nature
+            - navigation "Shop navigation" [ref=e544]:
+              - group [ref=e545]:
+                - generic "Shop":
+                  - heading "Shop" [level=3]
+                - list "Shop navigation links" [ref=e546]:
+                  - listitem [ref=e547]:
+                    - link "Destination Guides - Shop section" [ref=e548] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com/collections/guidebooks?utm_source=lonelyplanet&utm_campaign=footer&utm_content=destinationguides
+                      - text: Destination Guides
+                  - listitem [ref=e549]:
+                    - link "Lonely Planet Kids - Shop section" [ref=e550] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com/pages/lonely-planet-kids?utm_source=lonelyplanet&utm_campaign=footer&utm_content=lpkids
+                      - text: Lonely Planet Kids
+                  - listitem [ref=e551]:
+                    - link "Lonely Planet Shop - Shop section" [ref=e552] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com?utm_source=lonelyplanet&utm_campaign=footer&utm_content=lpshop
+                      - text: Lonely Planet Shop
+                  - listitem [ref=e553]:
+                    - link "Non-English Guides - Shop section" [ref=e554] [cursor=pointer]:
+                      - /url: https://support.lonelyplanet.com/hc/en-us/articles/218157937-General-guidebook-information-?utm_source=lonelyplanet&utm_campaign=footer&utm_content=nonenglishguides#product3
+                      - text: Non-English Guides
+            - navigation "About Us navigation" [ref=e555]:
+              - group [ref=e556]:
+                - generic "About Us":
+                  - heading "About Us" [level=3]
+                - list "About Us navigation links" [ref=e557]:
+                  - listitem [ref=e558]:
+                    - link "About Lonely Planet - About Us section" [ref=e559] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/about
+                      - text: About Lonely Planet
+                  - listitem [ref=e560]:
+                    - link "Correspondent Network - About Us section" [ref=e561] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/correspondents
+                      - text: Correspondent Network
+                  - listitem [ref=e562]:
+                    - link "Contact Us - About Us section" [ref=e563] [cursor=pointer]:
+                      - /url: https://support.lonelyplanet.com/hc/en-us
+                      - text: Contact Us
+                  - listitem [ref=e564]:
+                    - link "Trade and Advertising - About Us section" [ref=e565] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/press-trade-advertising
+                      - text: Trade and Advertising
+                  - listitem [ref=e566]:
+                    - link "Privacy Policy - About Us section" [ref=e567] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/legal/privacy-policy
+                      - text: Privacy Policy
+                  - listitem [ref=e568]:
+                    - link "Terms and Conditions - About Us section" [ref=e569] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/legal/website-terms
+                      - text: Terms and Conditions
+                  - listitem [ref=e570]:
+                    - link "Work For Us - About Us section" [ref=e571] [cursor=pointer]:
+                      - /url: https://www.redventures.com/careers/brands/lonely-planet
+                      - text: Work For Us
+                  - listitem [ref=e572]:
+                    - link "Sitemap - About Us section" [ref=e573] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/sitemaps
+                      - text: Sitemap
+                  - listitem [ref=e574]:
+                    - link "Consumer Health Data Privacy Policy - About Us section" [ref=e575] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/consumer-health-data-privacy-policy
+                      - text: Consumer Health Data Privacy Policy
+                  - listitem [ref=e576]:
+                    - button "Open cookie settings" [ref=e577] [cursor=pointer]: Cookie Settings
+                  - listitem [ref=e578]:
+                    - link "Do Not Sell or Share My Personal Information (opens in new tab)" [ref=e579] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/do-not-sell-or-share-my-personal-information
+                      - text: Do Not Sell or Share My Personal Information
+    - region "Footer legal and language selection" [ref=e580]:
+      - generic [ref=e581]:
+        - paragraph [ref=e582]: © 2026 Lonely Planet, a Red Ventures company. All rights reserved. No part of this site may be reproduced without our written permission.
+        - 'button "Language: English" [ref=e587] [cursor=pointer]':
+          - paragraph: "Language: English"
+          - img

@@ -1,0 +1,999 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "China Highlights Logo" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "China Highlights Logo" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10] [cursor=pointer]: CHINA TOURS
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - generic [ref=e15]: Top China Tours
+              - generic [ref=e16]:
+                - generic [ref=e17]:
+                  - generic [ref=e18]:
+                    - link "2-Week China Natural Wonders Discovery" [ref=e19] [cursor=pointer]:
+                      - /url: /china-tours/natural-wonders-discovery.htm
+                      - img "2-Week China Natural Wonders Discovery" [ref=e20]
+                    - link "2-Week China Natural Wonders Discovery" [ref=e22] [cursor=pointer]:
+                      - /url: /china-tours/natural-wonders-discovery.htm
+                  - generic [ref=e23]:
+                    - link "2-Week China Essence and Panda Tour" [ref=e24] [cursor=pointer]:
+                      - /url: /china-tours/china-essence-panda-tour.htm
+                      - img "2-Week China Essence and Panda Tour" [ref=e25]
+                    - link "2-Week China Essence and Panda Tour" [ref=e27] [cursor=pointer]:
+                      - /url: /china-tours/china-essence-panda-tour.htm
+                - generic [ref=e28]:
+                  - generic [ref=e29]:
+                    - link "3-Week Grand Tour of China's Landmarks" [ref=e30] [cursor=pointer]:
+                      - /url: /china-tours/china-landmarks.htm
+                      - img "3-Week Grand Tour of China's Landmarks" [ref=e31]
+                    - link "3-Week Grand Tour of China's Landmarks" [ref=e33] [cursor=pointer]:
+                      - /url: /china-tours/china-landmarks.htm
+                  - generic [ref=e34]:
+                    - link "3-Week Must-See Places China Tour Including Holy Tibet" [ref=e35] [cursor=pointer]:
+                      - /url: /china-tours/must-see-places-including-tibet.htm
+                      - img "3-Week Must-See Places China Tour Including Holy Tibet" [ref=e36]
+                    - link "3-Week Must-See Places China Tour Including Holy Tibet" [ref=e38] [cursor=pointer]:
+                      - /url: /china-tours/must-see-places-including-tibet.htm
+              - link "Top China Tours" [ref=e40] [cursor=pointer]:
+                - /url: /china-tours/top-tours.htm
+            - generic [ref=e41]:
+              - generic [ref=e42]: Popular Cities and Region Tours
+              - list [ref=e44]:
+                - listitem [ref=e45]:
+                  - link "Beijing" [ref=e46] [cursor=pointer]:
+                    - /url: /beijing/tours/
+                - listitem [ref=e47]:
+                  - link "Chengdu" [ref=e48] [cursor=pointer]:
+                    - /url: /chengdu/tours/
+                - listitem [ref=e49]:
+                  - link "Chongqing" [ref=e50] [cursor=pointer]:
+                    - /url: /chongqing/tours/
+                - listitem [ref=e51]:
+                  - link "Chaozhou-Shantou" [ref=e52] [cursor=pointer]:
+                    - /url: /chaozhou-shantou/tours/chaoshan-hakka-heritage.htm
+                - listitem [ref=e53]:
+                  - link "Guilin" [ref=e54] [cursor=pointer]:
+                    - /url: /guilin/tours/
+                - listitem [ref=e55]:
+                  - link "Guizhou" [ref=e56] [cursor=pointer]:
+                    - /url: /guizhou/tours/
+                - listitem [ref=e57]:
+                  - link "Guangzhou" [ref=e58] [cursor=pointer]:
+                    - /url: /guangzhou/tours/
+                - listitem [ref=e59]:
+                  - link "Harbin" [ref=e60] [cursor=pointer]:
+                    - /url: /harbin/tours/
+                - listitem [ref=e61]:
+                  - link "Hong Kong" [ref=e62] [cursor=pointer]:
+                    - /url: /hong-kong/tours/
+                - listitem [ref=e63]:
+                  - link "Hangzhou" [ref=e64] [cursor=pointer]:
+                    - /url: /hangzhou/tours/
+                - listitem [ref=e65]:
+                  - link "Huangshan" [ref=e66] [cursor=pointer]:
+                    - /url: /huangshan/tours/
+                - listitem [ref=e67]:
+                  - link "Inner Mongolia" [ref=e68] [cursor=pointer]:
+                    - /url: /inner-mongolia/tours/
+                - listitem [ref=e69]:
+                  - link "Jiuzhaigou" [ref=e70] [cursor=pointer]:
+                    - /url: /jiuzhaigou/tours/
+              - list [ref=e72]:
+                - listitem [ref=e73]:
+                  - link "Pingyao" [ref=e74] [cursor=pointer]:
+                    - /url: /pingyao/tours/
+                - listitem [ref=e75]:
+                  - link "Suzhou" [ref=e76] [cursor=pointer]:
+                    - /url: /suzhou/tours/
+                - listitem [ref=e77]:
+                  - link "Silk Road" [ref=e78] [cursor=pointer]:
+                    - /url: /silk-road/tours/
+                - listitem [ref=e79]:
+                  - link "Shanghai" [ref=e80] [cursor=pointer]:
+                    - /url: /shanghai/tours/
+                - listitem [ref=e81]:
+                  - link "Tibet" [ref=e82] [cursor=pointer]:
+                    - /url: /tibet/tours/
+                - listitem [ref=e83]:
+                  - link "Taiwan" [ref=e84] [cursor=pointer]:
+                    - /url: /taiwan/tours/
+                - listitem [ref=e85]:
+                  - link "Xinjiang" [ref=e86] [cursor=pointer]:
+                    - /url: /xinjiang/tours/
+                - listitem [ref=e87]:
+                  - link "Xiamen" [ref=e88] [cursor=pointer]:
+                    - /url: /xiamen/tours/
+                - listitem [ref=e89]:
+                  - link "Xi'an" [ref=e90] [cursor=pointer]:
+                    - /url: /xian/tours/
+                - listitem [ref=e91]:
+                  - link "Yunnan" [ref=e92] [cursor=pointer]:
+                    - /url: /yunnan/tours/
+                - listitem [ref=e93]:
+                  - link "Yangtze River" [ref=e94] [cursor=pointer]:
+                    - /url: /yangtzecruise/
+                - listitem [ref=e95]:
+                  - link "Zhangjiajie" [ref=e96] [cursor=pointer]:
+                    - /url: /zhangjiajie/tours/
+                - listitem [ref=e97]:
+                  - link "More Destinations" [ref=e98] [cursor=pointer]:
+                    - /url: /destinations.htm
+            - generic [ref=e99]:
+              - generic [ref=e100]: Multi-countries Tours
+              - list [ref=e101]:
+                - listitem [ref=e102]:
+                  - link "China+Japan" [ref=e103] [cursor=pointer]:
+                    - /url: https://www.japanhighlights.com/japan/tours/japan-china-discovery
+                - listitem [ref=e104]:
+                  - link "China+Vietnam" [ref=e105] [cursor=pointer]:
+                    - /url: https://www.highlightstravel.com/asia/tours/china-and-vietnam
+                - listitem [ref=e106]:
+                  - link "China+Nepal+India" [ref=e107] [cursor=pointer]:
+                    - /url: https://www.highlightstravel.com/asia/tours/china-nepal-and-india
+                - listitem [ref=e108]:
+                  - link "China+Thailand" [ref=e109] [cursor=pointer]:
+                    - /url: /asia-tours/china-thailand.htm
+                - listitem [ref=e110]:
+                  - link "More Asia Tours" [ref=e111] [cursor=pointer]:
+                    - /url: https://www.highlightstravel.com/tours
+        - generic [ref=e112]:
+          - generic [ref=e113] [cursor=pointer]: Themes
+          - generic [ref=e117]:
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - generic [ref=e121]: Travel with
+                - list [ref=e122]:
+                  - listitem [ref=e123]:
+                    - link "Family" [ref=e124] [cursor=pointer]:
+                      - /url: /family-tours/
+                  - listitem [ref=e125]:
+                    - link "Couple" [ref=e126] [cursor=pointer]:
+                      - /url: /china-tours/couple-tours.htm
+              - generic [ref=e127]:
+                - generic [ref=e128]: Ways to travel
+                - list [ref=e129]:
+                  - listitem [ref=e130]:
+                    - link "Educational Tours" [ref=e131] [cursor=pointer]:
+                      - /url: /educational-tours/
+                  - listitem [ref=e132]:
+                    - link "Foodie Journeys" [ref=e133] [cursor=pointer]:
+                      - /url: /china-tours/food-tours.htm
+                  - listitem [ref=e134]:
+                    - link "Hiking Adventures" [ref=e135] [cursor=pointer]:
+                      - /url: /china-tours/hiking-tours.htm
+                  - listitem [ref=e136]:
+                    - link "Nature Escapes" [ref=e137] [cursor=pointer]:
+                      - /url: /china-tours/nature-tours.htm
+                  - listitem [ref=e138]:
+                    - link "Panda Encounters" [ref=e139] [cursor=pointer]:
+                      - /url: /china-tours/china-panda-tours.htm
+                  - listitem [ref=e140]:
+                    - link "Train Tickets Booking" [ref=e141] [cursor=pointer]:
+                      - /url: /china-trains/
+            - generic [ref=e142]:
+              - generic [ref=e143]: Seasonal picks
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - link "Ride Through Inner Mongolia's Grasslands (June to Early October)" [ref=e147] [cursor=pointer]:
+                      - /url: /inner-mongolia/tours/grassland-and-desert.htm
+                      - img "Ride Through Inner Mongolia's Grasslands (June to Early October)" [ref=e148]
+                    - link "Ride Through Inner Mongolia's Grasslands (June to Early October)" [ref=e150] [cursor=pointer]:
+                      - /url: /inner-mongolia/tours/grassland-and-desert.htm
+                  - generic [ref=e151]:
+                    - link "Encounter the Romantic Purple in Ili River Valley (May - Aug.)" [ref=e152] [cursor=pointer]:
+                      - /url: /xinjiang/tours/north-xinjiang-with-ili.htm
+                      - img "Encounter the Romantic Purple in Ili River Valley (May - Aug.)" [ref=e153]
+                    - link "Encounter the Romantic Purple in Ili River Valley (May - Aug.)" [ref=e155] [cursor=pointer]:
+                      - /url: /xinjiang/tours/north-xinjiang-with-ili.htm
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - link "Dive into Miao Sisters' Meal Festival (May)" [ref=e158] [cursor=pointer]:
+                      - /url: /guizhou/tours/minority-festival.htm
+                      - img "Dive into Miao Sisters' Meal Festival (May)" [ref=e159]
+                    - link "Dive into Miao Sisters' Meal Festival (May)" [ref=e161] [cursor=pointer]:
+                      - /url: /guizhou/tours/minority-festival.htm
+                  - generic [ref=e162]:
+                    - link "Catch the Golden Vibe in Beijing (Late Oct. to Early Nov.)" [ref=e163] [cursor=pointer]:
+                      - /url: /beijing/tours/autumn-trip.htm
+                      - img "Catch the Golden Vibe in Beijing (Late Oct. to Early Nov.)" [ref=e164]
+                    - link "Catch the Golden Vibe in Beijing (Late Oct. to Early Nov.)" [ref=e166] [cursor=pointer]:
+                      - /url: /beijing/tours/autumn-trip.htm
+        - generic [ref=e167]:
+          - generic [ref=e168] [cursor=pointer]: Inspirations
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - link "Best time" [ref=e174] [cursor=pointer]:
+                - /url: /weather/china-best-times.htm
+              - list [ref=e176]:
+                - listitem [ref=e177]:
+                  - link "January" [ref=e178] [cursor=pointer]:
+                    - /url: /weather/january.htm
+                - listitem [ref=e179]:
+                  - link "February" [ref=e180] [cursor=pointer]:
+                    - /url: /weather/february.htm
+                - listitem [ref=e181]:
+                  - link "March" [ref=e182] [cursor=pointer]:
+                    - /url: /weather/march.htm
+                - listitem [ref=e183]:
+                  - link "April" [ref=e184] [cursor=pointer]:
+                    - /url: /weather/april.htm
+                - listitem [ref=e185]:
+                  - link "May" [ref=e186] [cursor=pointer]:
+                    - /url: /weather/may.htm
+                - listitem [ref=e187]:
+                  - link "June" [ref=e188] [cursor=pointer]:
+                    - /url: /weather/june.htm
+              - list [ref=e190]:
+                - listitem [ref=e191]:
+                  - link "July" [ref=e192] [cursor=pointer]:
+                    - /url: /weather/july.htm
+                - listitem [ref=e193]:
+                  - link "August" [ref=e194] [cursor=pointer]:
+                    - /url: /weather/august.htm
+                - listitem [ref=e195]:
+                  - link "September" [ref=e196] [cursor=pointer]:
+                    - /url: /weather/september.htm
+                - listitem [ref=e197]:
+                  - link "October" [ref=e198] [cursor=pointer]:
+                    - /url: /weather/october.htm
+                - listitem [ref=e199]:
+                  - link "November" [ref=e200] [cursor=pointer]:
+                    - /url: /weather/november.htm
+                - listitem [ref=e201]:
+                  - link "December" [ref=e202] [cursor=pointer]:
+                    - /url: /weather/december.htm
+            - generic [ref=e203]:
+              - generic [ref=e204]: Maximize your time
+              - list [ref=e205]:
+                - listitem [ref=e206]:
+                  - link "5-Day Trip" [ref=e207] [cursor=pointer]:
+                    - /url: /travelguide/5-days-china-itinerary.htm
+                - listitem [ref=e208]:
+                  - link "8-Day Trip" [ref=e209] [cursor=pointer]:
+                    - /url: /china-tours/8-days-in-china.htm
+                - listitem [ref=e210]:
+                  - link "10-Day Trip" [ref=e211] [cursor=pointer]:
+                    - /url: /travelguide/10-days-china-itinerary.htm
+                - listitem [ref=e212]:
+                  - link "2-Week Trip" [ref=e213] [cursor=pointer]:
+                    - /url: /china-tours/14-days-in-china.htm
+                - listitem [ref=e214]:
+                  - link "3-Week Trip" [ref=e215] [cursor=pointer]:
+                    - /url: /travelguide/3-weeks-china-itinerary.htm
+                - listitem [ref=e216]:
+                  - link "4-Week Trip" [ref=e217] [cursor=pointer]:
+                    - /url: /travelguide/4-week-china-itinerary.htm
+                - listitem [ref=e218]:
+                  - link "China Visa-Free Tours" [ref=e219] [cursor=pointer]:
+                    - /url: /china-tours/hassle-free-china-visas.htm
+            - generic [ref=e220]:
+              - generic [ref=e221]: The Real Local Experiences
+              - generic [ref=e222]:
+                - link "Closer Moment Program" [ref=e223] [cursor=pointer]:
+                  - /url: /customer-stories/closer-moments.htm
+                  - img "Closer Moment Program" [ref=e224]
+                - link "Closer Moment Program" [ref=e226] [cursor=pointer]:
+                  - /url: /customer-stories/closer-moments.htm
+              - generic [ref=e227]:
+                - link "Local Finds" [ref=e228] [cursor=pointer]:
+                  - /url: /china-tours/local-experiences/
+                  - img "Local Finds" [ref=e229]
+                - link "Local Finds" [ref=e231] [cursor=pointer]:
+                  - /url: /china-tours/local-experiences/
+            - generic [ref=e232]:
+              - generic [ref=e233]: Travelers' stories
+              - generic [ref=e234]:
+                - generic [ref=e236]:
+                  - img "The Embrace of the Jungle" [ref=e237]
+                  - generic [ref=e238]: The Embrace of the Jungle
+                - generic [ref=e240]:
+                  - img "Thanksgiving Day, No Turkey? No Problem!" [ref=e241]
+                  - generic [ref=e242]: Thanksgiving Day, No Turkey? No Problem!
+              - link "Read Their Stories" [ref=e244] [cursor=pointer]:
+                - /url: /customer-stories/
+        - generic [ref=e245]:
+          - link "About Us" [ref=e246] [cursor=pointer]:
+            - /url: /aboutus/
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - generic [ref=e251]: About us
+              - generic [ref=e253]:
+                - img "Who we are" [ref=e254]
+                - link "Who we are" [ref=e255] [cursor=pointer]:
+                  - /url: /aboutus/
+                  - generic [ref=e257]: Who we are
+              - generic [ref=e259]:
+                - img "Meet our team" [ref=e260]
+                - link "Meet our team" [ref=e261] [cursor=pointer]:
+                  - /url: /aboutus/meet-our-team.htm
+                  - generic [ref=e263]: Meet our team
+              - generic [ref=e265]:
+                - img "What others say" [ref=e266]
+                - link "What others say" [ref=e267] [cursor=pointer]:
+                  - /url: /reviews.htm
+                  - generic [ref=e269]: What others say
+              - generic [ref=e271]:
+                - img "Responsible travel" [ref=e272]
+                - link "Responsible travel" [ref=e273] [cursor=pointer]:
+                  - /url: /aboutus/responsible-travel.htm
+                  - generic [ref=e275]: Responsible travel
+              - generic [ref=e277]:
+                - img "Loyalty program" [ref=e278]
+                - link "Loyalty program" [ref=e279] [cursor=pointer]:
+                  - /url: /aboutus/loyalty-program.htm
+                  - generic [ref=e281]: Loyalty program
+            - generic [ref=e283]:
+              - list:
+                - listitem [ref=e284]:
+                  - img "WTA 2024" [ref=e285]
+                - listitem [ref=e286]:
+                  - img "2025 Traveler's Choice" [ref=e287]
+                - listitem [ref=e288]:
+                  - img "2024 Traveler's Choice" [ref=e289]
+                - listitem [ref=e290]:
+                  - img "2023 Traveler's Choice" [ref=e291]
+                - listitem [ref=e292]:
+                  - img "2022 Traveler's Choice" [ref=e293]
+                - listitem [ref=e294]:
+                  - img "2021 Traveler's Choice" [ref=e295]
+      - generic [ref=e296]:
+        - generic [ref=e299]:
+          - textbox "Search China Highlights" [ref=e300]
+          - button "site search button" [ref=e301] [cursor=pointer]
+        - link "Start Your Journey" [ref=e302] [cursor=pointer]:
+          - /url: /forms/create-my-trip.htm
+  - generic [ref=e303]:
+    - 'img "Plan Your First Trip to China 2026: 10 Things to Know" [ref=e304]'
+    - img "China Highlights was awarded by World Travel Award and Trip Advisor in 2024." [ref=e306]
+  - generic [ref=e307]:
+    - link "Home" [ref=e308] [cursor=pointer]:
+      - /url: /
+    - link "Travel Guide" [ref=e309] [cursor=pointer]:
+      - /url: /travelguide/
+  - 'heading "Plan Your First Trip to China 2026: 10 Things to Know" [level=1] [ref=e310]'
+  - generic:
+    - generic:
+      - main [ref=e312]:
+        - paragraph [ref=e313]: "Planning a trip to China can feel overwhelming. It's a vast and diverse country, but that also means there's a lot to figure out: Where should you go? How long do you need? Will mobile payments be a problem?"
+        - paragraph [ref=e314]: This guide is here to make it all easier. With local insights and practical tips, we'll walk you through the key steps from picking destinations to getting around, so you can plan with confidence and enjoy the journey ahead.
+        - heading "Content Preview" [level=2] [ref=e315]
+        - list [ref=e316]:
+          - listitem [ref=e317]:
+            - link "1. Choose Where to Go" [ref=e318] [cursor=pointer]:
+              - /url: "#1"
+          - listitem [ref=e319]:
+            - link "2. Decide How Many Days to Stay" [ref=e320] [cursor=pointer]:
+              - /url: "#2"
+          - listitem [ref=e321]:
+            - link "3. Consider When to Travel to China" [ref=e322] [cursor=pointer]:
+              - /url: "#3"
+          - listitem [ref=e323]:
+            - link "4. Getting Around China" [ref=e324] [cursor=pointer]:
+              - /url: "#4"
+          - listitem [ref=e325]:
+            - link "5. Choosing Where to Stay" [ref=e326] [cursor=pointer]:
+              - /url: "#5"
+          - listitem [ref=e327]:
+            - link "6. Check Out Visa Policy" [ref=e328] [cursor=pointer]:
+              - /url: "#6"
+          - listitem [ref=e329]:
+            - link "7. What's the Cost" [ref=e330] [cursor=pointer]:
+              - /url: "#7"
+          - listitem [ref=e331]:
+            - link "8. Learn How to Pay in China" [ref=e332] [cursor=pointer]:
+              - /url: "#8"
+          - listitem [ref=e333]:
+            - link "9. Prepare Internet Access" [ref=e334] [cursor=pointer]:
+              - /url: "#9"
+          - listitem [ref=e335]:
+            - link "10. Should I Choose Guided Tours" [ref=e336] [cursor=pointer]:
+              - /url: "#10"
+        - heading "1. Choose Where to Go" [level=2] [ref=e337]
+        - paragraph [ref=e338]:
+          - text: With our knowledge of China and feedback from our clients, the following five destinations are recommended for first-timers.
+          - strong [ref=e339]: Each one brings something different
+          - text: ": ancient culture, stunning landscapes, city life, or even a close-up with China's beloved pandas."
+        - paragraph [ref=e340]:
+          - img "Top Cities to Visit for First Trip to China" [ref=e341]
+        - heading "1) Beijing — Explore China's Imperial Past" [level=3] [ref=e342]
+        - generic [ref=e343]:
+          - img "Beijing, The Forbbiden City" [ref=e344]
+          - generic [ref=e345]: The Forbidden City
+        - paragraph [ref=e346]: If it's your first time in China, Beijing is the ideal starting point, where ancient dynasties, iconic landmarks, and vibrant local life all come together.
+        - paragraph [ref=e347]:
+          - link "The Great Wall" [ref=e348] [cursor=pointer]:
+            - /url: /greatwall/section/
+          - text: and
+          - link "Forbidden City" [ref=e349] [cursor=pointer]:
+            - /url: /beijing/forbidden-city/how-to-visit.htm
+          - text: are must-sees. To make your visits a fresh twist, try visiting the Forbidden City in Hanfu. It's photogenic and offers a deeper cultural feel.
+        - paragraph [ref=e350]:
+          - strong [ref=e351]: For a new experience in the Great Wall
+          - text: ", you could expect a drone-delivered experience (a fun blend of tradition and tech) at Badaling. Or head to Jinshanling for a sunset picnic on a quieter, more scenic stretch."
+        - paragraph [ref=e352]:
+          - text: You could also get a feel for daily life with
+          - link "a guided hutong walk" [ref=e353] [cursor=pointer]:
+            - /url: /beijing/tours/hutong-tour.htm
+          - text: ", where Beijing's old neighborhoods still breathe."
+        - paragraph [ref=e354]:
+          - strong [ref=e355]: If you travel with kids
+          - text: ", spend a day at Universal Beijing Resort, or enjoy some fun and educational activities like tai chi in the park, calligraphy, and a local family visit in the hutongs."
+        - paragraph [ref=e356]:
+          - text: Beijing is also where you can
+          - strong [ref=e357]: experience China's futuristic lifestyle
+          - text: ", from smart home demonstrations to a ride in an autonomous vehicle."
+        - paragraph [ref=e358]:
+          - strong [ref=e359]: A Chinese clinic experience
+          - text: has become a fresh and popular highlight of a China trip. We'll take you to a local clinic to explore TCM pulse reading, facial diagnosis, and even AI-assisted analysis.
+        - paragraph [ref=e360]: You can also try acupuncture, cupping, or tuina. It's available not only in Beijing, but also in Xi'an and Hangzhou.
+        - paragraph [ref=e361]:
+          - text: See more from our
+          - link "11-Day China Family Tour" [ref=e362] [cursor=pointer]:
+            - /url: /family-tours/classic-china.htm
+          - text: .
+        - heading "2) Shanghai — China's Window to the Future" [level=3] [ref=e363]
+        - generic [ref=e364]:
+          - img "The Bund, Shanghai" [ref=e365]
+          - generic [ref=e366]: The Bund, Shanghai
+        - paragraph [ref=e367]: Shanghai is where China looks ahead. It is a city of dazzling skylines, global flavors, and vibrant contrasts between the old and the new.
+        - paragraph [ref=e368]:
+          - strong [ref=e369]: Hop on a ferry
+          - text: to cross the Huangpu River. You will see the historical architecture on the Bund as well as the modern skyscrapers opposite, giving you a distinctive contrast between modern life and the post-imperial past.
+        - paragraph [ref=e370]: We have specially designed an in-depth Bund culture discovery walking tour for those who want to learn more interesting stories about the Bund and old Shanghai.
+        - paragraph [ref=e371]:
+          - text: You will
+          - strong [ref=e372]: walk a route that few tourists will find
+          - text: by themselves, see the most original bricks, and hear some interesting stories that you'll never find in history books.
+        - paragraph [ref=e373]: To feel the city's softer side, we recommend walking through the tree-lined streets of the French Concession, where Art Deco villas, boutique cafés, and local life blend seamlessly.
+        - paragraph [ref=e374]:
+          - text: If time permits, extend your tour to Hangzhou or Suzhou for a blend of classical gardens, water towns, and modern high-tech experiences. See our
+          - link "5-Day Shanghai and Hangzhou High-Tech Tour" [ref=e375] [cursor=pointer]:
+            - /url: /china-tours/high-tech-tour.htm
+          - text: .
+        - heading "3) Xi'an — Walk Through 2,000 Years of History" [level=3] [ref=e376]
+        - generic [ref=e377]:
+          - img "Xi'an, The Terracotta Warriors" [ref=e378]
+          - generic [ref=e379]: The Terracotta Warriors
+        - paragraph [ref=e380]: If you're drawn to China's ancient roots, Xi'an is unmissable. As the capital of 13 dynasties and the starting point of the Silk Road, it offers a deep dive into the foundations of Chinese civilization.
+        - paragraph [ref=e381]:
+          - link "The Terracotta Warriors" [ref=e382] [cursor=pointer]:
+            - /url: /xian/terracotta-army/how-to-visit.htm
+          - text: are the city's most iconic highlight, but
+          - strong [ref=e383]: we can take your visit a step further
+          - text: . With access to a lesser-known museum near the site, you'll get a rare close-up of the first batch of restored warriors.
+        - paragraph [ref=e384]: Step into a real conservation lab, where under the guidance of professional restorers, you'll work with authentic Qin-era fragments and try your hand at piecing together a mini terracotta warrior.
+        - generic [ref=e385]:
+          - img "Lintong Museum" [ref=e386]
+          - generic [ref=e387]: You can handle Qin Dynasty relics in the conservation lab.
+        - paragraph [ref=e388]:
+          - text: In the evening, don't miss
+          - strong [ref=e389]: Great Tang All Day Mall
+          - text: . It is a dazzling boulevard lit by lanterns and full of performers, street artists, and music. It's the perfect spot to experience Xi'an's modern pulse wrapped in Tang Dynasty charm.
+        - paragraph [ref=e390]: Xi'an is also a favorite for Hanfu photography lovers. The city's many historic buildings and atmospheric streets make the perfect backdrop. We can help you dress up and capture it all, from palace walls to quiet temples.
+        - heading "4) Guilin — Cruise Through China's Most Iconic Scenery" [level=3] [ref=e391]
+        - generic [ref=e392]:
+          - img "Guilin Li River" [ref=e393]
+          - generic [ref=e394]: Li River
+        - paragraph [ref=e395]: First-timers love Guilin for its beautiful landscapes and relaxing places to escape from the cities. It is a true masterpiece of classic rural China.
+        - paragraph [ref=e396]:
+          - strong [ref=e397]: A Li River cruise
+          - text: is the best way to enjoy karst peaks, combined with the Li River.
+        - paragraph [ref=e398]: Yangshuo and Longsheng, two counties next to the city of Guilin, offer most of Guilin's top highlights.
+        - paragraph [ref=e399]:
+          - link "Yangshuo" [ref=e400] [cursor=pointer]:
+            - /url: /yangshuo/
+          - text: is a place where children can put down their phones and iPads and still be well entertained… by cycling around the idyllic countryside, exploring an undeveloped karst cave, and even experiencing the life and work of a Chinese farmer.
+        - paragraph [ref=e401]: Yangshuo also offers a natural, romantic atmosphere for couples. A romantic riverside candlelit dinner set in a mountain retreat garden could be a great way to celebrate your 20th, 30th, 40th, etc., anniversary. Contact us to design a special time for you.
+        - paragraph [ref=e402]: If you are interested in minority culture, the Longji Rice Terraces in Longsheng are really a highlight, both for enjoying the magnificent tiered fields and for experiencing the world of the Zhuang and Yao minorities.
+        - paragraph [ref=e403]:
+          - text: Check more about the
+          - link "14-Day Beijing–Xi'an–Zhangjiajie–Guilin–Shanghai" [ref=e404] [cursor=pointer]:
+            - /url: /china-tours/natural-wonders-discovery.htm
+        - heading "5) Chengdu — Get Close to Pandas" [level=3] [ref=e405]
+        - img "Chengdu,the hometown of giant pandas" [ref=e407]
+        - paragraph [ref=e408]: If pandas are on your must-see list (and for most visitors, they are), Chengdu is the place to go. But there's much more to this laid-back city than adorable black-and-white bears.
+        - paragraph [ref=e409]: An even more special experience would be to have a close encounter with pandas by taking part in our giant panda volunteer program — cleaning the glass of their enclosures, making panda food, watching a panda eat it, and more.
+        - paragraph [ref=e410]:
+          - strong [ref=e411]: Beyond pandas
+          - text: ", Chengdu is all about slowing down and savoring daily life. Sip tea in a centuries-old teahouse while locals play mahjong, explore food through street markets, or enjoy a private face-changing opera encounter, where you can meet the performers and even learn a few tricks."
+        - paragraph [ref=e412]:
+          - text: You could also easily extend your trip to
+          - link "Jiuzhaigou National Park" [ref=e413] [cursor=pointer]:
+            - /url: /jiuzhaigou/
+          - text: to enjoy its fairyland-like turquoise lakes, colorful forests, and dramatic alpine scenery.
+        - heading "If You're Looking for Something beyond the Classic Cities" [level=3] [ref=e414]
+        - list [ref=e415]:
+          - listitem [ref=e416]:
+            - link "Yunnan" [ref=e417] [cursor=pointer]:
+              - /url: /yunnan/
+              - strong [ref=e418]: Yunnan
+            - text: ": If you like snow-capped mountains, slow-paced old towns, and rich ethnic cultures, this is one of China's most beautiful and diverse provinces."
+          - listitem [ref=e419]:
+            - link "Zhangjiajie" [ref=e420] [cursor=pointer]:
+              - /url: /zhangjiajie/
+              - strong [ref=e421]: Zhangjiajie
+            - text: ": It is great for nature lovers with the floating peaks in Avatar. Let you walk the glass skywalks and hike among the surreal stone pillars."
+          - listitem [ref=e422]:
+            - link "Chongqing" [ref=e423] [cursor=pointer]:
+              - /url: /chongqing/
+              - strong [ref=e424]: Chongqing
+            - text: ": If you're into dramatic cityscapes, spicy hotpot, and riding a monorail through skyscrapers, this mountain megacity delivers an electric, off-the-beaten-path vibe."
+          - listitem [ref=e425]:
+            - link "Harbin" [ref=e426] [cursor=pointer]:
+              - /url: /harbin/plan-a-trip.htm
+              - strong [ref=e427]: Harbin
+            - text: ": It is wonderful for a winter trip. This icy city shines with its magical Ice and Snow Festival, Russian-style churches, and frozen fun for the whole family."
+          - listitem [ref=e428]:
+            - link "Tibet" [ref=e429] [cursor=pointer]:
+              - /url: /tibet/
+              - strong [ref=e430]: Tibet
+            - text: ": If you're drawn to sacred sites, peaceful monasteries, and high-altitude beauty, this spiritual journey offers something unforgettable."
+        - paragraph [ref=e431]:
+          - text: See our
+          - link "18-Day Classic China Tour with Yunnan" [ref=e432] [cursor=pointer]:
+            - /url: /china-tours/classic-china-tour-with-yunnan.htm
+        - heading "2. Decide How Many Days to Stay" [level=2] [ref=e433]
+        - img "How Many Days to Stay" [ref=e435]
+        - paragraph [ref=e436]: After a long journey to get to China, you probably won't want to just scratch the surface of China and just take snapshots with the landmark attractions.
+        - paragraph [ref=e437]:
+          - text: We suggest you take
+          - strong [ref=e438]: at least a week
+          - text: "for your first trip to see a spectrum of the highlights in the top three cities: Beijing (3–4 days), Xi'an (2 days), and Shanghai (1–2 days). See our"
+          - link "8-Day Beijing–Xi'an–Shanghai Tour" [ref=e439] [cursor=pointer]:
+            - /url: /china-tours/golden-triangle-tour.htm
+          - text: for inspiration.
+        - paragraph [ref=e440]:
+          - strong [ref=e441]: 2 weeks
+          - text: offer more breathing room and variety. You could add places like Chengdu (for pandas), Guilin (for natural beauty), or Zhangjiajie (for epic mountain landscapes). You'll get a deeper experience without feeling too rushed.
+        - paragraph [ref=e442]: If you want to dive deeper, consider planning for 3 weeks or more. This gives you time to explore western China like Tibet or Xinjiang or discover hidden gems in places like Yunnan or Guizhou, which reward slow travel.
+        - paragraph [ref=e443]:
+          - text: Whatever your pace or interest, we could help shape your time in China into something personal, thoughtful, and full of discovery. Just
+          - link "contact us" [ref=e444] [cursor=pointer]:
+            - /url: /contactus/
+          - text: . All our tours are customizable.
+        - paragraph [ref=e445]: "Or get ideas from our:"
+        - list [ref=e446]:
+          - listitem [ref=e447]:
+            - 'link "10 Days in China: 5 Top Itinerary Ideas" [ref=e448] [cursor=pointer]':
+              - /url: /travelguide/10-days-china-itinerary.htm
+          - listitem [ref=e449]:
+            - 'link "2 Weeks in China: 3 Top Itinerary Ideas" [ref=e450] [cursor=pointer]':
+              - /url: /travelguide/2-weeks-china-itinerary.htm
+          - listitem [ref=e451]:
+            - 'link "3 Weeks in China: 3 Top Itinerary Ideas" [ref=e452] [cursor=pointer]':
+              - /url: /travelguide/3-weeks-china-itinerary.htm
+          - listitem [ref=e453]:
+            - link "How to Plan Your Family Trip to China" [ref=e454] [cursor=pointer]:
+              - /url: /travelguide/family-trip-plan.htm
+        - heading "3. Consider When to Travel to China" [level=2] [ref=e455]
+        - img "When to Travel to China" [ref=e457]
+        - paragraph [ref=e458]: The "best time" really depends on what you're hoping to experience.
+        - paragraph [ref=e459]:
+          - text: If you're coming for iconic sights like the Great Wall, the Forbidden City, or the Terracotta Warriors,
+          - strong [ref=e460]: spring and autumn
+          - text: are generally your safest bet.
+        - paragraph [ref=e461]: Between April and May or September and October, the weather is pleasant, the skies are clear, and everything just feels more photogenic.
+        - paragraph [ref=e462]: Fall is usually a bit drier and warmer than spring, which makes it slightly more comfortable for long walks and outdoor activities.
+        - paragraph [ref=e463]:
+          - strong [ref=e464]: A more ideal travel time
+          - text: for you could be March and early April or early November if you'd prefer to skip the crowds and don't mind slightly cooler mornings or evenings. There are fewer people, lower prices, and still nice weather for sightseeing.
+        - paragraph [ref=e465]: And while summer might sound intense. But it's not as tough as you might think. Rain tends to come in short bursts rather than all-day downpours, and many cooler regions like Yunnan or Tibet are at their best this time of year.
+        - paragraph [ref=e466]: With a bit of smart planning (and air-conditioning), summer in China can actually be very doable, especially for families on school holidays.
+        - paragraph [ref=e467]: Winter, on the other hand, is quiet and budget-friendly. You could enjoy the Ice and Snow Festival in Harbin or wander through Beijing's palaces without the usual crowds. If you don't mind bundling up, it's a great time to get a more peaceful look at China.
+        - paragraph [ref=e468]:
+          - text: You can find more detailed tips on the
+          - link "Best Times to Travel to China" [ref=e469] [cursor=pointer]:
+            - /url: /weather/china-best-times.htm
+          - text: .
+        - heading "4. What's the Best Way to Travel around China" [level=2] [ref=e470]
+        - paragraph [ref=e471]: Traveling within China might seem daunting at first, as the distances are big, and the cities are vast. While it is not difficult to travel around China because China has one of the most advanced, affordable, and reliable transport networks in the world.
+        - paragraph [ref=e472]:
+          - text: For long distances,
+          - strong [ref=e473]: high-speed trains
+          - text: are often the best choice. They're clean, efficient, and remarkably fast. Trains are also a great way to see more of the real China beyond the cities from the scenery outside the window.
+        - paragraph [ref=e474]: If you're short on time or heading to places that are farther apart (like Beijing to Guilin), domestic flights can be a smart option. Major airports are well-connected, and there are multiple flights per day for most routes. We'll help you choose the best flight times to fit your itinerary smoothly.
+        - paragraph [ref=e475]:
+          - strong [ref=e476]: Within cities
+          - text: ", getting around is easier than you might expect. Most major cities like Beijing, Shanghai, and Chengdu have modern subway systems with English signage and announcements. Taxis and ride-hailing apps (like DiDi, China's version of Uber) are widely available."
+        - paragraph [ref=e477]: If you prefer a more relaxed experience, choose a private driver and guide. This can make all the difference, especially if you're traveling with kids, seniors, or just want the convenience of door-to-door service without the stress.
+        - paragraph [ref=e478]: We'll help you choose the right mix of transport for your journey — fast trains, smart flights, easy local rides — all arranged in a way that feels seamless and lets you focus on enjoying the trip.
+        - heading "5. Choosing Where to Stay" [level=2] [ref=e479]
+        - paragraph [ref=e480]: China has no shortage of accommodation, from luxury international chains to boutique courtyard hotels and family-run guesthouses. But finding one that fits your needs, comfort level, and travel style can make a big difference to your experience.
+        - paragraph [ref=e481]:
+          - text: If you're looking for comfort and ease,
+          - strong [ref=e482]: international brands
+          - text: like Hyatt, Marriott, Hilton, or InterContinental are widely available in major cities.
+        - paragraph [ref=e483]: Staff at these hotels usually speak English, and you'll have access to familiar services and amenities. They are perfect if it's your first time in China or you're traveling with kids.
+        - paragraph [ref=e484]:
+          - text: If you want something with more character,
+          - strong [ref=e485]: boutique hotels
+          - text: ", especially in places like Beijing's hutongs, Guilin's countryside, or Lijiang's old town, can give you a unique cultural experience."
+        - paragraph [ref=e486]: You might even wake up in a traditional courtyard with carved wooden beams.
+        - paragraph [ref=e487]: We help match you with the right place based on your preferences, whether that's being close to attractions or having special requests (like a crib, connecting rooms, or early check-in).
+        - paragraph [ref=e488]:
+          - strong [ref=e489]: One note
+          - text: ": not all hotels in China are licensed to host foreign visitors, especially in smaller towns. But don't worry — we only recommend places that meet international standards and ensure a smooth check-in process for foreign travelers."
+        - generic [ref=e490]:
+          - link "Educational Family Vacation" [ref=e491] [cursor=pointer]:
+            - /url: /china-tours/chinese-immersion-tour.htm
+            - img "Educational Family Vacation" [ref=e492]
+          - generic:
+            - link "13-Day Beijing, Xi'an, Chengdu, Shanghai Chinese Language and Culture Immersion Tour" [ref=e493] [cursor=pointer]:
+              - /url: /china-tours/chinese-immersion-tour.htm
+              - strong [ref=e494]: 13-Day Beijing, Xi'an, Chengdu, Shanghai
+              - text: Chinese Language and Culture Immersion Tour
+            - link [ref=e496] [cursor=pointer]:
+              - /url: /china-tours/chinese-immersion-tour.htm
+        - heading "6. Do I Need a Visa for China?" [level=2] [ref=e497]
+        - paragraph [ref=e498]:
+          - text: Traveling to China is now much easier for most international travelers —
+          - strong [ref=e499]: visas are not necessary
+          - text: .
+        - paragraph [ref=e500]: If you're from most of Europe (like Italy, Spain, Germany, France, Belgium, etc), Southeast Asia (like Singapore, Malaysia, Thailand, etc.), Australia, or New Zealand, you can now enter China visa-free for up to 30 days.
+        - paragraph [ref=e501]:
+          - text: "If you're from the U.S., Canada, the U.K., or other 52 countries, there's still a great option: China currently allows"
+          - link "10-day visa-free" [ref=e502] [cursor=pointer]:
+            - /url: /travelguide/visa-application/10-day-visa-free.htm
+          - text: transit in most cities like Beijing, Shanghai, Chengdu, Zhangjiajie, Chengdu, and Guangzhou.
+        - paragraph [ref=e503]: "If you want to stay longer than 10 days, you'll need a tourist (L) visa or an even easier option: let us help you apply for a China Port Visa, which doesn't require a visit to the embassy or consulate."
+        - heading "7. What Does a China Trip Really Cost?" [level=2] [ref=e504]
+        - paragraph [ref=e505]: Traveling in China is more affordable than many people expect, especially once you're on the ground.
+        - paragraph [ref=e506]: The biggest cost for most travelers is the international airfare, which can vary a lot depending on season and departure city. For example, flights from the US or Europe usually range from $1,200 to $3,000 USD for an economy round trip.
+        - paragraph [ref=e507]:
+          - text: Once you're in China, the cost of a private, comfortable trip is quite reasonable. For a mid- to high-quality private tour including 4–5 star hotels, domestic transport (flights or high-speed trains), attractions, private guide, transfers, and lunch, you can expect to spend around
+          - strong [ref=e508]: $220–350 USD
+          - text: per day per person.
+        - generic [ref=e509]:
+          - paragraph [ref=e510]:
+            - strong [ref=e511]: "Timing matters:"
+          - paragraph [ref=e512]: Hotel and flight prices can increase by 50–100% during China's peak travel times, especially the first weeks of May and October (known as the Golden Weeks), summer vacation, and around Christmas and New Year. Planning your trip outside these windows can help you save significantly.
+          - paragraph [ref=e513]: Traveling in spring (March–April) or late autumn (November) can enjoy better prices, pleasant weather, and smaller crowds.
+        - generic [ref=e514]:
+          - link "Water Town" [ref=e515] [cursor=pointer]:
+            - /url: /china-tours/soul-of-chinese-elegance.htm
+            - img "Water Town" [ref=e516]
+          - generic:
+            - link "2-Week Shanghai, Suzhou, Hangzhou, Guilin, Xian, and Beijing Tour Touch Chinese Elegance" [ref=e517] [cursor=pointer]:
+              - /url: /china-tours/soul-of-chinese-elegance.htm
+              - strong [ref=e518]: 2-Week Shanghai, Suzhou, Hangzhou, Guilin, Xian, and Beijing Tour
+              - text: Touch Chinese Elegance
+            - link [ref=e520] [cursor=pointer]:
+              - /url: /china-tours/soul-of-chinese-elegance.htm
+        - 'heading "8. Learn How to Pay in China: Go Cashless with Ease" [level=2] [ref=e521]'
+        - paragraph [ref=e522]: "China is one of the most cashless countries in the world. In big cities and even small towns, mobile payment is the norm: people pay for everything from metro rides to street food using their phones."
+        - paragraph [ref=e523]:
+          - text: If you're wondering, "
+          - link "Can foreigners use mobile payment in China now" [ref=e524] [cursor=pointer]:
+            - /url: /expatslife/payment-methods.htm
+          - text: "?\" The answer is yes. It's now easier than ever."
+        - paragraph [ref=e525]: You can simply link your international credit card (Visa/Mastercard) to popular apps like WeChat Pay or Alipay. Once set up, you can scan and pay just like locals do — no need to worry about exchanging cash or carrying coins.
+        - paragraph [ref=e526]: "Other options:"
+        - list [ref=e527]:
+          - listitem [ref=e528]:
+            - strong [ref=e529]: Cash is still accepted
+            - text: ", especially in more traditional places, though it's not always convenient to find change."
+          - listitem [ref=e530]:
+            - strong [ref=e531]: International credit cards are accepted
+            - text: in large hotels and some high-end restaurants or stores, but not in many local spots, small vendors, or public transport.
+        - heading "9. Prepare Internet Access in China" [level=2] [ref=e532]
+        - paragraph [ref=e533]: Staying connected during your trip is essential, not just for navigation and translation apps, but also for sharing your experiences and keeping in touch with family and friends.
+        - paragraph [ref=e534]:
+          - strong [ref=e535]: China's internet environment is unique
+          - text: ": many popular global websites and apps like Google, Facebook, Instagram, WhatsApp, and YouTube are blocked here. To access these, you'll need to prepare in advance."
+        - paragraph [ref=e536]: "Here's what you can do:"
+        - list [ref=e537]:
+          - listitem [ref=e538]:
+            - text: Get a reliable
+            - link "VPN" [ref=e539] [cursor=pointer]:
+              - /url: /travelguide/article-best-vpns-for-china.htm
+            - text: (Virtual Private Network) before you arrive. This lets you bypass restrictions safely and access your favorite apps and websites. We recommend choosing a VPN with good speed and proven stability in China.
+          - listitem [ref=e540]: Buy a local SIM card or rent a pocket Wi-Fi device at the airport or online. This provides you with fast 4G/5G data so you can stay online anywhere. Make sure your phone is unlocked to use a local SIM.
+          - listitem [ref=e541]: Use apps that work smoothly in China. Apps like WeChat are widely used and essential for daily life here, from messaging to mobile payments.
+          - listitem [ref=e542]:
+            - text: If you want to avoid the hassle,
+            - strong [ref=e543]: we can help arrange local SIM cards
+            - text: for you before your trip, so you have everything ready upon arrival.
+        - paragraph [ref=e544]: "Quick Tip: Many hotels and cafes offer free Wi-Fi, but speeds and reliability vary. Having your own data plan or pocket Wi-Fi ensures smooth connectivity wherever you go."
+        - heading "10. Should I Choose Guided Tours?" [level=2] [ref=e545]
+        - generic [ref=e546]:
+          - 'img "A must-see city in your first china trip: Guilin Longji" [ref=e547]'
+          - generic [ref=e548]: Our clients are talking to the local people.
+        - paragraph [ref=e549]: Traveling independently in China is possible — but it's not always easy, especially if it's your first time.
+        - paragraph [ref=e550]: Language barriers, complex transport systems, and the sheer size of the country can make even simple things feel overwhelming. Booking tickets, navigating train stations, or finding the right entrance to a massive site like the Forbidden City can eat up precious travel time and energy.
+        - paragraph [ref=e551]: That's where guided tours come in.
+        - paragraph [ref=e552]:
+          - strong [ref=e553]: A well-planned private tour can remove the guesswork and stress.
+          - text: You'll have a local expert who speaks your language, handles logistics, and shares fascinating stories that bring the sites to life — things you might miss on your own.
+        - paragraph [ref=e554]: And unlike traditional group tours, private tours are flexible. You decide the pace, the interests, the food, and the vibe. Want to explore a quiet part of the Great Wall with a picnic? Done. Prefer hands-on experiences like making dumplings with a local family? Easy.
+        - paragraph [ref=e555]: If you're traveling with kids or elderly family members, or just want to see more in less time, having someone local to guide you makes all the difference.
+        - heading "Tour China with China Highlights" [level=2] [ref=e556]
+        - paragraph [ref=e557]: For more than 20 years, we've been crafting China trips for international travelers who want more than a checklist tour.
+        - paragraph [ref=e558]: From iconic landmarks to niche destinations and real local experiences, we help you explore China with insider insight.
+        - paragraph [ref=e559]:
+          - link "Contact us" [ref=e560] [cursor=pointer]:
+            - /url: /contactus/
+          - text: and let us tailor a journey around your schedule, interests, and travel pace.
+        - link "Start Your Journey" [ref=e562] [cursor=pointer]:
+          - /url: /forms/create-my-trip.htm
+          - text: Start
+          - text: Your
+          - text: Journey
+      - complementary:
+        - generic [ref=e563]:
+          - heading "Why China Highlights (10,000+ reviews & 98.8% 5-star rating)" [level=3] [ref=e564]
+          - list [ref=e565]:
+            - listitem [ref=e566]: "Save Your Time:"
+            - listitem [ref=e567]: Less research, more enjoyment!
+            - listitem [ref=e568]: Real-time 1V1 expert planning
+            - listitem [ref=e569]: "Maximize Your Flexibility:"
+            - listitem [ref=e570]: Personal local guide and ride
+            - listitem [ref=e571]: Explore at your own pace
+            - listitem [ref=e572]: "Live Your China Story:"
+            - listitem [ref=e573]: Authentic local culture and lifestyles
+            - listitem [ref=e574]: Understand the culture by living it
+        - generic [ref=e575]:
+          - generic [ref=e576]:
+            - generic [ref=e577]: Popular tours
+            - list [ref=e578]:
+              - listitem [ref=e579]:
+                - link "14-Day China Natural Wonders Discovery" [ref=e580] [cursor=pointer]:
+                  - /url: /china-tours/natural-wonders-discovery.htm
+              - listitem [ref=e581]:
+                - link "2-Week China Essence and Panda Tour" [ref=e582] [cursor=pointer]:
+                  - /url: /china-tours/china-essence-panda-tour.htm
+              - listitem [ref=e583]:
+                - link "21-Day Classic Chinese History and Natural Wonders Tour" [ref=e584] [cursor=pointer]:
+                  - /url: /china-tours/china-landmarks.htm
+              - listitem [ref=e585]:
+                - link "21-Day China Tour with Silk Road" [ref=e586] [cursor=pointer]:
+                  - /url: /china-tours/classic-china-with-silk-road.htm
+              - listitem [ref=e587]:
+                - link "18-Day Classic China Tour with Yunnan" [ref=e588] [cursor=pointer]:
+                  - /url: /china-tours/classic-china-tour-with-yunnan.htm
+          - generic [ref=e589]:
+            - generic [ref=e590]: Make the most of your time
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - link "10 Most Beautiful Places in China for First-Time Travelers" [ref=e593] [cursor=pointer]:
+                  - /url: /travelguide/most-beautiful-places.htm
+              - listitem [ref=e594]:
+                - 'link "Best Time to Visit China: Avoid the Crowds (Travel Calendar)" [ref=e595] [cursor=pointer]':
+                  - /url: /weather/china-best-times.htm
+              - listitem [ref=e596]:
+                - 'link "Plan Your First Trip to China 2026: 10 Things to Know" [ref=e597] [cursor=pointer]':
+                  - /url: /travelguide/plan-first-trip.htm
+              - listitem [ref=e598]:
+                - 'link "How to Plan a 3-Week Itinerary in China: Top 3 Options (2026)" [ref=e599] [cursor=pointer]':
+                  - /url: /travelguide/3-weeks-china-itinerary.htm
+          - generic [ref=e600]:
+            - generic [ref=e601]: Choose the best time to visit
+            - list [ref=e602]:
+              - listitem [ref=e603]:
+                - 'link "China Weather in January 2026: A Good Time to Visit?" [ref=e604] [cursor=pointer]':
+                  - /url: /weather/january.htm
+              - listitem [ref=e605]:
+                - link "Weather in China in February and Where to Go (2026)" [ref=e606] [cursor=pointer]:
+                  - /url: /weather/february.htm
+              - listitem [ref=e607]:
+                - link "Weather in China in March & Top Places for Cherry Blossom 2026" [ref=e608] [cursor=pointer]:
+                  - /url: /weather/march.htm
+              - listitem [ref=e609]:
+                - 'link "China Weather in April 2026: Where to Go (Smart Pre-Season Pick)" [ref=e610] [cursor=pointer]':
+                  - /url: /weather/april.htm
+              - listitem [ref=e611]:
+                - link "China Weather in May & Top Places to Visit in 2026" [ref=e612] [cursor=pointer]:
+                  - /url: /weather/may.htm
+              - listitem [ref=e613]:
+                - 'link "Weather in China in June: Is It a Good Time to Visit?" [ref=e614] [cursor=pointer]':
+                  - /url: /weather/june.htm
+              - listitem [ref=e615]:
+                - 'link "Weather in China in July 2026: Where to Avoid Heat and Crowds" [ref=e616] [cursor=pointer]':
+                  - /url: /weather/july.htm
+              - listitem [ref=e617]:
+                - link "Weather in China in August & Top 5 Places to Visit (2026)" [ref=e618] [cursor=pointer]:
+                  - /url: /weather/august.htm
+              - listitem [ref=e619]:
+                - 'link "Weather in China in September: Best Places for Autumn Leaves" [ref=e620] [cursor=pointer]':
+                  - /url: /weather/september.htm
+              - listitem [ref=e621]:
+                - 'link "China Weather in October 2026: Where to Go, Crowds, and Costs" [ref=e622] [cursor=pointer]':
+                  - /url: /weather/october.htm
+              - listitem [ref=e623]:
+                - link "China Weather in November 2026 & Top 5 Places to Go" [ref=e624] [cursor=pointer]:
+                  - /url: /weather/november.htm
+              - listitem [ref=e625]:
+                - 'link "China Weather in December 2026: Top 7 Places to Go" [ref=e626] [cursor=pointer]':
+                  - /url: /weather/december.htm
+  - contentinfo [ref=e627]:
+    - generic [ref=e629]:
+      - heading "A Global Network of Trust and Recognition" [level=2] [ref=e631]
+      - img "social medias logos" [ref=e633]
+    - generic [ref=e635]:
+      - text: Connect with your personal advisor
+      - text: to start your journey.
+      - link "Start Your Journey" [ref=e637] [cursor=pointer]:
+        - /url: /forms/create-my-trip.htm
+    - generic [ref=e639]:
+      - heading "Let the Journey Come to You" [level=2] [ref=e640]
+      - paragraph [ref=e641]:
+        - text: Receive our heartfelt stories, travel insights, and special offers -
+        - text: thoughtfully curated and sent to your inbox.
+      - link "Click to Subscribe" [ref=e643] [cursor=pointer]:
+        - /url: /newsletter/
+    - generic [ref=e645]:
+      - heading "Why China Highlights" [level=2] [ref=e647]
+      - paragraph [ref=e649]: Our Belief, and the People Who Bring It to Life.
+      - generic [ref=e650]:
+        - heading "Our Belief" [level=3] [ref=e652]
+        - paragraph [ref=e654]: Highlights Happen When We Get Closer.
+      - generic [ref=e655]:
+        - generic [ref=e656]:
+          - generic [ref=e657]:
+            - img "Close to Nature" [ref=e658]
+            - generic [ref=e659]:
+              - text: Close to
+              - strong [ref=e660]: Nature
+          - generic [ref=e661]:
+            - text: Your phone's wallpaper,
+            - text: but you are in it.
+        - generic [ref=e662]:
+          - generic [ref=e663]:
+            - img "Close to Culture" [ref=e664]
+            - generic [ref=e665]:
+              - text: Close to
+              - strong [ref=e666]: Culture
+          - generic [ref=e667]:
+            - text: Live it,
+            - text: don't just list it.
+        - generic [ref=e668]:
+          - generic [ref=e669]:
+            - img "Close to People" [ref=e670]
+            - generic [ref=e671]:
+              - text: Close to
+              - strong [ref=e672]: People
+          - generic [ref=e673]:
+            - text: Know yourself better by
+            - text: knowing others.
+      - generic [ref=e674]:
+        - heading "Our Promise" [level=3] [ref=e676]
+        - paragraph [ref=e678]: A 4-on-1 Team Dedicated to You.
+      - generic [ref=e679]:
+        - generic [ref=e681]:
+          - generic [ref=e682]:
+            - text: YOUR
+            - strong [ref=e683]: PERSONAL TRAVEL DESIGNER
+          - generic [ref=e684]:
+            - text: "\""
+            - text: We're Travelers First, Planners Second."
+          - img "YOUR PERSONAL TRAVEL DESIGNER" [ref=e685]
+          - paragraph [ref=e686]: Deeply rooted in Asia for authentic advice. Passionate about crafting your unique story.
+        - generic [ref=e688]:
+          - generic [ref=e689]:
+            - text: YOUR
+            - strong [ref=e690]:
+              - text: LOCAL
+              - text: STORYTELLER
+          - generic [ref=e691]:
+            - text: "\""
+            - text: We share the stories you won't find in a guidebook"
+          - img "YOUR LOCAL STORYTELLER" [ref=e692]
+          - paragraph [ref=e693]: Connecting you with the top 20% of local storytellers. Your personal photographer for cherished moments.
+        - generic [ref=e695]:
+          - generic [ref=e696]:
+            - text: YOUR
+            - strong [ref=e697]:
+              - text: PRIVATE DRIVER
+              - text: "& CAR"
+          - generic [ref=e698]:
+            - text: "\""
+            - text: 20% more space, 100% on your schedule."
+          - img "YOUR PRIVATE DRIVER & CAR" [ref=e699]
+          - paragraph [ref=e700]: A seamless journey that moves at your own pace. Your private, comfortable space on the road.
+        - generic [ref=e702]:
+          - generic [ref=e703]:
+            - text: YOUR
+            - strong [ref=e704]:
+              - text: 24/7
+              - text: TRAVEL SUPPORT
+          - generic [ref=e705]:
+            - text: "\""
+            - text: Any Problem, Anytime, Anywhere."
+          - img "YOUR 24/7 TRAVEL SUPPORT" [ref=e706]
+          - paragraph [ref=e707]: Your safety and peace of mind are our priority. Instant responses, so you're never left waiting.
+    - generic [ref=e708]:
+      - generic:
+        - generic:
+          - generic [ref=e710]:
+            - img "China Highlights logo" [ref=e711]
+            - table [ref=e712]:
+              - rowgroup [ref=e713]:
+                - row "China Highlights Since 1998, we've been crafting private journeys that bring you closer to the heart of Asia." [ref=e714]:
+                  - cell "China Highlights" [ref=e715]
+                  - cell "Since 1998, we've been crafting private journeys that bring you closer to the heart of Asia." [ref=e716]
+                - row "We believe Highlights happen when we get closer." [ref=e717]:
+                  - cell "We believe" [ref=e718]
+                  - cell "Highlights happen when we get closer." [ref=e719]:
+                    - strong [ref=e720]: Highlights happen when we get closer.
+          - generic [ref=e721]:
+            - link "Highlights Family highlight travel family link button" [ref=e723] [cursor=pointer]:
+              - /url: https://www.highlightstravel.com/about-us
+              - text: Highlights Family
+              - img "highlight travel family link button" [ref=e724]
+            - list:
+              - listitem [ref=e725]:
+                - link "China Highlights" [ref=e726] [cursor=pointer]:
+                  - /url: "#"
+                  - img "China Highlights" [ref=e727]
+              - listitem [ref=e728]:
+                - link "Japan Highlights" [ref=e729] [cursor=pointer]:
+                  - /url: https://www.japanhighlights.com/
+                  - img "Japan Highlights" [ref=e730]
+              - listitem [ref=e731]:
+                - link "Thailand Highlights" [ref=e732] [cursor=pointer]:
+                  - /url: https://www.thailandhighlights.com/
+                  - img "Thailand Highlights" [ref=e733]
+            - list [ref=e734]:
+              - listitem [ref=e735]:
+                - link "Deutsch" [ref=e736] [cursor=pointer]:
+                  - /url: https://www.chinahighlightstravel.de/
+              - listitem [ref=e737]:
+                - link "Français" [ref=e738] [cursor=pointer]:
+                  - /url: https://www.chinahighlights.fr/
+              - listitem [ref=e739]:
+                - link "Español" [ref=e740] [cursor=pointer]:
+                  - /url: https://www.chinahighlights.es/
+              - listitem [ref=e741]:
+                - link "Italiano" [ref=e742] [cursor=pointer]:
+                  - /url: https://www.chinahighlights.it/
+              - listitem [ref=e743]:
+                - link "Русский" [ref=e744] [cursor=pointer]:
+                  - /url: https://www.chinahighlights.ru/
+              - listitem [ref=e745]:
+                - link "日本語" [ref=e746] [cursor=pointer]:
+                  - /url: https://www.chinahighlights.jp/
+            - generic [ref=e747]: Follow Us
+            - list:
+              - listitem:
+                - link "Follow us on Facebook":
+                  - /url: https://www.facebook.com/ChinaHighlights.HTfamily
+                  - img [ref=e748] [cursor=pointer]
+              - listitem:
+                - link "Share us on Twitter":
+                  - /url: https://twitter.com/Chinahighlights
+                  - img [ref=e749] [cursor=pointer]
+              - listitem:
+                - link "Follow us on Instagram":
+                  - /url: https://www.instagram.com/chinahighlights/
+                  - img [ref=e750] [cursor=pointer]
+          - generic [ref=e751]:
+            - generic [ref=e752]: Company
+            - list [ref=e753]:
+              - listitem [ref=e754]:
+                - link "About us" [ref=e755] [cursor=pointer]:
+                  - /url: /aboutus/
+              - listitem [ref=e756]:
+                - link "Travel Agents" [ref=e757] [cursor=pointer]:
+                  - /url: /travel-agents.htm
+              - listitem [ref=e758]:
+                - link "Reviews" [ref=e759] [cursor=pointer]:
+                  - /url: /reviews.htm
+              - listitem [ref=e760]:
+                - link "Contact us" [ref=e761] [cursor=pointer]:
+                  - /url: /contactus/
+              - listitem [ref=e762]:
+                - link "Loyalty Program" [ref=e763] [cursor=pointer]:
+                  - /url: /aboutus/loyalty-program.htm
+              - listitem [ref=e764]:
+                - link "Partner" [ref=e765] [cursor=pointer]:
+                  - /url: /partner/
+              - listitem [ref=e766]:
+                - link "Privacy Policy" [ref=e767] [cursor=pointer]:
+                  - /url: /privacy.htm
+              - listitem [ref=e768]:
+                - link "Terms" [ref=e769] [cursor=pointer]:
+                  - /url: /aboutus/terms.htm
+    - generic [ref=e771]: © 1998-2026 Highlights Travel Co., Ltd. All rights reserved.

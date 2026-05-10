@@ -1,0 +1,915 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "导视" [active] [ref=e9] [cursor=pointer]:
+          - generic [ref=e1140]:
+            - img
+        - link "YouTube 首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e1142]:
+            - img
+        - button "跳过导航" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 跳过导航
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - combobox "搜索" [expanded] [ref=e29]: first time China travel guide 2025
+              - button "清空搜索查询" [ref=e31] [cursor=pointer]:
+                - generic [ref=e1144]:
+                  - img
+            - button "Search" [ref=e36] [cursor=pointer]:
+              - generic [ref=e1146]:
+                - img
+        - generic [ref=e39]:
+          - button "通过语音搜索内容" [ref=e41] [cursor=pointer]:
+            - generic [ref=e1148]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e1149]:
+        - button "设置" [ref=e1154] [cursor=pointer]:
+          - generic [ref=e1157]:
+            - img
+        - link "登录" [ref=e1160] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dzh-CN%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253Dfirst%252Btime%252BChina%252Btravel%252Bguide%252B2025&hl=zh-CN&ec=65620
+          - generic [ref=e1164]:
+            - img
+          - generic [ref=e1165]: 登录
+  - navigation [ref=e52]:
+    - generic [ref=e1169]:
+      - link "首页" [ref=e1171] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e1174]:
+          - img
+        - generic [ref=e1175]: 首页
+      - link "Shorts" [ref=e1177] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e1180]:
+          - img
+        - generic [ref=e1181]: Shorts
+      - link "订阅" [ref=e1183] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e1186]:
+          - img
+        - generic [ref=e1187]: 订阅
+      - link "我" [ref=e1189] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e1192]:
+          - img
+        - generic [ref=e1193]: 我
+  - generic [ref=e53]:
+    - main [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - tablist [ref=e62]:
+            - tab "全部" [selected] [ref=e66] [cursor=pointer]:
+              - generic [ref=e68]: 全部
+            - tab "Shorts" [ref=e75] [cursor=pointer]:
+              - generic [ref=e77]: Shorts
+            - tab "未观看" [ref=e84] [cursor=pointer]:
+              - generic [ref=e86]: 未观看
+            - tab "已观看" [ref=e93] [cursor=pointer]:
+              - generic [ref=e95]: 已观看
+            - tab "视频" [ref=e102] [cursor=pointer]:
+              - generic [ref=e104]: 视频
+            - tab "最近上传" [ref=e111] [cursor=pointer]:
+              - generic [ref=e113]: 最近上传
+            - tab "直播" [ref=e120] [cursor=pointer]:
+              - generic [ref=e122]: 直播
+          - generic [ref=e127]:
+            - button "搜索过滤条件" [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: 过滤
+              - generic [ref=e1195]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e141]:
+          - generic [ref=e143]:
+            - link [ref=e145] [cursor=pointer]:
+              - /url: /watch?v=dMdKru-1oa8&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+              - img [ref=e147]
+              - img [ref=e1198]:
+                - generic [ref=e1199]: 18:23
+              - generic:
+                - generic: 正在播放
+                - generic:
+                  - img
+            - generic [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - heading "Travel to China in 2026? WATCH THIS FIRST! 18分钟" [level=3] [ref=e151]:
+                    - link "Travel to China in 2026? WATCH THIS FIRST! 18分钟" [ref=e152]:
+                      - /url: /watch?v=dMdKru-1oa8&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: Travel to China in 2026? WATCH THIS FIRST!
+                  - button "操作菜单" [ref=e1203]:
+                    - generic [ref=e1206]:
+                      - img
+                - generic [ref=e155]:
+                  - generic [ref=e156]: 21万次观看
+                  - generic [ref=e157]: •7个月前
+              - generic [ref=e158]:
+                - link "前往频道：Adventures of Lauren & Jason" [ref=e159]:
+                  - /url: /@LaurenJason
+                - link "Adventures of Lauren & Jason" [ref=e165]:
+                  - /url: /@LaurenJason
+              - generic [ref=e166]:
+                - generic [ref=e167]: Planning a trip to China in 2026? This is the comprehensive China travel guide you need! After spending 5 weeks exploring the ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e172]:
+                - generic [ref=e173]: 4K
+              - generic [ref=e176]:
+                - generic [ref=e177]:
+                  - generic [ref=e181]: 21 个章节
+                  - button "Why Visit China | Visa Requirements | Train Network | Accommodations | Payments | Transportation | Staying Connected | Dining | Cultural Differences | Our Itinerary | Largest City in China | Yellow Mountains | Fairy Land of Wangxian | Longji Rice Terraces | Karst Mountains | Karst Mountains Part 2 | 999 Steps | Avatar Mountains | Cyberpunk City | Ancient City | Jade Dragon Snow Mountain" [ref=e182]
+                - button "更多" [ref=e187]:
+                  - generic [ref=e1208]:
+                    - img
+          - generic [ref=e194]:
+            - link [ref=e196] [cursor=pointer]:
+              - /url: /watch?v=efDOVVDy0iA&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+              - img [ref=e198]
+              - img [ref=e1211]:
+                - generic [ref=e1212]: 15:12
+              - generic:
+                - generic: 正在播放
+                - generic:
+                  - img
+            - generic [ref=e199] [cursor=pointer]:
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - heading "17 things I wish I knew before visiting CHINA 🇨🇳 15分钟" [level=3] [ref=e202]:
+                    - link "17 things I wish I knew before visiting CHINA 🇨🇳 15分钟" [ref=e203]:
+                      - /url: /watch?v=efDOVVDy0iA&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: 17 things I wish I knew before visiting CHINA 🇨🇳
+                  - button "操作菜单" [ref=e1216]:
+                    - generic [ref=e1219]:
+                      - img
+                - generic [ref=e206]:
+                  - generic [ref=e207]: 50万次观看
+                  - generic [ref=e208]: •1年前
+              - generic [ref=e209]:
+                - link "前往频道：Joel and Emilia" [ref=e210]:
+                  - /url: /@Joel_Emilia
+                - generic [ref=e212]:
+                  - link "Joel and Emilia" [ref=e216]:
+                    - /url: /@Joel_Emilia
+                  - img "已验证" [ref=e221]:
+                    - generic [ref=e1221]:
+                      - img
+              - generic [ref=e223]:
+                - text: Get SafetyWing here - https://safetywing.com/?referenceID=joel&utm_source=joel&utm_medium=Ambassador Here are 17 things ...
+                - tooltip "tooltip"
+              - generic [ref=e225]:
+                - img "4K" [ref=e228]:
+                  - generic [ref=e229]: 4K
+                - img "字幕" [ref=e232]:
+                  - generic [ref=e233]: 字幕
+              - generic [ref=e236]:
+                - generic [ref=e237]:
+                  - generic [ref=e241]: 13 个章节
+                  - button "Intro | Don’t forget this! | The ‘Uber’ of China | MOBILE DATA | Transport in China | When to go? | This shocked us! | Visa’s | THE FOOD | Translating… | VPN’s | WeChat & Alipay | Booking stuff" [ref=e242]
+                - button "更多" [ref=e247]:
+                  - generic [ref=e1223]:
+                    - img
+          - generic [ref=e253]:
+            - generic [ref=e256]:
+              - img [ref=e258]:
+                - generic [ref=e1225]:
+                  - img
+              - heading "Shorts" [level=2] [ref=e261]
+            - generic [ref=e263]:
+              - generic [ref=e266]:
+                - link [ref=e267] [cursor=pointer]:
+                  - /url: /shorts/j24nUQA_chk
+                - generic [ref=e271] [cursor=pointer]:
+                  - 'link "Here’s a guide to planning your first trip to Beijing! 🇨🇳 ⚠️#explorechina #chinatravel #beijing" [ref=e272]':
+                    - /url: /shorts/j24nUQA_chk
+                  - generic [ref=e273]: 16万次观看
+                - button "其他操作" [ref=e275] [cursor=pointer]:
+                  - generic [ref=e1227]:
+                    - img
+              - generic [ref=e283]:
+                - link [ref=e284] [cursor=pointer]:
+                  - /url: /shorts/cxl_yVE1fBs
+                - generic [ref=e288] [cursor=pointer]:
+                  - link "The BEST China Travel Tips 🇨🇳 Watch this first!!" [ref=e289]:
+                    - /url: /shorts/cxl_yVE1fBs
+                  - generic [ref=e290]: 6.4万次观看
+                - button "其他操作" [ref=e292] [cursor=pointer]:
+                  - generic [ref=e1229]:
+                    - img
+              - generic [ref=e300]:
+                - link [ref=e301] [cursor=pointer]:
+                  - /url: /shorts/9zt0Z3Wsp8M
+                - generic [ref=e305] [cursor=pointer]:
+                  - 'link "DO NOT go to China without taking note! 🇨🇳 #visitchina #chinatravel #chinatraveltips #traveltips" [ref=e306]':
+                    - /url: /shorts/9zt0Z3Wsp8M
+                  - generic [ref=e307]: 34万次观看
+                - button "其他操作" [ref=e309] [cursor=pointer]:
+                  - generic [ref=e1231]:
+                    - img
+              - generic [ref=e317]:
+                - link [ref=e318] [cursor=pointer]:
+                  - /url: /shorts/U4mnDiTValc
+                - generic [ref=e322] [cursor=pointer]:
+                  - 'link "3 things you need to know before traveling to China! #travelchina #wechat #china #traveling" [ref=e323]':
+                    - /url: /shorts/U4mnDiTValc
+                  - generic [ref=e324]: 11万次观看
+                - button "其他操作" [ref=e326] [cursor=pointer]:
+                  - generic [ref=e1233]:
+                    - img
+              - generic [ref=e334]:
+                - link [ref=e335] [cursor=pointer]:
+                  - /url: /shorts/pssvWOPb92A
+                - generic [ref=e339] [cursor=pointer]:
+                  - 'link "5 Cities Must visit Travel in China 2025 (First Time!!) #chinatravelguide #traveltips #chinesefood" [ref=e340]':
+                    - /url: /shorts/pssvWOPb92A
+                  - generic [ref=e341]: 1148次观看
+                - button "其他操作" [ref=e343] [cursor=pointer]:
+                  - generic [ref=e1235]:
+                    - img
+            - button "展开" [ref=e352] [cursor=pointer]:
+              - generic [ref=e353]: 展开
+              - generic [ref=e1237]:
+                - img
+          - generic [ref=e360]:
+            - link [ref=e362] [cursor=pointer]:
+              - /url: /watch?v=GSOzbwfewFU&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e364] [cursor=pointer]:
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - 'heading "China Travel Guide 2025: Everything You NEED Before You Go 10分钟35秒钟" [level=3] [ref=e367]':
+                    - 'link "China Travel Guide 2025: Everything You NEED Before You Go 10分钟35秒钟" [ref=e368]':
+                      - /url: /watch?v=GSOzbwfewFU&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: "China Travel Guide 2025: Everything You NEED Before You Go"
+                  - button "操作菜单" [ref=e1241]:
+                    - generic [ref=e1244]:
+                      - img
+                - generic [ref=e371]:
+                  - generic [ref=e372]: 6159次观看
+                  - generic [ref=e373]: •1年前
+              - generic [ref=e374]:
+                - link "前往频道：Richard Fang - Travel Reviews and Guides in Asia" [ref=e375]:
+                  - /url: /@RichardFangLiu
+                - link "Richard Fang - Travel Reviews and Guides in Asia" [ref=e380]:
+                  - /url: /@RichardFangLiu
+              - generic [ref=e381]:
+                - generic [ref=e382]: China is NOT an easy place to travel to but it sure is better now than it was years ago. With the government easing visa free travel ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e387]:
+                - generic [ref=e388]: 4K
+          - generic [ref=e390]:
+            - link [ref=e392] [cursor=pointer]:
+              - /url: /watch?v=i6fYB22OaRA&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e394] [cursor=pointer]:
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - heading "21 Tips for FIRST-TIME Travelers to China (Save Money & Stress) 10分钟30秒钟" [level=3] [ref=e397]:
+                    - link "21 Tips for FIRST-TIME Travelers to China (Save Money & Stress) 10分钟30秒钟" [ref=e398]:
+                      - /url: /watch?v=i6fYB22OaRA&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: 21 Tips for FIRST-TIME Travelers to China (Save Money & Stress)
+                  - button "操作菜单" [ref=e1248]:
+                    - generic [ref=e1251]:
+                      - img
+                - generic [ref=e401]:
+                  - generic [ref=e402]: 8.9万次观看
+                  - generic [ref=e403]: •2个月前
+              - generic [ref=e404]:
+                - link "前往频道：Maggie Ye" [ref=e405]:
+                  - /url: /@MaggieYe-0808
+                - link "Maggie Ye" [ref=e410]:
+                  - /url: /@MaggieYe-0808
+              - generic [ref=e411]:
+                - generic [ref=e412]: "chinatravel #budgettravel #chinahotel #chinafood Trip.com for train booking: https://www.trip.com/t/4JnNhBHqgT2 Trip.com for ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e417]:
+                - generic [ref=e418]: 4K
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - generic [ref=e426]: 22 个章节
+                  - button "Intro | Bring A fork | Use Trip.com | China is Cashless | VPN is Essential | No English | Security Check | Squat Toilet | No Iced Water | Use Metro | Food Allergy Not Common | No Tap Water | Rent a Bike | No Tipping | No Elevator | Plug is Different | Bring ID for Attractions | You'll Get Stared | Portable Charger CCC | Prepare Medicine | Ask Front Desk | Try Malls" [ref=e427]
+                - button "更多" [ref=e432]:
+                  - generic [ref=e1253]:
+                    - img
+          - generic [ref=e439]:
+            - link [ref=e441] [cursor=pointer]:
+              - /url: /watch?v=rKEchbI7FLk&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e443] [cursor=pointer]:
+              - generic [ref=e444]:
+                - generic [ref=e445]:
+                  - heading "✍️ 2026 EVERYTHING you MUST KNOW before visiting China | Actually helpful Travel Tips! (No Ads) 6分钟20秒钟" [level=3] [ref=e446]:
+                    - link "✍️ 2026 EVERYTHING you MUST KNOW before visiting China | Actually helpful Travel Tips! (No Ads) 6分钟20秒钟" [ref=e447]:
+                      - /url: /watch?v=rKEchbI7FLk&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: ✍️ 2026 EVERYTHING you MUST KNOW before visiting China | Actually helpful Travel Tips! (No Ads)
+                  - button "操作菜单" [ref=e1257]:
+                    - generic [ref=e1260]:
+                      - img
+                - generic [ref=e450]:
+                  - generic [ref=e451]: 2.1万次观看
+                  - generic [ref=e452]: •11个月前
+              - generic [ref=e453]:
+                - link "前往频道：Aida Go!" [ref=e454]:
+                  - /url: /@AidaGoAidaGo
+                - link "Aida Go!" [ref=e459]:
+                  - /url: /@AidaGoAidaGo
+              - generic [ref=e460]:
+                - generic [ref=e461]: Don't visit China until you watch this video! From must-have apps to China travel hacks！ Like, comment & subscribe for ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e466]:
+                - generic [ref=e467]: 4K
+              - generic [ref=e470]:
+                - generic [ref=e471]:
+                  - generic [ref=e475]: 7 个章节
+                  - button "Intro | Pre-Travel Prep - China Payment Tips & Apps | Pre-Travel Prep - Hotel & Internet Tips | Life-saving Apps - Transportation Tips & Apps | Life-saving Apps - Food Tips & Apps | 5 China travel realities | 06:20 Outro" [ref=e476]
+                - button "更多" [ref=e481]:
+                  - generic [ref=e1262]:
+                    - img
+          - generic [ref=e487]:
+            - generic [ref=e490]:
+              - img [ref=e492]:
+                - generic [ref=e1264]:
+                  - img
+              - heading "Shorts" [level=2] [ref=e495]
+            - generic [ref=e497]:
+              - generic [ref=e500]:
+                - link [ref=e501] [cursor=pointer]:
+                  - /url: /shorts/Rwwy-E1u5Lo
+                - generic [ref=e505] [cursor=pointer]:
+                  - link "3 things you wish to know before you go to China" [ref=e506]:
+                    - /url: /shorts/Rwwy-E1u5Lo
+                  - generic [ref=e507]: 9.2万次观看
+                - button "其他操作" [ref=e509] [cursor=pointer]:
+                  - generic [ref=e1266]:
+                    - img
+              - generic [ref=e517]:
+                - link [ref=e518] [cursor=pointer]:
+                  - /url: /shorts/QcVnsU3Xlw8
+                  - img [ref=e523]:
+                    - generic [ref=e524]: 最新
+                - generic [ref=e525] [cursor=pointer]:
+                  - link "Culture shocks you need to know before visiting China 🇨🇳" [ref=e526]:
+                    - /url: /shorts/QcVnsU3Xlw8
+                  - generic [ref=e527]: 7374次观看
+                - button "其他操作" [ref=e529] [cursor=pointer]:
+                  - generic [ref=e1268]:
+                    - img
+              - generic [ref=e537]:
+                - link [ref=e538] [cursor=pointer]:
+                  - /url: /shorts/dX9ef2yO7Ow
+                - generic [ref=e542] [cursor=pointer]:
+                  - 'link "Do’s and Don’ts When Visiting China ⚠️ #china #travel #chinatravel #traveltips #chinesewithmia" [ref=e543]':
+                    - /url: /shorts/dX9ef2yO7Ow
+                  - generic [ref=e544]: 36万次观看
+                - button "其他操作" [ref=e546] [cursor=pointer]:
+                  - generic [ref=e1270]:
+                    - img
+              - generic [ref=e554]:
+                - link [ref=e555] [cursor=pointer]:
+                  - /url: /shorts/KjS4fOThnqs
+                  - img [ref=e560]:
+                    - generic [ref=e561]: 最新
+                - generic [ref=e562] [cursor=pointer]:
+                  - link "Back in China! What It Takes to Get Set Up as a Foreigner" [ref=e563]:
+                    - /url: /shorts/KjS4fOThnqs
+                  - generic [ref=e564]: 89次观看
+                - button "其他操作" [ref=e566] [cursor=pointer]:
+                  - generic [ref=e1272]:
+                    - img
+              - generic [ref=e574]:
+                - link [ref=e575] [cursor=pointer]:
+                  - /url: /shorts/q4cCX9TCi0s
+                - generic [ref=e579] [cursor=pointer]:
+                  - 'link "The Ultimate China Itinerary: Two Weeks of Adventure and Culture\"" [ref=e580]':
+                    - /url: /shorts/q4cCX9TCi0s
+                  - generic [ref=e581]: 85万次观看
+                - button "其他操作" [ref=e583] [cursor=pointer]:
+                  - generic [ref=e1274]:
+                    - img
+            - button "展开" [ref=e592] [cursor=pointer]:
+              - generic [ref=e593]: 展开
+              - generic [ref=e1276]:
+                - img
+          - generic [ref=e600]:
+            - link [ref=e602] [cursor=pointer]:
+              - /url: /watch?v=-VGkn_PNUPU&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e604] [cursor=pointer]:
+              - generic [ref=e605]:
+                - generic [ref=e606]:
+                  - heading "How to plan for your first China trip & what to expect! | 2026 China Travel Tips 🇨🇳 16分钟" [level=3] [ref=e607]:
+                    - link "How to plan for your first China trip & what to expect! | 2026 China Travel Tips 🇨🇳 16分钟" [ref=e608]:
+                      - /url: /watch?v=-VGkn_PNUPU&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+                      - text: How to plan for your first China trip & what to expect! | 2026 China Travel Tips 🇨🇳
+                  - button "操作菜单" [ref=e1280]:
+                    - generic [ref=e1283]:
+                      - img
+                - generic [ref=e611]:
+                  - generic [ref=e612]: 7.3万次观看
+                  - generic [ref=e613]: •11个月前
+              - generic [ref=e614]:
+                - link "前往频道：Cherie Diaries" [ref=e615]:
+                  - /url: /@cherie.diaries
+                - link "Cherie Diaries" [ref=e620]:
+                  - /url: /@cherie.diaries
+              - generic [ref=e621]:
+                - text: "Get 10-15% off your Airalo eSIM: CHERIE10 (10% off for ANY users): https://airalo.pxf.io/CHERIE10 CHERIE15 (15% off for NEW ..."
+                - tooltip "tooltip"
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - generic [ref=e629]: 34 个章节
+                  - 'button "Intro | Planning your trip | Visa | Dates to avoid | Where to visit | How many days per city | Booking accommodation | Booking train tickets | Things to note when booking trains | Train ticket classes | Staying connected | International roaming | eSIM | Chinese SIM | VPN | Do you need a Chinese phone number | Where to buy a Chinese SIM | Set up Alipay and WeChat | Booking attraction tickets | What to expect on the ground | Getting around | Ride hailing: how to use WeChat and Alipay to book a ride | Metro | High-speed rail / trains | Using WeChat and Alipay | Paying using QR codes | Cash | Map / navigation apps: Baidu Maps and Gaode / Amap | Chinese cuisine | Food and dining options | Ordering food at restaurants | Tipping | Carry your physical passport at all times | A small aside on toilet paper lol" [ref=e630]'
+                - button "更多" [ref=e635]:
+                  - generic [ref=e1285]:
+                    - img
+          - generic [ref=e642]:
+            - link [ref=e644] [cursor=pointer]:
+              - /url: /watch?v=xfKnJR3pHTM&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e646] [cursor=pointer]:
+              - generic [ref=e647]:
+                - generic [ref=e648]:
+                  - 'heading "China Travel Tips: What You NEED to know BEFORE travelling to China in 2026 16分钟" [level=3] [ref=e649]':
+                    - 'link "China Travel Tips: What You NEED to know BEFORE travelling to China in 2026 16分钟" [ref=e650]':
+                      - /url: /watch?v=xfKnJR3pHTM&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+                      - text: "China Travel Tips: What You NEED to know BEFORE travelling to China in 2026"
+                  - button "操作菜单" [ref=e1289]:
+                    - generic [ref=e1292]:
+                      - img
+                - generic [ref=e653]:
+                  - generic [ref=e654]: 19万次观看
+                  - generic [ref=e655]: •1年前
+              - generic [ref=e656]:
+                - link "前往频道：Alina" [ref=e657]:
+                  - /url: /@aventuralina
+                - link "Alina" [ref=e662]:
+                  - /url: /@aventuralina
+              - generic [ref=e663]:
+                - generic [ref=e664]: They say China is hard to travel to, but trust me, China is the easiest country you'll ever travel to, you just need to know a few ...
+                - tooltip "tooltip"
+              - generic [ref=e666]:
+                - img "4K" [ref=e669]:
+                  - generic [ref=e670]: 4K
+                - img "字幕" [ref=e673]:
+                  - generic [ref=e674]: 字幕
+              - generic [ref=e677]:
+                - generic [ref=e678]:
+                  - generic [ref=e682]: 13 个章节
+                  - button "Intro | Welcome to China | Visa Requirements | How to escape the Great Firewall | How to pay in China | Useful apps in China | Understand Chinese Culture | Overcoming the language barrier | Filming in China | Is China a safe country? | How to move around in China | Differences from home | Outro" [ref=e683]
+                - button "更多" [ref=e688]:
+                  - generic [ref=e1294]:
+                    - img
+          - generic [ref=e695]:
+            - link [ref=e697] [cursor=pointer]:
+              - /url: /watch?v=zERNfpomYr4&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e699] [cursor=pointer]:
+              - generic [ref=e700]:
+                - generic [ref=e701]:
+                  - heading "2026年中国15个最佳旅游目的地2026年终极中国旅游指南 21分钟" [level=3] [ref=e702]:
+                    - link "2026年中国15个最佳旅游目的地2026年终极中国旅游指南 21分钟" [ref=e703]:
+                      - /url: /watch?v=zERNfpomYr4&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: 2026年中国15个最佳旅游目的地2026年终极中国旅游指南
+                  - button "操作菜单" [ref=e1298]:
+                    - generic [ref=e1301]:
+                      - img
+                - generic [ref=e706]:
+                  - generic [ref=e707]: 3155次观看
+                  - generic [ref=e708]: •14小时前
+              - generic [ref=e709]:
+                - link "前往频道：Island Hopper TV" [ref=e710]:
+                  - /url: /@IslandHopperTV
+                - generic [ref=e711]:
+                  - link "Island Hopper TV" [ref=e715]:
+                    - /url: /@IslandHopperTV
+                  - img "已验证" [ref=e720]:
+                    - generic [ref=e1303]:
+                      - img
+              - generic [ref=e722]:
+                - text: 您是否正在寻找中国最佳旅游目的地？本中国旅游指南将为您展示中国最值得一去的景点。中国是2026年全球最令人兴奋的旅游目的地之一，拥有 ...
+                - tooltip "tooltip"
+              - generic [ref=e724]:
+                - img "最新" [ref=e727]:
+                  - generic [ref=e728]: 最新
+                - img "4K" [ref=e731]:
+                  - generic [ref=e732]: 4K
+              - generic [ref=e735]:
+                - generic [ref=e736]:
+                  - generic [ref=e737]:
+                    - generic [ref=e1305]:
+                      - img
+                    - generic [ref=e739]: 摘要
+                  - button "Island Hopper TV details a 45-day high-speed rail journey across mainland China, highlighting top destinations from the ice sculptures of Harbin to the tech hubs of Shenzhen. The guide provides practical travel tips, regional culinary recommendations, and advice on navigating cultural nuances and transit across diverse provinces including Sichuan, Hunan, and the Yangtze River Delta." [ref=e740]
+                  - text: ·
+                - button "更多" [ref=e745]:
+                  - generic [ref=e1307]:
+                    - img
+          - generic [ref=e752]:
+            - link [ref=e754] [cursor=pointer]:
+              - /url: /watch?v=KuG14jlLSEk&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e756] [cursor=pointer]:
+              - generic [ref=e757]:
+                - generic [ref=e758]:
+                  - heading "How to Spend 3 Days in Guangzhou China | The Ultimate First-Timer's Itinerary 22分钟" [level=3] [ref=e759]:
+                    - link "How to Spend 3 Days in Guangzhou China | The Ultimate First-Timer's Itinerary 22分钟" [ref=e760]:
+                      - /url: /watch?v=KuG14jlLSEk&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: How to Spend 3 Days in Guangzhou China | The Ultimate First-Timer's Itinerary
+                  - button "操作菜单" [ref=e1311]:
+                    - generic [ref=e1314]:
+                      - img
+                - generic [ref=e763]:
+                  - generic [ref=e764]: 20次观看
+                  - generic [ref=e765]: •32分钟前
+              - generic [ref=e766]:
+                - link "前往频道：Exotic Vacation" [ref=e767]:
+                  - /url: /@ExoticVacation
+                - generic [ref=e768]:
+                  - link "Exotic Vacation" [ref=e772]:
+                    - /url: /@ExoticVacation
+                  - img "已验证" [ref=e777]:
+                    - generic [ref=e1316]:
+                      - img
+              - generic [ref=e779]:
+                - text: If you're wondering how to spend 3 days in Guangzhou, this itinerary takes you through the perfect mix of historic neighborhoods, ...
+                - tooltip "tooltip"
+              - generic [ref=e781]:
+                - img "最新" [ref=e784]:
+                  - generic [ref=e785]: 最新
+                - img "4K" [ref=e788]:
+                  - generic [ref=e789]: 4K
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - generic [ref=e797]: 10 个章节
+                  - button "Intro | Day 1 | Day 2 | Day 3 | ️ Best Time to Visit | ️ City Airport Tips | Where to Stay | How to Get Around Guangzhou | ️ Where to Eat in Guangzhou | Outro" [ref=e798]
+                - button "更多" [ref=e803]:
+                  - generic [ref=e1318]:
+                    - img
+          - generic [ref=e810]:
+            - link [ref=e812] [cursor=pointer]:
+              - /url: /watch?v=kSVUJS6z1v0&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e814] [cursor=pointer]:
+              - generic [ref=e815]:
+                - generic [ref=e816]:
+                  - heading "We Spent 2 Months in China | Here's What Shocked Us Most 19分钟" [level=3] [ref=e817]:
+                    - link "We Spent 2 Months in China | Here's What Shocked Us Most 19分钟" [ref=e818]:
+                      - /url: /watch?v=kSVUJS6z1v0&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+                      - text: We Spent 2 Months in China | Here's What Shocked Us Most
+                  - button "操作菜单" [ref=e1322]:
+                    - generic [ref=e1325]:
+                      - img
+                - generic [ref=e821]:
+                  - generic [ref=e822]: 19万次观看
+                  - generic [ref=e823]: •11个月前
+              - generic [ref=e824]:
+                - link "前往频道：Mike and Ashley" [ref=e825]:
+                  - /url: /@mikeandashley
+                - link "Mike and Ashley" [ref=e830]:
+                  - /url: /@mikeandashley
+              - generic [ref=e831]:
+                - generic [ref=e832]: We spent 2 months in China, and in this video we're discussing what shocked us most, from the massive population sizes to the ...
+                - tooltip "tooltip"
+              - generic [ref=e834]:
+                - img "4K" [ref=e837]:
+                  - generic [ref=e838]: 4K
+                - img "字幕" [ref=e841]:
+                  - generic [ref=e842]: 字幕
+              - generic [ref=e845]:
+                - generic [ref=e846]:
+                  - generic [ref=e850]: 16 个章节
+                  - button "Why we made this video | China's Cities Are Next Level | China is Massive | It's Easy to Get Around | Always Carry Your Passport | Language Barrier is Pretty Tough | There's No Great Maps App | The Traffic Pattern | Plan Ahead, the Popular Spots Are Worth It | Everything is Cashless | Chinese Food is Incredible | You Need a VPN | It's Crazy Affordable Here | There's a Few Visa Options | Final Thoughts | Bonus" [ref=e851]
+                - button "更多" [ref=e856]:
+                  - generic [ref=e1327]:
+                    - img
+          - generic [ref=e863]:
+            - link [ref=e865] [cursor=pointer]:
+              - /url: /watch?v=L3s1vD5tG1s&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e867] [cursor=pointer]:
+              - generic [ref=e868]:
+                - generic [ref=e869]:
+                  - heading "First Time in China - The ONLY 10 China Travel Tips You'll Ever Need 9分钟37秒钟" [level=3] [ref=e870]:
+                    - link "First Time in China - The ONLY 10 China Travel Tips You'll Ever Need 9分钟37秒钟" [ref=e871]:
+                      - /url: /watch?v=L3s1vD5tG1s&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: First Time in China - The ONLY 10 China Travel Tips You'll Ever Need
+                  - button "操作菜单" [ref=e1331]:
+                    - generic [ref=e1334]:
+                      - img
+                - generic [ref=e874]:
+                  - generic [ref=e875]: 3090次观看
+                  - generic [ref=e876]: •1年前
+              - generic [ref=e877]:
+                - link "前往频道：360 Degrees Traveling" [ref=e878]:
+                  - /url: /@360degreestraveling
+                - link "360 Degrees Traveling" [ref=e883]:
+                  - /url: /@360degreestraveling
+              - generic [ref=e884]:
+                - generic [ref=e885]: First Time in China - The ONLY 10 China Travel Tips You'll Ever Need Planning your first time in China? Whether you're heading ...
+                - tooltip "tooltip"
+              - img "字幕" [ref=e890]:
+                - generic [ref=e891]: 字幕
+              - generic [ref=e894]:
+                - generic [ref=e895]:
+                  - generic [ref=e899]: 12 个章节
+                  - button "Before Traveling To China | Best Communication App For WeChat | Best Hotel Booking Website For China | Best VPN For China | Best Translation App For China | Best Map Service For China | Public Transportation System in China | Food Information For Tourists | Cash or Cards | Sim Cards For Tourists | Google Lens App | Conclusion" [ref=e900]
+                - button "更多" [ref=e905]:
+                  - generic [ref=e1336]:
+                    - img
+          - generic [ref=e912]:
+            - link [ref=e914] [cursor=pointer]:
+              - /url: /watch?v=w77jxNkfaHg&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+            - generic [ref=e916] [cursor=pointer]:
+              - generic [ref=e917]:
+                - generic [ref=e918]:
+                  - heading "The BEST travel tips for your first time to CHINA 🇨🇳 (these are actually helpful) 17分钟" [level=3] [ref=e919]:
+                    - link "The BEST travel tips for your first time to CHINA 🇨🇳 (these are actually helpful) 17分钟" [ref=e920]:
+                      - /url: /watch?v=w77jxNkfaHg&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNdIHCQkDCwGHKiGM7w%3D%3D
+                      - text: The BEST travel tips for your first time to CHINA 🇨🇳 (these are actually helpful)
+                  - button "操作菜单" [ref=e1340]:
+                    - generic [ref=e1343]:
+                      - img
+                - generic [ref=e923]:
+                  - generic [ref=e924]: 2.8万次观看
+                  - generic [ref=e925]: •10个月前
+              - generic [ref=e926]:
+                - link "前往频道：WorldwideWu" [ref=e927]:
+                  - /url: /@WorldwideWu
+                - link "WorldwideWu" [ref=e932]:
+                  - /url: /@WorldwideWu
+              - generic [ref=e933]:
+                - text: "Get Airalo today & use my code WU3 for $3 USD OFF your data plan: https://try.airalo.com/WorldwideWu ‪@airalocom‬ #eSIM ..."
+                - tooltip "tooltip"
+              - generic [ref=e936]:
+                - generic [ref=e937]:
+                  - generic [ref=e941]: 9 个章节
+                  - button "Intro | The visa process (do you need one?) | The app you absolutely need to download first | Paying for things in China | The \"Uber\" equivalent in China | Translating apps | Some optional apps | Where to book your hotels, attractions, and other travel | Random, but VERY helpful tips" [ref=e942]
+                - button "更多" [ref=e947]:
+                  - generic [ref=e1345]:
+                    - img
+          - generic [ref=e954]:
+            - link [ref=e956] [cursor=pointer]:
+              - /url: /watch?v=CW1tkuFBXqU&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e958] [cursor=pointer]:
+              - generic [ref=e959]:
+                - generic [ref=e960]:
+                  - heading "All You Need To Know Before Traveling To China 🇨🇳 16分钟" [level=3] [ref=e961]:
+                    - link "All You Need To Know Before Traveling To China 🇨🇳 16分钟" [ref=e962]:
+                      - /url: /watch?v=CW1tkuFBXqU&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: All You Need To Know Before Traveling To China 🇨🇳
+                  - button "操作菜单" [ref=e1349]:
+                    - generic [ref=e1352]:
+                      - img
+                - generic [ref=e965]:
+                  - generic [ref=e966]: 7.8万次观看
+                  - generic [ref=e967]: •3个月前
+              - generic [ref=e968]:
+                - link "前往频道：Little Chinese Everywhere" [ref=e969]:
+                  - /url: /@littlechineseeverywhere
+                - generic [ref=e970]:
+                  - link "Little Chinese Everywhere" [ref=e974]:
+                    - /url: /@littlechineseeverywhere
+                  - img "已验证" [ref=e979]:
+                    - generic [ref=e1354]:
+                      - img
+              - generic [ref=e981]:
+                - generic [ref=e982]: This video is a bit different from what we normally do. After receiving so many questions about traveling in China, we thought it ...
+                - tooltip "tooltip"
+              - img "字幕" [ref=e987]:
+                - generic [ref=e988]: 字幕
+              - generic [ref=e991]:
+                - generic [ref=e992]:
+                  - generic [ref=e996]: 9 个章节
+                  - button "Intro | Setting up your phone | VPN | How to pay | Hotel Booking | Car Rental | Food | How expensive is it? | Traveling China without speaking Chinese" [ref=e997]
+                - button "更多" [ref=e1002]:
+                  - generic [ref=e1356]:
+                    - img
+          - generic [ref=e1009]:
+            - link [ref=e1011] [cursor=pointer]:
+              - /url: /watch?v=ysH2XTJLl9Y&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e1013] [cursor=pointer]:
+              - generic [ref=e1014]:
+                - generic [ref=e1015]:
+                  - 'heading "CHINA FIRST TIME ITINERARY: 10 Days in CHINA! (Shanghai, Chengdu, Xi''An & Beijing) 21分钟" [level=3] [ref=e1016]':
+                    - 'link "CHINA FIRST TIME ITINERARY: 10 Days in CHINA! (Shanghai, Chengdu, Xi''An & Beijing) 21分钟" [ref=e1017]':
+                      - /url: /watch?v=ysH2XTJLl9Y&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: "CHINA FIRST TIME ITINERARY: 10 Days in CHINA! (Shanghai, Chengdu, Xi'An & Beijing)"
+                  - button "操作菜单" [ref=e1360]:
+                    - generic [ref=e1363]:
+                      - img
+                - generic [ref=e1020]:
+                  - generic [ref=e1021]: 7.3万次观看
+                  - generic [ref=e1022]: •1年前
+              - generic [ref=e1023]:
+                - link "前往频道：Greta's Travels" [ref=e1024]:
+                  - /url: /@GretasTravels
+                - link "Greta's Travels" [ref=e1029]:
+                  - /url: /@GretasTravels
+              - generic [ref=e1030]:
+                - generic [ref=e1031]: If you're planning your first trip to China and need help with your itinerary, you've come to the right place! In this video I'll show you ...
+                - tooltip "tooltip"
+              - generic [ref=e1033]:
+                - img "4K" [ref=e1036]:
+                  - generic [ref=e1037]: 4K
+                - img "字幕" [ref=e1040]:
+                  - generic [ref=e1041]: 字幕
+              - generic [ref=e1044]:
+                - generic [ref=e1045]:
+                  - generic [ref=e1049]: 22 个章节
+                  - 'button "Introduction | Day 1: Shanghai, Yuyuan Bazaar by Night | Day 2: Shanghai, The Bund | Day 2: Shanghai, Yu Garden | Day 2: Shanghai, Sunset River Cruise | Day 2: Shanghai, The Bund by Night | Day 2: Shanghai, Nanjing Pedestrian Road by Night | Day 3: Shanghai, Nanjing Pedestrian Road by Day | Day 3: Chengdu, Kuan Zhai Alley | Day 4: Chengdu, Giant Panda Base Research Centre | Day 4: Chengdu, Wu Hou Shrine | Day 4: Chengdu, Jinli Ancient Street | Day 5: High Speed Train from Chengdu to Xi''An | Day 5: Xi''An, Muslim Quarter | Day 6: Xi''An, Terracotta Warriors | Day 6: Xi''An, Giant Wild Goose Pagoda | Day 7: Xi''An, Old City Walls | Day 8: Beijing, Temple of Heaven | Day 8: Beijing, Jingshan Park | Day 9: Great Wall of China | Day 10: Beijing, Summer Palace | Conclusion" [ref=e1050]'
+                - button "更多" [ref=e1055]:
+                  - generic [ref=e1365]:
+                    - img
+          - generic [ref=e1062]:
+            - link [ref=e1064] [cursor=pointer]:
+              - /url: /watch?v=dMRPNKchtiA&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e1066] [cursor=pointer]:
+              - generic [ref=e1067]:
+                - generic [ref=e1068]:
+                  - heading "Travel China Mistakes to Avoid! Tips for China Tour while Taking High-Speed Trains DIY China 2025 31分钟" [level=3] [ref=e1069]:
+                    - link "Travel China Mistakes to Avoid! Tips for China Tour while Taking High-Speed Trains DIY China 2025 31分钟" [ref=e1070]:
+                      - /url: /watch?v=dMRPNKchtiA&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: Travel China Mistakes to Avoid! Tips for China Tour while Taking High-Speed Trains DIY China 2025
+                  - button "操作菜单" [ref=e1369]:
+                    - generic [ref=e1372]:
+                      - img
+                - generic [ref=e1073]:
+                  - generic [ref=e1074]: 7.9万次观看
+                  - generic [ref=e1075]: •10个月前
+              - generic [ref=e1076]:
+                - link "前往频道：Retirement Travelers" [ref=e1077]:
+                  - /url: /@RetirementTravelers
+                - generic [ref=e1078]:
+                  - link "Retirement Travelers" [ref=e1082]:
+                    - /url: /@RetirementTravelers
+                  - img "已验证" [ref=e1087]:
+                    - generic [ref=e1374]:
+                      - img
+              - generic [ref=e1089]:
+                - generic [ref=e1090]: This week, we wrapped up our epic 9-city China travel adventure in Shanghai and share everything we learned along the way to ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e1095]:
+                - generic [ref=e1096]: 4K
+              - generic [ref=e1099]:
+                - generic [ref=e1100]:
+                  - generic [ref=e1104]: 16 个章节
+                  - button "Introduction to China | China Travelogue Series | Changes in China since Last Visit | Chinese Visa Application | Crossing the Chinese Border | Does China Still have Pollution? | China Cell Phone Connections | Translation Issues in China | Hotels in China | Breakfast Buffets in China | Attraction Tickets in China | Do you Need Guides in China? | Tipping in China | Vaccinations for China | High-End Shopping in China | Taking Trains in China" [ref=e1105]
+                - button "更多" [ref=e1110]:
+                  - generic [ref=e1376]:
+                    - img
+          - generic [ref=e1378]:
+            - link [ref=e1380] [cursor=pointer]:
+              - /url: /watch?v=jej0dTsEV_Q&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e1382] [cursor=pointer]:
+              - generic [ref=e1383]:
+                - generic [ref=e1384]:
+                  - heading "Best Places to Visit in China (Our One Month China Itinerary) 34分钟" [level=3] [ref=e1385]:
+                    - link "Best Places to Visit in China (Our One Month China Itinerary) 34分钟" [ref=e1386]:
+                      - /url: /watch?v=jej0dTsEV_Q&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: Best Places to Visit in China (Our One Month China Itinerary)
+                  - button "操作菜单" [ref=e1390]:
+                    - generic [ref=e1393]:
+                      - img
+                - generic [ref=e1396]:
+                  - generic [ref=e1397]: 5.7万次观看
+                  - generic [ref=e1398]: •1年前
+              - generic [ref=e1399]:
+                - link "前往频道：Two Brits On The Go" [ref=e1400]:
+                  - /url: /@TwoBritsOntheGo
+                - link "Two Brits On The Go" [ref=e1405]:
+                  - /url: /@TwoBritsOntheGo
+              - generic [ref=e1406]:
+                - generic [ref=e1407]: In this China travel vlog we will be sharing our FULL one month China itinerary and talking about the best places in China that we ...
+                - tooltip "tooltip"
+              - generic [ref=e1410]:
+                - generic [ref=e1411]:
+                  - generic [ref=e1415]: 10 个章节
+                  - button "Intro | Beijing | How we got around in China | Pingyao Ancient Chinese City | Xi’an | Chengdu | Chongqing | Zhangjiajie | Guilin | Guangzhou" [ref=e1416]
+                - button "更多" [ref=e1421]:
+                  - generic [ref=e1425]:
+                    - img
+          - generic [ref=e1430]:
+            - link [ref=e1432] [cursor=pointer]:
+              - /url: /watch?v=3gAW2Sz579o&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e1434] [cursor=pointer]:
+              - generic [ref=e1435]:
+                - generic [ref=e1436]:
+                  - heading "The Ultimate Guide to Preparing Your Phone for China Travel (2026) 3分钟18秒钟" [level=3] [ref=e1437]:
+                    - link "The Ultimate Guide to Preparing Your Phone for China Travel (2026) 3分钟18秒钟" [ref=e1438]:
+                      - /url: /watch?v=3gAW2Sz579o&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: The Ultimate Guide to Preparing Your Phone for China Travel (2026)
+                  - button "操作菜单" [ref=e1442]:
+                    - generic [ref=e1445]:
+                      - img
+                - generic [ref=e1448]:
+                  - generic [ref=e1449]: 2.4万次观看
+                  - generic [ref=e1450]: •9个月前
+              - generic [ref=e1451]:
+                - link "前往频道：Maggie Ye" [ref=e1452]:
+                  - /url: /@MaggieYe-0808
+                - link "Maggie Ye" [ref=e1457]:
+                  - /url: /@MaggieYe-0808
+              - generic [ref=e1458]:
+                - generic [ref=e1459]: "chinatravel#traveltochina #vpn !!NordVPN does not work in China!! Planning a trip to China and worried about staying connected ..."
+                - tooltip "tooltip"
+              - img "4K" [ref=e1464]:
+                - generic [ref=e1465]: 4K
+              - generic [ref=e1468]:
+                - generic [ref=e1469]:
+                  - generic [ref=e1473]: 4 个章节
+                  - button "Intro | Sim Card | VPN | esim/Data" [ref=e1474]
+                - button "更多" [ref=e1479]:
+                  - generic [ref=e1483]:
+                    - img
+          - generic [ref=e1488]:
+            - link [ref=e1490] [cursor=pointer]:
+              - /url: /shorts/hMMWdXVsKIw
+            - generic [ref=e1492] [cursor=pointer]:
+              - generic [ref=e1493]:
+                - generic [ref=e1494]:
+                  - heading "How Chinese travel 来自Chinese with Jessie 4,200,426次观看 6个月前 9秒钟 - 播放 Shorts 短视频" [level=3] [ref=e1495]:
+                    - link "How Chinese travel 来自Chinese with Jessie 4,200,426次观看 6个月前 9秒钟 - 播放 Shorts 短视频" [ref=e1496]:
+                      - /url: /shorts/hMMWdXVsKIw
+                      - text: How Chinese travel
+                  - button "操作菜单" [ref=e1500]:
+                    - generic [ref=e1503]:
+                      - img
+                - generic [ref=e1506]:
+                  - generic [ref=e1507]: 420万次观看
+                  - generic [ref=e1508]: •6个月前
+              - generic [ref=e1509]:
+                - link "前往频道：Chinese with Jessie" [ref=e1510]:
+                  - /url: /@ChinesewithJessie
+                - generic [ref=e1511]:
+                  - link "Chinese with Jessie" [ref=e1515]:
+                    - /url: /@ChinesewithJessie
+                  - img "已验证" [ref=e1520]:
+                    - generic [ref=e1523]:
+                      - img
+              - generic [ref=e1524]:
+                - generic [ref=e1525]: "shorts #funny #skit #comedy #chinese."
+                - tooltip "tooltip"
+          - generic [ref=e1527]:
+            - link [ref=e1529] [cursor=pointer]:
+              - /url: /watch?v=BRe21vStbQ8&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e1531] [cursor=pointer]:
+              - generic [ref=e1532]:
+                - generic [ref=e1533]:
+                  - 'heading "Shanghai: China’s Largest & Richest City | Travel Guide 2025 37分钟" [level=3] [ref=e1534]':
+                    - 'link "Shanghai: China’s Largest & Richest City | Travel Guide 2025 37分钟" [ref=e1535]':
+                      - /url: /watch?v=BRe21vStbQ8&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: "Shanghai: China’s Largest & Richest City | Travel Guide 2025"
+                  - button "操作菜单" [ref=e1539]:
+                    - generic [ref=e1542]:
+                      - img
+                - generic [ref=e1545]:
+                  - generic [ref=e1546]: 547万次观看
+                  - generic [ref=e1547]: •1年前
+              - generic [ref=e1548]:
+                - link "前往频道：CoolVision" [ref=e1549]:
+                  - /url: /@realcoolvision
+                - generic [ref=e1550]:
+                  - link "CoolVision" [ref=e1554]:
+                    - /url: /@realcoolvision
+                  - img "已验证" [ref=e1559]:
+                    - generic [ref=e1562]:
+                      - img
+              - generic [ref=e1563]:
+                - generic [ref=e1564]: Discover Shanghai, China's largest and richest city! In this video, we explore iconic landmarks like The Bund, the futuristic ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e1569]:
+                - generic [ref=e1570]: 4K
+              - generic [ref=e1573]:
+                - generic [ref=e1574]:
+                  - generic [ref=e1578]: 22 个片段
+                  - button "Shanghai Maglev Train | The Bund | Pudong | Skyscrapers of Shanghai | Shanghai Metro | French Concession | Interview with girls | Coffee culture | Xintiandi | Shanghai Exhibition Center | Yu Garden | Shanghai Botanical Garden | Century Park | Marriage Market | West Nanjing Road | East Nanjing Road | Huangpu River Cruise | Shanghainese Dialect | Zhujiajiao Water town | Shanghai Natural History Museum | Shanghai Temples | Is Shanghai Expensive?" [ref=e1579]
+                - button "更多" [ref=e1584]:
+                  - generic [ref=e1588]:
+                    - img
+          - generic [ref=e1593]:
+            - link [ref=e1595] [cursor=pointer]:
+              - /url: /watch?v=RscBT1Rgr08&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+            - generic [ref=e1597] [cursor=pointer]:
+              - generic [ref=e1598]:
+                - generic [ref=e1599]:
+                  - heading "China Travel Tips | What You Need to Know about APPs and Payment BEFORE your trip to China 7分钟27秒钟" [level=3] [ref=e1600]:
+                    - link "China Travel Tips | What You Need to Know about APPs and Payment BEFORE your trip to China 7分钟27秒钟" [ref=e1601]:
+                      - /url: /watch?v=RscBT1Rgr08&pp=ygUiZmlyc3QgdGltZSBDaGluYSB0cmF2ZWwgZ3VpZGUgMjAyNQ%3D%3D
+                      - text: China Travel Tips | What You Need to Know about APPs and Payment BEFORE your trip to China
+                  - button "操作菜单" [ref=e1605]:
+                    - generic [ref=e1608]:
+                      - img
+                - generic [ref=e1611]:
+                  - generic [ref=e1612]: 4815次观看
+                  - generic [ref=e1613]: •9个月前
+              - generic [ref=e1614]:
+                - link "前往频道：Starkly Positive Travels" [ref=e1615]:
+                  - /url: /@StarklyPositive
+                - link "Starkly Positive Travels" [ref=e1620]:
+                  - /url: /@StarklyPositive
+              - generic [ref=e1621]:
+                - generic [ref=e1622]: Planning a trip to China in 2025? Whether you're from Singapore, Malaysia, or anywhere else, things might be very different from ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e1627]:
+                - generic [ref=e1628]: 4K
+              - generic [ref=e1631]:
+                - generic [ref=e1632]:
+                  - generic [ref=e1636]: 9 个章节
+                  - button "Intro | Apps | Cashless | QR Codes | Navigation | Transportation | Food | Attractions | Conclusion" [ref=e1637]
+                - button "更多" [ref=e1642]:
+                  - generic [ref=e1646]:
+                    - img
+    - text: •

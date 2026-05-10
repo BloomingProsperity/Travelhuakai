@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"gh auth status 2>&1\",\"description\":\"Check gh CLI auth status via PowerShell\"}",
+  "error": "Exit code 1\ngh : The term 'gh' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spe\r\nlling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt line:1 char:1\r\n+ gh auth status 2>&1\r\n+ ~~\r\n    + CategoryInfo          : ObjectNotFound: (gh:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException",
+  "timestamp": "2026-05-10T14:40:59.541Z",
+  "retry_count": 1
+}

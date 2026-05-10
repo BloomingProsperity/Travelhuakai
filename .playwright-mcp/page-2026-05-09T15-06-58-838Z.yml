@@ -1,0 +1,229 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "中 China Atlas 中国城市与博物馆索引" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]: 中
+      - generic [ref=e6]:
+        - strong [ref=e7]: China Atlas
+        - generic [ref=e8]: 中国城市与博物馆索引
+    - navigation [ref=e9]:
+      - link "Beijing" [ref=e10] [cursor=pointer]:
+        - /url: /city/beijing
+      - link "Shanghai" [ref=e11] [cursor=pointer]:
+        - /url: /city/shanghai
+      - link "Guangzhou" [ref=e12] [cursor=pointer]:
+        - /url: /city/guangzhou
+      - link "Shenzhen" [ref=e13] [cursor=pointer]:
+        - /url: /city/shenzhen
+      - link "Ask" [ref=e15] [cursor=pointer]:
+        - /url: /ask
+      - link "Share" [ref=e16] [cursor=pointer]:
+        - /url: /share
+      - link "Donate" [ref=e17] [cursor=pointer]:
+        - /url: /donate
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - combobox "Search city, county, town, village, scenic area" [ref=e21]
+        - button "Search" [ref=e22] [cursor=pointer]
+      - generic [ref=e23]:
+        - button "EN" [ref=e24] [cursor=pointer]
+        - button "中文" [ref=e25] [cursor=pointer]
+  - main [ref=e26]:
+    - region "China interactive map" [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - text: Full China Map
+          - heading "China province-level map" [level=2] [ref=e30]
+        - generic [ref=e32]: Official base map
+      - img [ref=e34]
+      - paragraph [ref=e35]: Click a province on the official map. The province will pop out and the full map will dim.
+      - paragraph [ref=e36]: "Official base map: Standard Map Service System, GS(2022)4309."
+    - region "Travel alerts" [ref=e37]:
+      - generic [ref=e39]:
+        - text: Travel Alerts
+        - heading "What changed before you book" [level=2] [ref=e40]
+      - list [ref=e41]:
+        - listitem [ref=e42]:
+          - strong [ref=e43]: 240-hour transit visa-free is live
+          - paragraph [ref=e44]: Effective 2025-11-05. Covers 55 countries across 65 ports / 24 provincial regions. Onward third-country ticket required.
+          - link "State Council 2026-05-09" [ref=e45] [cursor=pointer]:
+            - /url: https://english.www.gov.cn/news/202511/04/content_WS69094ae0c6d00ca5f9a07472.html
+            - generic [ref=e46]: State Council
+            - generic [ref=e47]: ·
+            - generic [ref=e48]: 2026-05-09
+        - listitem [ref=e49]:
+          - strong [ref=e50]: Online entry card now available — beware fake sites
+          - paragraph [ref=e51]: Free pre-fill at the official NIA portal since 2025-11-20. Kiosk and paper card remain available at the port.
+          - link "NIA 2026-05-09" [ref=e52] [cursor=pointer]:
+            - /url: https://en.nia.gov.cn/n147418/n147468/c187308/content.html
+            - generic [ref=e53]: NIA
+            - generic [ref=e54]: ·
+            - generic [ref=e55]: 2026-05-09
+        - listitem [ref=e56]:
+          - strong [ref=e57]: Unilateral 30-day visa-free expires in 235 days
+          - paragraph [ref=e58]: Current 50-country list runs until 2026-12-31. Re-verify NIA before booking trips after that date.
+          - link "NIA 2026-05-09" [ref=e59] [cursor=pointer]:
+            - /url: https://en.nia.gov.cn/n147418/n147463/c183390/content.html
+            - generic [ref=e60]: NIA
+            - generic [ref=e61]: ·
+            - generic [ref=e62]: 2026-05-09
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - text: Pillar 1
+        - heading "Entry & Visa" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Pick your passport country to see what applies. Every answer cites China's NIA and State Council announcements.
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]: Passport country
+          - combobox "Passport country" [ref=e70]:
+            - option "Select country..." [selected]
+            - option "Andorra (安道尔)"
+            - option "Argentina (阿根廷)"
+            - option "Australia (澳大利亚)"
+            - option "Austria (奥地利)"
+            - option "Bahrain (巴林)"
+            - option "Belgium (比利时)"
+            - option "Brazil (巴西)"
+            - option "Brunei Darussalam (文莱)"
+            - option "Bulgaria (保加利亚)"
+            - option "Canada (加拿大)"
+            - option "Chile (智利)"
+            - option "Croatia (克罗地亚)"
+            - option "Cyprus (塞浦路斯)"
+            - option "Denmark (丹麦)"
+            - option "Estonia (爱沙尼亚)"
+            - option "Finland (芬兰)"
+            - option "France (法国)"
+            - option "Germany (德国)"
+            - option "Greece (希腊)"
+            - option "Hungary (匈牙利)"
+            - option "Iceland (冰岛)"
+            - option "Ireland (爱尔兰)"
+            - option "Italy (意大利)"
+            - option "Japan (日本)"
+            - option "Kuwait (科威特)"
+            - option "Latvia (拉脱维亚)"
+            - option "Liechtenstein (列支敦士登)"
+            - option "Luxembourg (卢森堡)"
+            - option "Malta (马耳他)"
+            - option "Monaco (摩纳哥)"
+            - option "Montenegro (黑山)"
+            - option "Netherlands (荷兰)"
+            - option "New Zealand (新西兰)"
+            - option "North Macedonia (北马其顿)"
+            - option "Norway (挪威)"
+            - option "Oman (阿曼)"
+            - option "Peru (秘鲁)"
+            - option "Poland (波兰)"
+            - option "Portugal (葡萄牙)"
+            - option "Republic of Korea (韩国)"
+            - option "Romania (罗马尼亚)"
+            - option "Russian Federation (俄罗斯)"
+            - option "Saudi Arabia (沙特阿拉伯)"
+            - option "Slovakia (斯洛伐克)"
+            - option "Slovenia (斯洛文尼亚)"
+            - option "Spain (西班牙)"
+            - option "Sweden (瑞典)"
+            - option "Switzerland (瑞士)"
+            - option "United Kingdom (英国)"
+            - option "Uruguay (乌拉圭)"
+            - option "──────────" [disabled]
+            - option "Other (not on visa-free lists)"
+        - generic [ref=e71]: Pick a passport country first.
+      - generic [ref=e72]:
+        - article [ref=e73]:
+          - generic [ref=e74]: Unilateral visa-free
+          - strong [ref=e75]: 50 countries
+          - paragraph [ref=e76]: Ordinary passports, 30-day stay, business/tourism/family/exchange/transit.
+          - link "NIA 2026-05-09" [ref=e77] [cursor=pointer]:
+            - /url: https://en.nia.gov.cn/n147418/n147463/c183390/content.html
+            - generic [ref=e78]: NIA
+            - generic [ref=e79]: ·
+            - generic [ref=e80]: 2026-05-09
+        - article [ref=e81]:
+          - generic [ref=e82]: 240-hour transit
+          - strong [ref=e83]: 65 ports
+          - paragraph [ref=e84]: 55 eligible nationalities, 24 provincial regions; effective 2025-11-05.
+          - link "State Council 2026-05-09" [ref=e85] [cursor=pointer]:
+            - /url: https://english.www.gov.cn/news/202511/04/content_WS69094ae0c6d00ca5f9a07472.html
+            - generic [ref=e86]: State Council
+            - generic [ref=e87]: ·
+            - generic [ref=e88]: 2026-05-09
+        - article [ref=e89]:
+          - generic [ref=e90]: Online entry card
+          - strong [ref=e91]: 2025-11-20
+          - paragraph [ref=e92]: Free pre-fill online; kiosk or paper card available at port; ignore counterfeit pay-to-fill sites.
+          - link "NIA 2026-05-09" [ref=e93] [cursor=pointer]:
+            - /url: https://en.nia.gov.cn/n147418/n147468/c187308/content.html
+            - generic [ref=e94]: NIA
+            - generic [ref=e95]: ·
+            - generic [ref=e96]: 2026-05-09
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - heading "Phase 1 cities — all 240-hour transit" [level=3] [ref=e99]
+          - paragraph [ref=e100]: Aligned with State Council 2025-11-04 announcement; the other 59 ports are not yet covered here.
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - generic [ref=e103]:
+              - strong [ref=e104]: Beijing
+              - text: Capital International Airport
+            - generic [ref=e105]: 240h
+          - listitem [ref=e106]:
+            - generic [ref=e107]:
+              - strong [ref=e108]: Beijing
+              - text: Daxing International Airport
+            - generic [ref=e109]: 240h
+          - listitem [ref=e110]:
+            - generic [ref=e111]:
+              - strong [ref=e112]: Shanghai
+              - text: Pudong International Airport
+            - generic [ref=e113]: 240h
+          - listitem [ref=e114]:
+            - generic [ref=e115]:
+              - strong [ref=e116]: Shanghai
+              - text: Hongqiao International Airport
+            - generic [ref=e117]: 240h
+          - listitem [ref=e118]:
+            - generic [ref=e119]:
+              - strong [ref=e120]: Guangzhou
+              - text: Baiyun International Airport
+            - generic [ref=e121]: 240h
+          - listitem [ref=e122]:
+            - generic [ref=e123]:
+              - strong [ref=e124]: Shenzhen
+              - text: Bao'an International Airport
+            - generic [ref=e125]: 240h
+    - region "City picker" [ref=e126]:
+      - generic [ref=e127]:
+        - text: Pick a city
+        - heading "City guides" [level=2] [ref=e128]
+        - paragraph [ref=e129]: Payments, transport, food, emergency, attractions — one dedicated page per city.
+      - list [ref=e130]:
+        - listitem [ref=e131]:
+          - link "Beijing Imperial capital · Forbidden City · 240h transit Open →" [ref=e132] [cursor=pointer]:
+            - /url: /city/beijing
+            - strong [ref=e133]: Beijing
+            - generic [ref=e134]: Imperial capital · Forbidden City · 240h transit
+            - generic [ref=e135]: Open →
+        - listitem [ref=e136]:
+          - link "Shanghai Pudong / Hongqiao · Bund · maglev Open →" [ref=e137] [cursor=pointer]:
+            - /url: /city/shanghai
+            - strong [ref=e138]: Shanghai
+            - generic [ref=e139]: Pudong / Hongqiao · Bund · maglev
+            - generic [ref=e140]: Open →
+        - listitem [ref=e141]:
+          - link "Guangzhou Pearl River · yum cha · Baiyun T3 Open →" [ref=e142] [cursor=pointer]:
+            - /url: /city/guangzhou
+            - strong [ref=e143]: Guangzhou
+            - generic [ref=e144]: Pearl River · yum cha · Baiyun T3
+            - generic [ref=e145]: Open →
+        - listitem [ref=e146]:
+          - link "Shenzhen Bao'an · HK cross-border · tech CBD Open →" [ref=e147] [cursor=pointer]:
+            - /url: /city/shenzhen
+            - strong [ref=e148]: Shenzhen
+            - generic [ref=e149]: Bao'an · HK cross-border · tech CBD
+            - generic [ref=e150]: Open →
+  - contentinfo [ref=e151]:
+    - paragraph [ref=e152]: China Atlas template. Demo data only.
+    - link "Back to top" [ref=e153] [cursor=pointer]:
+      - /url: "#top"

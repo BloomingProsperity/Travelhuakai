@@ -1,0 +1,700 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "中 China Atlas 中国城市与博物馆索引" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]: 中
+      - generic [ref=e6]:
+        - strong [ref=e7]: China Atlas
+        - generic [ref=e8]: 中国城市与博物馆索引
+    - navigation [ref=e9]:
+      - link "Beijing" [ref=e10] [cursor=pointer]:
+        - /url: /city/beijing
+      - link "Shanghai" [ref=e11] [cursor=pointer]:
+        - /url: /city/shanghai
+      - link "Guangzhou" [ref=e12] [cursor=pointer]:
+        - /url: /city/guangzhou
+      - link "Shenzhen" [ref=e13] [cursor=pointer]:
+        - /url: /city/shenzhen
+      - link "Ask" [ref=e15] [cursor=pointer]:
+        - /url: /ask
+      - link "Share" [ref=e16] [cursor=pointer]:
+        - /url: /share
+      - link "Donate" [ref=e17] [cursor=pointer]:
+        - /url: /donate
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - combobox "Search city, county, town, village, scenic area" [ref=e21]
+        - button "Search" [ref=e22] [cursor=pointer]
+      - generic [ref=e23]:
+        - button "EN" [ref=e24] [cursor=pointer]
+        - button "中文" [ref=e25] [cursor=pointer]
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - link "← All cities" [ref=e28] [cursor=pointer]:
+        - /url: /
+      - heading "Beijing" [level=1] [ref=e29]
+      - paragraph [ref=e30]: 北京
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - text: Pillar 1
+        - heading "Entry & Visa" [level=2] [ref=e33]
+        - paragraph [ref=e34]: Pick your passport country to see what applies. Every answer cites China's NIA and State Council announcements.
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: Passport country
+          - combobox "Passport country" [ref=e38]:
+            - option "Select country..." [selected]
+            - option "Andorra (安道尔)"
+            - option "Argentina (阿根廷)"
+            - option "Australia (澳大利亚)"
+            - option "Austria (奥地利)"
+            - option "Bahrain (巴林)"
+            - option "Belgium (比利时)"
+            - option "Brazil (巴西)"
+            - option "Brunei Darussalam (文莱)"
+            - option "Bulgaria (保加利亚)"
+            - option "Canada (加拿大)"
+            - option "Chile (智利)"
+            - option "Croatia (克罗地亚)"
+            - option "Cyprus (塞浦路斯)"
+            - option "Denmark (丹麦)"
+            - option "Estonia (爱沙尼亚)"
+            - option "Finland (芬兰)"
+            - option "France (法国)"
+            - option "Germany (德国)"
+            - option "Greece (希腊)"
+            - option "Hungary (匈牙利)"
+            - option "Iceland (冰岛)"
+            - option "Ireland (爱尔兰)"
+            - option "Italy (意大利)"
+            - option "Japan (日本)"
+            - option "Kuwait (科威特)"
+            - option "Latvia (拉脱维亚)"
+            - option "Liechtenstein (列支敦士登)"
+            - option "Luxembourg (卢森堡)"
+            - option "Malta (马耳他)"
+            - option "Monaco (摩纳哥)"
+            - option "Montenegro (黑山)"
+            - option "Netherlands (荷兰)"
+            - option "New Zealand (新西兰)"
+            - option "North Macedonia (北马其顿)"
+            - option "Norway (挪威)"
+            - option "Oman (阿曼)"
+            - option "Peru (秘鲁)"
+            - option "Poland (波兰)"
+            - option "Portugal (葡萄牙)"
+            - option "Republic of Korea (韩国)"
+            - option "Romania (罗马尼亚)"
+            - option "Russian Federation (俄罗斯)"
+            - option "Saudi Arabia (沙特阿拉伯)"
+            - option "Slovakia (斯洛伐克)"
+            - option "Slovenia (斯洛文尼亚)"
+            - option "Spain (西班牙)"
+            - option "Sweden (瑞典)"
+            - option "Switzerland (瑞士)"
+            - option "United Kingdom (英国)"
+            - option "Uruguay (乌拉圭)"
+            - option "──────────" [disabled]
+            - option "Other (not on visa-free lists)"
+        - generic [ref=e39]: Pick a passport country first.
+      - generic [ref=e40]:
+        - article [ref=e41]:
+          - generic [ref=e42]: Unilateral visa-free
+          - strong [ref=e43]: 50 countries
+          - paragraph [ref=e44]: Ordinary passports, 30-day stay, business/tourism/family/exchange/transit.
+          - link "NIA 2026-05-09" [ref=e45] [cursor=pointer]:
+            - /url: https://en.nia.gov.cn/n147418/n147463/c183390/content.html
+            - generic [ref=e46]: NIA
+            - generic [ref=e47]: ·
+            - generic [ref=e48]: 2026-05-09
+        - article [ref=e49]:
+          - generic [ref=e50]: 240-hour transit
+          - strong [ref=e51]: 65 ports
+          - paragraph [ref=e52]: 55 eligible nationalities, 24 provincial regions; effective 2025-11-05.
+          - link "State Council 2026-05-09" [ref=e53] [cursor=pointer]:
+            - /url: https://english.www.gov.cn/news/202511/04/content_WS69094ae0c6d00ca5f9a07472.html
+            - generic [ref=e54]: State Council
+            - generic [ref=e55]: ·
+            - generic [ref=e56]: 2026-05-09
+        - article [ref=e57]:
+          - generic [ref=e58]: Online entry card
+          - strong [ref=e59]: 2025-11-20
+          - paragraph [ref=e60]: Free pre-fill online; kiosk or paper card available at port; ignore counterfeit pay-to-fill sites.
+          - link "NIA 2026-05-09" [ref=e61] [cursor=pointer]:
+            - /url: https://en.nia.gov.cn/n147418/n147468/c187308/content.html
+            - generic [ref=e62]: NIA
+            - generic [ref=e63]: ·
+            - generic [ref=e64]: 2026-05-09
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - heading "Phase 1 cities — all 240-hour transit" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Aligned with State Council 2025-11-04 announcement; the other 59 ports are not yet covered here.
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - generic [ref=e71]:
+              - strong [ref=e72]: Beijing
+              - text: Capital International Airport
+            - generic [ref=e73]: 240h
+          - listitem [ref=e74]:
+            - generic [ref=e75]:
+              - strong [ref=e76]: Beijing
+              - text: Daxing International Airport
+            - generic [ref=e77]: 240h
+          - listitem [ref=e78]:
+            - generic [ref=e79]:
+              - strong [ref=e80]: Shanghai
+              - text: Pudong International Airport
+            - generic [ref=e81]: 240h
+          - listitem [ref=e82]:
+            - generic [ref=e83]:
+              - strong [ref=e84]: Shanghai
+              - text: Hongqiao International Airport
+            - generic [ref=e85]: 240h
+          - listitem [ref=e86]:
+            - generic [ref=e87]:
+              - strong [ref=e88]: Guangzhou
+              - text: Baiyun International Airport
+            - generic [ref=e89]: 240h
+          - listitem [ref=e90]:
+            - generic [ref=e91]:
+              - strong [ref=e92]: Shenzhen
+              - text: Bao'an International Airport
+            - generic [ref=e93]: 240h
+    - generic [ref=e94]:
+      - heading "Payments" [level=2] [ref=e95]
+      - generic [ref=e96]:
+        - article [ref=e97]:
+          - generic [ref=e98]: Alipay per-tx
+          - strong [ref=e99]: $5,000
+          - generic [ref=e100]: annual $50,000
+          - link "State Council 2026-05-09" [ref=e101] [cursor=pointer]:
+            - /url: https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html
+            - generic [ref=e102]: State Council
+            - generic [ref=e103]: ·
+            - generic [ref=e104]: 2026-05-09
+        - article [ref=e105]:
+          - generic [ref=e106]: WeChat Pay per-tx
+          - strong [ref=e107]: $5,000
+          - generic [ref=e108]: annual $50,000
+          - link "State Council 2026-05-09" [ref=e109] [cursor=pointer]:
+            - /url: https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html
+            - generic [ref=e110]: State Council
+            - generic [ref=e111]: ·
+            - generic [ref=e112]: 2026-05-09
+        - article [ref=e113]:
+          - generic [ref=e114]: BOC ATM
+          - strong [ref=e115]: ¥3,000
+          - generic [ref=e116]: Visa / Mastercard / JCB / American Express / UnionPay
+          - link "Bank of China 2026-05-09" [ref=e117] [cursor=pointer]:
+            - /url: https://www.boc.cn/english/individuals/pbk/sch/202601/t20260105_25639179.html
+            - generic [ref=e118]: Bank of China
+            - generic [ref=e119]: ·
+            - generic [ref=e120]: 2026-05-09
+        - article [ref=e121]:
+          - generic [ref=e122]: Foreign cash declare
+          - strong [ref=e123]: $5,000
+          - generic [ref=e124]: above this must declare
+          - link "China Customs (GACC) 2026-05-09" [ref=e125] [cursor=pointer]:
+            - /url: http://english.customs.gov.cn/statics/88707c1e-aa4e-40ca-a968-bdbdbb565e4f.html
+            - generic [ref=e126]: China Customs (GACC)
+            - generic [ref=e127]: ·
+            - generic [ref=e128]: 2026-05-09
+      - generic [ref=e129]:
+        - heading "Before you fly" [level=3] [ref=e130]
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - generic [ref=e133]: "1"
+            - generic [ref=e134]:
+              - strong [ref=e135]: Set up Alipay or WeChat Pay before departure
+              - paragraph [ref=e136]: Both platforms accept Visa and Mastercard binding for foreign passport users. Per-transaction USD 5,000 / annual USD 50,000 (PBOC, 2024-04).
+              - link "State Council 2026-05-09" [ref=e137] [cursor=pointer]:
+                - /url: https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html
+                - generic [ref=e138]: State Council
+                - generic [ref=e139]: ·
+                - generic [ref=e140]: 2026-05-09
+          - listitem [ref=e141]:
+            - generic [ref=e142]: "2"
+            - generic [ref=e143]:
+              - strong [ref=e144]: Bring backup cash, declare if > USD 5,000
+              - paragraph [ref=e145]: RMB carry cap ¥20,000. Foreign cash above USD 5,000 equivalent must be declared on the arrival form.
+              - link "China Customs (GACC) 2026-05-09" [ref=e146] [cursor=pointer]:
+                - /url: http://english.customs.gov.cn/statics/88707c1e-aa4e-40ca-a968-bdbdbb565e4f.html
+                - generic [ref=e147]: China Customs (GACC)
+                - generic [ref=e148]: ·
+                - generic [ref=e149]: 2026-05-09
+          - listitem [ref=e150]:
+            - generic [ref=e151]: "3"
+            - generic [ref=e152]:
+              - strong [ref=e153]: Bank of China ATMs are the most reliable for foreign cards
+              - paragraph [ref=e154]: BOC ATMs accept all five major networks; CNY 3,000 per withdrawal. Issuer's own daily/weekly limits also apply.
+              - link "Bank of China 2026-05-09" [ref=e155] [cursor=pointer]:
+                - /url: https://www.boc.cn/english/individuals/pbk/sch/202601/t20260105_25639179.html
+                - generic [ref=e156]: Bank of China
+                - generic [ref=e157]: ·
+                - generic [ref=e158]: 2026-05-09
+          - listitem [ref=e159]:
+            - generic [ref=e160]: "4"
+            - generic [ref=e161]:
+              - strong [ref=e162]: POS coverage is broadest at airports and major hotels
+              - paragraph [ref=e163]: Outside those, small merchants tend to be Alipay/WeChat-only or cash. Don't rely on Visa swipe in mom-and-pop shops.
+              - link "State Council 2026-05-09" [ref=e164] [cursor=pointer]:
+                - /url: https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html
+                - generic [ref=e165]: State Council
+                - generic [ref=e166]: ·
+                - generic [ref=e167]: 2026-05-09
+      - generic [ref=e168]:
+        - heading "China Customs thresholds" [level=3] [ref=e169]
+        - list [ref=e170]:
+          - listitem [ref=e171]:
+            - strong [ref=e172]: RMB cash carry limit
+            - paragraph [ref=e173]: Inbound and outbound passengers may carry up to ¥20,000 RMB. Excess must be remitted via banking channels.
+            - link "China Customs (GACC) 2026-05-09" [ref=e174] [cursor=pointer]:
+              - /url: http://english.customs.gov.cn/statics/88707c1e-aa4e-40ca-a968-bdbdbb565e4f.html
+              - generic [ref=e175]: China Customs (GACC)
+              - generic [ref=e176]: ·
+              - generic [ref=e177]: 2026-05-09
+          - listitem [ref=e178]:
+            - strong [ref=e179]: Foreign currency declaration
+            - paragraph [ref=e180]: Foreign currency above the equivalent of USD 5,000 must be declared in writing on arrival. Undeclared amounts can be confiscated.
+            - link "China Customs (GACC) 2026-05-09" [ref=e181] [cursor=pointer]:
+              - /url: http://english.customs.gov.cn/statics/88707c1e-aa4e-40ca-a968-bdbdbb565e4f.html
+              - generic [ref=e182]: China Customs (GACC)
+              - generic [ref=e183]: ·
+              - generic [ref=e184]: 2026-05-09
+          - listitem [ref=e185]:
+            - strong [ref=e186]: Personal-use goods (non-resident)
+            - paragraph [ref=e187]: Reasonable personal-use items are duty-exempt. Goods totalling above ¥2,000 in value intended for non-personal use require duty assessment.
+            - link "China Customs (GACC) 2026-05-09" [ref=e188] [cursor=pointer]:
+              - /url: http://english.customs.gov.cn/statics/88707c1e-aa4e-40ca-a968-bdbdbb565e4f.html
+              - generic [ref=e189]: China Customs (GACC)
+              - generic [ref=e190]: ·
+              - generic [ref=e191]: 2026-05-09
+          - listitem [ref=e192]:
+            - strong [ref=e193]: Duty-free allowance
+            - paragraph [ref=e194]: "Tobacco: 400 cigarettes (foreign passenger). Alcohol: 1.5 L (18+ only)."
+            - link "China Customs (GACC) 2026-05-09" [ref=e195] [cursor=pointer]:
+              - /url: http://english.customs.gov.cn/statics/88707c1e-aa4e-40ca-a968-bdbdbb565e4f.html
+              - generic [ref=e196]: China Customs (GACC)
+              - generic [ref=e197]: ·
+              - generic [ref=e198]: 2026-05-09
+      - generic [ref=e199]:
+        - heading "This city — payment status" [level=3] [ref=e200]
+        - list [ref=e201]:
+          - listitem [ref=e202]:
+            - list [ref=e203]:
+              - listitem [ref=e204]:
+                - generic [ref=e205]: "Subway tap-to-ride: all 5 networks (Visa, Mastercard, UnionPay, JCB, Amex) on every line; effective 2025-06-15."
+                - link "Beijing Foreign Affairs Office 2026-05-09" [ref=e206] [cursor=pointer]:
+                  - /url: https://wb.beijing.gov.cn/en/express/202508/t20250828_4186027.html
+                  - generic [ref=e207]: Beijing Foreign Affairs Office
+                  - generic [ref=e208]: ·
+                  - generic [ref=e209]: 2026-05-09
+              - listitem [ref=e210]:
+                - generic [ref=e211]: "Capital + Daxing airports: 24 ATMs, 7 currency desks; over 11,000 city merchants accept foreign cards."
+                - link "Beijing Government 2026-05-09" [ref=e212] [cursor=pointer]:
+                  - /url: https://english.beijing.gov.cn/livinginbeijing/transportation/airport/202501/t20250108_3984022.html
+                  - generic [ref=e213]: Beijing Government
+                  - generic [ref=e214]: ·
+                  - generic [ref=e215]: 2026-05-09
+    - generic [ref=e216]:
+      - heading "Transport" [level=2] [ref=e217]
+      - article [ref=e218]:
+        - heading "12306 international" [level=3] [ref=e219]
+        - generic [ref=e220]:
+          - generic [ref=e221]: Registration
+          - generic [ref=e222]:
+            - paragraph [ref=e223]: Register at 12306.cn/en with passport. Email magic link OR Chinese mobile SMS. Online auto-verify; if it fails, upload passport + selfie (3-5 working days) or visit any station counter.
+            - link "China Railway 2026-05-09" [ref=e224] [cursor=pointer]:
+              - /url: https://www.12306.cn/en/faq.html
+              - generic [ref=e225]: China Railway
+              - generic [ref=e226]: ·
+              - generic [ref=e227]: 2026-05-09
+        - generic [ref=e228]:
+          - generic [ref=e229]: Payment
+          - generic [ref=e230]:
+            - paragraph [ref=e231]: 12306 English portal accepts Visa, Mastercard, JCB, Diners Club, UnionPay; Alipay/WeChat referenced in the central government expat guide.
+            - link "China Railway 2026-05-09" [ref=e232] [cursor=pointer]:
+              - /url: https://www.12306.cn/en/faq.html
+              - generic [ref=e233]: China Railway
+              - generic [ref=e234]: ·
+              - generic [ref=e235]: 2026-05-09
+        - generic [ref=e236]:
+          - generic [ref=e237]: Refund
+          - generic [ref=e238]:
+            - paragraph [ref=e239]: "≥8 days before departure: 0% fee. 48h-8d: 5%. 24-48h: 10%. <24h: 20%. One free change (date/train/seat) until 48h before departure."
+            - link "China Railway 2026-05-09" [ref=e240] [cursor=pointer]:
+              - /url: https://www.12306.cn/en/faq.html
+              - generic [ref=e241]: China Railway
+              - generic [ref=e242]: ·
+              - generic [ref=e243]: 2026-05-09
+        - generic [ref=e244]:
+          - generic [ref=e245]: Real-name
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: Passport name on the ticket must match the bio page exactly. Carry passport on board for inspection. E-tickets are linked to passport number.
+            - link "China Railway 2026-05-09" [ref=e248] [cursor=pointer]:
+              - /url: https://www.12306.cn/en/faq.html
+              - generic [ref=e249]: China Railway
+              - generic [ref=e250]: ·
+              - generic [ref=e251]: 2026-05-09
+      - article [ref=e252]:
+        - generic [ref=e253]:
+          - heading "PEK · Capital International (PEK)" [level=4] [ref=e254]
+          - list [ref=e255]:
+            - listitem [ref=e256]:
+              - generic [ref=e257]: Fastest
+              - strong [ref=e258]: Capital Airport Express → Dongzhimen (Line 2/13)
+              - generic [ref=e259]: ¥25 flat · ~16 min
+              - generic [ref=e260]: 5-network tap-to-ride
+              - link "Beijing Government 2026-05-09" [ref=e261] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/travellinginbeijing/transportation/airport/202005/t20200516_1899219.html
+                - generic [ref=e262]: Beijing Government
+                - generic [ref=e263]: ·
+                - generic [ref=e264]: 2026-05-09
+            - listitem [ref=e265]:
+              - generic [ref=e266]: Cheapest
+              - strong [ref=e267]: Airport shuttle bus to Beijing Railway Station (T2 Gate 11 / T3 Gate 7)
+              - generic [ref=e268]: ¥20–30 · 60–90 min
+              - generic [ref=e269]: Cash; foreign card support pending
+              - link "Beijing Government 2026-05-09" [ref=e270] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/livinginbeijing/transportation/airport/202501/t20250108_3984022.html
+                - generic [ref=e271]: Beijing Government
+                - generic [ref=e272]: ·
+                - generic [ref=e273]: 2026-05-09
+            - listitem [ref=e274]:
+              - generic [ref=e275]: Most stable
+              - strong [ref=e276]: Official taxi queue at arrivals; metered fare
+              - generic [ref=e277]: ¥100–150 · 40–80 min
+              - generic [ref=e278]: Cash + Alipay/WeChat; foreign cards inconsistent
+              - link "Beijing Government 2026-05-09" [ref=e279] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/livinginbeijing/transportation/airport/202501/t20250108_3984022.html
+                - generic [ref=e280]: Beijing Government
+                - generic [ref=e281]: ·
+                - generic [ref=e282]: 2026-05-09
+        - generic [ref=e283]:
+          - heading "PKX · Daxing International (PKX)" [level=4] [ref=e284]
+          - list [ref=e285]:
+            - listitem [ref=e286]:
+              - generic [ref=e287]: Fastest
+              - strong [ref=e288]: Daxing Airport Express → Caoqiao (transfer Line 10/7)
+              - generic [ref=e289]: ¥35 · ~19 min
+              - generic [ref=e290]: 5-network tap-to-ride
+              - link "Beijing Government 2026-05-09" [ref=e291] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/livinginbeijing/transportation/beijingsubway/202411/t20241110_3937243.html
+                - generic [ref=e292]: Beijing Government
+                - generic [ref=e293]: ·
+                - generic [ref=e294]: 2026-05-09
+            - listitem [ref=e295]:
+              - generic [ref=e296]: Cheapest
+              - strong [ref=e297]: Daxing Airport shuttle bus to Beijing/West Railway Station
+              - generic [ref=e298]: ¥40 · 70–100 min
+              - generic [ref=e299]: Cash
+              - link "Beijing Government 2026-05-09" [ref=e300] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/livinginbeijing/transportation/airport/202501/t20250108_3984022.html
+                - generic [ref=e301]: Beijing Government
+                - generic [ref=e302]: ·
+                - generic [ref=e303]: 2026-05-09
+        - generic [ref=e304]:
+          - heading "Metro payment" [level=4] [ref=e305]
+          - paragraph [ref=e306]: "All 29 lines / 523 stations: Visa, Mastercard, UnionPay, JCB, Amex tap-to-ride at every gate (since 2025-06-15). World's first metro to support all 5 networks."
+          - link "Beijing Foreign Affairs Office 2026-05-09" [ref=e307] [cursor=pointer]:
+            - /url: https://wb.beijing.gov.cn/en/express/202508/t20250828_4186027.html
+            - generic [ref=e308]: Beijing Foreign Affairs Office
+            - generic [ref=e309]: ·
+            - generic [ref=e310]: 2026-05-09
+        - generic [ref=e311]:
+          - heading "Ride-hail & taxi" [level=4] [ref=e312]
+          - paragraph [ref=e313]: DiDi accepts foreign phone + Visa/Mastercard with English UI; in-app 24/7 English customer service. Take official taxi queue at airport, never solicitations inside terminal.
+          - link "Beijing Government 2026-05-09" [ref=e314] [cursor=pointer]:
+            - /url: https://english.beijing.gov.cn/livinginbeijing/transportation/airport/202501/t20250108_3984022.html
+            - generic [ref=e315]: Beijing Government
+            - generic [ref=e316]: ·
+            - generic [ref=e317]: 2026-05-09
+        - generic [ref=e318]:
+          - heading "Common pitfalls" [level=4] [ref=e319]
+          - list [ref=e320]:
+            - listitem [ref=e321]:
+              - generic [ref=e322]: T1 is not on Capital Airport Express. T2/T3 only — confirm terminal before boarding.
+              - link "Beijing Government 2026-05-09" [ref=e323] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/travellinginbeijing/transportation/airport/202005/t20200516_1899219.html
+                - generic [ref=e324]: Beijing Government
+                - generic [ref=e325]: ·
+                - generic [ref=e326]: 2026-05-09
+            - listitem [ref=e327]:
+              - generic [ref=e328]: PEK and PKX are 80 km apart — confirm IATA code before transit.
+              - link "Beijing Government 2026-05-09" [ref=e329] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/livinginbeijing/transportation/beijingsubway/202411/t20241110_3937243.html
+                - generic [ref=e330]: Beijing Government
+                - generic [ref=e331]: ·
+                - generic [ref=e332]: 2026-05-09
+    - generic [ref=e333]:
+      - heading "Food" [level=2] [ref=e334]
+      - article [ref=e335]:
+        - generic [ref=e336]:
+          - heading "Local cuisine" [level=3] [ref=e337]
+          - paragraph [ref=e338]: "Peking roast duck (Quanjude / Bianyifang traditions). Old-Beijing snacks: noodles with soybean paste, dou-zhi (fermented mung bean), tanghulu, copper-pot mutton hotpot. Halal options well-established."
+          - link "Beijing Government 2026-05-09" [ref=e339] [cursor=pointer]:
+            - /url: https://english.beijing.gov.cn/livinginbeijing/dining/202005/t20200513_1896788.html
+            - generic [ref=e340]: Beijing Government
+            - generic [ref=e341]: ·
+            - generic [ref=e342]: 2026-05-09
+        - generic [ref=e343]:
+          - heading "Foreigner-friendly districts" [level=3] [ref=e344]
+          - paragraph [ref=e345]: Sanlitun (foreign restaurants, English menus common); Guomao CBD (international hotel dining); Wangfujing snack street; Hutong areas of central axis.
+          - link "Beijing Government 2026-05-09" [ref=e346] [cursor=pointer]:
+            - /url: https://english.beijing.gov.cn/specials/centralaxis/sightseeingalongthecentralaxis/202206/t20220602_2728696.html
+            - generic [ref=e347]: Beijing Government
+            - generic [ref=e348]: ·
+            - generic [ref=e349]: 2026-05-09
+        - generic [ref=e350]:
+          - heading "Delivery apps" [level=3] [ref=e351]
+          - paragraph [ref=e352]: Meituan / Eleme apps require a Chinese mobile number for SMS verification and a working domestic payment method (Alipay/WeChat). Foreign tourists generally cannot place orders without local support.
+          - link "Beijing Government 2026-05-09" [ref=e353] [cursor=pointer]:
+            - /url: https://english.beijing.gov.cn/livinginbeijing/dining/202005/t20200513_1896788.html
+            - generic [ref=e354]: Beijing Government
+            - generic [ref=e355]: ·
+            - generic [ref=e356]: 2026-05-09
+        - generic [ref=e357]:
+          - heading "Pitfalls" [level=3] [ref=e358]
+          - list [ref=e359]:
+            - listitem [ref=e360]:
+              - generic [ref=e361]: Tea ceremony scams near tourist areas (Wangfujing/Houhai). Walk away if invited by 'students' to a tea house.
+              - link "Beijing Government 2026-05-09" [ref=e362] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/livinginbeijing/dining/202005/t20200513_1896788.html
+                - generic [ref=e363]: Beijing Government
+                - generic [ref=e364]: ·
+                - generic [ref=e365]: 2026-05-09
+            - listitem [ref=e366]:
+              - generic [ref=e367]: Some smaller hutong shops are cash-only; Visa swipe is rare outside hotels.
+              - link "Beijing Government 2026-05-09" [ref=e368] [cursor=pointer]:
+                - /url: https://english.beijing.gov.cn/specials/centralaxis/sightseeingalongthecentralaxis/202206/t20220602_2728696.html
+                - generic [ref=e369]: Beijing Government
+                - generic [ref=e370]: ·
+                - generic [ref=e371]: 2026-05-09
+      - article [ref=e372]:
+        - generic [ref=e373]:
+          - heading "Allergy / dietary card (show to staff)" [level=3] [ref=e374]
+          - paragraph [ref=e375]: Fill in your allergen in both versions. Save a screenshot before you fly.
+        - generic [ref=e376]:
+          - generic [ref=e377]: I am severely allergic to ____. I cannot eat or come into contact with any soup, sauce, oil, ingredients, or cookware that contain ____. Please do not include ____. If you are unsure, please tell me. Thank you.
+          - generic [ref=e378]: 我对 ____ 严重过敏，不能吃，也不能接触含有 ____ 的汤、酱、油、配料或厨具。请不要放 ____。如果不确定，请告诉我。谢谢。
+    - generic [ref=e379]:
+      - heading "Emergency & Medical" [level=2] [ref=e380]
+      - list [ref=e381]:
+        - listitem [ref=e382]:
+          - strong [ref=e383]: "110"
+          - generic [ref=e384]: Police
+          - paragraph [ref=e385]: Free. Shanghai 110 supports 8 languages.
+          - link "Shanghai Government 2026-05-09" [ref=e386] [cursor=pointer]:
+            - /url: https://english.shanghai.gov.cn/en-EmergencyNumbers/20241210/cbc5280b9f96440a93234bfc5e0c1023.html
+            - generic [ref=e387]: Shanghai Government
+            - generic [ref=e388]: ·
+            - generic [ref=e389]: 2026-05-09
+        - listitem [ref=e390]:
+          - strong [ref=e391]: "119"
+          - generic [ref=e392]: Fire & Rescue
+          - paragraph [ref=e393]: Free. Foreign-language support in Shanghai.
+          - link "Shanghai Government 2026-05-09" [ref=e394] [cursor=pointer]:
+            - /url: https://english.shanghai.gov.cn/en-EmergencyNumbers/20241210/cbc5280b9f96440a93234bfc5e0c1023.html
+            - generic [ref=e395]: Shanghai Government
+            - generic [ref=e396]: ·
+            - generic [ref=e397]: 2026-05-09
+        - listitem [ref=e398]:
+          - strong [ref=e399]: "120"
+          - generic [ref=e400]: Ambulance
+          - paragraph [ref=e401]: Free. National medical emergency dispatch.
+          - link "Beijing Government 2026-05-09" [ref=e402] [cursor=pointer]:
+            - /url: https://english.beijing.gov.cn/travellinginbeijing/quickguideontravelservices/traveltips/202108/t20210811_2466839.html
+            - generic [ref=e403]: Beijing Government
+            - generic [ref=e404]: ·
+            - generic [ref=e405]: 2026-05-09
+        - listitem [ref=e406]:
+          - strong [ref=e407]: "122"
+          - generic [ref=e408]: Traffic Police
+          - paragraph [ref=e409]: Free. Foreign-language support pending.
+          - link "Beijing Government 2026-05-09" [ref=e410] [cursor=pointer]:
+            - /url: https://english.beijing.gov.cn/travellinginbeijing/quickguideontravelservices/traveltips/202108/t20210811_2466839.html
+            - generic [ref=e411]: Beijing Government
+            - generic [ref=e412]: ·
+            - generic [ref=e413]: 2026-05-09
+      - article [ref=e414]:
+        - generic [ref=e415]:
+          - generic [ref=e416]: City hotline
+          - strong [ref=e417]: "12345"
+          - list [ref=e418]:
+            - listitem [ref=e419]: EN
+            - listitem [ref=e420]: JA
+            - listitem [ref=e421]: KO
+            - listitem [ref=e422]: DE
+            - listitem [ref=e423]: FR
+            - listitem [ref=e424]: RU
+            - listitem [ref=e425]: ES
+            - listitem [ref=e426]: AR
+            - listitem [ref=e427]: PT
+            - listitem [ref=e428]: IT
+          - paragraph [ref=e429]: 10 languages. English line 24/7; others ~8 hours/day.
+          - link "Beijing Government 2026-05-09" [ref=e430] [cursor=pointer]:
+            - /url: https://english.beijing.gov.cn/12345hotline/index.html?src=4
+            - generic [ref=e431]: Beijing Government
+            - generic [ref=e432]: ·
+            - generic [ref=e433]: 2026-05-09
+        - generic [ref=e434]:
+          - generic [ref=e435]: Foreign-friendly hospitals
+          - list [ref=e436]:
+            - listitem [ref=e437]:
+              - strong [ref=e438]: Peking Union Medical College Hospital (PUMCH)
+              - generic [ref=e439]: 1 Shuaifuyuan, Wangfujing, Dongcheng District
+              - generic [ref=e440]:
+                - generic [ref=e441]:
+                  - generic [ref=e442]: "Main:"
+                  - text: +86 10 6915 1188
+                - generic [ref=e443]:
+                  - generic [ref=e444]: "ER:"
+                  - text: 24/7
+              - generic [ref=e445]: International Medical Services (IMS)
+              - generic [ref=e446]: Mon–Fri 08:00–17:00; Sat–Sun 08:00–12:00; ER 24/7
+              - link "Peking Union Medical College Hospital 2026-05-09" [ref=e447] [cursor=pointer]:
+                - /url: https://www.pumch.cn/en/medical_care.html
+                - generic [ref=e448]: Peking Union Medical College Hospital
+                - generic [ref=e449]: ·
+                - generic [ref=e450]: 2026-05-09
+            - listitem [ref=e451]:
+              - strong [ref=e452]: Beijing United Family Hospital
+              - generic [ref=e453]: 2 Jiangtai Road, Chaoyang District
+              - generic [ref=e454]:
+                - generic [ref=e455]:
+                  - generic [ref=e456]: "Main:"
+                  - text: +86 10 5927 7000
+                - generic [ref=e457]:
+                  - generic [ref=e458]: "ER:"
+                  - text: +86 10 5927 7120
+              - generic [ref=e459]: Full-hospital international model
+              - generic [ref=e460]: ER 24/7; outpatient varies
+              - link "United Family Healthcare 2026-05-09" [ref=e461] [cursor=pointer]:
+                - /url: https://beijing.ufh.com.cn/locations/main-campus?lang=en
+                - generic [ref=e462]: United Family Healthcare
+                - generic [ref=e463]: ·
+                - generic [ref=e464]: 2026-05-09
+      - generic [ref=e465]:
+        - heading "Major embassies in China" [level=3] [ref=e466]
+        - list [ref=e467]:
+          - listitem [ref=e468]:
+            - strong [ref=e469]: United States
+            - generic [ref=e470]: 55 Anjialou Road, Chaoyang District
+            - generic [ref=e471]:
+              - generic [ref=e472]: "Main:"
+              - text: +86 10 8531 4000
+            - generic [ref=e473]:
+              - generic [ref=e474]: "Emergency:"
+              - text: +1 202 501 4444 (State Dept Ops 24/7)
+            - link "U.S. Embassy Beijing 2026-05-09" [ref=e475] [cursor=pointer]:
+              - /url: https://china.usembassy-china.org.cn/embassy-consulates/beijing/
+              - generic [ref=e476]: U.S. Embassy Beijing
+              - generic [ref=e477]: ·
+              - generic [ref=e478]: 2026-05-09
+          - listitem [ref=e479]:
+            - strong [ref=e480]: United Kingdom
+            - generic [ref=e481]: 11 Guanghua Road, Chaoyang District
+            - generic [ref=e482]:
+              - generic [ref=e483]: "Main:"
+              - text: +86 10 5192 4000
+            - generic [ref=e484]:
+              - generic [ref=e485]: "Emergency:"
+              - text: +86 10 5192 4000 (24/7 prompts)
+            - link "FCDO (UK) 2026-05-09" [ref=e486] [cursor=pointer]:
+              - /url: https://www.gov.uk/world/organisations/british-embassy-beijing
+              - generic [ref=e487]: FCDO (UK)
+              - generic [ref=e488]: ·
+              - generic [ref=e489]: 2026-05-09
+          - listitem [ref=e490]:
+            - strong [ref=e491]: Canada
+            - generic [ref=e492]: 19 Dongzhimenwai Dajie, Chaoyang District
+            - generic [ref=e493]:
+              - generic [ref=e494]: "Main:"
+              - text: +86 10 5139 4000
+            - generic [ref=e495]:
+              - generic [ref=e496]: "Emergency:"
+              - text: +86 10 5139 4000 (24/7)
+            - link "Global Affairs Canada 2026-05-09" [ref=e497] [cursor=pointer]:
+              - /url: https://www.international.gc.ca/country-pays/china-chine/beijing.aspx?lang=eng
+              - generic [ref=e498]: Global Affairs Canada
+              - generic [ref=e499]: ·
+              - generic [ref=e500]: 2026-05-09
+          - listitem [ref=e501]:
+            - strong [ref=e502]: Australia
+            - generic [ref=e503]: 21 Dongzhimenwai Dajie
+            - generic [ref=e504]:
+              - generic [ref=e505]: "Main:"
+              - text: +86 10 5140 4111
+            - generic [ref=e506]:
+              - generic [ref=e507]: "Emergency:"
+              - text: +61 2 6261 3305 (Canberra 24/7)
+            - link "Australian Embassy Beijing 2026-05-09" [ref=e508] [cursor=pointer]:
+              - /url: https://china.embassy.gov.au/bjng/contact-us.html
+              - generic [ref=e509]: Australian Embassy Beijing
+              - generic [ref=e510]: ·
+              - generic [ref=e511]: 2026-05-09
+          - listitem [ref=e512]:
+            - strong [ref=e513]: Japan
+            - generic [ref=e514]: 1 Liangmaqiao East Street, Chaoyang District
+            - generic [ref=e515]:
+              - generic [ref=e516]: "Main:"
+              - text: +86 10 8531 9800
+            - generic [ref=e517]:
+              - generic [ref=e518]: "Emergency:"
+              - text: +86 10 6532 5964 (Consular Protection)
+            - link "Embassy of Japan in China 2026-05-09" [ref=e519] [cursor=pointer]:
+              - /url: https://www.cn.emb-japan.go.jp/
+              - generic [ref=e520]: Embassy of Japan in China
+              - generic [ref=e521]: ·
+              - generic [ref=e522]: 2026-05-09
+        - paragraph [ref=e523]:
+          - text: "Full directory:"
+          - link "MFA — Full directory of foreign missions in China (MFA)." [ref=e524] [cursor=pointer]:
+            - /url: https://www.fmprc.gov.cn/web/fw_673051/lbfw_673061/fgzl_673083/
+      - generic [ref=e525]:
+        - heading "Hospital visit flow" [level=3] [ref=e526]
+        - list [ref=e527]:
+          - listitem [ref=e528]:
+            - generic [ref=e529]: "1"
+            - generic [ref=e530]:
+              - strong [ref=e531]: Make an appointment
+              - paragraph [ref=e532]: Public hospital IMS desks accept walk-in registration; private hospitals (UFH/SOS/HKU-SZH IMC) prefer prior phone or app booking.
+              - link "Peking Union Medical College Hospital 2026-05-09" [ref=e533] [cursor=pointer]:
+                - /url: https://www.pumch.cn/en/medical_care.html
+                - generic [ref=e534]: Peking Union Medical College Hospital
+                - generic [ref=e535]: ·
+                - generic [ref=e536]: 2026-05-09
+          - listitem [ref=e537]:
+            - generic [ref=e538]: "2"
+            - generic [ref=e539]:
+              - strong [ref=e540]: Bring documents
+              - paragraph [ref=e541]: Original passport (copy not enough). International insurance card + policy. Letter of guarantee from insurer if claiming direct billing.
+              - link "Peking Union Medical College Hospital 2026-05-09" [ref=e542] [cursor=pointer]:
+                - /url: https://www.pumch.cn/en/medical_care.html
+                - generic [ref=e543]: Peking Union Medical College Hospital
+                - generic [ref=e544]: ·
+                - generic [ref=e545]: 2026-05-09
+          - listitem [ref=e546]:
+            - generic [ref=e547]: "3"
+            - generic [ref=e548]:
+              - strong [ref=e549]: Pay at counter or direct-billing
+              - paragraph [ref=e550]: Cash + Alipay/WeChat universal. UnionPay card universal. Visa/MC mainly at IMS/VIP desks. Direct billing only at hospitals contracted with your insurer.
+              - link "Peking Union Medical College Hospital 2026-05-09" [ref=e551] [cursor=pointer]:
+                - /url: https://www.pumch.cn/en/medical_care.html
+                - generic [ref=e552]: Peking Union Medical College Hospital
+                - generic [ref=e553]: ·
+                - generic [ref=e554]: 2026-05-09
+    - generic [ref=e555]:
+      - heading "Phase 2 — coming soon" [level=2] [ref=e556]
+      - paragraph [ref=e557]: Detailed attraction picks, ask local Chinese users, share your trip, and city-targeted donations are in development.
+      - generic [ref=e558]:
+        - link "Ask Chinese locals" [ref=e559] [cursor=pointer]:
+          - /url: /ask
+        - link "Share your trip" [ref=e560] [cursor=pointer]:
+          - /url: /share
+        - link "Donate to Beijing" [ref=e561] [cursor=pointer]:
+          - /url: /donate
+  - contentinfo [ref=e562]:
+    - paragraph [ref=e563]: China Atlas template. Demo data only.
+    - link "Back to top" [ref=e564] [cursor=pointer]:
+      - /url: "#top"

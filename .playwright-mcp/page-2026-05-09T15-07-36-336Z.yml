@@ -1,0 +1,41 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "中 China Atlas 中国城市与博物馆索引" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]: 中
+      - generic [ref=e6]:
+        - strong [ref=e7]: China Atlas
+        - generic [ref=e8]: 中国城市与博物馆索引
+    - navigation [ref=e9]:
+      - link "Beijing" [ref=e10] [cursor=pointer]:
+        - /url: /city/beijing
+      - link "Shanghai" [ref=e11] [cursor=pointer]:
+        - /url: /city/shanghai
+      - link "Guangzhou" [ref=e12] [cursor=pointer]:
+        - /url: /city/guangzhou
+      - link "Shenzhen" [ref=e13] [cursor=pointer]:
+        - /url: /city/shenzhen
+      - link "Ask" [ref=e15] [cursor=pointer]:
+        - /url: /ask
+      - link "Share" [ref=e16] [cursor=pointer]:
+        - /url: /share
+      - link "Donate" [ref=e17] [cursor=pointer]:
+        - /url: /donate
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - combobox "Search city, county, town, village, scenic area" [ref=e21]
+        - button "Search" [ref=e22] [cursor=pointer]
+      - generic [ref=e23]:
+        - button "EN" [ref=e24] [cursor=pointer]
+        - button "中文" [ref=e25] [cursor=pointer]
+  - main [ref=e26]:
+    - generic [ref=e27]: Phase 2 · in development
+    - heading "Share your trip" [level=1] [ref=e28]
+    - paragraph [ref=e29]: Submit text and photos about your stay in Beijing, Shanghai, Guangzhou, or Shenzhen. Submissions go through AI moderation + keyword filter; you must opt in to publication and translation. Login required only when posting.
+    - paragraph [ref=e30]: Login is only required when you submit, ask, or donate. Browsing always stays open.
+    - link "← Back home" [ref=e31] [cursor=pointer]:
+      - /url: /
+  - contentinfo [ref=e32]:
+    - paragraph [ref=e33]: China Atlas template. Demo data only.
+    - link "Back to top" [ref=e34] [cursor=pointer]:
+      - /url: "#top"

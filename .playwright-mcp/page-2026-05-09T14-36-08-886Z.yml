@@ -1,0 +1,822 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e6]:
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - textbox "Site Search" [ref=e12]
+            - button "Submit" [ref=e13] [cursor=pointer]
+          - paragraph
+        - link "Answers" [ref=e15] [cursor=pointer]:
+          - /url: https://answers.travelchinaguide.com/
+    - navigation [ref=e17]:
+      - table [ref=e18]:
+        - rowgroup [ref=e19]:
+          - row "Home Asia Tours China Tours Small Groups City Packages Tailor My Trip Trains City Guide Reviews" [ref=e20]:
+            - cell "Home" [ref=e21]:
+              - link "Home" [ref=e22] [cursor=pointer]:
+                - /url: /
+            - cell "Asia Tours" [ref=e23]:
+              - link "Asia Tours" [ref=e24] [cursor=pointer]:
+                - /url: /asia/
+            - cell "China Tours" [ref=e25]:
+              - link "China Tours" [ref=e26] [cursor=pointer]:
+                - /url: /tour/default.htm
+            - cell "Small Groups" [ref=e27]:
+              - link "Small Groups" [ref=e28] [cursor=pointer]:
+                - /url: /group/
+            - cell "City Packages" [ref=e29]:
+              - link "City Packages" [ref=e30] [cursor=pointer]:
+                - /url: /package/
+            - cell "Tailor My Trip" [ref=e31]:
+              - link "Tailor My Trip" [ref=e32] [cursor=pointer]:
+                - /url: https://secure.travelchinaguide.com/reserve/tailormade.htm
+            - cell "Trains" [ref=e33]:
+              - link "Trains" [ref=e34] [cursor=pointer]:
+                - /url: /china-trains/
+            - cell "City Guide" [ref=e35]:
+              - link "City Guide" [ref=e36] [cursor=pointer]:
+                - /url: /cityguides/
+            - cell "Reviews" [ref=e37]:
+              - link "Reviews" [ref=e38] [cursor=pointer]:
+                - /url: /feedback/
+  - generic [ref=e40]:
+    - link "Home" [ref=e41] [cursor=pointer]:
+      - /url: /
+    - text: /
+    - link "City Guide" [ref=e42] [cursor=pointer]:
+      - /url: /cityguides/
+    - text: /
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]: Beijing Travel Guide
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "Tours" [ref=e49] [cursor=pointer]:
+            - /url: /package/beijing.htm
+        - listitem [ref=e50]:
+          - link "Facts" [ref=e51] [cursor=pointer]:
+            - /url: /cityguides/beijing/
+        - listitem [ref=e52]:
+          - link "Attractions" [ref=e53] [cursor=pointer]:
+            - /url: /attraction/beijing/
+        - listitem [ref=e54]:
+          - link "Great Wall" [ref=e55] [cursor=pointer]:
+            - /url: /china_great_wall/
+        - listitem [ref=e56]:
+          - link "Top 10 Things to Do" [ref=e57] [cursor=pointer]:
+            - /url: " /package/beijing/top-10-things-to-do.htm "
+        - listitem [ref=e58]:
+          - link "Transportation" [ref=e59] [cursor=pointer]:
+            - /url: /cityguides/beijing/transportation/
+        - listitem [ref=e60]:
+          - link "Weather" [ref=e61] [cursor=pointer]:
+            - /url: /climate/beijing.htm
+        - listitem [ref=e62]:
+          - link "Travel Tips" [ref=e63] [cursor=pointer]:
+            - /url: /cityguides/beijing/fast-facts.htm
+        - listitem [ref=e64]:
+          - link "Dining" [ref=e65] [cursor=pointer]:
+            - /url: /cityguides/beijing/dining.htm
+        - listitem [ref=e66]:
+          - link "Shopping" [ref=e67] [cursor=pointer]:
+            - /url: /cityguides/beijing/shopping.htm
+        - listitem [ref=e68]:
+          - link "Nightlife" [ref=e69] [cursor=pointer]:
+            - /url: /cityguides/beijing/nightlife.htm
+        - listitem [ref=e70]:
+          - link "Pictures" [ref=e71] [cursor=pointer]:
+            - /url: /picture/beijing/
+        - listitem [ref=e72]:
+          - link "Videos" [ref=e73] [cursor=pointer]:
+            - /url: https://video.travelchinaguide.com/beijing/
+        - listitem [ref=e74]:
+          - link "Map" [ref=e75] [cursor=pointer]:
+            - /url: /cityguides/beijing/beijingmap.htm
+      - iframe [ref=e77]:
+        - generic [ref=f37e3]:
+          - generic:
+            - link "China tours" [ref=f37e5] [cursor=pointer]:
+              - /url: https://www.travelchinaguide.com/tour/default.htm
+              - img "China tours" [ref=f37e6]
+            - link "China Small Groups" [ref=f37e8] [cursor=pointer]:
+              - /url: https://www.travelchinaguide.com/group/
+              - img "China Small Groups" [ref=f37e9]
+      - generic [ref=e78]:
+        - link "Beijing Tours" [ref=e80] [cursor=pointer]:
+          - /url: /package/beijing.htm
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - link "1 Day Tours" [ref=e83] [cursor=pointer]:
+              - /url: /package/beijing-one-day-tours.htm
+          - listitem [ref=e84]:
+            - link "2 Days Private Tour" [ref=e85] [cursor=pointer]:
+              - /url: /beijing-2-day-itinerary.htm
+          - listitem [ref=e86]:
+            - link "3 Days Sightseeing" [ref=e87] [cursor=pointer]:
+              - /url: /package/beijing/19.htm
+          - listitem [ref=e88]:
+            - link "4 Days Best Beijing" [ref=e89] [cursor=pointer]:
+              - /url: /package/tour-bj01.htm
+          - listitem [ref=e90]:
+            - link "6 Days Beijing Xian" [ref=e91] [cursor=pointer]:
+              - /url: /package/beijing-xian-tours.htm
+          - listitem [ref=e92]:
+            - link "6 Days Beijing Shanghai" [ref=e93] [cursor=pointer]:
+              - /url: /package/tour-bj03.htm
+      - iframe [ref=e95]:
+        - generic [active] [ref=f38e1]:
+          - generic [ref=f38e2]: Train Search & Ticket Booking
+          - generic [ref=f38e3]:
+            - list [ref=f38e5]:
+              - listitem [ref=f38e6]:
+                - generic [ref=f38e8]:
+                  - textbox [ref=f38e9]: From
+                  - textbox [ref=f38e10]: To
+                  - textbox [ref=f38e11]
+                  - button [ref=f38e12] [cursor=pointer]
+                - generic [ref=f38e14]: Train service fee low to $6 per ticket
+            - generic [ref=f38e15]:
+              - generic [ref=f38e16]: Quick Search
+              - link "Beijing - Shanghai" [ref=f38e19] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f38e20]: Beijing
+                - text: "-"
+                - generic [ref=f38e21]: Shanghai
+              - link "Beijing - Xi'an" [ref=f38e24] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f38e25]: Beijing
+                - text: "-"
+                - generic [ref=f38e26]: Xi'an
+              - link "Beijing - Pingyao" [ref=f38e29] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f38e30]: Beijing
+                - text: "-"
+                - generic [ref=f38e31]: Pingyao
+              - link "Beijing - Guangzhou" [ref=f38e34] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f38e35]: Beijing
+                - text: "-"
+                - generic [ref=f38e36]: Guangzhou
+          - status [ref=f38e37]
+          - status [ref=f38e38]
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - heading "Beijing Travel Guide" [level=1] [ref=e99]
+        - generic [ref=e101]:
+          - generic [ref=e103]:
+            - paragraph [ref=e104]:
+              - text: Being capital of the People's Republic of China, Beijing is the nation's political, economic, and cultural center. Located in north China, close to the port city of Tianjin and partially surrounded by Hebei Province, it also serves as the most important transportation hub and port of entry.
+              - text: As one of the six ancient cities in China, Beijing has been the heart and soul of politics throughout its long history and consequently there is an unparalleled wealth of discovery to delight and intrigue travelers as they explore the city's ancient past and exciting modern development. Now it has become one of the most popular travel destinations in the world, with about 140 million Chinese tourists and 4.4 million international visitors in a year.
+            - paragraph [ref=e105]:
+              - link "Beijing Facts" [ref=e106] [cursor=pointer]:
+                - /url: /cityguides/beijing/
+              - link "Beijing History" [ref=e107] [cursor=pointer]:
+                - /url: /cityguides/beijing/history.htm
+          - heading "Attractions" [level=2] [ref=e109]:
+            - link "Attractions" [ref=e110] [cursor=pointer]:
+              - /url: /attraction/beijing/
+          - generic [ref=e111]:
+            - paragraph
+          - generic [ref=e112]:
+            - link "China Great Wall Great Wall" [ref=e114] [cursor=pointer]:
+              - /url: /china_great_wall/scene/beijing/
+              - img "China Great Wall" [ref=e115]
+              - generic [ref=e116]: Great Wall
+            - link "Forbidden City Forbidden City" [ref=e118] [cursor=pointer]:
+              - /url: /cityguides/beijing/forbidden.htm
+              - img "Forbidden City" [ref=e119]
+              - generic [ref=e120]: Forbidden City
+            - link "Tiananmen Tower Tiananmen Square" [ref=e122] [cursor=pointer]:
+              - /url: /attraction/beijing/tianan.htm
+              - img "Tiananmen Tower" [ref=e123]
+              - generic [ref=e124]: Tiananmen Square
+            - link "Summer Palace Summer Palace" [ref=e126] [cursor=pointer]:
+              - /url: /cityguides/beijing/summer.htm
+              - img "Summer Palace" [ref=e127]
+              - generic [ref=e128]: Summer Palace
+            - link "Temple of Heaven Temple of Heaven" [ref=e130] [cursor=pointer]:
+              - /url: /attraction/beijing/heaven/
+              - img "Temple of Heaven" [ref=e131]
+              - generic [ref=e132]: Temple of Heaven
+            - link "Hutong Tour Hutongs" [ref=e134] [cursor=pointer]:
+              - /url: /cityguides/beijing/hutong/
+              - img "Hutong Tour" [ref=e135]
+              - generic [ref=e136]: Hutongs
+          - link "See All" [ref=e139] [cursor=pointer]:
+            - /url: /attraction/beijing/
+          - generic [ref=e140]:
+            - heading "Recommended Guided Tours" [level=2] [ref=e142]
+            - generic [ref=e143]:
+              - link "Beijing Mini Group Day Tour from $89" [ref=e145] [cursor=pointer]:
+                - /url: /beijing-group-tours.htm
+                - generic [ref=e147]: Beijing Mini Group Day Tour from $89
+              - link "2 Days Beijing Mini Group Tour from $159" [ref=e149] [cursor=pointer]:
+                - /url: /mutianyu-great-wall-small-group-tour.htm
+                - generic [ref=e151]: 2 Days Beijing Mini Group Tour from $159
+              - link "6 Days China Tour to Beijing & Xi'an from $939" [ref=e153] [cursor=pointer]:
+                - /url: /group/tour-01.htm
+                - generic [ref=e155]: 6 Days China Tour to Beijing & Xi'an from $939
+              - link "8 Days China Tour to Beijing - Xi'an - Shanghai from $1259" [ref=e157] [cursor=pointer]:
+                - /url: /group/tour07.htm
+                - generic [ref=e159]: 8 Days China Tour to Beijing - Xi'an - Shanghai from $1259
+          - paragraph
+          - heading "Travel Planning" [level=2] [ref=e161]
+          - iframe [ref=e163]:
+            - generic [ref=f39e2]:
+              - generic [ref=f39e4]:
+                - img "Beijing Tours" [ref=f39e5]
+                - img [ref=f39e6]
+              - generic [ref=f39e8]:
+                - generic [ref=f39e9]:
+                  - generic [ref=f39e10]:
+                    - link "1 Day Great Wall & Forbidden City" [ref=f39e12] [cursor=pointer]:
+                      - /url: https://www.travelchinaguide.com/beijing-group-tours.htm
+                    - generic [ref=f39e14]: $89
+                    - link "Book" [ref=f39e16] [cursor=pointer]:
+                      - /url: https://www.travelchinaguide.com/beijing-group-tours.htm#frmTouri
+                      - button "Book" [ref=f39e17]
+                  - generic [ref=f39e18]:
+                    - link "2 Days Beijing Highlights Tour" [ref=f39e20] [cursor=pointer]:
+                      - /url: https://www.travelchinaguide.com/mutianyu-great-wall-small-group-tour.htm
+                    - generic [ref=f39e22]: $159
+                    - link "Book" [ref=f39e24] [cursor=pointer]:
+                      - /url: https://www.travelchinaguide.com/mutianyu-great-wall-small-group-tour.htm#frmTouri
+                      - button "Book" [ref=f39e25]
+                  - generic [ref=f39e26]:
+                    - link "Forbidden City Tours" [ref=f39e28] [cursor=pointer]:
+                      - /url: https://www.travelchinaguide.com/package/beijing/forbidden-city/
+                    - generic [ref=f39e29]:
+                      - generic [ref=f39e30]: from
+                      - generic [ref=f39e31]: $24
+                    - link "Book" [ref=f39e33] [cursor=pointer]:
+                      - /url: https://www.travelchinaguide.com/package/beijing/forbidden-city/
+                      - button "Book" [ref=f39e34]
+                - list [ref=f39e36]:
+                  - listitem [ref=f39e37]: Mini Group of about 12
+          - paragraph [ref=e164]:
+            - link "Top 10 Things to Do" [ref=e165] [cursor=pointer]:
+              - /url: /package/beijing/top-10-things-to-do.htm
+          - paragraph [ref=e166]:
+            - link "Top 10 Places to Visit" [ref=e167] [cursor=pointer]:
+              - /url: /package/beijing/top-10-places-to-visit.htm
+          - paragraph [ref=e168]:
+            - link "How to Plan a Trip to Beijing Step by Step" [ref=e169] [cursor=pointer]:
+              - /url: /package/beijing/how-to-plan-a-trip.htm
+          - paragraph [ref=e170]:
+            - link "Where to Stay - 10 Best Areas" [ref=e171] [cursor=pointer]:
+              - /url: /package/beijing/where-to-stay.htm
+          - paragraph [ref=e172]:
+            - link "Top 10 Historical Sites You Should Not Miss" [ref=e173] [cursor=pointer]:
+              - /url: /package/beijing-historical-sites.htm
+          - paragraph [ref=e174]:
+            - link "12 Free Things to Do" [ref=e175] [cursor=pointer]:
+              - /url: /package/free-things-to-do-in-beijing.htm
+          - paragraph [ref=e176]:
+            - link "10 Fun Things to Do with Family" [ref=e177] [cursor=pointer]:
+              - /url: /package/fun-things-to-do-in-beijing.htm
+          - paragraph [ref=e178]:
+            - link "Travel to Beijing with Kids - 11 Things to Do" [ref=e179] [cursor=pointer]:
+              - /url: /package/things-to-do-in-beijing-with-kids.htm
+          - paragraph [ref=e180]:
+            - link "9 Most Romantic Places for Couples" [ref=e181] [cursor=pointer]:
+              - /url: /package/romantic-places-in-beijing.htm
+          - paragraph [ref=e182]:
+            - link "8 Interesting Places You May Not Know" [ref=e183] [cursor=pointer]:
+              - /url: /package/interesting-places-in-beijing.htm
+          - paragraph [ref=e184]:
+            - link "7 Unusual Things to Do for Return Visitors" [ref=e185] [cursor=pointer]:
+              - /url: /package/unusual-things-to-do-in-beijing.htm
+          - paragraph [ref=e186]:
+            - link "Top 10 Things to Do in Winter" [ref=e187] [cursor=pointer]:
+              - /url: /package/things-to-do-in-beijing-in-winter.htm
+          - paragraph
+          - paragraph
+          - paragraph [ref=e188]:
+            - link "15 Wonderful Places to See Snow" [ref=e189] [cursor=pointer]:
+              - /url: /package/places-to-see-snow-in-beijing.htm
+          - paragraph [ref=e190]:
+            - link "10 Non Touristy Things to Do" [ref=e191] [cursor=pointer]:
+              - /url: /package/beijing/non-touristy-things-to-do.htm
+          - paragraph [ref=e192]:
+            - link "Weekend Trips" [ref=e193] [cursor=pointer]:
+              - /url: /package/beijing/weekend-trips.htm
+          - paragraph
+          - heading "Transportation" [level=2] [ref=e195]:
+            - link "Transportation" [ref=e196] [cursor=pointer]:
+              - /url: /cityguides/beijing/transportation/
+          - generic [ref=e197]:
+            - iframe [ref=e199]:
+              - generic [active] [ref=f40e1]:
+                - generic [ref=f40e2]:
+                  - generic [ref=f40e3]: China Train Schedule & Ticket Booking
+                  - list [ref=f40e4]:
+                    - listitem [ref=f40e5]:
+                      - generic [ref=f40e7]:
+                        - textbox [ref=f40e9]: Beijing
+                        - textbox [ref=f40e12]
+                        - textbox [ref=f40e14]
+                        - button "Submit" [ref=f40e16] [cursor=pointer]
+                - status [ref=f40e17]
+                - status [ref=f40e18]
+            - text: It is northern China's main transportation hub. Frequent flights, modern roads and rail make it easy for visitors to reach Beijing. Crisscross roads make the urban transportation generally fast and convenient; however, you may encounter traffic jam sometimes due to the millions of vehicles that the city owns.
+            - generic [ref=e200]:
+              - list [ref=e201]:
+                - listitem [ref=e202]:
+                  - link "Capital Airport" [ref=e203] [cursor=pointer]:
+                    - /url: /cityguides/beijing/capital-airport.htm
+                - listitem [ref=e204]:
+                  - link "Train" [ref=e205] [cursor=pointer]:
+                    - /url: /cityguides/beijing/transportation/train.htm
+                - listitem [ref=e206]:
+                  - link "Beijing - Shanghai Train" [ref=e207] [cursor=pointer]:
+                    - /url: /china-trains/beijing-shanghai-highspeed.htm
+                - listitem [ref=e208]:
+                  - link "Subway" [ref=e209] [cursor=pointer]:
+                    - /url: /cityguides/beijing/transportation/subway.htm
+                - listitem [ref=e210]:
+                  - link "Daxing Airport" [ref=e211] [cursor=pointer]:
+                    - /url: /cityguides/beijing/daxing-airport/
+                - listitem [ref=e212]:
+                  - link "City-Bus" [ref=e213] [cursor=pointer]:
+                    - /url: /cityguides/beijing/transportation/bus.htm
+                - listitem [ref=e214]:
+                  - link "Beijing - Xian Train" [ref=e215] [cursor=pointer]:
+                    - /url: /china-trains/beijing-xian-highspeed.htm
+                - listitem [ref=e216]:
+                  - link "Taxi" [ref=e217] [cursor=pointer]:
+                    - /url: /cityguides/beijing/transportation/taxi.htm
+                - listitem [ref=e218]:
+                  - link "Nanyuan Airport" [ref=e219] [cursor=pointer]:
+                    - /url: /cityguides/beijing/nanyuan-airport.htm
+                - listitem [ref=e220]:
+                  - link "Bicycle" [ref=e221] [cursor=pointer]:
+                    - /url: /cityguides/beijing/transportation/bicycle.htm
+                - listitem [ref=e222]:
+                  - link "Beijing - Hong Kong Train" [ref=e223] [cursor=pointer]:
+                    - /url: /china-trains/beijing-hongkong.htm
+                - listitem [ref=e224]:
+                  - link "Coach" [ref=e225] [cursor=pointer]:
+                    - /url: /cityguides/beijing/getting-around.htm
+                - listitem [ref=e226]:
+                  - link "Capital Airport Shuttle Bus" [ref=e227] [cursor=pointer]:
+                    - /url: /cityguides/beijing/transportation/airport-shuttle.htm
+                - listitem [ref=e228]:
+                  - link "Daxing Airport Shuttle Bus" [ref=e229] [cursor=pointer]:
+                    - /url: /cityguides/beijing/daxing-airport-shuttle-bus.htm
+              - paragraph
+          - paragraph
+          - heading "Beijing Weather & Best Time to Visit" [level=2] [ref=e231]:
+            - link "Beijing Weather" [ref=e232] [cursor=pointer]:
+              - /url: /climate/beijing.htm
+            - text: "&"
+            - link "Best Time to Visit" [ref=e233] [cursor=pointer]:
+              - /url: /package/beijing/best-time-to-visit.htm
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - generic [ref=e237]:
+                  - superscript [ref=e238]: o
+                  - text: C
+                - generic [ref=e239] [cursor=pointer]:
+                  - superscript [ref=e240]: o
+                  - text: F
+              - generic [ref=e241]:
+                - table [ref=e243]:
+                  - rowgroup [ref=e244]:
+                    - row "9 Today" [ref=e245]:
+                      - cell "9 Today" [ref=e246]
+                    - row "Overcast" [ref=e247]:
+                      - cell "Overcast" [ref=e248]:
+                        - img "Overcast" [ref=e249]
+                    - row "21C 14C" [ref=e250]:
+                      - cell "21C 14C" [ref=e251]:
+                        - generic [ref=e252]:
+                          - generic [ref=e253]:
+                            - text: "21"
+                            - img [ref=e254]
+                            - text: C
+                          - generic [ref=e255]:
+                            - text: "14"
+                            - img [ref=e256]
+                            - text: C
+                - table [ref=e258]:
+                  - rowgroup [ref=e259]:
+                    - row "10 Sun" [ref=e260]:
+                      - cell "10 Sun" [ref=e261]
+                    - row "Cloudy" [ref=e262]:
+                      - cell "Cloudy" [ref=e263]:
+                        - img "Cloudy" [ref=e264]
+                    - row "33C 15C" [ref=e265]:
+                      - cell "33C 15C" [ref=e266]:
+                        - generic [ref=e267]:
+                          - generic [ref=e268]:
+                            - text: "33"
+                            - img [ref=e269]
+                            - text: C
+                          - generic [ref=e270]:
+                            - text: "15"
+                            - img [ref=e271]
+                            - text: C
+                - table [ref=e273]:
+                  - rowgroup [ref=e274]:
+                    - row "11 Mon" [ref=e275]:
+                      - cell "11 Mon" [ref=e276]
+                    - row "Sunny" [ref=e277]:
+                      - cell "Sunny" [ref=e278]:
+                        - img "Sunny" [ref=e279]
+                    - row "30C 16C" [ref=e280]:
+                      - cell "30C 16C" [ref=e281]:
+                        - generic [ref=e282]:
+                          - generic [ref=e283]:
+                            - text: "30"
+                            - img [ref=e284]
+                            - text: C
+                          - generic [ref=e285]:
+                            - text: "16"
+                            - img [ref=e286]
+                            - text: C
+                - table [ref=e288]:
+                  - rowgroup [ref=e289]:
+                    - row "12 Tue" [ref=e290]:
+                      - cell "12 Tue" [ref=e291]
+                    - row "Cloudy" [ref=e292]:
+                      - cell "Cloudy" [ref=e293]:
+                        - img "Cloudy" [ref=e294]
+                    - row "32C 19C" [ref=e295]:
+                      - cell "32C 19C" [ref=e296]:
+                        - generic [ref=e297]:
+                          - generic [ref=e298]:
+                            - text: "32"
+                            - img [ref=e299]
+                            - text: C
+                          - generic [ref=e300]:
+                            - text: "19"
+                            - img [ref=e301]
+                            - text: C
+                - table [ref=e303]:
+                  - rowgroup [ref=e304]:
+                    - row "13 Wed" [ref=e305]:
+                      - cell "13 Wed" [ref=e306]
+                    - row "Sunny" [ref=e307]:
+                      - cell "Sunny" [ref=e308]:
+                        - img "Sunny" [ref=e309]
+                    - row "34C 18C" [ref=e310]:
+                      - cell "34C 18C" [ref=e311]:
+                        - generic [ref=e312]:
+                          - generic [ref=e313]:
+                            - text: "34"
+                            - img [ref=e314]
+                            - text: C
+                          - generic [ref=e315]:
+                            - text: "18"
+                            - img [ref=e316]
+                            - text: C
+                - table [ref=e318]:
+                  - rowgroup [ref=e319]:
+                    - row "14 Thu" [ref=e320]:
+                      - cell "14 Thu" [ref=e321]
+                    - row "Sunny" [ref=e322]:
+                      - cell "Sunny" [ref=e323]:
+                        - img "Sunny" [ref=e324]
+                    - row "29C 18C" [ref=e325]:
+                      - cell "29C 18C" [ref=e326]:
+                        - generic [ref=e327]:
+                          - generic [ref=e328]:
+                            - text: "29"
+                            - img [ref=e329]
+                            - text: C
+                          - generic [ref=e330]:
+                            - text: "18"
+                            - img [ref=e331]
+                            - text: C
+                - table [ref=e333]:
+                  - rowgroup [ref=e334]:
+                    - row "15 Fri" [ref=e335]:
+                      - cell "15 Fri" [ref=e336]
+                    - row "Overcast" [ref=e337]:
+                      - cell "Overcast" [ref=e338]:
+                        - img "Overcast" [ref=e339]
+                    - row "26C 18C" [ref=e340]:
+                      - cell "26C 18C" [ref=e341]:
+                        - generic [ref=e342]:
+                          - generic [ref=e343]:
+                            - text: "26"
+                            - img [ref=e344]
+                            - text: C
+                          - generic [ref=e345]:
+                            - text: "18"
+                            - img [ref=e346]
+                            - text: C
+            - generic [ref=e347]:
+              - link "January" [ref=e349] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-january.htm
+              - link "February" [ref=e351] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-february.htm
+              - link "March" [ref=e353] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-march.htm
+              - link "April" [ref=e355] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-april.htm
+              - link "May" [ref=e357] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-may.htm
+              - link "June" [ref=e359] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-june.htm
+              - link "July" [ref=e361] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-july.htm
+              - link "August" [ref=e363] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-august.htm
+              - link "September" [ref=e365] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-september.htm
+              - link "October" [ref=e367] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-october.htm
+              - link "November" [ref=e369] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-november.htm
+              - link "December" [ref=e371] [cursor=pointer]:
+                - /url: /cityguides/beijing/weather-december.htm
+              - paragraph
+          - heading "Maps" [level=2] [ref=e373]:
+            - link "Maps" [ref=e374] [cursor=pointer]:
+              - /url: /cityguides/beijing/beijingmap.htm
+          - generic [ref=e375]:
+            - list [ref=e376]:
+              - listitem [ref=e377]:
+                - link "Subway Map Beijing Subway Map" [ref=e378] [cursor=pointer]:
+                  - /url: /cityguides/beijing/subway-map.htm
+                  - text: Subway Map
+                  - img "Beijing Subway Map" [ref=e379]
+              - listitem [ref=e380]:
+                - link "Great Wall Map Great Wall Map" [ref=e381] [cursor=pointer]:
+                  - /url: /china_great_wall/map/beijing.htm
+                  - text: Great Wall Map
+                  - img "Great Wall Map" [ref=e382]
+              - listitem [ref=e383]:
+                - link "Capital Airport Map Capital Airport Map" [ref=e384] [cursor=pointer]:
+                  - /url: /cityguides/beijing/airport-map.htm
+                  - text: Capital Airport Map
+                  - img "Capital Airport Map" [ref=e385]
+            - paragraph
+          - heading "Dining" [level=2] [ref=e387]:
+            - link "Dining" [ref=e388] [cursor=pointer]:
+              - /url: /cityguides/beijing/dining.htm
+          - generic [ref=e389]:
+            - img "Roast Duck" [ref=e391]
+            - generic [ref=e392]:
+              - generic [ref=e393]: Interested in trying the local food? The Roast Duck and the Imperial Court Food are highly recommended. Nowhere else on earth will you find such a variety of gourmet restaurants offering the very best of Chinese and western dishes.
+              - list [ref=e394]:
+                - listitem [ref=e395]:
+                  - link "Roast Duck" [ref=e396] [cursor=pointer]:
+                    - /url: /cityguides/beijing/dinning/duck.htm
+                - listitem [ref=e397]:
+                  - link "Western Restaurants" [ref=e398] [cursor=pointer]:
+                    - /url: /cityguides/beijing/dinning/american.htm
+                - listitem [ref=e399]:
+                  - link "Vegetarian Restaurants" [ref=e400] [cursor=pointer]:
+                    - /url: /cityguides/beijing/dinning/vegetarian.htm
+                - listitem [ref=e401]:
+                  - link "Halal Food" [ref=e402] [cursor=pointer]:
+                    - /url: /cityguides/beijing/dinning/muslim.htm
+              - paragraph
+          - heading "Shopping" [level=2] [ref=e404]:
+            - link "Shopping" [ref=e405] [cursor=pointer]:
+              - /url: /cityguides/beijing/shopping.htm
+          - generic [ref=e406]:
+            - img "Souvenir Store" [ref=e408]
+            - generic [ref=e409]: Whether you plan to buy curios and tourist souvenirs with traditional Chinese flavor, or you are keen on seeking quality products from world famous brands, you will find the city truly a shopper's paradise. The most famous and popular shopping destinations are the Yansha and Guomao Shopping Malls, Xidan Street and streets near Tiananmen Square such as the Wangfujing and Qianmen Streets.
+            - paragraph
+          - heading "Nightlife" [level=2] [ref=e411]:
+            - link "Nightlife" [ref=e412] [cursor=pointer]:
+              - /url: /cityguides/beijing/nightlife.htm
+          - generic [ref=e413]:
+            - img "Peking Opera" [ref=e415]
+            - generic [ref=e416]:
+              - generic [ref=e417]: After a day's tour, nighttime can hold other surprises for you. These can vary from traditional performances such as the traditional opera, acrobatics and martial arts to modern ones like concerts, pubs and clubs. Tianqiao Area and Laoshe Teahouse are good venues for tourists to enjoy Chinese folk culture; while Sanlitun Bar Street and the nearby embassy area is an ideal choice if you are a party-loving night owl.
+              - list [ref=e418]:
+                - listitem [ref=e419]:
+                  - link "Peking Opera" [ref=e420] [cursor=pointer]:
+                    - /url: /cityguides/beijing/opera-theaters.htm
+                - listitem [ref=e421]:
+                  - link "Teahouse" [ref=e422] [cursor=pointer]:
+                    - /url: /cityguides/beijing/teahouse.htm
+                - listitem [ref=e423]:
+                  - link "Performance" [ref=e424] [cursor=pointer]:
+                    - /url: /cityguides/beijing/events.htm
+                - listitem [ref=e425]:
+                  - link "8 Things to Do at Night" [ref=e426] [cursor=pointer]:
+                    - /url: /package/beijing/night-tours.htm
+              - paragraph
+          - heading "Travel Tips" [level=2] [ref=e428]:
+            - link "Travel Tips" [ref=e429] [cursor=pointer]:
+              - /url: /cityguides/beijing/fast-facts.htm
+          - generic [ref=e431]:
+            - generic [ref=e432]: Fast facts and practical travel tips facilitate your travel, business, study or life.
+            - list [ref=e433]:
+              - listitem [ref=e434]:
+                - link "Embassies & Consulates" [ref=e435] [cursor=pointer]:
+                  - /url: /embassy/foreign/
+              - listitem [ref=e436]:
+                - link "240-Hour Visa-Free Transit" [ref=e437] [cursor=pointer]:
+                  - /url: /cityguides/beijing/144hours-visa-free.htm
+              - listitem [ref=e438]:
+                - link "Hospitals & Clinics" [ref=e439] [cursor=pointer]:
+                  - /url: /cityguides/beijing/hospital.htm
+              - listitem [ref=e440]:
+                - link "Area Code & Zip Code" [ref=e441] [cursor=pointer]:
+                  - /url: /essential/area_zip/beijing.htm
+              - listitem [ref=e442]:
+                - link "Useful Phone Numbers" [ref=e443] [cursor=pointer]:
+                  - /url: /cityguides/beijing/beijinginfo.htm
+              - listitem [ref=e444]:
+                - link "Churches" [ref=e445] [cursor=pointer]:
+                  - /url: /cityguides/beijing/churches.htm
+              - listitem [ref=e446]:
+                - link "Famous Universities" [ref=e447] [cursor=pointer]:
+                  - /url: /cityguides/beijing/universities.htm
+              - listitem [ref=e448]:
+                - link "International Schools" [ref=e449] [cursor=pointer]:
+                  - /url: /cityguides/beijing/schools.htm
+              - listitem [ref=e450]:
+                - link "Libraries & Book Bars" [ref=e451] [cursor=pointer]:
+                  - /url: /cityguides/beijing/library.htm
+            - paragraph
+          - heading "You May Like" [level=2] [ref=e453]
+          - generic [ref=e455]:
+            - list [ref=e456]:
+              - listitem [ref=e457]:
+                - link "Top 10 China Destinations for First Time Travelers" [ref=e458] [cursor=pointer]:
+                  - /url: /top-10-china-destinations.htm
+              - listitem [ref=e459]:
+                - link "10 Places to Visit in China for a Trip of a Lifetime" [ref=e460] [cursor=pointer]:
+                  - /url: /tour/top-places-to-visit-in-china.htm
+              - listitem [ref=e461]:
+                - link "10 Best Places to Visit in China for Return Visitors" [ref=e462] [cursor=pointer]:
+                  - /url: /tour/best-places-to-visit-in-china.htm
+              - listitem [ref=e463]:
+                - link "8 Major Cities in China for Enthusiastic Shoppers" [ref=e464] [cursor=pointer]:
+                  - /url: /tour/major-cities-for-shopping.htm
+            - paragraph
+          - generic [ref=e465]: "- Last updated on Apr. 22, 2026 by Sule Su -"
+        - generic [ref=e466]:
+          - generic [ref=e467]:
+            - text: "Q & A Search:"
+            - textbox [ref=e468]
+            - button "Submit" [ref=e469] [cursor=pointer]
+          - generic [ref=e470]: Questions & Answers on Beijing Travel
+          - generic [ref=e471]:
+            - generic [ref=e472]:
+              - generic [ref=e473]:
+                - text: Asked by Catherine from Singapore | May. 09, 2026 01:26
+                - generic [ref=e474] [cursor=pointer]:
+                  - img [ref=e475]
+                  - text: Reply
+              - generic [ref=e476]: hike from Gubeikou to Jinshanling
+              - generic [ref=e477]:
+                - text: We will be staying at Beijing Watertown for 2 nights and plan to do the hike on day 2.
+                - text: We plan to take a taxi to Gubeikou and start the hike there. After we finish hiking at Jinshanling, is it easy to find a taxi to bring us back to hotel in the watertown? Thank you.
+            - generic [ref=e478]:
+              - generic [ref=e479]:
+                - text: Asked by Tammy McCullough from United States of America | May. 04, 2026 15:55
+                - generic [ref=e480] [cursor=pointer]:
+                  - img [ref=e481]
+                  - text: Reply
+              - generic [ref=e482]: Tourism Visa
+              - generic [ref=e483]: Do I need to apply for a tourist visa if I fly from the United States of America to Hong Kong for 1 night then fly to Hainan for 2 weeks,then fly to Beijing for 2 days and fly back to the United States?
+              - generic [ref=e484]:
+                - generic [ref=e485]: Answers (1)
+                - generic [ref=e486]:
+                  - generic [ref=e487]:
+                    - text: Answered by Noah May. 06, 2026 00:13
+                    - generic [ref=e488]:
+                      - generic [ref=e489] [cursor=pointer]:
+                        - img [ref=e490]
+                        - text: "0"
+                      - generic [ref=e491] [cursor=pointer]:
+                        - img [ref=e492]
+                        - text: "0"
+                      - generic [ref=e493] [cursor=pointer]:
+                        - img [ref=e494]
+                        - text: Reply
+                  - generic [ref=e495]: You don't need a visa if you fly back to US without a layover in Hong Kong.
+            - generic [ref=e496]:
+              - generic [ref=e497]:
+                - text: Asked by Max from Russia | May. 02, 2026 19:02
+                - generic [ref=e498] [cursor=pointer]:
+                  - img [ref=e499]
+                  - text: Reply
+              - generic [ref=e500]: Any hostels?
+              - generic [ref=e501]: Since COVID-19, there's been little information about hostels in Beijing. Is there any information on whether Red Lantern and Leo Hostel are currently open? Thank you!
+              - generic [ref=e502]:
+                - generic [ref=e503]: Answers (1)
+                - generic [ref=e504]:
+                  - generic [ref=e505]:
+                    - text: Answered by Daniel May. 05, 2026 20:25
+                    - generic [ref=e506]:
+                      - generic [ref=e507] [cursor=pointer]:
+                        - img [ref=e508]
+                        - text: "2"
+                      - generic [ref=e509] [cursor=pointer]:
+                        - img [ref=e510]
+                        - text: "0"
+                      - generic [ref=e511] [cursor=pointer]:
+                        - img [ref=e512]
+                        - text: Reply
+                  - generic [ref=e513]: Red Lantern House is still open but Leo Hostel is closed.
+            - generic [ref=e514]:
+              - generic [ref=e515]:
+                - text: Asked by Cherrylyn from Philippines | Apr. 17, 2026 04:42
+                - generic [ref=e516] [cursor=pointer]:
+                  - img [ref=e517]
+                  - text: Reply
+              - generic [ref=e518]: Bringing of food
+              - generic [ref=e519]: Can i brinh 1kl of rice grains and instant noodles?
+              - generic [ref=e520]:
+                - generic [ref=e521]: Answers (1)
+                - generic [ref=e522]:
+                  - generic [ref=e523]:
+                    - text: Answered by Henry Apr. 20, 2026 20:01
+                    - generic [ref=e524]:
+                      - generic [ref=e525] [cursor=pointer]:
+                        - img [ref=e526]
+                        - text: "0"
+                      - generic [ref=e527] [cursor=pointer]:
+                        - img [ref=e528]
+                        - text: "0"
+                      - generic [ref=e529] [cursor=pointer]:
+                        - img [ref=e530]
+                        - text: Reply
+                  - generic [ref=e531]: You can but you need to declare the rice grains to the customs.
+            - generic [ref=e532]:
+              - generic [ref=e533]:
+                - text: Asked by Kevin from Uk | Apr. 11, 2026 00:36
+                - generic [ref=e534] [cursor=pointer]:
+                  - img [ref=e535]
+                  - text: Reply
+              - generic [ref=e536]: Is there a fast track lane at Beijing Capital airport?
+              - generic [ref=e537]: I am flying from Nanning to Beijing then onto London business class. Don’t have much time at Beijing airport to connect to the London flight. Worry about time it takes to go through security.
+              - generic [ref=e538]:
+                - generic [ref=e539]: Answers (1)
+                - generic [ref=e540]:
+                  - generic [ref=e541]:
+                    - text: Answered by Fiona Apr. 12, 2026 20:45
+                    - generic [ref=e542]:
+                      - generic [ref=e543] [cursor=pointer]:
+                        - img [ref=e544]
+                        - text: "0"
+                      - generic [ref=e545] [cursor=pointer]:
+                        - img [ref=e546]
+                        - text: "0"
+                      - generic [ref=e547] [cursor=pointer]:
+                        - img [ref=e548]
+                        - text: Reply
+                  - generic [ref=e549]: Sorry, no. Two hours are advised for the transit if your luggage are checked through. The security check doesn't take long time but you need to travel from T3-E area for the international departure, which takes the main time.
+          - link "More Questions & Answers" [ref=e551] [cursor=pointer]:
+            - /url: https://answers.travelchinaguide.com/beijing-10109.htm
+          - generic [ref=e552]:
+            - generic [ref=e553]: Ask a Question
+            - generic [ref=e554]:
+              - generic [ref=e555]: Question Summary (100 characters)
+              - textbox [ref=e557]
+              - generic [ref=e558]: Details (optional) (2,000 characters)
+              - textbox [ref=e560]
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - text: Name
+                  - textbox [ref=e563]
+                - generic [ref=e564]:
+                  - text: Country
+                  - textbox [ref=e565]
+                - generic [ref=e566]:
+                  - text: Email
+                  - textbox "Your Email Address" [ref=e567]
+              - button [ref=e569] [cursor=pointer]
+      - paragraph
+  - generic [ref=e575]:
+    - link "Tripadvisor Travelers' Choice 2025" [ref=e576] [cursor=pointer]:
+      - /url: /about-us/trip-advisor-reviews.htm
+      - img "Tripadvisor Travelers' Choice 2025" [ref=e579]
+    - generic [ref=e581]:
+      - paragraph [ref=e582]: Featured On
+      - generic [ref=e583]:
+        - img "National Geographic" [ref=e585]
+        - img "The New York Times" [ref=e587]
+        - img "Lonely Planet" [ref=e589]
+        - img "The Telegraph" [ref=e591]
+        - img "USA Today" [ref=e593]
+  - generic [ref=e594]:
+    - generic [ref=e595]:
+      - link "About Us" [ref=e597] [cursor=pointer]:
+        - /url: /aboutus.htm
+      - link "Contact Us" [ref=e599] [cursor=pointer]:
+        - /url: /contact_us.htm
+      - generic [ref=e600]:
+        - link "Privacy" [ref=e601] [cursor=pointer]:
+          - /url: /privacy.htm
+        - text: "|"
+      - link "Loyalty & Referral" [ref=e603] [cursor=pointer]:
+        - /url: /loyalty-and-referral-program.htm
+      - link "Customer Service" [ref=e605] [cursor=pointer]:
+        - /url: /tour/service.htm
+      - link "Affiliate" [ref=e607] [cursor=pointer]:
+        - /url: /affiliate-program.htm
+    - generic [ref=e609]: Copyright © 1998-2026 All rights reserved.

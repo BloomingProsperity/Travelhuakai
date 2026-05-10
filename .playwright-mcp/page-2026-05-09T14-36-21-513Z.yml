@@ -1,0 +1,311 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - button "Toggle navigation MENU" [ref=e6] [cursor=pointer]:
+            - generic [ref=e7]: Toggle navigation
+            - text: MENU
+          - link "The China Guide" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img "The China Guide" [ref=e9]
+        - text:  
+    - text:   
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Enjoy your adventure, leave the hassles to a China expert Enjoy your adventure, leave the hassles to a China expert" [ref=e14]:
+          - /url: ""
+          - img "Enjoy your adventure, leave the hassles to a China expert" [ref=e15]
+          - generic [ref=e16]: Enjoy your adventure, leave the hassles to a China expert
+        - link [ref=e17] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - heading "The China Guide is a Beijing-based travel agency that customizes private tours, educational student tours, and incentive trips in China. We have more than fifteen years of experience crafting vacation packages for tens of thousands of travelers from the United States, Canada, Australia, the United Kingdom, Germany, France, Spain, and beyond. Our mission is to tailor the most authentic and hassle-free China tours that reflect each client's interests and preferences." [level=1] [ref=e20]
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: 精
+            - generic [ref=e26]: EXPERTISE
+            - generic [ref=e27]: With over fifteen years of trip planning experience for a wide range of travelers, we are China experts
+          - generic [ref=e28]:
+            - generic [ref=e29]: 诚
+            - generic [ref=e30]: HONESTY
+            - generic [ref=e31]: No hidden costs, commissions, or tourist traps — we are a business you can trust
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 灵
+            - generic [ref=e35]: FLEXIBILITY
+            - generic [ref=e36]: All itineraries are customizable and can be adjusted even while on tour to reflect your travel preferences
+          - generic [ref=e37]:
+            - generic [ref=e38]: 细
+            - generic [ref=e39]: SERVICE
+            - generic [ref=e40]:
+              - text: Our
+              - link "award-winning service" [ref=e41] [cursor=pointer]:
+                - /url: /blog/the-china-guide-tripadvisor-certificate-of-excellence-hall-of-fame
+              - text: will ensure you a hassle-free trip and 24/7 care throughout your tour
+      - link "LET'S PLAN YOUR TRIP" [ref=e44] [cursor=pointer]:
+        - /url: /experiences#inquiry-form
+      - generic [ref=e45]:
+        - heading "Most Popular China Tours" [level=2] [ref=e48]
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - link "Golden Triangle of China Golden Triangle of China" [ref=e53] [cursor=pointer]:
+              - /url: /experience/golden-triangle-of-china
+              - img "Golden Triangle of China" [ref=e54]
+              - generic [ref=e55]: Golden Triangle of China
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - text: 9 days
+                - text: Beijing-Xian-Shanghai Tour
+              - generic [ref=e59]: "Why do we call Beijing, Xi'an, and Shanghai \"the Golden Triangle?\" The answer is simple: if you can only visit three Chinese..."
+              - generic [ref=e60]:
+                - link "View trip":
+                  - /url: /experience/golden-triangle-of-china
+                  - generic [ref=e61] [cursor=pointer]: View trip
+          - generic [ref=e62]:
+            - link "Beijing in 48 hours Beijing in 48 hours" [ref=e63] [cursor=pointer]:
+              - /url: /experience/beijing-in-48-hours
+              - img "Beijing in 48 hours" [ref=e64]
+              - generic [ref=e65]: Beijing in 48 hours
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - text: 2 days
+                - text: Beijing Tour
+              - generic [ref=e69]: Two days in Beijing might not seem like very long, but it's just enough to tick off a few of the Chinese capital's must-see...
+              - generic [ref=e70]:
+                - link "View trip":
+                  - /url: /experience/beijing-in-48-hours
+                  - generic [ref=e71] [cursor=pointer]: View trip
+          - generic [ref=e72]:
+            - link "Tale of Two Cities Tale of Two Cities" [ref=e73] [cursor=pointer]:
+              - /url: /experience/tale-of-two-cities
+              - img "Tale of Two Cities" [ref=e74]
+              - generic [ref=e75]: Tale of Two Cities
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - text: 5 days
+                - text: Beijing-Shanghai Tour
+              - generic [ref=e79]: China is a land of contrasts, and no two cities encapsulate the country’s fascinating combination of old and new better...
+              - generic [ref=e80]:
+                - link "View trip":
+                  - /url: /experience/tale-of-two-cities
+                  - generic [ref=e81] [cursor=pointer]: View trip
+          - generic [ref=e82]:
+            - link "Beijing and the Great Wall in One Day Beijing and the Great Wall in One Day" [ref=e83] [cursor=pointer]:
+              - /url: /experience/beijing-and-the-great-wall-in-one-day
+              - img "Beijing and the Great Wall in One Day" [ref=e84]
+              - generic [ref=e85]: Beijing and the Great Wall in One Day
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - text: 1 day
+                - text: Beijing Tour
+              - generic [ref=e89]: So, you only have one day in Beijing and are worried about having enough time to see the best sights? Get ready for what...
+              - generic [ref=e90]:
+                - link "View trip":
+                  - /url: /experience/beijing-and-the-great-wall-in-one-day
+                  - generic [ref=e91] [cursor=pointer]: View trip
+          - generic [ref=e92]:
+            - link "The Classic China Tour The Classic China Tour" [ref=e93] [cursor=pointer]:
+              - /url: /experience/the-classic-china-tour
+              - img "The Classic China Tour" [ref=e94]
+              - generic [ref=e95]: The Classic China Tour
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - text: 13 days
+                - text: Beijing-Xian-Guilin/Yangshuo-Shanghai...
+              - generic [ref=e99]: Want to go to China, but don't know where to start? This tour package is the one for you. Covering five incredible destinatio...
+              - generic [ref=e100]:
+                - link "View trip":
+                  - /url: /experience/the-classic-china-tour
+                  - generic [ref=e101] [cursor=pointer]: View trip
+          - generic [ref=e102]:
+            - link "Beijing in 72 hours Beijing in 72 hours" [ref=e103] [cursor=pointer]:
+              - /url: /experience/beijing-in-72-hours
+              - img "Beijing in 72 hours" [ref=e104]
+              - generic [ref=e105]: Beijing in 72 hours
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - text: 3 days
+                - text: Beijing Tour
+              - generic [ref=e109]: There is no better way to immerse yourself in the history and culture of China's capital in a short amount of time than b...
+              - generic [ref=e110]:
+                - link "View trip":
+                  - /url: /experience/beijing-in-72-hours
+                  - generic [ref=e111] [cursor=pointer]: View trip
+        - link "More itineraries" [ref=e114] [cursor=pointer]:
+          - /url: /experiences
+          - generic [ref=e115]: More itineraries
+      - generic [ref=e117]:
+        - heading "What our Clients are Saying" [level=2] [ref=e120]
+        - generic [ref=e121]:
+          - img "client review tripadvisor" [ref=e122]
+          - blockquote [ref=e123]:
+            - text: “
+            - paragraph [ref=e124]: Right from our initial inquiry, to the outstanding communication with Sarah, to local guides who met us at the train stations and airports we were in good hands with the staff at The China Guide. Our family of 7 Canadians spent 3 weeks traveling through China and I can't emphasize enough how we appreciated their support from start to finish. Don't hesitate and let The China Guide work with you to plan an itinerary that is perfect for you.
+            - contentinfo [ref=e125]:
+              - text: — Don W on
+              - link "Tripadvisor" [ref=e126] [cursor=pointer]:
+                - /url: /blog/the-china-guide-tripadvisor-certificate-of-excellence-hall-of-fame
+        - generic [ref=e127]:
+          - img "client review tripadvisor" [ref=e128]
+          - blockquote [ref=e129]:
+            - text: “
+            - paragraph [ref=e130]: First time bring my kids to China, a home which I left over 28 years ago. My American friend recommended this company to me and they did an fantastic job for our 13 days trip in China. Erick from BeiJing are so knowledgeable and arranged the trip perfectly according to the weather and activities. Betty from XiAn covered all of our activities with very relaxing feeling even though we only have 24 hours in XiAn. This is a totally worry free luxury trip, and gave my kids a great impression on their mommy's homeland. We will definitely use this company again to arrange our next trip to China.
+            - contentinfo [ref=e131]:
+              - text: — J W on
+              - link "Tripadvisor" [ref=e132] [cursor=pointer]:
+                - /url: /blog/the-china-guide-tripadvisor-certificate-of-excellence-hall-of-fame
+        - generic [ref=e133]:
+          - img "client review tripadvisor" [ref=e134]
+          - blockquote [ref=e135]:
+            - text: “
+            - paragraph [ref=e136]: I've been blessed to travel around the world, and am happy to say that The China Guide is one of the most professional and organized tour companies that I've worked with.
+            - contentinfo [ref=e137]: — John Shors, bestselling author of Unbound
+      - heading "Top Destinations" [level=2] [ref=e141]
+      - generic [ref=e142]:
+        - generic [ref=e144]:
+          - img "China Map" [ref=e145]
+          - link " Tibet/Lhasa" [ref=e146] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e147]: 
+            - generic [ref=e148]: Tibet/Lhasa
+          - link " Guilin & Yangshuo" [ref=e149] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e150]: 
+            - generic [ref=e151]: Guilin & Yangshuo
+          - link " Zhangjiajie" [ref=e152] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e153]: 
+            - generic [ref=e154]: Zhangjiajie
+          - link " Shanghai" [ref=e155] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e156]: 
+            - generic [ref=e157]: Shanghai
+          - link " Xi'an" [ref=e158] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e159]: 
+            - generic [ref=e160]: Xi'an
+          - link " Beijing" [ref=e161] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e162]: 
+            - generic [ref=e163]: Beijing
+          - link " Great Wall of China" [ref=e164] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e165]: 
+            - generic [ref=e166]: Great Wall of China
+          - link " Chengdu" [ref=e167] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e168]: 
+            - generic [ref=e169]: Chengdu
+        - generic [ref=e170]:
+          - article [ref=e171]:
+            - generic [ref=e172]:
+              - img "Beijing" [ref=e173]
+              - paragraph [ref=e174]:
+                - text: Beijing is an enormous municipality abundant in history, culture, beautiful landscapes, and fine cuisine. One of the oldest and largest cities in the world, Beijing boasts a fascinating mixture of old and new, from ancient imperial palaces to modern skyscrapers, providing one-of-a-kind insight into Chinese culture and daily life that you can't get anywhere else. As the cultural and political capital of the country, Beijing is...
+                - link [ref=e175] [cursor=pointer]:
+                  - /url: /destination/beijing
+                  - text: Read more
+          - link "Other destinations" [ref=e178] [cursor=pointer]:
+            - /url: /destinations
+            - generic [ref=e179]: Other destinations
+      - heading "Most Read Blogs" [level=2] [ref=e183]
+      - generic [ref=e185]:
+        - article [ref=e187]:
+          - link "How to Visit China Without a Visa" [ref=e190] [cursor=pointer]:
+            - /url: /blog/how-to-visit-china-without-a-visa
+          - generic [ref=e191]:
+            - img [ref=e192] [cursor=pointer]
+            - paragraph [ref=e193]: "Want to visit China but don't want to go through the hassle of applying for a Chinese visa? Here are several common ways you might be able to tour China visa-free: Visa-Free Entry for Specific Nationalities Until the end of 2026, citizens of the following 47 countries and territories are able to enjoy a 30-day visa-free stay for tourism, business, cultural exchange, family visits, or transit purposes..."
+        - list [ref=e195]:
+          - listitem [ref=e196]:
+            - link "How to Set up Alipay for Mobile Payments" [ref=e197] [cursor=pointer]:
+              - /url: /blog/how-to-set-up-alipay
+          - listitem [ref=e198]:
+            - 'link "Report: Choices of Travelers to China" [ref=e199] [cursor=pointer]':
+              - /url: /blog/report-choices-of-travelers-to-china
+          - listitem [ref=e200]:
+            - link "10 Best Tours for First-Time Travelers to China" [ref=e201] [cursor=pointer]:
+              - /url: /blog/top-10-tours-for-first-time-travelers-to-china
+          - listitem [ref=e202]:
+            - link "Using Your Cell Phone and the Internet While Traveling in China" [ref=e203] [cursor=pointer]:
+              - /url: /blog/how-to-use-your-cell-phone-while-traveling-in-china
+          - listitem [ref=e204]:
+            - link "How to Pay for Things in China" [ref=e205] [cursor=pointer]:
+              - /url: /blog/cash-and-credit-cards
+          - listitem [ref=e206]:
+            - link "Safety Tips for Travelers to China" [ref=e207] [cursor=pointer]:
+              - /url: /blog/safety-in-china
+          - listitem [ref=e208]:
+            - link "Best and Worst Time to Travel to China" [ref=e209] [cursor=pointer]:
+              - /url: /blog/best-and-worst-time-to-travel-in-china
+        - link "More Blogs" [ref=e211] [cursor=pointer]:
+          - /url: /blog
+      - generic [ref=e213]:
+        - heading "Where We're Featured" [level=2] [ref=e216]
+        - link [ref=e218] [cursor=pointer]:
+          - /url: /misc/where-we-are-featured
+  - contentinfo [ref=e226]:
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - link "tripadvisor certificate of excellence" [ref=e231] [cursor=pointer]:
+          - /url: /blog/the-china-guide-tripadvisor-certificate-of-excellence-hall-of-fame
+          - img "tripadvisor certificate of excellence" [ref=e232]
+        - generic [ref=e233]:
+          - generic [ref=e234]: Follow us on Social Media
+          - generic [ref=e235]:
+            - link [ref=e236] [cursor=pointer]:
+              - /url: https://www.facebook.com/thechinaguide
+            - link [ref=e237] [cursor=pointer]:
+              - /url: http://twitter.com/thechinaguide
+            - link [ref=e238] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCp9ksc2bXXWcbE-CZG5iEMQ
+            - link [ref=e239] [cursor=pointer]:
+              - /url: http://www.instagram.com/the_chinaguide
+        - link "Email us Your Plan" [ref=e242] [cursor=pointer]:
+          - /url: mailto:book@thechinaguide.com?subject=Booking or Consultation
+          - generic [ref=e243]: Email us Your Plan
+      - generic [ref=e244]:
+        - generic [ref=e245]: The Company
+        - generic [ref=e246]:
+          - link "Who we are" [ref=e247] [cursor=pointer]:
+            - /url: /about-us
+          - link "Meet our team" [ref=e248] [cursor=pointer]:
+            - /url: /about-us/meet-our-team
+          - link "Our guides" [ref=e249] [cursor=pointer]:
+            - /url: /about-us/our-guides
+          - link "Drivers and vehicles" [ref=e250] [cursor=pointer]:
+            - /url: /about-us/drivers-and-vehicles
+          - link "Contact us" [ref=e251] [cursor=pointer]:
+            - /url: /about-us/contact-us
+          - link "Terms of service" [ref=e252] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "FAQ" [ref=e253] [cursor=pointer]:
+            - /url: /faq
+      - generic [ref=e254]:
+        - generic [ref=e255]: China Tours
+        - generic [ref=e256]:
+          - link "Popular Tours" [ref=e257] [cursor=pointer]:
+            - /url: /experiences/popular-tours
+          - link "Family Vacation" [ref=e258] [cursor=pointer]:
+            - /url: /experiences/family-vacation
+          - link "Chinese Culture" [ref=e259] [cursor=pointer]:
+            - /url: /experiences/chinese-culture
+          - link "Adventure" [ref=e260] [cursor=pointer]:
+            - /url: /experiences/adventure
+          - link "Gourmet" [ref=e261] [cursor=pointer]:
+            - /url: /experiences/gourmet
+          - link "Romantic" [ref=e262] [cursor=pointer]:
+            - /url: /experiences/romantic
+          - link "China at a Glance" [ref=e263] [cursor=pointer]:
+            - /url: /experiences/china-at-a-glance
+      - generic [ref=e264]:
+        - generic [ref=e266]: Payment Options
+        - generic [ref=e272]:
+          - generic [ref=e273]: Security
+          - link "logo comodo" [ref=e275] [cursor=pointer]:
+            - /url: https://secure.comodoca.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=CL1&v_search=https://www.thechinaguide.com/&x=6&y=5
+            - img "logo comodo" [ref=e276]
+    - paragraph [ref=e278]: Copyright © 2008 - 2026 The China Guide
+    - paragraph
+  - text: 
