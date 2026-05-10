@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { useLang } from "../../store/language";
 
 export default function SiteFooter() {

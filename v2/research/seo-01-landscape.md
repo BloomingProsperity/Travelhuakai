@@ -664,3 +664,131 @@ Smaller and newer than TravelChinaGuide/ChinaHighlights, but well-positioned for
 
 ---
 
+## Summary: Dominant SEO Winners and Gaps for a New Entrant
+
+### The 7 Dominant SEO Winners
+
+Ranked by combined domain authority, China-specific traffic relevance, and keyword ownership:
+
+**1. TripAdvisor** (DR 93, 92 M visits/mo, 3 M keywords)
+Unassailable on reviews and forum UGC. Wins "things to do [city]", hotel/restaurant reviews, China forum Q&A. Effectively impossible to outrank on broad informational queries via authority alone.
+
+**2. TravelChinaGuide** (DR 77, ~600 K organic/mo, 105 K keywords)
+The oldest and deepest China-specific SEO play. Owns train schedules/booking, transit visa, and city guide depth. Domain age (1998) and index breadth (5,000+ pages) are significant moats.
+
+**3. China Highlights** (DR 78, ~1 M organic/mo)
+The other major China-specific editorial/OTA. Zodiac/calendar content generates outsized traffic that funds domain authority. Nearest peer competitor to TravelChinaGuide on the same keyword set.
+
+**4. Trip.com** (DR 86, ~9 M organic/mo, 3.8 M keywords)
+The gorilla OTA with growing editorial investment in practical foreigner-to-China content (Alipay, eSIM, arrival card, transit visa, cost calculator). Hardest to compete with on commercial-intent and transactional keywords.
+
+**5. Lonely Planet** (DR 89, ~1.6 M organic/mo)
+Legacy authority; China section ranks on domain gravity alone. Thin, infrequently updated China content but holds top-10 positions for destination queries. Under-investing in the category since 2022 — a direct vulnerability.
+
+**6. Klook** (DR 85, 43 M total visits/mo)
+Asia-Pacific OTA winning on activity-booking keywords: Great Wall tickets, Forbidden City tickets, experience bookings. Dominant for "buy [China attraction] ticket online" queries.
+
+**7. Reddit** (DR 95, 4.2 B visits/mo)
+Involuntary competitor. Threads rank #1–3 for nearly every China travel Q&A query. Not a commercial site but crowds out editorial content in SERPs. r/travelchina (68 K members) and r/chinalife (52 K members) are the de facto English peer-support layer for China travel — and a structural gap a curated UGC platform can fill.
+
+---
+
+### Gaps for a New Entrant
+
+**Gap 1 — Practical payment guidance (Alipay, WeChat Pay, UnionPay for foreigners)**
+Trip.com has the best current page, but it is booking-funnel-first. A comprehensive, regularly updated guide with step-by-step screenshots — covering foreign card linking, international tourist mode, UnionPay contactless — ranks easily on long-tail variations.
+Target keywords: "alipay for foreigners 2026", "wechat pay foreign card setup", "how to pay in china without chinese bank account", "union pay card foreigners china"
+
+**Gap 2 — Visa-free transit by nationality and entry port**
+The 240-hour (10-day) visa-free transit policy expanded in December 2024 is not comprehensively covered by any single authoritative English-language site. TravelChinaGuide has a page but it is template-heavy and lacks nationality-specific tables.
+Target keywords: "144 hour visa free transit china cities 2026", "china visa free transit which countries", "beijing transit visa free overnight", "240 hour transit china itinerary"
+
+**Gap 3 — Per-city practical pillars (Beijing / Shanghai / Guangzhou / Shenzhen)**
+SmartShanghai and The Beijinger serve residents, not tourists. No single site comprehensively covers: how to get a transit card, where to exchange currency, local metro apps, food-ordering apps — for each of the four gateway cities.
+Target keywords: "[city] metro card for foreigners", "shenzhen travel tips foreigners 2026", "guangzhou travel guide english first time", "beijing practical guide foreigners"
+
+**Gap 4 — Emergency and consular information for foreigners in China**
+Almost no dedicated English-language SEO coverage exists for: lost passport procedures in China, medical emergencies in Chinese cities, embassy/consulate contacts by nationality in Beijing/Shanghai. Very low competition; high urgency and trust signals.
+
+**Gap 5 — Technology survival (VPN, internet, apps)**
+FarWestChina.com partially covers this with Xinjiang framing. A city-specific, annually updated guide to internet access in China for tourists — which apps work, which VPNs are currently reliable, offline maps, translation apps — has high search demand and very thin competition from authoritative domains.
+Target keywords: "google maps china alternative 2026", "vpn china tourist which works", "internet access china for foreigners", "best apps china travel 2026"
+
+**Gap 6 — User-generated, current, community-verified content**
+Reddit is the only English-language community Q&A layer, but it is blocked inside China and has no editorial curation or quality control. A structured Q&A and travel-share platform in English, targeting the 30 M+ annual foreign visitors to China (2025 full-year figure), does not exist in polished, well-indexed form. This is the structural white space for a new entrant with UGC capability — the Phase 1.5 priority in this project.
+
+**Gap 7 — China food and restaurant discovery for foreigners**
+Neither Dianping nor Meituan surfaces English content. TripAdvisor and Yelp lack meaningful depth for Chinese-language restaurant menus in tier-1 cities. A curated, English-language food guide with ordering help for the four target cities (北上广深) would own a currently uncontested SERP niche.
+Target keywords: "how to order food in china without chinese", "best restaurants beijing foreigners", "chinese menu translation help", "xiaolongbao shanghai where to eat"
+
+---
+
+### Competitive positioning recommendation for a new entrant
+
+A new site should not attempt to out-authority TripAdvisor, Lonely Planet, or Trip.com on their existing keyword turf. The viable entry points are:
+
+- **Practical pillars by city**: over-index on the four gateway cities with fresh 2026 content, screenshot-based how-to guides, and city-specific practical detail that incumbents treat as secondary.
+- **UGC community layer**: the only English-language peer-to-peer China travel community is Reddit — a blocked, unmoderated forum. A curated Q&A and travel-share platform fills a structural gap no commercial site occupies.
+- **Long-tail informational keywords**: "can i use google pay in china", "do i need vpn in china 2026", "how to book great wall tickets independently" — served today by DR 30–50 blogs; a site reaching DR 50+ within 12 months can capture top-10 positions.
+- **Link acquisition targets**: earning backlinks from TravelChinaGuide (DR 77) and China Highlights (DR 78) through content partnerships would rapidly build authority in the China travel niche specifically.
+- **Recency advantage**: Lonely Planet, Wikitravel, and That's Mags are visibly under-investing in the category. Fresh, dated content ("updated May 2026") is a meaningful ranking signal incumbents are leaving on the table.
+
+---
+
+## Data Sources (50 citations)
+
+1. SimilarWeb — Trip.com: https://www.similarweb.com/website/trip.com/
+2. SimilarWeb — chinahighlights.com: https://www.similarweb.com/website/chinahighlights.com/
+3. SimilarWeb — lonelyplanet.com: https://www.similarweb.com/website/lonelyplanet.com/
+4. SimilarWeb — travelchinaguide.com: https://www.similarweb.com/website/travelchinaguide.com/
+5. SimilarWeb — klook.com: https://www.similarweb.com/website/klook.com/
+6. SimilarWeb — getyourguide.com: https://www.similarweb.com/website/getyourguide.com/
+7. SimilarWeb — tripadvisor.com: https://www.similarweb.com/website/tripadvisor.com/
+8. SimilarWeb — wikivoyage.org: https://www.similarweb.com/website/wikivoyage.org/
+9. SimilarWeb — wikitravel.org: https://www.similarweb.com/website/wikitravel.org/
+10. SimilarWeb — thebeijinger.com: https://www.similarweb.com/website/thebeijinger.com/
+11. SimilarWeb — smartshanghai.com: https://www.similarweb.com/website/smartshanghai.com/
+12. SimilarWeb — thatsmags.com: https://www.similarweb.com/website/thatsmags.com/
+13. SimilarWeb — chinadaily.com.cn: https://www.similarweb.com/website/chinadaily.com.cn/
+14. SimilarWeb — scmp.com: https://www.similarweb.com/website/scmp.com/
+15. SimilarWeb — timeout.com: https://www.similarweb.com/website/timeout.com/
+16. SimilarWeb — farwestchina.com: https://www.similarweb.com/website/farwestchina.com/
+17. SimilarWeb — reddit.com: https://www.similarweb.com/website/reddit.com/
+18. SimilarWeb — thorntreeforum.com: https://www.similarweb.com/website/thorntreeforum.com/
+19. SimilarWeb — wildchina.com: https://www.similarweb.com/website/wildchina.com/
+20. SimilarWeb — thechinaguide.com: https://www.similarweb.com/website/thechinaguide.com/
+21. AhrefsTop — travelchinaguide.com DR 77, ~592 K organic: https://ahrefstop.com/websites/travelchinaguide.com
+22. AhrefsTop — lonelyplanet.com DR 89, ~1.6 M organic: https://ahrefstop.com/websites/lonelyplanet.com
+23. AhrefsTop — trip.com DR 86, ~9 M organic: https://ahrefstop.com/websites/trip.com
+24. AhrefsTop — tripadvisor.com DR 93, ~62.5 M organic: https://ahrefstop.com/websites/tripadvisor.com
+25. AhrefsTop — klook.com DR 85, ~6.3 M organic: https://ahrefstop.com/websites/klook.com
+26. AhrefsTop — getyourguide.com DR 89, ~3.8 M organic: https://ahrefstop.com/websites/getyourguide.com
+27. AhrefsTop — timeout.com DR 90, ~2.3 M organic: https://ahrefstop.com/websites/timeout.com
+28. AhrefsTop — wikivoyage.org DR 82, ~1.6 M organic: https://ahrefstop.com/websites/wikivoyage.org
+29. AhrefsTop — wikitravel.org DR 82, ~126 K organic: https://ahrefstop.com/websites/wikitravel.org
+30. AhrefsTop — chinadaily.com.cn DR 89, ~70 K organic: https://ahrefstop.com/websites/chinadaily.com.cn
+31. AhrefsTop — scmp.com DR 89, ~1.4 M organic: https://ahrefstop.com/websites/scmp.com
+32. AhrefsTop — reddit.com DR 95: https://ahrefstop.com/websites/reddit.com
+33. Ahrefs public — chinahighlights.com DR 78, 14.7 K referring domains: https://ahrefs.com/websites/chinahighlights.com
+34. Ahrefs public — travelchinaguide.com DR 77, 13.4 K referring domains: https://ahrefs.com/websites/travelchinaguide.com
+35. SEMrush — lonelyplanet.com Authority Score 77, 2.1 M visits: https://www.semrush.com/website/lonelyplanet.com/overview/
+36. SEMrush — klook.com Authority Score 83: https://www.semrush.com/website/klook.com/overview/
+37. GummySearch — r/travelchina 68 K members: https://gummysearch.com/r/travelchina/
+38. Redplus AI — r/chinalife 52.8 K members: https://redplus.ai/en/r/chinalife/
+39. TravelChinaGuide About — founded 1998: https://www.travelchinaguide.com/aboutus.htm
+40. China Highlights Crunchbase — founded 1998: https://www.crunchbase.com/organization/china-highlights
+41. FarWestChina About — founded 2006: https://www.farwestchina.com/about/
+42. The China Guide About — founded 2007: https://www.thechinaguide.com/about-us
+43. SmartShanghai history, founded 2003 — Tracxn: https://tracxn.com/d/companies/smartshanghai/
+44. That's Magazines history, founded 1997–98 — Wikipedia: https://en.wikipedia.org/wiki/That%27s
+45. Time Out Group history, Beijing 2003 / Shanghai 2009 — Wikipedia: https://en.wikipedia.org/wiki/Time_Out_Group
+46. Lonely Planet history, founded 1973 — Wikipedia: https://en.wikipedia.org/wiki/Lonely_Planet
+47. The Beijinger history, founded 2001 — Wikipedia: https://en.wikipedia.org/wiki/The_Beijinger
+48. SCMP history, founded 1903 — SCMP: https://www.scmp.com/lifestyle/arts-culture/article/3240225/history-south-china-morning-post-story-spans-120-years
+49. China Daily history, website 1994 — China Daily: https://www.chinadaily.com.cn/static_e/2011about.html
+50. Wikivoyage vs Wikitravel comparison — SimilarWeb: https://www.similarweb.com/website/en.wikivoyage.org/vs/wikitravel.org/
+51. Lonely Planet Thorn Tree closure 2021: https://www.thelongestwayhome.com/blog/travel-journals/lonely-planet-thorn-tree-closes-forever/
+52. China YouTube channels — Helpful Panda: https://thehelpfulpanda.com/best-china-youtube-channels/
+53. Asia Highlights / Highlights Travel rebrand 2025: https://www.asiahighlights.com/about-us/our-story
+54. Trip.com China guide section: https://www.trip.com/china-travel/ and https://www.trip.com/guide/
+55. China inbound tourism 2025 statistics (30 M+ foreign visitors): https://travelchinawith.me/china-travel-blog/china-tourism-statistics-2025/

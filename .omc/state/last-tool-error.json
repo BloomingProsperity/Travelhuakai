@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"git config --global user.email 2>&1; git config --global user.name 2>&1; git config user.email 2>&1; git config user.name 2>&1\",\"description\":\"Check existing git identity\"}",
-  "error": "Exit code 1",
-  "timestamp": "2026-05-10T14:44:02.773Z",
+  "tool_input_preview": "{\"command\":\"cd \\\"c:\\\\Users\\\\h\\\\Documents\\\\New project 2\\\\v2\\\" && powershell -Command \\\"$html = Get-Content 'build\\\\client\\\\index.html' -Raw; Write-Host ('Length: ' + $html.Length); $bodyStart = $html....",
+  "error": "Exit code 1\n����λ�� ��:1 �ַ�: 72\r\n+ ... tent 'build\\client\\index.html' -Raw; Write-Host ('Length: ' + .Length ...\r\n+                                                                  ~\r\n�����ڡ�+������������ṩһ��ֵ����ʽ��\r\n����λ�� ��:1 �ַ�: 73\r\n+ ... ild\\client\\index.html' -Raw; Write-Host ('Length: ' + .Length);  = .I ...\r\n+                                                           ~~~~~~~\r\n����ʽ������а�������ı�ǡ�.Length����\r\n����λ�� ��:1 �ַ�: 72\r\n+ ... tent 'build\\client\\index.html' -Raw; Write-Ho...",
+  "timestamp": "2026-05-10T14:51:57.749Z",
   "retry_count": 1
 }

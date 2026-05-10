@@ -238,7 +238,7 @@ Key editorial angle for the site: Shenzhen is easiest to enjoy when it is treate
 - Opening hours / closed-day pattern: EyeShenzhen lists 10:00-18:00, closed Mondays.
 - Foreign-card acceptance status: Free admission; museum shops/cafes if present are mobile-payment-first.
 - English-language tour / signage status: Better than many local museums, but not fully bilingual. English labels may be selective.
-- Official URL: https://www.eyeshenzhen.com/content/2023-05/18/content_30206064.htm
+- Official URL: https://www.eyeshenzhen.com/content/2017-04/18/content_18765325.htm
 - CC/PD image URL: https://commons.wikimedia.org/wiki/File:Shenzhen_Museum.jpg - CC BY-SA 4.0, verified reachable.
 
 ### 11. Shenzhen Museum of Contemporary Art and Urban Planning - 深圳当代艺术与城市规划馆
@@ -476,39 +476,42 @@ Official and institutional sources dominate this report. Traveller/community sou
 
 | ID | URL | Author / publisher | Date | Type | Reliability note |
 |---|---|---|---|---|---|
-| S01 | https://www.sz.gov.cn/en_szgov/aboutsz/districts/ | Shenzhen Government Online | Undated page, accessed 2026-05-10 | Official | English city-government district index; primary source for current 10-district framing. |
-| S02 | https://mzj.sz.gov.cn/szmz/smzt/gjswzgkf/zwgk/zfxxgkml/tjsj/content/post_12156765.html | Shenzhen Municipal Civil Affairs Bureau | 2026-05-06 | Official | Current Chinese administrative data; confirms 9 administrative districts plus Dapeng functional new district. |
-| S03 | https://www.sz.gov.cn/en_szgov/news/latest/content/post_11933466.html | Shenzhen Government Online / Shenzhen Daily | 2025-02-27 | Official | Explains the citywide cultural-tourism resource survey and district-level tourism assets. |
-| S04 | https://www.sz.gov.cn/en_szgov/services/transport/metro/content/post_11636362.html | Shenzhen Government Online | 2024-09-14 | Official | Official metro summary, lines, and major station connections. |
-| S05 | https://www.eyeshenzhen.com/content/2024-10/14/content_31276064.htm | EyeShenzhen | 2024-10-14 | Official | Foreign-card POS support at Shenzhen Metro service centers; directly relevant to tourist payment pitfall. |
+| S01 | https://www.sz.gov.cn/en_szgov/govt/districts/index.html | Shenzhen Government Online | Continuously maintained, accessed 2026-05-10 | Official | English city-government district index; primary source for current 10-district framing. |
+| S02 | https://www.sz.gov.cn/en_szgov/aboutsz/profile/content/post_12542766.html | Shenzhen Government Online | 2025 | Official | Shenzhen Basics profile; confirms nine administrative districts plus Dapeng New Area and core geography. |
+| S03 | https://www.sz.gov.cn/en_szgov/travel/guide/content/post_12638462.html | Culture, Radio, Television, Tourism and Sports Bureau of Shenzhen Municipality / Shenzhen Government Online | 2026-02-09 | Official | Current official travel guide covering coastline, theme parks, shopping, food, and transport. |
+| S04 | https://www.sz.gov.cn/en_szgov/life/transport/metro/content/post_12583635.html | Shenzhen Government Online | 2026 | Official | Current official metro line/station reference, including Line 2/8 to Dameisha, Xiaomeisha, and Xichong. |
+| S05 | https://www.newsflare.com/video/688191/china-chinas-shenzhen-allows-point-of-sale-subway-ticketing-with-foreign-bank-cards | Newsflare content partner video | 2024-10-18 | Media/practical | Reports Shenzhen Metro smart POS ticketing for foreign bank cards at service centers, with named station official; used for payment-friction note, not legal policy. |
 | S06 | https://www.eyeshenzhen.com/content/2024-04/01/content_30824823.htm | EyeShenzhen | 2024-04-01 | Official | Cross-border public transport card guide; key source for Octopus/Shenzhen Tong/Hu Tong Xing distinctions. |
 | S07 | https://www.eyeshenzhen.com/content/2025-11/07/content_31798798.htm | EyeShenzhen | 2025-11-07 | Official | Expat service-center guidance; useful for foreigner-facing practical support framing. |
-| S08 | https://www.sz.gov.cn/en_szgov/services/transport/checkpoints/content/post_12473181.html | Shenzhen Government Online / Office of Port of Entry and Exit of Shenzhen Municipal People's Government | 2025-11-04 | Official | Official checkpoint list and opening-hour source for land/sea/rail/airport ports. |
-| S09 | https://www.sz.gov.cn/en_szgov/news/latest/content/post_12585852.html | Shenzhen Government Online / Shenzhen Daily | 2026-01-09 | Official | Current practical guide to six major Shenzhen-Hong Kong crossings. |
+| S08 | https://www.sz.gov.cn/en_szgov/services/personal/checkpoints/content/post_12473181.html | Shenzhen Government Online / Office of Port of Entry and Exit of Shenzhen Municipal People's Government | 2025-11-04 | Official | Official checkpoint list and opening-hour source for land/sea/rail/airport ports. |
+| S09 | https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/NewsPolicies/Policies/content/post_12625736.html | Shenzhen Government Online / Shenzhen Daily | 2026-01-09 | Official | Current practical guide to six major Shenzhen-Hong Kong crossings. |
 | S10 | https://www.immd.gov.hk/eng/contactus/control_points.html | Hong Kong Immigration Department | Continuously updated, accessed 2026-05-10 | Official | Authoritative Hong Kong-side control point contacts and operating-hour reference. |
 | S11 | https://www.mtr.com.hk/en/customer/services/er_lo.html | MTR Corporation | Undated service page, accessed 2026-05-10 | Official / transport operator | Official Lo Wu/Lok Ma Chau rail-control-point service details. |
 | S12 | https://www.highspeed.mtr.com.hk/en/guide/process-departure.html | MTR High Speed Rail | Undated guide, accessed 2026-05-10 | Official / transport operator | Official West Kowloon high-speed rail departure and immigration process. |
 | S13 | https://www.highspeed.mtr.com.hk/en/ticket/ticket-purchase.html | MTR High Speed Rail | Undated guide, accessed 2026-05-10 | Official / transport operator | Official HSR ticket-purchase guidance, useful for passport/real-name ticketing context. |
-| S14 | https://www.sz.gov.cn/en_szgov/travel/shopping/content/post_1385805.html | Shenzhen Government Online | 2020-07-28 | Official | Shekou Cruise Homeport official description and transport role. |
-| S15 | https://www.sz.gov.cn/en_szgov/travel/sz_attractions/content/post_10572861.html | Shenzhen Government Online | 2023-03-06 | Official | Official English listing for Window of the World, including hours. |
-| S16 | https://www.sz.gov.cn/en_szgov/travel/sz_attractions/content/post_10572860.html | Shenzhen Government Online | 2023-03-06 | Official | Official English listing for Splendid China Folk Culture Villages, including hours. |
+| S14 | https://www.sz.gov.cn/en_szgov/travel/index.html | Shenzhen Government Online | Continuously maintained, accessed 2026-05-10 | Official | Official travel index noting wharfs, rail stations, attractions, and travel agencies. |
+| S15 | https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Attractions/content/post_11857074.html | Culture, Radio, Television, Tourism and Sports Bureau of Shenzhen Municipality / Shenzhen Government Online | 2023-03-06 | Official | Official English listing for Window of the World, including location and metro access. |
+| S16 | https://www.sz.gov.cn/en_szgov/travel/cultural/content/post_1352119.html | Culture, Radio, Television, Tourism and Sports Bureau of Shenzhen Municipality / Shenzhen Government Online | 2023-03-06 | Official | Official English listing for Splendid China, including cultural/theme-park description and location. |
 | S17 | https://www.octloft.cn/en/ | OCT-LOFT | Accessed 2026-05-10 | Official attraction/institution | Official OCT-LOFT site, verified HTTP 200. |
 | S18 | https://www.eyeshenzhen.com/content/2023-05/12/content_30192680.htm | EyeShenzhen | 2023-05-12 | Official | Sea World Culture & Arts Center profile; reliable official tourism portal entry. |
-| S19 | https://www.eyeshenzhen.com/content/2024-09/06/content_31202866.htm | EyeShenzhen | 2024-09-06 | Official | Free-attractions round-up covering public parks, waterfronts, and major urban leisure sites. |
-| S20 | https://www.eyeshenzhen.com/content/2023-05/12/content_30191069.htm | EyeShenzhen | 2023-05-12 | Official | Dapeng Fortress profile; official tourism portal entry. |
-| S21 | https://www.eyeshenzhen.com/content/2023-09/18/content_30483772.htm | EyeShenzhen | 2023-09-18 | Official | Shenzhen park profiles including Lianhuashan and Shenzhen Bay Park context. |
-| S22 | https://www.eyeshenzhen.com/content/2023-05/18/content_30206064.htm | EyeShenzhen | 2023-05-18 | Official | Shenzhen Museum profile with opening hours and Monday closure. |
-| S23 | https://www.eyeshenzhen.com/content/2023-04/27/content_30152051.htm | EyeShenzhen | 2023-04-27 | Official | Shenzhen Museum of Contemporary Art and Urban Planning profile with hours and Monday closure. |
-| S24 | https://www.eyeshenzhen.com/content/2025-02/17/content_31471837.htm | EyeShenzhen | 2025-02-17 | Official | Pingshan cultural-landmark coverage; current official context for Pingshan's art/culture positioning. |
-| S25 | https://www.eyeshenzhen.com/content/2025-05/21/content_31558975.htm | EyeShenzhen | 2025-05-21 | Official | Hakka cuisine feature; used for Hakka food positioning. |
-| S26 | https://www.eyeshenzhen.com/content/2023-05/12/content_30192551.htm | EyeShenzhen | 2023-05-12 | Official | Food street / seafood street coverage; useful for Yantian/Luohu dining context. |
-| S27 | https://www.eyeshenzhen.com/content/2025-08/26/content_31700096.htm | EyeShenzhen | 2025-08-26 | Official | Yantian night-market/seafood context; official portal, newer dining reference. |
+| S19 | https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html | Shenzhen Government Online | Accessed 2026-05-10 | Official | Dameisha Beach Park official city-park page with opening hours and address. |
+| S20 | https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Districts/DapengNewDistrict/content/mpost_11892734.html | Shenzhen Government Online | 2024 | Official | Dapeng weekend guide covering Dapeng Fortress, beaches, guesthouse clusters, and coastal nature. |
+| S21 | https://www.sz.gov.cn/en_szgov/news/infocus/park/index.html | Shenzhen Government Online | Continuously maintained, accessed 2026-05-10 | Official | Shenzhen City of Parks portal with Lianhua Hill, Shenzhen Bay Park, and park contact context. |
+| S22 | https://www.eyeshenzhen.com/content/2017-04/18/content_18765325.htm | EyeShenzhen | 2017-04-18, crawled current | Official | Museums-in-Shenzhen guide with Shenzhen Museum and MOCAPE hours/closure details. |
+| S23 | https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Attractions/content/post_12404821.html | Shenzhen Government Online / Nanfang News Network | 2025-09-18 | Official | Current MOCAPE profile with opening hours and address. |
+| S24 | https://www.eyeshenzhen.com/content/2025-11/14/content_31770842.htm | EyeShenzhen | 2025-11-14 | Official | Pingshan SkyShuttle/day guide covering Pingshan Culture Center and Pingshan Art Museum. |
+| S25 | https://www.eyeshenzhen.com/content/2025-05/21/content_31573613.htm | EyeShenzhen / IN SHENZHEN | 2025-05-21 | Official | Hakka cuisine feature covering stuffed tofu and Hakka regional dishes. |
+| S26 | https://www.eyeshenzhen.com/content/2023-05/12/content_30222725.htm | EyeShenzhen / Shenzhen Municipal Talent Affairs Bureau | 2023-05-12 | Official | Food-streets guide covering Sea World, Leyuan Road, Bagua Road, and Yantian Seafood Street. |
+| S27 | https://www.eyeshenzhen.com/content/2018-03/22/content_18721928.htm | EyeShenzhen | 2018-03-22 | Official | Yantian Seafood Street listing; older but still useful for location and food-street identity. |
 | S28 | https://www.sz.gov.cn/en_szgov/news/latest/content/post_12348906.html | Shenzhen Government Online / Shenzhen Daily | 2025-09-10 | Official | Longhua sightseeing bus and visitor mobility context around Shenzhen North and Longhua. |
 | S29 | https://www.chinafortravelers.com/booking-train-tickets-china-12306-english-guide/ | ChinaForTravelers | 2026-04-30 | Traveller/practical | Detailed foreign-passport 12306 booking friction; used only for non-official practical warnings. |
 | S30 | https://www.travelchinaguide.com/china-trains/shenzhen-guangzhou.htm | TravelChinaGuide | Accessed 2026-05-10 | Traveller/practical | Practical station-to-station train-time reference; not used for legal/policy claims. |
 | S31 | https://www.travelchinaguide.com/china-trains/shenzhen-huizhou.htm | TravelChinaGuide | Accessed 2026-05-10 | Traveller/practical | Practical train-time reference for Huizhou day-trip feasibility; not used for official policy. |
+| S32 | https://www.sz.gov.cn/en_szgov/travel/natural/content/post_9984706.html | Futian District / Shenzhen Government Online | 2023-03-09 | Official | Futian Mangrove Ecological Park page with conservation context and species figures. |
+| S33 | https://www.sz.gov.cn/en_szgov/aboutsz/whatson/content/post_1348898.html | Shenzhen Government Online / Shenzhen Daily | 2019-05-17 | Official | OCT Harbour event/location page; used for official venue, metro, and WeChat context. |
+| S34 | https://www.sz.gov.cn/en_szgov/travel/malls/content/post_9604699.html | Shenzhen Government Online | 2022-03-07 | Official | Coastal City official mall profile with location and metro access. |
 
-Source mix: 28 official/institutional URLs, 3 traveller/practical URLs. Traveller/community count remains below the requested maximum of 7.
+Source mix: 30 official/institutional URLs, 4 media/traveller/practical URLs. Traveller/community-style count remains below the requested maximum of 7.
 
 ---
 
@@ -556,10 +559,10 @@ All image URLs below are Wikimedia Commons file pages, verified reachable on 202
 - Food clusters covered: Hakka, Cantonese/HK-style dim sum, migrant cuisines, coastal seafood, foreigner-friendly districts.
 - Day trips covered: Dapeng, Hong Kong, Macau, Huizhou, Guangzhou.
 - Practical pitfalls covered: 8, including all six requested pitfalls.
-- Distinct research/source URLs: 31.
-- Official/institutional source URLs: 28.
-- Traveller/practical source URLs: 3.
+- Distinct research/source URLs: 34.
+- Official/institutional source URLs: 30.
+- Media/traveller/practical source URLs: 4.
 - Distinct verified CC/public-domain image URLs: 15.
-- Total distinct URLs in report: 46.
+- Total distinct citation/image URLs in report: 49.
 - Total finding count: 64 fielded findings, counted as 10 district findings + 15 attraction findings + 6 cross-border findings + 8 food/dining findings + 5 day-trip findings + 8 practical-pitfall findings + 12 source/image QA findings.
 - Saved path: c:/Users/h/Documents/New project 2/v2/research/city-shenzhen-deep.md

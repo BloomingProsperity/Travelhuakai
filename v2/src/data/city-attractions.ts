@@ -1,0 +1,368 @@
+import type { CityId } from "./transport";
+
+export type AttractionTier = "must-visit" | "worth-it";
+
+export type Attraction = {
+  id: string;
+  cityId: CityId;
+  nameEn: string;
+  nameZh: string;
+  districtEn: string;
+  districtZh: string;
+  tier: AttractionTier;
+  whyEn: string;
+  whyZh: string;
+  officialUrl: string;
+  imageUrl: string;
+  imageCredit: string;
+};
+
+export const cityAttractions: Attraction[] = [
+  // BEIJING
+  {
+    id: "bj-forbidden-city",
+    cityId: "beijing",
+    nameEn: "Forbidden City / Palace Museum",
+    nameZh: "故宫博物院",
+    districtEn: "Dongcheng",
+    districtZh: "东城区",
+    tier: "must-visit",
+    whyEn: "The largest intact imperial palace complex in the world: 180 acres, 980 buildings, 8,728 rooms. 24 emperors lived here across the Ming and Qing dynasties (1420–1912). 7-day advance booking is mandatory; 40,000-person daily cap sells out within minutes for peak weekends.",
+    whyZh: "世界上最大、最完整的宫殿建筑群——180 英亩、980 栋建筑、8,728 间房，明清两代 24 位皇帝在此居住（1420–1912）。强制 7 天前预约，每日限 4 万人，旺季周末几分钟售罄。",
+    officialUrl: "https://intl.dpm.org.cn/visit.html?l=en",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Forbidden_City_Beijing_Shenwumen_Gate.JPG",
+    imageCredit: "Kallgan, CC BY-SA 3.0"
+  },
+  {
+    id: "bj-mutianyu",
+    cityId: "beijing",
+    nameEn: "Great Wall at Mutianyu",
+    nameZh: "慕田峪长城",
+    districtEn: "Huairou",
+    districtZh: "怀柔区",
+    tier: "must-visit",
+    whyEn: "The Great Wall section most recommended by experienced foreign travellers: well-restored Ming masonry, 23 watchtowers across a 2.25 km open stretch, cable car or chair lift up plus a toboggan descent. The official English website accepts international cards directly. 1 million foreign visitors in 2025.",
+    whyZh: "老外公认首选的长城段：明代修缮完整、23 座敌台、2.25 公里开放段，缆车 / 索道上山 + 滑道下山。官方英文站直接收外卡。2025 年外籍游客 100 万。",
+    officialUrl: "https://en.mutianyugreatwall.com",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Great_Wall_of_China_July_2006.JPG",
+    imageCredit: "Nicolas M. Perrault, CC0 Public Domain"
+  },
+  {
+    id: "bj-summer-palace",
+    cityId: "beijing",
+    nameEn: "Summer Palace",
+    nameZh: "颐和园",
+    districtEn: "Haidian",
+    districtZh: "海淀区",
+    tier: "must-visit",
+    whyEn: "The best-preserved imperial garden in China and a UNESCO World Heritage Site. 220-hectare Kunming Lake with Longevity Hill behind it, the 728 m painted Long Corridor, and a theatrical landscape designed for Qing imperial leisure. Audio guides in 19 languages.",
+    whyZh: "中国保存最完好的皇家园林，UNESCO 世界遗产。220 公顷昆明湖背靠万寿山，728 米彩绘长廊，清代皇室避暑园林。19 语种语音导览。",
+    officialUrl: "https://english.beijing.gov.cn/specials/parktours/guidevisitors/summerpalace/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Summer_Palace%2C_Beijing_01.JPG",
+    imageCredit: "Namiac, CC BY-SA 3.0"
+  },
+  {
+    id: "bj-temple-of-heaven",
+    cityId: "beijing",
+    nameEn: "Temple of Heaven",
+    nameZh: "天坛",
+    districtEn: "Dongcheng",
+    districtZh: "东城区",
+    tier: "must-visit",
+    whyEn: "The largest extant sacrificial altar complex in China (built 1406–1420), used by every Ming and Qing emperor to pray for harvest. The triple-eaved circular blue-roofed Hall of Prayer for Good Harvests is one of the most architecturally perfect timber structures in Chinese history. The park grounds double as a morning tai chi venue.",
+    whyZh: "中国现存最大的祭祀建筑群（1406–1420 建），明清每位皇帝祈谷之处。三檐圆形蓝顶的祈年殿是中国木构建筑的巅峰之一。清晨园区是市民练太极的场所。",
+    officialUrl: "https://english.beijing.gov.cn/specials/parktours/guidevisitors/templeofheaven/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/aa/%28Temple_of_heaven%29_Beijing_-_China.JPG",
+    imageCredit: "Wikimedia Commons, CC-licensed"
+  },
+  {
+    id: "bj-lama-temple",
+    cityId: "beijing",
+    nameEn: "Lama Temple (Yonghe Gong)",
+    nameZh: "雍和宫",
+    districtEn: "Dongcheng",
+    districtZh: "东城区",
+    tier: "must-visit",
+    whyEn: "The most important Tibetan Buddhist temple in Beijing and one of the most significant Gelug monasteries outside Tibet. Originally an imperial princely mansion (1694), converted to a lamasery in 1744. The Wanfu Pavilion houses an 18 m Maitreya Buddha carved from a single sandalwood tree — the tallest sandalwood statue in the world.",
+    whyZh: "北京最重要的藏传佛教寺院，也是西藏以外最重要的格鲁派寺院之一。原为皇子府邸（1694），1744 年改为喇嘛庙。万福阁内 18 米高的弥勒佛由单根白檀木雕成，是世界最高的檀香木佛像。",
+    officialUrl: "https://english.beijing.gov.cn/specials/ticketing/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/ca/20130915-Beijing-Yonghegong_Lama_Temple-Statue_of_Tsong-kha-pa.JPG",
+    imageCredit: "Rewindat (Pan Xuan), CC BY-SA 3.0"
+  },
+  {
+    id: "bj-tiananmen",
+    cityId: "beijing",
+    nameEn: "Tiananmen Square",
+    nameZh: "天安门广场",
+    districtEn: "Dongcheng",
+    districtZh: "东城区",
+    tier: "must-visit",
+    whyEn: "The world's third-largest public square (440,000 sq m) and the symbolic centre of the People's Republic. Daily flag-raising ceremony at sunrise, flag-lowering at sunset. Free entry but mandatory advance reservation (1–7 days ahead) — walk-up visitors are turned back at the security checkpoint.",
+    whyZh: "世界第三大广场（44 万平方米），中华人民共和国象征性中心。每日日出升旗、日落降旗。免费入场但必须提前 1–7 天线上预约，未预约会被安检拦下。",
+    officialUrl: "https://english.beijing.gov.cn/travellinginbeijing/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Tiananmen_Square.JPG",
+    imageCredit: "Paul Louis (Daduzi), CC BY-SA 3.0"
+  },
+
+  // SHANGHAI
+  {
+    id: "sh-bund",
+    cityId: "shanghai",
+    nameEn: "The Bund",
+    nameZh: "外滩",
+    districtEn: "Huangpu",
+    districtZh: "黄浦区",
+    tier: "must-visit",
+    whyEn: "Shanghai's essential postcard view: a 1.5 km Huangpu River promenade where early-20th-century banks and trading houses face the Pudong skyline. The simplest place to read both Shanghai's treaty-port past and its vertical-finance present in one frame. Sunrise for low crowds; evening for the skyline lights.",
+    whyZh: "上海的代表景观：1.5 公里黄浦江岸 promenade，20 世纪初银行 / 商行建筑群正对浦东天际线。一眼读懂上海租界历史与金融现代的最简单地点。日出避人潮，夜晚看灯光秀。",
+    officialUrl: "https://english.shanghai.gov.cn/en-ScenicSpots/20231205/584672cc6d044eabb5f7f6fc9049a19f.html",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Shanghai_skyline_waterfront_pudong_5166168_69_70.jpg",
+    imageCredit: "Ermell, CC0"
+  },
+  {
+    id: "sh-yu-garden",
+    cityId: "shanghai",
+    nameEn: "Yu Garden",
+    nameZh: "豫园",
+    districtEn: "Huangpu",
+    districtZh: "黄浦区",
+    tier: "must-visit",
+    whyEn: "Shanghai's best central classical Chinese garden: Ming-dynasty rockeries, pavilions, ponds, zigzag bridges, the City God Temple area, and the surrounding old-city bazaar streets all compressed into a walkable historic quarter. The clearest contrast to the Bund's European riverfront.",
+    whyZh: "上海最好的中心地带中式园林：明代假山、亭台、池塘、九曲桥，加上城隍庙区与老城厢市集。和外滩欧式江岸最直接的对照。",
+    officialUrl: "https://english.shanghai.gov.cn/en-ScenicSpots/20231205/dc76893b94c248d195eaf7f4d44c6597.html",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Yu_Garden_Shanghai_November_2017_003.jpg",
+    imageCredit: "King of Hearts, CC BY-SA 4.0"
+  },
+  {
+    id: "sh-shanghai-tower",
+    cityId: "shanghai",
+    nameEn: "Shanghai Tower",
+    nameZh: "上海中心大厦",
+    districtEn: "Pudong",
+    districtZh: "浦东新区",
+    tier: "must-visit",
+    whyEn: "China's highest observation deck and the clearest \"future Shanghai\" attraction. The 118th-floor Top of Shanghai Observatory gives a 360° view over Lujiazui, the Bund, Suzhou Creek, and the city's full scale. Heavily affected by haze, rain, and low cloud — book close to the visit date.",
+    whyZh: "中国最高观景台，最直接的\"未来上海\"景点。118 层 \"上海之巅\" 360° 俯瞰陆家嘴、外滩、苏州河和全城规模。受雾霾、雨、低云影响很大——临近日期再订票。",
+    officialUrl: "https://www.shanghaitower.com/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Shanghai_-_Shanghai_Tower_-_0001.jpg",
+    imageCredit: "Stefan Fussan, CC BY-SA 3.0"
+  },
+  {
+    id: "sh-lujiazui",
+    cityId: "shanghai",
+    nameEn: "Lujiazui Skyline & Oriental Pearl Tower",
+    nameZh: "陆家嘴 / 东方明珠",
+    districtEn: "Pudong",
+    districtZh: "浦东新区",
+    tier: "must-visit",
+    whyEn: "The compact skyline cluster opposite the Bund: Oriental Pearl Tower, Shanghai Tower, World Financial Center, Jin Mao, IFC, riverside promenades. Iconic photos, sky decks, malls, and easy riverfront contrast with the Bund. Outdoor district free; sky-deck tickets via official ticketing.",
+    whyZh: "外滩对面的紧凑天际线：东方明珠、上海中心、环球金融中心、金茂、IFC、滨江漫道。标志性合影、登顶观景、商场、和外滩做最直接对照。室外区免费，登顶通过官方票务。",
+    officialUrl: "https://english.shanghai.gov.cn/en-ScenicSpots/20231205/19a5f5184eca45728fd57a4d4c8efc61.html",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Oriental_Pearl_Tower_in_Shanghai.jpg",
+    imageCredit: "Dmitry A. Mottl, CC BY-SA 4.0"
+  },
+  {
+    id: "sh-wukang",
+    cityId: "shanghai",
+    nameEn: "Wukang Road & Wukang Mansion",
+    nameZh: "武康路 / 武康大楼",
+    districtEn: "Xuhui",
+    districtZh: "徐汇区",
+    tier: "must-visit",
+    whyEn: "The most visitor-friendly slice of the former French Concession: plane-tree streets, garden villas, writer residences, cafes, Ferguson Lane, and the flatiron Wukang Mansion photo spot. Better as a slow walk than a single attraction. Police barriers control the crowds at the photo intersection on weekends.",
+    whyZh: "原法租界最适合游客的一段：梧桐街道、花园洋房、名人故居、咖啡馆、费尔根巷、像熨斗一样三角的武康大楼合影点。更适合慢慢逛而不是 \"打卡\"。周末交警在拍照路口分流。",
+    officialUrl: "https://english.shanghai.gov.cn/en-ScenicSpots/20231218/596192f5f59048bbbc3fa54d92304e93.html",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Wukang_Mansion_20250504-1.jpg",
+    imageCredit: "Suicasmo, CC0"
+  },
+  {
+    id: "sh-museum",
+    cityId: "shanghai",
+    nameEn: "Shanghai Museum (People's Square)",
+    nameZh: "上海博物馆 人民广场馆",
+    districtEn: "Huangpu",
+    districtZh: "黄浦区",
+    tier: "must-visit",
+    whyEn: "The strongest single stop for ancient Chinese art in central Shanghai: bronzes, ceramics, jade, calligraphy, painting, seals, furniture. Since 2025-09 individual visitors no longer need reservations for the People's Square site during normal periods — entry with passport. Closed Mondays.",
+    whyZh: "市中心最强的中国古代艺术单点：青铜、陶瓷、玉器、书法、绘画、印章、家具。2025-09 起人民广场馆平时散客不需预约，凭护照入馆。周一闭馆。",
+    officialUrl: "https://english.shanghai.gov.cn/en-MuseumsGalleries/20231218/01fdd3f62d0c4877bc289ec0b1de6afa.html",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/03/Shanghai_Museum_on_People%27s_Square.jpg",
+    imageCredit: "Alexey Yakovlev, CC0"
+  },
+
+  // GUANGZHOU
+  {
+    id: "gz-canton-tower",
+    cityId: "guangzhou",
+    nameEn: "Canton Tower",
+    nameZh: "广州塔",
+    districtEn: "Haizhu",
+    districtZh: "海珠区",
+    tier: "must-visit",
+    whyEn: "At 600 m, the tallest TV/observation tower in China and third tallest in the world. The twisted-waist design is one of Guangzhou's most recognisable silhouettes. Indoor and outdoor observation decks; the glass sky walk and bubble tram revolving outside the structure offer extra thrills. Best at dusk for the daylight-to-LED transition.",
+    whyZh: "600 米，中国最高电视塔，世界第三。\"小蛮腰\" 扭转造型是广州的招牌剪影。室内外观景台 + 户外 \"蜘蛛侠\" 玻璃栈道 + 外圈 \"摩天轮\" 太空舱。黄昏看从白天到夜灯的过渡最好看。",
+    officialUrl: "https://www.cantontower.com/en/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/04/Guangzhou_Tower.jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 3.0"
+  },
+  {
+    id: "gz-shamian",
+    cityId: "guangzhou",
+    nameEn: "Shamian Island",
+    nameZh: "沙面岛",
+    districtEn: "Liwan",
+    districtZh: "荔湾区",
+    tier: "must-visit",
+    whyEn: "A 0.3 km² sand-bar in the Pearl River that served as the British and French concession from 1859 to 1943. Over 150 European-style buildings — consulates, banks, churches, trading-house villas — shaded by 200-year-old banyan trees. No cars, no admission, no hawkers inside. Often described as the calmest 90 minutes in Guangzhou.",
+    whyZh: "珠江上 0.3 平方公里的沙洲，1859–1943 是英法租界。150+ 栋欧式建筑（领事馆、银行、教堂、洋行别墅）藏在 200 岁榕树下。无车、无门票、无叫卖。常被形容为广州最安静的 90 分钟。",
+    officialUrl: "https://www.gz.gov.cn/guangzhouinternational/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chan_Clan_Ancestral_Hall.JPG",
+    imageCredit: "Lai.jack, CC BY-SA 3.0 (Lingnan architecture reference image)"
+  },
+  {
+    id: "gz-chen-clan",
+    cityId: "guangzhou",
+    nameEn: "Chen Clan Ancestral Hall",
+    nameZh: "陈家祠",
+    districtEn: "Liwan",
+    districtZh: "荔湾区",
+    tier: "must-visit",
+    whyEn: "Built 1888–1894 by 72 Chen-surname clans as an exam-preparation hostel and worship site, this compound is the supreme surviving example of Lingnan decorative architecture. Every surface — ridge beams, screen walls, courtyards — is covered in polychrome ceramic figurines, wood carvings, stone reliefs, and brick carvings. \"The Pearl of Lingnan Architecture.\"",
+    whyZh: "1888–1894 由 72 个陈姓宗族集资建造，作为考棚 + 祠堂。岭南装饰建筑的巅峰之作——屋脊、影壁、庭院每一面都布满彩瓷塑、木雕、石雕、砖雕。被称为\"岭南建筑明珠\"。",
+    officialUrl: "https://www.gz.gov.cn/guangzhouinternational/visitors/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chan_Clan_Ancestral_Hall.JPG",
+    imageCredit: "Lai.jack, CC BY-SA 3.0"
+  },
+  {
+    id: "gz-yuexiu-park",
+    cityId: "guangzhou",
+    nameEn: "Yuexiu Park & Five Rams Statue",
+    nameZh: "越秀公园 / 五羊雕像",
+    districtEn: "Yuexiu",
+    districtZh: "越秀区",
+    tier: "must-visit",
+    whyEn: "The Five Rams Statue (1959, 11 m, 130+ pieces of granite) is Guangzhou's civic symbol, rooted in the legend of five celestial rams who brought rice seeds to bless the city. Yuexiu Park (860,000 sq m) is the city's largest urban park and contains Zhenhai Tower (Ming-dynasty watchtower, now Guangzhou Museum) and remnants of the ancient city wall. Free entry; packed with locals doing tai chi from 6 AM.",
+    whyZh: "五羊雕像（1959，11 米，130+ 块花岗岩拼成）是广州市徽——五仙人骑五羊降下稻穗赐福此城。越秀公园（86 万平方米）是市内最大公园，含明代镇海楼（现广州博物馆）和古城墙遗迹。免费，6 点开始本地人打太极。",
+    officialUrl: "http://www.gz.gov.cn/guangzhouinternational/visitors/whattosee/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/42/Guangzhou_Opera_House_and_Canton_Tower.JPG",
+    imageCredit: "Ecow, CC0 Public Domain"
+  },
+  {
+    id: "gz-pearl-river",
+    cityId: "guangzhou",
+    nameEn: "Pearl River Night Cruise",
+    nameZh: "珠江夜游",
+    districtEn: "Haizhu / Tianhe",
+    districtZh: "海珠 / 天河",
+    tier: "must-visit",
+    whyEn: "The illuminated-skyline cruise is Guangzhou's signature evening activity. The 60–90 min route passes below Canton Tower, along Zhujiang New Town's glittering skyline, past the colonial Shamian shores, and through bridges lit in colour. The 8 PM departure catches the full LED show on Canton Tower.",
+    whyZh: "广州的招牌夜游。60–90 分钟航线穿广州塔下，沿珠江新城天际线，过沙面租界岸，经过彩灯桥。20:00 班次能看到广州塔完整 LED 秀。",
+    officialUrl: "https://www.cantontower.com/en/pearlriver/otherships/",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/04/Guangzhou_Tower.jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 3.0"
+  },
+  {
+    id: "gz-baiyun-mountain",
+    cityId: "guangzhou",
+    nameEn: "Baiyun Mountain",
+    nameZh: "白云山",
+    districtEn: "Baiyun",
+    districtZh: "白云区",
+    tier: "worth-it",
+    whyEn: "A 5A national scenic area 12 km from the centre. The Moxing Ridge peak (382 m) gives panoramic views over Greater Guangzhou on clear days. 21 sq km park with cable car, Mingchun Valley aviary (5,000+ birds), Yunxi Botanical Garden, and the Sculpture Park. 20 million visitors per year. Popular for early-morning Cantonese exercise culture.",
+    whyZh: "市中心 12 公里外的国家 5A 风景区。摩星岭（382 米）天气好可俯瞰广州大都市。21 平方公里园区有缆车、鸣春谷大鸟笼（5,000+ 鸟）、云溪植物园、雕塑公园。年接待 2 千万。早晨本地人晨练文化浓。",
+    officialUrl: "http://www.baiyunshan.com.cn",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/42/Guangzhou_Opera_House_and_Canton_Tower.JPG",
+    imageCredit: "Ecow, CC0 Public Domain (Guangzhou skyline reference)"
+  },
+
+  // SHENZHEN
+  {
+    id: "sz-window-of-the-world",
+    cityId: "shenzhen",
+    nameEn: "Window of the World",
+    nameZh: "世界之窗",
+    districtEn: "Nanshan",
+    districtZh: "南山区",
+    tier: "must-visit",
+    whyEn: "Shenzhen's classic theme-park shorthand: global landmarks rebuilt at miniature or reduced scale, evening shows, and a distinctly Shenzhen \"world showcase\" atmosphere. Useful for families, Hong Kong day-trippers, and visitors who want an unmistakably Shenzhen attraction rather than another mall. 09:00–22:30 daily.",
+    whyZh: "深圳的标志性主题公园：全球地标按比例缩小重建 + 夜场表演。带娃、港人 day trip、想要 \"很深圳\" 而不是逛商场的人最适合。每日 09:00–22:30。",
+    officialUrl: "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Attractions/content/post_11857074.html",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/WINDOWS_OF_THE_WORLD_SHENZHEN_(63).jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    id: "sz-octloft",
+    cityId: "shenzhen",
+    nameEn: "OCT-LOFT Creative Culture Park",
+    nameZh: "华侨城创意文化园",
+    districtEn: "Nanshan",
+    districtZh: "南山区",
+    tier: "must-visit",
+    whyEn: "Shenzhen's easiest creative-neighbourhood stop: converted industrial buildings, cafes, design shops, small galleries, bookstores, and periodic markets. Pairs well with the OCT theme-park cluster and works as a lower-pressure alternative to paid theme parks. Public district, free entry; shops Tuesday–Sunday.",
+    whyZh: "深圳最轻松的创意社区：旧工业建筑改造，咖啡馆、设计店、小画廊、书店、定期集市。可和 OCT 主题公园一起逛，是不想买票主题公园的另一选择。开放街区免费，店家周二至周日营业。",
+    officialUrl: "https://www.octloft.cn/en/",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/OCT_LOFT,_SHENZHEN_(38).jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    id: "sz-sea-world",
+    cityId: "shenzhen",
+    nameEn: "Sea World & Culture and Arts Center",
+    nameZh: "蛇口海上世界 / 海上世界文化艺术中心",
+    districtEn: "Nanshan / Shekou",
+    districtZh: "南山 蛇口",
+    tier: "must-visit",
+    whyEn: "Shekou Sea World is the most foreigner-friendly dining and nightlife node in Shenzhen: waterfront plaza, restaurants, bars, the Minghua ship landmark, and the Sea World Culture & Arts Center (Design Society) for design exhibitions. A strong first-night choice for visitors arriving from Hong Kong or by ferry.",
+    whyZh: "蛇口海上世界是深圳对外国人最友好的餐饮夜生活区：海滨广场、餐厅、酒吧、明华轮地标、海上世界文化艺术中心（设计互联）的设计展。从香港或船过来的第一晚最佳选择。",
+    officialUrl: "https://www.eyeshenzhen.com/content/2023-05/12/content_30192680.htm",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sea_World,_Shekou,_Shenzhen_%E8%9B%87%E5%8F%A3%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C_-_panoramio.jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 3.0"
+  },
+  {
+    id: "sz-dameisha",
+    cityId: "shenzhen",
+    nameEn: "Dameisha & Xiaomeisha Beaches",
+    nameZh: "大梅沙 / 小梅沙",
+    districtEn: "Yantian",
+    districtZh: "盐田区",
+    tier: "worth-it",
+    whyEn: "The easiest named beaches from central Shenzhen, now reachable comfortably by Metro Line 8. Dameisha is the classic public beach; Xiaomeisha has been redeveloped and is more resort-like. Best for \"I want the coast and seafood without a full Dapeng day\". Avoid peak midday in summer.",
+    whyZh: "市中心最容易到的命名海滩，地铁 8 号线直达。大梅沙是经典公众海滩，小梅沙改造后更度假风。\"想看海吃海鲜但不想花一整天去大鹏\" 的最佳选择。夏天避开正午。",
+    officialUrl: "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dameisha_Beach_230530_(1).jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    id: "sz-lianhuashan",
+    cityId: "shenzhen",
+    nameEn: "Lianhuashan Park",
+    nameZh: "莲花山公园",
+    districtEn: "Futian",
+    districtZh: "福田区",
+    tier: "worth-it",
+    whyEn: "The central Shenzhen orientation hill: free, easy by metro, good city views, and famous for the Deng Xiaoping statue overlooking the CBD. One of the cleanest ways to read Shenzhen's reform-era identity to a first-time visitor.",
+    whyZh: "市中心定位山：免费、地铁可达、市景好、邓小平雕像俯瞰 CBD 是地标。给第一次来深圳的游客解释 \"改革开放\" 最直接的地方。",
+    officialUrl: "https://www.sz.gov.cn/en_szgov/news/infocus/park/index.html",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/LIANHUASHAN_PARK,_SHENZHEN_(34).jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    id: "sz-dapeng",
+    cityId: "shenzhen",
+    nameEn: "Dapeng Fortress & Peninsula",
+    nameZh: "大鹏所城 / 大鹏半岛",
+    districtEn: "Dapeng New District",
+    districtZh: "大鹏新区",
+    tier: "must-visit",
+    whyEn: "The closest thing Shenzhen has to a historic coastal village plus a beach/hiking day. The Ming/Qing-era fortress gives military-history texture; nearby Jiaochangwei, Yangmeikeng, Xichong/Dongchong and coastal routes make it a full-day nature trip. A private driver or tour reduces friction for foreign visitors.",
+    whyZh: "深圳最接近 \"历史海边村庄 + 海滩 + 徒步\" 的目的地。明清古城给军事历史质感；附近较场尾、杨梅坑、西涌 / 东涌、海岸线步道一整天玩得满。外国游客建议包车 / 跟团降低难度。",
+    officialUrl: "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Districts/DapengNewDistrict/content/mpost_11892734.html",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dapeng_Fortress,_Shenzhen.jpg",
+    imageCredit: "Wikimedia Commons, CC BY-SA 4.0"
+  }
+];
+
+export function attractionsByCity(cityId: CityId): Attraction[] {
+  return cityAttractions.filter((a) => a.cityId === cityId);
+}

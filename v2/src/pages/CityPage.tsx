@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router";
 import { CITY_LABELS, type CityId } from "../data/transport";
 import { useLang } from "../store/language";
 import VisaChecker from "../components/pillar/VisaChecker";

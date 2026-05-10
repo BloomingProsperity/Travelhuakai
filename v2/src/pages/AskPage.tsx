@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import clsx from "clsx";
 import { badgeLadder, sampleQuestions, type BadgeTier } from "../data/phase2-preview";
 import { useLang } from "../store/language";

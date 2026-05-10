@@ -58,8 +58,8 @@
   "hotPaths": [
     {
       "path": "v2\\src\\App.tsx",
-      "accessCount": 17,
-      "lastAccessed": 1778424143243,
+      "accessCount": 19,
+      "lastAccessed": 1778424606516,
       "type": "file"
     },
     {
@@ -75,15 +75,27 @@
       "type": "file"
     },
     {
+      "path": "v2\\package.json",
+      "accessCount": 11,
+      "lastAccessed": 1778424679736,
+      "type": "file"
+    },
+    {
       "path": "v2\\src\\components\\map\\ProvinceShapeLayer.tsx",
       "accessCount": 7,
       "lastAccessed": 1778340972771,
       "type": "file"
     },
     {
-      "path": "v2\\package.json",
+      "path": "v2\\src\\main.tsx",
       "accessCount": 6,
-      "lastAccessed": 1778424146326,
+      "lastAccessed": 1778424499127,
+      "type": "file"
+    },
+    {
+      "path": "v2\\vite.config.ts",
+      "accessCount": 6,
+      "lastAccessed": 1778424546604,
       "type": "file"
     },
     {
@@ -93,9 +105,15 @@
       "type": "file"
     },
     {
-      "path": "v2\\src\\main.tsx",
+      "path": "v2\\src\\components\\layout\\SiteHeader.tsx",
       "accessCount": 5,
-      "lastAccessed": 1778424144701,
+      "lastAccessed": 1778424596461,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\components\\layout\\SiteFooter.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1778424597895,
       "type": "file"
     },
     {
@@ -111,39 +129,21 @@
       "type": "file"
     },
     {
-      "path": "v2\\vite.config.ts",
-      "accessCount": 4,
-      "lastAccessed": 1778423941738,
-      "type": "file"
-    },
-    {
       "path": "v2\\src\\styles\\globals.css",
-      "accessCount": 3,
-      "lastAccessed": 1778340913426,
+      "accessCount": 4,
+      "lastAccessed": 1778424516213,
       "type": "file"
     },
     {
-      "path": "v2\\src\\components\\layout\\SiteHeader.tsx",
+      "path": "v2\\index.html",
       "accessCount": 3,
-      "lastAccessed": 1778378022960,
-      "type": "file"
-    },
-    {
-      "path": "v2\\src\\components\\layout\\SiteFooter.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1778422829234,
+      "lastAccessed": 1778424499592,
       "type": "file"
     },
     {
       "path": "map3d.js",
       "accessCount": 2,
       "lastAccessed": 1778319057020,
-      "type": "file"
-    },
-    {
-      "path": "v2\\index.html",
-      "accessCount": 2,
-      "lastAccessed": 1778319712517,
       "type": "file"
     },
     {
@@ -168,6 +168,18 @@
       "path": "v2\\src\\components\\map\\Map3D.tsx",
       "accessCount": 2,
       "lastAccessed": 1778341127895,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\LanguageProvider.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778424510736,
+      "type": "file"
+    },
+    {
+      "path": "v2\\src\\store\\AtlasProvider.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778424511133,
       "type": "file"
     },
     {
@@ -315,21 +327,9 @@
       "type": "file"
     },
     {
-      "path": "v2\\src\\store\\AtlasProvider.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1778320433529,
-      "type": "file"
-    },
-    {
       "path": "v2\\src\\store\\language.ts",
       "accessCount": 1,
       "lastAccessed": 1778320435418,
-      "type": "file"
-    },
-    {
-      "path": "v2\\src\\store\\LanguageProvider.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1778320439617,
       "type": "file"
     },
     {

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { moderationFlow, sampleShares } from "../data/phase2-preview";
 import { useLang } from "../store/language";
 

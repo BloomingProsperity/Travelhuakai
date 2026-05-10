@@ -12,6 +12,10 @@ v2/.vite/
 v2/node_modules/.vite/
 .vite/
 
+# React Router generated types
+.react-router/
+v2/.react-router/
+
 # Logs
 *.log
 npm-debug.log*

@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router";
 import { CITY_LABELS, type CityId } from "../../data/transport";
 import { useLang } from "../../store/language";
 import LanguageSwitch from "./LanguageSwitch";

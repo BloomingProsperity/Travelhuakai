@@ -25,3 +25,6 @@
 {"t":0,"agent":"ad60594","agent_type":"git-master","event":"agent_stop","success":true,"duration_ms":20907}
 {"t":0,"agent":"ae470b9","agent_type":"document-specialist","event":"agent_stop","success":true,"duration_ms":1113335}
 {"t":0,"agent":"ae70b07","agent_type":"document-specialist","event":"agent_stop","success":true,"duration_ms":1143475}
+{"t":0,"agent":"aac610e","agent_type":"document-specialist","event":"agent_stop","success":true,"duration_ms":1349557}
+{"t":0,"agent":"a942509","agent_type":"executor","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a90af72","agent_type":"document-specialist","event":"agent_stop","success":true,"duration_ms":1392289}
