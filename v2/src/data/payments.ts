@@ -90,7 +90,7 @@ export const preArrivalChecklist: PreArrivalStep[] = [
   {
     id: "atm-strategy",
     titleEn: "Bank of China ATMs are the most reliable for foreign cards",
-    titleZh: "中国银行 ATM 接受外卡最稳",
+    titleZh: "中国银行 ATM 接受外卡最可靠",
     bodyEn: "BOC ATMs accept all five major networks; CNY 3,000 per withdrawal. Issuer's own daily/weekly limits also apply.",
     bodyZh: "中行 ATM 接受 5 大卡组织外卡；单笔上限 ¥3,000，发卡行自有日/周限额另算。",
     sourceId: "boc-atm-en"
@@ -100,7 +100,7 @@ export const preArrivalChecklist: PreArrivalStep[] = [
     titleEn: "POS coverage is broadest at airports and major hotels",
     titleZh: "外卡 POS 覆盖最高的是机场与高星酒店",
     bodyEn: "Outside those, small merchants tend to be Alipay/WeChat-only or cash. Don't rely on Visa swipe in mom-and-pop shops.",
-    bodyZh: "机场和高星酒店外卡 POS 覆盖最好；街边小店多为支付宝/微信或现金，不要依赖外卡刷卡。",
+    bodyZh: "机场和高星酒店外卡 POS 覆盖最好；小型商户多使用支付宝/微信或现金，不要依赖外卡刷卡。",
     sourceId: "pboc-payment-uplift"
   }
 ];

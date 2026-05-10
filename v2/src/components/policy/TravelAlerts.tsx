@@ -45,7 +45,7 @@ export default function TravelAlerts() {
         id: "online-entry-card",
         severity: "info",
         titleEn: "Online entry card now available — beware fake sites",
-        titleZh: "外国人入境卡已可线上填报，警惕收费山寨网站",
+        titleZh: "外国人入境卡已可线上填报，警惕仿冒收费网站",
         bodyEn: `Free pre-fill at the official NIA portal since ${onlineEntryCard.effectiveDate}. Kiosk and paper card remain available at the port.`,
         bodyZh: `自 ${onlineEntryCard.effectiveDate} 起在国家移民管理局官网免费预填；未提前填可在口岸设备或纸卡补填。`,
         sourceId: onlineEntryCard.sourceIds[0]

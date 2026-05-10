@@ -8,7 +8,7 @@ export default function SourcesNote() {
     <p className="mt-6 border-t border-line pt-4 text-xs text-muted">
       {isZh ? (
         <>
-          本页所有数字、政策、地址均引自中国政府官方公开来源；实操坑点引自老外旅行社区博客，每条标注作者与日期。
+          本页所有数字、政策、地址均引自中国政府官方公开来源；实际注意事项引自外籍游客旅行社区博客，每条标注作者与日期。
           <Link to="/sources" className="ml-1 font-bold text-jade hover:underline">
             查看全部信息来源 →
           </Link>

@@ -183,7 +183,7 @@ function PolicySummary() {
         unit=""
         body={
           lang === "zh"
-            ? "免费线上预填；未提前填可在口岸设备或纸卡补填；勿使用收费山寨网站。"
+            ? "免费线上预填；未提前填可在口岸设备或纸卡补填；勿使用仿冒收费网站。"
             : "Free pre-fill online; kiosk or paper card available at port; ignore counterfeit pay-to-fill sites."
         }
       />

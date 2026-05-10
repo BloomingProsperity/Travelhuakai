@@ -1,0 +1,559 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Ahrefs" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e11]: Ahrefs
+        - menubar "Navigation Menu" [ref=e12]:
+          - menuitem "Product" [ref=e13]:
+            - generic [ref=e14] [cursor=pointer]:
+              - text: Product
+              - img [ref=e16]
+          - link "Our data" [ref=e19] [cursor=pointer]:
+            - /url: /big-data
+          - menuitem "Resources" [ref=e20]:
+            - generic [ref=e21] [cursor=pointer]:
+              - text: Resources
+              - img [ref=e23]
+          - link "Pricing" [ref=e26] [cursor=pointer]:
+            - /url: /pricing
+          - link "Enterprise" [ref=e28] [cursor=pointer]:
+            - /url: /enterprise
+        - generic [ref=e29]:
+          - button "Search Ahrefs" [ref=e34] [cursor=pointer]:
+            - img [ref=e35]
+          - img [ref=e41] [cursor=pointer]
+          - link "Sign in" [ref=e45] [cursor=pointer]:
+            - /url: //app.ahrefs.com/user/login
+          - link "Sign up" [ref=e46] [cursor=pointer]:
+            - /url: /pricing?utm_source=keyword-difficulty
+            - generic [ref=e49]: Sign up
+        - generic [ref=e53]: Ahrefs
+    - link "Sign up" [ref=e56] [cursor=pointer]:
+      - /url: /pricing?utm_source=keyword-difficulty
+      - generic [ref=e59]: Sign up
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - link "Free SEO Tools /" [ref=e70] [cursor=pointer]:
+          - /url: /free-seo-tools
+          - generic [ref=e71]: Free SEO Tools /
+        - heading "Keyword Difficulty Checker" [level=1] [ref=e72]
+      - generic [ref=e73]:
+        - paragraph [ref=e75]: See how hard it will be to get into top 10 search results for any keyword.
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - textbox "Enter keyword" [active] [ref=e85]
+            - generic [ref=e86]:
+              - paragraph [ref=e88]: For example,
+              - button "keyword research" [ref=e90] [cursor=pointer]:
+                - paragraph [ref=e91]: keyword research
+          - generic [ref=e92]:
+            - button "United States" [ref=e95] [cursor=pointer]:
+              - generic [ref=e96]:
+                - generic [ref=e100]: United States
+                - img [ref=e102]
+            - button "Check keyword" [ref=e104] [cursor=pointer]:
+              - generic [ref=e107]: Check keyword
+    - generic [ref=e121]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - link "Ahrefs SEO Toolbar" [ref=e125] [cursor=pointer]:
+            - /url: /seo-toolbar?utm_source=free-tools&utm_campaign=keyword_ideas&utm_medium=keyword-difficulty
+            - generic [ref=e127]: Ahrefs SEO Toolbar
+          - heading "Find keyword ideas, right from your browser" [level=2] [ref=e128]
+          - paragraph [ref=e129]: See fresh keyword suggestions directly in the search results for any query.
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - link "Add to Chrome" [ref=e132] [cursor=pointer]:
+              - /url: https://chrome.google.com/webstore/detail/ahrefs-seo-toolbar/hgmoccdbjhknikckedaaebbpdeebhiei?utm_source=free-tools&utm_campaign=keyword_ideas&utm_medium=keyword-difficulty
+              - generic [ref=e135]: Add to Chrome
+            - paragraph [ref=e137]:
+              - text: Also available for
+              - link "Firefox" [ref=e138] [cursor=pointer]:
+                - /url: https://addons.mozilla.org/en-US/firefox/addon/ahrefs-seo-toolbar/?utm_source=free-tools&utm_campaign=keyword_ideas&utm_medium=keyword-difficulty
+              - text: and
+              - link "Safari" [ref=e139] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/ahrefs-seo-toolbar/id6499265972?utm_source=free-tools&utm_campaign=keyword_ideas&utm_medium=keyword-difficulty
+              - text: .
+          - link "Learn more →" [ref=e141] [cursor=pointer]:
+            - /url: /seo-toolbar?utm_source=free-tools&utm_campaign=keyword_ideas&utm_medium=keyword-difficulty
+      - img [ref=e143]
+    - generic [ref=e148]:
+      - heading "What is Keyword Difficulty?" [level=2] [ref=e154]
+      - paragraph [ref=e160]: In the world of SEO, Keyword Difficulty is a handy metric which helps you understand how hard it would be to rank for a particular search query.
+      - paragraph [ref=e166]:
+        - text: People who are new to SEO may confuse ‘Keyword Difficulty’ with ‘Competition’ in the
+        - link "Google Keyword Planner" [ref=e167] [cursor=pointer]:
+          - /url: https://support.google.com/google-ads/answer/3022575
+        - text: . ‘Competition’ only refers to paid search results while ‘Keyword Difficulty’ applies to organic search results.
+      - img [ref=e175]
+    - separator [ref=e176]
+    - generic [ref=e181]:
+      - heading "Ahrefs’ Keyword Difficulty metric" [level=2] [ref=e187]
+      - paragraph [ref=e193]:
+        - text: Google says that links and content relevance are the top ranking metrics for your site's placement in search results. The results of
+        - link "our own study" [ref=e194] [cursor=pointer]:
+          - /url: https://ahrefs.com/blog/on-page-seo/
+        - text: of two million keywords confirm this statement. We see a strong correlation between the number of referring domains a web page has and its position in Google search results. ‘Competition’ only refers to paid search results while ‘Keyword Difficulty’ applies to organic search results.
+      - paragraph [ref=e200]: That is why, to calculate Keyword Difficulty, we analyze the search results for a keyword and look at the number of referring domains the top 10 ranking pages have. In simple terms, the more referring domains across the top ranking pages, the higher the Keyword Difficulty.
+      - img [ref=e208]
+      - paragraph [ref=e214]: Our metric is widely considered the most accurate one. Keyword Difficulty doesn't take into account any on-page factors.
+      - paragraph [ref=e220]: Keyword Difficulty evaluates the chances of getting into top 10 of search results (not top 3 or top 1). Apart from backlink profiles and content relevancy, many additional ranking factors come into play among the results of the first page of any search.
+    - separator [ref=e221]
+    - generic [ref=e226]:
+      - heading "Keyword Difficulty scale" [level=2] [ref=e232]
+      - paragraph [ref=e238]: We measure Keyword Difficulty on a scale from 0 to 100, with the latter being the hardest.
+      - img [ref=e246]
+      - paragraph [ref=e252]: The scale is not linear. Each value on it corresponds to the estimated number of referring domains (RDs) a page needs in order to get to the first page of search results.
+      - paragraph [ref=e258]: "Here’s the relation between the Keyword Difficulty and the number of RDs needed:"
+      - table [ref=e265]:
+        - rowgroup [ref=e266]:
+          - row "Keyword Difficulty 0 10 20 30 40 50 60 70 80 90" [ref=e267]:
+            - cell "Keyword Difficulty" [ref=e268]:
+              - heading "Keyword Difficulty" [level=4] [ref=e269]
+            - cell "0" [ref=e270]:
+              - paragraph [ref=e271]: "0"
+            - cell "10" [ref=e272]:
+              - paragraph [ref=e273]: "10"
+            - cell "20" [ref=e274]:
+              - paragraph [ref=e275]: "20"
+            - cell "30" [ref=e276]:
+              - paragraph [ref=e277]: "30"
+            - cell "40" [ref=e278]:
+              - paragraph [ref=e279]: "40"
+            - cell "50" [ref=e280]:
+              - paragraph [ref=e281]: "50"
+            - cell "60" [ref=e282]:
+              - paragraph [ref=e283]: "60"
+            - cell "70" [ref=e284]:
+              - paragraph [ref=e285]: "70"
+            - cell "80" [ref=e286]:
+              - paragraph [ref=e287]: "80"
+            - cell "90" [ref=e288]:
+              - paragraph [ref=e289]: "90"
+          - row "Referring Domains 0 10 22 36 56 84 129 202 353 756" [ref=e290]:
+            - cell "Referring Domains" [ref=e291]:
+              - heading "Referring Domains" [level=4] [ref=e292]
+            - cell "0" [ref=e293]:
+              - paragraph [ref=e294]: "0"
+            - cell "10" [ref=e295]:
+              - paragraph [ref=e296]: "10"
+            - cell "22" [ref=e297]:
+              - paragraph [ref=e298]: "22"
+            - cell "36" [ref=e299]:
+              - paragraph [ref=e300]: "36"
+            - cell "56" [ref=e301]:
+              - paragraph [ref=e302]: "56"
+            - cell "84" [ref=e303]:
+              - paragraph [ref=e304]: "84"
+            - cell "129" [ref=e305]:
+              - paragraph [ref=e306]: "129"
+            - cell "202" [ref=e307]:
+              - paragraph [ref=e308]: "202"
+            - cell "353" [ref=e309]:
+              - paragraph [ref=e310]: "353"
+            - cell "756" [ref=e311]:
+              - paragraph [ref=e312]: "756"
+      - paragraph [ref=e318]: If you’re aiming for a keyword with KD 40, you’re likely to need approximately 56 RDs to get into the top 10 search results.
+    - separator [ref=e319]
+    - generic [ref=e324]:
+      - heading "Find easy-to-rank keywords from millions of ideas" [level=2] [ref=e330]
+      - paragraph [ref=e336]: Ahrefs’ keyword database has 19.2 billion keywords across hundreds of locations. It is already the biggest database on the web, and it’s growing steadily.
+      - paragraph [ref=e342]: Whether you are analyzing your own list of keywords or looking at the suggestions in Keywords Explorer, our Keyword Difficulty metric shows you the opportunities you can easily rank for.
+      - img [ref=e350]
+      - paragraph [ref=e356]: Combined with Search Volume, this metric will help you find keywords that can bring you very good organic traffic but don’t require much effort to rank for.
+      - paragraph [ref=e362]: However, despite its value, Keyword Difficulty should not be the only factor affecting your keyword choice. We recommend that you use it as the first filter to sort through the massive number of possible keywords.
+      - paragraph [ref=e368]:
+        - text: The further choice of keywords must be based on a complete and detailed
+        - link "SERP analysis" [ref=e369] [cursor=pointer]:
+          - /url: /serp-checker
+        - text: . No SEO tool can do this work for you, because every case is unique. But you will find all the necessary data for analysis in the SERP overview Ahrefs provides.
+    - separator [ref=e370]
+    - generic [ref=e375]:
+      - heading "Integration with other Ahrefs tools" [level=2] [ref=e381]
+      - paragraph [ref=e387]: The Keyword Difficulty metric integrates across all keyword reports in Ahrefs tools. Look into keyword suggestions, analyze your competitors' organic traffic, track your own keyword rankings - Keyword Difficulty will always be at hand.
+      - paragraph [ref=e393]:
+        - strong [ref=e394]: Keywords explorer —
+        - text: Keyword Difficulty Checker has a prominent place in this tool. It helps you make informed decisions about the keywords to go after, whether you’re analyzing individual keywords, sorting through your keyword list or looking at
+        - link "keyword suggestions" [ref=e395] [cursor=pointer]:
+          - /url: /keyword-generator
+        - text: .
+      - paragraph [ref=e401]:
+        - strong [ref=e402]: Site Explorer —
+        - text: Discover keywords that bring organic traffic to any page of your competitors' websites and use the Keyword Difficulty metric to see if you will be able to rank in the top 10 for those keywords.
+      - paragraph [ref=e408]:
+        - strong [ref=e409]: Content Explorer —
+        - text: This potent tool finds the most popular content on any topic for you. It also shows you the list of keywords a content page ranks for, along with their Keyword Difficulty.
+      - paragraph [ref=e415]:
+        - strong [ref=e416]: Rank Tracker —
+        - text: This tool tracks your website ranking positions changes for any given keyword. Keyword Search Volume and Keyword Difficulty are not static numbers, so we update them regularly for each of your projects.
+    - separator [ref=e417]
+    - generic [ref=e421]:
+      - heading "Keyword Research Guides" [level=2] [ref=e422]
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - link [ref=e425] [cursor=pointer]:
+            - /url: https://ahrefs.com/blog/keyword-difficulty/
+            - img [ref=e427]
+          - generic [ref=e428]:
+            - 'link "Keyword Difficulty: How to Estimate Your Chances to Rank" [ref=e429] [cursor=pointer]':
+              - /url: https://ahrefs.com/blog/keyword-difficulty/
+              - 'heading "Keyword Difficulty: How to Estimate Your Chances to Rank" [level=4] [ref=e430]'
+            - paragraph [ref=e431]: Keyword Difficulty (KD) is an SEO metric that estimates how hard it would be to rank on the first page of Google for a given keyword.
+        - generic [ref=e432]:
+          - link [ref=e433] [cursor=pointer]:
+            - /url: https://ahrefs.com/blog/low-competition-keywords/
+            - img [ref=e435]
+          - generic [ref=e436]:
+            - link "How to Find Low-Competition Keywords for SEO" [ref=e437] [cursor=pointer]:
+              - /url: https://ahrefs.com/blog/low-competition-keywords/
+              - heading "How to Find Low-Competition Keywords for SEO" [level=4] [ref=e438]
+            - paragraph [ref=e439]: Learn how to find low-hanging keyword opportunities in a few steps, and how to make sure those keywords are truly low-competition and easy to rank for.
+        - generic [ref=e440]:
+          - link [ref=e441] [cursor=pointer]:
+            - /url: https://ahrefs.com/blog/keyword-research/
+            - img [ref=e443]
+          - generic [ref=e444]:
+            - 'link "Keyword Research: The Beginner’s Guide by Ahrefs" [ref=e445] [cursor=pointer]':
+              - /url: https://ahrefs.com/blog/keyword-research/
+              - 'heading "Keyword Research: The Beginner’s Guide by Ahrefs" [level=4] [ref=e446]'
+            - paragraph [ref=e447]: Keyword research is the process of finding keywords that you want to rank for in search engines. It’s about understanding what potential customers are searching for and why.
+    - generic [ref=e453]:
+      - generic [ref=e456]:
+        - generic [ref=e459]: Sign up for Ahrefs. Stay discoverable—in search, AI, and beyond.
+        - generic [ref=e464]: 22,073 users joined Ahrefs in the last 7 days
+      - generic [ref=e466]:
+        - generic [ref=e469]:
+          - generic [ref=e470]:
+            - generic [ref=e471]:
+              - heading "Starter" [level=3] [ref=e472]
+              - paragraph [ref=e473]: See what people search and spy on competitors.
+              - link "Learn more ↗" [ref=e475] [cursor=pointer]:
+                - /url: https://ahrefs.com/blog/starter-plan/
+            - img [ref=e477]
+          - generic [ref=e478]:
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - generic [ref=e482]: $
+                - generic [ref=e483]: "29"
+              - generic [ref=e485]: /mo
+            - link "Get started" [ref=e486] [cursor=pointer]:
+              - /url: /signup?interval=monthly&plan=trial&return=KeywordDifficulty&utm_content=starter-banner&utm_medium=keyword-difficulty&utm_source=free-tools
+              - generic [ref=e489]: Get started
+        - generic [ref=e492]:
+          - generic [ref=e493]:
+            - generic [ref=e494]:
+              - heading "Ahrefs Free" [level=3] [ref=e495]
+              - paragraph [ref=e496]: Get Ahrefs data on your site and fix what matters.
+              - link "Learn more ↗" [ref=e498] [cursor=pointer]:
+                - /url: /free
+            - img [ref=e500]
+          - generic [ref=e501]:
+            - generic [ref=e502]: Free
+            - link "Get started" [ref=e503] [cursor=pointer]:
+              - /url: /signup?utm_source=free-tools&utm_content=awt-banner&utm_medium=keyword-difficulty&plan=awt&return=KeywordDifficulty
+              - generic [ref=e506]: Get started
+    - contentinfo [ref=e509]:
+      - generic [ref=e512]:
+        - generic [ref=e513]:
+          - generic [ref=e514]:
+            - generic [ref=e516]:
+              - generic [ref=e518]: Core tools
+              - generic [ref=e519]:
+                - link "Brand Radar" [ref=e521] [cursor=pointer]:
+                  - /url: /brand-radar
+                  - generic [ref=e522]: Brand Radar
+                - link "Custom Prompts" [ref=e524] [cursor=pointer]:
+                  - /url: /custom-prompts
+                  - generic [ref=e525]: Custom Prompts
+                - link "Dashboard" [ref=e527] [cursor=pointer]:
+                  - /url: /dashboard
+                  - generic [ref=e528]: Dashboard
+                - link "Site Explorer" [ref=e530] [cursor=pointer]:
+                  - /url: /site-explorer
+                  - generic [ref=e531]: Site Explorer
+                - link "Keywords Explorer" [ref=e533] [cursor=pointer]:
+                  - /url: /keywords-explorer
+                  - generic [ref=e534]: Keywords Explorer
+                - link "Site Audit" [ref=e536] [cursor=pointer]:
+                  - /url: /site-audit
+                  - generic [ref=e537]: Site Audit
+                - link "Rank Tracker" [ref=e539] [cursor=pointer]:
+                  - /url: /rank-tracker
+                  - generic [ref=e540]: Rank Tracker
+                - link "GSC Insights" [ref=e542] [cursor=pointer]:
+                  - /url: /gsc-insights
+                  - generic [ref=e543]: GSC Insights
+                - link "Content Explorer" [ref=e545] [cursor=pointer]:
+                  - /url: /content-explorer
+                  - generic [ref=e546]: Content Explorer
+                - link "Web Analytics" [ref=e548] [cursor=pointer]:
+                  - /url: /web-analytics
+                  - generic [ref=e549]: Web Analytics
+                - link "Bot Analytics" [ref=e551] [cursor=pointer]:
+                  - /url: /bot-analytics
+                  - generic [ref=e552]: Bot Analytics
+                - link "GBP Monitor" [ref=e554] [cursor=pointer]:
+                  - /url: /gbp-monitor
+                  - generic [ref=e555]: GBP Monitor
+                - link "Social Media Manager" [ref=e557] [cursor=pointer]:
+                  - /url: /social-media-manager
+                  - generic [ref=e558]: Social Media Manager
+                - link "AI Content Helper" [ref=e560] [cursor=pointer]:
+                  - /url: /ai-content-helper
+                  - generic [ref=e561]: AI Content Helper
+                - link "Report Builder" [ref=e563] [cursor=pointer]:
+                  - /url: /report-builder
+                  - generic [ref=e564]: Report Builder
+            - generic [ref=e566]:
+              - link "Use cases →" [ref=e568] [cursor=pointer]:
+                - /url: /use-cases
+                - generic [ref=e569]: Use cases →
+              - generic [ref=e570]:
+                - link "Competitive Intelligence" [ref=e572] [cursor=pointer]:
+                  - /url: /use-cases/competitive-intelligence
+                  - generic [ref=e573]: Competitive Intelligence
+                - link "PPC" [ref=e575] [cursor=pointer]:
+                  - /url: /use-cases/ppc
+                  - generic [ref=e576]: PPC
+                - link "SEO" [ref=e578] [cursor=pointer]:
+                  - /url: /use-cases/seo
+                  - generic [ref=e579]: SEO
+                - link "AEO" [ref=e581] [cursor=pointer]:
+                  - /url: /use-cases/aeo
+                  - generic [ref=e582]: AEO
+                - link "Content Marketing" [ref=e584] [cursor=pointer]:
+                  - /url: /use-cases/content-marketing
+                  - generic [ref=e585]: Content Marketing
+                - link "Brand Marketing" [ref=e587] [cursor=pointer]:
+                  - /url: /use-cases/brand-marketing
+                  - generic [ref=e588]: Brand Marketing
+                - link "Investing" [ref=e590] [cursor=pointer]:
+                  - /url: /use-cases/investing
+                  - generic [ref=e591]: Investing
+          - generic [ref=e593]:
+            - generic [ref=e595]: Extra tools & features
+            - generic [ref=e596]:
+              - link "Domain Comparison" [ref=e598] [cursor=pointer]:
+                - /url: /domain-comparison
+                - generic [ref=e599]: Domain Comparison
+              - link "Batch Analysis" [ref=e601] [cursor=pointer]:
+                - /url: /batch-analysis
+                - generic [ref=e602]: Batch Analysis
+              - link "Link Intersect" [ref=e604] [cursor=pointer]:
+                - /url: /link-intersect
+                - generic [ref=e605]: Link Intersect
+              - link "Content Gap" [ref=e607] [cursor=pointer]:
+                - /url: /content-gap
+                - generic [ref=e608]: Content Gap
+              - link "Email Alerts" [ref=e610] [cursor=pointer]:
+                - /url: /alerts
+                - generic [ref=e611]: Email Alerts
+              - link "SEO Checker" [ref=e613] [cursor=pointer]:
+                - /url: /seo-checker
+                - generic [ref=e614]: SEO Checker
+              - link "Traffic Checker" [ref=e616] [cursor=pointer]:
+                - /url: /traffic-checker
+                - generic [ref=e617]: Traffic Checker
+              - link "Looker Studio Connectors" [ref=e619] [cursor=pointer]:
+                - /url: /google-data-studio-connectors
+                - generic [ref=e620]: Looker Studio Connectors
+              - link "Top Websites" [ref=e622] [cursor=pointer]:
+                - /url: https://ahrefstop.com/websites
+                - generic [ref=e623]: Top Websites
+              - link "Patches" [ref=e625] [cursor=pointer]:
+                - /url: /patches
+                - generic [ref=e626]: Patches
+              - link "Portfolios" [ref=e628] [cursor=pointer]:
+                - /url: /portfolios
+                - generic [ref=e629]: Portfolios
+              - link "IndexNow" [ref=e631] [cursor=pointer]:
+                - /url: /index-now
+                - generic [ref=e632]: IndexNow
+              - link "AI Tech SEO" [ref=e634] [cursor=pointer]:
+                - /url: /ai-tech-seo
+                - generic [ref=e635]: AI Tech SEO
+              - link "All tools" [ref=e637] [cursor=pointer]:
+                - /url: /all
+                - generic [ref=e638]: All tools
+              - link [ref=e640] [cursor=pointer]:
+                - /url: /agent-a?utm_source=ahrefs_website&utm_content=footer
+          - generic [ref=e643]:
+            - generic [ref=e644]:
+              - link "Free SEO tools →" [ref=e646] [cursor=pointer]:
+                - /url: /free-seo-tools
+                - generic [ref=e647]: Free SEO tools →
+              - generic [ref=e648]:
+                - link "Ahrefs Free" [ref=e650] [cursor=pointer]:
+                  - /url: /free
+                  - generic [ref=e651]: Ahrefs Free
+                - link "AI Visibility Checker" [ref=e653] [cursor=pointer]:
+                  - /url: /ai-visibility-checker
+                  - generic [ref=e654]: AI Visibility Checker
+                - link "AI Writing Tools" [ref=e656] [cursor=pointer]:
+                  - /url: /writing-tools
+                  - generic [ref=e657]: AI Writing Tools
+                - link "Backlink Checker" [ref=e659] [cursor=pointer]:
+                  - /url: /backlink-checker
+                  - generic [ref=e660]: Backlink Checker
+                - link "Broken Link Checker" [ref=e662] [cursor=pointer]:
+                  - /url: /broken-link-checker
+                  - generic [ref=e663]: Broken Link Checker
+                - link "Website Authority Checker" [ref=e665] [cursor=pointer]:
+                  - /url: /website-authority-checker
+                  - generic [ref=e666]: Website Authority Checker
+                - link "Keyword Generator" [ref=e668] [cursor=pointer]:
+                  - /url: /keyword-generator
+                  - generic [ref=e669]: Keyword Generator
+                - link "SERP Checker" [ref=e671] [cursor=pointer]:
+                  - /url: /serp-checker
+                  - generic [ref=e672]: SERP Checker
+                - link "SEO Toolbar" [ref=e674] [cursor=pointer]:
+                  - /url: /seo-toolbar
+                  - generic [ref=e675]: SEO Toolbar
+                - link "Keyword Rank Checker" [ref=e677] [cursor=pointer]:
+                  - /url: /keyword-rank-checker
+                  - generic [ref=e678]: Keyword Rank Checker
+                - generic [ref=e680]: Keyword Difficulty Checker
+                - link "Website Checker" [ref=e682] [cursor=pointer]:
+                  - /url: /website-checker
+                  - generic [ref=e683]: Website Checker
+                - link "SEO Audit Tool" [ref=e685] [cursor=pointer]:
+                  - /url: /seo-audit-tool
+                  - generic [ref=e686]: SEO Audit Tool
+                - link "Word Count" [ref=e688] [cursor=pointer]:
+                  - /url: https://wordcount.com
+                  - generic [ref=e689]: Word Count
+            - generic [ref=e690]:
+              - link "Alternatives →" [ref=e692] [cursor=pointer]:
+                - /url: /vs
+                - generic [ref=e693]: Alternatives →
+              - link "Ahrefs vs Semrush" [ref=e696] [cursor=pointer]:
+                - /url: /vs/semrush
+                - generic [ref=e697]: Ahrefs vs Semrush
+          - generic [ref=e698]:
+            - generic [ref=e699]:
+              - generic [ref=e701]: Product
+              - generic [ref=e702]:
+                - link "Pricing" [ref=e704] [cursor=pointer]:
+                  - /url: /pricing
+                  - generic [ref=e705]: Pricing
+                - link "Our data" [ref=e707] [cursor=pointer]:
+                  - /url: /big-data
+                  - generic [ref=e708]: Our data
+                - link "AhrefsBot" [ref=e710] [cursor=pointer]:
+                  - /url: /robot
+                  - generic [ref=e711]: AhrefsBot
+                - link "API" [ref=e713] [cursor=pointer]:
+                  - /url: https://docs.ahrefs.com/api
+                  - generic [ref=e714]: API
+                - link "MCP" [ref=e716] [cursor=pointer]:
+                  - /url: /mcp
+                  - generic [ref=e717]: MCP
+                - link "Enterprise" [ref=e719] [cursor=pointer]:
+                  - /url: /enterprise
+                  - generic [ref=e720]: Enterprise
+                - link "What’s new?" [ref=e722] [cursor=pointer]:
+                  - /url: https://ahrefs.com/blog/category/product-blog/
+                  - generic [ref=e723]: What’s new?
+            - generic [ref=e725]:
+              - generic [ref=e727]: Company
+              - generic [ref=e728]:
+                - link "About" [ref=e730] [cursor=pointer]:
+                  - /url: /about
+                  - generic [ref=e731]: About
+                - link "Testimonials" [ref=e733] [cursor=pointer]:
+                  - /url: /reviews
+                  - generic [ref=e734]: Testimonials
+                - link "Events" [ref=e736] [cursor=pointer]:
+                  - /url: /events
+                  - generic [ref=e737]: Events
+                - link "Team" [ref=e739] [cursor=pointer]:
+                  - /url: /team
+                  - generic [ref=e740]: Team
+                - link "Careers" [ref=e742] [cursor=pointer]:
+                  - /url: /careers
+                  - generic [ref=e743]: Careers
+                - link "Tech" [ref=e745] [cursor=pointer]:
+                  - /url: /tech
+                  - generic [ref=e746]: Tech
+                - link "Media kit" [ref=e748] [cursor=pointer]:
+                  - /url: /media-kit
+                  - generic [ref=e749]: Media kit
+                - link "Contact us" [ref=e751] [cursor=pointer]:
+                  - /url: mailto:support@ahrefs.com
+                  - generic [ref=e752]: Contact us
+          - generic [ref=e754]:
+            - generic [ref=e756]: Resources
+            - generic [ref=e757]:
+              - link "Blog" [ref=e759] [cursor=pointer]:
+                - /url: https://ahrefs.com/blog/
+                - generic [ref=e760]: Blog
+              - link "Tech blog" [ref=e762] [cursor=pointer]:
+                - /url: https://tech.ahrefs.com
+                - generic [ref=e763]: Tech blog
+              - link "Podcast" [ref=e765] [cursor=pointer]:
+                - /url: /podcast
+                - generic [ref=e766]: Podcast
+              - link "SEO Guide" [ref=e768] [cursor=pointer]:
+                - /url: /seo
+                - generic [ref=e769]: SEO Guide
+              - link "Help center" [ref=e771] [cursor=pointer]:
+                - /url: https://help.ahrefs.com/
+                - generic [ref=e772]: Help center
+              - link "Academy" [ref=e774] [cursor=pointer]:
+                - /url: /academy
+                - generic [ref=e775]: Academy
+              - link "Marketing Agencies" [ref=e777] [cursor=pointer]:
+                - /url: /agencies
+                - generic [ref=e778]: Marketing Agencies
+              - link "Digest" [ref=e780] [cursor=pointer]:
+                - /url: /newsletter
+                - generic [ref=e781]: Digest
+        - separator [ref=e783]
+        - generic [ref=e785]:
+          - generic [ref=e786]:
+            - paragraph [ref=e789]: "© 2026 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore 048581"
+            - generic [ref=e791]:
+              - link "Legal info" [ref=e793] [cursor=pointer]:
+                - /url: /legal
+                - generic [ref=e794]: Legal info
+              - link "Privacy Policy" [ref=e796] [cursor=pointer]:
+                - /url: /legal/privacy-policy
+                - generic [ref=e797]: Privacy Policy
+              - link "Cookie Settings" [ref=e799] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e800]: Cookie Settings
+              - link "Terms of Service" [ref=e802] [cursor=pointer]:
+                - /url: /legal/terms
+                - generic [ref=e803]: Terms of Service
+          - generic [ref=e804]:
+            - generic [ref=e806]:
+              - link [ref=e807] [cursor=pointer]:
+                - /url: https://x.com/ahrefs
+                - button [ref=e808]:
+                  - img [ref=e809]
+              - link [ref=e811] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/AhrefsCom
+                - button [ref=e812]:
+                  - img [ref=e813]
+              - link [ref=e815] [cursor=pointer]:
+                - /url: https://www.instagram.com/ahrefs
+                - button [ref=e816]:
+                  - img [ref=e817]
+              - link [ref=e819] [cursor=pointer]:
+                - /url: https://www.facebook.com/Ahrefs
+                - button [ref=e820]:
+                  - img [ref=e821]
+              - link [ref=e823] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/ahrefs/
+                - button [ref=e824]:
+                  - img [ref=e825]
+            - button "English" [ref=e832] [cursor=pointer]:
+              - generic [ref=e833]:
+                - generic [ref=e835]: English
+                - img [ref=e837]
+  - link [ref=e840] [cursor=pointer]:
+    - /url: https://help.ahrefs.com/?mtm_campaign=floating-help-btn
+    - img [ref=e841]

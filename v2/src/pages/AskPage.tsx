@@ -26,10 +26,10 @@ export default function AskPage() {
       <section className="flex flex-col gap-4">
         <header>
           <span className="text-xs font-bold uppercase tracking-widest text-muted">
-            {isZh ? "答主等级（earn-not-claim）" : "Answerer tier ladder (earn-not-claim)"}
+            {isZh ? "答主等级（通过贡献获得）" : "Answerer tier ladder (earn-not-claim)"}
           </span>
           <h2 className="text-2xl font-bold">
-            {isZh ? "本地徽章不能买，只能赚" : "Local badge cannot be bought — only earned"}
+            {isZh ? "本地徽章不能购买，只能通过贡献获得" : "Local badge cannot be bought — only earned"}
           </h2>
           <p className="text-sm text-muted">
             {isZh
@@ -118,15 +118,15 @@ export default function AskPage() {
             <strong>{isZh ? "答题分数累积" : "Cumulative answer score"}</strong>
             <span className="text-xs text-muted">
               {isZh
-                ? "Stack Overflow 思路：被点赞的回答多了自动升级。可观察、可衡量、不靠人工评判。"
+                ? "参照 Stack Overflow 的机制：被点赞的回答多了自动升级。可观察、可衡量，不依赖人工评判。"
                 : "Stack Overflow approach: enough net-positive answers and you auto-promote. Observable, measurable, no editorial gating."}
             </span>
           </li>
           <li className="flex flex-col gap-1 rounded-lg border border-line bg-white p-3">
-            <strong>{isZh ? "T3 用户互相担保" : "T3 user vouching"}</strong>
+            <strong>{isZh ? "T3 用户担保机制" : "T3 user vouching"}</strong>
             <span className="text-xs text-muted">
               {isZh
-                ? "PGP web-of-trust 模式：两个已认证 T3 用户为新人担保。每个 T3 担保上限有限，避免小圈子互保。"
+                ? "PGP web-of-trust 模式：两个已认证 T3 用户为新人担保。每个 T3 担保上限有限，避免小范围相互担保。"
                 : "PGP web-of-trust pattern: two existing T3 users vouch for a new candidate. Each voucher has a cap to prevent cliques."}
             </span>
           </li>
@@ -136,7 +136,7 @@ export default function AskPage() {
             </strong>
             <span className="text-xs text-muted">
               {isZh
-                ? "不收中国身份证号、不收护照扫描、不绑定微信/支付宝实名 token。这是 PIPL 高压线，外国平台跨境收这类数据需安全评估，得不偿失。"
+                ? "不收中国身份证号、不收护照扫描、不绑定微信/支付宝实名 token。这是 PIPL 合规红线，外国平台跨境收集这类数据需安全评估，风险高于收益。"
                 : "We will NOT collect Chinese national ID numbers, passport scans, or WeChat/Alipay real-name tokens. PIPL forbids cross-border collection without a security assessment — the risk far outweighs the benefit."}
             </span>
           </li>

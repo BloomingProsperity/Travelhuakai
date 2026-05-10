@@ -17,7 +17,7 @@ export default function SharePage() {
         </h1>
         <p className="text-base leading-relaxed text-ink/80">
           {isZh
-            ? "外国游客在北上广深的真实经历——文字 + 照片 + 国家代码。投稿必须勾选发布与翻译授权，所有内容过 AI 审核 + 关键词过滤。"
+            ? "外国游客在北上广深的真实经历——文字 + 照片 + 国家代码。投稿必须勾选发布与翻译授权，所有内容经过 AI 审核与关键词过滤。"
             : "Foreign tourists' real experiences in Beijing, Shanghai, Guangzhou, Shenzhen — text + photos + country code. Submission requires explicit publication-and-translation consent and passes AI moderation + keyword filter."}
         </p>
       </header>
@@ -51,7 +51,7 @@ export default function SharePage() {
             {isZh ? "投稿表单（设计预览）" : "Submission form (design preview)"}
           </span>
           <h2 className="text-2xl font-bold">
-            {isZh ? "授权 checkbox 是必勾项" : "The consent checkbox is non-skippable"}
+            {isZh ? "授权复选框为必选项" : "The consent checkbox is non-skippable"}
           </h2>
         </header>
         <div className="flex flex-col gap-3 rounded-xl border border-dashed border-line bg-paper p-6 opacity-90">
@@ -77,7 +77,7 @@ export default function SharePage() {
               rows={5}
               placeholder={
                 isZh
-                  ? "写下你的真实经历——什么有用、什么坑、出发前希望知道的事…"
+                  ? "写下你的真实经历——哪些信息有用、遇到哪些问题、出发前希望知道的事…"
                   : "What worked, what didn't, what you wish you'd known before flying…"
               }
               className="rounded-lg border border-line bg-white px-3 py-2 text-sm placeholder-muted"
@@ -120,7 +120,7 @@ export default function SharePage() {
             {isZh ? "已发布投稿（占位预览）" : "Published notes (mock preview)"}
           </span>
           <h2 className="text-2xl font-bold">
-            {isZh ? "正文 + 照片 + 国家码 + 城市 tag" : "Text + photos + country + city tag"}
+            {isZh ? "正文 + 照片 + 国家码 + 城市标签" : "Text + photos + country + city tag"}
           </h2>
         </header>
         <ul className="grid gap-3 md:grid-cols-2">

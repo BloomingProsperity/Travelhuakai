@@ -62,7 +62,7 @@ export default function CityPage() {
             </p>
             <div className="flex flex-wrap gap-2 text-xs font-bold uppercase tracking-widest">
               <Link to="/ask" className="rounded-full bg-white border border-line px-3 py-1 hover:border-jade hover:text-jade">
-                {isZh ? "向中国人提问" : "Ask Chinese locals"}
+                {isZh ? "向中国本地用户提问" : "Ask Chinese locals"}
               </Link>
               <Link to="/share" className="rounded-full bg-white border border-line px-3 py-1 hover:border-jade hover:text-jade">
                 {isZh ? "分享旅行" : "Share your trip"}

@@ -139,7 +139,7 @@ export const cityHotlines: Hotline[] = [
     number: "020-12345 / 960169",
     langs: ["EN 24/7", "JA", "KO"],
     noteEn: "960169 is a 3-party interpretation bridge — call it, then it conferences in 110/119/120/12345 for you.",
-    noteZh: "960169 是三方翻译桥——拨通后再帮你接 110/119/120/12345。",
+    noteZh: "960169 是三方翻译转接服务——拨通后再帮你接 110/119/120/12345。",
     sourceId: "gz-960169-bridge"
   },
   {
@@ -249,9 +249,9 @@ export const hospitalVisitFlow = [
   {
     step: 2,
     titleEn: "Bring documents",
-    titleZh: "带文件",
+    titleZh: "携带文件",
     bodyEn: "Original passport (copy not enough). International insurance card + policy. Letter of guarantee from insurer if claiming direct billing.",
-    bodyZh: "护照原件（复印件不行）。国际医保卡 + 保单。若走直付保险，须备保险公司保函。",
+    bodyZh: "必须携带护照原件，复印件不可替代。还需国际医保卡 + 保单。如使用直付保险，须备保险公司保函。",
     sourceId: "pumch-foreign-care"
   },
   {

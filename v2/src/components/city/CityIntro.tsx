@@ -9,7 +9,7 @@ type Props = { cityId: CityId };
 const CITY_BLURB: Record<CityId, { en: string; zh: string }> = {
   beijing: {
     en: "Beijing is the imperial capital — 600 years of palace, temple, and tomb sit on a single north–south axis through the city. The Great Wall is an hour out. Hutong alleys hide the best dumplings. Plan 4–6 days; you will not be bored.",
-    zh: "北京是中国的政治与文化首都——600 年皇城中轴线、故宫、北郊的长城、中心胡同、全国最密集的博物馆与寺庙。外国游客首访通常停 4–6 天。"
+    zh: "北京是中国的政治与文化首都——600 年皇城中轴线、故宫、北郊的长城、老城胡同、全国最密集的博物馆与寺庙。外国游客首访通常停留 4–6 天。"
   },
   shanghai: {
     en: "Shanghai is China at its most international. The Bund — old European banks on the river — stares at the glass towers of Pudong. The former French Concession is plane trees, garden villas, and good coffee. Hangzhou and Suzhou are an hour away by high-speed rail. 3–5 days does it.",
@@ -17,11 +17,11 @@ const CITY_BLURB: Record<CityId, { en: string; zh: string }> = {
   },
   guangzhou: {
     en: "Guangzhou has been a trading port for 2,200 years and still works that way. Yum cha at dawn, Cantonese spoken on the street, Lingnan-style courtyards, and the Pearl River through it all. Twice a year (April and October) the Canton Fair fills the city; prices spike. Hong Kong is 47 minutes away by HSR. 2–3 days is enough for a first trip.",
-    zh: "广州是华南 2200 年商都——清晨饮茶、岭南建筑、珠江、粤语城市气质，半年一届的广交会（4 月 / 10 月）期间价格暴涨。高铁 47 分钟到香港西九龙。首访 2–3 天足够。"
+    zh: "广州是华南 2200 年商都——清晨饮茶、岭南建筑、珠江、粤语城市气质，半年一届的广交会（4 月 / 10 月）期间价格明显上涨。高铁 47 分钟到香港西九龙。首访安排 2–3 天较合适。"
   },
   shenzhen: {
     en: "Shenzhen went from fishing village to one of the world's top tech cities in 40 years. It's also Hong Kong's backyard — five border crossings, an hour by metro from Causeway Bay. Most foreigners come for a 1–2 day shopping/eating run rather than a stand-alone trip. Window of the World, the OCT creative district, and Dapeng's old coast are the main draws.",
-    zh: "深圳是中国最年轻的一线城市——40 年从渔村到全球科技中心。世界之窗、华侨城创意园、蛇口外籍友好海滨、大鹏古城、5 个深港陆海口岸——更常作为深港跨境 1–2 天游而非独立目的地。"
+    zh: "深圳是中国最年轻的一线城市——40 年从渔村到全球科技中心。世界之窗、华侨城创意园、蛇口外籍友好海滨、大鹏古城、5 个深港陆海口岸——更常被安排为深港跨境 1–2 天行程，而非单独目的地。"
   }
 };
 
@@ -102,7 +102,7 @@ export default function CityIntro({ cityId }: Props) {
             {isZh ? "标志景点 · 按区筛选" : "Signature attractions · filter by district"}
           </span>
           <h2 className="text-xl font-bold">
-            {isZh ? "选区看景点" : "Pick a district to see what's there"}
+            {isZh ? "按区查看景点" : "Pick a district to see what's there"}
           </h2>
         </header>
 
@@ -137,8 +137,8 @@ export default function CityIntro({ cityId }: Props) {
                   )}
                 >
                   {a.tier === "must-visit"
-                    ? isZh ? "必去" : "Must-visit"
-                    : isZh ? "值得去" : "Worth-it"}
+                    ? isZh ? "必看" : "Must-visit"
+                    : isZh ? "值得一看" : "Worth-it"}
                 </span>
                 <span className="text-[10px] text-muted">{isZh ? a.districtZh : a.districtEn}</span>
               </div>
@@ -152,7 +152,7 @@ export default function CityIntro({ cityId }: Props) {
                 rel="noreferrer"
                 className="self-start text-[10px] font-bold uppercase tracking-wider text-jade hover:underline"
               >
-                {isZh ? "官方页 →" : "Official →"}
+                {isZh ? "官方页面 →" : "Official →"}
               </a>
             </li>
           ))}

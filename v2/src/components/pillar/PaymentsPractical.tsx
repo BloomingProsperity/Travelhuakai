@@ -30,10 +30,10 @@ export default function PaymentsPractical() {
     <section className="flex flex-col gap-3 rounded-xl border border-amber-200 bg-amber-50/40 p-5">
       <header>
         <span className="text-xs font-bold uppercase tracking-widest text-amber-800">
-          {isZh ? "实操避坑" : "Practical pitfalls"}
+          {isZh ? "实际支付提示" : "Practical pitfalls"}
         </span>
         <h3 className="text-lg font-bold">
-          {isZh ? "Alipay / 微信外卡用户真实坑点" : "What official sources don't tell you"}
+          {isZh ? "Alipay / 微信外卡用户常见问题" : "What official sources don't tell you"}
         </h3>
       </header>
 

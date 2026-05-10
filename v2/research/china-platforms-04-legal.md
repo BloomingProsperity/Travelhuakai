@@ -243,3 +243,350 @@ Standard platform rules apply: scraping prohibited, republication requires autho
 **Source (Community Rules direct extraction)**: https://www.trip.com/sale/3089/communityrule.html?locale=en-us
 
 ---
+## Section C — Embedding Videos
+
+### C1. Bilibili Official iframe
+
+Bilibili operates an official external player at `https://player.bilibili.com/player.html`.
+
+Technical implementation:
+
+```html
+<iframe
+  src="//player.bilibili.com/player.html?bvid=BV1xx411c7mD&page=1&autoplay=0"
+  width="800" height="450"
+  scrolling="no" frameborder="no" allowfullscreen="true">
+</iframe>
+```
+
+**Legal status**: The player is technically documented by Bilibili. However, unlike YouTube's Terms of Service (Section 6C, which explicitly permits embedding), Bilibili has never published a formal embed license. The existence of the tool is widely treated as implicit authorization for non-commercial informational use — an inference from practice, not a stated license.
+
+**Risk profile for our site**: Non-commercial, informational, serves foreign tourists. Embedding a Bilibili travel video via the official player is technically tolerated (Bilibili provides and documents the tool), not formally licensed, low practical enforcement risk for a small non-commercial foreign info site, and drives traffic to Bilibili (creator-positive).
+
+**Required for safe use**: (a) only embed videos whose creators have not disabled external embedding — Bilibili allows creators to toggle this; (b) include visible attribution naming Bilibili and the creator; (c) do not cache or re-host the video.
+
+**Source (official player docs)**: https://player.bilibili.com/
+**Source (embed implementation reference)**: https://leimao.github.io/blog/Embed-Bilibili-Video/
+
+---
+
+### C2. Douyin Embedding Rules
+
+Douyin does **not** provide an official embed player for third-party websites. There is no player.douyin.com equivalent.
+
+ToS Article 5.3(3) prohibits technical manipulation of platform content including "插入" (insertion into other pages) and "导流" (traffic diversion). Embedding a Douyin video via unofficial iframes or proxied URLs violates this clause.
+
+**Safe pattern**: Link to the video's public page URL only. Do not iframe. Do not re-host. Douyin's "copy link" function produces a shareable web URL (v.douyin.com/...) that is appropriate to hyperlink.
+
+**Source**: https://www.douyin.com/agreement (Article 5.3(3))
+
+---
+
+### C3. WeChat Channels (视频号) — Closed Ecosystem
+
+WeChat Channels is a **closed platform** with no public embed infrastructure:
+
+- No iframe embed code exists for external websites.
+- WeChat prioritizes "data sovereignty and ecosystem retention."
+- In 2024, MIIT encouraged platform interoperability, leading Tencent to allow limited in-app viewing of some external links. This applies within the WeChat app, not to external website embedding.
+- WeChat Channels content has no canonical public URL shareable outside the WeChat ecosystem.
+
+**Conclusion**: Do not attempt to embed WeChat Channels content. It is technically impossible via legitimate means. If relevant content exists on WeChat Channels, describe it and direct users to find it within the WeChat app (e.g., "Search [channel name] on WeChat Channels for video guides to this area").
+
+**Source**: https://wechatwiki.com/wechat-resources/wechat-channels-short-video-feature-complete-guide/
+**Source**: https://techbuzzchina.substack.com/p/wechat-channels-the-hope-of-tencent
+
+---
+
+### C4. Embedding Pattern Summary
+
+| Pattern | Risk Level | Notes |
+|---|---|---|
+| Link to public video URL (any platform) | Low | Directs traffic to platform; not a media-stream deep link |
+| Bilibili iframe via player.bilibili.com | Low-Medium | Tolerated, not formally licensed; non-commercial only |
+| Douyin iframe via unofficial methods | High | ToS violation; no sanctioned embed path |
+| WeChat Channels embed | Impossible | No embed infrastructure exists |
+| Re-hosting / downloading and re-uploading | Very High | Clear copyright infringement |
+
+**Overall safe pattern**: Link out, do not iframe — except for Bilibili's official player on non-commercial informational pages.
+
+---
+
+## Section D — Cross-Border Data Flow (PIPL Articles 38-39)
+
+### D1. Does Our Use of Chinese Platform Data Trigger PIPL Cross-Border Transfer Rules?
+
+**PIPL Article 38** requires one of four mechanisms before personal information can be transferred cross-border:
+1. CAC-organized security assessment
+2. Personal information protection certification by a qualified institution
+3. Standard contract (SCC) with the foreign recipient (CAC Measures on Standard Contracts, effective June 1, 2023)
+4. Other conditions specified by laws or regulations
+
+**PIPL Article 4** defines personal information as: "any information related to an identified or identifiable natural person as recorded electronically or otherwise, excluding anonymized information."
+
+**Critical threshold question**: Are we "transferring" Chinese personal information when we display data sourced from Chinese platforms?
+
+**Analysis**: The PIPL cross-border transfer rules are triggered when a personal information processor (an entity that determines the purpose and means of processing) provides personal information to an overseas recipient. The paradigm case is a company that holds personal data about Chinese individuals and sends it abroad.
+
+Our site's position is structurally different: we are not a Chinese entity holding personal data. We read publicly available information from Chinese platforms and display derived or referenced information to users outside China. This is analogous to a journalist writing about Chinese restaurant ratings — not a data processor transferring a database.
+
+However:
+- If we **scrape** user reviews containing names, profile photos, or other identifiers, we create a cross-border copy of personal information — PIPL applies.
+- If we display a **restaurant's name and rating score**, these are facts about a business entity, not a natural person — PIPL does not apply.
+- If we display a **user's name, photo, or identifiable review text** sourced from a Chinese platform — PIPL risk arises.
+
+**The March 2024 CAC New Provisions** (Provisions on Promoting and Regulating the Cross-border Flow of Data, effective March 22, 2024) introduced safe harbor exemptions including: transfers of fewer than 100,000 non-sensitive personal data records annually are exempt from CAC security assessment; contract performance transfers are exempt. These exemptions help companies that legitimately hold Chinese personal data — they do not create a new license for foreign sites to scrape Chinese platform data.
+
+**Source (PIPL Article 38)**: https://pipl.xllawconsulting.com/personal-information-protection-law-of-the-peoples-republic-of-china-pipl/chapter-iii-rules-on-provision-of-personal-information-across-the-border/article-38/
+**Source (March 2024 relaxation)**: https://www.gtlaw.com/en/insights/2024/3/china-relaxes-requirements-for-cross-border-data-transfers
+**Source (PIPL overview)**: https://www.china-briefing.com/doing-business-guide/china/company-establishment/pipl-personal-information-protection-law
+
+---
+
+### D2. Displaying a Beijing Restaurant's Dianping Rating — Personal Data?
+
+**Answer: No, if handled correctly.**
+
+A restaurant's name, address, rating score (e.g., 4.8), and review count (e.g., 12,341) are data about a **business entity**, not a natural person. These are aggregated numerical facts; no individual is identified. They do not constitute "personal information" under PIPL Article 4.
+
+By contrast, the following from the same platform page are personal data: a reviewer's username alongside their review text (potentially identifiable), a reviewer's photo (identifiable), a reviewer's check-in history (behavioral data about a natural person).
+
+**Safe rule**: Display business-level facts (name, rating, count, address, category). Never display user-level data (usernames, review text, reviewer photos) sourced from Chinese platforms.
+
+**Source**: https://www.chinafy.com/blog/what-is-data-anonymization-and-de-identification-in-china
+
+---
+
+### D3. The "No Personal Data" Threshold
+
+**Safe to display (factual, non-personal)**: Platform name + rating score ("Dianping: 4.8"); review count as a number; restaurant/attraction name; category, price range; official platform-published list entry names; attraction addresses and metro directions; ticket prices from official sources.
+
+**Unsafe (personal data or protected expression)**: Individual review text; user photos; usernames or profile identifiers; behavioral patterns aggregated to reveal individual activity.
+
+---
+
+### D4. The Guangzhou Internet Court 2024 PIPL Ruling
+
+**Case facts**: A Chinese consumer sued a French hotel group's China affiliate. The plaintiff booked a hotel in Myanmar via the group's app; the company transferred the plaintiff's personal data (name, phone, email, address, nationality, bank card number) to overseas entities including a marketing database.
+
+**Ruling** (September 2024 — first-ever PIPL cross-border transfer decision):
+- Transfer to the Myanmar hotel for booking: lawful (contractual necessity under Article 38(2)).
+- Transfer to overseas entities for marketing: unlawful. Violated PIPL Article 39.
+- "Checkbox consent to a general privacy policy" is **not** sufficient "separate consent" under Article 39.
+- The court required "specific, explicit authorization for a certain processing purpose."
+- Damages: approximately USD 2,840, plus data erasure and written apology.
+
+**Relevance to our site**: (1) Confirms PIPL has extraterritorial reach when a foreign entity processes Chinese individuals' personal data via a China affiliate. (2) Our site does not collect personal data from Chinese users and has no China affiliate — the ruling is not directly applicable to display of aggregated factual restaurant data. (3) The ruling would become relevant if we ever: collected personal data from Chinese nationals, ran a booking or registration function for Chinese users, or tracked Chinese visitors' behavior on our site.
+
+**Sources**:
+- https://www.mayerbrown.com/en/insights/publications/2024/12/guangzhou-internet-court-issues-the-first-decision-on-cross-border-transfer-of-personal-data-under-pipl
+- https://www.morganlewis.com/pubs/2024/11/chinese-court-concluded-landmark-case-on-cross-border-transfer-of-personal-information
+- https://natlawreview.com/article/court-ruling-china-personal-data-transfer-international-hotel-chain
+
+---
+## Section E — Cybersecurity Law / Data Security Law
+
+### E1. As a Foreign Site, Do We Need to Worry About Chinese Platforms Blocking Our IP?
+
+Yes, but **only if we are scraping**.
+
+Chinese platforms routinely block IPs that exhibit scraping behavior: high request rates from a single IP, non-browser user agent strings, requests for data in structured patterns (sequential IDs, systematic pagination), requests that bypass login walls or anti-scraping mechanisms.
+
+For a site that merely links to or references Chinese platforms, there is no IP exposure — the site's server never makes requests to the Chinese platform. The end user's browser follows the link directly.
+
+IP blocking risk arises only if our server-side code fetches Chinese platform data to display on our pages, makes unauthorized API calls, or runs a scraper to build our database.
+
+**Practical conclusion**: Never make server-side requests to Chinese platforms without authorization. All platform-sourced data must be either manually curated by editors, obtained via official API with authorization, or linked-out so the user's browser contacts the platform directly.
+
+---
+
+### E2. Scraping Public Data — Technical and Legal Risk
+
+**Technical risk**: High. Dianping uses CSS font encryption and IP rate limiting. Xiaohongshu uses TLS fingerprinting (JA3/JA4). Bilibili uses challenge-response authentication. Even "public" pages require session tokens or encounter active bot detection.
+
+**Criminal exposure** (Article 285, PRC Criminal Law): Prohibits "illegally obtaining data" from computer information systems. Chinese courts have held that bypassing anti-scraping measures constitutes unauthorized access. The "Cheng Mao" precedent: defendant used "proxy pools and broadband dialling to avoid anti-crawling strategies" — convicted, sentenced to four years' imprisonment and RMB 500,000 fine.
+
+**Civil exposure** (Anti-Unfair Competition Law, Article 13(3) as amended October 2025): Courts protect platforms' investment in aggregated datasets. A foreign site that scrapes and republishes Dianping data would meet the "substantive substitution" test if users could obtain restaurant information from our site without visiting Dianping, diverting traffic and undermining Dianping's commercial model.
+
+**As a foreign entity**: China's laws explicitly cover foreign actors. The Data Security Law (Article 2) applies to activities outside China that "harm the national security of the PRC, the public interest, or the lawful rights and interests of citizens and organizations." The Cybersecurity Law (amended, effective January 1, 2026) now covers "any overseas institution, organization, or individual that engages in activities endangering the cybersecurity of the People's Republic of China."
+
+**Practical enforcement against small foreign sites**: No publicly documented case of CAC enforcement specifically against a small foreign tourism aggregator for data scraping through early 2026. The cases prosecuted involve large-scale commercial operations. However, civil litigation risk from platforms themselves (Dianping, Bilibili) is real and does not require CAC involvement.
+
+**Source (Criminal Law Article 285 / Cheng Mao case)**: https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/china
+**Source (Data Security Law extraterritorial scope)**: https://www.chinalawtranslate.com/en/datasecuritylaw/
+**Source (2026 Cybersecurity Law amendment)**: https://www.china-briefing.com/news/china-cybersecurity-law-amendment/
+**Source (Anti-Unfair Competition Law 2025 amendment)**: https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/evolving-chinas-judicial-practice-anti-unfair-competition-eight-typical-cases-2025-09-29_en
+
+---
+
+### E3. CAC Actions Against Foreign Tourism Sites — Known Record
+
+No publicly documented CAC enforcement action specifically against a foreign tourism aggregator website has been identified in available legal sources through early 2026.
+
+CAC's 2024 reported enforcement (interviewing 11,159 websites, fining 4,046 platforms, removing 200 apps, suspending 585 sites) was directed at domestic platforms for data security lapses. Foreign sites without Chinese users or China-hosted servers are largely beyond the CAC's practical enforcement reach.
+
+**Risk reality for our site**: The primary legal risk is platform civil litigation (copyright and unfair competition), not CAC criminal enforcement. A foreign tourism info site that links out, references facts, and does not scrape is at very low enforcement risk from Chinese regulators.
+
+**Source**: https://iapp.org/news/a/china-issues-the-regulations-on-network-data-security-management-what-s-important-to-know
+
+---
+
+## Section F — Practical Safe Patterns
+
+### F1. Link Out to Public URL Only (No Scraping, No Caching)
+
+Display a text reference with a hyperlink to the platform's public page.
+
+Example: "Wangfujing Quanjude — [View on Dianping](https://www.dianping.com/shop/[id]) | [Book on Ctrip](https://www.ctrip.com/...)"
+
+Why safe: no server-side requests to Chinese platforms; no copying of protected expression; traffic directed to the platform; standard internet hyperlinking practice. ToS prohibitions on "deep linking" target media-stream URLs, not canonical public web pages.
+
+---
+
+### F2. Display Platform Name + Rating as a Fact
+
+Cite the platform's name and a specific factual data point, with a link and a freshness caveat.
+
+Example: "Dianping rating: 4.8 from 12,341 reviews — see current rating at dianping.com/shop/... (manually verified May 2026; ratings change)"
+
+Why safe: rating number and review count are "purely factual information" under PRC Copyright Law Article 5(2); attribution to Dianping is given; link drives traffic to Dianping; freshness caveat avoids presenting stale data as authoritative.
+
+Limitation: data must be manually curated by an editor, not programmatically scraped.
+
+---
+
+### F3. Reference Official Platform-Curated Lists (必吃榜, 黑珍珠)
+
+Cite the list by name, reference the official announcement, and link to the platform's list page.
+
+Example: "Listed on Dianping's 2025 必吃榜 (Must-Eat List) — Dianping's annual selection across 144 cities. [View the full list on Dianping]"
+
+Why safe: list announcements are issued as press releases via PR Newswire — intended for media pick-up. The underlying fact (restaurant X is on list Y) is a fact, not protected expression. These lists are designed to be referenced in media to increase restaurant visibility.
+
+**Source**: https://www.prnewswire.com/news/meituan/
+
+---
+
+### F4. Embed Bilibili Videos via Official iframe (With Attribution)
+
+Use Bilibili's official player.bilibili.com embed code for travel and tourism videos. Include visible source attribution.
+
+```html
+<div class="video-embed">
+  <iframe src="//player.bilibili.com/player.html?bvid=BV1xxXXXXXX&autoplay=0"
+    width="100%" style="aspect-ratio:16/9;" frameborder="0" allowfullscreen>
+  </iframe>
+  <p class="video-credit">Video by <a href="[creator profile URL]">@creator</a>,
+  hosted on <a href="https://www.bilibili.com">Bilibili</a></p>
+</div>
+```
+
+Required: only embed videos not disabled for external embedding by the creator; include visible attribution; do not re-host or cache the video. If the site ever generates meaningful revenue, seek a formal API partnership with Bilibili Open Platform.
+
+---
+
+### F5. Reference Platform-Published Press Content
+
+Many platforms publish editorial content intended for citation: Meituan Research Institute publishes market reports; Trip.com publishes travel guides via PR Newswire; Zhihu has verified institutional accounts publishing long-form articles. These are press content — platforms publish them to be read and cited. Quoting one paragraph under Article 24(2) for commentary purposes is permissible with attribution and a link to the source.
+
+---
+
+### F6. Never: Scrape User Reviews and Republish
+
+Prohibited because: (a) user review text is copyrighted expression; (b) platform holds anti-unfair competition rights over its aggregated review corpus; (c) technical scraping bypasses anti-scraping measures — criminal exposure under Article 285 PRC Criminal Law; (d) ToS violation on all platforms reviewed; (e) PIPL risk if review text contains identifiable user information.
+
+This includes copying reviews into our database, displaying excerpts from multiple user reviews, and aggregating review sentiment without authorization.
+
+---
+
+### F7. Never: Cache User Photos or Claim Platform Data as Our Own
+
+User photos are copyrighted works. Caching them on our server creates an unauthorized reproduction. Many contain identifiable faces (PIPL personal data risk). Platform photos may include platform watermarks (additional trademark issues).
+
+Do not represent Chinese platform data as independently gathered or "our own research." Always attribute: "Source: Dianping" / "Via Bilibili" / "From Ctrip." Attribution is required for the Article 24(2) quotation exception and essential for transparency.
+
+---
+## Section G — Concrete Checklist
+
+### 10-Item Compliance Checklist: Surfacing Chinese Platform Signals
+
+**1. Fact vs. Expression Test — Apply Before Every Data Point**
+Before displaying any data sourced from a Chinese platform, ask: is this a fact (name, number, address, date) or expression (review text, photo, editorial copy)? Display facts only. Never display expression without explicit authorization.
+
+**2. No Server-Side Platform Requests Without API Authorization**
+Our backend must never make HTTP requests to Douyin, Bilibili, Dianping, Meituan, Xiaohongshu, Mafengwo, Zhihu, or Ctrip to fetch data for display. All platform-sourced data must be (a) manually entered by editors, (b) obtained via official API with authorization, or (c) linked out so the user's browser fetches it directly.
+
+**3. All Platform Data Is Manually Curated and Timestamped**
+Any rating, review count, or list membership displayed on our site must be manually verified and entered by a human editor. Include a visible "verified as of [date]" note. Do not automate data ingestion from Chinese platforms.
+
+**4. Hyperlinks to Platform Pages, Not Deep Links to Media**
+All links to Chinese platform content must point to the canonical public web page (e.g., dianping.com/shop/12345), not to API endpoints, media file URLs, or native-app deep links.
+
+**5. Bilibili Embeds via Official Player Only, With Attribution**
+For video content, only embed Bilibili videos via player.bilibili.com. Never embed Douyin, Xiaohongshu, or WeChat Channels via iframe. Always include visible attribution naming Bilibili and the creator.
+
+**6. Never Reproduce Review Text or User Photos**
+Do not display any user-written review text from any platform on our pages. Do not display photos sourced from platform user content. This applies regardless of length — even a single sentence of a user review is protected expression.
+
+**7. Official Lists Referenced by Name and Linked — Not Reproduced**
+When citing 必吃榜, 黑珍珠, or similar platform-curated lists, state the restaurant's inclusion as a fact and link to the official list page. Do not reproduce the list itself, rankings, or editorial commentary.
+
+**8. No Personal Data From Chinese Platforms**
+Never collect, display, or store usernames, profile photos, reviewer identities, or any information that could identify a Chinese individual who posted content on a Chinese platform. Display only business-entity data (restaurant names, addresses) and aggregated statistics.
+
+**9. Source Attribution on All Platform-Referenced Information**
+Every platform signal shown on our site must be attributed: "Source: Dianping," "Via Bilibili," "From Ctrip." Attribution is required for the Article 24(2) quotation exception and essential for transparency. Never present platform data as "our own" research.
+
+**10. Freshness Caveat and Disclaimer on All Platform Data Pages**
+Display a clear disclaimer: "Ratings and information sourced from third-party Chinese platforms and manually verified. Prices and ratings change frequently. Check the platform directly for current information." This reduces liability for stale data and makes clear we do not claim ownership of platform information.
+
+---
+
+## Source Index (29 Distinct Sources Cited)
+
+1. https://www.chinalawtranslate.com/en/Copyright-Law-of-the-PRC-(2021-Version/) — PRC Copyright Law 2021 (Articles 5, 24); primary legislative text
+2. https://www.marks-clerk.com/insights/latest-insights/102ju75-the-third-amendment-to-the-copyright-law-of-china-takes-effect-from-1-june-2021/ — 2021 amendment analysis (Marks & Clerk)
+3. https://www.hoganlovells.com/en/publications/china-what-you-need-to-know-about-the-amended-copyright-law — Hogan Lovells amended law analysis
+4. https://pmc.ncbi.nlm.nih.gov/articles/PMC9243325/ — Chinese platform UGC copyright governance (peer-reviewed academic)
+5. https://www.mondaq.com/china/copyright/1666874/exploring-copyright-law-issues-in-film-clip-commentaries-mainland-china — Article 24 judicial application (Mondaq)
+6. https://fordhamipinstitute.com/wp-content/uploads/Third-ammendment-to-Chinese-Copyright-Law-Peter-Yu.pdf — Three-step test analysis (Fordham IP Institute)
+7. https://www.douyin.com/agreement — Douyin User Agreement (primary source, direct extraction)
+8. https://www.bilibili.com/protocal/licence.html — Bilibili User Agreement (primary source, JS-rendered)
+9. https://open.bilibili.com/agreement/developer-service — Bilibili Open Platform Developer Agreement
+10. https://player.bilibili.com/ — Bilibili official external player documentation
+11. https://faxinatingchina.substack.com/p/bilibili-cie-v-ai-generated-content-aigc — Bilibili AIGC copyright enforcement analysis
+12. https://pages.english.ctrip.com/terms/service-clause-en.html — Ctrip Terms of Service (English, primary source, directly accessible)
+13. https://www.trip.com/sale/3089/communityrule.html?locale=en-us — Trip.com Community Rules (primary source, direct extraction)
+14. https://www.lexology.com/library/detail.aspx?g=777543cb-4a8e-4371-9921-1b9d8f64a206 — Platform data scraping and Dianping copyright assignment case analysis
+15. https://law.asia/platform-data-capture-unfair-competition/ — Anti-unfair competition and data scraping (China)
+16. https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/evolving-chinas-judicial-practice-anti-unfair-competition-eight-typical-cases-2025-09-29_en — Eight anti-unfair competition typical cases (EU IP Helpdesk, 2025)
+17. https://pipl.xllawconsulting.com/personal-information-protection-law-of-the-peoples-republic-of-china-pipl/chapter-iii-rules-on-provision-of-personal-information-across-the-border/article-38/ — PIPL Articles 38-39 text
+18. https://www.gtlaw.com/en/insights/2024/3/china-relaxes-requirements-for-cross-border-data-transfers — March 2024 CAC cross-border data relaxation (Greenberg Traurig)
+19. https://www.mayerbrown.com/en/insights/publications/2024/12/guangzhou-internet-court-issues-the-first-decision-on-cross-border-transfer-of-personal-data-under-pipl — Mayer Brown analysis of Guangzhou Internet Court PIPL ruling (December 2024)
+20. https://www.morganlewis.com/pubs/2024/11/chinese-court-concluded-landmark-case-on-cross-border-transfer-of-personal-information — Morgan Lewis PIPL ruling analysis
+21. https://natlawreview.com/article/court-ruling-china-personal-data-transfer-international-hotel-chain — National Law Review PIPL ruling analysis
+22. https://www.chinalawtranslate.com/en/datasecuritylaw/ — Data Security Law of PRC (full text)
+23. https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/china — ICLG China cybersecurity law (criminal liability, Cheng Mao case)
+24. https://www.china-briefing.com/news/china-cybersecurity-law-amendment/ — 2026 Cybersecurity Law amendment (China Briefing)
+25. https://www.chinafy.com/blog/what-is-data-anonymization-and-de-identification-in-china — PIPL anonymization and de-identification threshold
+26. https://www.huxiu.com/article/267941.html — Mafengwo content fabrication scandal (Huxiu, 2018)
+27. https://prizmdigital.co.nz/xiaohongshu-rules-community-guidelines/ — Xiaohongshu community guidelines (English summary)
+28. https://www.prnewswire.com/news/meituan/ — Meituan press release channel (必吃榜/黑珍珠 official distribution)
+29. https://www.nobodydigital.co/blog/2026-q1-rednote-xiaohongshu-official-rule-updates-the-essential-risk-avoidance-and-compliance-guide-for-overseas-brands/ — Xiaohongshu Q1 2026 rule updates
+
+---
+
+## Version Notes
+
+- PRC Copyright Law: Third Amendment, effective 1 June 2021. Current version.
+- PIPL: Effective 1 November 2021. March 2024 CAC Provisions relax cross-border transfer requirements for non-sensitive data under 100,000 records/year.
+- Data Security Law: Effective 1 September 2021.
+- Cybersecurity Law: Amended version effective 1 January 2026; expands extraterritorial scope to cover all foreign actors endangering PRC cybersecurity.
+- Anti-Unfair Competition Law: Third amendment effective 15 October 2025; Article 13(3) specifically targets data scraping via technical circumvention.
+- Platform ToS: All platforms update ToS frequently. Dianping, Bilibili, and Xiaohongshu ToS pages are not accessible from outside China without a VPN. Verify current terms via a China-based browser session before launching.
+
+---
+
+*Sections: A (copyright basics, 3 sub-topics), B (9 platforms), C (video embedding, 4 sub-topics), D (PIPL cross-border, 4 sub-topics), E (cybersecurity/data law, 3 sub-topics), F (safe patterns, 7 patterns), G (10-item checklist)*
+*Sources cited: 29 distinct URLs*
+*Research date: 2026-05-10*

@@ -283,7 +283,7 @@ export const atlasData: ProvinceRecord[] = [
         museum: "Yangzhou Museum / China Grand Canal Museum",
         museumZh: "扬州博物馆 / 中国大运河博物馆",
         museumRole: "A strong starting point for Grand Canal culture, salt merchants, gardens, and Qing-era urban prosperity.",
-        museumRoleZh: "理解大运河文化、盐商、园林和清代城市繁荣的强入口。",
+        museumRoleZh: "理解大运河文化、盐商、园林和清代城市繁荣的重要入口。",
         history:
           "Yangzhou is central to Grand Canal history, salt commerce, literary culture, gardens, and the movement of goods and people between north and south China.",
         historyZh: "扬州是理解大运河、盐业商业、文学文化、园林，以及南北物资与人员流动的重要城市。",

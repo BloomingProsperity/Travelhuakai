@@ -4,9 +4,9 @@ import { useLang } from "../../store/language";
 
 const HEADER_LABEL: Record<PillarId, { en: string; zh: string }> = {
   entry: { en: "What to know before landing", zh: "落地前要知道的事" },
-  transport: { en: "Practical transport pitfalls", zh: "交通实操避坑" },
-  food: { en: "Practical food pitfalls", zh: "餐饮实操避坑" },
-  emergency: { en: "Practical medical & emergency pitfalls", zh: "医疗 / 紧急实操避坑" }
+  transport: { en: "Practical transport pitfalls", zh: "交通实际注意事项" },
+  food: { en: "Practical food pitfalls", zh: "餐饮实际注意事项" },
+  emergency: { en: "Practical medical & emergency pitfalls", zh: "医疗 / 紧急实际注意事项" }
 };
 
 type Props = { pillar: PillarId; cityId?: CityId };

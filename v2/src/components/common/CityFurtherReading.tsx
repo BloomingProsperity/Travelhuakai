@@ -21,7 +21,7 @@ export default function CityFurtherReading({ cityId }: Props) {
         </h2>
         <p className="text-xs text-muted">
           {isZh
-            ? "这些是该市自己运营的官方英文站。本网站没收录的更细信息（活动、路线、季节性内容）建议直接看这些。"
+            ? "这些是该市官方运营的英文站。本网站未收录的更细信息（活动、路线、季节性内容）建议查阅这些网站。"
             : "Each city's own official English-language portals. For city-specific details we don't cover (events, seasonal routes, hyperlocal news), go straight to these."}
         </p>
       </header>

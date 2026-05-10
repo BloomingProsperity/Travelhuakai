@@ -117,7 +117,7 @@ export const i18n: Record<Lang, Record<string, string>> = {
     flowFourTitle: "继续探索",
     flowFourBody: "附近历史遗址、老街、寺庙、文物公园和文化遗产地点。",
     sourcesTitle: "图片与来源规则",
-    sourcesBody: "此模板故意不使用抓取来的网络图片。正式页面应使用官方事实、授权游客笔记、合规图片和可见署名。",
+    sourcesBody: "此模板不使用抓取的网络图片。正式页面应使用官方事实、授权游客笔记、合规图片和可见署名。",
     ruleOne: "官方文字只提取事实，不直接复制成正文。",
     ruleTwo: "AI 摘要中的关键事实必须能追溯到来源记录。",
     ruleThree: "游客笔记必须获得发布和翻译授权。",

@@ -21,7 +21,7 @@ export const topQuestions: TopQuestion[] = [
     questionEn: "Do I need to fill in an arrival card?",
     questionZh: "需要填入境卡吗？",
     answerEn: "Yes. Since 2025-11-20 the Foreigner Entry/Exit Card can be pre-filled online for free at the official NIA portal. Kiosks and paper cards are still available at the port. Watch out for fake fee-charging sites.",
-    answerZh: "需要。自 2025-11-20 起可在国家移民管理局官网免费线上预填；口岸也提供自助设备和纸卡。注意收费山寨网站。",
+    answerZh: "需要。自 2025-11-20 起可在国家移民管理局官网免费线上预填；口岸也提供自助设备和纸卡。请警惕仿冒收费网站。",
     sourceId: "nia-online-entry-card"
   },
   {
@@ -29,7 +29,7 @@ export const topQuestions: TopQuestion[] = [
     questionEn: "Will my foreign credit card work in China?",
     questionZh: "外卡在中国能用吗？",
     answerEn: "Set up Alipay or WeChat Pay before you fly and link a Visa or Mastercard. PBOC raised the cap to USD 5,000 per transaction / USD 50,000 annually in 2024. Standalone Visa/Mastercard swipes work mainly at airports, hotels, and major retailers.",
-    answerZh: "出发前在 Alipay 或微信支付绑外卡（Visa / Mastercard）。央行 2024 年起单笔上限 USD 5,000、年累 USD 50,000。机场、酒店、大型商超刷外卡通常可用，街边小店多走支付宝/微信。",
+    answerZh: "出发前在 Alipay 或微信支付绑定外卡（Visa / Mastercard）。央行 2024 年起单笔上限 USD 5,000、年累 USD 50,000。机场、酒店、大型商场和超市通常可刷外卡，街边小型商户多使用支付宝/微信。",
     sourceId: "pboc-payment-uplift"
   },
   {
@@ -51,9 +51,9 @@ export const topQuestions: TopQuestion[] = [
   {
     id: "emergency-numbers",
     questionEn: "What's the emergency number if something happens?",
-    questionZh: "出事打什么电话？",
+    questionZh: "遇到紧急情况拨打什么电话？",
     answerEn: "110 police, 119 fire, 120 ambulance, 122 traffic — all free. Beijing 12345 supports 10 languages 24/7; Shanghai 12345 supports 18 languages (press 7); Guangzhou 960169 is a three-party language bridge.",
-    answerZh: "110 警务、119 火警、120 急救、122 交警，全部免费。北京 12345 24/7 支持 10 语；上海 12345 18 语（按 7）；广州 960169 三方翻译桥。",
+    answerZh: "110 警务、119 火警、120 急救、122 交警，全部免费。北京 12345 24/7 支持 10 种语言；上海 12345 支持 18 种语言（按 7）；广州 960169 提供三方翻译转接服务。",
     sourceId: "shanghai-emergency-numbers"
   },
   {
@@ -61,7 +61,7 @@ export const topQuestions: TopQuestion[] = [
     questionEn: "Can I book high-speed rail with a foreign passport?",
     questionZh: "能用护照在 12306 买高铁票吗？",
     answerEn: "Yes via 12306.cn/en. Online auto-verification is fastest; if it fails, manual review of passport + selfie takes 3–5 working days, or visit any station counter on arrival.",
-    answerZh: "可以，去 12306.cn/en。自动认证最快；失败可上传护照+自拍人工审 3-5 工作日，或抵达后到车站窗口现场办。",
+    answerZh: "可以，前往 12306.cn/en。自动认证最快；失败后可上传护照 + 自拍，人工审核需 3-5 个工作日，或抵达后到车站窗口现场办理。",
     sourceId: "rail-12306-faq"
   },
   {

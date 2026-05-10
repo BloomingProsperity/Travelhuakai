@@ -21,7 +21,7 @@ export default function SourcesPage() {
         </h1>
         <p className="text-sm leading-relaxed text-muted">
           {isZh
-            ? `本网站全部数据均来自下列 ${all.length} 个公开来源。其中 ${official.length} 条来自政府或机构官方网站，${community.length} 条来自旅行社区博客 / 论坛 / 老外住华博主，用于补充官方源不公开的实操坑。每条都带域名 + 出版日期 + 我们最近一次核验日期，可直接点击查看原文。`
+            ? `本网站全部数据均来自下列 ${all.length} 个公开来源。其中 ${official.length} 条来自政府或机构官方网站，${community.length} 条来自旅行社区博客 / 论坛 / 在华外籍人士作者，用于补充官方源未覆盖的实际操作注意事项。每条都标注域名 + 出版日期 + 我们最近一次核验日期，可点击查看原文。`
             : `Every fact on this site traces to one of the ${all.length} sources below. ${official.length} come from official government and institutional websites; ${community.length} come from traveler community blogs and forums covering practical pitfalls that official sources do not publish. Each entry shows the domain, the publication date, and our last verification date — click to read the original.`}
         </p>
       </header>
@@ -39,7 +39,7 @@ export default function SourcesPage() {
         titleEn={`Traveler community references (${community.length})`}
         titleZh={`旅行社区资料（${community.length} 条）`}
         descEn="Foreign travel bloggers, expat publications, Reddit threads and similar. Used only for operational pitfalls that .gov.cn does not publish; never used as authority for policy facts, prices, addresses, or hours."
-        descZh="境外旅行博主、老外住华媒体、Reddit 等。仅用于政府不公开的实操坑；政策、价格、地址、营业时间不引用社区源。"
+        descZh="境外旅行博主、在华外籍人士媒体、Reddit 等。仅用于政府未公开的实际操作注意事项；政策、价格、地址、营业时间不引用社区源。"
       >
         <ReferenceList items={community} isZh={isZh} />
       </Section>

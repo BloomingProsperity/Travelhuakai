@@ -38,7 +38,7 @@ export const cityTourismPortals: Record<CityId, Portal[]> = {
       labelEn: "Shanghai Government — Guide for Foreign Tourists",
       labelZh: "上海市政府 · 外籍游客指南",
       noteEn: "Practical: visa, payment, currency exchange at metro stations, ride-hailing for foreigners.",
-      noteZh: "实用：签证、支付、地铁站换汇、外籍游客打车攻略。"
+      noteZh: "实用：签证、支付、地铁站换汇、外籍游客出租车出行指南。"
     }
   ],
   guangzhou: [
@@ -47,7 +47,7 @@ export const cityTourismPortals: Record<CityId, Portal[]> = {
       labelEn: "Guangzhou International",
       labelZh: "广州国际",
       noteEn: "Government English gateway — Visitors / Business / Residents tracks; consulate directory; Canton Fair info.",
-      noteZh: "市政府英文门户——访客 / 商务 / 居民三条线；领事馆名录；广交会信息。"
+      noteZh: "市政府英文门户——访客 / 商务 / 居民三类信息；领事馆名录；广交会信息。"
     }
   ],
   shenzhen: [

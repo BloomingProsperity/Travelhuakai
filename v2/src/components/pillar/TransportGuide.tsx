@@ -7,7 +7,7 @@ import PracticalBlock from "../common/PracticalBlock";
 const KIND_LABEL = {
   cheapest: { en: "Cheapest", zh: "最便宜" },
   fastest: { en: "Fastest", zh: "最快" },
-  stable: { en: "Most stable", zh: "最稳" }
+  stable: { en: "Most stable", zh: "最可靠" }
 };
 
 type Props = { cityId?: CityId };
@@ -30,7 +30,7 @@ export default function TransportGuide({ cityId }: Props) {
           <h2 className="text-2xl font-bold">{isZh ? "交通" : "Transport"}</h2>
           <p className="text-sm text-muted">
             {isZh
-              ? "12306 国际版购票 + 四城机场到市区 + 地铁外卡接受度 + 网约车实情。"
+              ? "12306 国际版购票 + 四城机场到市区 + 地铁外卡接受度 + 网约车实际情况。"
               : "12306 international booking + airport-to-city for the four cities + metro foreign-card status + ride-hail reality."}
           </p>
         </header>
@@ -99,7 +99,7 @@ export default function TransportGuide({ cityId }: Props) {
         </section>
 
         <section className="flex flex-col gap-2 border-t border-line pt-3">
-          <h4 className="text-sm font-bold">{isZh ? "常见翻车点" : "Common pitfalls"}</h4>
+          <h4 className="text-sm font-bold">{isZh ? "常见注意事项" : "Common pitfalls"}</h4>
           <ul className="grid gap-2">
             {active.pitfalls.map((p, i) => (
               <li key={i} className="rounded-lg bg-amber-50 p-3 text-sm">

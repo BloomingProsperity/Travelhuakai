@@ -4,6 +4,7 @@ import { allergyCardEn, allergyCardZh, cityFood } from "../../data/food";
 import { CITY_LABELS, type CityId } from "../../data/transport";
 import { useLang } from "../../store/language";
 import PracticalBlock from "../common/PracticalBlock";
+import CuisineDrawer from "../city/CuisineDrawer";
 
 type Props = { cityId?: CityId };
 
@@ -12,6 +13,7 @@ export default function FoodGuide({ cityId }: Props) {
   const isZh = lang === "zh";
   const cityScoped = Boolean(cityId);
   const [activeId, setActiveId] = useState<CityId>(cityId ?? "beijing");
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const effectiveId: CityId = cityId ?? activeId;
   const active = cityFood.find((c) => c.cityId === effectiveId)!;
 
@@ -55,11 +57,27 @@ export default function FoodGuide({ cityId }: Props) {
       )}
 
       <article className="grid gap-4 rounded-xl border border-line bg-white p-5 md:grid-cols-2">
-        <Block titleEn="Local cuisine" titleZh="地方菜文化" en={active.cuisine.en} zh={active.cuisine.zh} />
-        <Block titleEn="Foreigner-friendly districts" titleZh="外国人友好餐区" en={active.districts.en} zh={active.districts.zh} />
+        <section className="flex flex-col gap-2">
+          <div className="flex items-center justify-between gap-2">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-muted">
+              {isZh ? "地方菜文化" : "Local cuisine"}
+            </h3>
+            {active.cuisine.culturalNotes && (
+              <button
+                type="button"
+                onClick={() => setDrawerOpen(true)}
+                className="text-[10px] font-bold uppercase tracking-wider text-jade hover:underline"
+              >
+                {isZh ? "查看吃法 →" : "How to eat it →"}
+              </button>
+            )}
+          </div>
+          <p className="text-sm leading-relaxed">{isZh ? active.cuisine.zh : active.cuisine.en}</p>
+        </section>
+        <Block titleEn="Foreigner-friendly districts" titleZh="外籍游客友好餐区" en={active.districts.en} zh={active.districts.zh} />
         <Block titleEn="Delivery apps" titleZh="外卖平台" en={active.deliveryNote.en} zh={active.deliveryNote.zh} />
         <section className="flex flex-col gap-2">
-          <h3 className="text-xs font-bold uppercase tracking-widest text-muted">{isZh ? "翻车点" : "Pitfalls"}</h3>
+          <h3 className="text-xs font-bold uppercase tracking-widest text-muted">{isZh ? "注意事项" : "Pitfalls"}</h3>
           <ul className="grid gap-2">
             {active.pitfalls.map((p, i) => (
               <li key={i} className="rounded-lg bg-amber-50 p-3 text-xs leading-relaxed">
@@ -70,9 +88,11 @@ export default function FoodGuide({ cityId }: Props) {
         </section>
       </article>
 
+      <CuisineDrawer city={active} open={drawerOpen} onClose={() => setDrawerOpen(false)} />
+
       <article className="flex flex-col gap-3 rounded-xl border border-line bg-paper p-5">
         <header>
-          <h3 className="text-base font-bold">{isZh ? "过敏 / 忌口卡（直接给服务员看）" : "Allergy / dietary card (show to staff)"}</h3>
+          <h3 className="text-base font-bold">{isZh ? "过敏 / 忌口卡（交给服务员查看）" : "Allergy / dietary card (show to staff)"}</h3>
           <p className="text-xs text-muted">
             {isZh ? "把 ____ 替换成你的过敏原（中英都给）。出发前截屏存手机相册。" : "Fill in your allergen in both versions. Save a screenshot before you fly."}
           </p>

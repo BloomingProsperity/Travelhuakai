@@ -44,12 +44,12 @@ export type CityTransport = {
 export const railBooking = {
   registration: {
     en: "Register at 12306.cn/en with passport. Email magic link OR Chinese mobile SMS. Online auto-verify; if it fails, upload passport + selfie (3-5 working days) or visit any station counter.",
-    zh: "在 12306.cn/en 用护照注册：邮箱激活链接 / 国内手机短信。自动认证失败可上传护照+自拍人工审 3-5 工作日，或到车站窗口现场办。",
+    zh: "在 12306.cn/en 用护照注册：邮箱激活链接 / 国内手机短信。自动认证失败可上传护照 + 自拍，人工审核需 3-5 个工作日，或到车站窗口现场办理。",
     sourceId: "rail-12306-faq"
   },
   payment: {
     en: "12306 English portal accepts Visa, Mastercard, JCB, Diners Club, UnionPay; Alipay/WeChat referenced in the central government expat guide.",
-    zh: "12306 英文版接受 Visa/MC/JCB/Diners/银联；央政府外籍生活指南还提到支付宝/微信支付。",
+    zh: "12306 英文版接受 Visa/MC/JCB/Diners/银联；中央政府外籍生活指南还提到支付宝/微信支付。",
     sourceId: "rail-12306-faq"
   },
   refund: {
@@ -98,11 +98,11 @@ export const cityTransport: CityTransport[] = [
           {
             kind: "stable",
             routeEn: "Official taxi queue at arrivals; metered fare",
-            routeZh: "到达层官方出租车排队点；打表",
+            routeZh: "到达层官方出租车排队点；按计价器计费",
             costCNY: "100–150",
             timeMin: "40–80",
             paymentEn: "Cash + Alipay/WeChat; foreign cards inconsistent",
-            paymentZh: "现金 + 支付宝/微信；外卡支持不稳",
+            paymentZh: "现金 + 支付宝/微信；外卡支持不稳定",
             sourceId: "beijing-airport-services"
           }
         ]
@@ -142,7 +142,7 @@ export const cityTransport: CityTransport[] = [
     },
     rideHail: {
       en: "DiDi accepts foreign phone + Visa/Mastercard with English UI; in-app 24/7 English customer service. Take official taxi queue at airport, never solicitations inside terminal.",
-      zh: "DiDi 接受外国手机号 + Visa/MC 国际信用卡，英文界面，应用内 24 小时英语客服；机场只走官方排队点，不要在到达层跟拉客的走。",
+      zh: "DiDi 接受外国手机号 + Visa/MC 国际信用卡，英文界面，应用内 24 小时英语客服；机场请只走官方排队点，不要跟随到达层揽客人员。",
       sourceId: "beijing-airport-services"
     },
     pitfalls: [
@@ -225,7 +225,7 @@ export const cityTransport: CityTransport[] = [
     },
     rideHail: {
       en: "DiDi accepts foreign phone and credit card. Official taxi queue at PVG arrivals; metered fare ~CNY 150-200 to city centre.",
-      zh: "DiDi 接受外国手机号和信用卡。浦东到达层有官方出租车排队点，打表到市区约 ¥150-200。",
+      zh: "DiDi 接受外国手机号和信用卡。浦东到达层有官方出租车排队点，按计价器到市区约 ¥150-200。",
       sourceId: "shanghai-public-transport"
     },
     pitfalls: [
@@ -236,7 +236,7 @@ export const cityTransport: CityTransport[] = [
       },
       {
         en: "Cards lacking ODA functionality will be rejected at metro gates. Have cash as backup.",
-        zh: "不支持 ODA 离线认证的卡会被闸机拒收，备点现金。",
+        zh: "不支持 ODA 离线认证的卡会被闸机拒收，请备少量现金。",
         sourceId: "shanghai-metro-five-cards"
       },
       {
@@ -302,7 +302,7 @@ export const cityTransport: CityTransport[] = [
     pitfalls: [
       {
         en: "T3 opened 2025-10-30. Some apps still show old terminal assignments — verify on the airline's confirmation.",
-        zh: "T3 是 2025-10-30 才启用，部分 app 仍按老航站楼分配，订票后看航司原文确认。",
+        zh: "T3 于 2025-10-30 启用，部分 App 仍按旧航站楼分配，订票后请以航司确认信息为准。",
         sourceId: "gz-baiyun-t3-airport"
       },
       {
@@ -368,12 +368,12 @@ export const cityTransport: CityTransport[] = [
     pitfalls: [
       {
         en: "Line 11 is express — skips many intermediate stops. Check station list before boarding.",
-        zh: "11 号线是快线，跳站较多，上车前先看站点表。",
+        zh: "11 号线是快线，跳站较多，上车前请先查看站点表。",
         sourceId: "sz-baoan-airport-plan"
       },
       {
         en: "Metro gate-level foreign card tap is not yet confirmed citywide — keep cash or prepaid Shenzhen Tong as fallback.",
-        zh: "深圳地铁闸机外卡直接刷卡尚未全网，备现金或先去客服中心办深圳通。",
+        zh: "深圳地铁闸机外卡直接刷卡尚未全网，建议备现金或先去客服中心办理深圳通。",
         sourceId: "sz-metro-pos"
       },
       {

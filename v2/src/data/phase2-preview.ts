@@ -85,7 +85,7 @@ export const sampleQuestions: SampleQA[] = [
       answererTier: 3,
       answererCity: "Beijing · 9 yrs",
       bodyEn: "Last train from PEK T2/T3 to Dongzhimen leaves around 22:50. After that, take the airport shuttle bus or a Beijing B-plate taxi from the official rank — your hotel can confirm fare before you flag one.",
-      bodyZh: "首都机场线 T2/T3 末班车约 22:50。之后只能坐机场大巴或在官方排队点打表京 B 出租车，提前问酒店大概多少钱。",
+      bodyZh: "首都机场线 T2/T3 末班车约 22:50。之后只能坐机场大巴或在官方排队点乘坐按计价器计费的京 B 出租车，可提前向酒店确认大致费用。",
       votes: 24,
       postedDays: 4,
       lastVerifiedAgainstPolicy: "2026-04-15"
@@ -94,14 +94,14 @@ export const sampleQuestions: SampleQA[] = [
   {
     id: "q-sh-allergy-card",
     questionEn: "Severe peanut allergy — does the Mandarin allergy card actually work in small Shanghai restaurants?",
-    questionZh: "严重花生过敏，中文过敏卡在上海小馆子真的有用吗？",
+    questionZh: "严重花生过敏，中文过敏卡在上海小型餐馆真的有用吗？",
     topic: "Food / Allergy",
     cityScope: "shanghai",
     answer: {
       answererTier: 2,
       answererCity: "Shanghai · 4 yrs",
       bodyEn: "Mostly. Hand the card to the kitchen, not the waiter. Watch out for shared woks — peanut oil is poured in early. Stick to clearly-fried-to-order venues, avoid pre-prepped sauces. If the staff look uncertain, leave.",
-      bodyZh: "基本能用。把卡递给后厨不是服务员。要注意共用炒锅—花生油很早就下锅。优先去明火现炒的店，避开预制酱料。员工答得含糊就别冒险。",
+      bodyZh: "基本能用。把卡递给后厨，而不是服务员。要注意共用炒锅——花生油可能很早就下锅。优先选择明火现炒的餐厅，避开预制酱料。如果员工答复含糊，应离开。",
       votes: 17,
       postedDays: 12,
       lastVerifiedAgainstPolicy: "2026-03-22"
@@ -110,14 +110,14 @@ export const sampleQuestions: SampleQA[] = [
   {
     id: "q-sz-octopus",
     questionEn: "Coming from HK — what's the actual cheapest card setup for 3 days in Shenzhen?",
-    questionZh: "从香港过去，深圳玩 3 天最便宜的交通卡组合是？",
+    questionZh: "从香港过去，深圳停留 3 天最便宜的交通卡组合是什么？",
     topic: "Transport",
     cityScope: "shenzhen",
     answer: {
       answererTier: 3,
       answererCity: "Shenzhen · 6 yrs",
       bodyEn: "Skip Octopus — doesn't work on SZ Metro. Three days = activate Alipay transit QR for Shenzhen (no deposit, refund unused balance). Need physical card? Shenzhen Tong at any service centre, ¥20 deposit refundable.",
-      bodyZh: "别想八达通——深圳地铁不收。三天的话直接 Alipay 公交码开通深圳就行（无押金，余额可退）。要实体卡就在任意客服中心办深圳通，¥20 押金可退。",
+      bodyZh: "不建议使用八达通——深圳地铁不支持。三天行程可在 Alipay 公交码开通深圳（无押金，余额可退）。如需实体卡，可在任意客服中心办理深圳通，¥20 押金可退。",
       votes: 31,
       postedDays: 2,
       lastVerifiedAgainstPolicy: "2026-05-01"
@@ -147,7 +147,7 @@ export const sampleShares: SampleShare[] = [
     cityZh: "广州",
     daysAgo: 3,
     textEn: "Three things I wish I'd known before flying to Guangzhou: (1) Canton Fair was on, restaurant prices were 40% up — book Pazhou hotels weeks early. (2) The yum cha tea-seat fee surprised me until a local explained — it's normal, not a scam. (3) Metro foreign-card tap actually works fine since October 2025; was way easier than I read in 2024 blogs.",
-    textZh: "去广州前希望知道的三件事：(1) 广交会期间餐厅涨 40%，琶洲酒店要提前几周订。(2) 早茶茶位费一开始我以为被宰，后来本地朋友说是正常的。(3) 地铁外卡刷闸 2025-10 起就能用了，2024 年攻略说不行其实早过期了。",
+    textZh: "去广州前希望知道的三件事：(1) 广交会期间餐厅涨价 40%，琶洲酒店要提前几周订。(2) 早茶茶位费一开始我以为被多收费，后来本地朋友说是正常收费。(3) 地铁外卡刷闸 2025-10 起已可使用，2024 年旧文章说不可用的信息已经过期。",
     imageCount: 3,
     status: "published"
   },
@@ -159,7 +159,7 @@ export const sampleShares: SampleShare[] = [
     cityZh: "上海",
     daysAgo: 9,
     textEn: "PSA for fellow Germans: do NOT try to register WeChat after landing — German T-Mobile roaming SMS just doesn't deliver in China. I was stuck for 6 hours. My hotel concierge eventually did the friend-scan in 30 seconds. Set this up before boarding next time.",
-    textZh: "提醒德国同胞：千万别落地后再注册微信。T-Mobile 漫游短信在中国就是收不到。我卡了 6 小时，最后酒店前台 30 秒帮我扫码搞定。下次一定出发前在德国本地搞好。",
+    textZh: "提醒德国旅客：不要落地后再注册微信。T-Mobile 漫游短信在中国可能无法接收。我等待了 6 小时，最后酒店前台 30 秒帮我完成扫码验证。下次一定在出发前于德国本地完成设置。",
     imageCount: 1,
     status: "published"
   }
@@ -184,29 +184,29 @@ export const moderationFlow: ModerationStep[] = [
   {
     id: "keyword",
     titleEn: "2. Keyword filter",
-    titleZh: "2. 关键词硬拦截",
+    titleZh: "2. 关键词强制拦截",
     bodyEn: "Hard reject: URLs, phone numbers, prices in ¥/$/€/£, email addresses, WeChat IDs, contact-soliciting words. No commercial leakage path.",
-    bodyZh: "URL / 手机号 / 含 ¥/$/€/£ 的价格 / 邮箱 / 微信号 / 联系类用语 → 命中即拒。封死商业引流路径。"
+    bodyZh: "URL / 手机号 / 含 ¥/$/€/£ 的价格 / 邮箱 / 微信号 / 联系类用语 → 命中即拒。阻断商业引流路径。"
   },
   {
     id: "ai",
     titleEn: "3. AI moderation",
     titleZh: "3. AI 审核",
     bodyEn: "OpenAI omni-moderation (text + image, 13 categories) scores the post. Chinese text is auto-translated to English first because no production API handles Chinese well. Score < 0.2 → auto-publish; > 0.85 → auto-reject; 0.2–0.85 → human queue.",
-    bodyZh: "OpenAI omni-moderation 给文本 + 图片 13 类打分。中文先自动翻成英文再过 API（目前没有生产级中文审核 API）。<0.2 直发；>0.85 直拒；0.2–0.85 进人工队列。"
+    bodyZh: "OpenAI omni-moderation 对文本 + 图片 13 类内容打分。中文先自动翻译成英文再提交 API（目前没有生产级中文审核 API）。<0.2 自动发布；>0.85 自动拒绝；0.2–0.85 进入人工队列。"
   },
   {
     id: "review",
     titleEn: "4. Human review (gray zone)",
     titleZh: "4. 人工复核（灰区）",
     bodyEn: "About 5–15% lands here. Reviewer sees original content + AI scores per category + policy links + approve / reject / escalate. Target SLA 2 hours. Decision is logged with reviewer ID.",
-    bodyZh: "约 5–15% 进这层。审核员看原文 + AI 各类分数 + 政策条款 + 通过/拒/上报。目标 SLA 2 小时。决策带审核员 ID 写入日志。"
+    bodyZh: "约 5–15% 进入这一层。审核员查看原文 + AI 各类分数 + 政策条款，并选择通过 / 拒绝 / 上报。目标 SLA 为 2 小时。决策带审核员 ID 写入日志。"
   },
   {
     id: "publish",
     titleEn: "5. Publish or notify",
     titleZh: "5. 发布或通知",
     bodyEn: "Approved → published with city tag, country code, and \"visitor note · authored by [alias] · not officially verified\" badge. Rejected → email with reason.",
-    bodyZh: "通过 → 带城市 tag、国家码、\"访客笔记 · [署名] · 非官方核验\"标签发布。拒绝 → 邮件说明原因。"
+    bodyZh: "通过 → 带城市标签、国家码、\"访客笔记 · [署名] · 非官方核验\"标签发布。拒绝 → 通过邮件说明原因。"
   }
 ];

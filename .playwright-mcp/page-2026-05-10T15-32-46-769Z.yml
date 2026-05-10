@@ -1,0 +1,238 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - button "Skip to content" [ref=e4]
+    - generic [ref=e6]:
+      - img
+      - img
+      - banner [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Open navigation sidebar" [ref=e11] [cursor=pointer]
+            - link "Semrush homepage" [ref=e12] [cursor=pointer]:
+              - /url: /
+              - img [ref=e13]
+          - navigation [ref=e15]:
+            - menubar [ref=e16]:
+              - menuitem "More" [ref=e17] [cursor=pointer]
+              - menuitem "Log In" [ref=e18] [cursor=pointer]
+    - generic [ref=e19]:
+      - main [ref=e20]:
+        - generic [ref=e22]:
+          - generic [ref=e24]:
+            - heading "Keyword Checker" [level=1] [ref=e25]
+            - generic [ref=e26]:
+              - text: Find out how hard it will be to rank in Google's top 10 search results for any keyword, see monthly search volumes, and analyze top competitors with Semrush's Keyword Overview.
+              - text: No sign-up required.
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - generic [ref=e29]:
+                  - textbox "Enter a word or phrase" [ref=e33]
+                  - combobox [ref=e36] [cursor=pointer]:
+                    - generic [ref=e37]:
+                      - generic [ref=e42]: United States
+                      - generic:
+                        - img
+                - generic [ref=e43]:
+                  - generic [ref=e44]: "For example:"
+                  - generic [ref=e45]:
+                    - generic [ref=e47] [cursor=pointer]: socks
+                    - generic [ref=e49] [cursor=pointer]: running shoes
+              - generic [ref=e50]:
+                - button "Check Keyword" [ref=e52] [cursor=pointer]:
+                  - generic [ref=e54]: Check Keyword
+                - generic [ref=e55]:
+                  - generic [ref=e56]: 5/5
+                  - img "You can only use this tool a limited number of times per day. The numbers show your daily limit and how many uses remain." [ref=e58]
+          - generic [ref=e63]:
+            - heading "How to Check Keyword Difficulty" [level=2] [ref=e64]
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - paragraph [ref=e67]: "1"
+                - generic [ref=e68]: Enter any word or phrase and select a location from the dropdown
+              - generic [ref=e69]:
+                - paragraph [ref=e70]: "2"
+                - generic [ref=e71]: Click "Check Keyword" to analyze its keyword difficulty and search volume
+              - generic [ref=e72]:
+                - paragraph [ref=e73]: "3"
+                - generic [ref=e74]: View the keyword competition data and use it to focus your SEO efforts
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - img "What Is Keyword Difficulty?" [ref=e78]
+              - generic [ref=e79]:
+                - heading "What Is Keyword Difficulty?" [level=2] [ref=e80]
+                - generic [ref=e81]:
+                  - paragraph [ref=e82]: Keyword difficulty is a metric that estimates how hard it will be to rank on the first page of Google's search results for a specific keyword.
+                  - paragraph [ref=e83]: This metric indicates how competitive a keyword is and how challenging it might be to outrank other websites with a new page.
+                  - paragraph [ref=e84]: Keyword difficulty scores typically range from 0 to 100, with higher numbers indicating more competitive keywords.
+                  - paragraph [ref=e85]: A high difficulty score means you'll face strong competition from established websites, while a low score represents an opportunity to rank more easily.
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - heading "What Is a Good Keyword Difficulty Score?" [level=2] [ref=e88]
+                - generic [ref=e89]:
+                  - paragraph [ref=e90]: A good keyword difficulty score depends on your website’s authority and resources available for SEO. Generally, the stronger your site (in terms of quality backlinks and content), the higher the keyword difficulty you can realistically target.
+                  - paragraph [ref=e91]: Newer websites or those with lower authority typically find it more effective to prioritize keywords with lower difficulty scores. As your site's authority grows through improved content quality and backlinks, you'll become more capable of ranking for increasingly competitive keywords.
+                  - paragraph [ref=e92]: "Use Semrush's keyword difficulty scale to prioritize your SEO efforts effectively:"
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]:
+                    - paragraph [ref=e96]: 0-14
+                    - paragraph [ref=e97]: Very easy
+                  - generic [ref=e98]: Ideal for newer websites. Rank quickly without building backlinks.
+                - generic [ref=e99]:
+                  - generic [ref=e100]:
+                    - paragraph [ref=e101]: 15-29
+                    - paragraph [ref=e102]: Easy
+                  - generic [ref=e103]: Some competition exists. Focus on creating quality content that matches keyword intent.
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - paragraph [ref=e106]: 30-49
+                    - paragraph [ref=e107]: Possible
+                  - generic [ref=e108]: Moderate competition. Requires well-structured and optimized content.
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - paragraph [ref=e111]: 50-69
+                    - paragraph [ref=e112]: Difficult
+                  - generic [ref=e113]: Strong competition. You'll need quality backlinks plus well-optimized content.
+                - generic [ref=e114]:
+                  - generic [ref=e115]:
+                    - paragraph [ref=e116]: 70-84
+                    - paragraph [ref=e117]: Hard
+                  - generic [ref=e118]: Very competitive. Requires high-authority referring domains to support quality content.
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - paragraph [ref=e121]: 85-100
+                    - paragraph [ref=e122]: Very hard
+                  - generic [ref=e123]: Extremely competitive. Requires extensive SEO investment in link building and content quality.
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - paragraph [ref=e128]: Need More Help Choosing Keywords?
+              - paragraph [ref=e129]: Get personalized, AI-driven keyword suggestions based on your specific website.
+            - link "Get Personalized Keywords" [ref=e130] [cursor=pointer]:
+              - /url: https://www.semrush.com/signup/?src=freetools&custom=keywords&trial=force&redirect_to=%2Fanalytics%2Fkeywordoverview%2F
+              - generic [ref=e132]: Get Personalized Keywords
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - img "What Data Does the Keyword Checker Provide?"
+              - generic [ref=e136]:
+                - heading "What Data Does the Keyword Checker Provide?" [level=2] [ref=e137]
+                - generic [ref=e138]:
+                  - paragraph [ref=e139]: "The keyword checker provides the following valuable metrics for any keyword you enter:"
+                  - list [ref=e140]:
+                    - listitem [ref=e141]: "Keyword Difficulty: How challenging it will be to rank in the top 10 Google search results for the keyword. Presented as a percent, keywords with higher difficulty scores will be more difficult to rank for."
+                    - listitem [ref=e142]: "Monthly Search Volume: How many times people search for the keyword each month. Keywords with higher search volumes have the potential to drive more traffic, but are typically more competitive."
+                    - listitem [ref=e143]: "Search Intent: The purpose of the search behind the keyword. This information can help guide your SEO and content strategy."
+                    - listitem [ref=e144]: "Average CPC: The average cost-per-click of the keyword in Google Ads. Higher CPC typically indicates greater competition."
+                    - listitem [ref=e145]: "SERP Analysis: The top 10 ranking pages for the keyword, including their domain authorities and content types. Use this information to assess your competition and determine what it might take to rank above them."
+                  - paragraph [ref=e146]: This data from our Keyword Overview tool helps you identify high-opportunity keywords, understand the competitive landscape, and build a more effective SEO strategy.
+            - generic [ref=e147]:
+              - heading "How We Calculate Keyword Difficulty" [level=2] [ref=e148]
+              - generic [ref=e149]: "We calculate keyword difficulty using three key factors that can affect your ability to rank:"
+              - list [ref=e150]:
+                - listitem [ref=e151]:
+                  - img "illustrated checkbox" [ref=e153]
+                  - generic [ref=e154]:
+                    - heading "Backlink Strength of Top Results" [level=3] [ref=e155]
+                    - generic [ref=e156]: We analyze both the quantity and quality of backlinks pointing to the top 10 ranking pages. The more high-authority sites linking to the current top results, the higher the difficulty score.
+                - listitem [ref=e157]:
+                  - img "illustrated checkbox" [ref=e159]
+                  - generic [ref=e160]:
+                    - heading "Domain Authority Factors" [level=3] [ref=e161]
+                    - generic [ref=e162]: We examine the median authority score of domains currently ranking on page one. Higher authority domains mean tougher competition and a higher difficulty score.
+                - listitem [ref=e163]:
+                  - img "illustrated checkbox" [ref=e165]
+                  - generic [ref=e166]:
+                    - heading "SERP Features & Keyword Context" [level=3] [ref=e167]
+                    - generic [ref=e168]: We determine whether Google displays special features in its search results like AI Overviews, featured snippets, knowledge panels, and local packs. We also consider whether the keyword is branded, which typically makes ranking more challenging for non-brand sites.
+            - generic [ref=e170]: Our keyword difficulty calculation uses the same comprehensive database that powers Semrush's Keyword Magic Tool and Keyword Overview platforms, giving you access to enterprise-level keyword research for free.
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - paragraph [ref=e175]: Looking for Keywords Your Competitors Aren't Targeting?
+              - paragraph [ref=e176]: Discover personalized, high-value keywords your competitors haven't even considered yet.
+            - link "Get Personalized Keywords" [ref=e177] [cursor=pointer]:
+              - /url: https://www.semrush.com/signup/?src=freetools&custom=keywords&trial=force&redirect_to=%2Fanalytics%2Fkeywordoverview%2F
+              - generic [ref=e179]: Get Personalized Keywords
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - heading "How to Use Keyword Difficulty Strategically" [level=2] [ref=e183]
+              - generic [ref=e184]: "Here are practical ways to use keyword difficulty metrics to build a more effective SEO strategy:"
+              - list [ref=e185]:
+                - listitem [ref=e186]:
+                  - img [ref=e188]
+                  - generic [ref=e191]:
+                    - heading "Find low-competition opportunities" [level=3] [ref=e192]
+                    - generic [ref=e193]: Target keywords with lower difficulty scores to gain quick wins. Look for terms with decent search volume but keyword difficulty scores under 50 to find opportunities where you can rank without extensive backlink building.
+                - listitem [ref=e194]:
+                  - img [ref=e196]
+                  - generic [ref=e199]:
+                    - heading "Build a strategic content roadmap" [level=3] [ref=e200]
+                    - generic [ref=e201]: Use difficulty scores to plan your content calendar. Start with lower-difficulty keywords to establish relevance and authority, then gradually target more competitive terms as your site gains strength.
+                - listitem [ref=e202]:
+                  - img [ref=e204]
+                  - generic [ref=e207]:
+                    - heading "Prioritize SEO vs. PPC efforts" [level=3] [ref=e208]
+                    - generic [ref=e209]: Reserve your SEO resources for keywords with lower keyword difficulty scores and consider using PPC for highly competitive terms that would require significant time and resources to rank for organically.
+                - listitem [ref=e210]:
+                  - img [ref=e212]
+                  - generic [ref=e215]:
+                    - heading "Set realistic ranking expectations" [level=3] [ref=e216]
+                    - generic [ref=e217]: Use keyword competition scores to estimate how long it might take to rank. Keywords in the 0-29 range might show results in weeks, while those in the 70-100 range could take months or years of consistent effort.
+                - listitem [ref=e218]:
+                  - img [ref=e220]
+                  - generic [ref=e223]:
+                    - heading "Benchmark against competitors" [level=3] [ref=e224]
+                    - generic [ref=e225]: Compare the difficulty of keywords you're targeting against those your competitors rank for. This helps you understand if your SEO ambitions align with your domain's current strength relative to the competition.
+            - generic [ref=e226]:
+              - img "Why Trust Semrush's Keyword Difficulty Data?"
+              - generic [ref=e227]:
+                - heading "Why Trust Semrush's Keyword Difficulty Data?" [level=2] [ref=e228]
+                - generic [ref=e229]:
+                  - paragraph [ref=e230]: You can trust Semrush's keyword difficulty data because our keyword checker uses the industry's most comprehensive and reliable formula.
+                  - paragraph [ref=e231]: "Here's why Semrush's data stands out:"
+                  - list [ref=e232]:
+                    - listitem [ref=e233]: "Largest Keyword Database: Access insights from over 25 billion keywords. This extensive data powers reliable difficulty scores and search volumes."
+                    - listitem [ref=e234]: "Multi-Factor Analysis: Our keyword difficulty score analyzes over 10 parameters, including referring domains, authority scores, search intent signals, and SERP features."
+                    - listitem [ref=e235]: "Regularly Updated: Our data is continuously refreshed through proprietary web crawling and machine learning algorithms, ensuring you see the most current difficulty scores."
+                    - listitem [ref=e236]: "Contextually Balanced: Our formula weighs each factor based on extensive research of over 120,000 keywords and their ranking patterns."
+                    - listitem [ref=e237]: "Semrush Alternative Value: Get the same keyword research capabilities found in premium tools, making this a powerful free alternative to expensive keyword research platforms."
+                  - paragraph [ref=e238]: This methodical approach delivers nuanced keyword difficulty scores you can rely on when planning your content strategy.
+            - generic [ref=e239]:
+              - img "Why Trust Semrush's Keyword Difficulty Data?"
+              - generic [ref=e240]:
+                - heading "What Is Semrush's Keyword Overview?" [level=2] [ref=e241]
+                - generic [ref=e242]:
+                  - paragraph [ref=e243]: Semrush's Keyword Overview is a keyword checker tool that provides data and insights for any keyword, including its monthly search volume, search intent, ranking difficulty, CPC, and much more.
+                  - paragraph [ref=e244]: "Used by SEO professionals worldwide, Semrush's Keyword Overview provides:"
+                  - list [ref=e245]:
+                    - listitem [ref=e246]: "Advanced keyword research: Access our database of 25+ billion keywords with detailed metrics"
+                    - listitem [ref=e247]: "Competitor keyword analysis: See exactly which keywords drive traffic to competitor sites"
+                    - listitem [ref=e248]: "Keyword Magic Tool integration: Discover thousands of related keyword opportunities"
+                    - listitem [ref=e249]: "Search intent analysis: Understand user motivation behind every search query"
+                    - listitem [ref=e250]: "SERP feature tracking: Monitor how Google displays results for target keywords"
+                  - paragraph [ref=e251]: Ready to unlock the full power of Keyword Overview? Upgrade to see unlimited keyword data, advanced filters, and professional-grade insights.
+            - generic [ref=e252]:
+              - generic [ref=e253]: Trusted by the world’s leading brands
+              - img "logos" [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - paragraph [ref=e261]: Get Full Keyword Overview Access
+              - paragraph [ref=e262]: See unlimited keyword data, track competitors over time, and discover keyword gaps with Semrush's complete Keyword Overview platform.
+            - link "Upgrade to Keyword Overview" [ref=e263] [cursor=pointer]:
+              - /url: https://www.semrush.com/signup/?src=freetools&custom=keywords&trial=force&redirect_to=%2Fanalytics%2Fkeywordoverview%2F
+              - generic [ref=e265]: Upgrade to Keyword Overview
+        - iframe [ref=e268]:
+          - generic [ref=f4e4]:
+            - text: 由
+            - strong [ref=f4e5]: reCAPTCHA
+            - text: 提供保护
+      - contentinfo [ref=e270]:
+        - button "English" [ref=e274] [cursor=pointer]
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - link "Contact us" [ref=e277] [cursor=pointer]:
+              - /url: /company/contacts/
+            - link "Cookie settings" [ref=e278] [cursor=pointer]:
+              - /url: javascript:window.showConsentSettings();
+          - generic [ref=e280]: © 2026 Semrush Holdings. All rights reserved.
+  - region "Notifications"
+  - alert [ref=e281]
+  - status
