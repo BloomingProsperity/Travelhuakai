@@ -1,0 +1,1311 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "旅 旅行中国" [ref=e3] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e4]: 旅
+      - strong [ref=e5]: 旅行中国
+    - generic [ref=e6]:
+      - button "Open site search" [active] [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - navigation "Main navigation" [ref=e11]:
+        - link "Phrases" [ref=e12] [cursor=pointer]:
+          - /url: /phrasebook
+      - group "Theme" [ref=e13]:
+        - button "Use light theme" [pressed] [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - generic [ref=e21]: Light
+        - button "Use dark theme" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+          - generic [ref=e25]: Dark
+        - button "Use system theme" [ref=e26] [cursor=pointer]:
+          - img [ref=e27]
+          - generic [ref=e30]: Auto
+      - group "Switch language" [ref=e31]:
+        - button "Switch to English" [pressed] [ref=e32] [cursor=pointer]: EN
+        - button "Switch to Chinese" [ref=e33] [cursor=pointer]: 中文
+  - main [ref=e210]:
+    - generic [ref=e211]:
+      - link "← Home" [ref=e212] [cursor=pointer]:
+        - /url: /
+      - heading "Site search" [level=1] [ref=e213]
+    - region "Search input" [ref=e214]:
+      - generic [ref=e215]: Keywords
+      - generic [ref=e216]:
+        - generic [ref=e217]: ⌕
+        - searchbox "Keywords" [ref=e218]
+      - paragraph [ref=e219]: 207 matches
+    - generic [ref=e220]:
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - heading "Attractions" [level=2] [ref=e223]
+          - generic [ref=e224]: "24"
+        - list [ref=e225]:
+          - listitem [ref=e226]:
+            - 'link "Attractions Forbidden City / Palace Museum Dongcheng. The largest intact imperial palace complex in the world: 180 acres, 980 buildings, 8,728 rooms. 24 emperors lived here across the Ming and Qing dynasties (1420–1912). 7-day advance booking is mandatory; 40,000-person daily cap sells out within minutes for peak weekends." [ref=e227] [cursor=pointer]':
+              - /url: /city/beijing#bj-forbidden-city
+              - text: Attractions
+              - heading "Forbidden City / Palace Museum" [level=3] [ref=e228]
+              - paragraph [ref=e229]: "Dongcheng. The largest intact imperial palace complex in the world: 180 acres, 980 buildings, 8,728 rooms. 24 emperors lived here across the Ming and Qing dynasties (1420–1912). 7-day advance booking is mandatory; 40,000-person daily cap sells out within minutes for peak weekends."
+          - listitem [ref=e230]:
+            - 'link "Attractions Great Wall at Mutianyu Huairou. The Great Wall section most recommended by experienced foreign travellers: well-restored Ming masonry, 23 watchtowers across a 2.25 km open stretch, cable car or chair lift up plus a toboggan descent. The official English website accepts international cards directly. 1 million foreign visitors in 2025." [ref=e231] [cursor=pointer]':
+              - /url: /city/beijing#bj-mutianyu
+              - text: Attractions
+              - heading "Great Wall at Mutianyu" [level=3] [ref=e232]
+              - paragraph [ref=e233]: "Huairou. The Great Wall section most recommended by experienced foreign travellers: well-restored Ming masonry, 23 watchtowers across a 2.25 km open stretch, cable car or chair lift up plus a toboggan descent. The official English website accepts international cards directly. 1 million foreign visitors in 2025."
+          - listitem [ref=e234]:
+            - link "Attractions Summer Palace Haidian. The best-preserved imperial garden in China and a UNESCO World Heritage Site. 220-hectare Kunming Lake with Longevity Hill behind it, the 728 m painted Long Corridor, and a theatrical landscape designed for Qing imperial leisure. Audio guides in 19 languages." [ref=e235] [cursor=pointer]:
+              - /url: /city/beijing#bj-summer-palace
+              - text: Attractions
+              - heading "Summer Palace" [level=3] [ref=e236]
+              - paragraph [ref=e237]: Haidian. The best-preserved imperial garden in China and a UNESCO World Heritage Site. 220-hectare Kunming Lake with Longevity Hill behind it, the 728 m painted Long Corridor, and a theatrical landscape designed for Qing imperial leisure. Audio guides in 19 languages.
+          - listitem [ref=e238]:
+            - link "Attractions Temple of Heaven Dongcheng. The largest extant sacrificial altar complex in China (built 1406–1420), used by every Ming and Qing emperor to pray for harvest. The triple-eaved circular blue-roofed Hall of Prayer for Good Harvests is one of the most architecturally perfect timber structures in Chinese history. The park grounds double as a morning tai chi venue." [ref=e239] [cursor=pointer]:
+              - /url: /city/beijing#bj-temple-of-heaven
+              - text: Attractions
+              - heading "Temple of Heaven" [level=3] [ref=e240]
+              - paragraph [ref=e241]: Dongcheng. The largest extant sacrificial altar complex in China (built 1406–1420), used by every Ming and Qing emperor to pray for harvest. The triple-eaved circular blue-roofed Hall of Prayer for Good Harvests is one of the most architecturally perfect timber structures in Chinese history. The park grounds double as a morning tai chi venue.
+          - listitem [ref=e242]:
+            - link "Attractions Lama Temple (Yonghe Gong) Dongcheng. The most important Tibetan Buddhist temple in Beijing and one of the most significant Gelug monasteries outside Tibet. Originally an imperial princely mansion (1694), converted to a lamasery in 1744. The Wanfu Pavilion houses an 18 m Maitreya Buddha carved from a single sandalwood tree — the tallest sandalwood statue in the world." [ref=e243] [cursor=pointer]:
+              - /url: /city/beijing#bj-lama-temple
+              - text: Attractions
+              - heading "Lama Temple (Yonghe Gong)" [level=3] [ref=e244]
+              - paragraph [ref=e245]: Dongcheng. The most important Tibetan Buddhist temple in Beijing and one of the most significant Gelug monasteries outside Tibet. Originally an imperial princely mansion (1694), converted to a lamasery in 1744. The Wanfu Pavilion houses an 18 m Maitreya Buddha carved from a single sandalwood tree — the tallest sandalwood statue in the world.
+          - listitem [ref=e246]:
+            - link "Attractions Tiananmen Square Dongcheng. The world's third-largest public square (440,000 sq m) and the symbolic centre of the People's Republic. Daily flag-raising ceremony at sunrise, flag-lowering at sunset. Free entry but mandatory advance reservation (1–7 days ahead) — walk-up visitors are turned back at the security checkpoint." [ref=e247] [cursor=pointer]:
+              - /url: /city/beijing#bj-tiananmen
+              - text: Attractions
+              - heading "Tiananmen Square" [level=3] [ref=e248]
+              - paragraph [ref=e249]: Dongcheng. The world's third-largest public square (440,000 sq m) and the symbolic centre of the People's Republic. Daily flag-raising ceremony at sunrise, flag-lowering at sunset. Free entry but mandatory advance reservation (1–7 days ahead) — walk-up visitors are turned back at the security checkpoint.
+          - listitem [ref=e250]:
+            - 'link "Attractions The Bund Huangpu. Shanghai''s essential postcard view: a 1.5 km Huangpu River promenade where early-20th-century banks and trading houses face the Pudong skyline. The simplest place to read both Shanghai''s treaty-port past and its vertical-finance present in one frame. Sunrise for low crowds; evening for the skyline lights." [ref=e251] [cursor=pointer]':
+              - /url: /city/shanghai#sh-bund
+              - text: Attractions
+              - heading "The Bund" [level=3] [ref=e252]
+              - paragraph [ref=e253]: "Huangpu. Shanghai's essential postcard view: a 1.5 km Huangpu River promenade where early-20th-century banks and trading houses face the Pudong skyline. The simplest place to read both Shanghai's treaty-port past and its vertical-finance present in one frame. Sunrise for low crowds; evening for the skyline lights."
+          - listitem [ref=e254]:
+            - 'link "Attractions Yu Garden Huangpu. Shanghai''s best central classical Chinese garden: Ming-dynasty rockeries, pavilions, ponds, zigzag bridges, the City God Temple area, and the surrounding old-city bazaar streets all compressed into a walkable historic quarter. The clearest contrast to the Bund''s European riverfront." [ref=e255] [cursor=pointer]':
+              - /url: /city/shanghai#sh-yu-garden
+              - text: Attractions
+              - heading "Yu Garden" [level=3] [ref=e256]
+              - paragraph [ref=e257]: "Huangpu. Shanghai's best central classical Chinese garden: Ming-dynasty rockeries, pavilions, ponds, zigzag bridges, the City God Temple area, and the surrounding old-city bazaar streets all compressed into a walkable historic quarter. The clearest contrast to the Bund's European riverfront."
+          - listitem [ref=e258]:
+            - link "Attractions Shanghai Tower Pudong. China's highest observation deck and the clearest \"future Shanghai\" attraction. The 118th-floor Top of Shanghai Observatory gives a 360° view over Lujiazui, the Bund, Suzhou Creek, and the city's full scale. Heavily affected by haze, rain, and low cloud — book close to the visit date." [ref=e259] [cursor=pointer]:
+              - /url: /city/shanghai#sh-shanghai-tower
+              - text: Attractions
+              - heading "Shanghai Tower" [level=3] [ref=e260]
+              - paragraph [ref=e261]: Pudong. China's highest observation deck and the clearest "future Shanghai" attraction. The 118th-floor Top of Shanghai Observatory gives a 360° view over Lujiazui, the Bund, Suzhou Creek, and the city's full scale. Heavily affected by haze, rain, and low cloud — book close to the visit date.
+          - listitem [ref=e262]:
+            - 'link "Attractions Lujiazui Skyline & Oriental Pearl Tower Pudong. The compact skyline cluster opposite the Bund: Oriental Pearl Tower, Shanghai Tower, World Financial Center, Jin Mao, IFC, riverside promenades. Iconic photos, sky decks, malls, and easy riverfront contrast with the Bund. Outdoor district free; sky-deck tickets via official ticketing." [ref=e263] [cursor=pointer]':
+              - /url: /city/shanghai#sh-lujiazui
+              - text: Attractions
+              - heading "Lujiazui Skyline & Oriental Pearl Tower" [level=3] [ref=e264]
+              - paragraph [ref=e265]: "Pudong. The compact skyline cluster opposite the Bund: Oriental Pearl Tower, Shanghai Tower, World Financial Center, Jin Mao, IFC, riverside promenades. Iconic photos, sky decks, malls, and easy riverfront contrast with the Bund. Outdoor district free; sky-deck tickets via official ticketing."
+          - listitem [ref=e266]:
+            - 'link "Attractions Wukang Road & Wukang Mansion Xuhui. The most visitor-friendly slice of the former French Concession: plane-tree streets, garden villas, writer residences, cafes, Ferguson Lane, and the flatiron Wukang Mansion photo spot. Better as a slow walk than a single attraction. Police barriers control the crowds at the photo intersection on weekends." [ref=e267] [cursor=pointer]':
+              - /url: /city/shanghai#sh-wukang
+              - text: Attractions
+              - heading "Wukang Road & Wukang Mansion" [level=3] [ref=e268]
+              - paragraph [ref=e269]: "Xuhui. The most visitor-friendly slice of the former French Concession: plane-tree streets, garden villas, writer residences, cafes, Ferguson Lane, and the flatiron Wukang Mansion photo spot. Better as a slow walk than a single attraction. Police barriers control the crowds at the photo intersection on weekends."
+          - listitem [ref=e270]:
+            - 'link "Attractions Shanghai Museum (People''s Square) Huangpu. The strongest single stop for ancient Chinese art in central Shanghai: bronzes, ceramics, jade, calligraphy, painting, seals, furniture. Since 2025-09 individual visitors no longer need reservations for the People''s Square site during normal periods — entry with passport. Closed Mondays." [ref=e271] [cursor=pointer]':
+              - /url: /city/shanghai#sh-museum
+              - text: Attractions
+              - heading "Shanghai Museum (People's Square)" [level=3] [ref=e272]
+              - paragraph [ref=e273]: "Huangpu. The strongest single stop for ancient Chinese art in central Shanghai: bronzes, ceramics, jade, calligraphy, painting, seals, furniture. Since 2025-09 individual visitors no longer need reservations for the People's Square site during normal periods — entry with passport. Closed Mondays."
+          - listitem [ref=e274]:
+            - link "Attractions Canton Tower Haizhu. At 600 m, the tallest TV/observation tower in China and third tallest in the world. The twisted-waist design is one of Guangzhou's most recognisable silhouettes. Indoor and outdoor observation decks; the glass sky walk and bubble tram revolving outside the structure offer extra thrills. Best at dusk for the daylight-to-LED transition." [ref=e275] [cursor=pointer]:
+              - /url: /city/guangzhou#gz-canton-tower
+              - text: Attractions
+              - heading "Canton Tower" [level=3] [ref=e276]
+              - paragraph [ref=e277]: Haizhu. At 600 m, the tallest TV/observation tower in China and third tallest in the world. The twisted-waist design is one of Guangzhou's most recognisable silhouettes. Indoor and outdoor observation decks; the glass sky walk and bubble tram revolving outside the structure offer extra thrills. Best at dusk for the daylight-to-LED transition.
+          - listitem [ref=e278]:
+            - link "Attractions Shamian Island Liwan. A 0.3 km² sand-bar in the Pearl River that served as the British and French concession from 1859 to 1943. Over 150 European-style buildings — consulates, banks, churches, trading-house villas — shaded by 200-year-old banyan trees. No cars, no admission, no hawkers inside. Often described as the calmest 90 minutes in Guangzhou." [ref=e279] [cursor=pointer]:
+              - /url: /city/guangzhou#gz-shamian
+              - text: Attractions
+              - heading "Shamian Island" [level=3] [ref=e280]
+              - paragraph [ref=e281]: Liwan. A 0.3 km² sand-bar in the Pearl River that served as the British and French concession from 1859 to 1943. Over 150 European-style buildings — consulates, banks, churches, trading-house villas — shaded by 200-year-old banyan trees. No cars, no admission, no hawkers inside. Often described as the calmest 90 minutes in Guangzhou.
+          - listitem [ref=e282]:
+            - link "Attractions Chen Clan Ancestral Hall Liwan. Built 1888–1894 by 72 Chen-surname clans as an exam-preparation hostel and worship site, this compound is the supreme surviving example of Lingnan decorative architecture. Every surface — ridge beams, screen walls, courtyards — is covered in polychrome ceramic figurines, wood carvings, stone reliefs, and brick carvings. \"The Pearl of Lingnan Architecture.\"" [ref=e283] [cursor=pointer]:
+              - /url: /city/guangzhou#gz-chen-clan
+              - text: Attractions
+              - heading "Chen Clan Ancestral Hall" [level=3] [ref=e284]
+              - paragraph [ref=e285]: Liwan. Built 1888–1894 by 72 Chen-surname clans as an exam-preparation hostel and worship site, this compound is the supreme surviving example of Lingnan decorative architecture. Every surface — ridge beams, screen walls, courtyards — is covered in polychrome ceramic figurines, wood carvings, stone reliefs, and brick carvings. "The Pearl of Lingnan Architecture."
+          - listitem [ref=e286]:
+            - link "Attractions Yuexiu Park & Five Rams Statue Yuexiu. The Five Rams Statue (1959, 11 m, 130+ pieces of granite) is Guangzhou's civic symbol, rooted in the legend of five celestial rams who brought rice seeds to bless the city. Yuexiu Park (860,000 sq m) is the city's largest urban park and contains Zhenhai Tower (Ming-dynasty watchtower, now Guangzhou Museum) and remnants of the ancient city wall. Free entry; packed with locals doing tai chi from 6 AM." [ref=e287] [cursor=pointer]:
+              - /url: /city/guangzhou#gz-yuexiu-park
+              - text: Attractions
+              - heading "Yuexiu Park & Five Rams Statue" [level=3] [ref=e288]
+              - paragraph [ref=e289]: Yuexiu. The Five Rams Statue (1959, 11 m, 130+ pieces of granite) is Guangzhou's civic symbol, rooted in the legend of five celestial rams who brought rice seeds to bless the city. Yuexiu Park (860,000 sq m) is the city's largest urban park and contains Zhenhai Tower (Ming-dynasty watchtower, now Guangzhou Museum) and remnants of the ancient city wall. Free entry; packed with locals doing tai chi from 6 AM.
+          - listitem [ref=e290]:
+            - link "Attractions Pearl River Night Cruise Haizhu / Tianhe. The illuminated-skyline cruise is Guangzhou's signature evening activity. The 60–90 min route passes below Canton Tower, along Zhujiang New Town's glittering skyline, past the colonial Shamian shores, and through bridges lit in colour. The 8 PM departure catches the full LED show on Canton Tower." [ref=e291] [cursor=pointer]:
+              - /url: /city/guangzhou#gz-pearl-river
+              - text: Attractions
+              - heading "Pearl River Night Cruise" [level=3] [ref=e292]
+              - paragraph [ref=e293]: Haizhu / Tianhe. The illuminated-skyline cruise is Guangzhou's signature evening activity. The 60–90 min route passes below Canton Tower, along Zhujiang New Town's glittering skyline, past the colonial Shamian shores, and through bridges lit in colour. The 8 PM departure catches the full LED show on Canton Tower.
+          - listitem [ref=e294]:
+            - link "Attractions Baiyun Mountain Baiyun. A 5A national scenic area 12 km from the centre. The Moxing Ridge peak (382 m) gives panoramic views over Greater Guangzhou on clear days. 21 sq km park with cable car, Mingchun Valley aviary (5,000+ birds), Yunxi Botanical Garden, and the Sculpture Park. 20 million visitors per year. Popular for early-morning Cantonese exercise culture." [ref=e295] [cursor=pointer]:
+              - /url: /city/guangzhou#gz-baiyun-mountain
+              - text: Attractions
+              - heading "Baiyun Mountain" [level=3] [ref=e296]
+              - paragraph [ref=e297]: Baiyun. A 5A national scenic area 12 km from the centre. The Moxing Ridge peak (382 m) gives panoramic views over Greater Guangzhou on clear days. 21 sq km park with cable car, Mingchun Valley aviary (5,000+ birds), Yunxi Botanical Garden, and the Sculpture Park. 20 million visitors per year. Popular for early-morning Cantonese exercise culture.
+          - listitem [ref=e298]:
+            - 'link "Attractions Window of the World Nanshan. Shenzhen''s classic theme-park shorthand: global landmarks rebuilt at miniature or reduced scale, evening shows, and a distinctly Shenzhen \"world showcase\" atmosphere. Useful for families, Hong Kong day-trippers, and visitors who want an unmistakably Shenzhen attraction rather than another mall. 09:00–22:30 daily." [ref=e299] [cursor=pointer]':
+              - /url: /city/shenzhen#sz-window-of-the-world
+              - text: Attractions
+              - heading "Window of the World" [level=3] [ref=e300]
+              - paragraph [ref=e301]: "Nanshan. Shenzhen's classic theme-park shorthand: global landmarks rebuilt at miniature or reduced scale, evening shows, and a distinctly Shenzhen \"world showcase\" atmosphere. Useful for families, Hong Kong day-trippers, and visitors who want an unmistakably Shenzhen attraction rather than another mall. 09:00–22:30 daily."
+          - listitem [ref=e302]:
+            - 'link "Attractions OCT-LOFT Creative Culture Park Nanshan. Shenzhen''s easiest creative-neighbourhood stop: converted industrial buildings, cafes, design shops, small galleries, bookstores, and periodic markets. Pairs well with the OCT theme-park cluster and works as a lower-pressure alternative to paid theme parks. Public district, free entry; shops Tuesday–Sunday." [ref=e303] [cursor=pointer]':
+              - /url: /city/shenzhen#sz-octloft
+              - text: Attractions
+              - heading "OCT-LOFT Creative Culture Park" [level=3] [ref=e304]
+              - paragraph [ref=e305]: "Nanshan. Shenzhen's easiest creative-neighbourhood stop: converted industrial buildings, cafes, design shops, small galleries, bookstores, and periodic markets. Pairs well with the OCT theme-park cluster and works as a lower-pressure alternative to paid theme parks. Public district, free entry; shops Tuesday–Sunday."
+          - listitem [ref=e306]:
+            - 'link "Attractions Sea World & Culture and Arts Center Nanshan / Shekou. Shekou Sea World is the most foreigner-friendly dining and nightlife node in Shenzhen: waterfront plaza, restaurants, bars, the Minghua ship landmark, and the Sea World Culture & Arts Center (Design Society) for design exhibitions. A strong first-night choice for visitors arriving from Hong Kong or by ferry." [ref=e307] [cursor=pointer]':
+              - /url: /city/shenzhen#sz-sea-world
+              - text: Attractions
+              - heading "Sea World & Culture and Arts Center" [level=3] [ref=e308]
+              - paragraph [ref=e309]: "Nanshan / Shekou. Shekou Sea World is the most foreigner-friendly dining and nightlife node in Shenzhen: waterfront plaza, restaurants, bars, the Minghua ship landmark, and the Sea World Culture & Arts Center (Design Society) for design exhibitions. A strong first-night choice for visitors arriving from Hong Kong or by ferry."
+          - listitem [ref=e310]:
+            - link "Attractions Dameisha & Xiaomeisha Beaches Yantian. The easiest named beaches from central Shenzhen, now reachable comfortably by Metro Line 8. Dameisha is the classic public beach; Xiaomeisha has been redeveloped and is more resort-like. Best for \"I want the coast and seafood without a full Dapeng day\". Avoid peak midday in summer." [ref=e311] [cursor=pointer]:
+              - /url: /city/shenzhen#sz-dameisha
+              - text: Attractions
+              - heading "Dameisha & Xiaomeisha Beaches" [level=3] [ref=e312]
+              - paragraph [ref=e313]: Yantian. The easiest named beaches from central Shenzhen, now reachable comfortably by Metro Line 8. Dameisha is the classic public beach; Xiaomeisha has been redeveloped and is more resort-like. Best for "I want the coast and seafood without a full Dapeng day". Avoid peak midday in summer.
+          - listitem [ref=e314]:
+            - 'link "Attractions Lianhuashan Park Futian. The central Shenzhen orientation hill: free, easy by metro, good city views, and famous for the Deng Xiaoping statue overlooking the CBD. One of the cleanest ways to read Shenzhen''s reform-era identity to a first-time visitor." [ref=e315] [cursor=pointer]':
+              - /url: /city/shenzhen#sz-lianhuashan
+              - text: Attractions
+              - heading "Lianhuashan Park" [level=3] [ref=e316]
+              - paragraph [ref=e317]: "Futian. The central Shenzhen orientation hill: free, easy by metro, good city views, and famous for the Deng Xiaoping statue overlooking the CBD. One of the cleanest ways to read Shenzhen's reform-era identity to a first-time visitor."
+          - listitem [ref=e318]:
+            - link "Attractions Dapeng Fortress & Peninsula Dapeng New District. The closest thing Shenzhen has to a historic coastal village plus a beach/hiking day. The Ming/Qing-era fortress gives military-history texture; nearby Jiaochangwei, Yangmeikeng, Xichong/Dongchong and coastal routes make it a full-day nature trip. A private driver or tour reduces friction for foreign visitors." [ref=e319] [cursor=pointer]:
+              - /url: /city/shenzhen#sz-dapeng
+              - text: Attractions
+              - heading "Dapeng Fortress & Peninsula" [level=3] [ref=e320]
+              - paragraph [ref=e321]: Dapeng New District. The closest thing Shenzhen has to a historic coastal village plus a beach/hiking day. The Ming/Qing-era fortress gives military-history texture; nearby Jiaochangwei, Yangmeikeng, Xichong/Dongchong and coastal routes make it a full-day nature trip. A private driver or tour reduces friction for foreign visitors.
+      - generic [ref=e322]:
+        - generic [ref=e323]:
+          - heading "Phrasebook" [level=2] [ref=e324]
+          - generic [ref=e325]: "48"
+        - list [ref=e326]:
+          - listitem [ref=e327]:
+            - 'link "Phrasebook Hello. Basics. Pinyin: Nǐ hǎo." [ref=e328] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Hello." [level=3] [ref=e329]
+              - paragraph [ref=e330]: "Basics. Pinyin: Nǐ hǎo."
+          - listitem [ref=e331]:
+            - 'link "Phrasebook Thank you. Basics. Pinyin: Xièxie." [ref=e332] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Thank you." [level=3] [ref=e333]
+              - paragraph [ref=e334]: "Basics. Pinyin: Xièxie."
+          - listitem [ref=e335]:
+            - 'link "Phrasebook Sorry. Basics. Pinyin: Duìbuqǐ." [ref=e336] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Sorry." [level=3] [ref=e337]
+              - paragraph [ref=e338]: "Basics. Pinyin: Duìbuqǐ."
+          - listitem [ref=e339]:
+            - 'link "Phrasebook I don''t understand. Basics. Pinyin: Wǒ tīng bù dǒng." [ref=e340] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I don't understand." [level=3] [ref=e341]
+              - paragraph [ref=e342]: "Basics. Pinyin: Wǒ tīng bù dǒng."
+          - listitem [ref=e343]:
+            - 'link "Phrasebook Please say that again. Basics. Pinyin: Qǐng zài shuō yí biàn." [ref=e344] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Please say that again." [level=3] [ref=e345]
+              - paragraph [ref=e346]: "Basics. Pinyin: Qǐng zài shuō yí biàn."
+          - listitem [ref=e347]:
+            - 'link "Phrasebook Please help me. Basics. Pinyin: Qǐng bāng wǒ yí xià." [ref=e348] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Please help me." [level=3] [ref=e349]
+              - paragraph [ref=e350]: "Basics. Pinyin: Qǐng bāng wǒ yí xià."
+          - listitem [ref=e351]:
+            - 'link "Phrasebook How much to X? Transport. Pinyin: Qù X duōshǎo qián?" [ref=e352] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "How much to X?" [level=3] [ref=e353]
+              - paragraph [ref=e354]: "Transport. Pinyin: Qù X duōshǎo qián?"
+          - listitem [ref=e355]:
+            - 'link "Phrasebook How do I get to metro station X? Transport. Pinyin: Dìtiě X zhàn zěnme zǒu?" [ref=e356] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "How do I get to metro station X?" [level=3] [ref=e357]
+              - paragraph [ref=e358]: "Transport. Pinyin: Dìtiě X zhàn zěnme zǒu?"
+          - listitem [ref=e359]:
+            - 'link "Phrasebook I want to take a taxi. Transport. Pinyin: Wǒ yào dǎchē." [ref=e360] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I want to take a taxi." [level=3] [ref=e361]
+              - paragraph [ref=e362]: "Transport. Pinyin: Wǒ yào dǎchē."
+          - listitem [ref=e363]:
+            - 'link "Phrasebook Driver, please stop here. Transport. Pinyin: Shīfu, qǐng tíng yí xià." [ref=e364] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Driver, please stop here." [level=3] [ref=e365]
+              - paragraph [ref=e366]: "Transport. Pinyin: Shīfu, qǐng tíng yí xià."
+          - listitem [ref=e367]:
+            - 'link "Phrasebook How do I get to the high-speed rail station? Transport. Pinyin: Gāotiě zhàn zěnme zǒu?" [ref=e368] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "How do I get to the high-speed rail station?" [level=3] [ref=e369]
+              - paragraph [ref=e370]: "Transport. Pinyin: Gāotiě zhàn zěnme zǒu?"
+          - listitem [ref=e371]:
+            - 'link "Phrasebook How do I get to the airport? Transport. Pinyin: Jīchǎng zěnme zǒu?" [ref=e372] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "How do I get to the airport?" [level=3] [ref=e373]
+              - paragraph [ref=e374]: "Transport. Pinyin: Jīchǎng zěnme zǒu?"
+          - listitem [ref=e375]:
+            - 'link "Phrasebook Please tell me when we arrive. Transport. Pinyin: Dào le máfan shuō yì shēng." [ref=e376] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Please tell me when we arrive." [level=3] [ref=e377]
+              - paragraph [ref=e378]: "Transport. Pinyin: Dào le máfan shuō yì shēng."
+          - listitem [ref=e379]:
+            - 'link "Phrasebook Don''t you accept foreign cards? Payments. Pinyin: Bù shōu wàikǎ ma?" [ref=e380] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Don't you accept foreign cards?" [level=3] [ref=e381]
+              - paragraph [ref=e382]: "Payments. Pinyin: Bù shōu wàikǎ ma?"
+          - listitem [ref=e383]:
+            - 'link "Phrasebook Is cash okay? Payments. Pinyin: Xiànjīn kěyǐ ma?" [ref=e384] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Is cash okay?" [level=3] [ref=e385]
+              - paragraph [ref=e386]: "Payments. Pinyin: Xiànjīn kěyǐ ma?"
+          - listitem [ref=e387]:
+            - 'link "Phrasebook That''s too expensive. Payments. Pinyin: Tài guì le." [ref=e388] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "That's too expensive." [level=3] [ref=e389]
+              - paragraph [ref=e390]: "Payments. Pinyin: Tài guì le."
+          - listitem [ref=e391]:
+            - 'link "Phrasebook Can it be cheaper? Payments. Pinyin: Piányi diǎn." [ref=e392] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Can it be cheaper?" [level=3] [ref=e393]
+              - paragraph [ref=e394]: "Payments. Pinyin: Piányi diǎn."
+          - listitem [ref=e395]:
+            - 'link "Phrasebook I''ll pay cash. Payments. Pinyin: Wǒ fù xiànjīn." [ref=e396] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I'll pay cash." [level=3] [ref=e397]
+              - paragraph [ref=e398]: "Payments. Pinyin: Wǒ fù xiànjīn."
+          - listitem [ref=e399]:
+            - 'link "Phrasebook The QR code payment failed. Payments. Pinyin: Sǎomǎ shībài le." [ref=e400] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "The QR code payment failed." [level=3] [ref=e401]
+              - paragraph [ref=e402]: "Payments. Pinyin: Sǎomǎ shībài le."
+          - listitem [ref=e403]:
+            - 'link "Phrasebook Do you need the receipt? Payments. Pinyin: Shōujù yào bu yào?" [ref=e404] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Do you need the receipt?" [level=3] [ref=e405]
+              - paragraph [ref=e406]: "Payments. Pinyin: Shōujù yào bu yào?"
+          - listitem [ref=e407]:
+            - 'link "Phrasebook Please make it not spicy. Food. Pinyin: Bú yào là." [ref=e408] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Please make it not spicy." [level=3] [ref=e409]
+              - paragraph [ref=e410]: "Food. Pinyin: Bú yào là."
+          - listitem [ref=e411]:
+            - 'link "Phrasebook No X, I''m allergic. Food. Pinyin: Bú yào X, wǒ guòmǐn." [ref=e412] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "No X, I'm allergic." [level=3] [ref=e413]
+              - paragraph [ref=e414]: "Food. Pinyin: Bú yào X, wǒ guòmǐn."
+          - listitem [ref=e415]:
+            - 'link "Phrasebook I am vegetarian. Food. Pinyin: Wǒ chī sù." [ref=e416] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I am vegetarian." [level=3] [ref=e417]
+              - paragraph [ref=e418]: "Food. Pinyin: Wǒ chī sù."
+          - listitem [ref=e419]:
+            - 'link "Phrasebook What is this? Food. Pinyin: Zhè shì shénme?" [ref=e420] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "What is this?" [level=3] [ref=e421]
+              - paragraph [ref=e422]: "Food. Pinyin: Zhè shì shénme?"
+          - listitem [ref=e423]:
+            - 'link "Phrasebook What do you recommend? Food. Pinyin: Tuījiàn shénme?" [ref=e424] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "What do you recommend?" [level=3] [ref=e425]
+              - paragraph [ref=e426]: "Food. Pinyin: Tuījiàn shénme?"
+          - listitem [ref=e427]:
+            - 'link "Phrasebook Extra rice, please. Food. Pinyin: Jiā fàn." [ref=e428] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Extra rice, please." [level=3] [ref=e429]
+              - paragraph [ref=e430]: "Food. Pinyin: Jiā fàn."
+          - listitem [ref=e431]:
+            - 'link "Phrasebook Please pack this to go. Food. Pinyin: Dǎbāo." [ref=e432] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Please pack this to go." [level=3] [ref=e433]
+              - paragraph [ref=e434]: "Food. Pinyin: Dǎbāo."
+          - listitem [ref=e435]:
+            - 'link "Phrasebook Check, please. Food. Pinyin: Jiézhàng." [ref=e436] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Check, please." [level=3] [ref=e437]
+              - paragraph [ref=e438]: "Food. Pinyin: Jiézhàng."
+          - listitem [ref=e439]:
+            - 'link "Phrasebook I want to check in. Accommodation. Pinyin: Wǒ yào bànlǐ rùzhù." [ref=e440] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I want to check in." [level=3] [ref=e441]
+              - paragraph [ref=e442]: "Accommodation. Pinyin: Wǒ yào bànlǐ rùzhù."
+          - listitem [ref=e443]:
+            - 'link "Phrasebook What time is check-out? Accommodation. Pinyin: Jǐ diǎn tuìfáng?" [ref=e444] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "What time is check-out?" [level=3] [ref=e445]
+              - paragraph [ref=e446]: "Accommodation. Pinyin: Jǐ diǎn tuìfáng?"
+          - listitem [ref=e447]:
+            - 'link "Phrasebook What is the Wi-Fi password? Accommodation. Pinyin: Wi-Fi mìmǎ shì duōshǎo?" [ref=e448] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "What is the Wi-Fi password?" [level=3] [ref=e449]
+              - paragraph [ref=e450]: "Accommodation. Pinyin: Wi-Fi mìmǎ shì duōshǎo?"
+          - listitem [ref=e451]:
+            - 'link "Phrasebook What time is breakfast? Accommodation. Pinyin: Zǎocān jǐ diǎn?" [ref=e452] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "What time is breakfast?" [level=3] [ref=e453]
+              - paragraph [ref=e454]: "Accommodation. Pinyin: Zǎocān jǐ diǎn?"
+          - listitem [ref=e455]:
+            - 'link "Phrasebook Can I store my luggage? Accommodation. Pinyin: Kěyǐ jìcún xíngli ma?" [ref=e456] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Can I store my luggage?" [level=3] [ref=e457]
+              - paragraph [ref=e458]: "Accommodation. Pinyin: Kěyǐ jìcún xíngli ma?"
+          - listitem [ref=e459]:
+            - 'link "Phrasebook Can we add an extra bed? Accommodation. Pinyin: Kěyǐ jiā zhāng chuáng ma?" [ref=e460] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Can we add an extra bed?" [level=3] [ref=e461]
+              - paragraph [ref=e462]: "Accommodation. Pinyin: Kěyǐ jiā zhāng chuáng ma?"
+          - listitem [ref=e463]:
+            - 'link "Phrasebook Help me! Emergency. Pinyin: Jiùjiu wǒ!" [ref=e464] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Help me!" [level=3] [ref=e465]
+              - paragraph [ref=e466]: "Emergency. Pinyin: Jiùjiu wǒ!"
+          - listitem [ref=e467]:
+            - 'link "Phrasebook I am sick. Emergency. Pinyin: Wǒ shēngbìng le." [ref=e468] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I am sick." [level=3] [ref=e469]
+              - paragraph [ref=e470]: "Emergency. Pinyin: Wǒ shēngbìng le."
+          - listitem [ref=e471]:
+            - 'link "Phrasebook My passport is lost. Emergency. Pinyin: Wǒ de hùzhào diū le." [ref=e472] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "My passport is lost." [level=3] [ref=e473]
+              - paragraph [ref=e474]: "Emergency. Pinyin: Wǒ de hùzhào diū le."
+          - listitem [ref=e475]:
+            - 'link "Phrasebook Call an ambulance. Emergency. Pinyin: Jiào jiùhùchē." [ref=e476] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Call an ambulance." [level=3] [ref=e477]
+              - paragraph [ref=e478]: "Emergency. Pinyin: Jiào jiùhùchē."
+          - listitem [ref=e479]:
+            - 'link "Phrasebook Call the police. Emergency. Pinyin: Bàojǐng." [ref=e480] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Call the police." [level=3] [ref=e481]
+              - paragraph [ref=e482]: "Emergency. Pinyin: Bàojǐng."
+          - listitem [ref=e483]:
+            - 'link "Phrasebook My wallet was stolen. Emergency. Pinyin: Wǒ de qiánbāo bèi tōu le." [ref=e484] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "My wallet was stolen." [level=3] [ref=e485]
+              - paragraph [ref=e486]: "Emergency. Pinyin: Wǒ de qiánbāo bèi tōu le."
+          - listitem [ref=e487]:
+            - 'link "Phrasebook Give me some water, please. Emergency. Pinyin: Gěi wǒ diǎn shuǐ." [ref=e488] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Give me some water, please." [level=3] [ref=e489]
+              - paragraph [ref=e490]: "Emergency. Pinyin: Gěi wǒ diǎn shuǐ."
+          - listitem [ref=e491]:
+            - 'link "Phrasebook How much is it? Shopping. Pinyin: Duōshǎo qián?" [ref=e492] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "How much is it?" [level=3] [ref=e493]
+              - paragraph [ref=e494]: "Shopping. Pinyin: Duōshǎo qián?"
+          - listitem [ref=e495]:
+            - 'link "Phrasebook Can I try it on? Shopping. Pinyin: Kěyǐ shìchuān ma?" [ref=e496] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Can I try it on?" [level=3] [ref=e497]
+              - paragraph [ref=e498]: "Shopping. Pinyin: Kěyǐ shìchuān ma?"
+          - listitem [ref=e499]:
+            - 'link "Phrasebook I don''t want it. Shopping. Pinyin: Bú yào." [ref=e500] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I don't want it." [level=3] [ref=e501]
+              - paragraph [ref=e502]: "Shopping. Pinyin: Bú yào."
+          - listitem [ref=e503]:
+            - 'link "Phrasebook I''m just looking. Shopping. Pinyin: Wǒ kànkan." [ref=e504] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "I'm just looking." [level=3] [ref=e505]
+              - paragraph [ref=e506]: "Shopping. Pinyin: Wǒ kànkan."
+          - listitem [ref=e507]:
+            - 'link "Phrasebook Can I return it? Shopping. Pinyin: Kěyǐ tuìhuò ma?" [ref=e508] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Can I return it?" [level=3] [ref=e509]
+              - paragraph [ref=e510]: "Shopping. Pinyin: Kěyǐ tuìhuò ma?"
+          - listitem [ref=e511]:
+            - 'link "Phrasebook Can I use a credit card? Shopping. Pinyin: Xìnyòngkǎ néng yòng ma?" [ref=e512] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Can I use a credit card?" [level=3] [ref=e513]
+              - paragraph [ref=e514]: "Shopping. Pinyin: Xìnyòngkǎ néng yòng ma?"
+          - listitem [ref=e515]:
+            - 'link "Phrasebook Please wrap it up. Shopping. Pinyin: Bāo qǐlai." [ref=e516] [cursor=pointer]':
+              - /url: /phrasebook
+              - text: Phrasebook
+              - heading "Please wrap it up." [level=3] [ref=e517]
+              - paragraph [ref=e518]: "Shopping. Pinyin: Bāo qǐlai."
+      - generic [ref=e519]:
+        - generic [ref=e520]:
+          - heading "FAQ" [level=2] [ref=e521]
+          - generic [ref=e522]: "8"
+        - list [ref=e523]:
+          - listitem [ref=e524]:
+            - link "FAQ Do I need a visa to enter China? 50 nationalities have unilateral 30-day visa-free entry; 55 nationalities qualify for 240-hour transit visa-free across 65 ports / 24 provinces. Use the Visa Checker above for your specific passport." [ref=e525] [cursor=pointer]:
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "Do I need a visa to enter China?" [level=3] [ref=e526]
+              - paragraph [ref=e527]: 50 nationalities have unilateral 30-day visa-free entry; 55 nationalities qualify for 240-hour transit visa-free across 65 ports / 24 provinces. Use the Visa Checker above for your specific passport.
+          - listitem [ref=e528]:
+            - link "FAQ Do I need to fill in an arrival card? Yes. Since 2025-11-20 the Foreigner Entry/Exit Card can be pre-filled online for free at the official NIA portal. Kiosks and paper cards are still available at the port. Watch out for fake fee-charging sites." [ref=e529] [cursor=pointer]:
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "Do I need to fill in an arrival card?" [level=3] [ref=e530]
+              - paragraph [ref=e531]: Yes. Since 2025-11-20 the Foreigner Entry/Exit Card can be pre-filled online for free at the official NIA portal. Kiosks and paper cards are still available at the port. Watch out for fake fee-charging sites.
+          - listitem [ref=e532]:
+            - link "FAQ Will my foreign credit card work in China? Set up Alipay or WeChat Pay before you fly and link a Visa or Mastercard. PBOC raised the cap to USD 5,000 per transaction / USD 50,000 annually in 2024. Standalone Visa/Mastercard swipes work mainly at airports, hotels, and major retailers." [ref=e533] [cursor=pointer]:
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "Will my foreign credit card work in China?" [level=3] [ref=e534]
+              - paragraph [ref=e535]: Set up Alipay or WeChat Pay before you fly and link a Visa or Mastercard. PBOC raised the cap to USD 5,000 per transaction / USD 50,000 annually in 2024. Standalone Visa/Mastercard swipes work mainly at airports, hotels, and major retailers.
+          - listitem [ref=e536]:
+            - link "FAQ How much cash can I bring in? Up to ¥20,000 RMB without declaration. Foreign currency above the equivalent of USD 5,000 must be declared on arrival." [ref=e537] [cursor=pointer]:
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "How much cash can I bring in?" [level=3] [ref=e538]
+              - paragraph [ref=e539]: Up to ¥20,000 RMB without declaration. Foreign currency above the equivalent of USD 5,000 must be declared on arrival.
+          - listitem [ref=e540]:
+            - 'link "FAQ Will Google Maps and WhatsApp work? Several international services may be intermittent or unavailable in mainland China. Install local alternatives before you fly: Amap (gaode.com) for navigation, Baidu Translate for menus, WeChat for messaging, Alipay for payments. International roaming SIM/eSIM typically works as on your home plan." [ref=e541] [cursor=pointer]':
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "Will Google Maps and WhatsApp work?" [level=3] [ref=e542]
+              - paragraph [ref=e543]: "Several international services may be intermittent or unavailable in mainland China. Install local alternatives before you fly: Amap (gaode.com) for navigation, Baidu Translate for menus, WeChat for messaging, Alipay for payments. International roaming SIM/eSIM typically works as on your home plan."
+          - listitem [ref=e544]:
+            - link "FAQ What's the emergency number if something happens? 110 police, 119 fire, 120 ambulance, 122 traffic — all free. Beijing 12345 supports 10 languages 24/7; Shanghai 12345 supports 18 languages (press 7); Guangzhou 960169 is a three-party language bridge." [ref=e545] [cursor=pointer]:
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "What's the emergency number if something happens?" [level=3] [ref=e546]
+              - paragraph [ref=e547]: 110 police, 119 fire, 120 ambulance, 122 traffic — all free. Beijing 12345 supports 10 languages 24/7; Shanghai 12345 supports 18 languages (press 7); Guangzhou 960169 is a three-party language bridge.
+          - listitem [ref=e548]:
+            - link "FAQ Can I book high-speed rail with a foreign passport? Yes via 12306.cn/en. Online auto-verification is fastest; if it fails, manual review of passport + selfie takes 3–5 working days, or visit any station counter on arrival." [ref=e549] [cursor=pointer]:
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "Can I book high-speed rail with a foreign passport?" [level=3] [ref=e550]
+              - paragraph [ref=e551]: Yes via 12306.cn/en. Online auto-verification is fastest; if it fails, manual review of passport + selfie takes 3–5 working days, or visit any station counter on arrival.
+          - listitem [ref=e552]:
+            - link "FAQ Is tap water safe to drink? China's tap water is treated but boiling before drinking is the local norm. Hotel rooms typically include kettles and bottled water. Bottled water is widely sold for ¥2–3." [ref=e553] [cursor=pointer]:
+              - /url: /guide/notes#top-questions
+              - text: FAQ
+              - heading "Is tap water safe to drink?" [level=3] [ref=e554]
+              - paragraph [ref=e555]: China's tap water is treated but boiling before drinking is the local norm. Hotel rooms typically include kettles and bottled water. Bottled water is widely sold for ¥2–3.
+      - generic [ref=e556]:
+        - generic [ref=e557]:
+          - heading "Pitfalls" [level=2] [ref=e558]
+          - generic [ref=e559]: "45"
+        - list [ref=e560]:
+          - listitem [ref=e561]:
+            - link "Pitfalls Set up both apps 2–4 weeks before you fly KYC can take a full day, WeChat may need a friend back home to vouch for you, and your home bank needs time to whitelist Chinese merchants. Try to set this up before you land — leaving it for arrival day usually means a frustrating first night." [ref=e562] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Set up both apps 2–4 weeks before you fly" [level=3] [ref=e563]
+              - paragraph [ref=e564]: KYC can take a full day, WeChat may need a friend back home to vouch for you, and your home bank needs time to whitelist Chinese merchants. Try to set this up before you land — leaving it for arrival day usually means a frustrating first night.
+          - listitem [ref=e565]:
+            - link "Pitfalls Don't bother with Tour Card — shutting down 2026-05-29 The Alipay Tour Card mini-program stops accepting new applications on May 29, 2026. Older guides still recommend it; ignore them and bind your Visa/Mastercard directly to the regular Alipay app instead." [ref=e566] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Don't bother with Tour Card — shutting down 2026-05-29" [level=3] [ref=e567]
+              - paragraph [ref=e568]: The Alipay Tour Card mini-program stops accepting new applications on May 29, 2026. Older guides still recommend it; ignore them and bind your Visa/Mastercard directly to the regular Alipay app instead.
+          - listitem [ref=e569]:
+            - 'link "Pitfalls Call your bank: whitelist China + enable international online purchases The #1 card-binding failure is your home bank fraud system blocking the first attempt. The app shows ambiguous \"payment failed\" with no hint that the bank is the cause. Some debit cards also need 3D Secure / international online purchases manually enabled." [ref=e570] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - 'heading "Call your bank: whitelist China + enable international online purchases" [level=3] [ref=e571]'
+              - paragraph [ref=e572]: "The #1 card-binding failure is your home bank fraud system blocking the first attempt. The app shows ambiguous \"payment failed\" with no hint that the bank is the cause. Some debit cards also need 3D Secure / international online purchases manually enabled."
+          - listitem [ref=e573]:
+            - 'link "Pitfalls WeChat friend-scan: line one up before you fly About 80% of new WeChat accounts hit a mandatory \"have a friend scan this QR\" screen. The verifier must have used WeChat 6+ months, have WeChat Pay active, and not have verified anyone else this month. Remote scan via screen-share works — solo travellers should ask a friend in advance." [ref=e574] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - 'heading "WeChat friend-scan: line one up before you fly" [level=3] [ref=e575]'
+              - paragraph [ref=e576]: About 80% of new WeChat accounts hit a mandatory "have a friend scan this QR" screen. The verifier must have used WeChat 6+ months, have WeChat Pay active, and not have verified anyone else this month. Remote scan via screen-share works — solo travellers should ask a friend in advance.
+          - listitem [ref=e577]:
+            - link "Pitfalls Register WeChat before boarding — SMS unreliable on roaming/eSIM International roaming SMS into China is unreliable and eSIM data access does not guarantee SMS delivery. Complete WeChat registration on home-country signal, not after landing." [ref=e578] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Register WeChat before boarding — SMS unreliable on roaming/eSIM" [level=3] [ref=e579]
+              - paragraph [ref=e580]: International roaming SMS into China is unreliable and eSIM data access does not guarantee SMS delivery. Complete WeChat registration on home-country signal, not after landing.
+          - listitem [ref=e581]:
+            - 'link "Pitfalls Install the standard Alipay (blue icon) — not AlipayHK There is one app for foreign tourists: standard Alipay (Hangzhou Technology Co., bundle id com.eg.android.AlipayGphone). AlipayHK is a separate Hong Kong product that does NOT work on the mainland." [ref=e582] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Install the standard Alipay (blue icon) — not AlipayHK" [level=3] [ref=e583]
+              - paragraph [ref=e584]: "There is one app for foreign tourists: standard Alipay (Hangzhou Technology Co., bundle id com.eg.android.AlipayGphone). AlipayHK is a separate Hong Kong product that does NOT work on the mainland."
+          - listitem [ref=e585]:
+            - link "Pitfalls Turn VPN OFF during KYC, card binding, and payments Both Alipay and WeChat compare GPS (Beijing) against IP location (e.g. Los Angeles). The mismatch triggers fraud flags that can freeze the account mid-KYC and require a manual support ticket to recover." [ref=e586] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Turn VPN OFF during KYC, card binding, and payments" [level=3] [ref=e587]
+              - paragraph [ref=e588]: Both Alipay and WeChat compare GPS (Beijing) against IP location (e.g. Los Angeles). The mismatch triggers fraud flags that can freeze the account mid-KYC and require a manual support ticket to recover.
+          - listitem [ref=e589]:
+            - 'link "Pitfalls Use your passport MRZ name exactly — uppercase, no nicknames Real-name verification rejects mismatched names: middle names, hyphenated surnames, double-barrelled names. The app gives no specific reason — it just says \"verification failed\"." [ref=e590] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Use your passport MRZ name exactly — uppercase, no nicknames" [level=3] [ref=e591]
+              - paragraph [ref=e592]: "Real-name verification rejects mismatched names: middle names, hyphenated surnames, double-barrelled names. The app gives no specific reason — it just says \"verification failed\"."
+          - listitem [ref=e593]:
+            - link "Pitfalls WeChat's USD 0.05 verification charge will trigger your bank's fraud alert WeChat charges ~$0.05 USD to validate the card during binding. This tiny charge is the most common reason the binding fails. If you see the charge get rejected, immediately approve it in your banking app and retry the binding within the same session." [ref=e594] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "WeChat's USD 0.05 verification charge will trigger your bank's fraud alert" [level=3] [ref=e595]
+              - paragraph [ref=e596]: WeChat charges ~$0.05 USD to validate the card during binding. This tiny charge is the most common reason the binding fails. If you see the charge get rejected, immediately approve it in your banking app and retry the binding within the same session.
+          - listitem [ref=e597]:
+            - link "Pitfalls USD 500 is the real KYC threshold — not the PBOC USD 5,000 figure PBOC raised the policy limit to USD 5,000/tx in 2024, but Alipay's own identity-verification system kicks in at USD 500. Plan for the lower number when budgeting big-ticket items (hotel deposits, high-speed rail)." [ref=e598] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "USD 500 is the real KYC threshold — not the PBOC USD 5,000 figure" [level=3] [ref=e599]
+              - paragraph [ref=e600]: PBOC raised the policy limit to USD 5,000/tx in 2024, but Alipay's own identity-verification system kicks in at USD 500. Plan for the lower number when budgeting big-ticket items (hotel deposits, high-speed rail).
+          - listitem [ref=e601]:
+            - 'link "Pitfalls WeChat: hard RMB 15,000 stay-total cap until you finish real-name auth Skip real-name authentication and WeChat caps your total spend for the entire stay at ~RMB 15,000 — not per transaction or per day, but cumulative. That ceiling arrives faster than most people expect. Complete real-name before your first big purchase." [ref=e602] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - 'heading "WeChat: hard RMB 15,000 stay-total cap until you finish real-name auth" [level=3] [ref=e603]'
+              - paragraph [ref=e604]: Skip real-name authentication and WeChat caps your total spend for the entire stay at ~RMB 15,000 — not per transaction or per day, but cumulative. That ceiling arrives faster than most people expect. Complete real-name before your first big purchase.
+          - listitem [ref=e605]:
+            - 'link "Pitfalls Personal QR codes reject foreign cards — let merchant scan you instead Street vendors and small restaurants almost always show a personal collection QR (个人收款码), not a business merchant code. These only accept payment from RMB wallet balance or a Chinese bank card — your foreign-card-backed Alipay/WeChat is rejected. Workaround: open YOUR app''s payment barcode and ask them to scan you. Reverse direction usually works." [ref=e606] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Personal QR codes reject foreign cards — let merchant scan you instead" [level=3] [ref=e607]
+              - paragraph [ref=e608]: "Street vendors and small restaurants almost always show a personal collection QR (个人收款码), not a business merchant code. These only accept payment from RMB wallet balance or a Chinese bank card — your foreign-card-backed Alipay/WeChat is rejected. Workaround: open YOUR app's payment barcode and ask them to scan you. Reverse direction usually works."
+          - listitem [ref=e609]:
+            - 'link "Pitfalls Over RMB 200? Split the bill — Alipay charges 3% above that Alipay foreign-card transactions: 0% fee under RMB 200, 3% over. Splitting a 400 RMB bill into two 200 RMB scans eliminates the fee. Cashiers in China understand split payment without explanation." [ref=e610] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Over RMB 200? Split the bill — Alipay charges 3% above that" [level=3] [ref=e611]
+              - paragraph [ref=e612]: "Alipay foreign-card transactions: 0% fee under RMB 200, 3% over. Splitting a 400 RMB bill into two 200 RMB scans eliminates the fee. Cashiers in China understand split payment without explanation."
+          - listitem [ref=e613]:
+            - 'link "Pitfalls Carry RMB 200–500 cash — by law (since 2026-02-01) merchants must accept it Since 2026-02-01 Chinese law requires merchants to accept physical RMB; refusing now carries penalties. Reliable cash sources: 7-Eleven / FamilyMart / Lawson; ICBC / BOC / CCB ATMs accept Visa/Mastercard with English UI." [ref=e614] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Carry RMB 200–500 cash — by law (since 2026-02-01) merchants must accept it" [level=3] [ref=e615]
+              - paragraph [ref=e616]: "Since 2026-02-01 Chinese law requires merchants to accept physical RMB; refusing now carries penalties. Reliable cash sources: 7-Eleven / FamilyMart / Lawson; ICBC / BOC / CCB ATMs accept Visa/Mastercard with English UI."
+          - listitem [ref=e617]:
+            - link "Pitfalls Didi / Meituan / Ele.me mini-programs need a +86 SIM Even with WeChat Pay working, the Didi / Meituan / Ele.me mini-programs INSIDE WeChat require a Chinese mainland phone number to register. Use the standalone Didi app instead (which accepts foreign numbers + foreign cards)." [ref=e618] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Didi / Meituan / Ele.me mini-programs need a +86 SIM" [level=3] [ref=e619]
+              - paragraph [ref=e620]: Even with WeChat Pay working, the Didi / Meituan / Ele.me mini-programs INSIDE WeChat require a Chinese mainland phone number to register. Use the standalone Didi app instead (which accepts foreign numbers + foreign cards).
+          - listitem [ref=e621]:
+            - link "Pitfalls Alipay freezes after ~3 months of inactivity If you don't open Alipay for about three months after you fly home, your account locks itself. To reactivate, you'll need your passport, a selfie video, and a one-line note explaining the flagged transaction. Most repeat visitors hit this on Day 1 of their next trip — clear it before you fly back." [ref=e622] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Alipay freezes after ~3 months of inactivity" [level=3] [ref=e623]
+              - paragraph [ref=e624]: If you don't open Alipay for about three months after you fly home, your account locks itself. To reactivate, you'll need your passport, a selfie video, and a one-line note explaining the flagged transaction. Most repeat visitors hit this on Day 1 of their next trip — clear it before you fly back.
+          - listitem [ref=e625]:
+            - link "Pitfalls Refunds take 3–7 business days to your card — not instant to wallet Foreign-card-backed Alipay refunds go back to the issuing card on a 3–7 business day cycle, not instantly to your Alipay wallet. A failed train booking will show \"refunding\" for days with no balance in the app — that's normal." [ref=e626] [cursor=pointer]:
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - heading "Refunds take 3–7 business days to your card — not instant to wallet" [level=3] [ref=e627]
+              - paragraph [ref=e628]: Foreign-card-backed Alipay refunds go back to the issuing card on a 3–7 business day cycle, not instantly to your Alipay wallet. A failed train booking will show "refunding" for days with no balance in the app — that's normal.
+          - listitem [ref=e629]:
+            - 'link "Pitfalls Foreign WeChat: red packets and P2P transfers are permanently blocked Foreign-card-backed WeChat accounts cannot send OR receive red packets, and cannot transfer money to other users — only merchant QR payments work. If a Chinese friend wants to split dinner via WeChat transfer, you''ll need an alternative (cash, Alipay merchant scan)." [ref=e630] [cursor=pointer]':
+              - /url: /guide/payments#payments
+              - text: Pitfalls
+              - 'heading "Foreign WeChat: red packets and P2P transfers are permanently blocked" [level=3] [ref=e631]'
+              - paragraph [ref=e632]: Foreign-card-backed WeChat accounts cannot send OR receive red packets, and cannot transfer money to other users — only merchant QR payments work. If a Chinese friend wants to split dinner via WeChat transfer, you'll need an alternative (cash, Alipay merchant scan).
+          - listitem [ref=e633]:
+            - 'link "Pitfalls Beijing Metro tap-and-go: only at end-of-row gate lanes Since 2024-09 all 490 stations support contactless Visa/Mastercard, but the international-card turnstile is at a specific lane (usually the end of the row). Tapping a domestic-only gate just rejects." [ref=e634] [cursor=pointer]':
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - 'heading "Beijing Metro tap-and-go: only at end-of-row gate lanes" [level=3] [ref=e635]'
+              - paragraph [ref=e636]: Since 2024-09 all 490 stations support contactless Visa/Mastercard, but the international-card turnstile is at a specific lane (usually the end of the row). Tapping a domestic-only gate just rejects.
+          - listitem [ref=e637]:
+            - 'link "Pitfalls Alipay transit QR: must activate per city Activating Beijing''s transit code does NOT activate Shanghai / Guangzhou / Shenzhen. Open the Transport tab, pick the target city, and activate before reaching the turnstile." [ref=e638] [cursor=pointer]':
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - 'heading "Alipay transit QR: must activate per city" [level=3] [ref=e639]'
+              - paragraph [ref=e640]: Activating Beijing's transit code does NOT activate Shanghai / Guangzhou / Shenzhen. Open the Transport tab, pick the target city, and activate before reaching the turnstile.
+          - listitem [ref=e641]:
+            - link "Pitfalls Alipay transit QR expires in 5 minutes — regenerate at the gate If you generated the code while walking and 5+ minutes passed, the turnstile rejects it. Regenerate immediately before scanning." [ref=e642] [cursor=pointer]:
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - heading "Alipay transit QR expires in 5 minutes — regenerate at the gate" [level=3] [ref=e643]
+              - paragraph [ref=e644]: If you generated the code while walking and 5+ minutes passed, the turnstile rejects it. Regenerate immediately before scanning.
+          - listitem [ref=e645]:
+            - link "Pitfalls 12306 passport verification takes 3–7 days — last-minute booking fails Online passport verification at 12306.cn requires a passport photo plus a selfie holding the passport. Processing typically takes 3–5 days, up to 7 in peak season. New accounts can't book next-day trains. If you're short on time, use Trip.com — verification usually clears in 1–2 hours." [ref=e646] [cursor=pointer]:
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - heading "12306 passport verification takes 3–7 days — last-minute booking fails" [level=3] [ref=e647]
+              - paragraph [ref=e648]: Online passport verification at 12306.cn requires a passport photo plus a selfie holding the passport. Processing typically takes 3–5 days, up to 7 in peak season. New accounts can't book next-day trains. If you're short on time, use Trip.com — verification usually clears in 1–2 hours.
+          - listitem [ref=e649]:
+            - link "Pitfalls Self-service ticket machines reject passports — go to staffed window Auto-collection machines only read Chinese ID cards. Foreign passport holders must queue at staffed windows. At Beijing West / Shanghai Hongqiao that's 20–30 min on a busy day." [ref=e650] [cursor=pointer]:
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - heading "Self-service ticket machines reject passports — go to staffed window" [level=3] [ref=e651]
+              - paragraph [ref=e652]: Auto-collection machines only read Chinese ID cards. Foreign passport holders must queue at staffed windows. At Beijing West / Shanghai Hongqiao that's 20–30 min on a busy day.
+          - listitem [ref=e653]:
+            - 'link "Pitfalls Group bookings on 12306: each passport needs its own 3–7 day verification Adding extra passengers to your 12306 booking means each one''s passport runs a separate verification cycle. Family of 4 = all 4 passports must clear before any tickets issue. Use Trip.com for groups." [ref=e654] [cursor=pointer]':
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - 'heading "Group bookings on 12306: each passport needs its own 3–7 day verification" [level=3] [ref=e655]'
+              - paragraph [ref=e656]: Adding extra passengers to your 12306 booking means each one's passport runs a separate verification cycle. Family of 4 = all 4 passports must clear before any tickets issue. Use Trip.com for groups.
+          - listitem [ref=e657]:
+            - link "Pitfalls Beijing has 5+ rail stations — book the right one Beijing main, West, South, North, Chaoyang. Different stations are 30–60 min apart by metro. Confirm the specific station name when booking, not just \"Beijing\"." [ref=e658] [cursor=pointer]:
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - heading "Beijing has 5+ rail stations — book the right one" [level=3] [ref=e659]
+              - paragraph [ref=e660]: Beijing main, West, South, North, Chaoyang. Different stations are 30–60 min apart by metro. Confirm the specific station name when booking, not just "Beijing".
+          - listitem [ref=e661]:
+            - link "Pitfalls Black taxi touts at Capital T3 information desk — 3–4× meter Men posing as helpers near the T3 taxi info desk single out foreign-looking travellers and quote 3–4× meter. Legitimate Beijing taxis show \"Jing B\" plates. Anyone who approaches you first isn't legit — walk to the official taxi queue." [ref=e662] [cursor=pointer]:
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - heading "Black taxi touts at Capital T3 information desk — 3–4× meter" [level=3] [ref=e663]
+              - paragraph [ref=e664]: Men posing as helpers near the T3 taxi info desk single out foreign-looking travellers and quote 3–4× meter. Legitimate Beijing taxis show "Jing B" plates. Anyone who approaches you first isn't legit — walk to the official taxi queue.
+          - listitem [ref=e665]:
+            - link "Pitfalls Black taxi touts at Guangzhou South / East stations — 3–5× meter Touts work the main exits. Use DiDi from the in-station app pickup zone, or walk all the way past the touts to the official metered taxi rank." [ref=e666] [cursor=pointer]:
+              - /url: /city/guangzhou#transport
+              - text: Pitfalls
+              - heading "Black taxi touts at Guangzhou South / East stations — 3–5× meter" [level=3] [ref=e667]
+              - paragraph [ref=e668]: Touts work the main exits. Use DiDi from the in-station app pickup zone, or walk all the way past the touts to the official metered taxi rank.
+          - listitem [ref=e669]:
+            - link "Pitfalls Use DiDi Chuxing app, NOT \"DiDi Rider\" international DiDi Rider international has limited mainland coverage. DiDi Chuxing (mainland version) has a full English UI, broader vehicles, and accepts Alipay / WeChat with foreign cards reliably." [ref=e670] [cursor=pointer]:
+              - /url: /city/beijing#transport
+              - text: Pitfalls
+              - heading "Use DiDi Chuxing app, NOT \"DiDi Rider\" international" [level=3] [ref=e671]
+              - paragraph [ref=e672]: DiDi Rider international has limited mainland coverage. DiDi Chuxing (mainland version) has a full English UI, broader vehicles, and accepts Alipay / WeChat with foreign cards reliably.
+          - listitem [ref=e673]:
+            - 'link "Pitfalls Octopus card does NOT work on Shenzhen Metro Hong Kong tourists assume Octopus works — it doesn''t on Shenzhen Metro. Options: (1) Alipay transit QR activated for Shenzhen; (2) Shenzhen Tong physical card (CNY 20 deposit); (3) \"Hu Tong Xing\" dual-card sold in Shenzhen for CNY 68 — has both Octopus (HKD) and Shenzhen Tong (CNY) purses, each topped up separately." [ref=e674] [cursor=pointer]':
+              - /url: /city/shenzhen#transport
+              - text: Pitfalls
+              - heading "Octopus card does NOT work on Shenzhen Metro" [level=3] [ref=e675]
+              - paragraph [ref=e676]: "Hong Kong tourists assume Octopus works — it doesn't on Shenzhen Metro. Options: (1) Alipay transit QR activated for Shenzhen; (2) Shenzhen Tong physical card (CNY 20 deposit); (3) \"Hu Tong Xing\" dual-card sold in Shenzhen for CNY 68 — has both Octopus (HKD) and Shenzhen Tong (CNY) purses, each topped up separately."
+          - listitem [ref=e677]:
+            - 'link "Pitfalls Shanghai metro refunds: only 11:00–14:00 at pink service desk Bought the wrong ticket from a vending machine? Refunds processed only at pink service counters during 11:00–14:00 daily. Outside those hours = no refund. Bring the original ticket and your passport." [ref=e678] [cursor=pointer]':
+              - /url: /city/shanghai#transport
+              - text: Pitfalls
+              - 'heading "Shanghai metro refunds: only 11:00–14:00 at pink service desk" [level=3] [ref=e679]'
+              - paragraph [ref=e680]: Bought the wrong ticket from a vending machine? Refunds processed only at pink service counters during 11:00–14:00 daily. Outside those hours = no refund. Bring the original ticket and your passport.
+          - listitem [ref=e681]:
+            - 'link "Pitfalls Shanghai street taxi: stick to yellow (Qiangsheng) or white (Jinjiang) Other liveries (red, dark blue, etc.) are smaller companies with weaker accountability. DiDi is preferable; if hailing on the street, only flag yellow or white." [ref=e682] [cursor=pointer]':
+              - /url: /city/shanghai#transport
+              - text: Pitfalls
+              - 'heading "Shanghai street taxi: stick to yellow (Qiangsheng) or white (Jinjiang)" [level=3] [ref=e683]'
+              - paragraph [ref=e684]: Other liveries (red, dark blue, etc.) are smaller companies with weaker accountability. DiDi is preferable; if hailing on the street, only flag yellow or white.
+          - listitem [ref=e685]:
+            - link "Pitfalls \"Vegetarian\" dishes often cooked in pork stock or lard Ordering a vegetable dish at a regular restaurant doesn't make it vegetarian — many are blanched in pork-bone broth or stir-fried in lard. Only Buddhist vegetarian restaurants (素食 Su Shi) reliably skip pork — but they use seitan (pure gluten) for mock meats, a separate problem for coeliacs." [ref=e686] [cursor=pointer]:
+              - /url: /city/beijing#food
+              - text: Pitfalls
+              - heading "\"Vegetarian\" dishes often cooked in pork stock or lard" [level=3] [ref=e687]
+              - paragraph [ref=e688]: Ordering a vegetable dish at a regular restaurant doesn't make it vegetarian — many are blanched in pork-bone broth or stir-fried in lard. Only Buddhist vegetarian restaurants (素食 Su Shi) reliably skip pork — but they use seitan (pure gluten) for mock meats, a separate problem for coeliacs.
+          - listitem [ref=e689]:
+            - link "Pitfalls Soy sauce contains wheat — \"no soy\" rarely eliminates gluten 酱油 jiangyou contains wheat and is in nearly every wok dish. Asking for \"no soy sauce\" usually means less, not none. Truly gluten-free eating in China requires steamed dishes ordered in writing to the kitchen." [ref=e690] [cursor=pointer]:
+              - /url: /city/beijing#food
+              - text: Pitfalls
+              - heading "Soy sauce contains wheat — \"no soy\" rarely eliminates gluten" [level=3] [ref=e691]
+              - paragraph [ref=e692]: 酱油 jiangyou contains wheat and is in nearly every wok dish. Asking for "no soy sauce" usually means less, not none. Truly gluten-free eating in China requires steamed dishes ordered in writing to the kitchen.
+          - listitem [ref=e693]:
+            - link "Pitfalls Dried shrimp / shrimp paste hidden in non-seafood dishes Dried shrimp (虾皮) and shrimp paste (虾酱) are routinely added to vegetable stir-fries, congee, and soups as flavour enhancers. Menu shows zero seafood. Show a Chinese-language allergy card directly to KITCHEN staff, not just the waiter." [ref=e694] [cursor=pointer]:
+              - /url: /city/beijing#food
+              - text: Pitfalls
+              - heading "Dried shrimp / shrimp paste hidden in non-seafood dishes" [level=3] [ref=e695]
+              - paragraph [ref=e696]: Dried shrimp (虾皮) and shrimp paste (虾酱) are routinely added to vegetable stir-fries, congee, and soups as flavour enhancers. Menu shows zero seafood. Show a Chinese-language allergy card directly to KITCHEN staff, not just the waiter.
+          - listitem [ref=e697]:
+            - link "Pitfalls Shared woks = cross-contamination even when staff understand the allergy Traditional kitchens use 1–2 woks for everything, rinsed only with hot water between dishes. Severe allergies need restaurants with visibly separated cooking equipment." [ref=e698] [cursor=pointer]:
+              - /url: /city/beijing#food
+              - text: Pitfalls
+              - heading "Shared woks = cross-contamination even when staff understand the allergy" [level=3] [ref=e699]
+              - paragraph [ref=e700]: Traditional kitchens use 1–2 woks for everything, rinsed only with hot water between dishes. Severe allergies need restaurants with visibly separated cooking equipment.
+          - listitem [ref=e701]:
+            - 'link "Pitfalls Tea house scam: \"practice English\" → CNY 500–5000 bill Documented at Wangfujing / Houhai (BJ), Nanjing Road / People''s Park (SH), Shamian Island (GZ). The new \"friend\" disappears; staff block exits until payment. If you walk in with strangers, demand to see a menu with prices BEFORE sitting down." [ref=e702] [cursor=pointer]':
+              - /url: /city/beijing#food
+              - text: Pitfalls
+              - 'heading "Tea house scam: \"practice English\" → CNY 500–5000 bill" [level=3] [ref=e703]'
+              - paragraph [ref=e704]: Documented at Wangfujing / Houhai (BJ), Nanjing Road / People's Park (SH), Shamian Island (GZ). The new "friend" disappears; staff block exits until payment. If you walk in with strangers, demand to see a menu with prices BEFORE sitting down.
+          - listitem [ref=e705]:
+            - link "Pitfalls Tourist-area restaurants short-change by CNY 20–100 Documented near Shamian (GZ), Yu Garden (SH), Wangfujing (BJ). Count change immediately; demand an itemised receipt (发票 fapiao) before paying." [ref=e706] [cursor=pointer]:
+              - /url: /city/beijing#food
+              - text: Pitfalls
+              - heading "Tourist-area restaurants short-change by CNY 20–100" [level=3] [ref=e707]
+              - paragraph [ref=e708]: Documented near Shamian (GZ), Yu Garden (SH), Wangfujing (BJ). Count change immediately; demand an itemised receipt (发票 fapiao) before paying.
+          - listitem [ref=e709]:
+            - link "Pitfalls Tap water requires boiling — even in 4-star hotels All four cities' tap water needs boiling before drinking. Hotel rooms include a kettle or filtered dispenser. Ice in budget restaurants may be tap-water-based. Bottled water 2–5 CNY for 550 ml." [ref=e710] [cursor=pointer]:
+              - /url: /city/beijing#food
+              - text: Pitfalls
+              - heading "Tap water requires boiling — even in 4-star hotels" [level=3] [ref=e711]
+              - paragraph [ref=e712]: All four cities' tap water needs boiling before drinking. Hotel rooms include a kettle or filtered dispenser. Ice in budget restaurants may be tap-water-based. Bottled water 2–5 CNY for 550 ml.
+          - listitem [ref=e713]:
+            - 'link "Pitfalls Canton Fair (Apr / Oct): restaurant prices +30–60%, fake bookings Bi-annual Canton Fair brings 200,000+ trade visitors; Pazhou and Tianhe restaurant supply gets overwhelmed and prices spike 30–60%. Fake reservation platforms ask for deposits — book only via Dianping (大众点评) or Meituan." [ref=e714] [cursor=pointer]':
+              - /url: /city/guangzhou#food
+              - text: Pitfalls
+              - 'heading "Canton Fair (Apr / Oct): restaurant prices +30–60%, fake bookings" [level=3] [ref=e715]'
+              - paragraph [ref=e716]: Bi-annual Canton Fair brings 200,000+ trade visitors; Pazhou and Tianhe restaurant supply gets overwhelmed and prices spike 30–60%. Fake reservation platforms ask for deposits — book only via Dianping (大众点评) or Meituan.
+          - listitem [ref=e717]:
+            - 'link "Pitfalls Taxi to hospital is faster than 120 ambulance for non-spinal cases 120 ambulances aren''t equipped to Western paramedic standards and average 20+ min in urban traffic. Long-term expats consistently say: for non-spinal emergencies, take a taxi to the nearest 3A hospital." [ref=e718] [cursor=pointer]':
+              - /url: /city/beijing#emergency
+              - text: Pitfalls
+              - heading "Taxi to hospital is faster than 120 ambulance for non-spinal cases" [level=3] [ref=e719]
+              - paragraph [ref=e720]: "120 ambulances aren't equipped to Western paramedic standards and average 20+ min in urban traffic. Long-term expats consistently say: for non-spinal emergencies, take a taxi to the nearest 3A hospital."
+          - listitem [ref=e721]:
+            - link "Pitfalls Public hospital admission needs CNY 5K–20K cash deposit upfront Hospitals will stabilise you in the ER, then ask for a CNY 5,000–20,000 deposit before any further treatment. Ambulances charge upfront too — about CNY 7 per km plus CNY 80 per hour of waiting. Most travel insurers reimburse you later, so check your insurer's direct-billing hospital list before you fly." [ref=e722] [cursor=pointer]:
+              - /url: /city/beijing#emergency
+              - text: Pitfalls
+              - heading "Public hospital admission needs CNY 5K–20K cash deposit upfront" [level=3] [ref=e723]
+              - paragraph [ref=e724]: Hospitals will stabilise you in the ER, then ask for a CNY 5,000–20,000 deposit before any further treatment. Ambulances charge upfront too — about CNY 7 per km plus CNY 80 per hour of waiting. Most travel insurers reimburse you later, so check your insurer's direct-billing hospital list before you fly.
+          - listitem [ref=e725]:
+            - 'link "Pitfalls Public hospitals: get a Medical Card (医疗卡) before any appointment New patients can''t walk in directly. Go to the registration desk first — bring your passport and CNY 50, and allow 15–20 minutes. Head straight to the consultation room without doing this and staff will send you back." [ref=e726] [cursor=pointer]':
+              - /url: /city/beijing#emergency
+              - text: Pitfalls
+              - 'heading "Public hospitals: get a Medical Card (医疗卡) before any appointment" [level=3] [ref=e727]'
+              - paragraph [ref=e728]: New patients can't walk in directly. Go to the registration desk first — bring your passport and CNY 50, and allow 15–20 minutes. Head straight to the consultation room without doing this and staff will send you back.
+          - listitem [ref=e729]:
+            - link "Pitfalls International hospital departments cost 6–12× standard rates Beijing United Family, PUMCH international wing, and Raffles Shanghai all have English-speaking staff, but outpatient registration starts at CNY 300–600 versus CNY 10–30 at a standard public department. Plan on CNY 2,000–5,000+ per visit if your insurer doesn't direct-bill." [ref=e730] [cursor=pointer]:
+              - /url: /city/beijing#emergency
+              - text: Pitfalls
+              - heading "International hospital departments cost 6–12× standard rates" [level=3] [ref=e731]
+              - paragraph [ref=e732]: Beijing United Family, PUMCH international wing, and Raffles Shanghai all have English-speaking staff, but outpatient registration starts at CNY 300–600 versus CNY 10–30 at a standard public department. Plan on CNY 2,000–5,000+ per visit if your insurer doesn't direct-bill.
+          - listitem [ref=e733]:
+            - link "Pitfalls Most Western prescriptions unavailable — bring your own + 20% extra Chinese pharmacies don't stock most Western brand-name medications. Controlled substances (some painkillers, ADHD drugs, anxiety meds) are restricted and may be confiscated at customs without a physician's letter. Bring full supply in original labelled bottles." [ref=e734] [cursor=pointer]:
+              - /url: /city/beijing#emergency
+              - text: Pitfalls
+              - heading "Most Western prescriptions unavailable — bring your own + 20% extra" [level=3] [ref=e735]
+              - paragraph [ref=e736]: Chinese pharmacies don't stock most Western brand-name medications. Controlled substances (some painkillers, ADHD drugs, anxiety meds) are restricted and may be confiscated at customs without a physician's letter. Bring full supply in original labelled bottles.
+          - listitem [ref=e737]:
+            - 'link "Pitfalls Beijing has 3 emergency numbers — 999 sometimes faster than 120 Beijing: 120 (public emergency), 999 (Red Cross / private ambulance, faster in some districts), 110 (police). US Embassy medical assistance +86-10-8531-4000. Beijing United 24h ER +86-10-5927-7120. PUMCH 24h ER +86-10-69155288." [ref=e738] [cursor=pointer]':
+              - /url: /city/beijing#emergency
+              - text: Pitfalls
+              - heading "Beijing has 3 emergency numbers — 999 sometimes faster than 120" [level=3] [ref=e739]
+              - paragraph [ref=e740]: "Beijing: 120 (public emergency), 999 (Red Cross / private ambulance, faster in some districts), 110 (police). US Embassy medical assistance +86-10-8531-4000. Beijing United 24h ER +86-10-5927-7120. PUMCH 24h ER +86-10-69155288."
+      - generic [ref=e741]:
+        - generic [ref=e742]:
+          - heading "Visa rules" [level=2] [ref=e743]
+          - generic [ref=e744]: "82"
+        - list [ref=e745]:
+          - listitem [ref=e746]:
+            - 'link "Visa rules 240-hour transit: onward ticket must leave to a DIFFERENT country New York → Shanghai → New York is denied at immigration. New York → Shanghai → Singapore is approved. Hong Kong, Macau, and Taiwan count as separate regions for this rule." [ref=e747] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - 'heading "240-hour transit: onward ticket must leave to a DIFFERENT country" [level=3] [ref=e748]'
+              - paragraph [ref=e749]: New York → Shanghai → New York is denied at immigration. New York → Shanghai → Singapore is approved. Hong Kong, Macau, and Taiwan count as separate regions for this rule.
+          - listitem [ref=e750]:
+            - link "Visa rules 240-hour clock starts at the immigration STAMP, not wheels-down Land at 23:00, clear immigration at 00:30 = you've already lost a day. Many travellers miscalculate and overstay." [ref=e751] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "240-hour clock starts at the immigration STAMP, not wheels-down" [level=3] [ref=e752]
+              - paragraph [ref=e753]: Land at 23:00, clear immigration at 00:30 = you've already lost a day. Many travellers miscalculate and overstay.
+          - listitem [ref=e754]:
+            - link "Visa rules Digital arrival card mandatory since 2025-11; airlines don't tell you Fill the NIA digital card (s.nia.gov.cn) within 72 hours before arrival. Skipping it sends you to a secondary desk that adds 20–40 minutes at the airport." [ref=e755] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Digital arrival card mandatory since 2025-11; airlines don't tell you" [level=3] [ref=e756]
+              - paragraph [ref=e757]: Fill the NIA digital card (s.nia.gov.cn) within 72 hours before arrival. Skipping it sends you to a secondary desk that adds 20–40 minutes at the airport.
+          - listitem [ref=e758]:
+            - link "Visa rules Use the dedicated TWOV counter — wrong queue = +30 min 240-hour transit travellers must use the TWOV counter, not general immigration. Pudong T2 marks it clearly; Beijing T3 barely labels it — look for the small \"Visa-Free Transit\" sign." [ref=e759] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Use the dedicated TWOV counter — wrong queue = +30 min" [level=3] [ref=e760]
+              - paragraph [ref=e761]: 240-hour transit travellers must use the TWOV counter, not general immigration. Pudong T2 marks it clearly; Beijing T3 barely labels it — look for the small "Visa-Free Transit" sign.
+          - listitem [ref=e762]:
+            - link "Visa rules Visa-free extensions almost always rejected — apply 8+ days early SmartShanghai staff tried — rejected for \"insufficient reason\". Processing takes up to 7 working days, so you must apply at least 8 days before expiry. Plan your trip length up front." [ref=e763] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Visa-free extensions almost always rejected — apply 8+ days early" [level=3] [ref=e764]
+              - paragraph [ref=e765]: SmartShanghai staff tried — rejected for "insufficient reason". Processing takes up to 7 working days, so you must apply at least 8 days before expiry. Plan your trip length up front.
+          - listitem [ref=e766]:
+            - link "Visa rules Overstay penalty = entry ban, not just a fine Overstays beyond a few days trigger a 1–5 year re-entry ban PLUS fines from CNY 500/day. Don't gamble on the last day." [ref=e767] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Overstay penalty = entry ban, not just a fine" [level=3] [ref=e768]
+              - paragraph [ref=e769]: Overstays beyond a few days trigger a 1–5 year re-entry ban PLUS fines from CNY 500/day. Don't gamble on the last day.
+          - listitem [ref=e770]:
+            - link "Visa rules Unlicensed guesthouses / Airbnb-style hosts can't legally take foreign guests Chinese law requires accommodation to register foreign guests with police. Budget guesthouses and many Airbnb listings lack the licence. Both you and the host face fines." [ref=e771] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Unlicensed guesthouses / Airbnb-style hosts can't legally take foreign guests" [level=3] [ref=e772]
+              - paragraph [ref=e773]: Chinese law requires accommodation to register foreign guests with police. Budget guesthouses and many Airbnb listings lack the licence. Both you and the host face fines.
+          - listitem [ref=e774]:
+            - 'link "Visa rules Private accommodation: register with police within 24h Hotels do this for you automatically. At an Airbnb / private rental, you OR your host must register at the local police station (paichusuo) within 24 hours of check-in. Failure is a fine for both parties." [ref=e775] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - 'heading "Private accommodation: register with police within 24h" [level=3] [ref=e776]'
+              - paragraph [ref=e777]: Hotels do this for you automatically. At an Airbnb / private rental, you OR your host must register at the local police station (paichusuo) within 24 hours of check-in. Failure is a fine for both parties.
+          - listitem [ref=e778]:
+            - link "Visa rules 30-day unilateral visa-free entry 50 ordinary-passport nationalities can stay up to 30 days for business, tourism, visit relatives/friends, exchange, transit." [ref=e779] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "30-day unilateral visa-free entry" [level=3] [ref=e780]
+              - paragraph [ref=e781]: 50 ordinary-passport nationalities can stay up to 30 days for business, tourism, visit relatives/friends, exchange, transit.
+          - listitem [ref=e782]:
+            - link "Visa rules 240-hour transit visa-free rule 55 eligible nationalities, 65 ports, 24 provincial regions. A third-country onward ticket is required." [ref=e783] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "240-hour transit visa-free rule" [level=3] [ref=e784]
+              - paragraph [ref=e785]: 55 eligible nationalities, 65 ports, 24 provincial regions. A third-country onward ticket is required.
+          - listitem [ref=e786]:
+            - link "Visa rules Online Foreigner Entry/Exit Card Free online pre-fill from 2025-11-20; kiosks and paper cards remain available at the port." [ref=e787] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Online Foreigner Entry/Exit Card" [level=3] [ref=e788]
+              - paragraph [ref=e789]: Free online pre-fill from 2025-11-20; kiosks and paper cards remain available at the port.
+          - listitem [ref=e790]:
+            - link "Visa rules Beijing Capital International Airport 240-hour transit visa-free port in Beijing." [ref=e791] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Beijing Capital International Airport" [level=3] [ref=e792]
+              - paragraph [ref=e793]: 240-hour transit visa-free port in Beijing.
+          - listitem [ref=e794]:
+            - link "Visa rules Beijing Daxing International Airport 240-hour transit visa-free port in Beijing." [ref=e795] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Beijing Daxing International Airport" [level=3] [ref=e796]
+              - paragraph [ref=e797]: 240-hour transit visa-free port in Beijing.
+          - listitem [ref=e798]:
+            - link "Visa rules Shanghai Pudong International Airport 240-hour transit visa-free port in Shanghai." [ref=e799] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Shanghai Pudong International Airport" [level=3] [ref=e800]
+              - paragraph [ref=e801]: 240-hour transit visa-free port in Shanghai.
+          - listitem [ref=e802]:
+            - link "Visa rules Shanghai Hongqiao International Airport 240-hour transit visa-free port in Shanghai." [ref=e803] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Shanghai Hongqiao International Airport" [level=3] [ref=e804]
+              - paragraph [ref=e805]: 240-hour transit visa-free port in Shanghai.
+          - listitem [ref=e806]:
+            - link "Visa rules Guangzhou Baiyun International Airport 240-hour transit visa-free port in Guangdong." [ref=e807] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Guangzhou Baiyun International Airport" [level=3] [ref=e808]
+              - paragraph [ref=e809]: 240-hour transit visa-free port in Guangdong.
+          - listitem [ref=e810]:
+            - link "Visa rules Shenzhen Bao'an International Airport 240-hour transit visa-free port in Guangdong." [ref=e811] [cursor=pointer]:
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Shenzhen Bao'an International Airport" [level=3] [ref=e812]
+              - paragraph [ref=e813]: 240-hour transit visa-free port in Guangdong.
+          - listitem [ref=e814]:
+            - 'link "Visa rules Albania visa-free rules Albania passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e815] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Albania visa-free rules" [level=3] [ref=e816]
+              - paragraph [ref=e817]: "Albania passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e818]:
+            - 'link "Visa rules Andorra visa-free rules Andorra passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e819] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Andorra visa-free rules" [level=3] [ref=e820]
+              - paragraph [ref=e821]: "Andorra passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e822]:
+            - 'link "Visa rules Argentina visa-free rules Argentina passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e823] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Argentina visa-free rules" [level=3] [ref=e824]
+              - paragraph [ref=e825]: "Argentina passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e826]:
+            - 'link "Visa rules Australia visa-free rules Australia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e827] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Australia visa-free rules" [level=3] [ref=e828]
+              - paragraph [ref=e829]: "Australia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e830]:
+            - 'link "Visa rules Austria visa-free rules Austria passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e831] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Austria visa-free rules" [level=3] [ref=e832]
+              - paragraph [ref=e833]: "Austria passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e834]:
+            - 'link "Visa rules Bahrain visa-free rules Bahrain passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e835] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Bahrain visa-free rules" [level=3] [ref=e836]
+              - paragraph [ref=e837]: "Bahrain passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e838]:
+            - 'link "Visa rules Belarus visa-free rules Belarus passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e839] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Belarus visa-free rules" [level=3] [ref=e840]
+              - paragraph [ref=e841]: "Belarus passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e842]:
+            - 'link "Visa rules Belgium visa-free rules Belgium passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e843] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Belgium visa-free rules" [level=3] [ref=e844]
+              - paragraph [ref=e845]: "Belgium passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e846]:
+            - 'link "Visa rules Bosnia and Herzegovina visa-free rules Bosnia and Herzegovina passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e847] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Bosnia and Herzegovina visa-free rules" [level=3] [ref=e848]
+              - paragraph [ref=e849]: "Bosnia and Herzegovina passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e850]:
+            - 'link "Visa rules Brazil visa-free rules Brazil passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e851] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Brazil visa-free rules" [level=3] [ref=e852]
+              - paragraph [ref=e853]: "Brazil passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e854]:
+            - 'link "Visa rules Brunei visa-free rules Brunei passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e855] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Brunei visa-free rules" [level=3] [ref=e856]
+              - paragraph [ref=e857]: "Brunei passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e858]:
+            - 'link "Visa rules Brunei Darussalam visa-free rules Brunei Darussalam passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e859] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Brunei Darussalam visa-free rules" [level=3] [ref=e860]
+              - paragraph [ref=e861]: "Brunei Darussalam passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e862]:
+            - 'link "Visa rules Bulgaria visa-free rules Bulgaria passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e863] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Bulgaria visa-free rules" [level=3] [ref=e864]
+              - paragraph [ref=e865]: "Bulgaria passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e866]:
+            - 'link "Visa rules Canada visa-free rules Canada passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e867] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Canada visa-free rules" [level=3] [ref=e868]
+              - paragraph [ref=e869]: "Canada passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e870]:
+            - 'link "Visa rules Chile visa-free rules Chile passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e871] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Chile visa-free rules" [level=3] [ref=e872]
+              - paragraph [ref=e873]: "Chile passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e874]:
+            - 'link "Visa rules Croatia visa-free rules Croatia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e875] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Croatia visa-free rules" [level=3] [ref=e876]
+              - paragraph [ref=e877]: "Croatia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e878]:
+            - 'link "Visa rules Cyprus visa-free rules Cyprus passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e879] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Cyprus visa-free rules" [level=3] [ref=e880]
+              - paragraph [ref=e881]: "Cyprus passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e882]:
+            - 'link "Visa rules Czech Republic visa-free rules Czech Republic passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e883] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Czech Republic visa-free rules" [level=3] [ref=e884]
+              - paragraph [ref=e885]: "Czech Republic passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e886]:
+            - 'link "Visa rules Denmark visa-free rules Denmark passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e887] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Denmark visa-free rules" [level=3] [ref=e888]
+              - paragraph [ref=e889]: "Denmark passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e890]:
+            - 'link "Visa rules Estonia visa-free rules Estonia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e891] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Estonia visa-free rules" [level=3] [ref=e892]
+              - paragraph [ref=e893]: "Estonia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e894]:
+            - 'link "Visa rules Finland visa-free rules Finland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e895] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Finland visa-free rules" [level=3] [ref=e896]
+              - paragraph [ref=e897]: "Finland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e898]:
+            - 'link "Visa rules France visa-free rules France passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e899] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "France visa-free rules" [level=3] [ref=e900]
+              - paragraph [ref=e901]: "France passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e902]:
+            - 'link "Visa rules Germany visa-free rules Germany passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e903] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Germany visa-free rules" [level=3] [ref=e904]
+              - paragraph [ref=e905]: "Germany passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e906]:
+            - 'link "Visa rules Greece visa-free rules Greece passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e907] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Greece visa-free rules" [level=3] [ref=e908]
+              - paragraph [ref=e909]: "Greece passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e910]:
+            - 'link "Visa rules Hungary visa-free rules Hungary passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e911] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Hungary visa-free rules" [level=3] [ref=e912]
+              - paragraph [ref=e913]: "Hungary passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e914]:
+            - 'link "Visa rules Iceland visa-free rules Iceland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e915] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Iceland visa-free rules" [level=3] [ref=e916]
+              - paragraph [ref=e917]: "Iceland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e918]:
+            - 'link "Visa rules Ireland visa-free rules Ireland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e919] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Ireland visa-free rules" [level=3] [ref=e920]
+              - paragraph [ref=e921]: "Ireland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e922]:
+            - 'link "Visa rules Italy visa-free rules Italy passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e923] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Italy visa-free rules" [level=3] [ref=e924]
+              - paragraph [ref=e925]: "Italy passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e926]:
+            - 'link "Visa rules Japan visa-free rules Japan passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e927] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Japan visa-free rules" [level=3] [ref=e928]
+              - paragraph [ref=e929]: "Japan passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e930]:
+            - 'link "Visa rules Kuwait visa-free rules Kuwait passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e931] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Kuwait visa-free rules" [level=3] [ref=e932]
+              - paragraph [ref=e933]: "Kuwait passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e934]:
+            - 'link "Visa rules Latvia visa-free rules Latvia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e935] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Latvia visa-free rules" [level=3] [ref=e936]
+              - paragraph [ref=e937]: "Latvia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e938]:
+            - 'link "Visa rules Liechtenstein visa-free rules Liechtenstein passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e939] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Liechtenstein visa-free rules" [level=3] [ref=e940]
+              - paragraph [ref=e941]: "Liechtenstein passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e942]:
+            - 'link "Visa rules Lithuania visa-free rules Lithuania passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e943] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Lithuania visa-free rules" [level=3] [ref=e944]
+              - paragraph [ref=e945]: "Lithuania passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e946]:
+            - 'link "Visa rules Luxembourg visa-free rules Luxembourg passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e947] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Luxembourg visa-free rules" [level=3] [ref=e948]
+              - paragraph [ref=e949]: "Luxembourg passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e950]:
+            - 'link "Visa rules Malta visa-free rules Malta passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e951] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Malta visa-free rules" [level=3] [ref=e952]
+              - paragraph [ref=e953]: "Malta passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e954]:
+            - 'link "Visa rules Mexico visa-free rules Mexico passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e955] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Mexico visa-free rules" [level=3] [ref=e956]
+              - paragraph [ref=e957]: "Mexico passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e958]:
+            - 'link "Visa rules Monaco visa-free rules Monaco passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e959] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Monaco visa-free rules" [level=3] [ref=e960]
+              - paragraph [ref=e961]: "Monaco passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e962]:
+            - 'link "Visa rules Montenegro visa-free rules Montenegro passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e963] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Montenegro visa-free rules" [level=3] [ref=e964]
+              - paragraph [ref=e965]: "Montenegro passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e966]:
+            - 'link "Visa rules Netherlands visa-free rules Netherlands passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e967] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Netherlands visa-free rules" [level=3] [ref=e968]
+              - paragraph [ref=e969]: "Netherlands passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e970]:
+            - 'link "Visa rules New Zealand visa-free rules New Zealand passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e971] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "New Zealand visa-free rules" [level=3] [ref=e972]
+              - paragraph [ref=e973]: "New Zealand passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e974]:
+            - 'link "Visa rules North Macedonia visa-free rules North Macedonia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e975] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "North Macedonia visa-free rules" [level=3] [ref=e976]
+              - paragraph [ref=e977]: "North Macedonia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e978]:
+            - 'link "Visa rules Norway visa-free rules Norway passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e979] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Norway visa-free rules" [level=3] [ref=e980]
+              - paragraph [ref=e981]: "Norway passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e982]:
+            - 'link "Visa rules Oman visa-free rules Oman passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e983] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Oman visa-free rules" [level=3] [ref=e984]
+              - paragraph [ref=e985]: "Oman passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e986]:
+            - 'link "Visa rules Peru visa-free rules Peru passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e987] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Peru visa-free rules" [level=3] [ref=e988]
+              - paragraph [ref=e989]: "Peru passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e990]:
+            - 'link "Visa rules Poland visa-free rules Poland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e991] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Poland visa-free rules" [level=3] [ref=e992]
+              - paragraph [ref=e993]: "Poland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e994]:
+            - 'link "Visa rules Portugal visa-free rules Portugal passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e995] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Portugal visa-free rules" [level=3] [ref=e996]
+              - paragraph [ref=e997]: "Portugal passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e998]:
+            - 'link "Visa rules Qatar visa-free rules Qatar passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e999] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Qatar visa-free rules" [level=3] [ref=e1000]
+              - paragraph [ref=e1001]: "Qatar passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1002]:
+            - 'link "Visa rules Republic of Korea visa-free rules Republic of Korea passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1003] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Republic of Korea visa-free rules" [level=3] [ref=e1004]
+              - paragraph [ref=e1005]: "Republic of Korea passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1006]:
+            - 'link "Visa rules Romania visa-free rules Romania passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1007] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Romania visa-free rules" [level=3] [ref=e1008]
+              - paragraph [ref=e1009]: "Romania passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1010]:
+            - 'link "Visa rules Russia visa-free rules Russia passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1011] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Russia visa-free rules" [level=3] [ref=e1012]
+              - paragraph [ref=e1013]: "Russia passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1014]:
+            - 'link "Visa rules Russian Federation visa-free rules Russian Federation passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1015] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Russian Federation visa-free rules" [level=3] [ref=e1016]
+              - paragraph [ref=e1017]: "Russian Federation passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1018]:
+            - 'link "Visa rules Saudi Arabia visa-free rules Saudi Arabia passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1019] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Saudi Arabia visa-free rules" [level=3] [ref=e1020]
+              - paragraph [ref=e1021]: "Saudi Arabia passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1022]:
+            - 'link "Visa rules Serbia visa-free rules Serbia passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1023] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Serbia visa-free rules" [level=3] [ref=e1024]
+              - paragraph [ref=e1025]: "Serbia passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1026]:
+            - 'link "Visa rules Singapore visa-free rules Singapore passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1027] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Singapore visa-free rules" [level=3] [ref=e1028]
+              - paragraph [ref=e1029]: "Singapore passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1030]:
+            - 'link "Visa rules Slovakia visa-free rules Slovakia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1031] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Slovakia visa-free rules" [level=3] [ref=e1032]
+              - paragraph [ref=e1033]: "Slovakia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1034]:
+            - 'link "Visa rules Slovenia visa-free rules Slovenia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1035] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Slovenia visa-free rules" [level=3] [ref=e1036]
+              - paragraph [ref=e1037]: "Slovenia passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1038]:
+            - 'link "Visa rules South Korea visa-free rules South Korea passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1039] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "South Korea visa-free rules" [level=3] [ref=e1040]
+              - paragraph [ref=e1041]: "South Korea passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1042]:
+            - 'link "Visa rules Spain visa-free rules Spain passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1043] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Spain visa-free rules" [level=3] [ref=e1044]
+              - paragraph [ref=e1045]: "Spain passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1046]:
+            - 'link "Visa rules Sweden visa-free rules Sweden passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1047] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Sweden visa-free rules" [level=3] [ref=e1048]
+              - paragraph [ref=e1049]: "Sweden passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1050]:
+            - 'link "Visa rules Switzerland visa-free rules Switzerland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1051] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Switzerland visa-free rules" [level=3] [ref=e1052]
+              - paragraph [ref=e1053]: "Switzerland passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1054]:
+            - 'link "Visa rules Ukraine visa-free rules Ukraine passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1055] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Ukraine visa-free rules" [level=3] [ref=e1056]
+              - paragraph [ref=e1057]: "Ukraine passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1058]:
+            - 'link "Visa rules United Arab Emirates visa-free rules United Arab Emirates passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1059] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "United Arab Emirates visa-free rules" [level=3] [ref=e1060]
+              - paragraph [ref=e1061]: "United Arab Emirates passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1062]:
+            - 'link "Visa rules United Kingdom visa-free rules United Kingdom passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1063] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "United Kingdom visa-free rules" [level=3] [ref=e1064]
+              - paragraph [ref=e1065]: "United Kingdom passport holders: 30-day unilateral visa-free + 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1066]:
+            - 'link "Visa rules United States visa-free rules United States passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1067] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "United States visa-free rules" [level=3] [ref=e1068]
+              - paragraph [ref=e1069]: "United States passport holders: 240-hour transit visa-free. Check onward-ticket and stay-purpose rules before flying."
+          - listitem [ref=e1070]:
+            - 'link "Visa rules Uruguay visa-free rules Uruguay passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying." [ref=e1071] [cursor=pointer]':
+              - /url: /guide/entry#entry-visa
+              - text: Visa rules
+              - heading "Uruguay visa-free rules" [level=3] [ref=e1072]
+              - paragraph [ref=e1073]: "Uruguay passport holders: 30-day unilateral visa-free. Check onward-ticket and stay-purpose rules before flying."
+  - contentinfo [ref=e166]:
+    - paragraph [ref=e167]: Travel China demo data only.
+    - generic [ref=e168]:
+      - link "References" [ref=e169] [cursor=pointer]:
+        - /url: /sources
+      - link "Back to top" [ref=e170] [cursor=pointer]:
+        - /url: "#top"

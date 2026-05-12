@@ -1,0 +1,192 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "旅 旅行中国" [ref=e3] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e4]: 旅
+      - strong [ref=e5]: 旅行中国
+    - generic [ref=e6]:
+      - button "Open site search" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - navigation "Main navigation" [ref=e11]:
+        - link "Phrases" [ref=e12] [cursor=pointer]:
+          - /url: /phrasebook
+      - group "Theme" [ref=e13]:
+        - button "Use light theme" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - generic [ref=e21]: Light
+        - button "Use dark theme" [pressed] [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+          - generic [ref=e25]: Dark
+        - button "Use system theme" [ref=e26] [cursor=pointer]:
+          - img [ref=e27]
+          - generic [ref=e30]: Auto
+      - group "Switch language" [ref=e31]:
+        - button "Switch to English" [pressed] [ref=e32] [cursor=pointer]: EN
+        - button "Switch to Chinese" [ref=e33] [cursor=pointer]: 中文
+  - main [ref=e34]:
+    - heading "Welcome to China" [level=1] [ref=e36]
+    - region "China interactive map" [ref=e37]:
+      - generic [ref=e39]:
+        - group "China provinces" [ref=e41]:
+          - button "Xinjiang" [ref=e42] [cursor=pointer]
+          - button "Tibet" [ref=e44] [cursor=pointer]
+          - button "Qinghai" [ref=e46] [cursor=pointer]
+          - button "Gansu" [ref=e48] [cursor=pointer]
+          - button "Ningxia" [ref=e50] [cursor=pointer]
+          - button "Inner Mongolia" [ref=e53] [cursor=pointer]
+          - button "Heilongjiang" [ref=e55] [cursor=pointer]
+          - button "Jilin" [ref=e57] [cursor=pointer]
+          - button "Liaoning" [ref=e59] [cursor=pointer]
+          - button "Beijing" [ref=e62] [cursor=pointer]
+          - button "Tianjin" [ref=e64] [cursor=pointer]
+          - button "Hebei" [ref=e66] [cursor=pointer]
+          - button "Shanxi" [ref=e69] [cursor=pointer]
+          - button "Shaanxi" [ref=e71] [cursor=pointer]
+          - button "Henan" [ref=e73] [cursor=pointer]
+          - button "Shandong" [ref=e75] [cursor=pointer]
+          - button "Jiangsu" [ref=e77] [cursor=pointer]
+          - button "Anhui" [ref=e80] [cursor=pointer]
+          - button "Hubei" [ref=e82] [cursor=pointer]
+          - button "Sichuan" [ref=e84] [cursor=pointer]
+          - button "Chongqing" [ref=e86] [cursor=pointer]
+          - button "Hunan" [ref=e88] [cursor=pointer]
+          - button "Jiangxi" [ref=e90] [cursor=pointer]
+          - button "Zhejiang" [ref=e92] [cursor=pointer]
+          - button "Shanghai" [ref=e96] [cursor=pointer]
+          - button "Fujian" [ref=e99] [cursor=pointer]
+          - button "Guizhou" [ref=e103] [cursor=pointer]
+          - button "Yunnan" [ref=e105] [cursor=pointer]
+          - button "Guangxi" [ref=e107] [cursor=pointer]
+          - button "Guangdong" [ref=e109] [cursor=pointer]
+          - button "Hainan" [ref=e117] [cursor=pointer]
+          - button "Hong Kong" [ref=e119] [cursor=pointer]
+          - button "Taiwan" [ref=e123] [cursor=pointer]
+        - generic:
+          - generic: Xinjiang
+          - generic: Tibet
+          - generic: Qinghai
+          - generic: Gansu
+          - generic: Ningxia
+          - generic: Inner Mongolia
+          - generic: Heilongjiang
+          - generic: Jilin
+          - generic: Liaoning
+          - generic: Beijing
+          - generic: Tianjin
+          - generic: Hebei
+          - generic: Shanxi
+          - generic: Shaanxi
+          - generic: Henan
+          - generic: Shandong
+          - generic: Jiangsu
+          - generic: Anhui
+          - generic: Hubei
+          - generic: Sichuan
+          - generic: Chongqing
+          - generic: Hunan
+          - generic: Jiangxi
+          - generic: Zhejiang
+          - generic: Shanghai
+          - generic: Fujian
+          - generic: Guizhou
+          - generic: Yunnan
+          - generic: Guangxi
+          - generic: Guangdong
+          - generic: Hainan
+          - generic: Taiwan
+        - generic [ref=e126]:
+          - button "Xinjiang" [ref=e127] [cursor=pointer]
+          - button "Tibet" [ref=e128] [cursor=pointer]
+          - button "Qinghai" [ref=e129] [cursor=pointer]
+          - button "Gansu" [ref=e130] [cursor=pointer]
+          - button "Ningxia" [ref=e131] [cursor=pointer]
+          - button "Inner Mongolia" [ref=e132] [cursor=pointer]
+          - button "Heilongjiang" [ref=e133] [cursor=pointer]
+          - button "Jilin" [ref=e134] [cursor=pointer]
+          - button "Liaoning" [ref=e135] [cursor=pointer]
+          - button "Beijing" [ref=e136] [cursor=pointer]
+          - button "Tianjin" [ref=e137] [cursor=pointer]
+          - button "Hebei" [ref=e138] [cursor=pointer]
+          - button "Shanxi" [ref=e139] [cursor=pointer]
+          - button "Shaanxi" [ref=e140] [cursor=pointer]
+          - button "Henan" [ref=e141] [cursor=pointer]
+          - button "Shandong" [ref=e142] [cursor=pointer]
+          - button "Jiangsu" [ref=e143] [cursor=pointer]
+          - button "Anhui" [ref=e144] [cursor=pointer]
+          - button "Hubei" [ref=e145] [cursor=pointer]
+          - button "Sichuan" [ref=e146] [cursor=pointer]
+          - button "Chongqing" [ref=e147] [cursor=pointer]
+          - button "Hunan" [ref=e148] [cursor=pointer]
+          - button "Jiangxi" [ref=e149] [cursor=pointer]
+          - button "Zhejiang" [ref=e150] [cursor=pointer]
+          - button "Shanghai" [ref=e151] [cursor=pointer]
+          - button "Fujian" [ref=e152] [cursor=pointer]
+          - button "Guizhou" [ref=e153] [cursor=pointer]
+          - button "Yunnan" [ref=e154] [cursor=pointer]
+          - button "Guangxi" [ref=e155] [cursor=pointer]
+          - button "Guangdong" [ref=e156] [cursor=pointer]
+          - button "Hainan" [ref=e157] [cursor=pointer]
+          - button "Taiwan" [ref=e158] [cursor=pointer]
+        - generic:
+          - button "Hong Kong" [ref=e159] [cursor=pointer]:
+            - generic [ref=e161]: Hong Kong
+          - button "Macau" [ref=e162] [cursor=pointer]:
+            - generic [ref=e164]: Macau
+    - region "Travel guide links" [ref=e165]:
+      - link "Entry & visa" [ref=e166] [cursor=pointer]:
+        - /url: /guide/entry
+        - generic [ref=e169]: Entry & visa
+      - link "Payments" [ref=e170] [cursor=pointer]:
+        - /url: /guide/payments
+        - generic [ref=e173]: Payments
+      - link "3-day plan" [ref=e174] [cursor=pointer]:
+        - /url: /plan
+        - generic [ref=e177]: 3-day plan
+      - link "Travel notes" [ref=e178] [cursor=pointer]:
+        - /url: /guide/notes
+        - generic [ref=e181]: Travel notes
+      - link "Essential phrases" [ref=e182] [cursor=pointer]:
+        - /url: /phrasebook
+        - generic [ref=e185]: Essential phrases
+    - region "Cities" [ref=e186]:
+      - heading "City pages" [level=2] [ref=e188]
+      - generic [ref=e189]:
+        - link "Forbidden City / Palace Museum Beijing Forbidden City / Palace Museum Dongcheng" [ref=e190] [cursor=pointer]:
+          - /url: /city/beijing
+          - generic [ref=e191]:
+            - img "Forbidden City / Palace Museum" [ref=e192]
+            - generic [ref=e194]:
+              - generic [ref=e195]: Beijing
+              - strong [ref=e196]: Forbidden City / Palace Museum
+              - generic [ref=e197]: Dongcheng
+        - link "The Bund Shanghai The Bund Huangpu" [ref=e198] [cursor=pointer]:
+          - /url: /city/shanghai
+          - generic [ref=e199]:
+            - img "The Bund" [ref=e200]
+            - generic [ref=e202]:
+              - generic [ref=e203]: Shanghai
+              - strong [ref=e204]: The Bund
+              - generic [ref=e205]: Huangpu
+        - link "Canton Tower Guangzhou Canton Tower Haizhu" [ref=e206] [cursor=pointer]:
+          - /url: /city/guangzhou
+          - generic [ref=e207]:
+            - img "Canton Tower" [ref=e208]
+            - generic [ref=e210]:
+              - generic [ref=e211]: Guangzhou
+              - strong [ref=e212]: Canton Tower
+              - generic [ref=e213]: Haizhu
+        - link "Window of the World Shenzhen Window of the World Nanshan" [ref=e214] [cursor=pointer]:
+          - /url: /city/shenzhen
+          - generic [ref=e215]:
+            - img "Window of the World" [ref=e216]
+            - generic [ref=e218]:
+              - generic [ref=e219]: Shenzhen
+              - strong [ref=e220]: Window of the World
+              - generic [ref=e221]: Nanshan
+  - contentinfo [ref=e222]:
+    - paragraph [ref=e223]: Travel China demo data only.
+    - generic [ref=e224]:
+      - link "References" [ref=e225] [cursor=pointer]:
+        - /url: /sources
+      - link "Back to top" [ref=e226] [cursor=pointer]:
+        - /url: "#top"
