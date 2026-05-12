@@ -35,7 +35,25 @@ export default function GuidePage() {
   const { topic } = useParams<{ topic: string }>();
   const { lang } = useLang();
   const isZh = lang === "zh";
-  const current = validTopics.has(topic as GuideTopic) ? (topic as GuideTopic) : "notes";
+  const isValid = validTopics.has(topic as GuideTopic);
+
+  if (!isValid) {
+    return (
+      <main id="top" className="mx-auto flex max-w-3xl flex-col gap-4 px-4 py-10">
+        <Link to="/" className="text-xs font-bold uppercase tracking-widest text-muted hover:text-jade">
+          {isZh ? "← 返回首页" : "← Home"}
+        </Link>
+        <h1 className="text-3xl font-bold">{isZh ? "未知主题" : "Unknown guide topic"}</h1>
+        <p className="text-sm text-muted">
+          {isZh
+            ? `没有 "/guide/${topic}" 这个主题。可用主题：入境签证 / 支付准备 / 出行注意事项。`
+            : `No such guide topic at "/guide/${topic}". Available: entry, payments, notes.`}
+        </p>
+      </main>
+    );
+  }
+
+  const current = topic as GuideTopic;
   const label = topicLabels[current];
 
   return (

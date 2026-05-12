@@ -1,10 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useNavigate } from "react-router";
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { atlasData, provinceAttractionSeed, type ProvinceRecord } from "../../data/atlas";
 import type { Lang } from "../../data/i18n";
+import { useRecordCityView } from "../../hooks/useCityViews";
+import { getPhase1AttractionRouteId, getPhase1CityRouteId } from "../../lib/cityRoutes";
+import { useAtlas } from "../../store/atlas";
 import { cityMapPoints, provinceHitAreas, type ProvinceHitArea } from "../../data/map-sources";
 
 type CesiumModule = typeof import("cesium");
+type CesiumEntity = InstanceType<CesiumModule["Entity"]>;
+type CesiumScreenSpaceEventHandler = InstanceType<CesiumModule["ScreenSpaceEventHandler"]>;
 type CesiumViewer = InstanceType<CesiumModule["Viewer"]>;
 
 type Map3DProps = {
@@ -36,6 +42,8 @@ const CHINA_BOUNDS = {
 
 const TDT_SUBDOMAINS = ["0", "1", "2", "3", "4", "5", "6", "7"];
 const TILE_MATRIX_LABELS = Array.from({ length: 18 }, (_, index) => String(index + 1));
+const CITY_ENTITY_PREFIX = "city:";
+const CITY_ROUTE_ENTITY_PREFIX = "city-route:";
 
 const FALLBACK_AREA: ProvinceHitArea = {
   id: "china",
@@ -212,9 +220,12 @@ function addLabelEntity(
   position: LonLat,
   text: string,
   color: string,
-  size: number
+  size: number,
+  entityId?: string
 ) {
   viewer.entities.add({
+    id: entityId,
+    name: text,
     position: Cesium.Cartesian3.fromDegrees(position.lon, position.lat, 16000),
     point: {
       pixelSize: size,
@@ -250,13 +261,30 @@ function addProvinceEntities(
 
   province.cities.forEach((city, index) => {
     const position = getCityPosition(city.id, area, index + 1);
-    addLabelEntity(Cesium, viewer, position, getEntityText(city.zh, city.name, lang), "#3b82f6", 11);
+    addLabelEntity(
+      Cesium,
+      viewer,
+      position,
+      getEntityText(city.zh, city.name, lang),
+      "#3b82f6",
+      11,
+      `${CITY_ENTITY_PREFIX}${city.id}`
+    );
   });
 
   const attractions = provinceAttractionSeed[provinceId] ?? [];
   attractions.forEach((attraction, index) => {
     const position = getAttractionPosition(area, index);
-    addLabelEntity(Cesium, viewer, position, getEntityText(attraction.zh, attraction.en, lang), "#f59e0b", 9);
+    const routeId = getPhase1AttractionRouteId(provinceId, attraction.en);
+    addLabelEntity(
+      Cesium,
+      viewer,
+      position,
+      getEntityText(attraction.zh, attraction.en, lang),
+      "#f59e0b",
+      9,
+      routeId ? `${CITY_ROUTE_ENTITY_PREFIX}${routeId}` : undefined
+    );
   });
 }
 
@@ -282,12 +310,53 @@ function resolveProvince(provinceId: string, province: ProvinceRecord) {
   return atlasData.find((item) => item.id === provinceId) ?? province;
 }
 
+function getPickedEntity(picked: unknown): CesiumEntity | null {
+  if (!picked || typeof picked !== "object" || !("id" in picked)) return null;
+  const pickedWithId = picked as { id?: unknown };
+  if (typeof pickedWithId.id === "string") return picked as CesiumEntity;
+  const candidate = pickedWithId.id;
+  if (!candidate || typeof candidate !== "object" || !("id" in candidate)) return null;
+  return candidate as CesiumEntity;
+}
+
+function getPickedCityId(entity: CesiumEntity): string | null {
+  return typeof entity.id === "string" && entity.id.startsWith(CITY_ENTITY_PREFIX)
+    ? entity.id.slice(CITY_ENTITY_PREFIX.length)
+    : null;
+}
+
+function getPickedRouteCityId(entity: CesiumEntity): string | null {
+  return typeof entity.id === "string" && entity.id.startsWith(CITY_ROUTE_ENTITY_PREFIX)
+    ? entity.id.slice(CITY_ROUTE_ENTITY_PREFIX.length)
+    : null;
+}
+
 export default function Map3D({ province, provinceId, lang }: Map3DProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const viewerRef = useRef<CesiumViewer | null>(null);
+  const handleCityClickRef = useRef<(cityId: string) => void>(() => undefined);
+  const handleRouteClickRef = useRef<(routeId: string) => void>(() => undefined);
+  const navigate = useNavigate();
+  const { selectPlace } = useAtlas();
+  const recordView = useRecordCityView();
   const token = import.meta.env.VITE_TIANDITU_KEY?.trim() ?? "";
   const [loadState, setLoadState] = useState<MapLoadState>(token ? "loading" : "missing-key");
   const selectedProvince = useMemo(() => resolveProvince(provinceId, province), [province, provinceId]);
+
+  useEffect(() => {
+    handleCityClickRef.current = (cityId: string) => {
+      recordView(cityId);
+      const phase1 = getPhase1CityRouteId(cityId);
+      if (phase1) {
+        navigate(`/city/${phase1}`);
+        return;
+      }
+      selectPlace(provinceId, cityId);
+    };
+    handleRouteClickRef.current = (routeId: string) => {
+      navigate(`/city/${routeId}`);
+    };
+  }, [navigate, provinceId, recordView, selectPlace]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -296,6 +365,7 @@ export default function Map3D({ province, provinceId, lang }: Map3DProps) {
     if (!token) return;
 
     let cancelled = false;
+    let clickHandler: CesiumScreenSpaceEventHandler | null = null;
     let creditContainer: HTMLDivElement | null = document.createElement("div");
     creditContainer.className = "hidden";
     container.appendChild(creditContainer);
@@ -345,6 +415,18 @@ export default function Map3D({ province, provinceId, lang }: Map3DProps) {
         addProvinceEntities(Cesium, viewer, selectedProvince, provinceId, area, lang);
         focusCamera(Cesium, viewer, bounds);
 
+        clickHandler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+        clickHandler.setInputAction((movement: { position: InstanceType<CesiumModule["Cartesian2"]> }) => {
+          const entity = getPickedEntity(viewer.scene.pick(movement.position));
+          const routeCityId = entity ? getPickedRouteCityId(entity) : null;
+          if (routeCityId) {
+            handleRouteClickRef.current(routeCityId);
+            return;
+          }
+          const cityId = entity ? getPickedCityId(entity) : null;
+          if (cityId) handleCityClickRef.current(cityId);
+        }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+
         if (!cancelled) setLoadState("ready");
       } catch (error) {
         console.error(error);
@@ -358,6 +440,10 @@ export default function Map3D({ province, provinceId, lang }: Map3DProps) {
 
     return () => {
       cancelled = true;
+      if (clickHandler && !clickHandler.isDestroyed()) {
+        clickHandler.destroy();
+      }
+      clickHandler = null;
       if (viewerRef.current && !viewerRef.current.isDestroyed()) {
         viewerRef.current.destroy();
       }

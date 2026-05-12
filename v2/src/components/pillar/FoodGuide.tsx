@@ -18,7 +18,7 @@ export default function FoodGuide({ cityId }: Props) {
   const active = cityFood.find((c) => c.cityId === effectiveId)!;
 
   return (
-    <section id="food" className="flex flex-col gap-4">
+    <section id={cityScoped ? undefined : "food"} className="flex flex-col gap-4">
       {!cityScoped && (
         <header>
           <span className="text-xs font-bold uppercase tracking-widest text-muted">

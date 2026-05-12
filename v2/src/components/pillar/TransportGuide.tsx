@@ -21,7 +21,7 @@ export default function TransportGuide({ cityId }: Props) {
   const active = cityTransport.find((c) => c.cityId === effectiveId)!;
 
   return (
-    <section id="transport" className="flex flex-col gap-4">
+    <section id={cityScoped ? undefined : "transport"} className="flex flex-col gap-4">
       {!cityScoped && (
         <header>
           <span className="text-xs font-bold uppercase tracking-widest text-muted">
