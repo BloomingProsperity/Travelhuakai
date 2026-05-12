@@ -1,12 +1,21 @@
+import { useNavigate } from "react-router";
 import { useAtlas } from "../../store/atlas";
 import { useLang } from "../../store/language";
 import { provinceAttractionSeed } from "../../data/atlas";
 import { useRecordCityView } from "../../hooks/useCityViews";
 
+const PHASE1_CITY_ROUTES: Record<string, string> = {
+  "beijing-city": "beijing",
+  "shanghai-city": "shanghai",
+  "guangzhou-city": "guangzhou",
+  "shenzhen-city": "shenzhen"
+};
+
 export default function ProvinceInfoCard() {
   const { selectedProvinceId, province, selectPlace, is3DEnabled } = useAtlas();
   const { lang, t } = useLang();
   const recordView = useRecordCityView();
+  const navigate = useNavigate();
 
   if (!selectedProvinceId || !province || is3DEnabled) return null;
 
@@ -16,8 +25,12 @@ export default function ProvinceInfoCard() {
 
   const goToCity = (cityId: string) => {
     recordView(cityId);
+    const phase1 = PHASE1_CITY_ROUTES[cityId];
+    if (phase1) {
+      navigate(`/city/${phase1}`);
+      return;
+    }
     selectPlace(province.id, cityId);
-    document.querySelector("#atlas")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (

@@ -298,6 +298,57 @@ export const atlasData: ProvinceRecord[] = [
     ]
   },
   {
+    id: "guangdong",
+    name: "Guangdong",
+    zh: "广东",
+    type: "Province",
+    color: "jade",
+    cities: [
+      {
+        id: "guangzhou-city",
+        name: "Guangzhou",
+        zh: "广州",
+        province: "Guangdong",
+        museum: "Guangdong Provincial Museum / Guangzhou Museum",
+        museumZh: "广东省博物馆 / 广州博物馆",
+        museumRole:
+          "A practical entry point for Lingnan culture, Cantonese urban life, 2,200 years of port history, and Guangdong's role in maritime trade and modern reform.",
+        museumRoleZh: "理解岭南文化、广府都市生活、2200 年港口史，以及广东在海上贸易和近现代改革中作用的实用入口。",
+        history:
+          "Guangzhou has been a trading port since the Qin–Han period and is central to understanding maritime Silk Road history, Cantonese culture, Republican-era reform, and southern China's urban networks.",
+        historyZh: "广州自秦汉以来一直是通商口岸，是理解海上丝绸之路、广府文化、民国改革，以及华南城市网络的重要城市。",
+        sites: ["Canton Tower", "Chen Clan Ancestral Hall", "Shamian Island", "Yuexiu Park"],
+        sitesZh: ["广州塔", "陈家祠", "沙面岛", "越秀公园"],
+        baseViews: 9870,
+        notes: 26,
+        verified: "2026-05",
+        access: "High",
+        status: "Official facts pending"
+      },
+      {
+        id: "shenzhen-city",
+        name: "Shenzhen",
+        zh: "深圳",
+        province: "Guangdong",
+        museum: "Shenzhen Museum / Reform and Opening-up Exhibition Hall",
+        museumZh: "深圳博物馆 / 改革开放展览馆",
+        museumRole:
+          "A direct entry into the reform-era story: how a Pearl River Delta border town became a global tech city in four decades, and what that means for cross-border life with Hong Kong.",
+        museumRoleZh: "理解改革开放叙事的直接入口：珠三角边境小城如何用四十年成为全球科技都市，以及与香港跨境生活的关系。",
+        history:
+          "Shenzhen was designated China's first Special Economic Zone in 1980 and has grown from a fishing-village border area into a global technology hub closely linked with Hong Kong.",
+        historyZh: "深圳 1980 年成为中国第一个经济特区，从渔村边境地区发展为与香港紧密相连的全球科技中心。",
+        sites: ["Window of the World", "OCT Loft", "Dapeng Fortress", "Shenzhen Bay border crossings"],
+        sitesZh: ["世界之窗", "华侨城创意园", "大鹏所城", "深圳湾口岸"],
+        baseViews: 8420,
+        notes: 21,
+        verified: "2026-05",
+        access: "High",
+        status: "Official facts pending"
+      }
+    ]
+  },
+  {
     id: "sichuan",
     name: "Sichuan",
     zh: "四川",

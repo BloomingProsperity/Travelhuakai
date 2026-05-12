@@ -6,6 +6,10 @@ export default {
   async prerender() {
     return [
       "/",
+      "/map",
+      "/guide/entry",
+      "/guide/payments",
+      "/guide/notes",
       "/share",
       "/ask",
       "/sources",
