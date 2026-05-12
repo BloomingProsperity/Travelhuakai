@@ -1,3 +1,5 @@
+import { useEffect, useRef } from "react";
+import { flushSync } from "react-dom";
 import { Link, useParams } from "react-router";
 import { attractionsByCity } from "../data/city-attractions";
 import { CITY_LABELS, type CityId } from "../data/transport";
@@ -74,8 +76,36 @@ function cityBreadcrumbStructuredData(cityId: CityId) {
 
 export default function CityPage() {
   const { cityId } = useParams<{ cityId: string }>();
-  const { lang } = useLang();
+  const { lang, setLang } = useLang();
   const isZh = lang === "zh";
+  const printLanguageRef = useRef<typeof lang | null>(null);
+
+  useEffect(() => {
+    document.body.classList.add("city-page-route");
+    return () => document.body.classList.remove("city-page-route");
+  }, []);
+
+  useEffect(() => {
+    const prepareEnglishPrint = () => {
+      if (lang === "en" || printLanguageRef.current) return;
+      printLanguageRef.current = lang;
+      flushSync(() => setLang("en"));
+    };
+
+    const restorePrintLanguage = () => {
+      const previousLang = printLanguageRef.current;
+      if (!previousLang) return;
+      printLanguageRef.current = null;
+      setLang(previousLang);
+    };
+
+    window.addEventListener("beforeprint", prepareEnglishPrint);
+    window.addEventListener("afterprint", restorePrintLanguage);
+    return () => {
+      window.removeEventListener("beforeprint", prepareEnglishPrint);
+      window.removeEventListener("afterprint", restorePrintLanguage);
+    };
+  }, [lang, setLang]);
 
   if (!cityId || !VALID_IDS.includes(cityId as CityId)) {
     return (
@@ -90,6 +120,18 @@ export default function CityPage() {
   const label = CITY_LABELS[id];
   const cityJsonLd = cityStructuredData(id);
   const cityBreadcrumbJsonLd = cityBreadcrumbStructuredData(id);
+  const cityUrl = absoluteUrl(`/city/${id}`);
+
+  const handlePrint = () => {
+    if (typeof window === "undefined") return;
+
+    if (lang !== "en" && !printLanguageRef.current) {
+      printLanguageRef.current = lang;
+      flushSync(() => setLang("en"));
+    }
+
+    window.print();
+  };
 
   return (
     <>
@@ -101,13 +143,22 @@ export default function CityPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: stringifyJsonLd(cityBreadcrumbJsonLd) }}
       />
-      <main id="top" className="mx-auto max-w-7xl px-4 py-10">
-      <header className="mb-6 flex flex-col gap-2">
+      <main id="top" className="city-page mx-auto max-w-7xl px-4 py-10">
+      <header className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+        <div className="flex min-w-0 flex-col gap-2">
         <Link to="/" className="text-xs font-bold uppercase tracking-widest text-muted hover:text-jade">
           {isZh ? "← 全部城市" : "← All cities"}
         </Link>
         <h1 className="text-4xl font-bold leading-tight">{isZh ? label.zh : label.en}</h1>
         <p className="text-sm text-muted">{isZh ? label.en : label.zh}</p>
+        </div>
+        <button
+          type="button"
+          onClick={handlePrint}
+          className="print-this-page self-start rounded-full border border-line bg-white px-4 py-2 text-xs font-bold uppercase tracking-wider text-ink shadow-sm transition hover:border-jade hover:text-jade"
+        >
+          Print this page
+        </button>
       </header>
 
       <div className="grid items-start gap-6 lg:grid-cols-[200px_1fr_300px]">
@@ -146,6 +197,10 @@ export default function CityPage() {
         <CityImagePanel cityId={id} />
       </div>
       </main>
+      <div className="print-page-footer" aria-hidden="true">
+        <span>Travel China - {cityUrl} - Page&nbsp;</span>
+        <span className="print-page-number" />
+      </div>
     </>
   );
 }

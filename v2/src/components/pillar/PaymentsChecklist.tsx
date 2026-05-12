@@ -20,7 +20,10 @@ export default function PaymentsChecklist({ cityId }: Props) {
     : cityPaymentNotes;
 
   return (
-    <section id={cityScoped ? undefined : "payments"} className="flex flex-col gap-4">
+    <section
+      id={cityScoped ? undefined : "payments"}
+      className={`flex flex-col gap-4${cityScoped ? " print-city-scoped" : ""}`}
+    >
       {!cityScoped && (
         <header>
           <span className="text-xs font-bold uppercase tracking-widest text-muted">

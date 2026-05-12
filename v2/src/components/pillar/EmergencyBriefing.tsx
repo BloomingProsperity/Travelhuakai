@@ -27,7 +27,10 @@ export default function EmergencyBriefing({ cityId }: Props) {
   const cityHotline = cityHotlines.find((h) => h.cityId === effectiveId)!;
 
   return (
-    <section id={cityScoped ? undefined : "emergency"} className="flex flex-col gap-4">
+    <section
+      id={cityScoped ? undefined : "emergency"}
+      className={clsx("flex flex-col gap-4", cityScoped && "print-city-scoped")}
+    >
       {!cityScoped && (
         <header>
           <span className="text-xs font-bold uppercase tracking-widest text-muted">

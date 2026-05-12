@@ -10,5 +10,6 @@ export default [
   route("share", "./pages/SharePage.tsx"),
   route("ask", "./pages/AskPage.tsx"),
   route("sources", "./pages/SourcesPage.tsx"),
+  route("search", "./pages/SearchPage.tsx"),
   route("*", "./pages/HomePage.tsx", { id: "catch-all" })
 ] satisfies RouteConfig;

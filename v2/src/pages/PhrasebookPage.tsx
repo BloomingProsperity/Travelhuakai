@@ -36,6 +36,7 @@ export default function PhrasebookPage() {
   const isZh = lang === "zh";
   const [activeKey, setActiveKey] = useState(defaultCategory.key);
   const [copiedZh, setCopiedZh] = useState<string | null>(null);
+  const [speakingZh, setSpeakingZh] = useState<string | null>(null);
   const activeCategory = phraseCategories.find((category) => category.key === activeKey) ?? defaultCategory;
 
   async function handleCopy(phrase: Phrase) {
@@ -48,6 +49,20 @@ export default function PhrasebookPage() {
     } catch {
       setCopiedZh(null);
     }
+  }
+
+  function handleSpeak(phrase: Phrase) {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(phrase.zh);
+    utterance.lang = "zh-CN";
+    utterance.rate = 0.85;
+    utterance.onstart = () => setSpeakingZh(phrase.zh);
+    const clearIfActive = () =>
+      setSpeakingZh((current) => (current === phrase.zh ? null : current));
+    utterance.onend = clearIfActive;
+    utterance.onerror = clearIfActive;
+    window.speechSynthesis.speak(utterance);
   }
 
   return (
@@ -128,6 +143,7 @@ export default function PhrasebookPage() {
           <ul className="grid gap-3">
             {activeCategory.phrases.map((phrase) => {
               const copied = copiedZh === phrase.zh;
+              const speaking = speakingZh === phrase.zh;
               return (
                 <li key={`${activeCategory.key}-${phrase.zh}`}>
                   <article className="grid gap-3 rounded-lg border border-line bg-white p-4 shadow-sm sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
@@ -138,21 +154,48 @@ export default function PhrasebookPage() {
                       </p>
                       <p className="mt-1 break-words text-lg font-bold leading-snug">{phrase.zh}</p>
                     </div>
-                    <button
-                      type="button"
-                      aria-label={`Copy Chinese phrase: ${phrase.zh}`}
-                      onClick={() => {
-                        void handleCopy(phrase);
-                      }}
-                      className={clsx(
-                        "h-10 rounded-lg border px-4 text-xs font-bold uppercase tracking-widest transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jade",
-                        copied
-                          ? "border-jade bg-jade text-white"
-                          : "border-line bg-paper text-ink hover:border-jade hover:bg-jade-soft"
-                      )}
-                    >
-                      {copied ? (isZh ? "已复制" : "Copied") : isZh ? "复制" : "Copy"}
-                    </button>
+                    <div className="flex gap-2">
+                      <button
+                        type="button"
+                        aria-label={isZh ? `朗读: ${phrase.zh}` : `Speak Chinese phrase: ${phrase.zh}`}
+                        aria-pressed={speaking}
+                        onClick={() => handleSpeak(phrase)}
+                        className={clsx(
+                          "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jade",
+                          speaking
+                            ? "border-jade bg-jade text-white"
+                            : "border-line bg-paper text-ink hover:border-jade hover:bg-jade-soft"
+                        )}
+                      >
+                        <svg viewBox="0 0 20 20" fill="none" className="h-5 w-5" aria-hidden>
+                          <path
+                            d="M4 8h2.5l4-3v10l-4-3H4V8z"
+                            fill="currentColor"
+                          />
+                          <path
+                            d="M13.5 7.5c0.83 0.83 0.83 4.17 0 5M15.5 5.5c1.83 1.83 1.83 7.17 0 9"
+                            stroke="currentColor"
+                            strokeWidth="1.6"
+                            strokeLinecap="round"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        type="button"
+                        aria-label={`Copy Chinese phrase: ${phrase.zh}`}
+                        onClick={() => {
+                          void handleCopy(phrase);
+                        }}
+                        className={clsx(
+                          "h-10 rounded-lg border px-4 text-xs font-bold uppercase tracking-widest transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jade",
+                          copied
+                            ? "border-jade bg-jade text-white"
+                            : "border-line bg-paper text-ink hover:border-jade hover:bg-jade-soft"
+                        )}
+                      >
+                        {copied ? (isZh ? "已复制" : "Copied") : isZh ? "复制" : "Copy"}
+                      </button>
+                    </div>
                   </article>
                 </li>
               );

@@ -126,7 +126,7 @@ export default function CityIntro({ cityId }: Props) {
 
         <ul className="grid gap-3 sm:grid-cols-2">
           {visible.map((a) => (
-            <li key={a.id} className="flex flex-col gap-2 rounded-xl border border-line bg-white p-4">
+            <li id={a.id} key={a.id} className="scroll-mt-24 flex flex-col gap-2 rounded-xl border border-line bg-white p-4">
               <div className="flex items-center justify-between gap-2">
                 <span
                   className={clsx(

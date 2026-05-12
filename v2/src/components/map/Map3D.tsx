@@ -456,7 +456,7 @@ export default function Map3D({ province, provinceId, lang }: Map3DProps) {
   }, [lang, provinceId, selectedProvince, token]);
 
   return (
-    <div className="relative h-full min-h-[360px] w-full overflow-hidden bg-[#071512]">
+    <div data-print-map="true" className="relative h-full min-h-[360px] w-full overflow-hidden bg-[#071512]">
       <div ref={containerRef} className="absolute inset-0" />
 
       {loadState === "loading" && (

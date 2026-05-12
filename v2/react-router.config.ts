@@ -15,6 +15,7 @@ export default {
       "/share",
       "/ask",
       "/sources",
+      "/search",
       "/city/beijing",
       "/city/shanghai",
       "/city/guangzhou",

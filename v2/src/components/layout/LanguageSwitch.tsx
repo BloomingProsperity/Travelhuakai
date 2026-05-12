@@ -30,7 +30,7 @@ export default function LanguageSwitch() {
             onClick={() => setLang(option.code)}
             className={clsx(
               "px-2.5 py-1 text-xs font-bold uppercase tracking-normal transition sm:px-3 sm:tracking-widest",
-              active ? "bg-ink text-white" : "bg-white text-muted hover:text-ink"
+              active ? "bg-ink text-white" : "bg-white text-muted hover:text-ink dark:bg-paper"
             )}
           >
             {option.label}

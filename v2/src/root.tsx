@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from "react";
 import { Links, Meta, Outlet, Scripts, ScrollRestoration, useLocation } from "react-router";
 import LanguageProvider, { htmlLangFor, readInitialLanguage } from "./store/LanguageProvider";
+import ThemeProvider, { useTheme } from "./store/ThemeProvider";
 import AtlasProvider from "./store/AtlasProvider";
 import SiteHeader from "./components/layout/SiteHeader";
 import SiteFooter from "./components/layout/SiteFooter";
@@ -16,13 +17,14 @@ function currentHref(pathname: string, search: string, hash: string): string {
   return absoluteUrl(path);
 }
 
-export function Layout({ children }: { children: ReactNode }) {
+function RootDocument({ children }: { children: ReactNode }) {
   const location = useLocation();
   const [initialLang] = useState(readInitialLanguage);
+  const { resolvedTheme: theme } = useTheme();
   const href = currentHref(location.pathname, location.search, location.hash);
 
   return (
-    <html lang={htmlLangFor(initialLang)} suppressHydrationWarning>
+    <html lang={htmlLangFor(initialLang)} className={theme === "dark" ? "dark" : ""} suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,7 +45,7 @@ export function Layout({ children }: { children: ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <LanguageProvider>{children}</LanguageProvider>
         <ScrollRestoration />
         <Scripts />
       </body>
@@ -51,15 +53,21 @@ export function Layout({ children }: { children: ReactNode }) {
   );
 }
 
+export function Layout({ children }: { children: ReactNode }) {
+  return (
+    <ThemeProvider>
+      <RootDocument>{children}</RootDocument>
+    </ThemeProvider>
+  );
+}
+
 export default function App() {
   return (
-    <LanguageProvider>
-      <AtlasProvider>
-        <SiteHeader />
-        <Outlet />
-        <SiteFooter />
-        <ScrollToTop />
-      </AtlasProvider>
-    </LanguageProvider>
+    <AtlasProvider>
+      <SiteHeader />
+      <Outlet />
+      <SiteFooter />
+      <ScrollToTop />
+    </AtlasProvider>
   );
 }

@@ -15,6 +15,7 @@ export default function Province3DOverlay() {
 
   return (
     <section
+      data-print-map="true"
       data-province-3d-overlay="true"
       className="absolute inset-0 z-40 flex flex-col overflow-hidden rounded-lg border border-line bg-[#edf2ef]/98 shadow-2xl backdrop-blur-sm"
     >

@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-ink: #18201d;
   --color-muted: #5b6863;
@@ -8,6 +10,48 @@
   --color-jade: #176f62;
   --color-jade-soft: rgba(23, 112, 97, 0.08);
   --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+html.dark {
+  --color-ink: #e6eee9;
+  --color-muted: #a8b7b0;
+  --color-line: rgba(220, 235, 227, 0.18);
+  --color-paper: #0b1110;
+  --color-jade: #63d2bc;
+  --color-jade-soft: rgba(99, 210, 188, 0.14);
+  --color-ink-fill: #101a16;
+  --color-elevated: #121b18;
+  --color-elevated-90: rgba(18, 27, 24, 0.9);
+  --color-elevated-95: rgba(18, 27, 24, 0.95);
+}
+
+html.dark .bg-ink,
+html.dark .dark\:bg-ink {
+  background-color: var(--color-ink-fill);
+}
+
+html.dark .bg-ink\/30 {
+  background-color: rgba(2, 7, 5, 0.64);
+}
+
+html.dark .hover\:bg-ink\/90:hover {
+  background-color: rgba(16, 26, 22, 0.9);
+}
+
+html.dark .border-ink {
+  border-color: var(--color-ink-fill);
+}
+
+html.dark .bg-white {
+  background-color: var(--color-elevated);
+}
+
+html.dark .bg-white\/90 {
+  background-color: var(--color-elevated-90);
+}
+
+html.dark .bg-white\/95 {
+  background-color: var(--color-elevated-95);
 }
 
 html,
@@ -63,5 +107,143 @@ a {
 @media (min-width: 640px) {
   .china-map-surface > div:first-child {
     transform: none;
+  }
+}
+
+.print-page-footer {
+  display: none;
+}
+
+@media print {
+  @page {
+    margin: 14mm 12mm 18mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  body.city-page-route,
+  body:has(.city-page) {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.city-page-route *,
+  body:has(.city-page) * {
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body.city-page-route .site-header,
+  body.city-page-route .site-footer,
+  body.city-page-route .scroll-to-top,
+  body.city-page-route .city-nav,
+  body.city-page-route .city-page > .grid > aside,
+  body.city-page-route [data-print-map="true"],
+  body.city-page-route [data-province-3d-overlay="true"],
+  body.city-page-route .china-map-surface,
+  body:has(.city-page) .site-header,
+  body:has(.city-page) .site-footer,
+  body:has(.city-page) .scroll-to-top,
+  body:has(.city-page) .city-nav,
+  body:has(.city-page) .city-page > .grid > aside,
+  body:has(.city-page) [data-print-map="true"],
+  body:has(.city-page) [data-province-3d-overlay="true"],
+  body:has(.city-page) .china-map-surface {
+    display: none !important;
+  }
+
+  .city-page {
+    max-width: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 0 16mm !important;
+  }
+
+  .city-page > .grid {
+    display: block !important;
+  }
+
+  .city-page button,
+  .city-page .print-this-page {
+    display: none !important;
+  }
+
+  .city-page a[href] {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .city-page a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+  }
+
+  .city-page a[href^="/"]::after {
+    content: " (https://travel-china.example.com" attr(href) ")";
+    font-size: 8pt;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+  }
+
+  .city-page a[href^="#"]::after,
+  .city-page a[href^="mailto:"]::after,
+  .city-page a[href^="tel:"]::after {
+    content: "";
+  }
+
+  .city-page :is(article, section, li, pre)[class*="border"],
+  .city-page :is(div)[class*="rounded"][class*="border"] {
+    border: 1px solid #ccc !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .city-page :is(article, section, li, pre),
+  .city-page .print-city-scoped > * {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .city-page .print-city-scoped,
+  .city-page .print-city-scoped * {
+    background: #fff !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  .city-page .print-city-scoped :is([class*="bg-amber"], [class*="bg-yellow"], [class*="bg-jade"], [class*="bg-paper"], [class*="shadow"], [class*="backdrop"]) {
+    background: #fff !important;
+  }
+
+  .city-page .print-city-scoped :is([class*="rounded"], [class*="border"]) {
+    border-color: #ccc !important;
+  }
+
+  .print-page-footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex !important;
+    height: 10mm;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    background: #fff;
+    color: #000 !important;
+    font-size: 8pt;
+  }
+
+  .print-page-number::after {
+    content: counter(page);
   }
 }

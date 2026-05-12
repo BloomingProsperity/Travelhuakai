@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router";
 import TravelAlerts from "../components/policy/TravelAlerts";
 import VisaChecker from "../components/pillar/VisaChecker";
 import PaymentsChecklist from "../components/pillar/PaymentsChecklist";
+import CurrencyConverter from "../components/tools/CurrencyConverter";
 import TopQuestions from "../components/sections/TopQuestions";
 import SourcesNote from "../components/common/SourcesNote";
 import { topQuestions } from "../data/top-questions";
@@ -103,7 +104,12 @@ export default function GuidePage() {
       </header>
 
       {current === "entry" && <VisaChecker />}
-      {current === "payments" && <PaymentsChecklist />}
+      {current === "payments" && (
+        <>
+          <CurrencyConverter />
+          <PaymentsChecklist />
+        </>
+      )}
       {current === "notes" && (
         <>
           <TravelAlerts />

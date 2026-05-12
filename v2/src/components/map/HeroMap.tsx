@@ -28,6 +28,7 @@ export default function HeroMap() {
   return (
     <section
       aria-label="China interactive map"
+      data-print-map="true"
       data-selected-province={selectedProvinceId ?? undefined}
       data-province-present={province ? "true" : "false"}
       data-3d-enabled={is3DEnabled ? "true" : "false"}

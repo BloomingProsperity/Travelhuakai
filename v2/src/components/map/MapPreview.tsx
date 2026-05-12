@@ -11,7 +11,7 @@ export default function MapPreview() {
 
   if (error) {
     return (
-      <div className="flex h-full w-full items-center justify-center bg-white/70 px-4 text-center text-sm font-semibold text-ink/70">
+      <div data-print-map="true" className="flex h-full w-full items-center justify-center bg-white/70 px-4 text-center text-sm font-semibold text-ink/70">
         {lang === "zh"
           ? "地图轮廓加载失败，刷新重试。"
           : "Map outline failed to load. Refresh to retry."}
@@ -20,11 +20,12 @@ export default function MapPreview() {
   }
 
   if (!shapes || !viewBox) {
-    return <div className="h-full w-full bg-white/70" />;
+    return <div data-print-map="true" className="h-full w-full bg-white/70" />;
   }
 
   return (
     <svg
+      data-print-map="true"
       viewBox={`${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`}
       preserveAspectRatio="xMidYMid meet"
       className="h-full w-full"
