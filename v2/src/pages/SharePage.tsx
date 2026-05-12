@@ -9,17 +9,9 @@ export default function SharePage() {
   return (
     <main className="mx-auto flex max-w-5xl flex-col gap-12 px-4 py-12">
       <header className="flex flex-col gap-3">
-        <span className="self-start rounded-full bg-amber-100 px-3 py-1 text-xs font-bold uppercase tracking-widest text-amber-800">
-          {isZh ? "Phase 2 · 即将上线" : "Phase 2 · coming soon"}
-        </span>
         <h1 className="text-4xl font-bold leading-tight">
           {isZh ? "分享你的旅行" : "Share your trip"}
         </h1>
-        <p className="text-base leading-relaxed text-ink/80">
-          {isZh
-            ? "外国游客在北上广深的真实经历——文字 + 照片 + 国家代码。投稿必须勾选发布与翻译授权，所有内容经过 AI 审核与关键词过滤。"
-            : "Foreign tourists' real experiences in Beijing, Shanghai, Guangzhou, Shenzhen — text + photos + country code. Submission requires explicit publication-and-translation consent and passes AI moderation + keyword filter."}
-        </p>
       </header>
 
       <section className="flex flex-col gap-4">
@@ -47,9 +39,6 @@ export default function SharePage() {
 
       <section className="flex flex-col gap-4">
         <header>
-          <span className="text-xs font-bold uppercase tracking-widest text-muted">
-            {isZh ? "投稿表单（设计预览）" : "Submission form (design preview)"}
-          </span>
           <h2 className="text-2xl font-bold">
             {isZh ? "授权复选框为必选项" : "The consent checkbox is non-skippable"}
           </h2>
@@ -86,7 +75,7 @@ export default function SharePage() {
           <label className="flex flex-col gap-2 text-xs font-bold uppercase tracking-widest text-muted">
             {isZh ? "照片（最多 5 张，每张 ≤ 2 MB）" : "Photos (up to 5, ≤ 2 MB each)"}
             <div className="flex h-24 items-center justify-center rounded-lg border-2 border-dashed border-line bg-white text-xs text-muted">
-              {isZh ? "拖拽或点击上传" : "Drop files or click to upload"}
+              {isZh ? "照片上传" : "Photo upload"}
             </div>
           </label>
           <label className="mt-2 flex items-start gap-3 rounded-lg border border-amber-300 bg-amber-50 p-3">
@@ -109,16 +98,13 @@ export default function SharePage() {
             disabled
             className="self-start rounded-full bg-ink px-5 py-2 text-xs font-bold uppercase tracking-widest text-white opacity-60"
           >
-            {isZh ? "提交（Phase 2 上线后启用）" : "Submit (enabled when Phase 2 ships)"}
+            {isZh ? "提交" : "Submit"}
           </button>
         </div>
       </section>
 
       <section className="flex flex-col gap-4">
         <header>
-          <span className="text-xs font-bold uppercase tracking-widest text-muted">
-            {isZh ? "已发布投稿（占位预览）" : "Published notes (mock preview)"}
-          </span>
           <h2 className="text-2xl font-bold">
             {isZh ? "正文 + 照片 + 国家码 + 城市标签" : "Text + photos + country + city tag"}
           </h2>
@@ -146,7 +132,7 @@ export default function SharePage() {
                   {s.imageCount} {isZh ? "张图" : s.imageCount === 1 ? "photo" : "photos"}
                 </span>
                 <span className="rounded-full bg-amber-50 px-2 py-0.5 font-bold text-amber-800">
-                  {isZh ? "访客笔记 · 非官方核验" : "visitor note · not officially verified"}
+                  {isZh ? "访客笔记" : "visitor note"}
                 </span>
               </div>
             </li>

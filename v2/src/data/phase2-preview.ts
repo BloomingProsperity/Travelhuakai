@@ -206,7 +206,7 @@ export const moderationFlow: ModerationStep[] = [
     id: "publish",
     titleEn: "5. Publish or notify",
     titleZh: "5. 发布或通知",
-    bodyEn: "Approved → published with city tag, country code, and \"visitor note · authored by [alias] · not officially verified\" badge. Rejected → email with reason.",
-    bodyZh: "通过 → 带城市标签、国家码、\"访客笔记 · [署名] · 非官方核验\"标签发布。拒绝 → 通过邮件说明原因。"
+    bodyEn: "Approved → published with city tag, country code, and \"visitor note · authored by [alias]\" badge. Rejected → email with reason.",
+    bodyZh: "通过 → 带城市标签、国家码、\"访客笔记 · [署名]\" 标签发布。拒绝 → 通过邮件说明原因。"
   }
 ];

@@ -17,9 +17,6 @@ export default function TopQuestions() {
         <h2 className="text-xl font-bold leading-tight">
           {isZh ? "最常被问到的问题" : "Top questions before you fly"}
         </h2>
-        <p className="text-sm text-muted">
-          {isZh ? "答案全部引自官方源；点开看详情和链接。" : "Every answer cites an official source. Tap to expand."}
-        </p>
       </header>
 
       <ul className="flex flex-col gap-2">

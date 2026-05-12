@@ -44,11 +44,6 @@ export default function PlanPage() {
             <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
               {isZh ? "3 天行程" : "3-day plan"}
             </h1>
-            <p className="max-w-3xl text-sm leading-relaxed text-muted sm:text-base">
-              {isZh
-                ? "四个入门城市各有一份三天模板：每天按上午、下午、晚上拆开，适合第一次来中国时快速落地。"
-                : "A practical three-day template for each first-time city, split into morning, afternoon, and evening blocks."}
-            </p>
           </div>
         </header>
 

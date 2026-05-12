@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import clsx from "clsx";
 import type { CityFood } from "../../data/food";
 import { useLang } from "../../store/language";
@@ -26,15 +27,17 @@ export default function CuisineDrawer({ city, open, onClose }: Props) {
     };
   }, [open, onClose]);
 
+  if (typeof document === "undefined") return null;
+
   const notes = city.cuisine.culturalNotes;
 
-  return (
+  return createPortal(
     <>
       <div
         aria-hidden
         onClick={onClose}
         className={clsx(
-          "fixed inset-0 z-40 bg-ink/30 backdrop-blur-sm transition-opacity duration-200",
+          "fixed inset-0 z-[60] bg-ink/30 backdrop-blur-sm transition-opacity duration-200",
           open ? "opacity-100" : "pointer-events-none opacity-0"
         )}
       />
@@ -43,10 +46,10 @@ export default function CuisineDrawer({ city, open, onClose }: Props) {
         aria-modal="true"
         aria-label={isZh ? "美食文化与吃法" : "Food culture and how to eat it"}
         className={clsx(
-          "fixed inset-x-0 bottom-0 z-50 flex max-h-[85vh] flex-col rounded-t-2xl bg-paper shadow-2xl transition-transform duration-300 sm:bottom-auto sm:right-0 sm:top-0 sm:h-full sm:max-h-none sm:max-w-[480px] sm:rounded-none sm:rounded-l-2xl",
+          "fixed inset-x-0 bottom-0 z-[70] flex max-h-[85vh] flex-col rounded-t-2xl bg-paper shadow-2xl transition-transform duration-300 sm:bottom-auto sm:right-0 sm:top-0 sm:h-full sm:max-h-none sm:max-w-[480px] sm:rounded-none sm:rounded-l-2xl",
           open
             ? "translate-y-0 sm:translate-x-0"
-            : "translate-y-full sm:translate-y-0 sm:translate-x-full"
+            : "pointer-events-none translate-y-full sm:translate-y-0 sm:translate-x-full"
         )}
       >
         <header className="flex items-start justify-between gap-3 border-b border-line px-5 py-4">
@@ -91,6 +94,7 @@ export default function CuisineDrawer({ city, open, onClose }: Props) {
           </p>
         </div>
       </aside>
-    </>
+    </>,
+    document.body
   );
 }

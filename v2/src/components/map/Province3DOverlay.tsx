@@ -59,8 +59,8 @@ export default function Province3DOverlay() {
               <div className="max-w-sm space-y-4">
                 <p className="text-sm font-semibold leading-6 text-white/85">
                   {lang === "zh"
-                    ? "3D 视图加载失败，点击重置返回二维地图。"
-                    : "The 3D view couldn't load. Click reset to go back to the 2D map."}
+                    ? "3D 视图加载失败。"
+                    : "The 3D view couldn't load."}
                 </p>
                 <button
                   type="button"

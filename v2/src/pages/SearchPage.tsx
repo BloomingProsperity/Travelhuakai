@@ -93,11 +93,6 @@ export default function SearchPage() {
         <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
           {isZh ? "全站搜索" : "Site search"}
         </h1>
-        <p className="max-w-2xl text-sm leading-relaxed text-muted">
-          {isZh
-            ? `搜索景点、短语、常见问题、避坑提醒和签证规则。当前索引 ${searchEntries.length} 条。`
-            : `Search attractions, phrases, FAQs, pitfalls, and visa rules. ${searchEntries.length} indexed entries.`}
-        </p>
       </header>
 
       <section className="flex flex-col gap-3" aria-label={isZh ? "搜索输入" : "Search input"}>
@@ -160,7 +155,7 @@ export default function SearchPage() {
         </div>
       ) : (
         <p className="rounded-lg border border-dashed border-line bg-white p-5 text-sm text-muted">
-          {isZh ? "没找到，换个关键词试试。" : "No matches. Try different keywords."}
+          {isZh ? "没找到。" : "No matches."}
         </p>
       )}
     </main>

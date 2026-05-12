@@ -19,11 +19,6 @@ export default function CityFurtherReading({ cityId }: Props) {
         <h2 className="text-xl font-bold">
           {isZh ? "本市官方文旅 / 政府英文门户" : "City tourism bureau & government portals"}
         </h2>
-        <p className="text-xs text-muted">
-          {isZh
-            ? "这些是该市官方运营的英文站。本网站未收录的更细信息（活动、路线、季节性内容）建议查阅这些网站。"
-            : "Each city's own official English-language portals. For city-specific details we don't cover (events, seasonal routes, hyperlocal news), go straight to these."}
-        </p>
       </header>
       <ul className="grid gap-2 md:grid-cols-2">
         {portals.map((p) => (

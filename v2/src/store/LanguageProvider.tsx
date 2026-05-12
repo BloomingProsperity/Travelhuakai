@@ -13,7 +13,12 @@ export const readInitialLanguage = (): Lang => {
 export const htmlLangFor = (lang: Lang): "en" | "zh-Hans" => (lang === "zh" ? "zh-Hans" : "en");
 
 export default function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>(readInitialLanguage);
+  const [lang, setLangState] = useState<Lang>("en");
+
+  useEffect(() => {
+    const stored = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
+    if (stored === "zh") setLangState("zh");
+  }, []);
 
   useEffect(() => {
     document.documentElement.lang = htmlLangFor(lang);

@@ -10,17 +10,9 @@ export default function AskPage() {
   return (
     <main className="mx-auto flex max-w-5xl flex-col gap-12 px-4 py-12">
       <header className="flex flex-col gap-3">
-        <span className="self-start rounded-full bg-amber-100 px-3 py-1 text-xs font-bold uppercase tracking-widest text-amber-800">
-          {isZh ? "Phase 2 · 即将上线" : "Phase 2 · coming soon"}
-        </span>
         <h1 className="text-4xl font-bold leading-tight">
           {isZh ? "向中国本地用户提问" : "Ask Chinese locals"}
         </h1>
-        <p className="text-base leading-relaxed text-ink/80">
-          {isZh
-            ? "对北上广深的具体细节提问，由经过验证的本地长居用户回答。提问免费，浏览不需要登录。"
-            : "Ask a specific question about Beijing, Shanghai, Guangzhou, or Shenzhen. Verified long-term residents answer. Browsing is free; login only when posting."}
-        </p>
       </header>
 
       <section className="flex flex-col gap-4">
@@ -31,11 +23,6 @@ export default function AskPage() {
           <h2 className="text-2xl font-bold">
             {isZh ? "本地徽章不能购买，只能通过贡献获得" : "Local badge cannot be bought — only earned"}
           </h2>
-          <p className="text-sm text-muted">
-            {isZh
-              ? "答主等级靠贡献自动累积，不能购买。我们不会收集中国身份证或 WeChat / Alipay 实名信息。"
-              : "Tiers accumulate from contribution, never purchased. We do not collect Chinese national ID, passport scans, or WeChat / Alipay real-name tokens."}
-          </p>
         </header>
         <ol className="grid gap-3 md:grid-cols-2">
           {badgeLadder.map((tier) => (
@@ -46,9 +33,6 @@ export default function AskPage() {
 
       <section className="flex flex-col gap-4">
         <header>
-          <span className="text-xs font-bold uppercase tracking-widest text-muted">
-            {isZh ? "样例问答（占位预览）" : "Sample Q&A (mock preview)"}
-          </span>
           <h2 className="text-2xl font-bold">
             {isZh ? "答案旁显示答主常驻城市与等级徽章" : "Answers show the answerer's city and tier badge"}
           </h2>
@@ -89,11 +73,6 @@ export default function AskPage() {
                   <p className="text-sm leading-relaxed">
                     {isZh ? qa.answer.bodyZh : qa.answer.bodyEn}
                   </p>
-                  <span className="self-start text-[10px] uppercase tracking-wider text-muted">
-                    {isZh
-                      ? `已对照官方政策核验：${qa.answer.lastVerifiedAgainstPolicy}`
-                      : `Last verified against policy: ${qa.answer.lastVerifiedAgainstPolicy}`}
-                  </span>
                 </div>
               </li>
             );

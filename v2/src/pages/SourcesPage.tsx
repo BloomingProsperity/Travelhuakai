@@ -6,9 +6,9 @@ export default function SourcesPage() {
   const { lang } = useLang();
   const isZh = lang === "zh";
 
-  const all = Object.values(sources);
-  const official = all.filter((s) => !s.community);
-  const community = all.filter((s) => s.community);
+  const entries = Object.values(sources);
+  const official = entries.filter((s) => !s.community);
+  const community = entries.filter((s) => s.community);
 
   return (
     <main className="mx-auto flex max-w-4xl flex-col gap-10 px-4 py-12">
@@ -19,18 +19,11 @@ export default function SourcesPage() {
         <h1 className="text-3xl font-bold leading-tight">
           {isZh ? "全部引用源" : "All references"}
         </h1>
-        <p className="text-sm leading-relaxed text-muted">
-          {isZh
-            ? `本网站全部数据均来自下列 ${all.length} 个公开来源。其中 ${official.length} 条来自政府或机构官方网站，${community.length} 条来自旅行社区博客 / 论坛 / 在华外籍人士作者，用于补充官方源未覆盖的实际操作注意事项。每条都标注域名 + 出版日期 + 我们最近一次核验日期，可点击查看原文。`
-            : `Every fact on this site traces to one of the ${all.length} sources below. ${official.length} come from official government and institutional websites; ${community.length} come from traveler community blogs and forums covering practical pitfalls that official sources do not publish. Each entry shows the domain, the publication date, and our last verification date — click to read the original.`}
-        </p>
       </header>
 
       <Section
         titleEn={`Official sources (${official.length})`}
         titleZh={`官方源（${official.length} 条）`}
-        descEn="Chinese government bodies, central ministries, city governments, official data agencies, hospitals, banks, payment networks, foreign embassies in China."
-        descZh="中国政府部委、城市政府、官方数据机构、医院、银行、支付组织、外国驻华使领馆。"
       >
         <ReferenceList items={official} isZh={isZh} />
       </Section>
@@ -38,8 +31,6 @@ export default function SourcesPage() {
       <Section
         titleEn={`Traveler community references (${community.length})`}
         titleZh={`旅行社区资料（${community.length} 条）`}
-        descEn="Foreign travel bloggers, expat publications, Reddit threads and similar. Used only for operational pitfalls that .gov.cn does not publish; never used as authority for policy facts, prices, addresses, or hours."
-        descZh="境外旅行博主、在华外籍人士媒体、Reddit 等。仅用于政府未公开的实际操作注意事项；政策、价格、地址、营业时间不引用社区源。"
       >
         <ReferenceList items={community} isZh={isZh} />
       </Section>
@@ -54,14 +45,10 @@ export default function SourcesPage() {
 function Section({
   titleEn,
   titleZh,
-  descEn,
-  descZh,
   children
 }: {
   titleEn: string;
   titleZh: string;
-  descEn: string;
-  descZh: string;
   children: React.ReactNode;
 }) {
   const { lang } = useLang();
@@ -70,7 +57,6 @@ function Section({
     <section className="flex flex-col gap-3">
       <header>
         <h2 className="text-xl font-bold">{isZh ? titleZh : titleEn}</h2>
-        <p className="text-xs text-muted">{isZh ? descZh : descEn}</p>
       </header>
       {children}
     </section>

@@ -85,11 +85,8 @@ export default function HomePage() {
             className="group block"
           >
             <Card className="min-h-20 gap-0 rounded-lg border-line bg-card py-0 transition group-hover:border-jade group-hover:shadow-sm">
-              <CardContent className="flex min-h-20 items-center justify-between gap-3 px-4 py-3">
-            <span className="text-base font-bold">{isZh ? item.zh : item.en}</span>
-            <span className="text-xl text-muted-foreground transition group-hover:translate-x-1 group-hover:text-jade" aria-hidden>
-              →
-            </span>
+              <CardContent className="flex min-h-20 items-center justify-center px-4 py-3 text-center">
+                <span className="text-base font-bold">{isZh ? item.zh : item.en}</span>
               </CardContent>
             </Card>
           </Link>
@@ -97,9 +94,8 @@ export default function HomePage() {
       </section>
 
       <section aria-label={isZh ? "旅游城市" : "Cities"} className="flex flex-col gap-3">
-        <header className="flex items-end justify-between">
+        <header>
           <h2 className="text-xl font-bold">{isZh ? "城市详情" : "City pages"}</h2>
-          <span className="text-xs text-muted">{isZh ? "点击进入" : "Tap to enter"}</span>
         </header>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {CITY_IDS.map((cityId) => (

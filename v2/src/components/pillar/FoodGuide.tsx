@@ -28,11 +28,6 @@ export default function FoodGuide({ cityId }: Props) {
             {isZh ? "支柱 4" : "Pillar 4"}
           </span>
           <h2 className="text-2xl font-bold">{isZh ? "餐饮" : "Food"}</h2>
-          <p className="text-sm text-muted">
-            {isZh
-              ? "四城地方菜文化、外国人友好餐区、外卖现状、过敏中文卡。"
-              : "Local cuisines, foreigner-friendly districts, delivery-app reality, and an allergy card."}
-          </p>
         </header>
       )}
       {cityScoped && <h2 className="text-xl font-bold">{isZh ? "餐饮" : "Food"}</h2>}

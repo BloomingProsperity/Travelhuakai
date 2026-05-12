@@ -11,24 +11,18 @@ import { useLang } from "../store/language";
 
 type GuideTopic = "entry" | "payments" | "notes";
 
-const topicLabels: Record<GuideTopic, { en: string; zh: string; bodyEn: string; bodyZh: string }> = {
+const topicLabels: Record<GuideTopic, { en: string; zh: string }> = {
   entry: {
     en: "Entry & visa",
-    zh: "入境签证",
-    bodyEn: "Check the entry route first, then continue to city pages for local transport and emergencies.",
-    bodyZh: "先确认入境方式，再进入城市页查看本地交通和应急信息。"
+    zh: "入境签证"
   },
   payments: {
     en: "Payments",
-    zh: "支付准备",
-    bodyEn: "Set up payment before departure and keep a cash backup for small vendors.",
-    bodyZh: "出发前完成支付设置，并为小店和临时情况保留现金备选。"
+    zh: "支付准备"
   },
   notes: {
     en: "Travel notes",
-    zh: "出行注意事项",
-    bodyEn: "Policy changes and common pre-arrival questions are collected here.",
-    bodyZh: "这里集中放政策变化和出发前常见问题。"
+    zh: "出行注意事项"
   }
 };
 
@@ -98,9 +92,6 @@ export default function GuidePage() {
           {isZh ? "← 返回首页" : "← Home"}
         </Link>
         <h1 className="text-3xl font-bold leading-tight">{isZh ? label.zh : label.en}</h1>
-        <p className="max-w-2xl text-sm leading-relaxed text-muted">
-          {isZh ? label.bodyZh : label.bodyEn}
-        </p>
       </header>
 
       {current === "entry" && <VisaChecker />}

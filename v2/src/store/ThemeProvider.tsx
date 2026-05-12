@@ -38,9 +38,14 @@ export function useTheme(): ThemeContextValue {
 }
 
 export default function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>(readInitialTheme);
-  const [systemTheme, setSystemTheme] = useState<ResolvedTheme>(readSystemTheme);
+  const [theme, setThemeState] = useState<Theme>("system");
+  const [systemTheme, setSystemTheme] = useState<ResolvedTheme>("light");
   const resolvedTheme = resolveTheme(theme, systemTheme);
+
+  useEffect(() => {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+    if (isTheme(stored)) setThemeState(stored);
+  }, []);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", resolvedTheme === "dark");

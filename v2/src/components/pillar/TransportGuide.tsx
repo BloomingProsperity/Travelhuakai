@@ -31,11 +31,6 @@ export default function TransportGuide({ cityId }: Props) {
             {isZh ? "支柱 3" : "Pillar 3"}
           </span>
           <h2 className="text-2xl font-bold">{isZh ? "交通" : "Transport"}</h2>
-          <p className="text-sm text-muted">
-            {isZh
-              ? "12306 国际版购票 + 四城机场到市区 + 地铁外卡接受度 + 网约车实际情况。"
-              : "12306 international booking + airport-to-city for the four cities + metro foreign-card status + ride-hail reality."}
-          </p>
         </header>
       )}
       {cityScoped && <h2 className="text-xl font-bold">{isZh ? "交通" : "Transport"}</h2>}

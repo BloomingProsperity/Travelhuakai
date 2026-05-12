@@ -37,11 +37,6 @@ export default function EmergencyBriefing({ cityId }: Props) {
             {isZh ? "支柱 5" : "Pillar 5"}
           </span>
           <h2 className="text-2xl font-bold">{isZh ? "紧急 / 医疗 / 领事" : "Emergency, Medical & Consular"}</h2>
-          <p className="text-sm text-muted">
-            {isZh
-              ? "国家急救号、四城外籍友好医院和热线、主要驻华使领馆。"
-              : "National emergency lines, foreign-friendly hospitals + multilingual hotlines, embassy contacts."}
-          </p>
         </header>
       )}
       {cityScoped && <h2 className="text-xl font-bold">{isZh ? "应急 / 医疗" : "Emergency & Medical"}</h2>}

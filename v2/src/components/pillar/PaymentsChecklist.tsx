@@ -30,11 +30,6 @@ export default function PaymentsChecklist({ cityId }: Props) {
             {isZh ? "支柱 2" : "Pillar 2"}
           </span>
           <h2 className="text-2xl font-bold">{isZh ? "支付准备" : "Payments"}</h2>
-          <p className="text-sm text-muted">
-            {isZh
-              ? "出发前必做、海关阈值、ATM 选择，每条都来自央行、海关、各市政府英文页。"
-              : "What to set up before you fly, customs thresholds, ATM rules. Cites PBOC, China Customs, and city government English pages."}
-          </p>
         </header>
       )}
       {cityScoped && <h2 className="text-xl font-bold">{isZh ? "支付" : "Payments"}</h2>}

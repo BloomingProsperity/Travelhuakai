@@ -150,7 +150,6 @@ export default function CityPage() {
           {isZh ? "← 全部城市" : "← All cities"}
         </Link>
         <h1 className="text-4xl font-bold leading-tight">{isZh ? label.zh : label.en}</h1>
-        <p className="text-sm text-muted">{isZh ? label.en : label.zh}</p>
         </div>
         <button
           type="button"
@@ -166,21 +165,16 @@ export default function CityPage() {
 
         <div className="flex min-w-0 flex-col gap-12">
           <CityIntro cityId={id} />
-          <section id="season" className="scroll-mt-24"><CitySeasonBlock cityId={id} /></section>
-          <section id="visa" className="scroll-mt-24"><VisaChecker /></section>
-          <section id="payments" className="scroll-mt-24"><PaymentsChecklist cityId={id} /></section>
           <section id="transport" className="scroll-mt-24"><TransportGuide cityId={id} /></section>
           <section id="food" className="scroll-mt-24"><FoodGuide cityId={id} /></section>
+          <section id="season" className="scroll-mt-24"><CitySeasonBlock cityId={id} /></section>
+          <section id="payments" className="scroll-mt-24"><PaymentsChecklist cityId={id} /></section>
+          <section id="visa" className="scroll-mt-24"><VisaChecker /></section>
           <section id="emergency" className="scroll-mt-24"><EmergencyBriefing cityId={id} /></section>
           <section id="portals" className="scroll-mt-24"><CityFurtherReading cityId={id} /></section>
 
           <section className="flex flex-col gap-3 rounded-xl border border-dashed border-line bg-paper p-6">
             <h2 className="text-base font-bold">{isZh ? "Phase 2 即将上线" : "Phase 2 — coming soon"}</h2>
-            <p className="text-sm text-muted">
-              {isZh
-                ? "向中国本地用户提问、分享你的旅行经验功能正在开发。"
-                : "Ask Chinese locals and share-your-trip features are in development."}
-            </p>
             <div className="flex flex-wrap gap-2 text-xs font-bold uppercase tracking-widest">
               <Link to="/ask" className="rounded-full bg-white border border-line px-3 py-1 hover:border-jade hover:text-jade">
                 {isZh ? "向中国本地用户提问" : "Ask Chinese locals"}

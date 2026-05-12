@@ -37,11 +37,6 @@ export default function VisaChecker() {
         <h2 className="text-2xl font-bold leading-tight">
           {zh ? "入境与签证" : "Entry & Visa"}
         </h2>
-        <p className="text-sm text-muted">
-          {zh
-            ? "选择你的护照国籍，看是否需要签证。结论均出自国家移民管理局（NIA）和国务院公告。"
-            : "Pick your passport country to see what applies. Every answer cites China's NIA and State Council announcements."}
-        </p>
       </header>
 
       <div className="grid gap-4 rounded-lg border border-line bg-white p-4 md:grid-cols-[240px_1fr]">

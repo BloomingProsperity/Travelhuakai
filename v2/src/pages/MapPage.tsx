@@ -22,9 +22,6 @@ export default function MapPage() {
           {isZh ? "← 返回首页" : "← Home"}
         </Link>
         <h1 className="text-3xl font-bold leading-tight">{isZh ? "地标地图" : "Landmark map"}</h1>
-        <p className="max-w-2xl text-sm leading-relaxed text-muted">
-          {isZh ? "点击省份进入 3D 实景地图；港澳使用独立标记，3D 内包含城市和景区标注。" : "Click a province to open the 3D scene; Hong Kong and Macau use separate markers, with city and attraction labels inside 3D."}
-        </p>
       </header>
 
       <HeroMap />

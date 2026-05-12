@@ -78,9 +78,6 @@ export default function PhrasebookPage() {
           <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
             Essential Phrasebook / 应急短语手册
           </h1>
-          <p className="max-w-2xl text-sm leading-relaxed text-muted sm:text-base">
-            English, pinyin, and Chinese for taxis, hotels, food, payments, shopping, and emergencies. / 覆盖打车、住宿、点餐、支付、购物和紧急情况。
-          </p>
           <p className="text-xs font-bold uppercase tracking-widest text-jade">
             {phrasebookTotal} phrases / {phrasebookTotal} 句
           </p>
