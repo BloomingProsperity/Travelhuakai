@@ -53,12 +53,12 @@ export default function VisaChecker({ compact = false }: Props = {}) {
   const result: EligibilityResult | null = country ? checkEligibility(country) : null;
 
   return (
-    <section id="entry-visa" className="flex flex-col gap-4">
+    <section id="entry-visa" className="flex min-w-0 flex-col gap-3">
       <header>
         <span className="text-xs font-bold uppercase tracking-widest text-muted">
           {zh ? copy.eyebrow.zh : copy.eyebrow.en}
         </span>
-        <h2 className="text-2xl font-bold">
+        <h2 className="text-2xl font-bold leading-tight">
           {zh ? copy.title.zh : copy.title.en}
         </h2>
         <p className="text-sm text-muted">
@@ -66,7 +66,7 @@ export default function VisaChecker({ compact = false }: Props = {}) {
         </p>
       </header>
 
-      <div className="grid gap-4 rounded-xl border border-line bg-white p-5 md:grid-cols-[260px_1fr]">
+      <div className="grid gap-4 rounded-lg border border-line bg-white p-4 md:grid-cols-[240px_1fr]">
         <div className="flex flex-col gap-3">
           <label htmlFor={selectId} className="text-xs font-bold uppercase tracking-widest text-muted">
             {lang === "zh" ? "护照国籍" : "Passport country"}

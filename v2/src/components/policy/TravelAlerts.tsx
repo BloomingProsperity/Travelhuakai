@@ -69,7 +69,7 @@ export default function TravelAlerts() {
           <span className="text-xs font-bold uppercase tracking-widest text-muted">
             {lang === "zh" ? "政策时效" : "Travel Alerts"}
           </span>
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-2xl font-bold leading-tight">
             {lang === "zh" ? "出行前必看的政策动态" : "What changed before you book"}
           </h2>
         </div>
@@ -79,14 +79,14 @@ export default function TravelAlerts() {
           <li
             key={alert.id}
             className={clsx(
-              "flex flex-col gap-2 rounded-xl border p-4",
+              "flex min-w-0 flex-col gap-2 rounded-lg border p-4",
               alert.severity === "warn" ? "border-amber-300 bg-amber-50" : "border-line bg-white"
             )}
           >
-            <strong className="text-sm leading-tight">
+            <strong className="text-sm leading-tight break-words">
               {lang === "zh" ? alert.titleZh : alert.titleEn}
             </strong>
-            <p className="text-xs leading-snug text-ink/80">
+            <p className="text-xs leading-snug text-ink/80 break-words">
               {lang === "zh" ? alert.bodyZh : alert.bodyEn}
             </p>
           </li>

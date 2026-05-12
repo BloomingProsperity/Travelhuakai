@@ -4,11 +4,11 @@ import { provinceAttractionSeed } from "../../data/atlas";
 import { useRecordCityView } from "../../hooks/useCityViews";
 
 export default function ProvinceInfoCard() {
-  const { selectedProvinceId, province, selectPlace } = useAtlas();
+  const { selectedProvinceId, province, selectPlace, is3DEnabled } = useAtlas();
   const { lang, t } = useLang();
   const recordView = useRecordCityView();
 
-  if (!selectedProvinceId || !province) return null;
+  if (!selectedProvinceId || !province || is3DEnabled) return null;
 
   const attractions = provinceAttractionSeed[selectedProvinceId] ?? [];
   const hasCities = province.cities.length > 0;

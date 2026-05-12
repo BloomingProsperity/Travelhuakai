@@ -10,7 +10,7 @@ export type SearchRecord = {
   aliases: string[];
 };
 
-const NORMALIZE_PATTERN = /[·,，。.\s/'’\-]+/g;
+const NORMALIZE_PATTERN = /[·,，。.\s/'’-]+/g;
 
 const normalize = (value: string): string =>
   value.toLowerCase().replace(NORMALIZE_PATTERN, "").trim();

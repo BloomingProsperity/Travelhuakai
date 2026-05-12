@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import clsx from "clsx";
 import { useLang } from "../../store/language";
 
-export type CityNavItem = { id: string; en: string; zh: string };
+type CityNavItem = { id: string; en: string; zh: string };
 
-export const CITY_NAV_ITEMS: CityNavItem[] = [
+const CITY_NAV_ITEMS: CityNavItem[] = [
   { id: "intro", en: "City overview", zh: "城市介绍" },
   { id: "visa", en: "Entry & Visa", zh: "入境签证" },
   { id: "payments", en: "Payments", zh: "支付" },

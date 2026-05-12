@@ -1,21 +1,18 @@
-import { lazy, Suspense, useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useAtlas } from "../../store/atlas";
 import { useLang } from "../../store/language";
 import ProvinceShapeLayer from "./ProvinceShapeLayer";
 import ProvinceLabelLayer from "./ProvinceLabelLayer";
 import ProvinceInfoCard from "./ProvinceInfoCard";
 import Province3DOverlay from "./Province3DOverlay";
-
-const EarthIntro = lazy(() => import("./EarthIntro"));
-
-const REVEAL_MS = 600;
+import SpecialRegionMarkers from "./SpecialRegionMarkers";
+import ProvinceHitAreaLayer from "./ProvinceHitAreaLayer";
 
 export default function HeroMap() {
-  const { t, lang } = useLang();
-  const { selectedProvinceId, province, is3DEnabled, toggle3D, reset } = useAtlas();
+  const { lang } = useLang();
+  const { selectedProvinceId, province, is3DEnabled, reset } = useAtlas();
   const focused = Boolean(selectedProvinceId);
   const provinceLabel = province ? (lang === "zh" ? province.zh : province.name) : "";
-  const [introDone, setIntroDone] = useState(false);
 
   useEffect(() => {
     if (!focused) return;
@@ -27,50 +24,39 @@ export default function HeroMap() {
   }, [focused, reset]);
 
   return (
-    <section aria-label="China interactive map" className="flex flex-col gap-3">
-      {focused && (
+    <section
+      aria-label="China interactive map"
+      data-selected-province={selectedProvinceId ?? undefined}
+      data-province-present={province ? "true" : "false"}
+      data-3d-enabled={is3DEnabled ? "true" : "false"}
+      className="flex min-w-0 flex-col gap-2"
+    >
+      {focused && province && (
         <header className="flex items-end justify-between">
-          <h2 className="text-2xl font-bold leading-tight">{provinceLabel}</h2>
-          <button
-            type="button"
-            onClick={toggle3D}
-            className="rounded-full border border-line bg-white px-3 py-1 text-xs font-bold uppercase tracking-wider text-ink hover:border-jade hover:text-jade"
-          >
-            {is3DEnabled ? t("exit3D") : t("viewIn3D")}
-          </button>
+          <h2 className="text-xl font-bold leading-tight">{provinceLabel}</h2>
         </header>
       )}
 
       <div
         aria-live="polite"
-        className="relative"
+        className={`china-map-surface relative overflow-hidden rounded-lg border border-line bg-white/70 shadow-sm ${focused ? "min-h-[420px]" : "min-h-[300px] sm:min-h-[260px]"}`}
         style={{ aspectRatio: "9463 / 6675" }}
       >
-        <div
-          className="absolute inset-0"
-          style={{
-            opacity: introDone ? 1 : 0,
-            transform: introDone ? "scale(1)" : "scale(0.94)",
-            transition: `opacity ${REVEAL_MS}ms ease, transform ${REVEAL_MS}ms cubic-bezier(0.4, 0, 0.2, 1)`
-          }}
-        >
+        <div className="absolute inset-0">
           <ProvinceShapeLayer />
           <ProvinceLabelLayer />
+          <ProvinceHitAreaLayer />
+          <SpecialRegionMarkers />
           <ProvinceInfoCard />
           <Province3DOverlay />
         </div>
-        {!introDone && (
-          <Suspense fallback={null}>
-            <EarthIntro onDone={() => setIntroDone(true)} />
-          </Suspense>
-        )}
-        {focused && (
+        {focused && !is3DEnabled && (
           <button
             type="button"
             onClick={reset}
             className="absolute right-3 top-3 z-30 rounded-full bg-ink px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-ink/90"
           >
-            {t("reset")}
+            {lang === "zh" ? "重置" : "Reset"}
           </button>
         )}
       </div>

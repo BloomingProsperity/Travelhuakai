@@ -10,14 +10,14 @@ const OPTIONS: Array<{ code: Lang; label: string }> = [
 export default function LanguageSwitch() {
   const { lang, setLang } = useLang();
   return (
-    <div className="inline-flex overflow-hidden rounded-full border border-line">
+    <div className="inline-flex shrink-0 overflow-hidden rounded-full border border-line">
       {OPTIONS.map((option) => (
         <button
           key={option.code}
           type="button"
           onClick={() => setLang(option.code)}
           className={clsx(
-            "px-3 py-1 text-xs font-bold uppercase tracking-widest transition",
+            "px-2.5 py-1 text-xs font-bold uppercase tracking-normal transition sm:px-3 sm:tracking-widest",
             option.code === lang ? "bg-ink text-white" : "bg-white text-muted hover:text-ink"
           )}
         >

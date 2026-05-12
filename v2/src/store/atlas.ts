@@ -23,9 +23,14 @@ export const initialAtlasState: AtlasState = {
 export const atlasReducer = (state: AtlasState, action: AtlasAction): AtlasState => {
   switch (action.type) {
     case "selectProvince":
-      return { ...state, selectedProvinceId: action.provinceId, selectedCityId: null };
+      return {
+        ...state,
+        selectedProvinceId: action.provinceId,
+        selectedCityId: null,
+        is3DEnabled: Boolean(action.provinceId)
+      };
     case "selectPlace":
-      return { ...state, selectedProvinceId: action.provinceId, selectedCityId: action.cityId };
+      return { ...state, selectedProvinceId: action.provinceId, selectedCityId: action.cityId, is3DEnabled: true };
     case "toggle3D":
       return { ...state, is3DEnabled: !state.is3DEnabled };
     case "reset":

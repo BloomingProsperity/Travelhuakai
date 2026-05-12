@@ -19,6 +19,7 @@ body {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -39,5 +40,28 @@ a {
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+}
+
+.special-region-marker {
+  left: var(--marker-left-mobile);
+  top: var(--marker-top-mobile);
+}
+
+@media (min-width: 640px) {
+  .special-region-marker {
+    left: var(--marker-left-desktop);
+    top: var(--marker-top-desktop);
+  }
+}
+
+.china-map-surface > div:first-child {
+  transform: scale(0.92);
+  transform-origin: center;
+}
+
+@media (min-width: 640px) {
+  .china-map-surface > div:first-child {
+    transform: none;
   }
 }

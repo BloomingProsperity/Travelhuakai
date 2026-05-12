@@ -1,24 +1,60 @@
-import { Suspense, lazy } from "react";
+import { lazy, Suspense } from "react";
 import { useAtlas } from "../../store/atlas";
 import { useLang } from "../../store/language";
 
 const Map3D = lazy(() => import("./Map3D"));
 
 export default function Province3DOverlay() {
-  const { selectedProvinceId, province, is3DEnabled } = useAtlas();
+  const { selectedProvinceId, province, is3DEnabled, reset } = useAtlas();
   const { lang } = useLang();
 
-  if (!is3DEnabled || !selectedProvinceId) return null;
-
-  const label = province ? (lang === "zh" ? province.zh : province.name) : selectedProvinceId;
+  if (!selectedProvinceId || !province || !is3DEnabled) return null;
 
   return (
-    <div className="pointer-events-none absolute inset-0 z-20 grid place-items-center bg-paper/55 backdrop-blur-sm">
-      <div className="pointer-events-auto relative h-[80%] w-[60%]">
-        <Suspense fallback={<div className="grid h-full place-items-center text-xs text-muted">Loading 3D…</div>}>
-          <Map3D provinceId={selectedProvinceId} provinceName={label} />
+    <section
+      data-province-3d-overlay="true"
+      className="absolute inset-0 z-40 flex flex-col overflow-hidden rounded-lg border border-line bg-[#edf2ef]/98 shadow-2xl backdrop-blur-sm"
+    >
+      <header className="flex items-center justify-between gap-2 border-b border-line bg-white/90 px-3 py-3 sm:gap-3 sm:px-4">
+        <div className="min-w-0">
+          <p className="text-xs font-bold uppercase tracking-widest text-muted">
+            {lang === "zh" ? "天地图 3D" : "Tianditu 3D"}
+          </p>
+          <h3 className="truncate text-base font-bold leading-tight sm:text-lg">
+            {lang === "zh" ? province.zh : province.name}
+          </h3>
+        </div>
+
+        <div className="flex shrink-0 items-center gap-2">
+          <button
+            type="button"
+            onClick={reset}
+            className="rounded-full bg-ink px-3 py-2 text-xs font-bold uppercase tracking-normal text-white hover:bg-ink/90 sm:px-4 sm:tracking-wider"
+          >
+            {lang === "zh" ? "返回 2D" : "Back to 2D"}
+          </button>
+          <button
+            type="button"
+            aria-label={lang === "zh" ? "关闭 3D 地图" : "Close 3D map"}
+            onClick={reset}
+            className="grid h-8 w-8 place-items-center rounded-full border border-line bg-white text-lg font-bold leading-none text-ink shadow-sm hover:border-jade hover:text-jade"
+          >
+            ×
+          </button>
+        </div>
+      </header>
+
+      <div className="min-h-0 flex-1">
+        <Suspense
+          fallback={
+            <div className="grid h-full min-h-[360px] place-items-center bg-[#071512] text-sm font-semibold text-white/80">
+              {lang === "zh" ? "正在加载天地图..." : "Loading Tianditu..."}
+            </div>
+          }
+        >
+          <Map3D province={province} provinceId={selectedProvinceId} lang={lang} />
         </Suspense>
       </div>
-    </div>
+    </section>
   );
 }

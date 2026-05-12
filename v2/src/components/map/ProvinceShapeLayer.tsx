@@ -5,6 +5,7 @@ import { computeFocusTransform, computeUnionViewBox, type ProvinceShape } from "
 import { provinceHitAreas } from "../../data/map-sources";
 import { useAtlas } from "../../store/atlas";
 import { useLang } from "../../store/language";
+import { DEFAULT_PROVINCE_FILL, PROVINCE_COLORS } from "./provinceColors";
 
 const labelMap = new Map(provinceHitAreas.map((a) => [a.id, a]));
 
@@ -21,18 +22,19 @@ type ShapeButtonProps = {
 
 function ProvinceShapeButton({ shape, active, focused, label, onSelect }: ShapeButtonProps) {
   const dimmed = focused && !active;
+  const baseFill = PROVINCE_COLORS[shape.id] ?? DEFAULT_PROVINCE_FILL;
 
   const fill = !focused
-    ? "rgba(248,250,247,0.95)"
+    ? baseFill
     : active
-      ? "rgba(23,112,97,0.18)"
-      : "rgba(248,250,247,0.92)";
+      ? "#70b7a8"
+      : `${baseFill}cc`;
   const stroke = !focused
-    ? "rgba(91,104,99,0.55)"
+    ? "rgba(78,91,85,0.72)"
     : active
       ? "rgba(23,112,97,1)"
       : "rgba(24,32,29,0.25)";
-  const strokeWidth = active ? 2.2 : 0.7;
+  const strokeWidth = active ? 2.4 : 0.85;
 
   return (
     <g
@@ -76,7 +78,7 @@ function ProvinceShapeButton({ shape, active, focused, label, onSelect }: ShapeB
 export default function ProvinceShapeLayer() {
   const shapes = useProvinceShapes();
   const { lang } = useLang();
-  const { selectedProvinceId, selectProvince } = useAtlas();
+  const { selectedProvinceId, selectPlace, selectProvince } = useAtlas();
 
   const viewBox = useMemo(() => (shapes ? computeUnionViewBox(shapes) : null), [shapes]);
 
@@ -125,7 +127,7 @@ export default function ProvinceShapeLayer() {
               active={active}
               focused={focused}
               label={title}
-              onSelect={() => selectProvince(active ? null : shape.id)}
+              onSelect={() => (active ? selectProvince(null) : selectPlace(shape.id, null))}
             />
           );
         })}

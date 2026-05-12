@@ -27,7 +27,10 @@ const TARGET_X = Math.atan2(Math.cos(CHINA_THETA_LAT), Math.sin(CHINA_THETA_LAT)
 export default function EarthIntro({ onDone }: Props) {
   const hostRef = useRef<HTMLDivElement | null>(null);
   const doneRef = useRef(onDone);
-  doneRef.current = onDone;
+
+  useEffect(() => {
+    doneRef.current = onDone;
+  }, [onDone]);
 
   useEffect(() => {
     const host = hostRef.current;

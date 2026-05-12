@@ -9,12 +9,12 @@ export default function TopQuestions() {
   const [openId, setOpenId] = useState<string | null>(topQuestions[0].id);
 
   return (
-    <section id="top-questions" className="flex flex-col gap-3">
+    <section id="top-questions" className="flex min-w-0 flex-col gap-3 rounded-lg border border-line bg-white p-4">
       <header>
         <span className="text-xs font-bold uppercase tracking-widest text-muted">
           {isZh ? "出行前最关心的问题" : "Pre-arrival FAQ"}
         </span>
-        <h2 className="text-2xl font-bold">
+        <h2 className="text-xl font-bold leading-tight">
           {isZh ? "最常被问到的问题" : "Top questions before you fly"}
         </h2>
         <p className="text-sm text-muted">
@@ -26,14 +26,14 @@ export default function TopQuestions() {
         {topQuestions.map((q) => {
           const open = openId === q.id;
           return (
-            <li key={q.id} className="rounded-xl border border-line bg-white">
+            <li key={q.id} className="rounded-lg border border-line bg-white">
               <button
                 type="button"
                 aria-expanded={open}
                 onClick={() => setOpenId(open ? null : q.id)}
                 className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left"
               >
-                <strong className="text-sm leading-tight">
+                <strong className="min-w-0 text-sm leading-tight break-words">
                   {isZh ? q.questionZh : q.questionEn}
                 </strong>
                 <span
@@ -48,7 +48,7 @@ export default function TopQuestions() {
               </button>
               {open && (
                 <div className="border-t border-line px-4 py-3">
-                  <p className="text-sm leading-relaxed">{isZh ? q.answerZh : q.answerEn}</p>
+                  <p className="text-sm leading-relaxed break-words">{isZh ? q.answerZh : q.answerEn}</p>
                 </div>
               )}
             </li>

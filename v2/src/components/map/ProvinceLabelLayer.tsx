@@ -36,6 +36,7 @@ export default function ProvinceLabelLayer() {
   return (
     <div className="pointer-events-none absolute inset-0 z-20">
       {Object.values(shapes).map((shape) => {
+        if (shape.id === "hong-kong" || shape.id === "macau") return null;
         const cx = (shape.bounds.left + shape.bounds.right) / 2;
         const cy = -(shape.bounds.top + shape.bounds.bottom) / 2;
         const zoomedX = cx * focus.scale + focus.tx;
@@ -52,7 +53,7 @@ export default function ProvinceLabelLayer() {
           <span
             key={shape.id}
             className={clsx(
-              "absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap font-bold tracking-tight leading-none",
+              "absolute hidden -translate-x-1/2 -translate-y-1/2 whitespace-nowrap font-bold tracking-tight leading-none sm:block",
               active && "rounded-full bg-jade px-2 py-1 text-sm text-white shadow-lg",
               !active && !dimmed && !tiny && "text-[10px] text-ink/85",
               !active && !dimmed && tiny && "text-[8px] text-ink/85",
