@@ -31,6 +31,9 @@ export default function HomePage() {
             ? "先从城市和景区照片开始，再进入地图、签证、支付和注意事项。"
             : "Start with city landmark photos, then open the map, visa, payment, and travel-note pages."}
         </p>
+        <p className="text-xs text-muted">
+          {isZh ? "所有数据均来自中国官方。" : "All data sourced from China's official agencies."}
+        </p>
       </header>
 
       <section aria-label={isZh ? "城市景区照片" : "City attraction photos"} className="grid gap-4 md:grid-cols-2">

@@ -12,34 +12,10 @@ import PracticalBlock from "../common/PracticalBlock";
 
 const collator = new Intl.Collator("en");
 
-type Props = {
-  compact?: boolean;
-};
-
-const COPY = {
-  compact: {
-    eyebrow: { en: "Quick check", zh: "快速核验" },
-    title: { en: "Do I need a visa for China?", zh: "我需要中国签证吗？" },
-    subtitle: {
-      en: "Pick your passport country to find out. Every answer cites China's NIA.",
-      zh: "选择护照国籍即可查到。结论均出自国家移民管理局（NIA）。"
-    }
-  },
-  full: {
-    eyebrow: { en: "Pillar 1", zh: "支柱 1" },
-    title: { en: "Entry & Visa", zh: "入境与签证" },
-    subtitle: {
-      en: "Pick your passport country to see what applies. Every answer cites China's NIA and State Council announcements.",
-      zh: "选择你的护照国籍，看是否需要签证。结论均出自国家移民管理局（NIA）和国务院公告。"
-    }
-  }
-} as const;
-
-export default function VisaChecker({ compact = false }: Props = {}) {
+export default function VisaChecker() {
   const { lang } = useLang();
   const selectId = useId();
   const [country, setCountry] = useState("");
-  const copy = compact ? COPY.compact : COPY.full;
   const zh = lang === "zh";
 
   const sortedCountries = useMemo(
@@ -56,13 +32,15 @@ export default function VisaChecker({ compact = false }: Props = {}) {
     <section id="entry-visa" className="flex min-w-0 flex-col gap-3">
       <header>
         <span className="text-xs font-bold uppercase tracking-widest text-muted">
-          {zh ? copy.eyebrow.zh : copy.eyebrow.en}
+          {zh ? "支柱 1" : "Pillar 1"}
         </span>
         <h2 className="text-2xl font-bold leading-tight">
-          {zh ? copy.title.zh : copy.title.en}
+          {zh ? "入境与签证" : "Entry & Visa"}
         </h2>
         <p className="text-sm text-muted">
-          {zh ? copy.subtitle.zh : copy.subtitle.en}
+          {zh
+            ? "选择你的护照国籍，看是否需要签证。结论均出自国家移民管理局（NIA）和国务院公告。"
+            : "Pick your passport country to see what applies. Every answer cites China's NIA and State Council announcements."}
         </p>
       </header>
 
@@ -91,19 +69,9 @@ export default function VisaChecker({ compact = false }: Props = {}) {
         <ResultPanel result={result} />
       </div>
 
-      {compact ? (
-        <p className="text-xs text-muted">
-          {lang === "zh"
-            ? "北京 / 上海 / 广州 / 深圳 四城口岸均支持 240 小时过境免签。各城市页面有完整入境政策与口岸细节。"
-            : "Beijing, Shanghai, Guangzhou, and Shenzhen ports all support 240-hour transit visa-free. See each city page for the full entry briefing and port details."}
-        </p>
-      ) : (
-        <>
-          <PolicySummary />
-          <Phase1PortsList />
-          <PracticalBlock pillar="entry" />
-        </>
-      )}
+      <PolicySummary />
+      <Phase1PortsList />
+      <PracticalBlock pillar="entry" />
     </section>
   );
 }
