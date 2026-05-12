@@ -12,6 +12,80 @@
   --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
 }
 
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+  --card: #ffffff;
+  --card-foreground: var(--color-ink);
+  --popover: #ffffff;
+  --popover-foreground: var(--color-ink);
+  --primary: var(--color-jade);
+  --primary-foreground: #ffffff;
+  --secondary: #edf2ef;
+  --secondary-foreground: var(--color-ink);
+  --muted-foreground: var(--color-muted);
+  --accent: rgba(23, 112, 97, 0.1);
+  --accent-foreground: var(--color-ink);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: var(--color-line);
+  --input: var(--color-line);
+  --ring: var(--color-jade);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: #ffffff;
+  --sidebar-foreground: var(--color-ink);
+  --sidebar-primary: var(--color-jade);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: rgba(23, 112, 97, 0.1);
+  --sidebar-accent-foreground: var(--color-ink);
+  --sidebar-border: var(--color-line);
+  --sidebar-ring: var(--color-jade);
+}
+
 html.dark {
   --color-ink: #e6eee9;
   --color-muted: #a8b7b0;
@@ -23,6 +97,36 @@ html.dark {
   --color-elevated: #121b18;
   --color-elevated-90: rgba(18, 27, 24, 0.9);
   --color-elevated-95: rgba(18, 27, 24, 0.95);
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+  --card: var(--color-elevated);
+  --card-foreground: var(--color-ink);
+  --popover: var(--color-elevated);
+  --popover-foreground: var(--color-ink);
+  --primary: var(--color-jade);
+  --primary-foreground: #08110f;
+  --secondary: rgba(220, 235, 227, 0.1);
+  --secondary-foreground: var(--color-ink);
+  --muted-foreground: var(--color-muted);
+  --accent: rgba(99, 210, 188, 0.16);
+  --accent-foreground: var(--color-ink);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: var(--color-line);
+  --input: rgba(220, 235, 227, 0.2);
+  --ring: var(--color-jade);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: var(--color-elevated);
+  --sidebar-foreground: var(--color-ink);
+  --sidebar-primary: var(--color-jade);
+  --sidebar-primary-foreground: #08110f;
+  --sidebar-accent: rgba(99, 210, 188, 0.16);
+  --sidebar-accent-foreground: var(--color-ink);
+  --sidebar-border: var(--color-line);
+  --sidebar-ring: var(--color-jade);
 }
 
 html.dark .bg-ink,

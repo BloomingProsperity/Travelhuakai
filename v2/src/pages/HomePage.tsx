@@ -1,5 +1,8 @@
 import { Link } from "react-router";
 import MapPreview from "../components/map/MapPreview";
+import { Badge } from "../components/ui/badge";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
 import { attractionsByCity, type Attraction } from "../data/city-attractions";
 import { CITY_LABELS, type CityId } from "../data/transport";
 import { absoluteUrl, breadcrumbListJsonLd, SITE_URL, stringifyJsonLd } from "../lib/jsonLd";
@@ -92,27 +95,31 @@ export default function HomePage() {
       <Link
         to="/map"
         aria-label={isZh ? "打开地标地图" : "Open landmark map"}
-        className="group grid overflow-hidden rounded-lg border border-line bg-white shadow-sm transition hover:border-jade hover:shadow-md lg:grid-cols-[minmax(0,1fr)_420px]"
+        className="group block"
       >
-        <div className="flex min-w-0 flex-col justify-center gap-3 p-5 sm:p-6">
-          <span className="text-xs font-bold uppercase tracking-widest text-muted">
+        <Card className="grid gap-0 overflow-hidden rounded-lg border-line bg-card py-0 shadow-sm transition group-hover:border-jade group-hover:shadow-md lg:grid-cols-[minmax(0,1fr)_420px]">
+        <CardContent className="flex min-w-0 flex-col justify-center gap-3 p-5 sm:p-6">
+          <Badge variant="secondary" className="w-fit uppercase tracking-widest">
             {isZh ? "地图入口" : "Map"}
-          </span>
+          </Badge>
           <h2 className="text-2xl font-bold leading-tight sm:text-3xl">
             {isZh ? "地标地图" : "Landmark map"}
           </h2>
-          <p className="max-w-xl text-sm leading-relaxed text-muted">
+          <p className="max-w-xl text-sm leading-relaxed text-muted-foreground">
             {isZh
               ? "按省份查看城市、港澳和景区地标，点击后进入 3D 实景地图。"
               : "Browse cities, Hong Kong, Macau, and landmark regions by province, then open the 3D scene."}
           </p>
-          <span className="text-sm font-bold text-jade">
+          <Button asChild className="w-fit">
+            <span>
             {isZh ? "进入地图 →" : "Open map →"}
-          </span>
-        </div>
-        <div className="h-64 min-w-0 border-t border-line bg-paper/60 p-3 lg:h-auto lg:border-l lg:border-t-0">
+            </span>
+          </Button>
+        </CardContent>
+        <CardContent className="h-64 min-w-0 border-t border-line bg-paper/60 p-3 lg:h-auto lg:border-l lg:border-t-0">
           <MapPreview />
-        </div>
+        </CardContent>
+        </Card>
       </Link>
 
       <section aria-label={isZh ? "出行功能入口" : "Travel guide links"} className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
@@ -120,12 +127,16 @@ export default function HomePage() {
           <Link
             key={item.to}
             to={item.to}
-            className="group flex min-h-20 items-center justify-between gap-3 rounded-lg border border-line bg-white px-4 py-3 transition hover:border-jade hover:shadow-sm"
+            className="group block"
           >
+            <Card className="min-h-20 gap-0 rounded-lg border-line bg-card py-0 transition group-hover:border-jade group-hover:shadow-sm">
+              <CardContent className="flex min-h-20 items-center justify-between gap-3 px-4 py-3">
             <span className="text-base font-bold">{isZh ? item.zh : item.en}</span>
-            <span className="text-xl text-muted transition group-hover:translate-x-1 group-hover:text-jade" aria-hidden>
+            <span className="text-xl text-muted-foreground transition group-hover:translate-x-1 group-hover:text-jade" aria-hidden>
               →
             </span>
+              </CardContent>
+            </Card>
           </Link>
         ))}
       </section>
@@ -148,8 +159,9 @@ function CityPhotoCard({
   return (
     <Link
       to={`/city/${cityId}`}
-      className="group relative min-h-[260px] overflow-hidden rounded-lg border border-line bg-ink text-white shadow-sm"
+      className="group block"
     >
+      <Card className="relative min-h-[260px] overflow-hidden rounded-lg border-line bg-ink py-0 text-white shadow-sm">
       <img
         src={attraction.imageUrl}
         srcSet={unsplashSrcSet(attraction.imageUrl)}
@@ -165,13 +177,16 @@ function CityPhotoCard({
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10" />
-      <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 p-5">
-        <span className="text-sm font-bold text-white/80">{isZh ? city.zh : city.en}</span>
+      <CardContent className="absolute inset-x-0 bottom-0 flex flex-col gap-1 p-5">
+        <Badge className="w-fit border-white/15 bg-black/35 text-white/80 hover:bg-black/35">
+          {isZh ? city.zh : city.en}
+        </Badge>
         <strong className="block max-w-full break-words text-xl leading-tight text-white drop-shadow-sm sm:text-2xl">
           {isZh ? attraction.nameZh : attraction.nameEn}
         </strong>
         <span className="text-xs text-white/75">{isZh ? attraction.districtZh : attraction.districtEn}</span>
-      </div>
+      </CardContent>
+      </Card>
     </Link>
   );
 }

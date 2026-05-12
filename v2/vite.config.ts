@@ -2,12 +2,18 @@ import { defineConfig } from "vite";
 import { reactRouter } from "@react-router/dev/vite";
 import tailwindcss from "@tailwindcss/vite";
 import { viteStaticCopy } from "vite-plugin-static-copy";
+import path from "node:path";
 
 const cesiumSource = "node_modules/cesium/Build/Cesium";
 
 export default defineConfig({
   define: {
     CESIUM_BASE_URL: JSON.stringify("/cesium")
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src")
+    }
   },
   plugins: [
     tailwindcss(),
