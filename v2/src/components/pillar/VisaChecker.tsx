@@ -35,15 +35,23 @@ export default function VisaChecker({ compact = false }: Props = {}) {
     <section id="entry-visa" className="flex flex-col gap-4">
       <header>
         <span className="text-xs font-bold uppercase tracking-widest text-muted">
-          {lang === "zh" ? "支柱 1" : "Pillar 1"}
+          {compact
+            ? lang === "zh" ? "快速核验" : "Quick check"
+            : lang === "zh" ? "支柱 1" : "Pillar 1"}
         </span>
         <h2 className="text-2xl font-bold">
-          {lang === "zh" ? "入境与签证" : "Entry & Visa"}
+          {compact
+            ? lang === "zh" ? "我需要中国签证吗？" : "Do I need a visa for China?"
+            : lang === "zh" ? "入境与签证" : "Entry & Visa"}
         </h2>
         <p className="text-sm text-muted">
-          {lang === "zh"
-            ? "选择你的护照国籍，看是否需要签证。所有结论来自国家移民管理局（NIA）和国务院公告。"
-            : "Pick your passport country to see what applies. Every answer cites China's NIA and State Council announcements."}
+          {compact
+            ? lang === "zh"
+              ? "选择护照国籍即知答案。所有结论引自国家移民管理局（NIA）。"
+              : "Pick your passport country to find out. Every answer cites China's NIA."
+            : lang === "zh"
+              ? "选择你的护照国籍，看是否需要签证。所有结论来自国家移民管理局（NIA）和国务院公告。"
+              : "Pick your passport country to see what applies. Every answer cites China's NIA and State Council announcements."}
         </p>
       </header>
 
