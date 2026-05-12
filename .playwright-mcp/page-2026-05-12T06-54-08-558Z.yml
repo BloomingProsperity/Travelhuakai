@@ -1,0 +1,852 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "旅 旅行中国" [ref=e3] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e4]: 旅
+      - strong [ref=e5]: 旅行中国
+    - generic [ref=e6]:
+      - button "Open site search" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - navigation "Main navigation" [ref=e11]:
+        - link "Phrases" [ref=e12] [cursor=pointer]:
+          - /url: /phrasebook
+      - group "Theme" [ref=e13]:
+        - button "Use light theme" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - generic [ref=e21]: Light
+        - button "Use dark theme" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+          - generic [ref=e25]: Dark
+        - button "Use system theme" [pressed] [ref=e26] [cursor=pointer]:
+          - img [ref=e27]
+          - generic [ref=e30]: Auto
+      - group "Switch language" [ref=e31]:
+        - button "Switch to English" [pressed] [ref=e32] [cursor=pointer]: EN
+        - button "Switch to Chinese" [ref=e33] [cursor=pointer]: 中文
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - link "← All cities" [ref=e37] [cursor=pointer]:
+          - /url: /
+        - heading "Beijing" [level=1] [ref=e38]
+      - button "Print this page" [ref=e39] [cursor=pointer]
+    - generic [ref=e40]:
+      - navigation "City page navigation" [ref=e41]:
+        - list [ref=e42]:
+          - listitem [ref=e43]:
+            - link "Attractions" [ref=e44] [cursor=pointer]:
+              - /url: "#intro"
+          - listitem [ref=e45]:
+            - link "Transport" [ref=e46] [cursor=pointer]:
+              - /url: "#transport"
+          - listitem [ref=e47]:
+            - link "Food" [ref=e48] [cursor=pointer]:
+              - /url: "#food"
+          - listitem [ref=e49]:
+            - link "When to visit" [ref=e50] [cursor=pointer]:
+              - /url: "#season"
+          - listitem [ref=e51]:
+            - link "Payments" [ref=e52] [cursor=pointer]:
+              - /url: "#payments"
+          - listitem [ref=e53]:
+            - link "Entry & Visa" [ref=e54] [cursor=pointer]:
+              - /url: "#visa"
+          - listitem [ref=e55]:
+            - link "Emergency & Medical" [ref=e56] [cursor=pointer]:
+              - /url: "#emergency"
+          - listitem [ref=e57]:
+            - link "Official portals" [ref=e58] [cursor=pointer]:
+              - /url: "#portals"
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Beijing is the imperial capital — 600 years of palace, temple, and tomb sit on a single north–south axis through the city. The Great Wall is an hour out. Hutong alleys hide the best dumplings. Plan 4–6 days; you will not be bored.
+            - list [ref=e63]:
+              - listitem [ref=e64]: 16 districts
+              - listitem [ref=e65]: 21.9 M residents
+              - listitem [ref=e66]: PEK + PKX airports
+              - listitem [ref=e67]: 29 metro lines / 523 stations
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: Signature attractions · filter by district
+              - heading "Pick a district to see what's there" [level=2] [ref=e71]
+            - tablist "District filter" [ref=e72]:
+              - tab "All6" [selected] [ref=e73] [cursor=pointer]
+              - tab "Dongcheng4" [ref=e74] [cursor=pointer]
+              - tab "Huairou1" [ref=e75] [cursor=pointer]
+              - tab "Haidian1" [ref=e76] [cursor=pointer]
+            - list [ref=e77]:
+              - listitem [ref=e78]:
+                - generic [ref=e79]:
+                  - generic [ref=e80]: Must-visit
+                  - generic [ref=e81]: Dongcheng
+                - strong [ref=e82]: Forbidden City / Palace Museum
+                - paragraph [ref=e83]: "The largest intact imperial palace complex in the world: 180 acres, 980 buildings, 8,728 rooms. 24 emperors lived here across the Ming and Qing dynasties (1420–1912). 7-day advance booking is mandatory; 40,000-person daily cap sells out within minutes for peak weekends."
+                - link "Official →" [ref=e84] [cursor=pointer]:
+                  - /url: https://intl.dpm.org.cn/visit.html?l=en
+              - listitem [ref=e85]:
+                - generic [ref=e86]:
+                  - generic [ref=e87]: Must-visit
+                  - generic [ref=e88]: Huairou
+                - strong [ref=e89]: Great Wall at Mutianyu
+                - paragraph [ref=e90]: "The Great Wall section most recommended by experienced foreign travellers: well-restored Ming masonry, 23 watchtowers across a 2.25 km open stretch, cable car or chair lift up plus a toboggan descent. The official English website accepts international cards directly. 1 million foreign visitors in 2025."
+                - link "Official →" [ref=e91] [cursor=pointer]:
+                  - /url: https://en.mutianyugreatwall.com
+              - listitem [ref=e92]:
+                - generic [ref=e93]:
+                  - generic [ref=e94]: Must-visit
+                  - generic [ref=e95]: Haidian
+                - strong [ref=e96]: Summer Palace
+                - paragraph [ref=e97]: The best-preserved imperial garden in China and a UNESCO World Heritage Site. 220-hectare Kunming Lake with Longevity Hill behind it, the 728 m painted Long Corridor, and a theatrical landscape designed for Qing imperial leisure. Audio guides in 19 languages.
+                - link "Official →" [ref=e98] [cursor=pointer]:
+                  - /url: https://english.beijing.gov.cn/specials/parktours/guidevisitors/summerpalace/
+              - listitem [ref=e99]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Must-visit
+                  - generic [ref=e102]: Dongcheng
+                - strong [ref=e103]: Temple of Heaven
+                - paragraph [ref=e104]: The largest extant sacrificial altar complex in China (built 1406–1420), used by every Ming and Qing emperor to pray for harvest. The triple-eaved circular blue-roofed Hall of Prayer for Good Harvests is one of the most architecturally perfect timber structures in Chinese history. The park grounds double as a morning tai chi venue.
+                - link "Official →" [ref=e105] [cursor=pointer]:
+                  - /url: https://english.beijing.gov.cn/specials/parktours/guidevisitors/templeofheaven/
+              - listitem [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Must-visit
+                  - generic [ref=e109]: Dongcheng
+                - strong [ref=e110]: Lama Temple (Yonghe Gong)
+                - paragraph [ref=e111]: The most important Tibetan Buddhist temple in Beijing and one of the most significant Gelug monasteries outside Tibet. Originally an imperial princely mansion (1694), converted to a lamasery in 1744. The Wanfu Pavilion houses an 18 m Maitreya Buddha carved from a single sandalwood tree — the tallest sandalwood statue in the world.
+                - link "Official →" [ref=e112] [cursor=pointer]:
+                  - /url: https://english.beijing.gov.cn/specials/ticketing/
+              - listitem [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Must-visit
+                  - generic [ref=e116]: Dongcheng
+                - strong [ref=e117]: Tiananmen Square
+                - paragraph [ref=e118]: The world's third-largest public square (440,000 sq m) and the symbolic centre of the People's Republic. Daily flag-raising ceremony at sunrise, flag-lowering at sunset. Free entry but mandatory advance reservation (1–7 days ahead) — walk-up visitors are turned back at the security checkpoint.
+                - link "Official →" [ref=e119] [cursor=pointer]:
+                  - /url: https://english.beijing.gov.cn/travellinginbeijing/
+        - generic [ref=e121]:
+          - heading "Transport" [level=2] [ref=e122]
+          - article [ref=e123]:
+            - heading "12306 international" [level=3] [ref=e124]
+            - generic [ref=e125]:
+              - generic [ref=e126]: Registration
+              - paragraph [ref=e127]: Register at 12306.cn/en using your passport. You'll get either an email magic link or a Chinese-mobile SMS to confirm. Verification usually clears automatically; if it doesn't, upload your passport and a selfie — manual review takes 3–5 working days, or visit any station counter.
+            - generic [ref=e128]:
+              - generic [ref=e129]: Payment
+              - paragraph [ref=e130]: The 12306 English portal accepts Visa, Mastercard, JCB, Diners Club, and UnionPay. Alipay and WeChat Pay also work — the central government expat guide lists both.
+            - generic [ref=e131]:
+              - generic [ref=e132]: Refund
+              - paragraph [ref=e133]: "≥8 days before departure: 0% fee. 48h-8d: 5%. 24-48h: 10%. <24h: 20%. One free change (date/train/seat) until 48h before departure."
+            - generic [ref=e134]:
+              - generic [ref=e135]: Real-name
+              - paragraph [ref=e136]: Passport name on the ticket must match the bio page exactly. Carry passport on board for inspection. E-tickets are linked to passport number.
+          - article [ref=e137]:
+            - generic [ref=e138]:
+              - heading "PEK · Capital International (PEK)" [level=4] [ref=e139]
+              - list [ref=e140]:
+                - listitem [ref=e141]:
+                  - generic [ref=e142]: Fastest
+                  - strong [ref=e143]: Capital Airport Express → Dongzhimen (Line 2/13)
+                  - generic [ref=e144]: ¥25 flat · ~16 min
+                  - generic [ref=e145]: 5-network tap-to-ride
+                - listitem [ref=e146]:
+                  - generic [ref=e147]: Cheapest
+                  - strong [ref=e148]: Airport shuttle bus to Beijing Railway Station (T2 Gate 11 / T3 Gate 7)
+                  - generic [ref=e149]: ¥20–30 · 60–90 min
+                  - generic [ref=e150]: Cash; bring exact change — foreign cards not accepted on shuttles
+                - listitem [ref=e151]:
+                  - generic [ref=e152]: Most stable
+                  - strong [ref=e153]: Official taxi queue at arrivals; metered fare
+                  - generic [ref=e154]: ¥100–150 · 40–80 min
+                  - generic [ref=e155]: Cash + Alipay/WeChat; foreign cards inconsistent
+            - generic [ref=e156]:
+              - heading "PKX · Daxing International (PKX)" [level=4] [ref=e157]
+              - list [ref=e158]:
+                - listitem [ref=e159]:
+                  - generic [ref=e160]: Fastest
+                  - strong [ref=e161]: Daxing Airport Express → Caoqiao (transfer Line 10/7)
+                  - generic [ref=e162]: ¥35 · ~19 min
+                  - generic [ref=e163]: 5-network tap-to-ride
+                - listitem [ref=e164]:
+                  - generic [ref=e165]: Cheapest
+                  - strong [ref=e166]: Daxing Airport shuttle bus to Beijing/West Railway Station
+                  - generic [ref=e167]: ¥40 · 70–100 min
+                  - generic [ref=e168]: Cash
+            - generic [ref=e169]:
+              - heading "Metro payment" [level=4] [ref=e170]
+              - paragraph [ref=e171]: "All 29 lines / 523 stations: Visa, Mastercard, UnionPay, JCB, Amex tap-to-ride at every gate (since 2025-06-15). World's first metro to support all 5 networks."
+            - generic [ref=e172]:
+              - heading "Ride-hail & taxi" [level=4] [ref=e173]
+              - paragraph [ref=e174]: DiDi accepts foreign phone + Visa/Mastercard with English UI; in-app 24/7 English customer service. Take official taxi queue at airport, never solicitations inside terminal.
+            - generic [ref=e175]:
+              - heading "Common pitfalls" [level=4] [ref=e176]
+              - list [ref=e177]:
+                - listitem [ref=e178]: T1 is not on Capital Airport Express. T2/T3 only — confirm terminal before boarding.
+                - listitem [ref=e179]: PEK and PKX are 80 km apart — confirm IATA code before transit.
+          - generic [ref=e180]:
+            - generic [ref=e181]: Practical transport pitfalls
+            - list [ref=e182]:
+              - listitem [ref=e183]:
+                - strong [ref=e184]: "Beijing Metro tap-and-go: only at end-of-row gate lanes"
+                - paragraph [ref=e185]: Since 2024-09 all 490 stations support contactless Visa/Mastercard, but the international-card turnstile is at a specific lane (usually the end of the row). Tapping a domestic-only gate just rejects.
+              - listitem [ref=e186]:
+                - strong [ref=e187]: "Alipay transit QR: must activate per city"
+                - paragraph [ref=e188]: Activating Beijing's transit code does NOT activate Shanghai / Guangzhou / Shenzhen. Open the Transport tab, pick the target city, and activate before reaching the turnstile.
+              - listitem [ref=e189]:
+                - strong [ref=e190]: Alipay transit QR expires in 5 minutes — regenerate at the gate
+                - paragraph [ref=e191]: If you generated the code while walking and 5+ minutes passed, the turnstile rejects it. Regenerate immediately before scanning.
+              - listitem [ref=e192]:
+                - strong [ref=e193]: 12306 passport verification takes 3–7 days — last-minute booking fails
+                - paragraph [ref=e194]: Online passport verification at 12306.cn requires a passport photo plus a selfie holding the passport. Processing typically takes 3–5 days, up to 7 in peak season. New accounts can't book next-day trains. If you're short on time, use Trip.com — verification usually clears in 1–2 hours.
+              - listitem [ref=e195]:
+                - strong [ref=e196]: Self-service ticket machines reject passports — go to staffed window
+                - paragraph [ref=e197]: Auto-collection machines only read Chinese ID cards. Foreign passport holders must queue at staffed windows. At Beijing West / Shanghai Hongqiao that's 20–30 min on a busy day.
+              - listitem [ref=e198]:
+                - strong [ref=e199]: "Group bookings on 12306: each passport needs its own 3–7 day verification"
+                - paragraph [ref=e200]: Adding extra passengers to your 12306 booking means each one's passport runs a separate verification cycle. Family of 4 = all 4 passports must clear before any tickets issue. Use Trip.com for groups.
+              - listitem [ref=e201]:
+                - strong [ref=e202]: Beijing has 5+ rail stations — book the right one
+                - paragraph [ref=e203]: Beijing main, West, South, North, Chaoyang. Different stations are 30–60 min apart by metro. Confirm the specific station name when booking, not just "Beijing".
+              - listitem [ref=e204]:
+                - strong [ref=e205]: Black taxi touts at Capital T3 information desk — 3–4× meter
+                - paragraph [ref=e206]: Men posing as helpers near the T3 taxi info desk single out foreign-looking travellers and quote 3–4× meter. Legitimate Beijing taxis show "Jing B" plates. Anyone who approaches you first isn't legit — walk to the official taxi queue.
+              - listitem [ref=e207]:
+                - strong [ref=e208]: Use DiDi Chuxing app, NOT "DiDi Rider" international
+                - paragraph [ref=e209]: DiDi Rider international has limited mainland coverage. DiDi Chuxing (mainland version) has a full English UI, broader vehicles, and accepts Alipay / WeChat with foreign cards reliably.
+        - generic [ref=e211]:
+          - heading "Food" [level=2] [ref=e212]
+          - article [ref=e213]:
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - heading "Local cuisine" [level=3] [ref=e216]
+                - button "How to eat it →" [ref=e217] [cursor=pointer]
+              - paragraph [ref=e218]: "Peking roast duck — carved tableside, paired with thin pancakes, scallion, and sweet bean sauce. Old-Beijing snacks: noodles with soybean paste, dou-zhi (fermented mung bean), tanghulu skewers, copper-pot mutton hotpot. Halal options widely available."
+            - generic [ref=e219]:
+              - heading "Foreigner-friendly districts" [level=3] [ref=e220]
+              - paragraph [ref=e221]: Sanlitun (foreign restaurants, English menus common); Guomao CBD (international hotel dining); Wangfujing snack street; Hutong areas of central axis.
+            - generic [ref=e222]:
+              - heading "Delivery apps" [level=3] [ref=e223]
+              - paragraph [ref=e224]: Meituan and Ele.me both require a Chinese mobile number for SMS verification plus a domestic payment method. Ask your hotel concierge to order for you, or stick to restaurants you can walk into.
+            - generic [ref=e225]:
+              - heading "Pitfalls" [level=3] [ref=e226]
+              - list [ref=e227]:
+                - listitem [ref=e228]: Tea ceremony scams near tourist areas (Wangfujing/Houhai). Walk away if invited by 'students' to a tea house.
+                - listitem [ref=e229]: Some smaller hutong shops are cash-only; Visa swipe is rare outside hotels.
+          - article [ref=e230]:
+            - generic [ref=e231]:
+              - heading "Allergy / dietary card (show to staff)" [level=3] [ref=e232]
+              - paragraph [ref=e233]: Fill in your allergen in both versions. Save a screenshot before you fly.
+            - generic [ref=e234]:
+              - generic [ref=e235]: I am severely allergic to ____. I cannot eat or come into contact with any soup, sauce, oil, ingredients, or cookware that contain ____. Please do not include ____. If you are unsure, please tell me. Thank you.
+              - generic [ref=e236]: 我对 ____ 严重过敏，不能吃，也不能接触含有 ____ 的汤、酱、油、配料或厨具。请不要放 ____。如果不确定，请告诉我。谢谢。
+          - generic [ref=e237]:
+            - generic [ref=e238]: Practical food pitfalls
+            - list [ref=e239]:
+              - listitem [ref=e240]:
+                - strong [ref=e241]: "\"Vegetarian\" dishes often cooked in pork stock or lard"
+                - paragraph [ref=e242]: Ordering a vegetable dish at a regular restaurant doesn't make it vegetarian — many are blanched in pork-bone broth or stir-fried in lard. Only Buddhist vegetarian restaurants (素食 Su Shi) reliably skip pork — but they use seitan (pure gluten) for mock meats, a separate problem for coeliacs.
+              - listitem [ref=e243]:
+                - strong [ref=e244]: Soy sauce contains wheat — "no soy" rarely eliminates gluten
+                - paragraph [ref=e245]: 酱油 jiangyou contains wheat and is in nearly every wok dish. Asking for "no soy sauce" usually means less, not none. Truly gluten-free eating in China requires steamed dishes ordered in writing to the kitchen.
+              - listitem [ref=e246]:
+                - strong [ref=e247]: Dried shrimp / shrimp paste hidden in non-seafood dishes
+                - paragraph [ref=e248]: Dried shrimp (虾皮) and shrimp paste (虾酱) are routinely added to vegetable stir-fries, congee, and soups as flavour enhancers. Menu shows zero seafood. Show a Chinese-language allergy card directly to KITCHEN staff, not just the waiter.
+              - listitem [ref=e249]:
+                - strong [ref=e250]: Shared woks = cross-contamination even when staff understand the allergy
+                - paragraph [ref=e251]: Traditional kitchens use 1–2 woks for everything, rinsed only with hot water between dishes. Severe allergies need restaurants with visibly separated cooking equipment.
+              - listitem [ref=e252]:
+                - strong [ref=e253]: "Tea house scam: \"practice English\" → CNY 500–5000 bill"
+                - paragraph [ref=e254]: Documented at Wangfujing / Houhai (BJ), Nanjing Road / People's Park (SH), Shamian Island (GZ). The new "friend" disappears; staff block exits until payment. If you walk in with strangers, demand to see a menu with prices BEFORE sitting down.
+              - listitem [ref=e255]:
+                - strong [ref=e256]: Tourist-area restaurants short-change by CNY 20–100
+                - paragraph [ref=e257]: Documented near Shamian (GZ), Yu Garden (SH), Wangfujing (BJ). Count change immediately; demand an itemised receipt (发票 fapiao) before paying.
+              - listitem [ref=e258]:
+                - strong [ref=e259]: Tap water requires boiling — even in 4-star hotels
+                - paragraph [ref=e260]: All four cities' tap water needs boiling before drinking. Hotel rooms include a kettle or filtered dispenser. Ice in budget restaurants may be tap-water-based. Bottled water 2–5 CNY for 550 ml.
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]: When to visit
+            - heading "Best time to visit Beijing" [level=2] [ref=e265]
+          - generic [ref=e266]:
+            - text: Best months
+            - generic [ref=e267]: Sep - Nov, Mar - Apr
+            - paragraph [ref=e268]: Autumn is the clearest and driest window; early spring is mild before the summer heat, but watch wind and dust.
+          - generic [ref=e269]:
+            - article [ref=e270]:
+              - generic [ref=e272]:
+                - heading "Mar-May" [level=3] [ref=e273]
+                - paragraph [ref=e274]: 2 - 27 C
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281]: Rainfall
+                  - generic [ref=e282]: Low rain
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Crowds
+                  - generic [ref=e285]: High crowds
+              - paragraph [ref=e286]: Fast warm-up from chilly mornings to warm afternoons; dry, windy, and popular for parks and hutongs.
+            - article [ref=e287]:
+              - generic [ref=e289]:
+                - heading "Jun-Aug" [level=3] [ref=e290]
+                - paragraph [ref=e291]: 20 - 32 C
+              - generic [ref=e296]:
+                - generic [ref=e297]:
+                  - generic [ref=e298]: Rainfall
+                  - generic [ref=e299]: Heavy rain
+                - generic [ref=e300]:
+                  - generic [ref=e301]: Crowds
+                  - generic [ref=e302]: Medium crowds
+              - paragraph [ref=e303]: Hot monsoon summer; most annual rain concentrates in July and August, so leave schedule buffers.
+            - article [ref=e304]:
+              - generic [ref=e306]:
+                - heading "Sep-Nov" [level=3] [ref=e307]
+                - paragraph [ref=e308]: 1 - 27 C
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]: Rainfall
+                  - generic [ref=e316]: Moderate rain
+                - generic [ref=e317]:
+                  - generic [ref=e318]: Crowds
+                  - generic [ref=e319]: High crowds
+              - paragraph [ref=e320]: Dry, clear autumn with cooler nights; October foliage and National Day demand push crowds up.
+            - article [ref=e321]:
+              - generic [ref=e323]:
+                - heading "Dec-Feb" [level=3] [ref=e324]
+                - paragraph [ref=e325]: "-7 - 6 C"
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - generic [ref=e332]: Rainfall
+                  - generic [ref=e333]: Low rain
+                - generic [ref=e334]:
+                  - generic [ref=e335]: Crowds
+                  - generic [ref=e336]: Low crowds
+              - paragraph [ref=e337]: Cold, very dry winter with quiet sights outside holiday weeks and icy mornings at outdoor sites.
+          - generic [ref=e338]:
+            - heading "Watch outs" [level=3] [ref=e339]
+            - list [ref=e340]:
+              - listitem [ref=e341]: Spring cold fronts can bring strong northerly wind and blowing sand; pack eye protection for Great Wall days.
+              - listitem [ref=e342]: Summer rain is concentrated in July-August; short cloudbursts can slow taxis, rail transfers, and airport access.
+              - listitem [ref=e343]: Heavy PM2.5 episodes are now uncommon but still covered by official alert plans; check AQI on still winter days.
+        - generic [ref=e345]:
+          - heading "Payments" [level=2] [ref=e346]
+          - generic [ref=e347]:
+            - article [ref=e348]:
+              - generic [ref=e349]: Alipay per-tx
+              - strong [ref=e350]: $5,000
+              - generic [ref=e351]: annual $50,000
+            - article [ref=e352]:
+              - generic [ref=e353]: WeChat Pay per-tx
+              - strong [ref=e354]: $5,000
+              - generic [ref=e355]: annual $50,000
+            - article [ref=e356]:
+              - generic [ref=e357]: BOC ATM
+              - strong [ref=e358]: ¥3,000
+              - generic [ref=e359]: Visa / Mastercard / JCB / American Express / UnionPay
+            - article [ref=e360]:
+              - generic [ref=e361]: Foreign cash declare
+              - strong [ref=e362]: $5,000
+              - generic [ref=e363]: above this must declare
+          - generic [ref=e364]:
+            - heading "Before you fly" [level=3] [ref=e365]
+            - list [ref=e366]:
+              - listitem [ref=e367]:
+                - generic [ref=e368]: "1"
+                - generic [ref=e369]:
+                  - strong [ref=e370]: Set up Alipay or WeChat Pay before departure
+                  - paragraph [ref=e371]: Both platforms accept Visa and Mastercard binding for foreign passport users. Per-transaction USD 5,000 / annual USD 50,000 (PBOC, 2024-04).
+              - listitem [ref=e372]:
+                - generic [ref=e373]: "2"
+                - generic [ref=e374]:
+                  - strong [ref=e375]: Bring backup cash, declare if > USD 5,000
+                  - paragraph [ref=e376]: RMB carry cap ¥20,000. Declare any foreign cash above USD 5,000 equivalent on the arrival form.
+              - listitem [ref=e377]:
+                - generic [ref=e378]: "3"
+                - generic [ref=e379]:
+                  - strong [ref=e380]: Bank of China ATMs are the most reliable for foreign cards
+                  - paragraph [ref=e381]: BOC ATMs accept all five major networks; CNY 3,000 per withdrawal. Issuer's own daily/weekly limits also apply.
+              - listitem [ref=e382]:
+                - generic [ref=e383]: "4"
+                - generic [ref=e384]:
+                  - strong [ref=e385]: POS coverage is broadest at airports and major hotels
+                  - paragraph [ref=e386]: Outside those, small merchants tend to be Alipay/WeChat-only or cash. Don't rely on Visa swipe in mom-and-pop shops.
+          - generic [ref=e387]:
+            - heading "China Customs thresholds" [level=3] [ref=e388]
+            - list [ref=e389]:
+              - listitem [ref=e390]:
+                - strong [ref=e391]: RMB cash carry limit
+                - paragraph [ref=e392]: Carry up to ¥20,000 RMB in cash when crossing the border. Any amount above that must go through a bank — you can't carry it in person.
+              - listitem [ref=e393]:
+                - strong [ref=e394]: Foreign currency declaration
+                - paragraph [ref=e395]: Declare any foreign cash above the USD 5,000 equivalent when you land — customs gives you a paper form at the arrivals desk. Leave it undeclared and the excess can be confiscated.
+              - listitem [ref=e396]:
+                - strong [ref=e397]: Personal-use goods (non-resident)
+                - paragraph [ref=e398]: Personal-use items you're bringing for yourself clear customs duty-free. If you're carrying goods worth more than ¥2,000 that aren't for your own use, declare them at the red channel and pay the assessed duty.
+              - listitem [ref=e399]:
+                - strong [ref=e400]: Duty-free allowance
+                - paragraph [ref=e401]: "Tobacco: 400 cigarettes (foreign passenger). Alcohol: 1.5 L (18+ only)."
+          - generic [ref=e402]:
+            - generic [ref=e403]:
+              - text: Practical pitfalls
+              - heading "What official sources don't tell you" [level=3] [ref=e404]
+            - generic [ref=e405]:
+              - generic [ref=e406]:
+                - heading "Before you fly" [level=4] [ref=e407]
+                - list [ref=e408]:
+                  - listitem [ref=e409]:
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: Both
+                      - strong [ref=e412]: Set up both apps 2–4 weeks before you fly
+                    - paragraph [ref=e413]: KYC can take a full day, WeChat may need a friend back home to vouch for you, and your home bank needs time to whitelist Chinese merchants. Try to set this up before you land — leaving it for arrival day usually means a frustrating first night.
+                  - listitem [ref=e414]:
+                    - generic [ref=e415]:
+                      - generic [ref=e416]: Alipay
+                      - strong [ref=e417]: Don't bother with Tour Card — shutting down 2026-05-29
+                    - paragraph [ref=e418]: The Alipay Tour Card mini-program stops accepting new applications on May 29, 2026. Older guides still recommend it; ignore them and bind your Visa/Mastercard directly to the regular Alipay app instead.
+                  - listitem [ref=e419]:
+                    - generic [ref=e420]:
+                      - generic [ref=e421]: Both
+                      - strong [ref=e422]: "Call your bank: whitelist China + enable international online purchases"
+                    - paragraph [ref=e423]: "The #1 card-binding failure is your home bank fraud system blocking the first attempt. The app shows ambiguous \"payment failed\" with no hint that the bank is the cause. Some debit cards also need 3D Secure / international online purchases manually enabled."
+                  - listitem [ref=e424]:
+                    - generic [ref=e425]:
+                      - generic [ref=e426]: WeChat
+                      - strong [ref=e427]: "WeChat friend-scan: line one up before you fly"
+                    - paragraph [ref=e428]: About 80% of new WeChat accounts hit a mandatory "have a friend scan this QR" screen. The verifier must have used WeChat 6+ months, have WeChat Pay active, and not have verified anyone else this month. Remote scan via screen-share works — solo travellers should ask a friend in advance.
+                  - listitem [ref=e429]:
+                    - generic [ref=e430]:
+                      - generic [ref=e431]: WeChat
+                      - strong [ref=e432]: Register WeChat before boarding — SMS unreliable on roaming/eSIM
+                    - paragraph [ref=e433]: International roaming SMS into China is unreliable and eSIM data access does not guarantee SMS delivery. Complete WeChat registration on home-country signal, not after landing.
+              - generic [ref=e434]:
+                - heading "Account setup & KYC" [level=4] [ref=e435]
+                - list [ref=e436]:
+                  - listitem [ref=e437]:
+                    - generic [ref=e438]:
+                      - generic [ref=e439]: Alipay
+                      - strong [ref=e440]: Install the standard Alipay (blue icon) — not AlipayHK
+                    - paragraph [ref=e441]: "There is one app for foreign tourists: standard Alipay (Hangzhou Technology Co., bundle id com.eg.android.AlipayGphone). AlipayHK is a separate Hong Kong product that does NOT work on the mainland."
+                  - listitem [ref=e442]:
+                    - generic [ref=e443]:
+                      - generic [ref=e444]: Both
+                      - strong [ref=e445]: Turn VPN OFF during KYC, card binding, and payments
+                    - paragraph [ref=e446]: Both Alipay and WeChat compare GPS (Beijing) against IP location (e.g. Los Angeles). The mismatch triggers fraud flags that can freeze the account mid-KYC and require a manual support ticket to recover.
+                  - listitem [ref=e447]:
+                    - generic [ref=e448]:
+                      - generic [ref=e449]: Alipay
+                      - strong [ref=e450]: Use your passport MRZ name exactly — uppercase, no nicknames
+                    - paragraph [ref=e451]: "Real-name verification rejects mismatched names: middle names, hyphenated surnames, double-barrelled names. The app gives no specific reason — it just says \"verification failed\"."
+                  - listitem [ref=e452]:
+                    - generic [ref=e453]:
+                      - generic [ref=e454]: WeChat
+                      - strong [ref=e455]: WeChat's USD 0.05 verification charge will trigger your bank's fraud alert
+                    - paragraph [ref=e456]: WeChat charges ~$0.05 USD to validate the card during binding. This tiny charge is the most common reason the binding fails. If you see the charge get rejected, immediately approve it in your banking app and retry the binding within the same session.
+                  - listitem [ref=e457]:
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: Alipay
+                      - strong [ref=e460]: USD 500 is the real KYC threshold — not the PBOC USD 5,000 figure
+                    - paragraph [ref=e461]: PBOC raised the policy limit to USD 5,000/tx in 2024, but Alipay's own identity-verification system kicks in at USD 500. Plan for the lower number when budgeting big-ticket items (hotel deposits, high-speed rail).
+                  - listitem [ref=e462]:
+                    - generic [ref=e463]:
+                      - generic [ref=e464]: WeChat
+                      - strong [ref=e465]: "WeChat: hard RMB 15,000 stay-total cap until you finish real-name auth"
+                    - paragraph [ref=e466]: Skip real-name authentication and WeChat caps your total spend for the entire stay at ~RMB 15,000 — not per transaction or per day, but cumulative. That ceiling arrives faster than most people expect. Complete real-name before your first big purchase.
+              - generic [ref=e467]:
+                - heading "Day 1 paying" [level=4] [ref=e468]
+                - list [ref=e469]:
+                  - listitem [ref=e470]:
+                    - generic [ref=e471]:
+                      - generic [ref=e472]: Both
+                      - strong [ref=e473]: Personal QR codes reject foreign cards — let merchant scan you instead
+                    - paragraph [ref=e474]: "Street vendors and small restaurants almost always show a personal collection QR (个人收款码), not a business merchant code. These only accept payment from RMB wallet balance or a Chinese bank card — your foreign-card-backed Alipay/WeChat is rejected. Workaround: open YOUR app's payment barcode and ask them to scan you. Reverse direction usually works."
+                  - listitem [ref=e475]:
+                    - generic [ref=e476]:
+                      - generic [ref=e477]: Alipay
+                      - strong [ref=e478]: Over RMB 200? Split the bill — Alipay charges 3% above that
+                    - paragraph [ref=e479]: "Alipay foreign-card transactions: 0% fee under RMB 200, 3% over. Splitting a 400 RMB bill into two 200 RMB scans eliminates the fee. Cashiers in China understand split payment without explanation."
+                  - listitem [ref=e480]:
+                    - generic [ref=e481]:
+                      - generic [ref=e482]: Both
+                      - strong [ref=e483]: Carry RMB 200–500 cash — by law (since 2026-02-01) merchants must accept it
+                    - paragraph [ref=e484]: "Since 2026-02-01 Chinese law requires merchants to accept physical RMB; refusing now carries penalties. Reliable cash sources: 7-Eleven / FamilyMart / Lawson; ICBC / BOC / CCB ATMs accept Visa/Mastercard with English UI."
+                  - listitem [ref=e485]:
+                    - generic [ref=e486]:
+                      - generic [ref=e487]: WeChat
+                      - strong [ref=e488]: Didi / Meituan / Ele.me mini-programs need a +86 SIM
+                    - paragraph [ref=e489]: Even with WeChat Pay working, the Didi / Meituan / Ele.me mini-programs INSIDE WeChat require a Chinese mainland phone number to register. Use the standalone Didi app instead (which accepts foreign numbers + foreign cards).
+              - generic [ref=e490]:
+                - heading "After your trip" [level=4] [ref=e491]
+                - list [ref=e492]:
+                  - listitem [ref=e493]:
+                    - generic [ref=e494]:
+                      - generic [ref=e495]: Alipay
+                      - strong [ref=e496]: Alipay freezes after ~3 months of inactivity
+                    - paragraph [ref=e497]: If you don't open Alipay for about three months after you fly home, your account locks itself. To reactivate, you'll need your passport, a selfie video, and a one-line note explaining the flagged transaction. Most repeat visitors hit this on Day 1 of their next trip — clear it before you fly back.
+                  - listitem [ref=e498]:
+                    - generic [ref=e499]:
+                      - generic [ref=e500]: Alipay
+                      - strong [ref=e501]: Refunds take 3–7 business days to your card — not instant to wallet
+                    - paragraph [ref=e502]: Foreign-card-backed Alipay refunds go back to the issuing card on a 3–7 business day cycle, not instantly to your Alipay wallet. A failed train booking will show "refunding" for days with no balance in the app — that's normal.
+                  - listitem [ref=e503]:
+                    - generic [ref=e504]:
+                      - generic [ref=e505]: WeChat
+                      - strong [ref=e506]: "Foreign WeChat: red packets and P2P transfers are permanently blocked"
+                    - paragraph [ref=e507]: Foreign-card-backed WeChat accounts cannot send OR receive red packets, and cannot transfer money to other users — only merchant QR payments work. If a Chinese friend wants to split dinner via WeChat transfer, you'll need an alternative (cash, Alipay merchant scan).
+          - generic [ref=e508]:
+            - heading "This city — payment status" [level=3] [ref=e509]
+            - list [ref=e510]:
+              - listitem [ref=e511]:
+                - list [ref=e512]:
+                  - listitem [ref=e513]: "Subway tap-to-ride: all 5 networks (Visa, Mastercard, UnionPay, JCB, Amex) on every line; effective 2025-06-15."
+                  - listitem [ref=e514]: "Capital + Daxing airports: 24 ATMs, 7 currency desks; over 11,000 city merchants accept foreign cards."
+        - generic [ref=e516]:
+          - generic [ref=e517]:
+            - text: Pillar 1
+            - heading "Entry & Visa" [level=2] [ref=e518]
+          - generic [ref=e519]:
+            - generic [ref=e520]:
+              - generic [ref=e521]: Passport country
+              - combobox "Passport country" [ref=e522]:
+                - option "Select country..." [selected]
+                - option "Andorra (安道尔)"
+                - option "Argentina (阿根廷)"
+                - option "Australia (澳大利亚)"
+                - option "Austria (奥地利)"
+                - option "Bahrain (巴林)"
+                - option "Belgium (比利时)"
+                - option "Brazil (巴西)"
+                - option "Brunei Darussalam (文莱)"
+                - option "Bulgaria (保加利亚)"
+                - option "Canada (加拿大)"
+                - option "Chile (智利)"
+                - option "Croatia (克罗地亚)"
+                - option "Cyprus (塞浦路斯)"
+                - option "Denmark (丹麦)"
+                - option "Estonia (爱沙尼亚)"
+                - option "Finland (芬兰)"
+                - option "France (法国)"
+                - option "Germany (德国)"
+                - option "Greece (希腊)"
+                - option "Hungary (匈牙利)"
+                - option "Iceland (冰岛)"
+                - option "Ireland (爱尔兰)"
+                - option "Italy (意大利)"
+                - option "Japan (日本)"
+                - option "Kuwait (科威特)"
+                - option "Latvia (拉脱维亚)"
+                - option "Liechtenstein (列支敦士登)"
+                - option "Luxembourg (卢森堡)"
+                - option "Malta (马耳他)"
+                - option "Monaco (摩纳哥)"
+                - option "Montenegro (黑山)"
+                - option "Netherlands (荷兰)"
+                - option "New Zealand (新西兰)"
+                - option "North Macedonia (北马其顿)"
+                - option "Norway (挪威)"
+                - option "Oman (阿曼)"
+                - option "Peru (秘鲁)"
+                - option "Poland (波兰)"
+                - option "Portugal (葡萄牙)"
+                - option "Republic of Korea (韩国)"
+                - option "Romania (罗马尼亚)"
+                - option "Russian Federation (俄罗斯)"
+                - option "Saudi Arabia (沙特阿拉伯)"
+                - option "Slovakia (斯洛伐克)"
+                - option "Slovenia (斯洛文尼亚)"
+                - option "Spain (西班牙)"
+                - option "Sweden (瑞典)"
+                - option "Switzerland (瑞士)"
+                - option "United Kingdom (英国)"
+                - option "Uruguay (乌拉圭)"
+                - option "──────────" [disabled]
+                - option "Other (not on visa-free lists)"
+            - generic [ref=e523]: Pick a passport country first.
+          - generic [ref=e524]:
+            - article [ref=e525]:
+              - generic [ref=e526]: Unilateral visa-free
+              - strong [ref=e527]: 50 countries
+              - paragraph [ref=e528]: Ordinary passports, 30-day stay, business/tourism/family/exchange/transit.
+            - article [ref=e529]:
+              - generic [ref=e530]: 240-hour transit
+              - strong [ref=e531]: 65 ports
+              - paragraph [ref=e532]: 55 eligible nationalities, 24 provincial regions; effective 2025-11-05.
+            - article [ref=e533]:
+              - generic [ref=e534]: Online entry card
+              - strong [ref=e535]: 2025-11-20
+              - paragraph [ref=e536]: Free pre-fill online; kiosk or paper card available at port; ignore counterfeit pay-to-fill sites.
+          - generic [ref=e537]:
+            - generic [ref=e538]:
+              - heading "Phase 1 cities — all 240-hour transit" [level=3] [ref=e539]
+              - paragraph [ref=e540]: Aligned with State Council 2025-11-04 announcement; the other 59 ports are not yet covered here.
+            - list [ref=e541]:
+              - listitem [ref=e542]:
+                - generic [ref=e543]:
+                  - strong [ref=e544]: Beijing
+                  - text: Capital International Airport
+                - generic [ref=e545]: 240h
+              - listitem [ref=e546]:
+                - generic [ref=e547]:
+                  - strong [ref=e548]: Beijing
+                  - text: Daxing International Airport
+                - generic [ref=e549]: 240h
+              - listitem [ref=e550]:
+                - generic [ref=e551]:
+                  - strong [ref=e552]: Shanghai
+                  - text: Pudong International Airport
+                - generic [ref=e553]: 240h
+              - listitem [ref=e554]:
+                - generic [ref=e555]:
+                  - strong [ref=e556]: Shanghai
+                  - text: Hongqiao International Airport
+                - generic [ref=e557]: 240h
+              - listitem [ref=e558]:
+                - generic [ref=e559]:
+                  - strong [ref=e560]: Guangzhou
+                  - text: Baiyun International Airport
+                - generic [ref=e561]: 240h
+              - listitem [ref=e562]:
+                - generic [ref=e563]:
+                  - strong [ref=e564]: Shenzhen
+                  - text: Bao'an International Airport
+                - generic [ref=e565]: 240h
+          - generic [ref=e566]:
+            - generic [ref=e567]: What to know before landing
+            - list [ref=e568]:
+              - listitem [ref=e569]:
+                - strong [ref=e570]: "240-hour transit: onward ticket must leave to a DIFFERENT country"
+                - paragraph [ref=e571]: New York → Shanghai → New York is denied at immigration. New York → Shanghai → Singapore is approved. Hong Kong, Macau, and Taiwan count as separate regions for this rule.
+              - listitem [ref=e572]:
+                - strong [ref=e573]: 240-hour clock starts at the immigration STAMP, not wheels-down
+                - paragraph [ref=e574]: Land at 23:00, clear immigration at 00:30 = you've already lost a day. Many travellers miscalculate and overstay.
+              - listitem [ref=e575]:
+                - strong [ref=e576]: Digital arrival card mandatory since 2025-11; airlines don't tell you
+                - paragraph [ref=e577]: Fill the NIA digital card (s.nia.gov.cn) within 72 hours before arrival. Skipping it sends you to a secondary desk that adds 20–40 minutes at the airport.
+              - listitem [ref=e578]:
+                - strong [ref=e579]: Use the dedicated TWOV counter — wrong queue = +30 min
+                - paragraph [ref=e580]: 240-hour transit travellers must use the TWOV counter, not general immigration. Pudong T2 marks it clearly; Beijing T3 barely labels it — look for the small "Visa-Free Transit" sign.
+              - listitem [ref=e581]:
+                - strong [ref=e582]: Visa-free extensions almost always rejected — apply 8+ days early
+                - paragraph [ref=e583]: SmartShanghai staff tried — rejected for "insufficient reason". Processing takes up to 7 working days, so you must apply at least 8 days before expiry. Plan your trip length up front.
+              - listitem [ref=e584]:
+                - strong [ref=e585]: Overstay penalty = entry ban, not just a fine
+                - paragraph [ref=e586]: Overstays beyond a few days trigger a 1–5 year re-entry ban PLUS fines from CNY 500/day. Don't gamble on the last day.
+              - listitem [ref=e587]:
+                - strong [ref=e588]: Unlicensed guesthouses / Airbnb-style hosts can't legally take foreign guests
+                - paragraph [ref=e589]: Chinese law requires accommodation to register foreign guests with police. Budget guesthouses and many Airbnb listings lack the licence. Both you and the host face fines.
+              - listitem [ref=e590]:
+                - strong [ref=e591]: "Private accommodation: register with police within 24h"
+                - paragraph [ref=e592]: Hotels do this for you automatically. At an Airbnb / private rental, you OR your host must register at the local police station (paichusuo) within 24 hours of check-in. Failure is a fine for both parties.
+        - generic [ref=e594]:
+          - heading "Emergency & Medical" [level=2] [ref=e595]
+          - list [ref=e596]:
+            - listitem [ref=e597]:
+              - strong [ref=e598]: "110"
+              - generic [ref=e599]: Police
+              - paragraph [ref=e600]: Free. Shanghai 110 supports 8 languages.
+            - listitem [ref=e601]:
+              - strong [ref=e602]: "119"
+              - generic [ref=e603]: Fire & Rescue
+              - paragraph [ref=e604]: Free. Foreign-language support in Shanghai.
+            - listitem [ref=e605]:
+              - strong [ref=e606]: "120"
+              - generic [ref=e607]: Ambulance
+              - paragraph [ref=e608]: Free. National medical emergency dispatch.
+            - listitem [ref=e609]:
+              - strong [ref=e610]: "122"
+              - generic [ref=e611]: Traffic Police
+              - paragraph [ref=e612]: Free. No confirmed English line — use 110 or your hotline app for translation.
+          - article [ref=e613]:
+            - generic [ref=e614]:
+              - generic [ref=e615]: City hotline
+              - strong [ref=e616]: "12345"
+              - list [ref=e617]:
+                - listitem [ref=e618]: EN
+                - listitem [ref=e619]: JA
+                - listitem [ref=e620]: KO
+                - listitem [ref=e621]: DE
+                - listitem [ref=e622]: FR
+                - listitem [ref=e623]: RU
+                - listitem [ref=e624]: ES
+                - listitem [ref=e625]: AR
+                - listitem [ref=e626]: PT
+                - listitem [ref=e627]: IT
+              - paragraph [ref=e628]: 10 languages. English line 24/7; others ~8 hours/day.
+            - generic [ref=e629]:
+              - generic [ref=e630]: Foreign-friendly hospitals
+              - list [ref=e631]:
+                - listitem [ref=e632]:
+                  - strong [ref=e633]: Peking Union Medical College Hospital (PUMCH)
+                  - generic [ref=e634]: 1 Shuaifuyuan, Wangfujing, Dongcheng District
+                  - generic [ref=e635]:
+                    - generic [ref=e636]:
+                      - generic [ref=e637]: "Main:"
+                      - text: +86 10 6915 1188
+                    - generic [ref=e638]:
+                      - generic [ref=e639]: "ER:"
+                      - text: 24/7
+                  - generic [ref=e640]: International Medical Services (IMS)
+                  - generic [ref=e641]: Mon–Fri 08:00–17:00; Sat–Sun 08:00–12:00; ER 24/7
+                - listitem [ref=e642]:
+                  - strong [ref=e643]: Beijing United Family Hospital
+                  - generic [ref=e644]: 2 Jiangtai Road, Chaoyang District
+                  - generic [ref=e645]:
+                    - generic [ref=e646]:
+                      - generic [ref=e647]: "Main:"
+                      - text: +86 10 5927 7000
+                    - generic [ref=e648]:
+                      - generic [ref=e649]: "ER:"
+                      - text: +86 10 5927 7120
+                  - generic [ref=e650]: English-speaking doctors throughout; no separate international desk
+                  - generic [ref=e651]: ER 24/7; outpatient varies
+          - generic [ref=e652]:
+            - heading "Major embassies in China" [level=3] [ref=e653]
+            - list [ref=e654]:
+              - listitem [ref=e655]:
+                - strong [ref=e656]: United States
+                - generic [ref=e657]: 55 Anjialou Road, Chaoyang District
+                - generic [ref=e658]:
+                  - generic [ref=e659]: "Main:"
+                  - text: +86 10 8531 4000
+                - generic [ref=e660]:
+                  - generic [ref=e661]: "Emergency:"
+                  - text: +1 202 501 4444 (State Dept Ops 24/7)
+              - listitem [ref=e662]:
+                - strong [ref=e663]: United Kingdom
+                - generic [ref=e664]: 11 Guanghua Road, Chaoyang District
+                - generic [ref=e665]:
+                  - generic [ref=e666]: "Main:"
+                  - text: +86 10 5192 4000
+                - generic [ref=e667]:
+                  - generic [ref=e668]: "Emergency:"
+                  - text: +86 10 5192 4000 (24/7 prompts)
+              - listitem [ref=e669]:
+                - strong [ref=e670]: Canada
+                - generic [ref=e671]: 19 Dongzhimenwai Dajie, Chaoyang District
+                - generic [ref=e672]:
+                  - generic [ref=e673]: "Main:"
+                  - text: +86 10 5139 4000
+                - generic [ref=e674]:
+                  - generic [ref=e675]: "Emergency:"
+                  - text: +86 10 5139 4000 (24/7)
+              - listitem [ref=e676]:
+                - strong [ref=e677]: Australia
+                - generic [ref=e678]: 21 Dongzhimenwai Dajie
+                - generic [ref=e679]:
+                  - generic [ref=e680]: "Main:"
+                  - text: +86 10 5140 4111
+                - generic [ref=e681]:
+                  - generic [ref=e682]: "Emergency:"
+                  - text: +61 2 6261 3305 (Canberra 24/7)
+              - listitem [ref=e683]:
+                - strong [ref=e684]: Japan
+                - generic [ref=e685]: 1 Liangmaqiao East Street, Chaoyang District
+                - generic [ref=e686]:
+                  - generic [ref=e687]: "Main:"
+                  - text: +86 10 8531 9800
+                - generic [ref=e688]:
+                  - generic [ref=e689]: "Emergency:"
+                  - text: +86 10 6532 5964 (Consular Protection)
+            - paragraph [ref=e690]:
+              - text: "Full directory:"
+              - link "MFA — Full directory of foreign missions in China (MFA)." [ref=e691] [cursor=pointer]:
+                - /url: https://www.fmprc.gov.cn/web/fw_673051/lbfw_673061/fgzl_673083/
+          - generic [ref=e692]:
+            - heading "Hospital visit flow" [level=3] [ref=e693]
+            - list [ref=e694]:
+              - listitem [ref=e695]:
+                - generic [ref=e696]: "1"
+                - generic [ref=e697]:
+                  - strong [ref=e698]: Make an appointment
+                  - paragraph [ref=e699]: Public hospital IMS desks accept walk-in registration; private hospitals (UFH/SOS/HKU-SZH IMC) prefer prior phone or app booking.
+              - listitem [ref=e700]:
+                - generic [ref=e701]: "2"
+                - generic [ref=e702]:
+                  - strong [ref=e703]: Bring documents
+                  - paragraph [ref=e704]: Original passport (copy not enough). International insurance card + policy. Letter of guarantee from insurer if claiming direct billing.
+              - listitem [ref=e705]:
+                - generic [ref=e706]: "3"
+                - generic [ref=e707]:
+                  - strong [ref=e708]: Pay at counter or direct-billing
+                  - paragraph [ref=e709]: Cash + Alipay/WeChat universal. UnionPay card universal. Visa/MC mainly at IMS/VIP desks. Direct billing only at hospitals contracted with your insurer.
+          - generic [ref=e710]:
+            - generic [ref=e711]: Practical medical & emergency pitfalls
+            - list [ref=e712]:
+              - listitem [ref=e713]:
+                - strong [ref=e714]: Taxi to hospital is faster than 120 ambulance for non-spinal cases
+                - paragraph [ref=e715]: "120 ambulances aren't equipped to Western paramedic standards and average 20+ min in urban traffic. Long-term expats consistently say: for non-spinal emergencies, take a taxi to the nearest 3A hospital."
+              - listitem [ref=e716]:
+                - strong [ref=e717]: Public hospital admission needs CNY 5K–20K cash deposit upfront
+                - paragraph [ref=e718]: Hospitals will stabilise you in the ER, then ask for a CNY 5,000–20,000 deposit before any further treatment. Ambulances charge upfront too — about CNY 7 per km plus CNY 80 per hour of waiting. Most travel insurers reimburse you later, so check your insurer's direct-billing hospital list before you fly.
+              - listitem [ref=e719]:
+                - strong [ref=e720]: "Public hospitals: get a Medical Card (医疗卡) before any appointment"
+                - paragraph [ref=e721]: New patients can't walk in directly. Go to the registration desk first — bring your passport and CNY 50, and allow 15–20 minutes. Head straight to the consultation room without doing this and staff will send you back.
+              - listitem [ref=e722]:
+                - strong [ref=e723]: International hospital departments cost 6–12× standard rates
+                - paragraph [ref=e724]: Beijing United Family, PUMCH international wing, and Raffles Shanghai all have English-speaking staff, but outpatient registration starts at CNY 300–600 versus CNY 10–30 at a standard public department. Plan on CNY 2,000–5,000+ per visit if your insurer doesn't direct-bill.
+              - listitem [ref=e725]:
+                - strong [ref=e726]: Most Western prescriptions unavailable — bring your own + 20% extra
+                - paragraph [ref=e727]: Chinese pharmacies don't stock most Western brand-name medications. Controlled substances (some painkillers, ADHD drugs, anxiety meds) are restricted and may be confiscated at customs without a physician's letter. Bring full supply in original labelled bottles.
+              - listitem [ref=e728]:
+                - strong [ref=e729]: Beijing has 3 emergency numbers — 999 sometimes faster than 120
+                - paragraph [ref=e730]: "Beijing: 120 (public emergency), 999 (Red Cross / private ambulance, faster in some districts), 110 (police). US Embassy medical assistance +86-10-8531-4000. Beijing United 24h ER +86-10-5927-7120. PUMCH 24h ER +86-10-69155288."
+        - generic [ref=e732]:
+          - generic [ref=e733]:
+            - text: Official further reading
+            - heading "City tourism bureau & government portals" [level=2] [ref=e734]
+          - list [ref=e735]:
+            - listitem [ref=e736]:
+              - link "Visit Beijing Tourism bureau site — events, itinerary routes, ticketing portal, 7-language coverage. english.visitbeijing.com.cn →" [ref=e737] [cursor=pointer]:
+                - /url: https://english.visitbeijing.com.cn/
+                - strong [ref=e738]: Visit Beijing
+                - generic [ref=e739]: Tourism bureau site — events, itinerary routes, ticketing portal, 7-language coverage.
+                - generic [ref=e740]: english.visitbeijing.com.cn →
+            - listitem [ref=e741]:
+              - 'link "Beijing Government — Travelling in Beijing Government practical resource: visa, transport, payment, SIM cards, tax refunds, FAQs. english.beijing.gov.cn →" [ref=e742] [cursor=pointer]':
+                - /url: https://english.beijing.gov.cn/travellinginbeijing/
+                - strong [ref=e743]: Beijing Government — Travelling in Beijing
+                - generic [ref=e744]: "Government practical resource: visa, transport, payment, SIM cards, tax refunds, FAQs."
+                - generic [ref=e745]: english.beijing.gov.cn →
+        - generic [ref=e746]:
+          - heading "Phase 2 — coming soon" [level=2] [ref=e747]
+          - generic [ref=e748]:
+            - link "Ask Chinese locals" [ref=e749] [cursor=pointer]:
+              - /url: /ask
+            - link "Share your trip" [ref=e750] [cursor=pointer]:
+              - /url: /share
+        - paragraph [ref=e751]:
+          - link "See all references →" [ref=e752] [cursor=pointer]:
+            - /url: /sources
+      - complementary "City landmark" [ref=e753]:
+        - generic [ref=e754]:
+          - generic [ref=e755]:
+            - img "Lama Temple (Yonghe Gong)" [ref=e797]
+            - generic [ref=e758]:
+              - strong [ref=e759]: Lama Temple (Yonghe Gong)
+              - generic [ref=e760]: Dongcheng · Peter Zhou on Unsplash
+          - generic [ref=e761]:
+            - button "Forbidden City / Palace Museum" [ref=e762] [cursor=pointer]
+            - button "Great Wall at Mutianyu" [ref=e763] [cursor=pointer]
+            - button "Summer Palace" [ref=e764] [cursor=pointer]
+            - button "Temple of Heaven" [ref=e765] [cursor=pointer]
+            - button "Lama Temple (Yonghe Gong)" [ref=e766] [cursor=pointer]
+            - button "Tiananmen Square" [ref=e767] [cursor=pointer]
+  - contentinfo [ref=e768]:
+    - paragraph [ref=e769]: Travel China demo data only.
+    - generic [ref=e770]:
+      - link "References" [ref=e771] [cursor=pointer]:
+        - /url: /sources
+      - link "Back to top" [ref=e772] [cursor=pointer]:
+        - /url: "#top"
+  - button "Back to top" [ref=e774] [cursor=pointer]:
+    - img [ref=e775]
+  - dialog "Food culture and how to eat it":
+    - banner:
+      - generic:
+        - generic: Local food culture
+        - heading "Beijing" [level=2]
+      - button "Close" [active]:
+        - img
+    - generic:
+      - paragraph: "Peking roast duck — carved tableside, paired with thin pancakes, scallion, and sweet bean sauce. Old-Beijing snacks: noodles with soybean paste, dou-zhi (fermented mung bean), tanghulu skewers, copper-pot mutton hotpot. Halal options widely available."
+      - generic:
+        - generic: Culture & how to eat it
+        - paragraph: The duck is roasted whole until the skin is glassy, then sliced thin tableside. You wrap each slice in a delicate pancake with scallion, cucumber, and a dab of sweet bean sauce. Eating it is part performance, part shared meal — best with a small group ordering a whole duck. The classic version isn't halal; halal restaurants substitute chicken. Order chrysanthemum tea or a local beer with it; the tradition doesn't add chilli oil. Old-Beijing snacks (noodles with soybean paste, dou-zhi, tanghulu skewers) survive in walking-street stalls and small storefronts; pick one with locals queuing — that's your quality signal. Copper-pot mutton hotpot belongs to winter, served with sesame paste and pickled garlic on the side.
+      - paragraph: We cover cuisines and food culture only — no specific restaurant picks. Use Dianping / Meituan for venue selection.

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import clsx from "clsx";
 import type { CityFood } from "../../data/food";
@@ -13,6 +13,11 @@ type Props = {
 export default function CuisineDrawer({ city, open, onClose }: Props) {
   const { lang } = useLang();
   const isZh = lang === "zh";
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -27,7 +32,7 @@ export default function CuisineDrawer({ city, open, onClose }: Props) {
     };
   }, [open, onClose]);
 
-  if (typeof document === "undefined") return null;
+  if (!mounted) return null;
 
   const notes = city.cuisine.culturalNotes;
 
@@ -46,7 +51,7 @@ export default function CuisineDrawer({ city, open, onClose }: Props) {
         aria-modal="true"
         aria-label={isZh ? "美食文化与吃法" : "Food culture and how to eat it"}
         className={clsx(
-          "fixed inset-x-0 bottom-0 z-[70] flex max-h-[85vh] flex-col rounded-t-2xl bg-paper shadow-2xl transition-transform duration-300 sm:bottom-auto sm:right-0 sm:top-0 sm:h-full sm:max-h-none sm:max-w-[480px] sm:rounded-none sm:rounded-l-2xl",
+          "fixed inset-x-0 bottom-0 z-[70] flex max-h-[85vh] flex-col rounded-t-2xl bg-paper shadow-2xl transition-transform duration-300 sm:bottom-auto sm:left-auto sm:right-0 sm:top-0 sm:h-full sm:max-h-none sm:max-w-[480px] sm:rounded-none sm:rounded-l-2xl",
           open
             ? "translate-y-0 sm:translate-x-0"
             : "pointer-events-none translate-y-full sm:translate-y-0 sm:translate-x-full"
