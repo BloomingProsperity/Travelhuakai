@@ -1,7 +1,6 @@
 import { Link } from "react-router";
-import MapPreview from "../components/map/MapPreview";
+import HeroMap from "../components/map/HeroMap";
 import { Badge } from "../components/ui/badge";
-import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import { attractionsByCity, type Attraction } from "../data/city-attractions";
 import { CITY_LABELS, type CityId } from "../data/transport";
@@ -70,57 +69,13 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: stringifyJsonLd(homeBreadcrumbJsonLd) }}
       />
       <main id="top" className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 sm:py-10">
-      <header className="flex flex-col gap-2">
+      <header>
         <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
-          {isZh ? "欢迎来中国" : "Travel China"}
+          {isZh ? "欢迎来到中国" : "Welcome to China"}
         </h1>
-        <p className="max-w-2xl text-sm leading-relaxed text-muted sm:text-base">
-          {isZh
-            ? "先从城市和景区照片开始，再进入地图、签证、支付和注意事项。"
-            : "Start with city landmark photos, then open the map, visa, payment, and travel-note pages."}
-        </p>
-        <p className="text-xs text-muted">
-          {isZh
-            ? "政策与官方信息引自中国官方源；操作经验与社区提示注明出处。"
-            : "Policy and official information cite Chinese government sources; community tips and operational pitfalls are attributed."}
-        </p>
       </header>
 
-      <section aria-label={isZh ? "城市景区照片" : "City attraction photos"} className="grid gap-4 md:grid-cols-2">
-        {CITY_IDS.map((cityId) => (
-          <CityPhotoCard key={cityId} cityId={cityId} attraction={pickCityPhoto(cityId)} isZh={isZh} />
-        ))}
-      </section>
-
-      <Link
-        to="/map"
-        aria-label={isZh ? "打开地标地图" : "Open landmark map"}
-        className="group block"
-      >
-        <Card className="grid gap-0 overflow-hidden rounded-lg border-line bg-card py-0 shadow-sm transition group-hover:border-jade group-hover:shadow-md lg:grid-cols-[minmax(0,1fr)_420px]">
-        <CardContent className="flex min-w-0 flex-col justify-center gap-3 p-5 sm:p-6">
-          <Badge variant="secondary" className="w-fit uppercase tracking-widest">
-            {isZh ? "地图入口" : "Map"}
-          </Badge>
-          <h2 className="text-2xl font-bold leading-tight sm:text-3xl">
-            {isZh ? "地标地图" : "Landmark map"}
-          </h2>
-          <p className="max-w-xl text-sm leading-relaxed text-muted-foreground">
-            {isZh
-              ? "按省份查看城市、港澳和景区地标，点击后进入 3D 实景地图。"
-              : "Browse cities, Hong Kong, Macau, and landmark regions by province, then open the 3D scene."}
-          </p>
-          <Button asChild className="w-fit">
-            <span>
-            {isZh ? "进入地图 →" : "Open map →"}
-            </span>
-          </Button>
-        </CardContent>
-        <CardContent className="h-64 min-w-0 border-t border-line bg-paper/60 p-3 lg:h-auto lg:border-l lg:border-t-0">
-          <MapPreview />
-        </CardContent>
-        </Card>
-      </Link>
+      <HeroMap />
 
       <section aria-label={isZh ? "出行功能入口" : "Travel guide links"} className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
         {guideLinks.map((item) => (
@@ -139,6 +94,18 @@ export default function HomePage() {
             </Card>
           </Link>
         ))}
+      </section>
+
+      <section aria-label={isZh ? "旅游城市" : "Cities"} className="flex flex-col gap-3">
+        <header className="flex items-end justify-between">
+          <h2 className="text-xl font-bold">{isZh ? "城市详情" : "City pages"}</h2>
+          <span className="text-xs text-muted">{isZh ? "点击进入" : "Tap to enter"}</span>
+        </header>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {CITY_IDS.map((cityId) => (
+            <CityPhotoCard key={cityId} cityId={cityId} attraction={pickCityPhoto(cityId)} isZh={isZh} />
+          ))}
+        </div>
       </section>
       </main>
     </>
@@ -161,7 +128,7 @@ function CityPhotoCard({
       to={`/city/${cityId}`}
       className="group block"
     >
-      <Card className="relative min-h-[260px] overflow-hidden rounded-lg border-line bg-ink py-0 text-white shadow-sm">
+      <Card className="relative min-h-[220px] overflow-hidden rounded-lg border-line bg-ink py-0 text-white shadow-sm">
       <img
         src={attraction.imageUrl}
         srcSet={unsplashSrcSet(attraction.imageUrl)}
