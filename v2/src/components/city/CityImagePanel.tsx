@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { attractionsByCity } from "../../data/city-attractions";
 import type { CityId } from "../../data/transport";
+import { unsplashSrcSet } from "../../lib/unsplash";
 import { useLang } from "../../store/language";
 
 type Props = { cityId: CityId };
@@ -32,8 +33,11 @@ export default function CityImagePanel({ cityId }: Props) {
             <img
               key={current.id}
               src={current.imageUrl}
+              srcSet={unsplashSrcSet(current.imageUrl)}
+              sizes="(min-width: 1024px) 300px, 100vw"
               alt={isZh ? current.nameZh : current.nameEn}
               loading="lazy"
+              decoding="async"
               referrerPolicy="no-referrer"
               className="h-full w-full animate-[fadeUp_500ms_ease] object-cover"
               onError={(e) => {

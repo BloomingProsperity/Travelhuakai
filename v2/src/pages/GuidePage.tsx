@@ -4,6 +4,8 @@ import VisaChecker from "../components/pillar/VisaChecker";
 import PaymentsChecklist from "../components/pillar/PaymentsChecklist";
 import TopQuestions from "../components/sections/TopQuestions";
 import SourcesNote from "../components/common/SourcesNote";
+import { topQuestions } from "../data/top-questions";
+import { breadcrumbListJsonLd, stringifyJsonLd } from "../lib/jsonLd";
 import { useLang } from "../store/language";
 
 type GuideTopic = "entry" | "payments" | "notes";
@@ -31,6 +33,25 @@ const topicLabels: Record<GuideTopic, { en: string; zh: string; bodyEn: string; 
 
 const validTopics = new Set<GuideTopic>(["entry", "payments", "notes"]);
 
+const notesFaqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: topQuestions.map((question) => ({
+    "@type": "Question",
+    name: question.questionEn,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: question.answerEn
+    }
+  }))
+};
+
+const notesBreadcrumbJsonLd = breadcrumbListJsonLd([
+  { name: "Home", path: "/" },
+  { name: "Guide", path: "/guide/notes" },
+  { name: "Travel notes" }
+]);
+
 export default function GuidePage() {
   const { topic } = useParams<{ topic: string }>();
   const { lang } = useLang();
@@ -57,7 +78,20 @@ export default function GuidePage() {
   const label = topicLabels[current];
 
   return (
-    <main id="top" className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-8 sm:py-10">
+    <>
+      {current === "notes" && (
+        <>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: stringifyJsonLd(notesFaqJsonLd) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: stringifyJsonLd(notesBreadcrumbJsonLd) }}
+          />
+        </>
+      )}
+      <main id="top" className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-8 sm:py-10">
       <header className="flex flex-col gap-2">
         <Link to="/" className="text-xs font-bold uppercase tracking-widest text-muted hover:text-jade">
           {isZh ? "← 返回首页" : "← Home"}
@@ -78,6 +112,7 @@ export default function GuidePage() {
       )}
 
       <SourcesNote />
-    </main>
+      </main>
+    </>
   );
 }

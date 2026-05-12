@@ -1,5 +1,7 @@
 import { Link, useParams } from "react-router";
+import { attractionsByCity } from "../data/city-attractions";
 import { CITY_LABELS, type CityId } from "../data/transport";
+import { absoluteUrl, breadcrumbListJsonLd, stringifyJsonLd } from "../lib/jsonLd";
 import { useLang } from "../store/language";
 import VisaChecker from "../components/pillar/VisaChecker";
 import PaymentsChecklist from "../components/pillar/PaymentsChecklist";
@@ -13,6 +15,61 @@ import CityIntro from "../components/city/CityIntro";
 import CityImagePanel from "../components/city/CityImagePanel";
 
 const VALID_IDS: readonly CityId[] = ["beijing", "shanghai", "guangzhou", "shenzhen"];
+
+function cityStructuredData(cityId: CityId) {
+  const city = CITY_LABELS[cityId];
+  const cityUrl = absoluteUrl(`/city/${cityId}`);
+  const cityNodeId = `${cityUrl}#city`;
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "City",
+        "@id": cityNodeId,
+        name: [
+          { "@language": "en", "@value": city.en },
+          { "@language": "zh-CN", "@value": city.zh }
+        ],
+        url: cityUrl,
+        containedInPlace: {
+          "@type": "Country",
+          name: "China"
+        }
+      },
+      ...attractionsByCity(cityId).map((attraction) => ({
+        "@type": "TouristAttraction",
+        "@id": `${cityUrl}#${attraction.id}`,
+        name: [
+          { "@language": "en", "@value": attraction.nameEn },
+          { "@language": "zh-CN", "@value": attraction.nameZh }
+        ],
+        description: attraction.whyEn,
+        image: attraction.imageUrl,
+        url: attraction.officialUrl,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: city.en,
+          addressRegion: attraction.districtEn,
+          addressCountry: "CN"
+        },
+        containedInPlace: {
+          "@id": cityNodeId
+        }
+      }))
+    ]
+  };
+}
+
+function cityBreadcrumbStructuredData(cityId: CityId) {
+  const city = CITY_LABELS[cityId];
+
+  return breadcrumbListJsonLd([
+    { name: "Home", path: "/" },
+    { name: "City", path: `/city/${cityId}` },
+    { name: city.zh }
+  ]);
+}
 
 export default function CityPage() {
   const { cityId } = useParams<{ cityId: string }>();
@@ -30,9 +87,20 @@ export default function CityPage() {
 
   const id = cityId as CityId;
   const label = CITY_LABELS[id];
+  const cityJsonLd = cityStructuredData(id);
+  const cityBreadcrumbJsonLd = cityBreadcrumbStructuredData(id);
 
   return (
-    <main id="top" className="mx-auto max-w-7xl px-4 py-10">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(cityJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(cityBreadcrumbJsonLd) }}
+      />
+      <main id="top" className="mx-auto max-w-7xl px-4 py-10">
       <header className="mb-6 flex flex-col gap-2">
         <Link to="/" className="text-xs font-bold uppercase tracking-widest text-muted hover:text-jade">
           {isZh ? "← 全部城市" : "← All cities"}
@@ -75,6 +143,7 @@ export default function CityPage() {
 
         <CityImagePanel cityId={id} />
       </div>
-    </main>
+      </main>
+    </>
   );
 }

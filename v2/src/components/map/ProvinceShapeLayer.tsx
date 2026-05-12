@@ -20,6 +20,10 @@ type ShapeButtonProps = {
   onSelect: () => void;
 };
 
+type ProvinceShapeLayerProps = {
+  enable3D: boolean;
+};
+
 function ProvinceShapeButton({ shape, active, focused, label, onSelect }: ShapeButtonProps) {
   const dimmed = focused && !active;
   const baseFill = PROVINCE_COLORS[shape.id] ?? DEFAULT_PROVINCE_FILL;
@@ -75,7 +79,7 @@ function ProvinceShapeButton({ shape, active, focused, label, onSelect }: ShapeB
   );
 }
 
-export default function ProvinceShapeLayer() {
+export default function ProvinceShapeLayer({ enable3D }: ProvinceShapeLayerProps) {
   const { shapes, error } = useProvinceShapes();
   const { lang } = useLang();
   const { selectedProvinceId, selectPlace, selectProvince } = useAtlas();
@@ -137,7 +141,7 @@ export default function ProvinceShapeLayer() {
               active={active}
               focused={focused}
               label={title}
-              onSelect={() => (active ? selectProvince(null) : selectPlace(shape.id, null))}
+              onSelect={() => (active ? selectProvince(null) : selectPlace(shape.id, null, enable3D))}
             />
           );
         })}

@@ -9,7 +9,11 @@ const markerOffsets: Record<string, { desktopX: number; desktopY: number; mobile
   macau: { desktopX: -2.6, desktopY: 1.4, mobileX: -7.2, mobileY: 2.4 }
 };
 
-export default function SpecialRegionMarkers() {
+type SpecialRegionMarkersProps = {
+  enable3D: boolean;
+};
+
+export default function SpecialRegionMarkers({ enable3D }: SpecialRegionMarkersProps) {
   const { lang } = useLang();
   const { selectedProvinceId, selectPlace } = useAtlas();
   const visible = provinceHitAreas.filter((area) => markerIds.has(area.id));
@@ -32,7 +36,7 @@ export default function SpecialRegionMarkers() {
             key={area.id}
             type="button"
             aria-label={lang === "zh" ? area.zh : area.en}
-            onClick={() => selectPlace(area.id, null)}
+            onClick={() => selectPlace(area.id, null, enable3D)}
             className="special-region-marker pointer-events-auto absolute flex -translate-x-1/2 -translate-y-1/2 items-center gap-1 whitespace-nowrap rounded-full border border-ink/25 bg-white/95 px-1.5 py-1 text-[10px] font-bold leading-none text-ink shadow-md transition hover:border-jade hover:text-jade sm:px-2"
             style={style}
           >

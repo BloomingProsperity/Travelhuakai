@@ -9,8 +9,8 @@ export type AtlasState = {
 };
 
 export type AtlasAction =
-  | { type: "selectProvince"; provinceId: string | null }
-  | { type: "selectPlace"; provinceId: string; cityId: string | null }
+  | { type: "selectProvince"; provinceId: string | null; enable3D?: boolean }
+  | { type: "selectPlace"; provinceId: string; cityId: string | null; enable3D?: boolean }
   | { type: "toggle3D" }
   | { type: "reset" };
 
@@ -27,10 +27,15 @@ export const atlasReducer = (state: AtlasState, action: AtlasAction): AtlasState
         ...state,
         selectedProvinceId: action.provinceId,
         selectedCityId: null,
-        is3DEnabled: Boolean(action.provinceId)
+        is3DEnabled: Boolean(action.provinceId) && (action.enable3D ?? true)
       };
     case "selectPlace":
-      return { ...state, selectedProvinceId: action.provinceId, selectedCityId: action.cityId, is3DEnabled: true };
+      return {
+        ...state,
+        selectedProvinceId: action.provinceId,
+        selectedCityId: action.cityId,
+        is3DEnabled: action.enable3D ?? true
+      };
     case "toggle3D":
       return { ...state, is3DEnabled: !state.is3DEnabled };
     case "reset":
@@ -72,8 +77,10 @@ export function useAtlas() {
     ...state,
     province,
     city,
-    selectProvince: (provinceId: string | null) => dispatch({ type: "selectProvince", provinceId }),
-    selectPlace: (provinceId: string, cityId: string | null) => dispatch({ type: "selectPlace", provinceId, cityId }),
+    selectProvince: (provinceId: string | null, enable3D = true) =>
+      dispatch({ type: "selectProvince", provinceId, enable3D }),
+    selectPlace: (provinceId: string, cityId: string | null, enable3D = true) =>
+      dispatch({ type: "selectPlace", provinceId, cityId, enable3D }),
     selectCity: (cityId: string | null) =>
       state.selectedProvinceId
         ? dispatch({ type: "selectPlace", provinceId: state.selectedProvinceId, cityId })

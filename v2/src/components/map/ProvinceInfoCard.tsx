@@ -5,7 +5,12 @@ import { provinceAttractionSeed } from "../../data/atlas";
 import { useRecordCityView } from "../../hooks/useCityViews";
 import { getPhase1CityRouteId } from "../../lib/cityRoutes";
 
-export default function ProvinceInfoCard() {
+type ProvinceInfoCardProps = {
+  enable3D: boolean;
+  showDesktop3DNotice: boolean;
+};
+
+export default function ProvinceInfoCard({ enable3D, showDesktop3DNotice }: ProvinceInfoCardProps) {
   const { selectedProvinceId, province, selectPlace, is3DEnabled } = useAtlas();
   const { lang, t } = useLang();
   const recordView = useRecordCityView();
@@ -24,7 +29,7 @@ export default function ProvinceInfoCard() {
       navigate(`/city/${phase1}`);
       return;
     }
-    selectPlace(province.id, cityId);
+    selectPlace(province.id, cityId, enable3D);
   };
 
   return (
@@ -36,6 +41,11 @@ export default function ProvinceInfoCard() {
         <span className="text-xs font-bold uppercase tracking-widest text-muted">{t("currentView")}</span>
         <h3 className="text-xl font-bold leading-tight">{lang === "zh" ? province.zh : province.name}</h3>
         <p className="text-xs text-muted">{lang === "zh" ? province.name : province.zh}</p>
+        {showDesktop3DNotice && (
+          <p className="mt-1 text-xs font-medium text-muted">
+            {lang === "zh" ? "3D 视图仅在桌面端提供" : "3D scene available on desktop"}
+          </p>
+        )}
       </header>
 
       {hasCities && (

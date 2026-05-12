@@ -2,14 +2,16 @@ import { lazy, Suspense } from "react";
 import MapErrorBoundary from "../common/MapErrorBoundary";
 import { useAtlas } from "../../store/atlas";
 import { useLang } from "../../store/language";
+import { useIsDesktop } from "../../hooks/useIsDesktop";
 
 const Map3D = lazy(() => import("./Map3D"));
 
 export default function Province3DOverlay() {
   const { selectedProvinceId, province, is3DEnabled, reset } = useAtlas();
   const { lang } = useLang();
+  const isDesktop = useIsDesktop();
 
-  if (!selectedProvinceId || !province || !is3DEnabled) return null;
+  if (!isDesktop || !selectedProvinceId || !province || !is3DEnabled) return null;
 
   return (
     <section

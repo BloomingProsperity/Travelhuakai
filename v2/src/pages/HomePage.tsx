@@ -2,6 +2,8 @@ import { Link } from "react-router";
 import MapPreview from "../components/map/MapPreview";
 import { attractionsByCity, type Attraction } from "../data/city-attractions";
 import { CITY_LABELS, type CityId } from "../data/transport";
+import { absoluteUrl, breadcrumbListJsonLd, SITE_URL, stringifyJsonLd } from "../lib/jsonLd";
+import { unsplashSrcSet } from "../lib/unsplash";
 import { useLang } from "../store/language";
 
 const CITY_IDS: CityId[] = ["beijing", "shanghai", "guangzhou", "shenzhen"];
@@ -12,6 +14,38 @@ const guideLinks = [
   { to: "/guide/notes", en: "Travel notes", zh: "出行注意事项" }
 ];
 
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: [
+    { "@language": "en", "@value": "Travel China" },
+    { "@language": "zh-CN", "@value": "旅行中国" }
+  ],
+  url: absoluteUrl("/"),
+  inLanguage: ["en", "zh-CN"],
+  description: [
+    {
+      "@language": "en",
+      "@value":
+        "Practical China travel guide for foreign visitors, covering major cities, landmark attractions, maps, entry, payments, transport, food, and travel notes."
+    },
+    {
+      "@language": "zh-CN",
+      "@value": "面向外国游客的中国旅行指南，覆盖城市、景点、地图、入境、支付、交通、餐饮和出行注意事项。"
+    }
+  ],
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${SITE_URL}/search?q={search_term_string}`
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
+
+const homeBreadcrumbJsonLd = breadcrumbListJsonLd([{ name: "Home", path: "/" }]);
+
 function pickCityPhoto(cityId: CityId): Attraction {
   return attractionsByCity(cityId)[0];
 }
@@ -21,7 +55,16 @@ export default function HomePage() {
   const isZh = lang === "zh";
 
   return (
-    <main id="top" className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 sm:py-10">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(websiteJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(homeBreadcrumbJsonLd) }}
+      />
+      <main id="top" className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 sm:py-10">
       <header className="flex flex-col gap-2">
         <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
           {isZh ? "欢迎来中国" : "Travel China"}
@@ -84,7 +127,8 @@ export default function HomePage() {
           </Link>
         ))}
       </section>
-    </main>
+      </main>
+    </>
   );
 }
 
@@ -106,8 +150,12 @@ function CityPhotoCard({
     >
       <img
         src={attraction.imageUrl}
+        srcSet={unsplashSrcSet(attraction.imageUrl)}
+        sizes="(min-width: 768px) 50vw, 100vw"
         alt={isZh ? attraction.nameZh : attraction.nameEn}
         loading={cityId === "beijing" ? "eager" : "lazy"}
+        fetchPriority={cityId === "beijing" ? "high" : "auto"}
+        decoding="async"
         referrerPolicy="no-referrer"
         className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
         onError={(event) => {
