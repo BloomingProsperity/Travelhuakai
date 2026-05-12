@@ -7,9 +7,11 @@ export default {
     return [
       "/",
       "/map",
+      "/phrasebook",
       "/guide/entry",
       "/guide/payments",
       "/guide/notes",
+      "/plan",
       "/share",
       "/ask",
       "/sources",

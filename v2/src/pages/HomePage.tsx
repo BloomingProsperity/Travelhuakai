@@ -11,7 +11,9 @@ const CITY_IDS: CityId[] = ["beijing", "shanghai", "guangzhou", "shenzhen"];
 const guideLinks = [
   { to: "/guide/entry", en: "Entry & visa", zh: "入境签证" },
   { to: "/guide/payments", en: "Payments", zh: "支付准备" },
-  { to: "/guide/notes", en: "Travel notes", zh: "出行注意事项" }
+  { to: "/plan", en: "3-day plan", zh: "3 天行程" },
+  { to: "/guide/notes", en: "Travel notes", zh: "出行注意事项" },
+  { to: "/phrasebook", en: "Essential phrases", zh: "应急短语" }
 ];
 
 const websiteJsonLd = {
@@ -113,7 +115,7 @@ export default function HomePage() {
         </div>
       </Link>
 
-      <section aria-label={isZh ? "出行功能入口" : "Travel guide links"} className="grid gap-3 sm:grid-cols-3">
+      <section aria-label={isZh ? "出行功能入口" : "Travel guide links"} className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
         {guideLinks.map((item) => (
           <Link
             key={item.to}

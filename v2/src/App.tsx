@@ -6,6 +6,7 @@ import SiteFooter from "./components/layout/SiteFooter";
 import HomePage from "./pages/HomePage";
 import CityPage from "./pages/CityPage";
 import GuidePage from "./pages/GuidePage";
+import PlanPage from "./pages/PlanPage";
 import MapPage from "./pages/MapPage";
 import SharePage from "./pages/SharePage";
 import AskPage from "./pages/AskPage";
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/map" element={<MapPage />} />
             <Route path="/guide/:topic" element={<GuidePage />} />
+            <Route path="/plan" element={<PlanPage />} />
             <Route path="/city/:cityId" element={<CityPage />} />
             <Route path="/share" element={<SharePage />} />
             <Route path="/ask" element={<AskPage />} />

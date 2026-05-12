@@ -6,6 +6,7 @@ type CityNavItem = { id: string; en: string; zh: string };
 
 const CITY_NAV_ITEMS: CityNavItem[] = [
   { id: "intro", en: "City overview", zh: "城市介绍" },
+  { id: "season", en: "When to visit", zh: "最佳季节" },
   { id: "visa", en: "Entry & Visa", zh: "入境签证" },
   { id: "payments", en: "Payments", zh: "支付" },
   { id: "transport", en: "Transport", zh: "交通" },

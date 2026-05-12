@@ -4,6 +4,7 @@ import LanguageProvider, { htmlLangFor, readInitialLanguage } from "./store/Lang
 import AtlasProvider from "./store/AtlasProvider";
 import SiteHeader from "./components/layout/SiteHeader";
 import SiteFooter from "./components/layout/SiteFooter";
+import ScrollToTop from "./components/common/ScrollToTop";
 import { absoluteUrl } from "./lib/jsonLd";
 import "./styles/globals.css";
 
@@ -57,6 +58,7 @@ export default function App() {
         <SiteHeader />
         <Outlet />
         <SiteFooter />
+        <ScrollToTop />
       </AtlasProvider>
     </LanguageProvider>
   );

@@ -13,6 +13,7 @@ import SourcesNote from "../components/common/SourcesNote";
 import CityNav from "../components/city/CityNav";
 import CityIntro from "../components/city/CityIntro";
 import CityImagePanel from "../components/city/CityImagePanel";
+import CitySeasonBlock from "../components/city/CitySeasonBlock";
 
 const VALID_IDS: readonly CityId[] = ["beijing", "shanghai", "guangzhou", "shenzhen"];
 
@@ -114,6 +115,7 @@ export default function CityPage() {
 
         <div className="flex min-w-0 flex-col gap-12">
           <CityIntro cityId={id} />
+          <section id="season" className="scroll-mt-24"><CitySeasonBlock cityId={id} /></section>
           <section id="visa" className="scroll-mt-24"><VisaChecker /></section>
           <section id="payments" className="scroll-mt-24"><PaymentsChecklist cityId={id} /></section>
           <section id="transport" className="scroll-mt-24"><TransportGuide cityId={id} /></section>

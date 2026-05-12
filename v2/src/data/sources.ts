@@ -11,7 +11,7 @@ export type SourceCitation = {
   community?: boolean;
 };
 
-const TODAY = "2026-05-09";
+const TODAY = "2026-05-12";
 
 const make = (record: Omit<SourceCitation, "domain">): SourceCitation => ({
   ...record,
@@ -932,6 +932,105 @@ const list: SourceCitation[] = [
     publisherUrl: "https://english.beijing.gov.cn",
     pageTitleEn: "Beijing emergency numbers (120 / 999 / 110)",
     publishedDate: "2024",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "noaa-wmo-beijing-54511",
+    url: "https://www.ncei.noaa.gov/archive/accession/0253808/data/0-data/Region-2-WMO-Normals-9120/China/CSV/BEIJING_54511.csv",
+    publisher: "NOAA NCEI",
+    publisherUrl: "https://www.ncei.noaa.gov",
+    pageTitleEn: "WMO Climate Normals 1991-2020 - Beijing 54511 station CSV",
+    publishedDate: "2023-02-13",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "noaa-wmo-shanghai-baoshan-58362",
+    url: "https://www.ncei.noaa.gov/archive/accession/0253808/data/0-data/Region-2-WMO-Normals-9120/China/CSV/SHANGHAI__BAOSHAN_58362.csv",
+    publisher: "NOAA NCEI",
+    publisherUrl: "https://www.ncei.noaa.gov",
+    pageTitleEn: "WMO Climate Normals 1991-2020 - Shanghai Baoshan 58362 station CSV",
+    publishedDate: "2023-02-13",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "noaa-wmo-guangzhou-59287",
+    url: "https://www.ncei.noaa.gov/archive/accession/0253808/data/0-data/Region-2-WMO-Normals-9120/China/CSV/GUANGZHOU_59287.csv",
+    publisher: "NOAA NCEI",
+    publisherUrl: "https://www.ncei.noaa.gov",
+    pageTitleEn: "WMO Climate Normals 1991-2020 - Guangzhou 59287 station CSV",
+    publishedDate: "2023-02-13",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "beijing-climate-geography",
+    url: "https://english.beijing.gov.cn/beijinginfo/facts/demographicgeography/202005/t20200518_1900888.html",
+    publisher: "Beijing Government",
+    publisherUrl: "https://english.beijing.gov.cn",
+    pageTitleEn: "Beijing demographic geography and climate facts",
+    publishedDate: "2020-05-18",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "beijing-spring-dust",
+    url: "https://english.beijing.gov.cn/latest/news/202604/t20260402_4573114.html",
+    publisher: "Beijing Government",
+    publisherUrl: "https://english.beijing.gov.cn",
+    pageTitleEn: "Rain before Qingming followed by Beijing spring blowing sand",
+    publishedDate: "2026-04-02",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "beijing-heavy-air-pollution-plan",
+    url: "https://english.beijing.gov.cn/latest/lawsandpolicies/202007/t20200723_1957677.html",
+    publisher: "Beijing Government",
+    publisherUrl: "https://english.beijing.gov.cn",
+    pageTitleEn: "Heavy Air Pollution Contingency Plan of Beijing Municipality",
+    publishedDate: "2020-07-23",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "shanghai-plum-rain",
+    url: "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240618/571c88c3fab1486db0e94acd8fe91c31.html",
+    publisher: "Shanghai Government",
+    publisherUrl: "https://english.shanghai.gov.cn",
+    pageTitleEn: "Shanghai braces for humid rainy season",
+    publishedDate: "2024-06-18",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "shanghai-meteorological-regulations",
+    url: "https://english.shanghai.gov.cn/en-LocalRules/20241219/22ad9440df404a4999d56a070667c26b.html",
+    publisher: "Shanghai Government",
+    publisherUrl: "https://english.shanghai.gov.cn",
+    pageTitleEn: "Meteorological Regulations of Shanghai Municipality",
+    publishedDate: "2024-12-19",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "guangzhou-climate-geography",
+    url: "https://www.gz.gov.cn/zlgz/gzgk/zrdl/content/post_5725003.html",
+    publisher: "Guangzhou Government",
+    publisherUrl: "https://www.gz.gov.cn",
+    pageTitleEn: "Guangzhou natural geography and climate characteristics",
+    publishedDate: "2020-03-10",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "shenzhen-climate-seasons",
+    url: "https://weather.sz.gov.cn/mobile/qixiangfuwu/qihoufuwu/qihouguanceyupinggu/qihougaikuang/content/mpost_3575919.html",
+    publisher: "Shenzhen Meteorological Bureau",
+    publisherUrl: "https://weather.sz.gov.cn",
+    pageTitleEn: "Shenzhen climate overview and seasonal characteristics",
+    publishedDate: "2024-05-15",
+    verifiedDate: TODAY
+  }),
+  make({
+    id: "shenzhen-back-south",
+    url: "https://weather.sz.gov.cn/szsqxjwzgkml/szsqxjwzgkml/ywzsk/qxfwl/content/post_5613756.html",
+    publisher: "Shenzhen Meteorological Bureau",
+    publisherUrl: "https://weather.sz.gov.cn",
+    pageTitleEn: "How return-south damp weather forms",
+    publishedDate: "2015-11-17",
     verifiedDate: TODAY
   })
 ];

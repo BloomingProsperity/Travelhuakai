@@ -29,8 +29,8 @@ export default function SourcesPage() {
       <Section
         titleEn={`Official sources (${official.length})`}
         titleZh={`官方源（${official.length} 条）`}
-        descEn="Chinese government bodies, central ministries, city governments, hospitals, banks, payment networks, foreign embassies in China."
-        descZh="中国政府部委、城市政府、医院、银行、支付组织、外国驻华使领馆。"
+        descEn="Chinese government bodies, central ministries, city governments, official data agencies, hospitals, banks, payment networks, foreign embassies in China."
+        descZh="中国政府部委、城市政府、官方数据机构、医院、银行、支付组织、外国驻华使领馆。"
       >
         <ReferenceList items={official} isZh={isZh} />
       </Section>
