@@ -12,7 +12,11 @@ import PracticalBlock from "../common/PracticalBlock";
 
 const collator = new Intl.Collator("en");
 
-export default function VisaChecker() {
+type Props = {
+  compact?: boolean;
+};
+
+export default function VisaChecker({ compact = false }: Props = {}) {
   const { lang } = useLang();
   const selectId = useId();
   const [country, setCountry] = useState("");
@@ -68,9 +72,19 @@ export default function VisaChecker() {
         <ResultPanel result={result} />
       </div>
 
-      <PolicySummary />
-      <Phase1PortsList />
-      <PracticalBlock pillar="entry" />
+      {compact ? (
+        <p className="text-xs text-muted">
+          {lang === "zh"
+            ? "北京 / 上海 / 广州 / 深圳 四城口岸均支持 240 小时过境免签。各城市页面有完整入境政策与口岸细节。"
+            : "Beijing, Shanghai, Guangzhou, and Shenzhen ports all support 240-hour transit visa-free. See each city page for the full entry briefing and port details."}
+        </p>
+      ) : (
+        <>
+          <PolicySummary />
+          <Phase1PortsList />
+          <PracticalBlock pillar="entry" />
+        </>
+      )}
     </section>
   );
 }

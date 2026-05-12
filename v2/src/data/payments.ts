@@ -31,7 +31,7 @@ export const customsRules = [
     id: "rmb-cash",
     titleEn: "RMB cash carry limit",
     titleZh: "携带人民币现金上限",
-    bodyEn: "Inbound and outbound passengers may carry up to ¥20,000 RMB. Excess must be remitted via banking channels.",
+    bodyEn: "Carry up to ¥20,000 RMB in cash when crossing the border. Any amount above that must go through a bank — you can't carry it in person.",
     bodyZh: "出入境旅客单次最多可携带 20,000 元人民币现金；超出部分须通过银行渠道汇兑。",
     sourceId: "customs-clearance-guide"
   },
@@ -39,7 +39,7 @@ export const customsRules = [
     id: "foreign-cash",
     titleEn: "Foreign currency declaration",
     titleZh: "外币申报阈值",
-    bodyEn: "Foreign currency above the equivalent of USD 5,000 must be declared in writing on arrival. Undeclared amounts can be confiscated.",
+    bodyEn: "Declare any foreign cash above the USD 5,000 equivalent when you land — customs gives you a paper form at the arrivals desk. Leave it undeclared and the excess can be confiscated.",
     bodyZh: "携带外币现金超过 5,000 美元等值时必须在入境时书面申报，未申报可被没收。",
     sourceId: "customs-clearance-guide"
   },
@@ -47,7 +47,7 @@ export const customsRules = [
     id: "personal-goods",
     titleEn: "Personal-use goods (non-resident)",
     titleZh: "随身物品（非居民）",
-    bodyEn: "Reasonable personal-use items are duty-exempt. Goods totalling above ¥2,000 in value intended for non-personal use require duty assessment.",
+    bodyEn: "Personal-use items you're bringing for yourself clear customs duty-free. If you're carrying goods worth more than ¥2,000 that aren't for your own use, declare them at the red channel and pay the assessed duty.",
     bodyZh: "合理自用物品免税；非自用、总值超 2,000 元的物品须报关并按规定纳税。",
     sourceId: "customs-clearance-guide"
   },
@@ -83,7 +83,7 @@ export const preArrivalChecklist: PreArrivalStep[] = [
     id: "carry-cash",
     titleEn: "Bring backup cash, declare if > USD 5,000",
     titleZh: "备少量现金；超过 5,000 美元等值需申报",
-    bodyEn: "RMB carry cap ¥20,000. Foreign cash above USD 5,000 equivalent must be declared on the arrival form.",
+    bodyEn: "RMB carry cap ¥20,000. Declare any foreign cash above USD 5,000 equivalent on the arrival form.",
     bodyZh: "人民币现金上限 ¥20,000；外币现金超 5,000 美元等值必须填申报单。",
     sourceId: "customs-clearance-guide"
   },

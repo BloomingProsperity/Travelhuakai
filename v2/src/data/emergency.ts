@@ -4,7 +4,7 @@ export const nationalEmergency = [
   { number: "110", labelEn: "Police", labelZh: "公安", noteEn: "Free. Shanghai 110 supports 8 languages.", noteZh: "免费。上海 110 支持 8 种语言。", sourceId: "shanghai-emergency-numbers" },
   { number: "119", labelEn: "Fire & Rescue", labelZh: "消防", noteEn: "Free. Foreign-language support in Shanghai.", noteZh: "免费。上海支持外语。", sourceId: "shanghai-emergency-numbers" },
   { number: "120", labelEn: "Ambulance", labelZh: "急救", noteEn: "Free. National medical emergency dispatch.", noteZh: "免费。全国医疗急救调度。", sourceId: "beijing-emergency-numbers" },
-  { number: "122", labelEn: "Traffic Police", labelZh: "交警", noteEn: "Free. Foreign-language support pending.", noteZh: "免费。外语支持待核验。", sourceId: "beijing-emergency-numbers" }
+  { number: "122", labelEn: "Traffic Police", labelZh: "交警", noteEn: "Free. No confirmed English line — use 110 or your hotline app for translation.", noteZh: "免费。外语支持待核验。", sourceId: "beijing-emergency-numbers" }
 ] as const;
 
 export type Hospital = {
@@ -38,7 +38,7 @@ export const hospitals: Hospital[] = [
     addressEn: "2 Jiangtai Road, Chaoyang District",
     phone: "+86 10 5927 7000",
     emergencyPhone: "+86 10 5927 7120",
-    intlDept: "Full-hospital international model",
+    intlDept: "English-speaking doctors throughout; no separate international desk",
     hours: "ER 24/7; outpatient varies",
     sourceId: "ufh-beijing"
   },
@@ -60,7 +60,7 @@ export const hospitals: Hospital[] = [
     addressEn: "699 Pingtang Road, Changning District",
     phone: "+86 21 2216 3900",
     emergencyPhone: "+86 21 2216 3999",
-    intlDept: "Full-hospital international model",
+    intlDept: "English-speaking doctors throughout; no separate international desk",
     hours: "ER 24/7",
     sourceId: "ufh-shanghai"
   },
@@ -102,7 +102,7 @@ export const hospitals: Hospital[] = [
     nameZh: "深圳市人民医院",
     addressEn: "1017 Dongmen North Road, Luohu District",
     phone: "+86 755 2553 3018",
-    intlDept: "VIP unit (English contact pending)",
+    intlDept: "VIP unit (call main number; ask for English-speaking staff)",
     hours: "ER 24/7",
     sourceId: "sz-hospitals-municipal"
   }
@@ -146,7 +146,7 @@ export const cityHotlines: Hotline[] = [
     cityId: "shenzhen",
     number: "0755-12345",
     langs: ["iShenzhen app: EN, FR, AR, JA, KO, ES, DE, PT, RU"],
-    noteEn: "Direct English phone line availability pending; iShenzhen app supports 9 languages.",
+    noteEn: "The 0755-12345 hotline may not route to a live English speaker — use the iShenzhen app instead, which supports 9 languages including English.",
     noteZh: "电话英语直拨支持待核验；iShenzhen App 支持 9 种语言。",
     sourceId: "sz-12345-pingshan"
   }

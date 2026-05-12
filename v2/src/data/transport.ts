@@ -43,12 +43,12 @@ export type CityTransport = {
 
 export const railBooking = {
   registration: {
-    en: "Register at 12306.cn/en with passport. Email magic link OR Chinese mobile SMS. Online auto-verify; if it fails, upload passport + selfie (3-5 working days) or visit any station counter.",
+    en: "Register at 12306.cn/en using your passport. You'll get either an email magic link or a Chinese-mobile SMS to confirm. Verification usually clears automatically; if it doesn't, upload your passport and a selfie — manual review takes 3–5 working days, or visit any station counter.",
     zh: "在 12306.cn/en 用护照注册：邮箱激活链接 / 国内手机短信。自动认证失败可上传护照 + 自拍，人工审核需 3-5 个工作日，或到车站窗口现场办理。",
     sourceId: "rail-12306-faq"
   },
   payment: {
-    en: "12306 English portal accepts Visa, Mastercard, JCB, Diners Club, UnionPay; Alipay/WeChat referenced in the central government expat guide.",
+    en: "The 12306 English portal accepts Visa, Mastercard, JCB, Diners Club, and UnionPay. Alipay and WeChat Pay also work — the central government expat guide lists both.",
     zh: "12306 英文版接受 Visa/MC/JCB/Diners/银联；中央政府外籍生活指南还提到支付宝/微信支付。",
     sourceId: "rail-12306-faq"
   },
@@ -91,7 +91,7 @@ export const cityTransport: CityTransport[] = [
             routeZh: "机场巴士到北京站（T2 11 号门 / T3 7 号门上车）",
             costCNY: "20–30",
             timeMin: "60–90",
-            paymentEn: "Cash; foreign card support pending",
+            paymentEn: "Cash; bring exact change — foreign cards not accepted on shuttles",
             paymentZh: "现金；外卡支持暂未官方确认",
             sourceId: "beijing-airport-services"
           },
@@ -192,7 +192,7 @@ export const cityTransport: CityTransport[] = [
             kind: "stable",
             routeEn: "Airport Link Line → Hongqiao T2",
             routeZh: "机场联络线直达虹桥 T2",
-            costCNY: "fare pending",
+            costCNY: "fare not yet published — check operator site",
             timeMin: "~40",
             paymentEn: "5-network tap-to-ride",
             paymentZh: "5 大卡组织刷卡",
@@ -270,7 +270,7 @@ export const cityTransport: CityTransport[] = [
             kind: "fastest",
             routeEn: "Intercity rail to Baiyun Airport East Station (T3 transit centre)",
             routeZh: "城际铁路至白云机场东站（T3 交通中心）",
-            costCNY: "fare pending",
+            costCNY: "fare not yet published — check 12306 or operator site",
             timeMin: "~30",
             paymentEn: "Foreign card via 12306",
             paymentZh: "外卡走 12306 购票",
@@ -328,7 +328,7 @@ export const cityTransport: CityTransport[] = [
             routeZh: "地铁 11 号线 → 福田（CBD）/ 深圳北站（高铁枢纽）",
             costCNY: "5–12",
             timeMin: "30–40",
-            paymentEn: "POS at service centre (6 networks); gate-tap pending",
+            paymentEn: "POS at service centre (6 networks); gate-level tap not yet universal — buy at service centre or use cash",
             paymentZh: "服务中心 POS 收外卡（6 大卡）；闸机刷卡尚未全网",
             sourceId: "sz-baoan-airport-plan"
           },
@@ -356,7 +356,7 @@ export const cityTransport: CityTransport[] = [
       }
     ],
     metro: {
-      summaryEn: "Foreign-card POS at 391 service centres / 440 devices: Visa, Mastercard, Discover, Amex, Diners Club, JCB. Universal gate-tap not yet confirmed; use service centre POS or cash.",
+      summaryEn: "Foreign-card POS at 391 service centres / 440 devices: Visa, Mastercard, Discover, Amex, Diners Club, JCB. Gate-level tap doesn't work at every turnstile yet — pay at the service centre POS or use cash.",
       summaryZh: "深圳地铁 391 个客服中心 / 440 台 POS 收外卡：Visa/MC/Discover/Amex/Diners/JCB；闸机外卡刷卡尚未全网，先去客服中心 POS 或用现金。",
       sourceId: "sz-metro-pos"
     },
@@ -372,7 +372,7 @@ export const cityTransport: CityTransport[] = [
         sourceId: "sz-baoan-airport-plan"
       },
       {
-        en: "Metro gate-level foreign card tap is not yet confirmed citywide — keep cash or prepaid Shenzhen Tong as fallback.",
+        en: "Foreign card tap doesn't work at every Shenzhen metro gate — keep cash or a prepaid Shenzhen Tong card as backup.",
         zh: "深圳地铁闸机外卡直接刷卡尚未全网，建议备现金或先去客服中心办理深圳通。",
         sourceId: "sz-metro-pos"
       },

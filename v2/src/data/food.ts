@@ -35,7 +35,7 @@ export const cityFood: CityFood[] = [
       sourceId: "beijing-axis-snacks"
     },
     deliveryNote: {
-      en: "Meituan / Eleme apps require a Chinese mobile number for SMS verification and a working domestic payment method (Alipay/WeChat). Foreign tourists generally cannot place orders without local support.",
+      en: "Meituan and Ele.me both require a Chinese mobile number for SMS verification plus a domestic payment method. Ask your hotel concierge to order for you, or stick to restaurants you can walk into.",
       zh: "美团/饿了么 App 注册需中国大陆手机号 + 国内支付方式（支付宝/微信），外国游客一般无本地协助难以下单。",
       sourceId: "beijing-roast-duck"
     },

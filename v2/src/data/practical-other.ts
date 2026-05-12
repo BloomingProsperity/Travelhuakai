@@ -127,7 +127,7 @@ export const pitfalls: Pitfall[] = [
     pillar: "transport",
     titleEn: "12306 passport verification takes 3–7 days — last-minute booking fails",
     titleZh: "12306 护照人工审核 3–7 天——临时买票来不及",
-    bodyEn: "Online passport verification at 12306.cn requires a passport photo + selfie holding the passport. Processing: typically 3–5 days, up to 7 in peak season. New 12306 accounts can't book trains for next-day travel. Trip.com verifies in 1–2 hours and is the practical fallback.",
+    bodyEn: "Online passport verification at 12306.cn requires a passport photo plus a selfie holding the passport. Processing typically takes 3–5 days, up to 7 in peak season. New accounts can't book next-day trains. If you're short on time, use Trip.com — verification usually clears in 1–2 hours.",
     bodyZh: "12306 上传护照 + 手持护照自拍后进入人工审核，旺季通常 3–5 天，最长 7 天。新注册账号可能无法购买次日票。Trip.com 通常 1–2 小时完成审核，是常用替代方案。",
     sourceId: "blog-cgl-train"
   },
@@ -311,7 +311,7 @@ export const pitfalls: Pitfall[] = [
     pillar: "emergency",
     titleEn: "Public hospital admission needs CNY 5K–20K cash deposit upfront",
     titleZh: "公立医院住院前通常需先交 ¥5K–20K 押金",
-    bodyEn: "Beyond emergency stabilisation, hospitalisation requires a CNY 5,000–20,000 deposit BEFORE treatment. Ambulance fees (~CNY 7/km, CNY 80/h waiting) also billed upfront. Most travel insurance reimburses afterwards — verify your insurer's direct-billing hospital list before flying.",
+    bodyEn: "Hospitals will stabilise you in the ER, then ask for a CNY 5,000–20,000 deposit before any further treatment. Ambulances charge upfront too — about CNY 7 per km plus CNY 80 per hour of waiting. Most travel insurers reimburse you later, so check your insurer's direct-billing hospital list before you fly.",
     bodyZh: "急救稳定之后若需住院，通常须先交 ¥5,000–20,000 押金才继续治疗。救护车费用约 ¥7 / 公里 + ¥80 / 小时等候费也需先付。大多数旅行保险是事后报销，出发前请查询保险公司是否有合作的直付医院。",
     sourceId: "blog-expatden-shhospital"
   },
@@ -321,7 +321,7 @@ export const pitfalls: Pitfall[] = [
     cityScope: ["beijing", "shanghai"],
     titleEn: "Public hospitals: get a Medical Card (医疗卡) before any appointment",
     titleZh: "公立医院：先在挂号处办理 \"医疗卡 / 就诊卡\"",
-    bodyEn: "New patients can't walk in directly — first get a card at the registration desk: passport + CNY 50, takes 15–20 min. Skipping this step is a common foreigner mistake.",
+    bodyEn: "New patients can't walk in directly. Go to the registration desk first — bring your passport and CNY 50, and allow 15–20 minutes. Head straight to the consultation room without doing this and staff will send you back.",
     bodyZh: "新病人不能直接就诊——先到挂号处办理就诊卡：护照 + ¥50，约 15–20 分钟。直接前往诊室是常见错误。",
     sourceId: "blog-expatden-shhospital"
   },
@@ -331,7 +331,7 @@ export const pitfalls: Pitfall[] = [
     cityScope: ["beijing", "shanghai"],
     titleEn: "International hospital departments cost 6–12× standard rates",
     titleZh: "国际部 / 高端私立费用约为普通公立 6–12 倍",
-    bodyEn: "Beijing United Family / PUMCH international wing / Raffles Shanghai have English-speaking staff but outpatient registration alone is CNY 300–600 vs CNY 10–30 at standard public departments. Without direct-billing insurance, one visit can be CNY 2,000–5,000+.",
+    bodyEn: "Beijing United Family, PUMCH international wing, and Raffles Shanghai all have English-speaking staff, but outpatient registration starts at CNY 300–600 versus CNY 10–30 at a standard public department. Plan on CNY 2,000–5,000+ per visit if your insurer doesn't direct-bill.",
     bodyZh: "和睦家 / 协和国际部 / 上海莱佛士有英语医生，但仅挂号费就需 ¥300–600，普通公立科室约 ¥10–30。没有直付国际保险时，一次就诊可能达到 ¥2,000–5,000+。",
     sourceId: "blog-internationalinsurance"
   },

@@ -19,7 +19,7 @@ export const practicalPayments: PracticalGotcha[] = [
     app: "both",
     titleEn: "Set up both apps 2–4 weeks before you fly",
     titleZh: "出发前 2–4 周完成两个 App 的设置",
-    bodyEn: "KYC can take up to 24h, WeChat may need a friend-scan, and your home bank needs time to whitelist Chinese merchants. Doing it all on landing day is a known failure scenario.",
+    bodyEn: "KYC can take a full day, WeChat may need a friend back home to vouch for you, and your home bank needs time to whitelist Chinese merchants. Try to set this up before you land — leaving it for arrival day usually means a frustrating first night.",
     bodyZh: "实名最长可能要 24 小时；微信可能需要熟人扫码协助；银行需要时间为中国商户加入白名单。落地当天临时处理，常见失败风险较高。",
     sourceId: "blog-fanketravel-payments"
   },
@@ -120,7 +120,7 @@ export const practicalPayments: PracticalGotcha[] = [
     app: "wechat",
     titleEn: "WeChat: hard RMB 15,000 stay-total cap until you finish real-name auth",
     titleZh: "微信：实名前全程累计上限 RMB 15,000",
-    bodyEn: "Without real-name authentication, WeChat caps cumulative spend at ~RMB 15,000 for the entire stay (not per transaction, not per day). Hits sooner than most people expect. Complete real-name early.",
+    bodyEn: "Skip real-name authentication and WeChat caps your total spend for the entire stay at ~RMB 15,000 — not per transaction or per day, but cumulative. That ceiling arrives faster than most people expect. Complete real-name before your first big purchase.",
     bodyZh: "未完成实名时，微信对本次在中国累计支出上限约 RMB 15,000——不是单笔也不是单日，而是全程累计。消耗速度可能快于预期，建议先完成实名再进行大额消费。",
     sourceId: "blog-wildchina-wechat"
   },
@@ -172,7 +172,7 @@ export const practicalPayments: PracticalGotcha[] = [
     app: "alipay",
     titleEn: "Alipay freezes after ~3 months of inactivity",
     titleZh: "Alipay 闲置约 3 个月会自动冻结",
-    bodyEn: "If you don't use Alipay for ~3 months after returning home, the account enters a restricted state. Reactivation needs passport + selfie video + transaction explanation. Returning visitors hit a locked account on Day 1 of their next trip — start unlocking before you fly back.",
+    bodyEn: "If you don't open Alipay for about three months after you fly home, your account locks itself. To reactivate, you'll need your passport, a selfie video, and a one-line note explaining the flagged transaction. Most repeat visitors hit this on Day 1 of their next trip — clear it before you fly back.",
     bodyZh: "回国后约 3 个月不用，Alipay 自动进入受限状态。重新激活要传护照 + 自拍视频 + 写最近一笔交易。为避免下次抵华首日无法使用，建议出发前完成解锁。",
     sourceId: "blog-letstravel-alipay"
   },
