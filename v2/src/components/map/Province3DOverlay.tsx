@@ -1,4 +1,5 @@
 import { lazy, Suspense } from "react";
+import MapErrorBoundary from "../common/MapErrorBoundary";
 import { useAtlas } from "../../store/atlas";
 import { useLang } from "../../store/language";
 
@@ -45,15 +46,40 @@ export default function Province3DOverlay() {
       </header>
 
       <div className="min-h-0 flex-1">
-        <Suspense
+        <MapErrorBoundary
+          resetKey={selectedProvinceId}
           fallback={
-            <div className="grid h-full min-h-[360px] place-items-center bg-[#071512] text-sm font-semibold text-white/80">
-              {lang === "zh" ? "正在加载天地图..." : "Loading Tianditu..."}
+            <div
+              role="alert"
+              className="grid h-full min-h-[360px] place-items-center bg-[#071512] px-6 text-center text-white"
+            >
+              <div className="max-w-sm space-y-4">
+                <p className="text-sm font-semibold leading-6 text-white/85">
+                  {lang === "zh"
+                    ? "3D 视图加载失败，点击重置返回二维地图。"
+                    : "The 3D view couldn't load. Click reset to go back to the 2D map."}
+                </p>
+                <button
+                  type="button"
+                  onClick={reset}
+                  className="rounded-full bg-white px-4 py-2 text-xs font-bold uppercase tracking-wider text-ink hover:bg-white/90"
+                >
+                  {lang === "zh" ? "重置" : "Reset"}
+                </button>
+              </div>
             </div>
           }
         >
-          <Map3D province={province} provinceId={selectedProvinceId} lang={lang} />
-        </Suspense>
+          <Suspense
+            fallback={
+              <div className="grid h-full min-h-[360px] place-items-center bg-[#071512] text-sm font-semibold text-white/80">
+              {lang === "zh" ? "正在加载天地图..." : "Loading Tianditu..."}
+              </div>
+            }
+          >
+            <Map3D province={province} provinceId={selectedProvinceId} lang={lang} />
+          </Suspense>
+        </MapErrorBoundary>
       </div>
     </section>
   );

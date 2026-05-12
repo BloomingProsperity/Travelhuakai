@@ -53,7 +53,7 @@ function ProvinceShapeButton({ shape, active, focused, label, onSelect }: ShapeB
         }
       }}
       className={clsx(
-        "cursor-pointer outline-none transition-opacity duration-300",
+        "cursor-pointer outline-none transition-opacity duration-300 focus-visible:[&>path]:fill-jade-soft focus-visible:[&>path]:stroke-jade focus-visible:[&>path]:[stroke-width:2.8]",
         dimmed && "opacity-90"
       )}
       style={{ pointerEvents: "all" }}
@@ -76,7 +76,7 @@ function ProvinceShapeButton({ shape, active, focused, label, onSelect }: ShapeB
 }
 
 export default function ProvinceShapeLayer() {
-  const shapes = useProvinceShapes();
+  const { shapes, error } = useProvinceShapes();
   const { lang } = useLang();
   const { selectedProvinceId, selectPlace, selectProvince } = useAtlas();
 
@@ -91,6 +91,16 @@ export default function ProvinceShapeLayer() {
     const tyPct = (((focus.scale - 1) * viewBox.y + focus.ty) / viewBox.height) * 100;
     return `translate(${txPct}%, ${tyPct}%) scale(${focus.scale})`;
   }, [shapes, viewBox, selectedProvinceId]);
+
+  if (error) {
+    return (
+      <div className="absolute inset-0 z-10 flex items-center justify-center px-6 text-center text-sm font-semibold text-ink/70">
+        {lang === "zh"
+          ? "地图轮廓加载失败，刷新重试。"
+          : "Map outline failed to load. Refresh to retry."}
+      </div>
+    );
+  }
 
   if (!shapes || !viewBox) return null;
 

@@ -1,11 +1,23 @@
 import { useMemo } from "react";
 import { useProvinceShapes } from "../../hooks/useProvinceShapes";
 import { computeUnionViewBox } from "../../lib/shapes";
+import { useLang } from "../../store/language";
 import { DEFAULT_PROVINCE_FILL, PROVINCE_COLORS } from "./provinceColors";
 
 export default function MapPreview() {
-  const shapes = useProvinceShapes();
+  const { shapes, error } = useProvinceShapes();
+  const { lang } = useLang();
   const viewBox = useMemo(() => (shapes ? computeUnionViewBox(shapes) : null), [shapes]);
+
+  if (error) {
+    return (
+      <div className="flex h-full w-full items-center justify-center bg-white/70 px-4 text-center text-sm font-semibold text-ink/70">
+        {lang === "zh"
+          ? "地图轮廓加载失败，刷新重试。"
+          : "Map outline failed to load. Refresh to retry."}
+      </div>
+    );
+  }
 
   if (!shapes || !viewBox) {
     return <div className="h-full w-full bg-white/70" />;

@@ -17,7 +17,7 @@ const HALO = {
 };
 
 export default function ProvinceLabelLayer() {
-  const shapes = useProvinceShapes();
+  const { shapes } = useProvinceShapes();
   const { lang } = useLang();
   const { selectedProvinceId } = useAtlas();
 

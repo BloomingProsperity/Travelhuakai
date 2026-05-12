@@ -32,7 +32,9 @@ export default function HomePage() {
             : "Start with city landmark photos, then open the map, visa, payment, and travel-note pages."}
         </p>
         <p className="text-xs text-muted">
-          {isZh ? "所有数据均来自中国官方。" : "All data sourced from China's official agencies."}
+          {isZh
+            ? "政策与官方信息引自中国官方源；操作经验与社区提示注明出处。"
+            : "Policy and official information cite Chinese government sources; community tips and operational pitfalls are attributed."}
         </p>
       </header>
 
