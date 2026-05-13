@@ -68,17 +68,17 @@ export default function PhrasebookPage() {
   return (
     <main id="top" className="mx-auto flex max-w-5xl flex-col gap-8 px-4 py-8 sm:py-10">
       <header className="flex flex-col gap-3">
-        <Link to="/" className="text-xs font-bold uppercase tracking-widest text-muted hover:text-jade">
+        <Link to="/" className="text-xs font-bold uppercase tracking-widest text-muted-foreground hover:text-primary">
           {isZh ? "← 返回首页" : "← Home"}
         </Link>
         <div className="flex flex-col gap-2">
-          <span className="text-xs font-bold uppercase tracking-widest text-muted">
+          <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
             Essential phrases / 应急短语
           </span>
           <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
             Essential Phrasebook / 应急短语手册
           </h1>
-          <p className="text-xs font-bold uppercase tracking-widest text-jade">
+          <p className="text-xs font-bold uppercase tracking-widest text-primary">
             {phrasebookTotal} phrases / {phrasebookTotal} 句
           </p>
         </div>
@@ -102,17 +102,17 @@ export default function PhrasebookPage() {
                 aria-controls={`phrasebook-panel-${category.key}`}
                 onClick={() => setActiveKey(category.key)}
                 className={clsx(
-                  "flex min-w-36 shrink-0 flex-col gap-1 rounded-lg border px-3 py-2 text-left transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jade",
+                  "flex min-w-36 shrink-0 flex-col gap-1 rounded-lg border px-3 py-2 text-left transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
                   active
-                    ? "border-ink bg-ink text-white shadow-sm"
-                    : "border-line bg-white text-ink hover:border-jade"
+                    ? "border-primary bg-primary text-primary-foreground shadow-sm"
+                    : "border-border bg-card text-card-foreground hover:border-primary"
                 )}
               >
-                <span className={clsx("text-[10px] font-bold uppercase tracking-widest", active ? "text-white/70" : "text-muted")}>
+                <span className={clsx("text-[10px] font-bold uppercase tracking-widest", active ? "text-primary-foreground/80" : "text-muted-foreground")}>
                   {category.iconHint}
                 </span>
                 <span className="text-sm font-bold leading-tight">{category.titleEn}</span>
-                <span className={clsx("text-xs leading-tight", active ? "text-white/80" : "text-muted")}>
+                <span className={clsx("text-xs leading-tight", active ? "text-primary-foreground/85" : "text-muted-foreground")}>
                   {category.titleZh} · {category.phrases.length}
                 </span>
               </button>
@@ -126,12 +126,12 @@ export default function PhrasebookPage() {
           aria-labelledby={`phrasebook-tab-${activeCategory.key}`}
           className="flex flex-col gap-3"
         >
-          <header className="flex flex-wrap items-end justify-between gap-2 border-b border-line pb-2">
+          <header className="flex flex-wrap items-end justify-between gap-2 border-b border-border pb-2">
             <div>
               <h2 className="text-2xl font-bold leading-tight">
                 {activeCategory.titleEn} / {activeCategory.titleZh}
               </h2>
-              <p className="text-xs text-muted">
+              <p className="text-xs text-muted-foreground">
                 {activeCategory.phrases.length} phrases / {activeCategory.phrases.length} 句
               </p>
             </div>
@@ -143,10 +143,10 @@ export default function PhrasebookPage() {
               const speaking = speakingZh === phrase.zh;
               return (
                 <li key={`${activeCategory.key}-${phrase.zh}`}>
-                  <article className="grid gap-3 rounded-lg border border-line bg-white p-4 shadow-sm sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
+                  <article className="grid gap-3 rounded-lg border border-border bg-card p-4 text-card-foreground shadow-sm sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
                     <div className="min-w-0">
                       <p className="break-words text-base font-bold leading-snug">{phrase.en}</p>
-                      <p className="mt-1 break-words text-sm font-semibold leading-snug text-jade">
+                      <p className="mt-1 break-words text-sm font-semibold leading-snug text-primary">
                         {phrase.pinyin}
                       </p>
                       <p className="mt-1 break-words text-lg font-bold leading-snug">{phrase.zh}</p>
@@ -158,10 +158,10 @@ export default function PhrasebookPage() {
                         aria-pressed={speaking}
                         onClick={() => handleSpeak(phrase)}
                         className={clsx(
-                          "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jade",
+                          "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
                           speaking
-                            ? "border-jade bg-jade text-white"
-                            : "border-line bg-paper text-ink hover:border-jade hover:bg-jade-soft"
+                            ? "border-primary bg-primary text-primary-foreground"
+                            : "border-border bg-secondary text-secondary-foreground hover:border-primary hover:bg-accent"
                         )}
                       >
                         <svg viewBox="0 0 20 20" fill="none" className="h-5 w-5" aria-hidden>
@@ -184,10 +184,10 @@ export default function PhrasebookPage() {
                           void handleCopy(phrase);
                         }}
                         className={clsx(
-                          "h-10 rounded-lg border px-4 text-xs font-bold uppercase tracking-widest transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jade",
+                          "h-10 rounded-lg border px-4 text-xs font-bold uppercase tracking-widest transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
                           copied
-                            ? "border-jade bg-jade text-white"
-                            : "border-line bg-paper text-ink hover:border-jade hover:bg-jade-soft"
+                            ? "border-primary bg-primary text-primary-foreground"
+                            : "border-border bg-secondary text-secondary-foreground hover:border-primary hover:bg-accent"
                         )}
                       >
                         {copied ? (isZh ? "已复制" : "Copied") : isZh ? "复制" : "Copy"}

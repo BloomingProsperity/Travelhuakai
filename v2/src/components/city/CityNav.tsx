@@ -44,9 +44,10 @@ export default function CityNav() {
   return (
     <nav
       aria-label={isZh ? "城市页导航" : "City page navigation"}
-      className="city-nav sticky top-20 z-20 -mx-4 flex flex-col self-start border-b border-line bg-paper/85 px-4 py-2 backdrop-blur lg:top-24 lg:mx-0 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:border-0 lg:bg-transparent lg:px-0 lg:py-0 lg:backdrop-blur-none"
+      className="city-nav sticky top-20 z-20 -mx-4 flex min-w-0 max-w-[100vw] flex-col self-start overflow-x-hidden border-b border-border bg-card/85 px-4 py-2 backdrop-blur lg:top-24 lg:mx-0 lg:max-h-[calc(100vh-7rem)] lg:max-w-none lg:overflow-y-auto lg:border-0 lg:bg-transparent lg:px-0 lg:py-0 lg:backdrop-blur-none"
     >
-      <ul className="flex flex-row gap-1 overflow-x-auto lg:flex-col lg:gap-0 lg:overflow-x-visible">
+      <div className="min-w-0 max-w-full overflow-x-auto overscroll-x-contain lg:overflow-visible">
+        <ul className="flex w-max flex-row gap-1 lg:w-auto lg:flex-col lg:gap-0">
         {CITY_NAV_ITEMS.map((item) => {
           const isActive = active === item.id;
           return (
@@ -56,8 +57,8 @@ export default function CityNav() {
                 className={clsx(
                   "block whitespace-nowrap rounded-lg px-3 py-2 text-sm transition lg:whitespace-normal",
                   isActive
-                    ? "bg-jade-soft font-bold text-jade"
-                    : "text-ink/80 hover:bg-paper hover:text-ink"
+                    ? "bg-accent font-bold text-primary"
+                    : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
                 )}
               >
                 {isZh ? item.zh : item.en}
@@ -65,7 +66,8 @@ export default function CityNav() {
             </li>
           );
         })}
-      </ul>
+        </ul>
+      </div>
     </nav>
   );
 }

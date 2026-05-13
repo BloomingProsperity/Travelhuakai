@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1778428213266,
+  "lastScanned": 1778651682289,
   "projectRoot": "c:\\Users\\h\\Documents\\New project 2",
   "techStack": {
     "languages": [
@@ -37,7 +37,10 @@
       "assets",
       "src"
     ],
-    "gitBranches": null
+    "gitBranches": {
+      "defaultBranch": "master",
+      "branchingStrategy": null
+    }
   },
   "customNotes": [],
   "directoryMap": {
@@ -45,7 +48,7 @@
       "path": "assets",
       "purpose": "Static assets",
       "fileCount": 3,
-      "lastAccessed": 1778428213174,
+      "lastAccessed": 1778651682045,
       "keyFiles": [
         "china-map-gs2022-4309.jpg",
         "china-province-shapes.json",
@@ -56,7 +59,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 3,
-      "lastAccessed": 1778428213176,
+      "lastAccessed": 1778651682046,
       "keyFiles": [
         "atlas-records.js",
         "i18n.js",
@@ -66,39 +69,32 @@
     "v2": {
       "path": "v2",
       "purpose": null,
-      "fileCount": 13,
-      "lastAccessed": 1778428213189,
+      "fileCount": 19,
+      "lastAccessed": 1778651682066,
       "keyFiles": [
+        "components.json",
         "eslint.config.js",
         "index.html",
         "package-lock.json",
-        "package.json",
-        "react-router.config.ts"
+        "package.json"
       ]
     },
     "v2\\build": {
       "path": "v2\\build",
       "purpose": "Build output",
       "fileCount": 0,
-      "lastAccessed": 1778428213192,
+      "lastAccessed": 1778651682073,
       "keyFiles": []
     },
     "v2\\dist": {
       "path": "v2\\dist",
       "purpose": "Distribution/build output",
       "fileCount": 2,
-      "lastAccessed": 1778428213193,
+      "lastAccessed": 1778651682076,
       "keyFiles": [
         "favicon.svg",
         "index.html"
       ]
-    },
-    "v2\\node_modules": {
-      "path": "v2\\node_modules",
-      "purpose": "Dependencies",
-      "fileCount": 1,
-      "lastAccessed": 1778428213194,
-      "keyFiles": []
     }
   },
   "hotPaths": [

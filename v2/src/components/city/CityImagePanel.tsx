@@ -26,9 +26,10 @@ export default function CityImagePanel({ cityId }: Props) {
   const current = attractions[idx];
 
   return (
+    <div className="hidden min-w-0 lg:block">
     <aside aria-label={isZh ? "城市代表图" : "City landmark"} className="self-start lg:sticky lg:top-24">
       <div className="flex flex-col gap-3">
-        <div className="overflow-hidden rounded-xl border border-line bg-paper">
+        <div className="overflow-hidden rounded-xl border border-border bg-card">
           <div className="aspect-[3/4] w-full">
             <img
               key={current.id}
@@ -49,7 +50,7 @@ export default function CityImagePanel({ cityId }: Props) {
             <strong className="text-sm leading-tight">
               {isZh ? current.nameZh : current.nameEn}
             </strong>
-            <span className="text-[10px] text-muted">
+            <span className="text-[10px] text-muted-foreground">
               {isZh ? current.districtZh : current.districtEn} · {current.imageCredit}
             </span>
           </div>
@@ -62,12 +63,13 @@ export default function CityImagePanel({ cityId }: Props) {
               aria-label={isZh ? a.nameZh : a.nameEn}
               onClick={() => setIdx(i)}
               className={`h-1.5 w-6 rounded-full transition ${
-                i === idx ? "bg-jade" : "bg-line hover:bg-muted"
+                i === idx ? "bg-primary" : "bg-border hover:bg-muted-foreground"
               }`}
             />
           ))}
         </div>
       </div>
-    </aside>
+      </aside>
+    </div>
   );
 }

@@ -227,8 +227,8 @@ export const cityAttractions: Attraction[] = [
     districtEn: "Liwan",
     districtZh: "荔湾区",
     tier: "must-visit",
-    whyEn: "Built 1888–1894 by 72 Chen-surname clans as an exam-preparation hostel and worship site, this compound is the supreme surviving example of Lingnan decorative architecture. Every surface — ridge beams, screen walls, courtyards — is covered in polychrome ceramic figurines, wood carvings, stone reliefs, and brick carvings. \"The Pearl of Lingnan Architecture.\"",
-    whyZh: "1888–1894 由 72 个陈姓宗族集资建造，作为考棚 + 祠堂。岭南装饰建筑的巅峰之作——屋脊、影壁、庭院每一面都布满彩瓷塑、木雕、石雕、砖雕。被称为\"岭南建筑明珠\"。",
+    whyEn: "Step inside and almost every surface is decorated — polychrome ceramic figurines crowd the rooflines, dense wood carvings line the screen walls, stone reliefs frame the doorways, brick reliefs cover the gables. The compound was put up in the 1890s through pooled contributions from 72 Chen-surname clans, who used it as both a Confucian study hall for exam candidates and a shared ancestral temple. The decoration density is hard to match anywhere else in Lingnan.",
+    whyZh: "走进去会发现几乎每一面都做了装饰——屋脊上挤满彩瓷塑，影壁布满细密木雕，门洞外是石雕，山墙外做砖雕。建筑建于 1890 年代，由 72 个陈姓宗族出资共建，既作为参加科举考试的族人住所兼学馆，也是共同的祠堂。这种装饰密度在岭南其他建筑里很难再见。",
     officialUrl: "https://www.gz.gov.cn/guangzhouinternational/visitors/",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chan_Clan_Ancestral_Hall.JPG",
     imageCredit: "Lai.jack on Wikimedia, CC BY-SA 3.0"
